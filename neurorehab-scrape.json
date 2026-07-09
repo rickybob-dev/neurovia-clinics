@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Institut Guttmann",
+    "country": "Spain",
+    "url": "https://www.guttmann.com/es",
+    "status": 200,
+    "title": "Hospital de Neurorrehabilitación | Institut Guttmann",
+    "evidence": "neurorrehabilitación | investigación",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Quirónsalud Miguel Domínguez",
+    "country": "Spain",
+    "url": "https://www.quironsalud.com/migueldominguez",
+    "status": 403,
+    "title": "Access Denied",
+    "evidence": "No direct keyword match found on first pass.",
+    "qualifying": false
+  },
+  {
+    "name": "Kliniken Schmieder",
+    "country": "Germany",
+    "url": "https://kliniken-schmieder.com/",
+    "status": 200,
+    "title": "Neurorehabilitation in Germany | Kliniken Schmieder",
+    "evidence": "neurological rehabilitation | rehabilitation",
+    "qualifying": true
+  },
+  {
+    "name": "Hôpital Saint-Jacques — CHU de Nantes",
+    "country": "France",
+    "url": "https://www.chu-nantes.fr/etablissements-du-chu-hopital-saint-jacques-11381.kjsp",
+    "status": 200,
+    "title": "CHU de Nantes - Hôpital Saint-Jacques",
+    "evidence": "réadaptation",
+    "qualifying": true
+  },
+  {
+    "name": "URI Soča",
+    "country": "Slovenia",
+    "url": "https://www.uri-soca.si/en/",
+    "status": 200,
+    "title": "URI Soča - University Rehabilitation Institute, Republic of Slovenia - Soča",
+    "evidence": "rehabilitation | research",
+    "qualifying": true
+  },
+  {
+    "name": "Roessingh",
+    "country": "Netherlands",
+    "url": "https://www.roessingh.nl/",
+    "status": 200,
+    "title": "Revalidatiecentrum Roessingh",
+    "evidence": "niet-aangeboren hersenletsel | multiple sclerose | parkinson | patiënttevredenheid",
+    "qualifying": true
+  },
+  {
+    "name": "Inkendaal",
+    "country": "Belgium",
+    "url": "https://www.inkendaal.be/",
+    "status": 200,
+    "title": "Revalidatieziekenhuis Inkendaal Vlezenbeek",
+    "evidence": "neurologische beperkingen | zwembad | gehospitaliseerde | ambulante",
+    "qualifying": true
+  },
+  {
+    "name": "BDH-Klinik Elzach",
+    "country": "Germany",
+    "url": "https://www.bdh-klinik-elzach.de/",
+    "status": 200,
+    "title": "Startseite - BDH-Klinik Elzach",
+    "evidence": "neurologische rehabilitation | neurologische intensivmedizin | frührehabilitation",
+    "qualifying": true
+  },
+  {
+    "name": "BDH-Klinik Greifswald",
+    "country": "Germany",
+    "url": "https://www.bdh-klinik-greifswald.de/",
+    "status": 200,
+    "title": "Startseite - BDH-Klinik Greifswald",
+    "evidence": "zentrum für neurorehabilitation | frührehabilitation | rehabilitation schwerst schädelhirngeschädigter patienten",
+    "qualifying": true
+  },
+  {
+    "name": "Schön Klinik Bad Aibling Harthausen",
+    "country": "Germany",
+    "url": "https://www.schoen-klinik.de/bad-aibling-harthausen",
+    "status": 200,
+    "title": "Schön Klinik Bad Aibling Harthausen",
+    "evidence": "neurologische frührehabilitation | robotergestützte | schlaganfall | stroke unit",
+    "qualifying": true
+  },
+  {
+    "name": "Hegau-Jugendwerk Gailingen",
+    "country": "Germany",
+    "url": "https://hegau-jugendwerk.de/",
+    "status": 200,
+    "title": "Hegau-Jugendwerk Gailingen | Die Pioniere der neurologischen Rehabilitation junger Menschen.",
+    "evidence": "neurologische rehabilitation | rehabilitationsphasen b, c, d und e | kinder | jugendliche | junge erwachsene",
+    "qualifying": true
+  },
+  {
+    "name": "Kliniken Schmieder Allensbach",
+    "country": "Germany",
+    "url": "https://kliniken-schmieder.com/hospital/allensbach/",
+    "status": 200,
+    "title": "Rehabilitation hospital - Kliniken Schmieder Allensbach",
+    "evidence": "neurological rehabilitation | day care",
+    "qualifying": true
+  },
+  {
+    "name": "Kliniken Schmieder Gerlingen",
+    "country": "Germany",
+    "url": "https://kliniken-schmieder.com/hospital/gerlingen/",
+    "status": 200,
+    "title": "Rehabilitation center in Germany - Kliniken Schmieder Gerlingen",
+    "evidence": "neurological rehabilitation | phase b | day care",
+    "qualifying": true
+  },
+  {
+    "name": "Kliniken Schmieder Stuttgart",
+    "country": "Germany",
+    "url": "https://kliniken-schmieder.com/hospital/stuttgart/",
+    "status": 200,
+    "title": "Rehabilitation center in Germany - Kliniken Schmieder Stuttgart",
+    "evidence": "neurological rehabilitation | outpatient | day clinic",
+    "qualifying": true
+  },
+  {
+    "name": "Rehaklinik Zihlschlacht",
+    "country": "Switzerland",
+    "url": "https://www.rehaklinik-zihlschlacht.ch/",
+    "status": 200,
+    "title": "Klinik für Neurologische Rehabilitation | Rehaklinik Zihlschlacht",
+    "evidence": "neurorehabilitation | parkinson",
+    "qualifying": true
+  },
+  {
+    "name": "Rehaklinik Tschugg",
+    "country": "Switzerland",
+    "url": "https://www.rehaklinik-tschugg.ch/",
+    "status": 200,
+    "title": "Klinik für Epilepsie & Neurorehabilitation | Rehaklinik Tschugg",
+    "evidence": "parkinson | brain health",
+    "qualifying": true
+  },
+  {
+    "name": "Sunnaas sykehus HF",
+    "country": "Norway",
+    "url": "https://www.sunnaas.no/",
+    "status": 200,
+    "title": "Forside - Sunnaas sykehus HF",
+    "evidence": "rehabilitering | forskning | tverrfaglig",
+    "qualifying": true
+  },
+  {
+    "name": "Royal Hospital for Neuro-disability",
+    "country": "United Kingdom",
+    "url": "https://www.rhn.org.uk/",
+    "status": 200,
+    "title": "Royal Hospital for Neuro-disability",
+    "evidence": "rehab | neuro-disability | brain injury | research",
+    "qualifying": true
+  },
+  {
+    "name": "Klinik Valens",
+    "country": "Switzerland",
+    "url": "https://www.klinik-valens.ch/",
+    "status": 200,
+    "title": "Startseite | Klinikgruppe Valens",
+    "evidence": "rehabilitation",
+    "qualifying": true
+  },
+  {
+    "name": "Sankt Rochus Kliniken",
+    "country": "Germany",
+    "url": "https://www.sankt-rochus-kliniken.de/",
+    "status": 200,
+    "title": "Sankt Rochus Kliniken",
+    "evidence": "neurologische frührehabilitation | neurologische rehabilitation | phase b | phase c | phase d",
+    "qualifying": true
+  },
+  {
+    "name": "KLINIK BAVARIA Kreischa",
+    "country": "Germany",
+    "url": "https://www.klinik-bavaria.de/",
+    "status": 200,
+    "title": "KLINIK BAVARIA Kreischa und Zscheckwitz (Sachsen)",
+    "evidence": "intensiv-reha | frührehabilitation | neurologie",
+    "qualifying": true
+  },
+  {
+    "name": "Rehabilitační ústav Brandýs nad Orlicí",
+    "country": "Czech Republic",
+    "url": "https://www.rehabilitacniustav.cz/",
+    "status": 200,
+    "title": "Rehabilitace | Rehabilitační ústav Brandýs nad Orlicí",
+    "evidence": "robotická rehabilitace | neurorehabilitace | bazén",
+    "qualifying": true
+  },
+  {
+    "name": "National Hospital for Neurology and Neurosurgery",
+    "country": "United Kingdom",
+    "url": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery",
+    "status": 200,
+    "title": "UCLH Neurology and Neurosurgery | Specialist brain and spine care in London",
+    "evidence": "neurorehabilitation and therapy services | neurorehabilitation | rehabilitation",
+    "qualifying": true
+  },
+  {
+    "name": "Shepherd Center",
+    "country": "United States",
+    "url": "https://www.shepherd.org/",
+    "status": 200,
+    "title": "Atlanta Brain and Spinal Cord Injury Rehabilitation | Shepherd Center",
+    "evidence": "brain injury | spinal cord injury | rehabilitation | research",
+    "qualifying": true
+  },
+  {
+    "name": "Spaulding Rehabilitation Hospital Boston",
+    "country": "United States",
+    "url": "https://www.spauldingrehab.org/",
+    "status": 200,
+    "title": "Spaulding Rehabilitation - Rehabilitative Medicine in MA",
+    "evidence": "brain injury | neurological rehabilitation | research | rehabilitation hospital",
+    "qualifying": true
+  },
+  {
+    "name": "Craig Hospital",
+    "country": "United States",
+    "url": "https://craighospital.org/",
+    "status": 307,
+    "title": "Neurorehabilitation Center Colorado | Craig Hospital",
+    "evidence": "neurorehabilitation | brain injury rehabilitation | spinal cord rehabilitation | research",
+    "qualifying": true
+  },
+  {
+    "name": "Shirley Ryan AbilityLab",
+    "country": "United States",
+    "url": "https://www.sralab.org/",
+    "status": 200,
+    "title": "AbilityLab Home",
+    "evidence": "brain injury | spinal cord injury | rehabilitation | research",
+    "qualifying": true
+  },
+  {
+    "name": "Brooks Rehabilitation",
+    "country": "United States",
+    "url": "https://brooksrehab.org/",
+    "status": 200,
+    "title": "Stroke, Brain & Spinal Cord Injury Experts | Brooks Rehabilitation",
+    "evidence": "brain injury | spinal cord injury | research",
+    "qualifying": true
+  }
+]
