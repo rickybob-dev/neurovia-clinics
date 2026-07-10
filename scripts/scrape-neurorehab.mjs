@@ -233,6 +233,12 @@ const targets = [
     needles: ['robotická rehabilitace', 'neurorehabilitace', 'bazén', 'hydroterapie']
   },
   {
+    country: 'Croatia',
+    name: 'University Hospital Centre Zagreb',
+    url: 'http://www.kbc-zagreb.hr/',
+    needles: ['klinika za neurologiju', 'klinički zavod za rehabilitaciju i ortopedska pomagala', 'rehabilitacija', 'neurokirurgija']
+  },
+  {
     country: 'United Kingdom',
     name: 'National Hospital for Neurology and Neurosurgery',
     url: 'https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery',
@@ -279,6 +285,45 @@ function collectEvidence(body, needles) {
   return matches.join(' | ');
 }
 
+const rehabSignals = [
+  'rehabilitation',
+  'rehab',
+  'riabilitazione',
+  'revalidatie',
+  'rééducation',
+  'reabilitazione',
+  'reabilitação',
+  'reabilitacja',
+  'rehabilitación',
+  'rehabilitace',
+  'rehabilitácia',
+  'rehabilitacija'
+];
+
+const neuroSignals = [
+  'neurolog',
+  'neuro',
+  'stroke',
+  'ictus',
+  'spinal cord',
+  'spinal',
+  'brain injury',
+  'cerebral',
+  'neurological injuries',
+  'neurological disorders',
+  'multiple sclerosis',
+  'parkinson',
+  'lesion medull',
+  'lesões medulares',
+  'lesioni midollari'
+];
+
+function hasBroaderNeurologicalRehab(body) {
+  const hasRehab = rehabSignals.some((signal) => body.includes(normalize(signal)));
+  const hasNeuro = neuroSignals.some((signal) => body.includes(normalize(signal)));
+  return hasRehab && hasNeuro;
+}
+
 const results = new Map();
 
 const crawler = new PlaywrightCrawler({
@@ -291,7 +336,9 @@ const crawler = new PlaywrightCrawler({
     const title = await page.title().catch(() => '');
     const body = normalize(await page.textContent('body').catch(() => ''));
     const evidence = collectEvidence(body, target.needles);
-    const qualifying = Boolean(evidence);
+    const broader = hasBroaderNeurologicalRehab(body);
+    const qualifying = Boolean(evidence) || broader;
+    const validationTier = evidence ? 'strict' : broader ? 'broad' : 'none';
 
     log.info(`Scraped ${target.name} (${status ?? 'no status'})`);
     results.set(target.url, {
@@ -301,7 +348,8 @@ const crawler = new PlaywrightCrawler({
       status,
       title,
       evidence: evidence || 'No direct keyword match found on first pass.',
-      qualifying
+      qualifying,
+      validationTier
     });
   },
   failedRequestHandler({ request, log }) {
@@ -314,7 +362,8 @@ const crawler = new PlaywrightCrawler({
       status: null,
       title: '',
       evidence: request.errorMessages?.[0] ?? 'Unknown error',
-      qualifying: false
+      qualifying: false,
+      validationTier: 'none'
     });
   }
 });
@@ -334,8 +383,12 @@ const orderedResults = targets.map((target) => results.get(target.url) ?? {
   status: null,
   title: '',
   evidence: 'Missing result from crawler.',
-  qualifying: false
+  qualifying: false,
+  validationTier: 'none'
 });
 
+const validatedResults = orderedResults.filter((result) => result.qualifying);
+
 await writeFile('neurorehab-scrape.json', JSON.stringify(orderedResults, null, 2));
+await writeFile('src/lib/data/validated-scrape.json', JSON.stringify(validatedResults, null, 2));
 console.log(JSON.stringify(orderedResults, null, 2));

@@ -228,6 +228,61 @@ main { width: 100%; }
 .center-card-contact { margin: 0; color: var(--navy); font-weight: 700; }
 .center-card-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 .center-empty { grid-column: 1 / -1; }
+.validated-feed {
+  display: grid;
+  gap: .9rem;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--line);
+}
+.validated-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+}
+.validated-card {
+  display: grid;
+  gap: .75rem;
+  padding: .95rem;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in oklch, var(--line) 78%, transparent);
+  background: linear-gradient(180deg, white, color-mix(in oklch, var(--aqua) 22%, white));
+}
+.validated-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: .75rem;
+  align-items: start;
+}
+.validated-card-head div { display: grid; gap: .1rem; }
+.validated-card-head strong { color: var(--navy); }
+.validated-card-head span { color: var(--slate); font-size: .84rem; }
+.validated-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.9rem;
+  padding: 0 .55rem;
+  border-radius: 999px;
+  background: white;
+  border: 1px solid var(--line);
+  color: var(--teal-dark);
+  font-weight: 700;
+  font-size: .82rem;
+}
+.validated-card p {
+  margin: 0;
+  color: var(--ink);
+  font-size: .94rem;
+  line-height: 1.45;
+}
+.validated-note {
+  color: var(--slate);
+  font-size: .82rem;
+  line-height: 1.35;
+}
+.validated-empty {
+  margin: 0;
+  color: var(--slate);
+}
 .pager {
   display: flex;
   flex-wrap: wrap;
@@ -392,6 +447,7 @@ dialog::backdrop { background: oklch(.16 .02 230 / .68); backdrop-filter: blur(3
   .spotlight, .section-banner { display: flex; flex-direction: column; align-items: stretch; }
   .indicator-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .center-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .validated-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .method { grid-template-columns: 1fr; }
   .legend-queue { grid-template-columns: 1fr; }
 }
@@ -421,6 +477,7 @@ dialog::backdrop { background: oklch(.16 .02 230 / .68); backdrop-filter: blur(3
   .map-pane { height: 44rem; }
   .compare-mini-grid { grid-template-columns: 1fr; }
   .center-grid { grid-template-columns: 1fr; }
+  .validated-grid { grid-template-columns: 1fr; }
   .scope-bar, .country-bar { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .25rem; }
   .scope-bar button, .country-bar button { flex: 0 0 auto; }
   .method { padding: 3.5rem 1rem; gap: 2rem; }

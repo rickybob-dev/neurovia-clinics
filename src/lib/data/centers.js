@@ -865,6 +865,25 @@ export const centers = [
     }
   },
   {
+    id: 'kbc-zagreb',
+    name: 'University Hospital Centre Zagreb',
+    country: 'Croatia',
+    city: 'Zagreb', region: 'City of Zagreb', lat: 45.8245534, lng: 16.0061157,
+    address: 'Kišpatićeva ulica 12, 10 000 Zagreb',
+    phone: '+385 1 2388 888',
+    url: 'https://www.kbc-zagreb.hr/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurologija', 'Neurokirurgija', 'Rehabilitacija i ortopedska pomagala', 'Fizikalna medicina', 'Sestrinstvo'],
+    completeness: 82,
+    researchHighlights: ['Official hospital site lists neurology, neurosurgery and rehabilitation services', 'Multiple campus locations including the rehabilitation facility at Božidarevićeva 11'],
+    features: ['rehabilitation', 'neurology'],
+    description: {
+      it: 'Grande centro ospedaliero universitario di Zagabria con neurologia, neurochirurgia e un servizio di riabilitazione e ausili ortopedici.',
+      en: 'A major university hospital in Zagreb with neurology, neurosurgery and a rehabilitation and orthopaedic aids service.'
+    }
+  },
+  {
     id: 'uclh-queen-square-london',
     name: 'National Hospital for Neurology and Neurosurgery',
     country: 'United Kingdom',
