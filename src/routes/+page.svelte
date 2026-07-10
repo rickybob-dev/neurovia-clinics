@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import { MapPin, Search, SlidersHorizontal, ShieldCheck, ExternalLink, Phone, Bookmark, X, CheckCircle2, Users, ClipboardList, Plus, Languages, ChevronDown, Star, Info, Building2, Menu, Scale, ShieldAlert, ArrowLeftRight, Stethoscope, Hospital, Bot, HeartPulse, Globe, MapPinned, BookOpenText, ListFilter, Droplets } from '@lucide/svelte';
   import ClinicMap from '$lib/components/ClinicMap.svelte';
   import { centers, conditionLabels, technologyLabels } from '$lib/data/centers.js';
@@ -387,7 +388,7 @@
               <h2>{selected.name}</h2>
               <p>{selected.city} · {selected.region}</p>
             </div>
-            <a class="button secondary" href={`/center/${selected.id}`}>{language === 'it' ? 'Apri pagina completa' : 'Open full page'}</a>
+            <a class="button secondary" href={`${base}/center/${selected.id}/`}>{language === 'it' ? 'Apri pagina completa' : 'Open full page'}</a>
           </div>
           <p class="description">{selected.description[language]}</p>
           <div class="indicator-row" aria-label={language === 'it' ? 'Indicatori di qualità del profilo' : 'Profile quality indicators'}>
@@ -582,7 +583,7 @@
             <p class="center-card-contact"><Phone size={15} /> <span>{center.phone}</span></p>
           {/if}
           <div class="center-card-actions">
-            <a class="button secondary compact" href={`/center/${center.id}`}>{language === 'it' ? 'Apri dettagli' : 'Open details'}</a>
+            <a class="button secondary compact" href={`${base}/center/${center.id}/`}>{language === 'it' ? 'Apri dettagli' : 'Open details'}</a>
             <button type="button" class="button secondary compact" on:click={() => pick(center)}>{language === 'it' ? 'Apri mappa' : 'Open map'}</button>
             <button type="button" class="button secondary compact" on:click={() => toggleCompare(center)}>
               <ArrowLeftRight size={16} />

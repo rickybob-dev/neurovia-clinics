@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import { ArrowLeft, Bot, BookOpenText, HeartPulse, Hospital, MapPin, ShieldCheck, Stethoscope } from '@lucide/svelte';
   export let data;
 
@@ -37,7 +38,7 @@
 </svelte:head>
 
 <main class="detail-page">
-  <a class="back-link" href="/">
+  <a class="back-link" href={`${base || ''}/`}>
     <ArrowLeft size={16} />
     <span>Back to map</span>
   </a>
