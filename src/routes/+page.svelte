@@ -4,7 +4,6 @@
   import { MapPin, Search, SlidersHorizontal, ShieldCheck, ExternalLink, Phone, Bookmark, X, CheckCircle2, Users, ClipboardList, Plus, Languages, ChevronDown, Star, Info, Building2, Menu, Scale, ShieldAlert, ArrowLeftRight, Stethoscope, Hospital, Bot, HeartPulse, Globe, MapPinned, BookOpenText, ListFilter, Droplets } from '@lucide/svelte';
   import ClinicMap from '$lib/components/ClinicMap.svelte';
   import { centers, conditionLabels, technologyLabels } from '$lib/data/centers.js';
-  import validatedScrape from '$lib/data/validated-scrape.json';
   import { copy } from '$lib/i18n.js';
 
   let language = 'en';
@@ -78,7 +77,6 @@
   }
   $: compareTarget = centers.find((center) => center.id === compareTargetId) || compareOptions[0] || selected;
   $: compareSelection = compareIds.map((id) => centers.find((center) => center.id === id)).filter(Boolean);
-  $: validatedFeed = validatedScrape.slice(0, 12);
   $: pendingReviews = moderationQueue.filter((item) => item.kind === 'review');
   $: pendingCenters = moderationQueue.filter((item) => item.kind === 'center');
   $: approvedReviewCount = moderationQueue.filter((item) => item.kind === 'review' && item.status === 'approved').length;
@@ -619,35 +617,6 @@
       </div>
     {/if}
 
-    <section class="validated-feed">
-      <div class="section-banner validated-banner">
-        <div>
-          <p class="spotlight-kicker">{t.validatedKicker}</p>
-          <h2>{t.validatedTitle}</h2>
-          <p class="banner-meta">{t.validatedBody} · {validatedScrape.length} {language === 'it' ? 'risultati validati' : 'validated results'}</p>
-        </div>
-      </div>
-      {#if validatedFeed.length}
-        <div class="validated-grid">
-          {#each validatedFeed as item}
-            <article class="validated-card">
-              <div class="validated-card-head">
-                <div>
-                  <strong>{item.name}</strong>
-                  <span>{item.country}</span>
-                </div>
-                <span class="validated-status">{item.validationTier === 'broad' ? 'Broad match' : 'Strict match'}</span>
-              </div>
-              <p>{item.evidence}</p>
-              <small class="validated-note">{item.title}</small>
-              <a class="button secondary compact" href={item.url} target="_blank" rel="noreferrer">{t.validatedOpen}<ExternalLink size={15} /></a>
-            </article>
-          {/each}
-        </div>
-      {:else}
-        <p class="validated-empty">{t.validatedEmpty}</p>
-      {/if}
-    </section>
   </section>
 
   <details class="meta-panel">
