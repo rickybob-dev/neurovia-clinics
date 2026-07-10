@@ -189,6 +189,24 @@ export const centers = [
     }
   },
   {
+    id: 'centro-giusti-firenze',
+    name: 'Centro Giusti Firenze',
+    country: 'Italy',
+    city: 'Florence', region: 'Tuscany', lat: 43.7680, lng: 11.2320,
+    address: 'Via del Gelsomino 60-64, 50125 Firenze', phone: '+39 055 2322698',
+    url: 'https://www.centrogiusti.eu/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'neuromotor'],
+    technologies: ['robotics', 'gait'], modes: ['outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Riabilitazione', 'Fisioterapia', 'Fisiatria', 'Medicina riabilitativa', 'Infermieristica'],
+    completeness: 86,
+    researchHighlights: ['Official site explicitly targets neurological patients and spinal cord lesions', 'RIC pathway for neurological patients', 'HAL exoskeleton and other robotic rehabilitation tools'],
+    robotNotes: ['HAL exoskeleton and other technology-supported gait rehabilitation'],
+    description: {
+      it: 'Centro fiorentino di riabilitazione con percorsi per pazienti neurologici, lesioni midollari, ictus e sclerosi multipla, con esoscheletro HAL.',
+      en: 'A Florence rehabilitation center for neurological patients, spinal cord lesions, stroke, and multiple sclerosis, with HAL exoskeleton support.'
+    }
+  },
+  {
     id: 'guttmann-badalona',
     name: 'Institut Guttmann',
     country: 'Spain',
@@ -203,6 +221,25 @@ export const centers = [
     description: {
       it: 'Ospedale di neuroriabilitazione altamente specializzato con approccio interdisciplinare, salute cerebrale e area pediatrica.',
       en: 'A highly specialized neurorehabilitation hospital with an interdisciplinary model, brain health focus and pediatric care.'
+    }
+  },
+  {
+    id: 'hospital-nacional-paraplejicos-toledo',
+    name: 'Hospital Nacional de Parapléjicos',
+    country: 'Spain',
+    city: 'Toledo', region: 'Castilla-La Mancha', lat: 39.8749, lng: -4.0526,
+    address: 'Toledo', phone: 'Unknown',
+    url: 'http://www.infomedula.org/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['hydrotherapy', 'electrostimulation'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabilitación', 'Neurología', 'Fisioterapia', 'Enfermería', 'Espasticidad'],
+    completeness: 92,
+    researchHighlights: ['Official site of the National Spinal Cord Injury Hospital', 'Rehabilitation, pediatric rehab and functional electrostimulation are listed on the official service pages', 'Research foundation and translational neuroscience activity'],
+    features: ['spinal-cord', 'research'],
+    description: {
+      it: 'Centro pubblico di riferimento per la lesione midollare a Toledo, con riabilitazione integrale e forte attività di ricerca.',
+      en: 'A public reference center for spinal cord injury in Toledo, with comprehensive rehabilitation and a strong research profile.'
     }
   },
   {
@@ -225,6 +262,97 @@ export const centers = [
     }
   },
   {
+    id: 'vithas-aguas-vivas',
+    name: 'Hospital Vithas Aguas Vivas',
+    country: 'Spain',
+    city: 'Carcaixent', region: 'Valencia', lat: 39.1205, lng: -0.4488,
+    address: 'Carcaixent, Valencia', phone: 'Unknown',
+    url: 'https://vithas.es/centro/vithas-hospital-aguas-vivas/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive', 'pediatric'],
+    technologies: ['robotics', 'vr', 'pool'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Unidad de Neurorrehabilitación y Daño Cerebral', 'Neurología', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 90,
+    researchHighlights: ['Official page states neurorrehabilitation and brain injury unit', 'Pool and robotic / virtual-reality rehabilitation equipment', 'Adult and pediatric inpatient and outpatient pathways'],
+    robotNotes: ['Robotics and VR mentioned on the official hospital page'],
+    description: {
+      it: 'Ospedale privato con unità ufficiale di neuroriabilitazione e danno cerebrale, piscina terapeutica e tecnologie robotiche/RV.',
+      en: 'A private hospital with an official neurorehabilitation and brain-injury unit, therapeutic pool, and robotic/VR rehabilitation technology.'
+    }
+  },
+  {
+    id: 'vithas-sevilla',
+    name: 'Hospital Vithas Sevilla',
+    country: 'Spain',
+    city: 'Seville', region: 'Andalusia', lat: 37.3891, lng: -5.9845,
+    address: 'Seville, Andalusia', phone: 'Unknown',
+    url: 'https://vithas.es/centro/vithas-hospital-sevilla/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Unidad de Neurorrehabilitación', 'Unidad hospitalaria de daño cerebral', 'Neurología', 'Fisioterapia', 'Logopedia'],
+    completeness: 82,
+    researchHighlights: ['Official hospital page lists a neurorrehabilitation unit', 'Official page also highlights a brain-injury unit', 'Part of the Vithas IRENEA rehabilitation model'],
+    description: {
+      it: 'Ospedale privato di Siviglia con unità di neuroriabilitazione e unità ospedaliera per il danno cerebrale sul sito ufficiale.',
+      en: 'A private Seville hospital listing a neurorrehabilitation unit and a brain-injury unit on its official site.'
+    }
+  },
+  {
+    id: 'vithas-xanit-internacional',
+    name: 'Hospital Vithas Xanit Internacional',
+    country: 'Spain',
+    city: 'Benalmádena', region: 'Andalusia', lat: 36.5929, lng: -4.5750,
+    address: 'Benalmádena, Málaga', phone: 'Unknown',
+    url: 'https://vithas.es/centro/vithas-hospital-xanit-internacional/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Unidad de Neurorrehabilitación', 'Neurología', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 80,
+    researchHighlights: ['Official hospital page lists a neurorrehabilitation unit', 'Part of the Vithas hospital network with the IRENEA model', 'Suitable as a southern Spain coverage point'],
+    description: {
+      it: 'Ospedale privato a Benalmádena con unità di neuroriabilitazione elencata sul sito ufficiale.',
+      en: 'A private Benalmádena hospital listing a neurorrehabilitation unit on its official site.'
+    }
+  },
+  {
+    id: 'vithas-valencia-consuelo',
+    name: 'Hospital Vithas Valencia Consuelo',
+    country: 'Spain',
+    city: 'Valencia', region: 'Valencia', lat: 39.4699, lng: -0.3763,
+    address: 'Valencia, Valencian Community', phone: 'Unknown',
+    url: 'https://vithas.es/centro/vithas-hospital-valencia-consuelo/',
+    conditions: ['pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Unidad de Neurorrehabilitación Pediátrica - CDIAT', 'Neurología', 'Fisioterapia', 'Logopedia', 'Terapia ocupacional'],
+    completeness: 78,
+    researchHighlights: ['Official hospital page lists a pediatric neurorrehabilitation unit', 'Useful coverage for pediatric neurological rehabilitation in Valencia'],
+    description: {
+      it: 'Ospedale privato di Valencia con unità pediatrica di neuroriabilitazione e CDIAT sul sito ufficiale.',
+      en: 'A private Valencia hospital with a pediatric neurorrehabilitation unit and CDIAT on its official site.'
+    }
+  },
+  {
+    id: 'vithas-vigo',
+    name: 'Hospital Vithas Vigo',
+    country: 'Spain',
+    city: 'Vigo', region: 'Galicia', lat: 42.2406, lng: -8.7207,
+    address: 'Vigo, Galicia', phone: 'Unknown',
+    url: 'https://vithas.es/centro/vithas-hospital-vigo/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Unidad de Neurorrehabilitación', 'Neurología', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 80,
+    researchHighlights: ['Official hospital page lists a neurorrehabilitation unit', 'Adds north-west Spain coverage'],
+    description: {
+      it: 'Ospedale privato di Vigo con unità di neuroriabilitazione elencata sul sito ufficiale.',
+      en: 'A private Vigo hospital listing a neurorrehabilitation unit on its official site.'
+    }
+  },
+  {
     id: 'schmieder-heidelberg',
     name: 'Kliniken Schmieder Heidelberg',
     country: 'Germany',
@@ -241,6 +369,25 @@ export const centers = [
     description: {
       it: 'Clinica neurologica e di neuroriabilitazione con ricerca interna, collaborazione accademica e percorsi intensivi per diversi livelli di gravità.',
       en: 'A neurological rehabilitation clinic with in-house research, academic cooperation and intensive pathways across severity levels.'
+    }
+  },
+  {
+    id: 'schmieder-network',
+    name: 'Kliniken Schmieder',
+    country: 'Germany',
+    city: 'Heidelberg', region: 'Baden-Württemberg', lat: 49.3988, lng: 8.6724,
+    address: 'Speyererhof 1, 69124 Heidelberg', phone: '+49 6221 6530',
+    url: 'https://kliniken-schmieder.com/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive'],
+    technologies: ['robotics', 'gait', 'tele'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Fisiatria', 'Neuropsicologia', 'Logopedia'],
+    completeness: 87,
+    researchHighlights: ['Network umbrella page for neurological rehabilitation clinics', 'Own research institute', 'University hospital cooperation and measurable outcomes'],
+    robotNotes: ['Armeo', 'SaeboFlex', 'Gait training systems'],
+    description: {
+      it: 'Rete tedesca di neuroriabilitazione con ricerca interna, cooperazione accademica e percorsi intensivi nelle varie sedi.',
+      en: 'A German neurological rehabilitation network with in-house research, academic cooperation and intensive pathways across multiple sites.'
     }
   },
   {
@@ -333,20 +480,77 @@ export const centers = [
   },
   {
     id: 'chu-nantes-saint-jacques',
-    name: 'Hôpital Saint-Jacques — CHU de Nantes',
+    name: 'Service universitaire de MPR neurologique — CHU de Nantes',
     country: 'France',
     city: 'Nantes', region: 'Pays de la Loire', lat: 47.1978, lng: -1.5367,
     address: '85 rue Saint-Jacques, 44093 Nantes', phone: '+33 2 40 08 33 33',
-    url: 'https://www.chu-nantes.fr/etablissements-du-chu-hopital-saint-jacques-11381.kjsp',
+    url: 'https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique',
     conditions: ['stroke', 'tbi', 'spinal', 'cognitive'],
-    technologies: ['tele'],
-    modes: ['inpatient', 'outpatient'], access: ['public'],
-    disciplines: ['Médecine physique', 'Neurologie', 'Kinésithérapie', 'Ergothérapie'],
-    completeness: 79,
-    researchHighlights: ['Neurological rehabilitation department active since 1978', 'Research in sports traumatology and prosthesis use', 'Therapeutic apartment for discharge preparation'],
+    technologies: ['tele', 'gait'],
+    modes: ['inpatient', 'outpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Médecine physique', 'Neurologie', 'Kinésithérapie', 'Ergothérapie', 'Orthophonie', 'Neuropsychologie'],
+    completeness: 91,
+    researchHighlights: ['Official university neuro-rehab service for severe neurological handicap', 'Rehab for spinal cord injury and severe brain injury', 'Post-ICU neurorehab pathway and movement analysis'],
+    features: ['research', 'brain-injury', 'spinal-cord'],
     description: {
-      it: 'Reparto universitario di riabilitazione neurologica con presa in carico multidisciplinare e una lunga tradizione clinica e di ricerca.',
-      en: 'A university neurological rehabilitation department with multidisciplinary care and a long clinical and research tradition.'
+      it: 'Servizio universitario di neuroriabilitazione con presa in carico dei grandi handicap neurologici, lesioni midollari e cerebrolesioni gravi.',
+      en: 'A university neurological rehabilitation service focused on severe neurological disability, spinal cord injury, and severe brain injury.'
+    }
+  },
+  {
+    id: 'maritime-berck',
+    name: 'Hôpital Maritime de Berck — AP-HP',
+    country: 'France',
+    city: 'Berck', region: 'Hauts-de-France', lat: 50.4021, lng: 1.5648,
+    address: 'Rue du Docteur Menard, 62608 Berck',
+    url: 'https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'disorder'],
+    technologies: ['hydro', 'tele'],
+    modes: ['inpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Kinésithérapie', 'Ergothérapie', 'Psychomotricité', 'Appareillage'],
+    completeness: 89,
+    researchHighlights: ['Official AP-HP page calls it a reference for neurological rehabilitation', 'Sea-water balneotherapy and dedicated rehab plateau', 'Adult inpatient SMR with 91 neurorehab beds'],
+    features: ['pool', 'water-therapy'],
+    description: {
+      it: 'Ospedale AP-HP di riferimento per la riabilitazione neurologica con balneoterapia in acqua di mare e piattaforma tecnica dedicata.',
+      en: 'An AP-HP reference hospital for neurological rehabilitation with sea-water balneotherapy and a dedicated rehab platform.'
+    }
+  },
+  {
+    id: 'henry-gabrielle',
+    name: 'Hôpital Henry Gabrielle — HCL',
+    country: 'France',
+    city: 'Saint-Genis-Laval', region: 'Auvergne-Rhône-Alpes', lat: 45.6895, lng: 4.7898,
+    address: '20 route de Vourles, 69230 Saint-Genis-Laval', phone: '+33 4 72 11 80 88',
+    url: 'https://www.chu-lyon.fr/hopital-henry-gabrielle',
+    conditions: ['stroke', 'tbi', 'spinal', 'parkinson', 'cognitive'],
+    technologies: ['gait', 'tele'],
+    modes: ['inpatient', 'outpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Médecine physique', 'Neurologie', 'Kinésithérapie', 'Ergothérapie', 'Orthophonie', 'Neuropsychologie'],
+    completeness: 92,
+    researchHighlights: ['Nationally recognized neurological rehabilitation center', 'Post-stroke, spinal cord injury and traumatic brain injury pathways', 'Piscine, gymnasium and movement-analysis laboratory'],
+    features: ['research', 'pool', 'water-therapy'],
+    description: {
+      it: 'Centro HCL di riferimento nazionale per la riabilitazione delle affezioni neurologiche, con piscina e laboratorio di analisi del movimento.',
+      en: 'A nationally recognized HCL center for neurological rehabilitation, with a pool and movement-analysis lab.'
+    }
+  },
+  {
+    id: 'cmra-alcoitao',
+    name: 'Centro de Medicina de Reabilitação de Alcoitão',
+    country: 'Portugal',
+    city: 'Alcoitão', region: 'Lisbon District', lat: 38.7198, lng: -9.3869,
+    address: 'Rua Conde Barão – Alcoitão, 2649-506 Alcabideche', phone: '+351 214 608 300',
+    url: 'https://cmra.scml.pt/',
+    conditions: ['stroke', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Medicina Física e de Reabilitação', 'Fisioterapia', 'Terapia Ocupacional', 'Terapia da Fala', 'Enfermagem'],
+    completeness: 83,
+    researchHighlights: ['Official Portuguese rehabilitation center with multidisciplinary services', 'Inpatient programs and rehab pathways listed on the official site', 'Longstanding rehabilitation institution serving the Lisbon area'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Centro portoghese di riabilitazione multidisciplinare ad Alcoitão, vicino a Cascais, con ricovero e ambulatori.',
+      en: 'A Portuguese multidisciplinary rehabilitation center in Alcoitão, near Cascais, with inpatient and outpatient care.'
     }
   },
   {
@@ -477,6 +681,61 @@ export const centers = [
     }
   },
   {
+    id: 'swiss-paraplegic-centre-nottwil',
+    name: 'Swiss Paraplegic Centre',
+    country: 'Switzerland',
+    city: 'Nottwil', region: 'Lucerne', lat: 47.1355, lng: 8.1385,
+    address: 'Guido A. Zäch Strasse 1, 6207 Nottwil', phone: '+41 41 939 54 54',
+    url: 'https://www.paraplegie.ch/en/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['research', 'assistive-tech'], modes: ['inpatient', 'outpatient'], access: ['insurance'],
+    disciplines: ['Medicine', 'Rehabilitation', 'Research', 'Assistive technologies'],
+    completeness: 90,
+    researchHighlights: ['Comprehensive rehabilitation for people with spinal cord injuries', 'Globally unique network of services', 'Medicine, research, innovation and lifelong assistance under one group'],
+    features: ['research', 'spinal-cord'],
+    description: {
+      it: 'Centro svizzero di riferimento per la riabilitazione delle lesioni midollari, integrato in una rete globale di servizi e ricerca.',
+      en: 'A Swiss reference centre for spinal cord injury rehabilitation within a globally unique network of services and research.'
+    }
+  },
+  {
+    id: 'balgrist-university-hospital-zurich',
+    name: 'Balgrist University Hospital',
+    country: 'Switzerland',
+    city: 'Zurich', region: 'Zurich', lat: 47.3490, lng: 8.5824,
+    address: 'Forchstrasse 340, 8008 Zürich', phone: '+41 44 386 11 11',
+    url: 'https://www.balgrist.ch/en/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['research', 'physio', 'nursing'],
+    modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Spinal Cord Injury Center', 'Physiotherapy', 'Nursing care', 'Neuro-Urology', 'Occupational therapy'],
+    completeness: 89,
+    researchHighlights: ['Official site explicitly lists a Spinal Cord Injury Center', 'Comprehensive medical care for spinal cord injuries', 'Strong research and teaching environment at the University of Zurich'],
+    features: ['research', 'spinal-cord'],
+    description: {
+      it: 'Ospedale universitario di Zurigo con centro per lesioni midollari, fisioterapia, nursing e ricerca accademica.',
+      en: 'A Zurich university hospital with a spinal cord injury center, physiotherapy, nursing care, and academic research.'
+    }
+  },
+  {
+    id: 'rnoh-london-spinal-cord-injury-centre',
+    name: 'London Spinal Cord Injury Centre',
+    country: 'United Kingdom',
+    city: 'Stanmore', region: 'Greater London', lat: 51.6108, lng: -0.3079,
+    address: 'Brockley Hill, Stanmore, Middlesex HA7 4LP', phone: '+44 20 3947 0100',
+    url: 'https://www.rnoh.nhs.uk/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['orthotics', 'prosthetics'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Spinal Cord Injury Centre', 'Rehabilitation and therapy', 'Orthotics', 'Prosthetic Rehabilitation'],
+    completeness: 89,
+    researchHighlights: ['London Spinal Cord Injury Centre listed on the official RNOH site', 'Comprehensive neuro-musculoskeletal care including acute spinal injury', 'Specialist rehabilitation and therapy services'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro spinale di RNOH a Stanmore con presa in carico per lesioni spinali e riabilitazione specialistica.',
+      en: 'RNOH’s spinal cord injury centre in Stanmore, providing specialist care and rehabilitation for spinal injury.'
+    }
+  },
+  {
     id: 'zihlschlacht',
     name: 'Rehaklinik Zihlschlacht',
     country: 'Switzerland',
@@ -530,6 +789,24 @@ export const centers = [
     description: {
       it: 'Gruppo svizzero di riabilitazione con un’offerta completa e programmi di neuroriabilitazione sviluppati in modo scientifico.',
       en: 'A Swiss rehabilitation group with a comprehensive offer and neurorehabilitation programs developed on a scientific basis.'
+    }
+  },
+  {
+    id: 'valens-network',
+    name: 'Klinik Valens',
+    country: 'Switzerland',
+    city: 'Valens', region: 'St. Gallen', lat: 47.0108, lng: 9.4583,
+    address: 'Valens, 7317 Valens', phone: '+41 58 511 11 11',
+    url: 'https://www.klinik-valens.ch/',
+    conditions: ['stroke', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Therapie', 'Pflege', 'Ärzte'],
+    completeness: 83,
+    researchHighlights: ['Official Klinik Valens site for neurological rehabilitation', 'Scientifically grounded programs', 'Research-oriented clinic group'],
+    features: ['research'],
+    description: {
+      it: 'Sito principale della Klinik Valens per la neuroriabilitazione, con programmi sviluppati in modo scientifico.',
+      en: 'The main Klinik Valens site for neurological rehabilitation, with scientifically grounded programs.'
     }
   },
   {
@@ -603,6 +880,60 @@ export const centers = [
     description: {
       it: 'Ospedale neurologico di Queen Square con servizi espliciti di neuro-riabilitazione e terapia, oltre a un forte contesto di ricerca.',
       en: 'A Queen Square neurological hospital with explicit neurorehabilitation and therapy services, within a strong research environment.'
+    }
+  },
+  {
+    id: 'mildmay-hospital-london',
+    name: 'Mildmay Hospital',
+    country: 'United Kingdom',
+    city: 'London', region: 'Greater London', lat: 51.5265, lng: -0.0666,
+    address: '19 Tabernacle Gardens, London E2 7DZ', phone: '+44 20 7613 6300',
+    url: 'https://www.mildmay.nhs.uk/',
+    conditions: ['cognitive', 'neuromotor', 'disorder'],
+    technologies: ['tele'], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Rehabilitation', 'Nursing', 'Medical team', 'Psychology', 'Social care'],
+    completeness: 82,
+    researchHighlights: ['Specialist rehabilitation for HIV-associated neurological disorders (HAND)', 'Leading centre in Europe for HAND rehabilitation', 'Step-down rehabilitation and care for complex needs'],
+    features: ['research', 'neurocognitive'],
+    description: {
+      it: 'Ospedale caritatevole di Londra con riabilitazione per disturbi neurocognitivi associati all’HIV e altri bisogni complessi.',
+      en: 'A London charitable hospital providing rehabilitation for HIV-associated neurological disorders (HAND) and other complex needs.'
+    }
+  },
+  {
+    id: 'st-georges-neurorehab-london',
+    name: 'Atkinson Morley Regional Neurosciences Centre — St George’s Hospital',
+    country: 'United Kingdom',
+    city: 'London', region: 'Greater London', lat: 51.4259, lng: -0.1788,
+    address: 'Blackshaw Road, Tooting, London SW17 0QT', phone: '+44 20 8672 1255',
+    url: 'https://www.stgeorges.nhs.uk/services/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['gait', 'fes', 'tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurology', 'Neurosurgery', 'Neurorehabilitation', 'Stroke services', 'Therapies'],
+    completeness: 88,
+    researchHighlights: ['Official services page lists a Neurosciences Centre with neurorehabilitation and stroke services', 'Rehabilitation services include gait lab and FES support for neuro-rehabilitation', 'Major neurosciences hub in southwest London'],
+    features: ['research', 'gait-training', 'stroke'],
+    description: {
+      it: 'Centro neuroscientifico di St George’s con neuro-riabilitazione, stroke services e supporto con gait lab/FES.',
+      en: 'St George’s neurosciences centre with neurorehabilitation, stroke services, and gait lab / FES support.'
+    }
+  },
+  {
+    id: 'queen-marys-rehabilitation-london',
+    name: 'Rehabilitation services — Queen Mary’s Hospital',
+    country: 'United Kingdom',
+    city: 'Roehampton', region: 'Greater London', lat: 51.4589, lng: -0.2516,
+    address: 'Roehampton Lane, Roehampton, London SW15 5PN', phone: '+44 20 8487 6000',
+    url: 'https://www.stgeorges.nhs.uk/service/rehabilitation-service/',
+    conditions: ['amputation', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: ['gait', 'fes'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabilitation', 'Prosthetics', 'Physiotherapy', 'Spasticity management', 'Gait laboratory'],
+    completeness: 84,
+    researchHighlights: ['Official rehab service offers gait analysis and functional electrical stimulation for neuro-rehabilitation', 'Specialist spasticity management service', 'Douglas Bader Rehabilitation Centre at Queen Mary’s Hospital'],
+    features: ['gait-training', 'spasticity', 'prosthetics'],
+    description: {
+      it: 'Servizio di riabilitazione di Queen Mary’s con gait lab, FES e gestione della spasticità a supporto della neuro-riabilitazione.',
+      en: 'Queen Mary’s rehabilitation service with gait lab, FES, and spasticity management supporting neuro-rehabilitation.'
     }
   },
   {

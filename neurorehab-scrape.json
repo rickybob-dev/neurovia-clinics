@@ -1,5 +1,14 @@
 [
   {
+    "name": "Centro Giusti Firenze",
+    "country": "Italy",
+    "url": "https://www.centrogiusti.eu/",
+    "status": 200,
+    "title": "Riabilitazione e fisioterapia | Centro Giusti Firenze",
+    "evidence": "pazienti neurologici | lesioni midollari | esoscheletro | ictus | sclerosi multipla | riabilitazione intensa e continuativa",
+    "qualifying": true
+  },
+  {
     "name": "Institut Guttmann",
     "country": "Spain",
     "url": "https://www.guttmann.com/es",
@@ -9,13 +18,67 @@
     "qualifying": true
   },
   {
+    "name": "Hospital Nacional de Parapléjicos",
+    "country": "Spain",
+    "url": "http://www.infomedula.org/",
+    "status": 200,
+    "title": "INFOMÉDULA - Fundación del Hospital Nacional de Parapléjicos para la Investigación y la IntegraciónINFOMÉDULA | Fundación del Hospital Nacional de Parapléjicos para la Investigación y la Integración",
+    "evidence": "lesión medular | investigación",
+    "qualifying": true
+  },
+  {
     "name": "Hospital Quirónsalud Miguel Domínguez",
     "country": "Spain",
     "url": "https://www.quironsalud.com/migueldominguez",
-    "status": 403,
-    "title": "Access Denied",
-    "evidence": "No direct keyword match found on first pass.",
-    "qualifying": false
+    "status": 200,
+    "title": "Hospital Quirónsalud Pontevedra",
+    "evidence": "unidad de neuro-rehabilitación | neuro-rehabilitación | exoesqueletos robóticos | realidad virtual | pacientes neurológicos",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Vithas Aguas Vivas",
+    "country": "Spain",
+    "url": "https://vithas.es/centro/vithas-hospital-aguas-vivas/",
+    "status": 200,
+    "title": "Hospital Privado en Carcaixent, Valencia | Vithas Aguas Vivas",
+    "evidence": "unidad de neurorrehabilitación y daño cerebral | neurorrehabilitación especializada | piscina | tecnología robótica | rv",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Vithas Sevilla",
+    "country": "Spain",
+    "url": "https://vithas.es/centro/vithas-hospital-sevilla/",
+    "status": 200,
+    "title": "Hospital Privado en Sevilla | Vithas Sevilla",
+    "evidence": "unidad de neurorrehabilitación | unidad hospitalaria de daño cerebral",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Vithas Xanit Internacional",
+    "country": "Spain",
+    "url": "https://vithas.es/centro/vithas-hospital-xanit-internacional/",
+    "status": 200,
+    "title": "Hospital Privado en Benalmádena, Málaga | Vithas Xanit Internacional",
+    "evidence": "unidad de neurorrehabilitación",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Vithas Valencia Consuelo",
+    "country": "Spain",
+    "url": "https://vithas.es/centro/vithas-hospital-valencia-consuelo/",
+    "status": 200,
+    "title": "Vithas Valencia Consuelo | Hospital Virgen del Consuelo",
+    "evidence": "unidad de neurorrehabilitación pediátrica | cdiat | unidad de neurorrehabilitación",
+    "qualifying": true
+  },
+  {
+    "name": "Hospital Vithas Vigo",
+    "country": "Spain",
+    "url": "https://vithas.es/centro/vithas-hospital-vigo/",
+    "status": 200,
+    "title": "Hospital Privado en Vigo | Vithas Vigo",
+    "evidence": "unidad de neurorrehabilitación",
+    "qualifying": true
   },
   {
     "name": "Kliniken Schmieder",
@@ -27,12 +90,39 @@
     "qualifying": true
   },
   {
-    "name": "Hôpital Saint-Jacques — CHU de Nantes",
+    "name": "Service universitaire de MPR neurologique — CHU de Nantes",
     "country": "France",
-    "url": "https://www.chu-nantes.fr/etablissements-du-chu-hopital-saint-jacques-11381.kjsp",
+    "url": "https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique",
     "status": 200,
-    "title": "CHU de Nantes - Hôpital Saint-Jacques",
-    "evidence": "réadaptation",
+    "title": "CHU de Nantes - Service universitaire de médecine physique et réadaptation neurologique",
+    "evidence": "handicap neurologique lourd | lésions médullaires | rééducation-réadaptation",
+    "qualifying": true
+  },
+  {
+    "name": "Hôpital Maritime de Berck — AP-HP",
+    "country": "France",
+    "url": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck/",
+    "status": 200,
+    "title": "Présentation de l’hôpital Maritime de Berck | Hôpital Maritime de Berck",
+    "evidence": "rééducation neurologique | balnéothérapie en eau de mer | atelier fauteuils roulants | plateau de rééducation",
+    "qualifying": true
+  },
+  {
+    "name": "Hôpital Henry Gabrielle — HCL",
+    "country": "France",
+    "url": "https://www.chu-lyon.fr/hopital-henry-gabrielle",
+    "status": 200,
+    "title": "Hôpital Henry Gabrielle | Hospices Civils de Lyon",
+    "evidence": "rééducation des affections neurologiques | blessures médullaires | traumatismes crâniens | suivis post-avc",
+    "qualifying": true
+  },
+  {
+    "name": "Centro de Medicina de Reabilitação de Alcoitão",
+    "country": "Portugal",
+    "url": "https://cmra.scml.pt/",
+    "status": 200,
+    "title": "Início - CMRA",
+    "evidence": "reabilitação | terapia da fala | ortoprotesia",
     "qualifying": true
   },
   {
@@ -159,6 +249,60 @@
     "status": 200,
     "title": "Royal Hospital for Neuro-disability",
     "evidence": "rehab | neuro-disability | brain injury | research",
+    "qualifying": true
+  },
+  {
+    "name": "Swiss Paraplegic Centre",
+    "country": "Switzerland",
+    "url": "https://www.paraplegie.ch/en/",
+    "status": 200,
+    "title": "Schweizer Paraplegiker-Gruppe | We support people with spinal cord injuries.",
+    "evidence": "spinal cord injuries | spinal cord injury | rehabilitation | research | innovation",
+    "qualifying": true
+  },
+  {
+    "name": "Balgrist University Hospital",
+    "country": "Switzerland",
+    "url": "https://www.balgrist.ch/en/",
+    "status": 200,
+    "title": "Balgrist University Hospital: Balgrist University Hospital",
+    "evidence": "spinal cord injury centre | spinal cord injuries | physiotherapy | nursing care | research",
+    "qualifying": true
+  },
+  {
+    "name": "London Spinal Cord Injury Centre",
+    "country": "United Kingdom",
+    "url": "https://www.rnoh.nhs.uk/",
+    "status": 200,
+    "title": "Home :: Royal National Orthopaedic Hospital",
+    "evidence": "spinal cord injury centre | rehabilitation and therapy",
+    "qualifying": true
+  },
+  {
+    "name": "Mildmay Hospital",
+    "country": "United Kingdom",
+    "url": "https://www.mildmay.nhs.uk/",
+    "status": 200,
+    "title": "Mildmay Hospital | Specialist HIV Rehabilitation & Care for the NHS",
+    "evidence": "hiv-associated neurological disorders | hand rehabilitation | specialist rehabilitation | neurocognitive",
+    "qualifying": true
+  },
+  {
+    "name": "Atkinson Morley Regional Neurosciences Centre — St George’s Hospital",
+    "country": "United Kingdom",
+    "url": "https://www.stgeorges.nhs.uk/services/",
+    "status": 200,
+    "title": "Services - St George's University Hospitals NHS Foundation Trust",
+    "evidence": "neurorehabilitation | stroke services | rehabilitation services | functional electrical stimulation",
+    "qualifying": true
+  },
+  {
+    "name": "Rehabilitation services — Queen Mary’s Hospital",
+    "country": "United Kingdom",
+    "url": "https://www.stgeorges.nhs.uk/service/rehabilitation-service/",
+    "status": 200,
+    "title": "Rehabilitation services - St George's University Hospitals NHS Foundation Trust",
+    "evidence": "neuro-rehabilitation | functional electrical stimulation | spasticity management | gait lab",
     "qualifying": true
   },
   {

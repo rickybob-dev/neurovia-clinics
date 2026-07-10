@@ -75,7 +75,11 @@
         <h2>Contact</h2>
       </div>
       <p>{data.center.address}</p>
-      <p><a href={`tel:${data.center.phone}`}>{data.center.phone}</a></p>
+      {#if data.center.phone && data.center.phone !== 'Unknown'}
+        <p><a href={`tel:${data.center.phone}`}>{data.center.phone}</a></p>
+      {:else}
+        <p>Contact via official site</p>
+      {/if}
       <p>{data.center.access.join(' · ')}</p>
     </article>
 

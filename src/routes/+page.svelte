@@ -574,7 +574,9 @@
               {/if}
             </div>
           {/if}
-          <p class="center-card-contact"><Phone size={15} /> <span>{center.phone}</span></p>
+          {#if center.phone && center.phone !== 'Unknown'}
+            <p class="center-card-contact"><Phone size={15} /> <span>{center.phone}</span></p>
+          {/if}
           <div class="center-card-actions">
             <a class="button secondary compact" href={`/center/${center.id}`}>{language === 'it' ? 'Apri dettagli' : 'Open details'}</a>
             <button type="button" class="button secondary compact" on:click={() => pick(center)}>{language === 'it' ? 'Apri mappa' : 'Open map'}</button>
