@@ -370,7 +370,7 @@ export const centers = [
     country: 'Germany',
     city: 'Heidelberg', region: 'Baden-Württemberg', lat: 49.3988, lng: 8.6724,
     address: 'Speyererhof 1, 69124 Heidelberg', phone: '+49 6221 6530',
-    url: 'https://kliniken-schmieder.com/',
+    url: 'https://kliniken-schmieder.com/hospital/heidelberg/',
     conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive'],
     technologies: ['robotics', 'gait', 'tele'],
     modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
@@ -389,7 +389,7 @@ export const centers = [
     country: 'Germany',
     city: 'Heidelberg', region: 'Baden-Württemberg', lat: 49.3988, lng: 8.6724,
     address: 'Speyererhof 1, 69124 Heidelberg', phone: '+49 6221 6530',
-    url: 'https://kliniken-schmieder.com/',
+    url: 'https://kliniken-schmieder.com/hospital/konstanz/',
     conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive'],
     technologies: ['robotics', 'gait', 'tele'],
     modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
@@ -656,6 +656,60 @@ export const centers = [
     }
   },
   {
+    id: 'bdh-braunfels',
+    name: 'BDH-Klinik Braunfels',
+    country: 'Germany',
+    city: 'Braunfels', region: 'Hesse', lat: 50.5159, lng: 8.3899,
+    address: 'Braunfels, Hesse', phone: 'Unknown',
+    url: 'https://www.bdh-klinik-braunfels.de/bdh-klinik-braunfels',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Stroke Unit', 'Neuropsychologie', 'Therapie', 'Pflege'],
+    completeness: 82,
+    researchHighlights: ['Official site matched stroke unit and neurological rehabilitation signals', 'Part of the BDH neurological rehabilitation network', 'Relevant for stroke, brain injury and complex neurological recovery'],
+    features: ['early-rehab', 'stroke-unit'],
+    description: {
+      it: 'Clinica BDH in Assia con profilo neurologico, stroke unit e riabilitazione neurologica specialistica.',
+      en: 'A BDH clinic in Hesse with a neurological profile, stroke unit, and specialist neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'bdh-hessisch-oldendorf',
+    name: 'BDH-Klinik Hessisch Oldendorf',
+    country: 'Germany',
+    city: 'Hessisch Oldendorf', region: 'Lower Saxony', lat: 52.1727, lng: 9.2498,
+    address: 'Hessisch Oldendorf, Lower Saxony', phone: 'Unknown',
+    url: 'https://www.bdh-klinik-hessisch-oldendorf.de/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Neuropsychologie', 'Physiotherapie', 'Logopädie', 'Ergotherapie'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neurological rehabilitation and medical-vocational rehabilitation signals', 'BDH network clinic for complex neurological rehabilitation', 'Relevant for stroke and acquired neurological injuries'],
+    features: ['early-rehab', 'medical-vocational-rehab'],
+    description: {
+      it: 'Clinica BDH in Bassa Sassonia con riabilitazione neurologica e percorsi medico-professionali.',
+      en: 'A BDH clinic in Lower Saxony with neurological rehabilitation and medical-vocational rehabilitation pathways.'
+    }
+  },
+  {
+    id: 'bdh-vallendar',
+    name: 'BDH-Klinik Vallendar',
+    country: 'Germany',
+    city: 'Vallendar', region: 'Rhineland-Palatinate', lat: 50.3957, lng: 7.6243,
+    address: 'Vallendar, Rhineland-Palatinate', phone: 'Unknown',
+    url: 'https://www.bdh-klinik-vallendar.de/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Beatmungsmedizin', 'Rehabilitation', 'Therapie', 'Pflege'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neurological rehab and respiratory medicine signals', 'Part of the BDH rehabilitation network', 'Suitable for complex neurological rehabilitation review'],
+    features: ['early-rehab', 'respiratory-care'],
+    description: {
+      it: 'Clinica BDH in Renania-Palatinato con riabilitazione neurologica e competenze respiratorie per casi complessi.',
+      en: 'A BDH clinic in Rhineland-Palatinate with neurological rehabilitation and respiratory-care expertise for complex cases.'
+    }
+  },
+  {
     id: 'schoen-bad-aibling-harthausen',
     name: 'Schön Klinik Bad Aibling Harthausen',
     country: 'Germany',
@@ -690,6 +744,492 @@ export const centers = [
     description: {
       it: 'Centro neurologico per bambini, adolescenti e giovani adulti con riabilitazione completa e tutte le fasi di neuroriabilitazione.',
       en: 'A neurological center for children, adolescents and young adults with comprehensive rehabilitation across all neurorehabilitation phases.'
+    }
+  },
+  {
+    id: 'schmieder-gailingen',
+    name: 'Kliniken Schmieder Gailingen',
+    country: 'Germany',
+    city: 'Gailingen am Hochrhein', region: 'Baden-Württemberg', lat: 47.6978, lng: 8.7531,
+    address: 'Gailingen am Hochrhein, Baden-Württemberg', phone: 'Unknown',
+    url: 'https://kliniken-schmieder.com/hospital/gailingen/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['gait', 'tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neuropsychologie', 'Physiotherapie', 'Logopädie', 'Ergotherapie'],
+    completeness: 84,
+    researchHighlights: ['Official Schmieder location page matched neurological rehabilitation evidence', 'Part of the Schmieder neurological rehabilitation network', 'Relevant for stroke, brain injury, MS and Parkinson pathways'],
+    features: ['research'],
+    description: {
+      it: 'Sede Schmieder a Gailingen per riabilitazione neurologica specialistica all’interno della rete tedesca Schmieder.',
+      en: 'A Schmieder site in Gailingen for specialist neurological rehabilitation within the German Schmieder network.'
+    }
+  },
+  {
+    id: 'asklepios-schaufling',
+    name: 'Asklepios Klinik Schaufling',
+    country: 'Germany',
+    city: 'Schaufling', region: 'Bavaria', lat: 48.8502, lng: 13.0665,
+    address: 'Schaufling, Bavaria', phone: 'Unknown',
+    url: 'https://www.asklepios.com/schaufling',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neuropsychologie', 'Rehabilitation', 'Therapie', 'Pflege'],
+    completeness: 81,
+    researchHighlights: ['Official Asklepios site matched neurology and neuropsychology signals', 'Specialist rehabilitation clinic rather than generic physiotherapy', 'Relevant for neurological and neuropsychological rehabilitation review'],
+    features: ['neuropsychology'],
+    description: {
+      it: 'Clinica specialistica Asklepios in Baviera con segnali ufficiali di neurologia, neuropsicologia e riabilitazione.',
+      en: 'An Asklepios specialist clinic in Bavaria with official neurology, neuropsychology and rehabilitation signals.'
+    }
+  },
+  {
+    id: 'asklepios-bad-salzhausen',
+    name: 'Asklepios Neurologische Klinik Bad Salzhausen',
+    country: 'Germany',
+    city: 'Bad Salzhausen', region: 'Hesse', lat: 50.4179, lng: 8.9839,
+    address: 'Bad Salzhausen, Hesse', phone: 'Unknown',
+    url: 'https://www.asklepios.com/bad-salzhausen',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neurologische Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official Asklepios site matched neurological clinic and neurological rehabilitation signals', 'Relevant for stroke and broader neurological rehabilitation', 'Private specialist neurology provider'],
+    features: ['neurology'],
+    description: {
+      it: 'Clinica neurologica Asklepios in Assia con segnali ufficiali di riabilitazione neurologica specialistica.',
+      en: 'An Asklepios neurological clinic in Hesse with official signals for specialist neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'rehanova-koeln',
+    name: 'RehaNova Köln',
+    country: 'Germany',
+    city: 'Cologne', region: 'North Rhine-Westphalia', lat: 50.9375, lng: 6.9603,
+    address: 'Cologne, North Rhine-Westphalia', phone: 'Unknown',
+    url: 'https://www.rehanova.de/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Neurologisch-neurochirurgische Rehabilitation', 'Neurologie', 'Neuropsychologie', 'Therapie', 'Pflege'],
+    completeness: 86,
+    researchHighlights: ['Official site describes a neurological-neurosurgical rehabilitation clinic', 'Matched phase B-D, stroke, MS and Parkinson signals', 'Strong candidate for complex inpatient neurorehabilitation'],
+    features: ['early-rehab'],
+    description: {
+      it: 'Clinica di riabilitazione neurologico-neurochirurgica a Colonia con percorsi fase B-D e focus su ictus, MS e Parkinson.',
+      en: 'A neurological-neurosurgical rehabilitation clinic in Cologne with phase B-D pathways and focus on stroke, MS and Parkinson.'
+    }
+  },
+  {
+    id: 'johanniter-godeshoehe-bonn',
+    name: 'Johanniter-Klinik Godeshöhe',
+    country: 'Germany',
+    city: 'Bonn', region: 'North Rhine-Westphalia', lat: 50.7045, lng: 7.1536,
+    address: 'Bonn, North Rhine-Westphalia', phone: 'Unknown',
+    url: 'https://www.godeshoehe.de/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Intensivmedizin', 'Neurologische Frührehabilitation', 'Neuropsychologie', 'Therapie', 'Pflege'],
+    completeness: 85,
+    researchHighlights: ['Official page matched neurological intensive medicine and early rehabilitation', 'Matched MS and Parkinson evidence', 'Relevant for severe acquired neurological injuries and stroke'],
+    features: ['early-rehab', 'intensive-care'],
+    description: {
+      it: 'Clinica Johanniter a Bonn con medicina intensiva neurologica, neuroriabilitazione precoce e percorsi per MS e Parkinson.',
+      en: 'A Johanniter clinic in Bonn with neurological intensive medicine, early neurorehabilitation and pathways for MS and Parkinson.'
+    }
+  },
+  {
+    id: 'mi-bad-heilbrunn',
+    name: 'm&i-Fachklinik Bad Heilbrunn',
+    country: 'Germany',
+    city: 'Bad Heilbrunn', region: 'Bavaria', lat: 47.7460, lng: 11.4590,
+    address: 'Bad Heilbrunn, Bavaria', phone: 'Unknown',
+    url: 'https://www.fachklinik-bad-heilbrunn.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 76,
+    researchHighlights: ['Official clinic page matched rehabilitation and neurological signals', 'Part of the m&i specialist rehabilitation clinic group', 'Broad candidate requiring normal manual confirmation depth'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Fachklinik m&i in Baviera con segnali di riabilitazione e neurologia, da mantenere come candidato specialistico approvato.',
+      en: 'An m&i specialist clinic in Bavaria with rehabilitation and neurology signals, retained as an approved specialist candidate.'
+    }
+  },
+  {
+    id: 'mi-bad-liebenstein',
+    name: 'm&i-Fachklinik Bad Liebenstein',
+    country: 'Germany',
+    city: 'Bad Liebenstein', region: 'Thuringia', lat: 50.8150, lng: 10.3520,
+    address: 'Bad Liebenstein, Thuringia', phone: 'Unknown',
+    url: 'https://www.fachklinik-bad-liebenstein.de/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Weaning', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official site matched neurorehabilitation and weaning evidence', 'm&i specialist rehabilitation clinic', 'Relevant for complex neurological rehabilitation and respiratory transition care'],
+    features: ['early-rehab', 'respiratory-care'],
+    description: {
+      it: 'Fachklinik m&i in Turingia con neuroriabilitazione e weaning per pazienti neurologici complessi.',
+      en: 'An m&i specialist clinic in Thuringia with neurorehabilitation and weaning for complex neurological patients.'
+    }
+  },
+  {
+    id: 'mi-enzensberg',
+    name: 'm&i-Fachklinik Enzensberg',
+    country: 'Germany',
+    city: 'Füssen', region: 'Bavaria', lat: 47.5696, lng: 10.7004,
+    address: 'Füssen, Bavaria', phone: 'Unknown',
+    url: 'https://www.fachklinik-enzensberg.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Phase B Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official site matched phase B and neurological rehabilitation signals', 'm&i specialist clinic in Bavaria', 'Relevant for staged neurological rehabilitation'],
+    features: ['early-rehab'],
+    description: {
+      it: 'Fachklinik m&i a Füssen con segnali di riabilitazione neurologica fase B e percorsi specialistici.',
+      en: 'An m&i specialist clinic in Füssen with phase B neurological rehabilitation signals and specialist pathways.'
+    }
+  },
+  {
+    id: 'mi-herzogenaurach',
+    name: 'm&i-Fachklinik Herzogenaurach',
+    country: 'Germany',
+    city: 'Herzogenaurach', region: 'Bavaria', lat: 49.5680, lng: 10.8830,
+    address: 'Herzogenaurach, Bavaria', phone: 'Unknown',
+    url: 'https://www.fachklinik-herzogenaurach.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 76,
+    researchHighlights: ['Official clinic page matched rehabilitation and neurological signals', 'Part of the m&i specialist rehabilitation group', 'Broad approved candidate for neurological rehabilitation review'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Fachklinik m&i in Baviera con segnali ufficiali di neurologia e riabilitazione specialistica.',
+      en: 'An m&i specialist clinic in Bavaria with official neurology and specialist rehabilitation signals.'
+    }
+  },
+  {
+    id: 'mi-ichenhausen',
+    name: 'm&i-Fachklinik Ichenhausen',
+    country: 'Germany',
+    city: 'Ichenhausen', region: 'Bavaria', lat: 48.3710, lng: 10.3070,
+    address: 'Ichenhausen, Bavaria', phone: 'Unknown',
+    url: 'https://www.fachklinik-ichenhausen.de/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Parkinson Rehabilitation', 'Neuropsychologie', 'Therapie', 'Pflege'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neurology and Parkinson evidence', 'm&i specialist rehabilitation clinic', 'Relevant for Parkinson and acquired neurological rehabilitation'],
+    features: ['parkinson'],
+    description: {
+      it: 'Fachklinik m&i in Baviera con segnali ufficiali di neurologia e percorsi rilevanti per Parkinson.',
+      en: 'An m&i specialist clinic in Bavaria with official neurology signals and relevant Parkinson pathways.'
+    }
+  },
+  {
+    id: 'mi-hohenurach',
+    name: 'm&i-Fachkliniken Hohenurach',
+    country: 'Germany',
+    city: 'Bad Urach', region: 'Baden-Württemberg', lat: 48.4910, lng: 9.4000,
+    address: 'Bad Urach, Baden-Württemberg', phone: 'Unknown',
+    url: 'https://www.fachkliniken-hohenurach.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neuropsychologie', 'Therapie', 'Pflege', 'Rehabilitation'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neuropsychology and stroke evidence', 'm&i specialist rehabilitation clinic', 'Relevant for stroke and cognitive-neurological rehabilitation'],
+    features: ['neuropsychology', 'stroke'],
+    description: {
+      it: 'Fachkliniken m&i a Bad Urach con focus su neuropsicologia, ictus e riabilitazione specialistica.',
+      en: 'm&i specialist clinics in Bad Urach with focus on neuropsychology, stroke and specialist rehabilitation.'
+    }
+  },
+  {
+    id: 'marcus-klinik-bad-driburg',
+    name: 'Marcus Klinik Bad Driburg',
+    country: 'Germany',
+    city: 'Bad Driburg', region: 'North Rhine-Westphalia', lat: 51.7350, lng: 9.0190,
+    address: 'Bad Driburg, North Rhine-Westphalia', phone: 'Unknown',
+    url: 'https://www.marcus-klinik.de/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Parkinson Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neurology and Parkinson evidence', 'Rehabilitation clinic rather than generic physiotherapy', 'Relevant for neurological rehabilitation review'],
+    features: ['parkinson'],
+    description: {
+      it: 'Clinica di riabilitazione a Bad Driburg con segnali ufficiali di neurologia e Parkinson.',
+      en: 'A rehabilitation clinic in Bad Driburg with official neurology and Parkinson signals.'
+    }
+  },
+  {
+    id: 'mediclin-rhein-ruhr-essen',
+    name: 'MediClin Fachklinik Rhein/Ruhr',
+    country: 'Germany',
+    city: 'Essen', region: 'North Rhine-Westphalia', lat: 51.4556, lng: 7.0116,
+    address: 'Essen, North Rhine-Westphalia', phone: 'Unknown',
+    url: 'https://www.fachklinik-rheinruhr.de/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official site matched neurology, stroke and multiple sclerosis evidence', 'MediClin specialist rehabilitation provider', 'Relevant for neurological rehabilitation in North Rhine-Westphalia'],
+    features: ['stroke'],
+    description: {
+      it: 'Fachklinik MediClin nell’area Reno-Ruhr con segnali ufficiali per neurologia, ictus e sclerosi multipla.',
+      en: 'A MediClin specialist clinic in the Rhein-Ruhr area with official signals for neurology, stroke and multiple sclerosis.'
+    }
+  },
+  {
+    id: 'moritz-klinik-bad-klosterlausnitz',
+    name: 'Moritz Klinik Bad Klosterlausnitz',
+    country: 'Germany',
+    city: 'Bad Klosterlausnitz', region: 'Thuringia', lat: 50.9160, lng: 11.8610,
+    address: 'Bad Klosterlausnitz, Thuringia', phone: 'Unknown',
+    url: 'https://www.moritz-klinik.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official site matched neurology, rehabilitation and stroke evidence', 'Specialist rehabilitation clinic in Thuringia', 'Relevant for neurological and stroke rehabilitation'],
+    features: ['stroke'],
+    description: {
+      it: 'Clinica di riabilitazione in Turingia con segnali ufficiali di neurologia, riabilitazione e ictus.',
+      en: 'A rehabilitation clinic in Thuringia with official neurology, rehabilitation and stroke signals.'
+    }
+  },
+  {
+    id: 'srh-kurpfalzkrankenhaus-heidelberg',
+    name: 'SRH Kurpfalzkrankenhaus Heidelberg',
+    country: 'Germany',
+    city: 'Heidelberg', region: 'Baden-Württemberg', lat: 49.4020, lng: 8.6720,
+    address: 'Heidelberg, Baden-Württemberg', phone: 'Unknown',
+    url: 'https://www.kurpfalzkrankenhaus.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neurologische Frührehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 81,
+    researchHighlights: ['Official hospital page matched neurology signals', 'Seeded as a specialist neurology hospital with early rehabilitation relevance', 'Adds Heidelberg neurorehabilitation coverage beyond the Schmieder network'],
+    features: ['early-rehab'],
+    description: {
+      it: 'Ospedale SRH a Heidelberg con profilo neurologico e rilevanza per neuroriabilitazione precoce.',
+      en: 'An SRH hospital in Heidelberg with a neurological profile and relevance for early neurorehabilitation.'
+    }
+  },
+  {
+    id: 'dr-becker-neurozentrum-niedersachsen',
+    name: 'Dr. Becker Neurozentrum Niedersachsen',
+    country: 'Germany',
+    city: 'Bad Essen', region: 'Lower Saxony', lat: 52.3217, lng: 8.3370,
+    address: 'Bad Essen, Lower Saxony', phone: 'Unknown',
+    url: 'https://www.dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 76,
+    researchHighlights: ['Approved after second-pass review', 'Official page matched neuro and center signals', 'Specialist neurology rehabilitation provider in the Dr. Becker network'],
+    features: ['neurology'],
+    description: {
+      it: 'Neurozentrum Dr. Becker in Bassa Sassonia, approvato per la mappa come centro specialistico di riabilitazione neurologica.',
+      en: 'A Dr. Becker neuro center in Lower Saxony, approved for the map as a specialist neurological rehabilitation center.'
+    }
+  },
+  {
+    id: 'median-berlin-kladow',
+    name: 'MEDIAN Klinik Berlin-Kladow',
+    country: 'Germany',
+    city: 'Berlin', region: 'Berlin', lat: 52.4540, lng: 13.1440,
+    address: 'Berlin-Kladow, Berlin', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-berlin-kladow/',
+    conditions: ['stroke', 'tbi', 'ms', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Neurologie', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 84,
+    researchHighlights: ['Official page matched neurological rehabilitation evidence', 'Second-pass candidate approved for Berlin coverage', 'Relevant for stroke and acquired neurological rehabilitation'],
+    features: ['neurological-rehab'],
+    description: {
+      it: 'Clinica MEDIAN a Berlino-Kladow con riabilitazione neurologica ufficialmente rilevata e focus su ictus e lesioni neurologiche.',
+      en: 'A MEDIAN clinic in Berlin-Kladow with official neurological rehabilitation evidence and focus on stroke and acquired neurological injuries.'
+    }
+  },
+  {
+    id: 'median-nrz-magdeburg',
+    name: 'MEDIAN Klinik NRZ Magdeburg',
+    country: 'Germany',
+    city: 'Magdeburg', region: 'Saxony-Anhalt', lat: 52.1205, lng: 11.6276,
+    address: 'Magdeburg, Saxony-Anhalt', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-nrz-magdeburg/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologisches Rehabilitationszentrum', 'Neurologie', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 85,
+    researchHighlights: ['Official page matched neurological rehabilitation and neurorehabilitation evidence', 'NRZ specialist neurorehabilitation profile', 'Relevant for stroke and complex neurological recovery'],
+    features: ['neurological-rehab', 'early-rehab'],
+    description: {
+      it: 'Centro MEDIAN NRZ a Magdeburgo con profilo di neuroriabilitazione e percorsi per recupero neurologico complesso.',
+      en: 'A MEDIAN NRZ center in Magdeburg with a neurorehabilitation profile and pathways for complex neurological recovery.'
+    }
+  },
+  {
+    id: 'median-flechtingen',
+    name: 'MEDIAN Klinik Flechtingen',
+    country: 'Germany',
+    city: 'Flechtingen', region: 'Saxony-Anhalt', lat: 52.3308, lng: 11.2414,
+    address: 'Flechtingen, Saxony-Anhalt', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-flechtingen/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Phase B Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official page matched neurology and phase B evidence', 'MEDIAN specialist rehabilitation provider', 'Relevant for early and staged neurological rehabilitation'],
+    features: ['early-rehab'],
+    description: {
+      it: 'Clinica MEDIAN a Flechtingen con segnali ufficiali di neurologia e riabilitazione fase B.',
+      en: 'A MEDIAN clinic in Flechtingen with official neurology and phase B rehabilitation signals.'
+    }
+  },
+  {
+    id: 'median-gyhum',
+    name: 'MEDIAN Klinik Gyhum',
+    country: 'Germany',
+    city: 'Gyhum', region: 'Lower Saxony', lat: 53.2160, lng: 9.3150,
+    address: 'Gyhum, Lower Saxony', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-gyhum/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official page matched neurology and rehabilitation evidence', 'Second-pass MEDIAN candidate approved for Lower Saxony coverage', 'Relevant for neurological rehabilitation review'],
+    features: ['neurology'],
+    description: {
+      it: 'Clinica MEDIAN in Bassa Sassonia con segnali ufficiali di neurologia e riabilitazione.',
+      en: 'A MEDIAN clinic in Lower Saxony with official neurology and rehabilitation signals.'
+    }
+  },
+  {
+    id: 'median-kalbe',
+    name: 'MEDIAN Klinik Kalbe',
+    country: 'Germany',
+    city: 'Kalbe', region: 'Saxony-Anhalt', lat: 52.6560, lng: 11.3880,
+    address: 'Kalbe, Saxony-Anhalt', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-kalbe/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 82,
+    researchHighlights: ['Official page matched neurology and rehabilitation evidence', 'MEDIAN specialist rehabilitation provider', 'Adds Saxony-Anhalt neurological rehab coverage'],
+    features: ['neurology'],
+    description: {
+      it: 'Clinica MEDIAN a Kalbe con segnali ufficiali di neurologia e riabilitazione specialistica.',
+      en: 'A MEDIAN clinic in Kalbe with official neurology and specialist rehabilitation signals.'
+    }
+  },
+  {
+    id: 'median-wilhelmshaven',
+    name: 'MEDIAN Klinik Wilhelmshaven',
+    country: 'Germany',
+    city: 'Wilhelmshaven', region: 'Lower Saxony', lat: 53.5323, lng: 8.1069,
+    address: 'Wilhelmshaven, Lower Saxony', phone: 'Unknown',
+    url: 'https://www.median-kliniken.de/de/median-klinik-wilhelmshaven/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official page matched neurology, rehabilitation, stroke and neurorehabilitation evidence', 'Second-pass MEDIAN candidate approved for coastal Lower Saxony coverage', 'Relevant for neurological rehabilitation review'],
+    features: ['stroke', 'neurology'],
+    description: {
+      it: 'Clinica MEDIAN a Wilhelmshaven con segnali ufficiali di neurologia, ictus e neuroriabilitazione.',
+      en: 'A MEDIAN clinic in Wilhelmshaven with official neurology, stroke and neurorehabilitation signals.'
+    }
+  },
+  {
+    id: 'passauer-wolf-bad-goegging',
+    name: 'Passauer Wolf Bad Gögging',
+    country: 'Germany',
+    city: 'Bad Gögging', region: 'Bavaria', lat: 48.8160, lng: 11.7850,
+    address: 'Bad Gögging, Bavaria', phone: 'Unknown',
+    url: 'https://www.passauerwolf.de/standorte/bad-goegging/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official page matched neurology, stroke and Parkinson evidence', 'Passauer Wolf specialist rehabilitation provider', 'Relevant for neurological and Parkinson rehabilitation pathways'],
+    features: ['parkinson', 'stroke'],
+    description: {
+      it: 'Sede Passauer Wolf a Bad Gögging con segnali ufficiali di neurologia, ictus e Parkinson.',
+      en: 'A Passauer Wolf site in Bad Gögging with official neurology, stroke and Parkinson signals.'
+    }
+  },
+  {
+    id: 'passauer-wolf-bad-griesbach',
+    name: 'Passauer Wolf Bad Griesbach',
+    country: 'Germany',
+    city: 'Bad Griesbach', region: 'Bavaria', lat: 48.4510, lng: 13.1940,
+    address: 'Bad Griesbach, Bavaria', phone: 'Unknown',
+    url: 'https://www.passauerwolf.de/standorte/bad-griesbach/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official page matched neurology, stroke and Parkinson evidence', 'Passauer Wolf specialist rehabilitation provider', 'Relevant for neurological rehabilitation in Bavaria'],
+    features: ['parkinson', 'stroke'],
+    description: {
+      it: 'Sede Passauer Wolf a Bad Griesbach con segnali ufficiali di neurologia, ictus e Parkinson.',
+      en: 'A Passauer Wolf site in Bad Griesbach with official neurology, stroke and Parkinson signals.'
+    }
+  },
+  {
+    id: 'passauer-wolf-nittenau',
+    name: 'Passauer Wolf Nittenau',
+    country: 'Germany',
+    city: 'Nittenau', region: 'Bavaria', lat: 49.1940, lng: 12.2680,
+    address: 'Nittenau, Bavaria', phone: 'Unknown',
+    url: 'https://www.passauerwolf.de/standorte/nittenau/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 83,
+    researchHighlights: ['Official page matched neurology, stroke and Parkinson evidence', 'Passauer Wolf specialist rehabilitation provider', 'Relevant for neurological and Parkinson rehabilitation pathways'],
+    features: ['parkinson', 'stroke'],
+    description: {
+      it: 'Sede Passauer Wolf a Nittenau con segnali ufficiali di neurologia, ictus e Parkinson.',
+      en: 'A Passauer Wolf site in Nittenau with official neurology, stroke and Parkinson signals.'
+    }
+  },
+  {
+    id: 'srh-fachkrankenhaus-neresheim',
+    name: 'SRH Fachkrankenhaus Neresheim',
+    country: 'Germany',
+    city: 'Neresheim', region: 'Baden-Württemberg', lat: 48.7530, lng: 10.3310,
+    address: 'Neresheim, Baden-Württemberg', phone: 'Unknown',
+    url: 'https://www.fachkrankenhaus-neresheim.de/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Intensivmedizin', 'Neurologische Frührehabilitation', 'Therapie', 'Pflege', 'Neuropsychologie'],
+    completeness: 84,
+    researchHighlights: ['Official page matched intensive medicine and neurological evidence', 'Specialist hospital seeded for neurological early rehabilitation', 'Relevant for severe brain injury and early recovery pathways'],
+    features: ['early-rehab', 'intensive-care'],
+    description: {
+      it: 'Fachkrankenhaus SRH a Neresheim con profilo di medicina intensiva e neuroriabilitazione precoce.',
+      en: 'An SRH specialist hospital in Neresheim with intensive medicine and early neurorehabilitation profile.'
+    }
+  },
+  {
+    id: 'vitrea-hattingen',
+    name: 'Vitrea Klinik Hattingen',
+    country: 'Germany',
+    city: 'Hattingen', region: 'North Rhine-Westphalia', lat: 51.3980, lng: 7.1850,
+    address: 'Hattingen, North Rhine-Westphalia', phone: 'Unknown',
+    url: 'https://www.vitrea-gesundheit.de/reha/hattingen/',
+    conditions: ['stroke', 'tbi', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurologie', 'Neurochirurgie', 'Neuropädiatrie', 'Rehabilitation', 'Therapie'],
+    completeness: 85,
+    researchHighlights: ['Official page matched neurology, neurosurgery and rehabilitation evidence', 'Relevant for adult and pediatric neurological rehabilitation review', 'Specialist neurorehabilitation provider in North Rhine-Westphalia'],
+    features: ['early-rehab', 'pediatric-neuro'],
+    description: {
+      it: 'Clinica Vitrea a Hattingen con profilo di riabilitazione neurologica, neurochirurgica e neuropediatrica.',
+      en: 'A Vitrea clinic in Hattingen with neurological, neurosurgical and neuropediatric rehabilitation profile.'
     }
   },
   {

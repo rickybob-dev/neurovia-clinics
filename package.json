@@ -8,6 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "scrape": "node scripts/scrape-neurorehab.mjs",
+    "scrape:discover": "node scripts/scrape-neurorehab.mjs --discover-only",
     "export:csv": "node scripts/export-neurorehab-csv.mjs"
   },
   "devDependencies": {

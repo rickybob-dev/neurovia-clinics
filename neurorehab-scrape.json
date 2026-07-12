@@ -1,452 +1,3941 @@
 [
   {
-    "name": "Centro Giusti Firenze",
-    "country": "Italy",
-    "url": "https://www.centrogiusti.eu/",
-    "status": 200,
-    "title": "Riabilitazione e fisioterapia | Centro Giusti Firenze",
-    "evidence": "pazienti neurologici | lesioni midollari | esoscheletro | ictus | sclerosi multipla | riabilitazione intensa e continuativa",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Institut Guttmann",
-    "country": "Spain",
-    "url": "https://www.guttmann.com/es",
-    "status": 200,
-    "title": "Hospital de Neurorrehabilitación | Institut Guttmann",
-    "evidence": "neurorrehabilitación | investigación",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Nacional de Parapléjicos",
-    "country": "Spain",
-    "url": "http://www.infomedula.org/",
-    "status": 200,
-    "title": "INFOMÉDULA - Fundación del Hospital Nacional de Parapléjicos para la Investigación y la IntegraciónINFOMÉDULA | Fundación del Hospital Nacional de Parapléjicos para la Investigación y la Integración",
-    "evidence": "lesión medular | investigación",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Quirónsalud Miguel Domínguez",
-    "country": "Spain",
-    "url": "https://www.quironsalud.com/migueldominguez",
-    "status": 200,
-    "title": "Hospital Quirónsalud Pontevedra",
-    "evidence": "unidad de neuro-rehabilitación | neuro-rehabilitación | exoesqueletos robóticos | realidad virtual | pacientes neurológicos",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Vithas Aguas Vivas",
-    "country": "Spain",
-    "url": "https://vithas.es/centro/vithas-hospital-aguas-vivas/",
-    "status": 200,
-    "title": "Hospital Privado en Carcaixent, Valencia | Vithas Aguas Vivas",
-    "evidence": "unidad de neurorrehabilitación y daño cerebral | neurorrehabilitación especializada | piscina | tecnología robótica | rv",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Vithas Sevilla",
-    "country": "Spain",
-    "url": "https://vithas.es/centro/vithas-hospital-sevilla/",
-    "status": 200,
-    "title": "Hospital Privado en Sevilla | Vithas Sevilla",
-    "evidence": "unidad de neurorrehabilitación | unidad hospitalaria de daño cerebral",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Vithas Xanit Internacional",
-    "country": "Spain",
-    "url": "https://vithas.es/centro/vithas-hospital-xanit-internacional/",
-    "status": 200,
-    "title": "Hospital Privado en Benalmádena, Málaga | Vithas Xanit Internacional",
-    "evidence": "unidad de neurorrehabilitación",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Vithas Valencia Consuelo",
-    "country": "Spain",
-    "url": "https://vithas.es/centro/vithas-hospital-valencia-consuelo/",
-    "status": 200,
-    "title": "Vithas Valencia Consuelo | Hospital Virgen del Consuelo",
-    "evidence": "unidad de neurorrehabilitación pediátrica | cdiat | unidad de neurorrehabilitación",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hospital Vithas Vigo",
-    "country": "Spain",
-    "url": "https://vithas.es/centro/vithas-hospital-vigo/",
-    "status": 200,
-    "title": "Hospital Privado en Vigo | Vithas Vigo",
-    "evidence": "unidad de neurorrehabilitación",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Kliniken Schmieder",
-    "country": "Germany",
-    "url": "https://kliniken-schmieder.com/",
-    "status": 200,
-    "title": "Neurorehabilitation in Germany | Kliniken Schmieder",
-    "evidence": "neurological rehabilitation | rehabilitation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Service universitaire de MPR neurologique — CHU de Nantes",
-    "country": "France",
-    "url": "https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique",
-    "status": 200,
-    "title": "CHU de Nantes - Service universitaire de médecine physique et réadaptation neurologique",
-    "evidence": "handicap neurologique lourd | lésions médullaires | rééducation-réadaptation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hôpital Maritime de Berck — AP-HP",
-    "country": "France",
-    "url": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck/",
-    "status": 200,
-    "title": "Présentation de l’hôpital Maritime de Berck | Hôpital Maritime de Berck",
-    "evidence": "rééducation neurologique | balnéothérapie en eau de mer | atelier fauteuils roulants | plateau de rééducation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hôpital Henry Gabrielle — HCL",
-    "country": "France",
-    "url": "https://www.chu-lyon.fr/hopital-henry-gabrielle",
-    "status": 200,
-    "title": "Hôpital Henry Gabrielle | Hospices Civils de Lyon",
-    "evidence": "rééducation des affections neurologiques | blessures médullaires | traumatismes crâniens | suivis post-avc",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Centro de Medicina de Reabilitação de Alcoitão",
-    "country": "Portugal",
-    "url": "https://cmra.scml.pt/",
-    "status": 200,
-    "title": "Início - CMRA",
-    "evidence": "reabilitação | terapia da fala | ortoprotesia",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "URI Soča",
-    "country": "Slovenia",
-    "url": "https://www.uri-soca.si/en/",
-    "status": 200,
-    "title": "URI Soča - University Rehabilitation Institute, Republic of Slovenia - Soča",
-    "evidence": "rehabilitation | research",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Roessingh",
-    "country": "Netherlands",
-    "url": "https://www.roessingh.nl/",
-    "status": 200,
-    "title": "Revalidatiecentrum Roessingh",
-    "evidence": "niet-aangeboren hersenletsel | multiple sclerose | parkinson | patiënttevredenheid",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
     "name": "Inkendaal",
     "country": "Belgium",
+    "city": "Vlezenbeek",
+    "region": "Flemish Brabant",
     "url": "https://www.inkendaal.be/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Reference center for several rehabilitation specialties",
+      "Official quality model and accreditation history",
+      "A rehabilitation hospital with multidisciplinary teams, adult and pediatric pathways, and extramural activities including a pool.",
+      "Ospedale di riabilitazione con team multidisciplinare, percorsi per adulti e bambini e attività extramurali inclusa la piscina."
+    ],
     "status": 200,
-    "title": "Revalidatieziekenhuis Inkendaal Vlezenbeek",
-    "evidence": "neurologische beperkingen | zwembad | gehospitaliseerde | ambulante",
+    "finalUrl": "https://www.inkendaal.be/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
     "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "revalidatieziekenhuis"
+      ]
+    },
+    "title": "Revalidatieziekenhuis Inkendaal Vlezenbeek"
   },
   {
-    "name": "BDH-Klinik Elzach",
-    "country": "Germany",
-    "url": "https://www.bdh-klinik-elzach.de/",
-    "status": 200,
-    "title": "Startseite - BDH-Klinik Elzach",
-    "evidence": "neurologische rehabilitation | neurologische intensivmedizin | frührehabilitation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "BDH-Klinik Greifswald",
-    "country": "Germany",
-    "url": "https://www.bdh-klinik-greifswald.de/",
-    "status": 200,
-    "title": "Startseite - BDH-Klinik Greifswald",
-    "evidence": "zentrum für neurorehabilitation | frührehabilitation | rehabilitation schwerst schädelhirngeschädigter patienten",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Schön Klinik Bad Aibling Harthausen",
-    "country": "Germany",
-    "url": "https://www.schoen-klinik.de/bad-aibling-harthausen",
-    "status": 200,
-    "title": "Schön Klinik Bad Aibling Harthausen",
-    "evidence": "neurologische frührehabilitation | robotergestützte | schlaganfall | stroke unit",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Hegau-Jugendwerk Gailingen",
-    "country": "Germany",
-    "url": "https://hegau-jugendwerk.de/",
-    "status": 200,
-    "title": "Hegau-Jugendwerk Gailingen | Die Pioniere der neurologischen Rehabilitation junger Menschen.",
-    "evidence": "neurologische rehabilitation | rehabilitationsphasen b, c, d und e | kinder | jugendliche | junge erwachsene",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Kliniken Schmieder Allensbach",
-    "country": "Germany",
-    "url": "https://kliniken-schmieder.com/hospital/allensbach/",
-    "status": 200,
-    "title": "Rehabilitation hospital - Kliniken Schmieder Allensbach",
-    "evidence": "neurological rehabilitation | day care",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Kliniken Schmieder Gerlingen",
-    "country": "Germany",
-    "url": "https://kliniken-schmieder.com/hospital/gerlingen/",
-    "status": 200,
-    "title": "Rehabilitation center in Germany - Kliniken Schmieder Gerlingen",
-    "evidence": "neurological rehabilitation | phase b | day care",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Kliniken Schmieder Stuttgart",
-    "country": "Germany",
-    "url": "https://kliniken-schmieder.com/hospital/stuttgart/",
-    "status": 200,
-    "title": "Rehabilitation center in Germany - Kliniken Schmieder Stuttgart",
-    "evidence": "neurological rehabilitation | outpatient | day clinic",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Rehaklinik Zihlschlacht",
-    "country": "Switzerland",
-    "url": "https://www.rehaklinik-zihlschlacht.ch/",
-    "status": 200,
-    "title": "Klinik für Neurologische Rehabilitation | Rehaklinik Zihlschlacht",
-    "evidence": "neurorehabilitation | parkinson",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Rehaklinik Tschugg",
-    "country": "Switzerland",
-    "url": "https://www.rehaklinik-tschugg.ch/",
-    "status": 200,
-    "title": "Klinik für Epilepsie & Neurorehabilitation | Rehaklinik Tschugg",
-    "evidence": "parkinson | brain health",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Sunnaas sykehus HF",
-    "country": "Norway",
-    "url": "https://www.sunnaas.no/",
-    "status": 200,
-    "title": "Forside - Sunnaas sykehus HF",
-    "evidence": "rehabilitering | forskning | tverrfaglig",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Royal Hospital for Neuro-disability",
-    "country": "United Kingdom",
-    "url": "https://www.rhn.org.uk/",
-    "status": 200,
-    "title": "Royal Hospital for Neuro-disability",
-    "evidence": "rehab | neuro-disability | brain injury | research",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Swiss Paraplegic Centre",
-    "country": "Switzerland",
-    "url": "https://www.paraplegie.ch/en/",
-    "status": 200,
-    "title": "Schweizer Paraplegiker-Gruppe | We support people with spinal cord injuries.",
-    "evidence": "spinal cord injuries | spinal cord injury | rehabilitation | research | innovation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Balgrist University Hospital",
-    "country": "Switzerland",
-    "url": "https://www.balgrist.ch/en/",
-    "status": 200,
-    "title": "Balgrist University Hospital: Balgrist University Hospital",
-    "evidence": "spinal cord injury centre | spinal cord injuries | physiotherapy | nursing care | research",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "London Spinal Cord Injury Centre",
-    "country": "United Kingdom",
-    "url": "https://www.rnoh.nhs.uk/",
-    "status": 200,
-    "title": "Home :: Royal National Orthopaedic Hospital",
-    "evidence": "spinal cord injury centre | rehabilitation and therapy",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Mildmay Hospital",
-    "country": "United Kingdom",
-    "url": "https://www.mildmay.nhs.uk/",
-    "status": 200,
-    "title": "Mildmay Hospital | Specialist HIV Rehabilitation & Care for the NHS",
-    "evidence": "hiv-associated neurological disorders | hand rehabilitation | specialist rehabilitation | neurocognitive",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Atkinson Morley Regional Neurosciences Centre — St George’s Hospital",
-    "country": "United Kingdom",
-    "url": "https://www.stgeorges.nhs.uk/services/",
-    "status": 200,
-    "title": "Services - St George's University Hospitals NHS Foundation Trust",
-    "evidence": "neurorehabilitation | stroke services | rehabilitation services | functional electrical stimulation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Rehabilitation services — Queen Mary’s Hospital",
-    "country": "United Kingdom",
-    "url": "https://www.stgeorges.nhs.uk/service/rehabilitation-service/",
-    "status": 200,
-    "title": "Rehabilitation services - St George's University Hospitals NHS Foundation Trust",
-    "evidence": "neuro-rehabilitation | functional electrical stimulation | spasticity management | gait lab",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Klinik Valens",
-    "country": "Switzerland",
-    "url": "https://www.klinik-valens.ch/",
-    "status": 200,
-    "title": "Startseite | Klinikgruppe Valens",
-    "evidence": "rehabilitation",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Sankt Rochus Kliniken",
-    "country": "Germany",
-    "url": "https://www.sankt-rochus-kliniken.de/",
-    "status": 200,
-    "title": "Sankt Rochus Kliniken",
-    "evidence": "neurologische frührehabilitation | neurologische rehabilitation | phase b | phase c | phase d",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "KLINIK BAVARIA Kreischa",
-    "country": "Germany",
-    "url": "https://www.klinik-bavaria.de/",
-    "status": 200,
-    "title": "KLINIK BAVARIA Kreischa und Zscheckwitz (Sachsen)",
-    "evidence": "intensiv-reha | frührehabilitation | neurologie",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Rehabilitační ústav Brandýs nad Orlicí",
-    "country": "Czech Republic",
-    "url": "https://www.rehabilitacniustav.cz/",
-    "status": 200,
-    "title": "Rehabilitace | Rehabilitační ústav Brandýs nad Orlicí",
-    "evidence": "robotická rehabilitace | neurorehabilitace | bazén",
-    "qualifying": true,
-    "validationTier": "strict"
+    "name": "Revalidatieziekenhuis RevArte",
+    "country": "Belgium",
+    "city": "Edegem",
+    "region": "Antwerp",
+    "url": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Hersenletselkliniek on the official site",
+      "Dwarslaesiekliniek on the official site",
+      "Residentieel and ambulant rehab pathways",
+      "A rehabilitation hospital in Edegem with dedicated brain-injury and spinal cord pathways, both inpatient and outpatient.",
+      "Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale."
+    ],
+    "status": null,
+    "finalUrl": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte",
+    "title": "",
+    "evidence": "fetch failed",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "University Hospital Centre Zagreb",
     "country": "Croatia",
-    "url": "http://www.kbc-zagreb.hr/",
+    "city": "Zagreb",
+    "region": "City of Zagreb",
+    "url": "https://www.kbc-zagreb.hr/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital site lists neurology, neurosurgery and rehabilitation services",
+      "Multiple campus locations including the rehabilitation facility at Božidarevićeva 11",
+      "A major university hospital in Zagreb with neurology, neurosurgery and a rehabilitation and orthopaedic aids service.",
+      "Grande centro ospedaliero universitario di Zagabria con neurologia, neurochirurgia e un servizio di riabilitazione e ausili ortopedici."
+    ],
     "status": 200,
-    "title": "Naslovnica - Klinički bolnički centar Zagreb",
-    "evidence": "klinika za neurologiju | klinički zavod za rehabilitaciju i ortopedska pomagala | neurokirurgija",
+    "finalUrl": "https://www.kbc-zagreb.hr/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
     "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "rehab | neurolog | neuro | spinal | hospital | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "klinik",
+        "centre"
+      ]
+    },
+    "title": "Naslovnica - Klinički bolnički centar Zagreb"
+  },
+  {
+    "name": "Rehabilitační ústav Brandýs nad Orlicí",
+    "country": "Czech Republic",
+    "city": "Brandýs nad Orlicí",
+    "region": "Pardubice Region",
+    "url": "https://www.rehabilitacniustav.cz/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Robotická rehabilitace a neurorehabilitace on the official site",
+      "Hydrotherapy and pool services",
+      "Specialist rehab stays and high bed capacity",
+      "A Czech rehabilitation center with robotic rehabilitation and neurorehabilitation explicitly listed on the official site, plus hydrotherapy and a pool.",
+      "Centro ceco di riabilitazione con robotica e neuroriabilitazione esplicitamente indicate sul sito ufficiale, oltre a idroterapia e piscina."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehabilitacniustav.cz/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitace | rehab | rehabilitace | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitace"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitace"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Rehabilitace | Rehabilitační ústav Brandýs nad Orlicí"
+  },
+  {
+    "name": "Haapsalu Neurological Rehabilitation Centre",
+    "country": "Estonia",
+    "city": "Haapsalu",
+    "region": "Lääne County",
+    "url": "https://www.hnrk.ee/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurorehabilitatsiooni osakond is listed on the official site",
+      "Spinaalse rehabilitatsiooni osakond is listed on the official site",
+      "Statsionaarne and ambulatory rehab services",
+      "An Estonian neurorehabilitation centre in Haapsalu with dedicated neuro and spinal rehabilitation units, plus inpatient and outpatient pathways.",
+      "Centro estone di neuroriabilitazione a Haapsalu con reparti per riabilitazione neuro e spinale, oltre a percorsi residenziali e ambulatoriali."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hnrk.ee/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitatsioon | rehab | taastusravi | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitatsioon"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "taastusravi"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "HNRK - HNRK"
+  },
+  {
+    "name": "Hôpital Henry Gabrielle — HCL",
+    "country": "France",
+    "city": "Saint-Genis-Laval",
+    "region": "Auvergne-Rhône-Alpes",
+    "url": "https://www.chu-lyon.fr/hopital-henry-gabrielle",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Nationally recognized neurological rehabilitation center",
+      "Post-stroke, spinal cord injury and traumatic brain injury pathways",
+      "Piscine, gymnasium and movement-analysis laboratory",
+      "A nationally recognized HCL center for neurological rehabilitation, with a pool and movement-analysis lab.",
+      "Centro HCL di riferimento nazionale per la riabilitazione delle affezioni neurologiche, con piscina e laboratorio di analisi del movimento."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.chu-lyon.fr/hopital-henry-gabrielle",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | parkinson | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "réadaptation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Hôpital Henry Gabrielle | Hospices Civils de Lyon"
+  },
+  {
+    "name": "Hôpital Maritime de Berck — AP-HP",
+    "country": "France",
+    "city": "Berck",
+    "region": "Hauts-de-France",
+    "url": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official AP-HP page calls it a reference for neurological rehabilitation",
+      "Sea-water balneotherapy and dedicated rehab plateau",
+      "Adult inpatient SMR with 91 neurorehab beds",
+      "An AP-HP reference hospital for neurological rehabilitation with sea-water balneotherapy and a dedicated rehab platform.",
+      "Ospedale AP-HP di riferimento per la riabilitazione neurologica con balneoterapia in acqua di mare e piattaforma tecnica dedicata."
+    ],
+    "status": 200,
+    "finalUrl": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rééducation neurologique | rééducation | réadaptation | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rééducation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Présentation de l hôpital Maritime de Berck | Hôpital Maritime de Berck"
+  },
+  {
+    "name": "Service universitaire de MPR neurologique — CHU de Nantes",
+    "country": "France",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "url": "https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official university neuro-rehab service for severe neurological handicap",
+      "Rehab for spinal cord injury and severe brain injury",
+      "Post-ICU neurorehab pathway and movement analysis",
+      "A university neurological rehabilitation service focused on severe neurological disability, spinal cord injury, and severe brain injury.",
+      "Servizio universitario di neuroriabilitazione con presa in carico dei grandi handicap neurologici, lesioni midollari e cerebrolesioni gravi."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique",
+    "contentType": "text/html;charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | lesion medull",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "réadaptation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "lesion medull"
+      ],
+      "institution": []
+    },
+    "title": "CHU de Nantes - Service universitaire de médecine physique et réadaptation neurologique"
+  },
+  {
+    "name": "Asklepios Klinik Schaufling",
+    "country": "Germany",
+    "city": "Schaufling",
+    "region": "Bavaria",
+    "url": "https://www.asklepios.com/schaufling",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Asklepios official site / specialist rehab clinic",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official Asklepios site matched neurology and neuropsychology signals",
+      "Specialist rehabilitation clinic rather than generic physiotherapy",
+      "Relevant for neurological and neuropsychological rehabilitation review",
+      "An Asklepios specialist clinic in Bavaria with official neurology, neuropsychology and rehabilitation signals.",
+      "Clinica specialistica Asklepios in Baviera con segnali ufficiali di neurologia, neuropsicologia e riabilitazione.",
+      "neurologie",
+      "neuropsychologie",
+      "schlaganfall",
+      "schaedel-hirn",
+      "epilepsie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.asklepios.com/schaufling",
+    "contentType": "text/html;charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | neuropsychologie | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Asklepios Klinik Schaufling - Asklepios Klinik Schaufling"
+  },
+  {
+    "name": "Asklepios Neurologische Klinik Bad Salzhausen",
+    "country": "Germany",
+    "city": "Bad Salzhausen",
+    "region": "Hesse",
+    "url": "https://www.asklepios.com/bad-salzhausen",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Asklepios official site / specialist neurology clinic",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official Asklepios site matched neurological clinic and neurological rehabilitation signals",
+      "Relevant for stroke and broader neurological rehabilitation",
+      "Private specialist neurology provider",
+      "An Asklepios neurological clinic in Hesse with official signals for specialist neurological rehabilitation.",
+      "Clinica neurologica Asklepios in Assia con segnali ufficiali di riabilitazione neurologica specialistica.",
+      "neurologische klinik",
+      "neurologische rehabilitation",
+      "multiple sklerose",
+      "parkinson",
+      "schlaganfall"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.asklepios.com/bad-salzhausen",
+    "contentType": "text/html;charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische klinik | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Asklepios Neurologische Klinik Bad Salzhausen - Asklepios Neurologische Klinik Bad Salzhausen"
+  },
+  {
+    "name": "BDH-Klinik Braunfels",
+    "country": "Germany",
+    "city": "Braunfels",
+    "region": "Hesse",
+    "url": "https://www.bdh-klinik-braunfels.de/bdh-klinik-braunfels",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched stroke unit and neurological rehabilitation signals",
+      "Part of the BDH neurological rehabilitation network",
+      "Relevant for stroke, brain injury and complex neurological recovery",
+      "A BDH clinic in Hesse with a neurological profile, stroke unit, and specialist neurological rehabilitation.",
+      "Clinica BDH in Assia con profilo neurologico, stroke unit e riabilitazione neurologica specialistica.",
+      "neurologisches zentrum",
+      "stroke unit",
+      "neurologische rehabilitation",
+      "neurologische fruehrehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bdh-klinik-braunfels.de/bdh-klinik-braunfels",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "stroke unit | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Startseite - BDH-Klinik Braunfels"
+  },
+  {
+    "name": "BDH-Klinik Elzach",
+    "country": "Germany",
+    "city": "Elzach",
+    "region": "Baden-Württemberg",
+    "url": "https://www.bdh-klinik-elzach.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Zentrum für NeuroRehabilitation",
+      "Forschung und Lehre listed in the official navigation",
+      "A German center for neurorehabilitation and early rehabilitation with a strong neurological and intensive-care component.",
+      "Centro tedesco di neuroriabilitazione e riabilitazione precoce con forte componente neurologica e intensiva.",
+      "neurologische rehabilitation",
+      "neurologische fruehrehabilitation",
+      "neurorehabilitation",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bdh-klinik-elzach.de/bdh-klinik-elzach/index.php",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Startseite - BDH-Klinik Elzach"
+  },
+  {
+    "name": "BDH-Klinik Greifswald",
+    "country": "Germany",
+    "city": "Greifswald",
+    "region": "Mecklenburg-Vorpommern",
+    "url": "https://www.bdh-klinik-greifswald.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Zentrum für Neurorehabilitation",
+      "Schwerst schädelhirngeschädigte Patienten",
+      "A specialized center for early neurorehabilitation and treatment of severe brain-injured patients.",
+      "Centro specializzato in neuroriabilitazione precoce e trattamento di pazienti con gravi lesioni cranio-cerebrali.",
+      "zentrum fuer neurorehabilitation",
+      "neurologische rehabilitation",
+      "fruehrehabilitation",
+      "schaedel-hirn",
+      "querschnitt"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bdh-klinik-greifswald.de/bdh-klinik-greifswald/index.php",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Zentrum für Neurorehabilitation | neurologische rehabilitation | querschnitt | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Startseite - BDH-Klinik Greifswald"
+  },
+  {
+    "name": "BDH-Klinik Hessisch Oldendorf",
+    "country": "Germany",
+    "city": "Hessisch Oldendorf",
+    "region": "Lower Saxony",
+    "url": "https://www.bdh-klinik-hessisch-oldendorf.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurological rehabilitation and medical-vocational rehabilitation signals",
+      "BDH network clinic for complex neurological rehabilitation",
+      "Relevant for stroke and acquired neurological injuries",
+      "A BDH clinic in Lower Saxony with neurological rehabilitation and medical-vocational rehabilitation pathways.",
+      "Clinica BDH in Bassa Sassonia con riabilitazione neurologica e percorsi medico-professionali.",
+      "neurologische fruehrehabilitation",
+      "neurologische rehabilitation",
+      "medizinisch-berufliche rehabilitation",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bdh-klinik-hessisch-oldendorf.de/bdh-klinik-hessisch-oldendorf/index.php",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische rehabilitation | medizinisch-berufliche rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Startseite - BDH-Klinik Hessisch-Oldendorf"
+  },
+  {
+    "name": "BDH-Klinik Vallendar",
+    "country": "Germany",
+    "city": "Vallendar",
+    "region": "Rhineland-Palatinate",
+    "url": "https://www.bdh-klinik-vallendar.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurological rehab and respiratory medicine signals",
+      "Part of the BDH rehabilitation network",
+      "Suitable for complex neurological rehabilitation review",
+      "A BDH clinic in Rhineland-Palatinate with neurological rehabilitation and respiratory-care expertise for complex cases.",
+      "Clinica BDH in Renania-Palatinato con riabilitazione neurologica e competenze respiratorie per casi complessi.",
+      "zentrum fuer neurologische rehabilitation",
+      "neurologische reha",
+      "beatmungsmedizin",
+      "medizinische rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bdh-klinik-vallendar.de/bdh-klinik-vallendar/index.php",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische reha | beatmungsmedizin | medizinische rehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Startseite - BDH-Klinik Vallendar"
+  },
+  {
+    "name": "Dr. Becker Kiliani-Klinik",
+    "country": "Germany",
+    "city": "Bad Windsheim",
+    "region": "Bavaria",
+    "url": "https://www.dbkg.de/kliniken/dr-becker-kiliani-klinik",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+    "reviewStatus": "rejected",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neuro-onkologie",
+      "fruehrehabilitation",
+      "rehabilitation",
+      "schlaganfall"
+    ],
+    "status": 200,
+    "finalUrl": "https://dbkg.de/kliniken/dr-becker-kiliani-klinik/kurzprofil-klinik",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Dr. Becker Kliniken"
+  },
+  {
+    "name": "Dr. Becker Neurozentrum Niedersachsen",
+    "country": "Germany",
+    "city": "Bad Essen",
+    "region": "Lower Saxony",
+    "url": "https://www.dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+    "reviewStatus": "review",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "fruehrehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen/kurzprofil-klinik",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "weak",
+    "qualifying": false,
+    "evidence": "neuro | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "zentrum"
+      ]
+    },
+    "title": "Kurzprofil Dr. Becker Neurozentrum Niedersachsen"
+  },
+  {
+    "name": "Dr. Becker Rhein-Sieg-Klinik",
+    "country": "Germany",
+    "city": "Nuembrecht",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.dbkg.de/kliniken/dr-becker-rhein-sieg-klinik",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+    "reviewStatus": "rejected",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "fruehrehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "multiple sklerose"
+    ],
+    "status": 200,
+    "finalUrl": "https://dbkg.de/kliniken/dr-becker-rhein-sieg-klinik/kurzprofil-klinik",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Kurzprofil Dr. Becker Rhein-Sieg-Klinik"
+  },
+  {
+    "name": "Hegau-Jugendwerk Gailingen",
+    "country": "Germany",
+    "city": "Gailingen am Hochrhein",
+    "region": "Baden-Württemberg",
+    "url": "https://hegau-jugendwerk.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurologisches Krankenhaus und Rehabilitationszentrum",
+      "Covers rehabilitation phases B, C, D and E",
+      "Special focus on children, adolescents and young adults",
+      "A neurological center for children, adolescents and young adults with comprehensive rehabilitation across all neurorehabilitation phases.",
+      "Centro neurologico per bambini, adolescenti e giovani adulti con riabilitazione completa e tutte le fasi di neuroriabilitazione.",
+      "neurologisches krankenhaus",
+      "rehabilitationszentrum",
+      "phasen b c d und e",
+      "kinder",
+      "jugendliche"
+    ],
+    "status": 200,
+    "finalUrl": "https://hegau-jugendwerk.de/",
+    "contentType": "text/html;charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurologisches Krankenhaus und Rehabilitationszentrum | neurologisches krankenhaus | rehabilitationszentrum | kinder | jugendliche | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "zentrum"
+      ]
+    },
+    "title": "Hegau-Jugendwerk Gailingen | Die Pioniere der neurologischen Rehabilitation junger Menschen."
+  },
+  {
+    "name": "Johanniter-Klinik Godeshöhe",
+    "country": "Germany",
+    "city": "Bonn",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.godeshoehe.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official page matched neurological intensive medicine and early rehabilitation",
+      "Matched MS and Parkinson evidence",
+      "Relevant for severe acquired neurological injuries and stroke",
+      "A Johanniter clinic in Bonn with neurological intensive medicine, early neurorehabilitation and pathways for MS and Parkinson.",
+      "Clinica Johanniter a Bonn con medicina intensiva neurologica, neuroriabilitazione precoce e percorsi per MS e Parkinson.",
+      "neurologische intensivmedizin",
+      "neurologische fruehrehabilitation",
+      "schlaganfaelle",
+      "schaedel-hirn-verletzungen",
+      "multiple sklerose",
+      "morbus parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.johanniter.de/johanniter-kliniken/johanniter-klinik-godeshoehe",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische intensivmedizin | multiple sklerose | morbus parkinson | rehabilitation | rehab | neurolog | neuro | parkinson | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Johanniter-Klinik Godeshöhe"
+  },
+  {
+    "name": "KLINIK BAVARIA Kreischa",
+    "country": "Germany",
+    "city": "Kreischa",
+    "region": "Saxony",
+    "url": "https://www.klinik-bavaria.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Intensive rehab including early rehabilitation",
+      "Motor and cognitive rehabilitation starts immediately",
+      "Neurology is part of the medical spectrum",
+      "A German specialist hospital with intensive and early rehabilitation, immediate motor and cognitive rehab, and neurology in its medical profile.",
+      "Fachkrankenhaus tedesco con riabilitazione intensiva e precoce, avvio immediato della riabilitazione motoria e cognitiva e neurologia nel profilo medico.",
+      "neurologie",
+      "fruehrehabilitation",
+      "intensivrehabilitation",
+      "motorische rehabilitation",
+      "kognitive rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.klinik-bavaria.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | intensivrehabilitation | rehabilitation | rehab | neurolog | neuro | klinik | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "center",
+        "zentrum"
+      ]
+    },
+    "title": "KLINIK BAVARIA Kreischa und Zscheckwitz (Sachsen)"
+  },
+  {
+    "name": "Kliniken Schmieder Allensbach",
+    "country": "Germany",
+    "city": "Allensbach",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/allensbach",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Phase-based neurological rehabilitation",
+      "Part of the Schmieder research network",
+      "Early rehabilitation and day care",
+      "A Schmieder network center for phase-based neurological rehabilitation with research integration and day clinic care.",
+      "Centro della rete Schmieder con riabilitazione neurologica per i diversi stadi clinici e integrazione con ricerca e day clinic.",
+      "neurological rehabilitation",
+      "phase b",
+      "phase c",
+      "phase d",
+      "parkinson",
+      "multiple sclerosis"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/allensbach",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Алленсбах"
+  },
+  {
+    "name": "Kliniken Schmieder Gailingen",
+    "country": "Germany",
+    "city": "Gailingen am Hochrhein",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/gailingen",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official Schmieder location page matched neurological rehabilitation evidence",
+      "Part of the Schmieder neurological rehabilitation network",
+      "Relevant for stroke, brain injury, MS and Parkinson pathways",
+      "A Schmieder site in Gailingen for specialist neurological rehabilitation within the German Schmieder network.",
+      "Sede Schmieder a Gailingen per riabilitazione neurologica specialistica all’interno della rete tedesca Schmieder.",
+      "neurological rehabilitation",
+      "multiple sclerosis",
+      "neurorehabilitation",
+      "phase c",
+      "phase d"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/gailingen",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Гайлинген"
+  },
+  {
+    "name": "Kliniken Schmieder Gerlingen",
+    "country": "Germany",
+    "city": "Gerlingen",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/gerlingen",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurological rehab across phases A-E",
+      "Part of the Schmieder research network",
+      "A Schmieder neurological center with complete rehabilitation pathways and a strong multidisciplinary team.",
+      "Centro neurologico della rete Schmieder con percorsi riabilitativi completi e forte integrazione di team multidisciplinare.",
+      "neurological rehabilitation",
+      "phase b",
+      "phase c",
+      "phase d",
+      "neurorehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/gerlingen",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Герлинген"
+  },
+  {
+    "name": "Kliniken Schmieder Heidelberg",
+    "country": "Germany",
+    "city": "Heidelberg",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/heidelberg",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Own research institute",
+      "University hospital cooperation",
+      "Measurable outcomes from admission to discharge",
+      "A neurological rehabilitation clinic with in-house research, academic cooperation and intensive pathways across severity levels.",
+      "Clinica neurologica e di neuroriabilitazione con ricerca interna, collaborazione accademica e percorsi intensivi per diversi livelli di gravità.",
+      "neurological rehabilitation",
+      "phase b",
+      "phase c",
+      "phase d",
+      "university hospital"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/heidelberg",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Гейдельберг"
+  },
+  {
+    "name": "Kliniken Schmieder",
+    "country": "Germany",
+    "city": "Heidelberg",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/konstanz",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Network umbrella page for neurological rehabilitation clinics",
+      "Own research institute",
+      "University hospital cooperation and measurable outcomes",
+      "A German neurological rehabilitation network with in-house research, academic cooperation and intensive pathways across multiple sites.",
+      "Rete tedesca di neuroriabilitazione con ricerca interna, cooperazione accademica e percorsi intensivi nelle varie sedi.",
+      "neurological rehabilitation",
+      "multiple sclerosis",
+      "neurorehabilitation",
+      "phase c",
+      "phase d"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/konstanz",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Констанц"
+  },
+  {
+    "name": "Kliniken Schmieder Konstanz",
+    "country": "Germany",
+    "city": "Konstanz",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Lurija Institute for rehabilitation sciences and health research",
+      "Network of specialized neurological rehabilitation clinics",
+      "University-linked continuing education",
+      "A Schmieder network site for neurological rehabilitation, with research and intensive recovery pathways.",
+      "Sede della rete Schmieder per la neuroriabilitazione, con focus neurologico, ricerca e percorsi riabilitativi intensivi."
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal",
+        "brain injury",
+        "cerebral palsy",
+        "multiple sclerosis",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "centre"
+      ]
+    },
+    "title": "Neurorehabilitation in Germany | Kliniken Schmieder"
+  },
+  {
+    "name": "Kliniken Schmieder Stuttgart",
+    "country": "Germany",
+    "city": "Stuttgart",
+    "region": "Baden-Württemberg",
+    "url": "https://kliniken-schmieder.com/hospital/stuttgart",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Day-clinic and outpatient neurological rehabilitation",
+      "Part of the Schmieder research network",
+      "An urban Schmieder site offering outpatient and day-clinic neurological rehabilitation.",
+      "Sede urbana della rete Schmieder con riabilitazione neurologica ambulatoriale e in day clinic.",
+      "neurological rehabilitation",
+      "outpatient",
+      "day clinic",
+      "neurorehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniken-schmieder.ru/hospital/stuttgart",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "неврологическая реабилитация | реабилитация | невролог | инсульт | черепно-мозгов | рассеянный склероз | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "неврологическая реабилитация"
+      ],
+      "rehabilitation": [
+        "реабилитация"
+      ],
+      "neurological": [
+        "невролог",
+        "инсульт",
+        "черепно-мозгов",
+        "рассеянный склероз",
+        "паркинсон"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Центр реабилитации в Германии - Kliniken Schmieder Штутгарт"
+  },
+  {
+    "name": "m&i-Fachklinik Bad Heilbrunn",
+    "country": "Germany",
+    "city": "Bad Heilbrunn",
+    "region": "Bavaria",
+    "url": "https://www.fachklinik-bad-heilbrunn.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official clinic page matched rehabilitation and neurological signals",
+      "Part of the m&i specialist rehabilitation clinic group",
+      "Broad candidate requiring normal manual confirmation depth",
+      "An m&i specialist clinic in Bavaria with rehabilitation and neurology signals, retained as an approved specialist candidate.",
+      "Fachklinik m&i in Baviera con segnali di riabilitazione e neurologia, da mantenere come candidato specialistico approvato.",
+      "neurologische fruehrehabilitation",
+      "neurologie phase c",
+      "neurologie phase d",
+      "neurologische rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-bad-heilbrunn.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "m&i-Fachklinik Bad Heilbrunn"
+  },
+  {
+    "name": "m&i-Fachklinik Bad Liebenstein",
+    "country": "Germany",
+    "city": "Bad Liebenstein",
+    "region": "Thuringia",
+    "url": "https://www.fachklinik-bad-liebenstein.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurorehabilitation and weaning evidence",
+      "m&i specialist rehabilitation clinic",
+      "Relevant for complex neurological rehabilitation and respiratory transition care",
+      "An m&i specialist clinic in Thuringia with neurorehabilitation and weaning for complex neurological patients.",
+      "Fachklinik m&i in Turingia con neuroriabilitazione e weaning per pazienti neurologici complessi.",
+      "neurologische fruehrehabilitation",
+      "weiterfuehrende neurorehabilitation",
+      "phase c",
+      "phase d",
+      "weaning"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-bad-liebenstein.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "weaning | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "m&i-Fachklinik Bad Liebenstein"
+  },
+  {
+    "name": "m&i-Fachklinik Enzensberg",
+    "country": "Germany",
+    "city": "Füssen",
+    "region": "Bavaria",
+    "url": "https://www.fachklinik-enzensberg.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched phase B and neurological rehabilitation signals",
+      "m&i specialist clinic in Bavaria",
+      "Relevant for staged neurological rehabilitation",
+      "An m&i specialist clinic in Füssen with phase B neurological rehabilitation signals and specialist pathways.",
+      "Fachklinik m&i a Füssen con segnali di riabilitazione neurologica fase B e percorsi specialistici.",
+      "neurologische fruehrehabilitation",
+      "neurologische rehabilitation",
+      "phase b",
+      "phase c",
+      "phase d"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-enzensberg.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "phase b | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "m&i-Fachklinik Enzensberg"
+  },
+  {
+    "name": "m&i-Fachklinik Herzogenaurach",
+    "country": "Germany",
+    "city": "Herzogenaurach",
+    "region": "Bavaria",
+    "url": "https://www.fachklinik-herzogenaurach.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official clinic page matched rehabilitation and neurological signals",
+      "Part of the m&i specialist rehabilitation group",
+      "Broad approved candidate for neurological rehabilitation review",
+      "An m&i specialist clinic in Bavaria with official neurology and specialist rehabilitation signals.",
+      "Fachklinik m&i in Baviera con segnali ufficiali di neurologia e riabilitazione specialistica.",
+      "neurologische fruehrehabilitation",
+      "neurologie phase c",
+      "neurologie phase d",
+      "neurologische rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-herzogenaurach.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "m&i-Fachklinik Herzogenaurach"
+  },
+  {
+    "name": "m&i-Fachklinik Ichenhausen",
+    "country": "Germany",
+    "city": "Ichenhausen",
+    "region": "Bavaria",
+    "url": "https://www.fachklinik-ichenhausen.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurology and Parkinson evidence",
+      "m&i specialist rehabilitation clinic",
+      "Relevant for Parkinson and acquired neurological rehabilitation",
+      "An m&i specialist clinic in Bavaria with official neurology signals and relevant Parkinson pathways.",
+      "Fachklinik m&i in Baviera con segnali ufficiali di neurologia e percorsi rilevanti per Parkinson.",
+      "neurologie",
+      "parkinson",
+      "neurologische fruehrehabilitation",
+      "weaning",
+      "neurologie neuropsychologie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-ichenhausen.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | parkinson | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "m&i-Fachklinik Ichenhausen"
+  },
+  {
+    "name": "m&i-Fachkliniken Hohenurach",
+    "country": "Germany",
+    "city": "Bad Urach",
+    "region": "Baden-Württemberg",
+    "url": "https://www.fachkliniken-hohenurach.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neuropsychology and stroke evidence",
+      "m&i specialist rehabilitation clinic",
+      "Relevant for stroke and cognitive-neurological rehabilitation",
+      "m&i specialist clinics in Bad Urach with focus on neuropsychology, stroke and specialist rehabilitation.",
+      "Fachkliniken m&i a Bad Urach con focus su neuropsicologia, ictus e riabilitazione specialistica.",
+      "neurologische fruehrehabilitation",
+      "neurologie phase c",
+      "neurologie phase d",
+      "neuropsychologie",
+      "schlaganfall"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachkliniken-hohenurach.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neuropsychologie | schlaganfall | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "m&i-Fachkliniken Hohenurach"
+  },
+  {
+    "name": "Marcus Klinik Bad Driburg",
+    "country": "Germany",
+    "city": "Bad Driburg",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.marcus-klinik.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurology and Parkinson evidence",
+      "Rehabilitation clinic rather than generic physiotherapy",
+      "Relevant for neurological rehabilitation review",
+      "A rehabilitation clinic in Bad Driburg with official neurology and Parkinson signals.",
+      "Clinica di riabilitazione a Bad Driburg con segnali ufficiali di neurologia e Parkinson.",
+      "neurologie",
+      "neurologische rehabilitation",
+      "schlaganfall",
+      "multiple sklerose",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.marcus-klinik.de/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | parkinson | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Marcus Klinik – Rehabilitationsfachklinik für Neurologie, Orthopädie und Unfallchirurgie | Gräfliche Kliniken - Marcus Klinik"
+  },
+  {
+    "name": "MEDIAN Klinik Berlin-Kladow",
+    "country": "Germany",
+    "city": "Berlin",
+    "region": "Berlin",
+    "url": "https://www.median-kliniken.de/de/median-klinik-berlin-kladow",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologische rehabilitation",
+      "neurologie",
+      "schlaganfall",
+      "schaedel-hirn",
+      "multiple sklerose"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-berlin-kladow",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische rehabilitation | neurologie | schlaganfall | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik Berlin-Kladow | Medizinische Rehabilitation | MEDIAN Kliniken"
+  },
+  {
+    "name": "MEDIAN Klinik Flechtingen",
+    "country": "Germany",
+    "city": "Flechtingen",
+    "region": "Saxony-Anhalt",
+    "url": "https://www.median-kliniken.de/de/median-klinik-flechtingen",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "phase b",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-flechtingen",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | phase b | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik Flechtingen | Medizinische Rehabilitation | MEDIAN Kliniken"
+  },
+  {
+    "name": "MEDIAN Klinik Gyhum",
+    "country": "Germany",
+    "city": "Gyhum",
+    "region": "Lower Saxony",
+    "url": "https://www.median-kliniken.de/de/median-klinik-gyhum",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-gyhum",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik Gyhum | Medizinische Rehabilitation | MEDIAN Kliniken"
+  },
+  {
+    "name": "MEDIAN Klinik Kalbe",
+    "country": "Germany",
+    "city": "Kalbe",
+    "region": "Saxony-Anhalt",
+    "url": "https://www.median-kliniken.de/de/median-klinik-kalbe",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-kalbe",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik Kalbe | Medizinische Rehabilitation | MEDIAN Kliniken"
+  },
+  {
+    "name": "MEDIAN Klinik NRZ Magdeburg",
+    "country": "Germany",
+    "city": "Magdeburg",
+    "region": "Saxony-Anhalt",
+    "url": "https://www.median-kliniken.de/de/median-klinik-nrz-magdeburg",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologisches rehabilitationszentrum",
+      "neurologische rehabilitation",
+      "phase b",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-nrz-magdeburg",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische rehabilitation | schlaganfall | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik NRZ Magdeburg | MEDIAN Kliniken"
+  },
+  {
+    "name": "MEDIAN Klinik Wilhelmshaven",
+    "country": "Germany",
+    "city": "Wilhelmshaven",
+    "region": "Lower Saxony",
+    "url": "https://www.median-kliniken.de/de/median-klinik-wilhelmshaven",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "schaedel-hirn"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.median-kliniken.de/de/klinik-wilhelmshaven",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | schlaganfall | neurorehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "MEDIAN Klinik Wilhelmshaven | Medizinische Rehabilitation | MEDIAN Kliniken"
+  },
+  {
+    "name": "MediClin Fachklinik Rhein/Ruhr",
+    "country": "Germany",
+    "city": "Essen",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.fachklinik-rheinruhr.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | MediClin official site / specialist rehab clinic",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurology, stroke and multiple sclerosis evidence",
+      "MediClin specialist rehabilitation provider",
+      "Relevant for neurological rehabilitation in North Rhine-Westphalia",
+      "A MediClin specialist clinic in the Rhein-Ruhr area with official signals for neurology, stroke and multiple sclerosis.",
+      "Fachklinik MediClin nell’area Reno-Ruhr con segnali ufficiali per neurologia, ictus e sclerosi multipla.",
+      "neurologie",
+      "neurologische rehabilitation",
+      "schlaganfall",
+      "multiple sklerose",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachklinik-rheinruhr.de/",
+    "contentType": "text/html;charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | schlaganfall | multiple sklerose | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Reha für Orthopädie, Neurologie und Geriatrie &#448; MEDICLIN Fachklinik Rhein Ruhr"
+  },
+  {
+    "name": "MediClin Hedon Klinik",
+    "country": "Germany",
+    "city": "Lingen",
+    "region": "Lower Saxony",
+    "url": "https://www.hedon-klinik.de/",
+    "sourceType": "germany-pilot-official-seed",
+    "discoverySource": "MediClin official site / specialist rehab clinic",
+    "reviewStatus": "error",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "schlaganfall",
+      "schaedel-hirn",
+      "multiple sklerose"
+    ],
+    "status": null,
+    "finalUrl": "https://www.hedon-klinik.de/",
+    "title": "",
+    "evidence": "fetch failed",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
+  },
+  {
+    "name": "Moritz Klinik Bad Klosterlausnitz",
+    "country": "Germany",
+    "city": "Bad Klosterlausnitz",
+    "region": "Thuringia",
+    "url": "https://www.moritz-klinik.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site matched neurology, rehabilitation and stroke evidence",
+      "Specialist rehabilitation clinic in Thuringia",
+      "Relevant for neurological and stroke rehabilitation",
+      "A rehabilitation clinic in Thuringia with official neurology, rehabilitation and stroke signals.",
+      "Clinica di riabilitazione in Turingia con segnali ufficiali di neurologia, riabilitazione e ictus.",
+      "neurologie",
+      "neurologische fruehrehabilitation",
+      "phase b",
+      "rehabilitation",
+      "schlaganfall"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.moritz-klinik.de/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | schlaganfall | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Moritz Klinik – Rehabilitationsfachklinik in Thüringen | Gräfliche Kliniken - Moritz Klinik"
+  },
+  {
+    "name": "Passauer Wolf Bad Goegging",
+    "country": "Germany",
+    "city": "Bad Goegging",
+    "region": "Bavaria",
+    "url": "https://www.passauerwolf.de/standorte/bad-goegging",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.passauerwolf.de/haeuser-standorte/bad-goegging",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | schlaganfall | parkinson | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Passauer Wolf Bad Gögging – Fachklinik für Reha & Therapie"
+  },
+  {
+    "name": "Passauer Wolf Bad Griesbach",
+    "country": "Germany",
+    "city": "Bad Griesbach",
+    "region": "Bavaria",
+    "url": "https://www.passauerwolf.de/standorte/bad-griesbach",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.passauerwolf.de/haeuser-standorte/bad-griesbach",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | schlaganfall | parkinson | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Reha Bad Griesbach | Passauer Wolf"
+  },
+  {
+    "name": "Passauer Wolf Nittenau",
+    "country": "Germany",
+    "city": "Nittenau",
+    "region": "Bavaria",
+    "url": "https://www.passauerwolf.de/standorte/nittenau",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurologische rehabilitation",
+      "rehabilitation",
+      "schlaganfall",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.passauerwolf.de/haeuser-standorte/nittenau",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | rehabilitation | schlaganfall | parkinson | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Reha Klinik & Senioren Zentrum Nittenau | Passauer Wolf"
+  },
+  {
+    "name": "RehaNova Köln",
+    "country": "Germany",
+    "city": "Cologne",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.rehanova.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes a neurological-neurosurgical rehabilitation clinic",
+      "Matched phase B-D, stroke, MS and Parkinson signals",
+      "Strong candidate for complex inpatient neurorehabilitation",
+      "A neurological-neurosurgical rehabilitation clinic in Cologne with phase B-D pathways and focus on stroke, MS and Parkinson.",
+      "Clinica di riabilitazione neurologico-neurochirurgica a Colonia con percorsi fase B-D e focus su ictus, MS e Parkinson.",
+      "neurologisch-neurochirurgische rehabilitationsklinik",
+      "akut-fruehrehabilitation",
+      "phase b-d",
+      "schlaganfall",
+      "multiple sklerose",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehanova.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologisch-neurochirurgische rehabilitationsklinik | phase b-d | schlaganfall | multiple sklerose | parkinson | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "klinik"
+      ]
+    },
+    "title": "Neurologische Reha in Köln - RehaNova"
+  },
+  {
+    "name": "Sankt Rochus Kliniken",
+    "country": "Germany",
+    "city": "Bad Schönborn",
+    "region": "Baden-Württemberg",
+    "url": "https://www.sankt-rochus-kliniken.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurological early rehabilitation phase B/C/D",
+      "Official studies and research section",
+      "Ambulatory rehabilitation and neurology department",
+      "A rehabilitation center with neurology, early rehabilitation, phase D care, and a multidisciplinary outpatient offer.",
+      "Centro di riabilitazione con neurologia, riabilitazione precoce e fase D, plus team multidisciplinare e ambulatoriale.",
+      "neurologische rehabilitation",
+      "neurologische fruehrehabilitation",
+      "phase b",
+      "phase c",
+      "phase d"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sankt-rochus-kliniken.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische rehabilitation | phase b | phase c | phase d | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Sankt Rochus Kliniken"
+  },
+  {
+    "name": "Schön Klinik Bad Aibling Harthausen",
+    "country": "Germany",
+    "city": "Bad Aibling",
+    "region": "Bavaria",
+    "url": "https://www.schoen-klinik.de/bad-aibling-harthausen",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official clinic site",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurological early rehabilitation and acute neurology",
+      "Official research and teaching section",
+      "Robotics listed as part of the treatment standard",
+      "A neurological and neurorehabilitation clinic with stroke unit, early rehabilitation, research, and robot-assisted therapies.",
+      "Clinica neurologica e di neuroriabilitazione con stroke unit, neuroriabilitazione precoce, ricerca e terapie robotiche.",
+      "neurologische fruehrehabilitation",
+      "stroke unit",
+      "robotergestuetzt",
+      "schlaganfall",
+      "parkinson"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.schoen-klinik.de/bad-aibling-harthausen",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "stroke unit | schlaganfall | parkinson | rehabilitation | rehab | neurolog | neuro | stroke | spinal | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Schön Klinik Bad Aibling Harthausen"
+  },
+  {
+    "name": "SRH Fachkrankenhaus Neresheim",
+    "country": "Germany",
+    "city": "Neresheim",
+    "region": "Baden-Wuerttemberg",
+    "url": "https://www.fachkrankenhaus-neresheim.de/",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "SRH specialist hospital / neurological early rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologische fruehrehabilitation",
+      "intensivmedizin",
+      "schaedel-hirn",
+      "hirnschaedigung",
+      "neurologie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.fachkrankenhaus-neresheim.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "intensivmedizin | rehabilitation | rehab | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Eine Chance für das Leben - SRH Fachkrankenhaus Neresheim: SRH Fachkrankenhaus Neresheim"
+  },
+  {
+    "name": "SRH Kurpfalzkrankenhaus Heidelberg",
+    "country": "Germany",
+    "city": "Heidelberg",
+    "region": "Baden-Württemberg",
+    "url": "https://www.kurpfalzkrankenhaus.de/",
+    "sourceType": "curated-dataset | germany-pilot-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official hospital site / specialist neurology hospital",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page matched neurology signals",
+      "Seeded as a specialist neurology hospital with early rehabilitation relevance",
+      "Adds Heidelberg neurorehabilitation coverage beyond the Schmieder network",
+      "An SRH hospital in Heidelberg with a neurological profile and relevance for early neurorehabilitation.",
+      "Ospedale SRH a Heidelberg con profilo neurologico e rilevanza per neuroriabilitazione precoce.",
+      "neurologische fruehrehabilitation",
+      "phase b",
+      "schlaganfall",
+      "schaedigungen des nervensystems",
+      "neurologie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.kurpfalzkrankenhaus.de/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | neurolog | neuro | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "SRH Kurpfalzkrankenhaus: SRH Kurpfalzkrankenhaus"
+  },
+  {
+    "name": "Vitrea Klinik Hattingen",
+    "country": "Germany",
+    "city": "Hattingen",
+    "region": "North Rhine-Westphalia",
+    "url": "https://www.vitrea-gesundheit.de/reha/hattingen",
+    "sourceType": "germany-second-pass-official-seed",
+    "discoverySource": "Vitrea / former VAMED neurological rehabilitation seed",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurologie",
+      "neurochirurgie",
+      "neuropaediatrie",
+      "fruehrehabilitation",
+      "rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.vitrea-gesundheit.de/reha/hattingen",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologie | neurochirurgie | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "VITREA Klinik Hattingen"
+  },
+  {
+    "name": "National Center for Spinal Disorders",
+    "country": "Hungary",
+    "city": "Budapest",
+    "region": "Budapest",
+    "url": "https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "error",
+    "knownInDataset": true,
+    "needles": [
+      "Official site is a spinal-disorders reference page",
+      "Crawling was blocked, so this is a manual official-source fallback",
+      "A Hungarian reference center for spinal disorders in Budapest, added as a manual fallback from a blocked official source.",
+      "Centro ungherese di riferimento per disturbi spinali a Budapest, aggiunto come fallback manuale da fonte ufficiale bloccata."
+    ],
+    "status": 403,
+    "finalUrl": "https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Access denied | NKE"
+  },
+  {
+    "name": "Auxologico Meda Riabilitazione",
+    "country": "Italy",
+    "city": "Meda",
+    "region": "Lombardia",
+    "url": "https://www.auxologico.it/sedi/auxologico-meda-riabilitazione",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "An outpatient rehabilitation center with multidisciplinary care for neuromotor, cognitive and prevention needs.",
+      "Centro riabilitativo ambulatoriale con presa in carico multidisciplinare per bisogni neuromotori, cognitivi e di prevenzione."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.auxologico.it/sedi/auxologico-meda-riabilitazione",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "Fisioterapia-Medicina Sport: Auxologico Meda Riabilitazione"
+  },
+  {
+    "name": "Centro di riabilitazione Villa Beretta",
+    "country": "Italy",
+    "city": "Costa Masnaga",
+    "region": "Lombardia",
+    "url": "https://www.valduce.it/it/chi-siamo/centro-di-riabilitazione-villa-beretta",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "A rehabilitation center specialized in central nervous system injuries, with an interdisciplinary model and advanced technology.",
+      "Centro di riabilitazione specializzato nelle lesioni del sistema nervoso centrale, con approccio interdisciplinare e tecnologie avanzate."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.valduce.it/it/chi-siamo/centro-di-riabilitazione-villa-beretta",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | riabilitazione | neurolog | neuro | ictus | spinal | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "spinal"
+      ],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "Centro di riabilitazione Villa Beretta - Valduce"
+  },
+  {
+    "name": "Centro Giusti Firenze",
+    "country": "Italy",
+    "city": "Florence",
+    "region": "Tuscany",
+    "url": "https://www.centrogiusti.eu/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site explicitly targets neurological patients and spinal cord lesions",
+      "RIC pathway for neurological patients",
+      "HAL exoskeleton and other robotic rehabilitation tools",
+      "A Florence rehabilitation center for neurological patients, spinal cord lesions, stroke, and multiple sclerosis, with HAL exoskeleton support.",
+      "Centro fiorentino di riabilitazione con percorsi per pazienti neurologici, lesioni midollari, ictus e sclerosi multipla, con esoscheletro HAL."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.centrogiusti.eu/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | riabilitazione | neurolog | neuro | ictus | lesioni midollari | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "lesioni midollari"
+      ],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "Riabilitazione e fisioterapia | Centro Giusti Firenze"
+  },
+  {
+    "name": "CRiS — Città di Rovigo",
+    "country": "Italy",
+    "city": "Rovigo",
+    "region": "Veneto",
+    "url": "https://cris.cittadirovigo.it/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "A clinic for physical and cognitive rehabilitation of nervous system disorders, including telerehabilitation.",
+      "Clinica dedicata alla riabilitazione fisica e cognitiva delle malattie del sistema nervoso, anche in tele-riabilitazione."
+    ],
+    "status": 200,
+    "finalUrl": "https://cris.cittadirovigo.it/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neuroriabilitazione | riabilitazione neurologica | riabilitazione | neurolog | neuro | ictus | spinal | clinic | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione",
+        "riabilitazione neurologica"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "spinal",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "centro"
+      ]
+    },
+    "title": "CRIS | Clinica per la Riabilitazione Fisica e Cognitiva delle Malattie del Sistema Nervoso"
+  },
+  {
+    "name": "Fondazione Santa Lucia IRCCS",
+    "country": "Italy",
+    "city": "Roma",
+    "region": "Lazio",
+    "url": "https://www.hsantalucia.it/servizi-sanitari/riabilitazione-neuromotoria",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "A highly specialized hospital for motor and cognitive neurorehabilitation, with multidisciplinary pathways and advanced technology.",
+      "Ospedale ad alta specializzazione per neuroriabilitazione motoria e cognitiva, con percorsi multidisciplinari e tecnologie avanzate."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hsantalucia.it/servizi-sanitari/riabilitazione-neuromotoria",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neuroriabilitazione | riabilitazione | neurolog | neuro | ictus | parkinson | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "parkinson",
+        "lesioni midollari"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Riabilitazione Neuromotoria | Fondazione Santa Lucia"
+  },
+  {
+    "name": "IRCCS Centro Neurolesi Bonino Pulejo",
+    "country": "Italy",
+    "city": "Messina",
+    "region": "Sicilia",
+    "url": "https://www.irccsme.it/servizi/riabilitazione-robotica",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "A highly specialized center for neuromotor, cognitive and robotic rehabilitation, including severe brain injury care.",
+      "Centro di alta specializzazione con riabilitazione neuromotoria, cognitiva e robotica, inclusa un’unità per gravi cerebrolesioni."
+    ],
+    "status": null,
+    "finalUrl": "https://www.irccsme.it/servizi/riabilitazione-robotica",
+    "title": "",
+    "evidence": "fetch failed",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
+  },
+  {
+    "name": "IRCCS Eugenio Medea",
+    "country": "Italy",
+    "city": "Bosisio Parini",
+    "region": "Lombardia",
+    "url": "https://emedea.it/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "An IRCCS focused on research, care and rehabilitation for neurological and neuropsychiatric disabilities in children.",
+      "IRCCS dedicato alla ricerca, cura e riabilitazione delle disabilità neurologiche e neuropsichiatriche in età evolutiva."
+    ],
+    "status": null,
+    "finalUrl": "https://emedea.it/",
+    "title": "",
+    "evidence": "fetch failed",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
+  },
+  {
+    "name": "IRCCS Maugeri Castel Goffredo",
+    "country": "Italy",
+    "city": "Castel Goffredo",
+    "region": "Lombardia",
+    "url": "https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "A site with neurological specialties and neuromotor rehabilitation in the functional care pathway.",
+      "Sede con specialità neurologiche e riabilitazione neuromotoria nel percorso di presa in carico funzionale."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "IRCCS Maugeri Castel Goffredo - IRCCS Maugeri Castel Goffredo - Maugeri"
+  },
+  {
+    "name": "IRCCS Maugeri Montescano",
+    "country": "Italy",
+    "city": "Montescano",
+    "region": "Lombardia",
+    "url": "https://www.icsmaugeri.it/dove-siamo/irccs-montescano",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "An IRCCS with a strong rehabilitation focus, including neuromotor rehabilitation and neurophysiology.",
+      "IRCCS con forte vocazione riabilitativa, inclusa la riabilitazione neuromotoria e la neurofisiologia."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-montescano",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "IRCCS Maugeri Montescano - IRCCS Maugeri Montescano - Maugeri"
+  },
+  {
+    "name": "IRCCS Maugeri Pavia",
+    "country": "Italy",
+    "city": "Pavia",
+    "region": "Lombardia",
+    "url": "https://www.icsmaugeri.it/dove-siamo/irccs-pavia",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "An IRCCS site oriented toward neuromotor rehabilitation and multidisciplinary functional recovery pathways.",
+      "Sede IRCCS orientata alla riabilitazione neuromotoria e ai percorsi multidisciplinari di recupero funzionale."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-pavia",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neuro | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "IRCCS Maugeri Pavia - IRCCS Maugeri Pavia - Maugeri"
+  },
+  {
+    "name": "IRCCS Maugeri Veruno",
+    "country": "Italy",
+    "city": "Gattico-Veruno",
+    "region": "Piemonte",
+    "url": "https://www.icsmaugeri.it/dove-siamo/irccs-veruno",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "An institute with neurology and physical rehabilitation suited to neuromotor recovery pathways.",
+      "Istituto con neurologia e medicina fisica e riabilitativa, adatto a percorsi di recupero neuromotorio."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-veruno",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "IRCCS Maugeri Veruno - IRCCS Maugeri Veruno - Maugeri"
+  },
+  {
+    "name": "IRCCS S. Maria Nascente — Don Gnocchi",
+    "country": "Italy",
+    "city": "Milano",
+    "region": "Lombardia",
+    "url": "https://www.dongnocchi.it/@strutture/centro-irccs-s-maria-nascente",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "An intensive neurological rehabilitation unit for cerebrovascular, neurodegenerative, spinal and neuromuscular conditions.",
+      "Unità di riabilitazione intensiva neurologica per patologie cerebrovascolari, neurodegenerative, spinali e neuromuscolari."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.dongnocchi.it/@strutture/centro-irccs-s-maria-nascente",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | riabilitazione | neurolog | neuro | parkinson",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "IRCCS S. Maria Nascente"
+  },
+  {
+    "name": "Montecatone Rehabilitation Institute",
+    "country": "Italy",
+    "city": "Imola",
+    "region": "Emilia-Romagna",
+    "url": "https://www.montecatone.com/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "A highly specialized center for intensive rehabilitation after spinal cord and acquired brain injuries.",
+      "Centro di alta specialità per la riabilitazione intensiva di lesioni midollari e cerebrali acquisite."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.montecatone.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neuroriabilitazione | riabilitazione neurologica | rehabilitation | rehab | riabilitazione | neurolog | neuro | spinal | lesioni midollari | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione",
+        "riabilitazione neurologica"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal",
+        "lesioni midollari"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Istituto di Montecatone Ospedale di Riabilitazione"
+  },
+  {
+    "name": "Roessingh",
+    "country": "Netherlands",
+    "city": "Enschede",
+    "region": "Overijssel",
+    "url": "https://www.roessingh.nl/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Innovatie & onderzoek",
+      "Patient satisfaction published on the official site",
+      "Specialist care for NAH, MS and Parkinson",
+      "A Dutch rehabilitation center for complex neurological conditions, with research and published patient satisfaction metrics.",
+      "Centro di riabilitazione olandese specializzato in disturbi neurologici complessi, con ricerca e misurazione della soddisfazione dei pazienti."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.roessingh.nl/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Innovatie & onderzoek | revalidatie | neurolog | neuro | parkinson | dwarslaesie",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson",
+        "dwarslaesie",
+        "hersenletsel"
+      ],
+      "institution": []
+    },
+    "title": "Revalidatiecentrum Roessingh"
+  },
+  {
+    "name": "Sunnaas sykehus HF",
+    "country": "Norway",
+    "city": "Bjørnemyr",
+    "region": "Akershus",
+    "url": "https://www.sunnaas.no/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Largest specialized hospital in physical medicine and rehabilitation in Norway",
+      "Own research department",
+      "Rehabilitation and research are central parts of the trust",
+      "A Norwegian specialist rehabilitation hospital with multidisciplinary care and a strong focus on neurological conditions.",
+      "Ospedale norvegese specializzato in riabilitazione e ricerca con team multidisciplinare e forte attenzione ai disturbi neurologici."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sunnaas.no/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehab | spinal cord | spinal",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab"
+      ],
+      "neurological": [
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": []
+    },
+    "title": "Forside - Sunnaas sykehus HF"
+  },
+  {
+    "name": "Centro de Medicina de Reabilitação de Alcoitão",
+    "country": "Portugal",
+    "city": "Alcoitão",
+    "region": "Lisbon District",
+    "url": "https://cmra.scml.pt/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "review",
+    "knownInDataset": true,
+    "needles": [
+      "Official Portuguese rehabilitation center with multidisciplinary services",
+      "Inpatient programs and rehab pathways listed on the official site",
+      "Longstanding rehabilitation institution serving the Lisbon area",
+      "A Portuguese multidisciplinary rehabilitation center in Alcoitão, near Cascais, with inpatient and outpatient care.",
+      "Centro portoghese di riabilitazione multidisciplinare ad Alcoitão, vicino a Cascais, con ricovero e ambulatori."
+    ],
+    "status": 200,
+    "finalUrl": "https://cmra.scml.pt/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "weak",
+    "qualifying": false,
+    "evidence": "reabilitação | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "reabilitação"
+      ],
+      "neurological": [],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "Início - CMRA"
+  },
+  {
+    "name": "URI Soča",
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "region": "Ljubljana",
+    "url": "https://www.uri-soca.si/en",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Tertiary-level health institution with scientific research",
+      "Comprehensive rehab for central and peripheral nervous system disorders",
+      "Training center for rehabilitation professionals",
+      "Slovenia’s university rehabilitation institute, offering comprehensive medical rehabilitation for central and peripheral nervous system disorders.",
+      "Istituto universitario sloveno per la riabilitazione medica, con riabilitazione completa per disturbi del sistema nervoso centrale e periferico."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.uri-soca.si/en",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "multiple sclerosis"
+      ],
+      "institution": []
+    },
+    "title": "Medical rehabilitation - University Rehabilitation Institute, Republic of Slovenia - Soča"
+  },
+  {
+    "name": "Hospital Nacional de Parapléjicos",
+    "country": "Spain",
+    "city": "Toledo",
+    "region": "Castilla-La Mancha",
+    "url": "http://www.infomedula.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official site of the National Spinal Cord Injury Hospital",
+      "Rehabilitation, pediatric rehab and functional electrostimulation are listed on the official service pages",
+      "Research foundation and translational neuroscience activity",
+      "A public reference center for spinal cord injury in Toledo, with comprehensive rehabilitation and a strong research profile.",
+      "Centro pubblico di riferimento per la lesione midollare a Toledo, con riabilitazione integrale e forte attività di ricerca."
+    ],
+    "status": 200,
+    "finalUrl": "http://www.infomedula.org/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehab | rehabilitación | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "INFOMÉDULA - Fundación del Hospital Nacional de Parapléjicos para la Investigación y la IntegraciónINFOMÉDULA | Fundación del Hospital Nacional de Parapléjicos para la Investigación y la Integración"
+  },
+  {
+    "name": "Hospital Quirónsalud Miguel Domínguez",
+    "country": "Spain",
+    "city": "Pontevedra",
+    "region": "Galicia",
+    "url": "https://www.quironsalud.com/migueldominguez",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official neuro-rehabilitation unit on the hospital site",
+      "Exoskeletons, robotics and virtual reality for neurological patients",
+      "Modern private hospital with dedicated neuro-rehab content",
+      "A private hospital in Pontevedra with an official neuro-rehabilitation unit, exoskeletons, virtual reality, and a neurological patient focus.",
+      "Ospedale privato di Pontevedra con unità di neuro-riabilitazione ufficiale, esoscheletri, realtà virtuale e focus sui pazienti neurologici."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.quironsalud.com/migueldominguez",
+    "contentType": "text/html;charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Hospital Quirónsalud Pontevedra"
+  },
+  {
+    "name": "Hospital Vithas Aguas Vivas",
+    "country": "Spain",
+    "city": "Carcaixent",
+    "region": "Valencia",
+    "url": "https://vithas.es/centro/vithas-hospital-aguas-vivas",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official page states neurorrehabilitation and brain injury unit",
+      "Pool and robotic / virtual-reality rehabilitation equipment",
+      "Adult and pediatric inpatient and outpatient pathways",
+      "A private hospital with an official neurorehabilitation and brain-injury unit, therapeutic pool, and robotic/VR rehabilitation technology.",
+      "Ospedale privato con unità ufficiale di neuroriabilitazione e danno cerebrale, piscina terapeutica e tecnologie robotiche/RV."
+    ],
+    "status": 200,
+    "finalUrl": "https://vithas.es/centro/vithas-hospital-aguas-vivas",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | ictus | parkinson | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "parkinson"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Hospital Privado en Carcaixent, Valencia | Vithas Aguas Vivas"
+  },
+  {
+    "name": "Hospital Vithas Sevilla",
+    "country": "Spain",
+    "city": "Seville",
+    "region": "Andalusia",
+    "url": "https://vithas.es/centro/vithas-hospital-sevilla",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page lists a neurorrehabilitation unit",
+      "Official page also highlights a brain-injury unit",
+      "Part of the Vithas IRENEA rehabilitation model",
+      "A private Seville hospital listing a neurorrehabilitation unit and a brain-injury unit on its official site.",
+      "Ospedale privato di Siviglia con unità di neuroriabilitazione e unità ospedaliera per il danno cerebrale sul sito ufficiale."
+    ],
+    "status": 200,
+    "finalUrl": "https://vithas.es/centro/vithas-hospital-sevilla",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Hospital Privado en Sevilla | Vithas Sevilla"
+  },
+  {
+    "name": "Hospital Vithas Valencia Consuelo",
+    "country": "Spain",
+    "city": "Valencia",
+    "region": "Valencia",
+    "url": "https://vithas.es/centro/vithas-hospital-valencia-consuelo",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page lists a pediatric neurorrehabilitation unit",
+      "Useful coverage for pediatric neurological rehabilitation in Valencia",
+      "A private Valencia hospital with a pediatric neurorrehabilitation unit and CDIAT on its official site.",
+      "Ospedale privato di Valencia con unità pediatrica di neuroriabilitazione e CDIAT sul sito ufficiale."
+    ],
+    "status": 200,
+    "finalUrl": "https://vithas.es/centro/vithas-hospital-valencia-consuelo",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | ictus | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Vithas Valencia Consuelo | Hospital Virgen del Consuelo"
+  },
+  {
+    "name": "Hospital Vithas Vigo",
+    "country": "Spain",
+    "city": "Vigo",
+    "region": "Galicia",
+    "url": "https://vithas.es/centro/vithas-hospital-vigo",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page lists a neurorrehabilitation unit",
+      "Adds north-west Spain coverage",
+      "A private Vigo hospital listing a neurorrehabilitation unit on its official site.",
+      "Ospedale privato di Vigo con unità di neuroriabilitazione elencata sul sito ufficiale."
+    ],
+    "status": 200,
+    "finalUrl": "https://vithas.es/centro/vithas-hospital-vigo",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Hospital Privado en Vigo | Vithas Vigo"
+  },
+  {
+    "name": "Hospital Vithas Xanit Internacional",
+    "country": "Spain",
+    "city": "Benalmádena",
+    "region": "Andalusia",
+    "url": "https://vithas.es/centro/vithas-hospital-xanit-internacional",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page lists a neurorrehabilitation unit",
+      "Part of the Vithas hospital network with the IRENEA model",
+      "Suitable as a southern Spain coverage point",
+      "A private Benalmádena hospital listing a neurorrehabilitation unit on its official site.",
+      "Ospedale privato a Benalmádena con unità di neuroriabilitazione elencata sul sito ufficiale."
+    ],
+    "status": 200,
+    "finalUrl": "https://vithas.es/centro/vithas-hospital-xanit-internacional",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "centro"
+      ]
+    },
+    "title": "Hospital Privado en Benalmádena, Málaga | Vithas Xanit Internacional"
+  },
+  {
+    "name": "Institut Guttmann",
+    "country": "Spain",
+    "city": "Badalona",
+    "region": "Catalonia",
+    "url": "https://www.guttmann.com/es",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Hospital de Neurorrehabilitación",
+      "Investigación e Innovación",
+      "Más de 4.500 personas atendidas al año",
+      "A highly specialized neurorehabilitation hospital with an interdisciplinary model, brain health focus and pediatric care.",
+      "Ospedale di neuroriabilitazione altamente specializzato con approccio interdisciplinare, salute cerebrale e area pediatrica."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.guttmann.com/es",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Hospital de Neurorrehabilitación | Investigación e Innovación | neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorrehabilitación"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Hospital de Neurorrehabilitación | Institut Guttmann"
+  },
+  {
+    "name": "Balgrist University Hospital",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "region": "Zurich",
+    "url": "https://www.balgrist.ch/en",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "review",
+    "knownInDataset": true,
+    "needles": [
+      "Official site explicitly lists a Spinal Cord Injury Center",
+      "Comprehensive medical care for spinal cord injuries",
+      "Strong research and teaching environment at the University of Zurich",
+      "A Zurich university hospital with a spinal cord injury center, physiotherapy, nursing care, and academic research.",
+      "Ospedale universitario di Zurigo con centro per lesioni midollari, fisioterapia, nursing e ricerca accademica."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.balgrist.ch/en",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "weak",
+    "qualifying": false,
+    "evidence": "neuro | spinal cord | spinal | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "neuro",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "center"
+      ]
+    },
+    "title": "Balgrist University Hospital: Balgrist University Hospital"
+  },
+  {
+    "name": "Klinik Valens",
+    "country": "Switzerland",
+    "city": "Valens",
+    "region": "St. Gallen",
+    "url": "https://www.klinik-valens.ch/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official Klinik Valens site for neurological rehabilitation",
+      "Scientifically grounded programs",
+      "Research-oriented clinic group",
+      "The main Klinik Valens site for neurological rehabilitation, with scientifically grounded programs.",
+      "Sito principale della Klinik Valens per la neuroriabilitazione, con programmi sviluppati in modo scientifico."
+    ],
+    "status": 200,
+    "finalUrl": "https://valens.ch/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neurolog | neuro | parkinson | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "center",
+        "zentrum"
+      ]
+    },
+    "title": "Startseite | Klinikgruppe Valens"
+  },
+  {
+    "name": "Rehaklinik Tschugg",
+    "country": "Switzerland",
+    "city": "Tschugg",
+    "region": "Bern",
+    "url": "https://www.rehaklinik-tschugg.ch/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Neurologische Rehabilitation, Parkinsonzentrum and Epilepsy Center on the official site",
+      "Brain Health Symposium",
+      "Clinical testing of Skywalk gait-support system",
+      "A Swiss clinic combining neurorehabilitation, a Parkinson center, and epileptology with personalized care and clinical innovation.",
+      "Clinica svizzera con neuroriabilitazione, centro Parkinson ed epilettologia, orientata a percorsi personalizzati e innovazione clinica."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehaklinik-tschugg.ch/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Brain Health Symposium | neurorehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | parkinson | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Klinik f&#xFC;r Epilepsie & Neurorehabilitation | Rehaklinik Tschugg"
+  },
+  {
+    "name": "Rehaklinik Zihlschlacht",
+    "country": "Switzerland",
+    "city": "Zihlschlacht",
+    "region": "Thurgau",
+    "url": "https://www.rehaklinik-zihlschlacht.ch/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "One of the leading centers for neurorehabilitation in Switzerland",
+      "One of the most modern robotics centers in Europe",
+      "Center of Excellence recognition in rehabilitation robotics",
+      "One of Switzerland’s leading neurorehabilitation centers, with advanced robotics, a Parkinson center, and deep expertise in multiple sclerosis.",
+      "Uno dei principali centri svizzeri di neuroriabilitazione, con robotica avanzata, Parkinsonzentrum e forte esperienza su MS."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehaklinik-zihlschlacht.ch/de",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | parkinson | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Klinik f&#xFC;r Neurologische Rehabilitation | Rehaklinik Zihlschlacht"
+  },
+  {
+    "name": "Swiss Paraplegic Centre",
+    "country": "Switzerland",
+    "city": "Nottwil",
+    "region": "Lucerne",
+    "url": "https://www.paraplegie.ch/en",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Comprehensive rehabilitation for people with spinal cord injuries",
+      "Globally unique network of services",
+      "Medicine, research, innovation and lifelong assistance under one group",
+      "A Swiss reference centre for spinal cord injury rehabilitation within a globally unique network of services and research.",
+      "Centro svizzero di riferimento per la riabilitazione delle lesioni midollari, integrato in una rete globale di servizi e ricerca."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.paraplegie.ch/en",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Globally unique network of services | rehabilitation | rehab | spinal cord | spinal | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Schweizer Paraplegiker-Gruppe | We support people with spinal cord injuries."
+  },
+  {
+    "name": "Atkinson Morley Regional Neurosciences Centre — St George’s Hospital",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://www.stgeorges.nhs.uk/services",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official services page lists a Neurosciences Centre with neurorehabilitation and stroke services",
+      "Rehabilitation services include gait lab and FES support for neuro-rehabilitation",
+      "Major neurosciences hub in southwest London",
+      "St George’s neurosciences centre with neurorehabilitation, stroke services, and gait lab / FES support.",
+      "Centro neuroscientifico di St George’s con neuro-riabilitazione, stroke services e supporto con gait lab/FES."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.stgeorges.nhs.uk/services",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitation | neuro-rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neuro-rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "centre"
+      ]
+    },
+    "title": "Services - St George&#039;s University Hospitals NHS Foundation Trust"
+  },
+  {
+    "name": "London Spinal Cord Injury Centre",
+    "country": "United Kingdom",
+    "city": "Stanmore",
+    "region": "Greater London",
+    "url": "https://www.rnoh.nhs.uk/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "London Spinal Cord Injury Centre listed on the official RNOH site",
+      "Comprehensive neuro-musculoskeletal care including acute spinal injury",
+      "Specialist rehabilitation and therapy services",
+      "RNOH’s spinal cord injury centre in Stanmore, providing specialist care and rehabilitation for spinal injury.",
+      "Centro spinale di RNOH a Stanmore con presa in carico per lesioni spinali e riabilitazione specialistica."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rnoh.nhs.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neuro | spinal cord | spinal | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "Home :: Royal National Orthopaedic Hospital"
+  },
+  {
+    "name": "Mildmay Hospital",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://www.mildmay.nhs.uk/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Specialist rehabilitation for HIV-associated neurological disorders (HAND)",
+      "Leading centre in Europe for HAND rehabilitation",
+      "Step-down rehabilitation and care for complex needs",
+      "A London charitable hospital providing rehabilitation for HIV-associated neurological disorders (HAND) and other complex needs.",
+      "Ospedale caritatevole di Londra con riabilitazione per disturbi neurocognitivi associati all’HIV e altri bisogni complessi."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.mildmay.nhs.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Mildmay Hospital | Specialist HIV Rehabilitation & Care for the NHS"
   },
   {
     "name": "National Hospital for Neurology and Neurosurgery",
     "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
     "url": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official neurorehabilitation and therapy services listing",
+      "Specialist brain and spine care hospital",
+      "Major neuro research environment at Queen Square",
+      "A Queen Square neurological hospital with explicit neurorehabilitation and therapy services, within a strong research environment.",
+      "Ospedale neurologico di Queen Square con servizi espliciti di neuro-riabilitazione e terapia, oltre a un forte contesto di ricerca."
+    ],
     "status": 200,
-    "title": "UCLH Neurology and Neurosurgery | Specialist brain and spine care in London",
-    "evidence": "neurorehabilitation and therapy services | neurorehabilitation | rehabilitation",
+    "finalUrl": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
     "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "neurorehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "cerebral palsy",
+        "multiple sclerosis"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "UCLH Neurology and Neurosurgery | Specialist brain and spine care in London"
   },
   {
-    "name": "Shepherd Center",
-    "country": "United States",
-    "url": "https://www.shepherd.org/",
+    "name": "Rehabilitation services — Queen Mary’s Hospital",
+    "country": "United Kingdom",
+    "city": "Roehampton",
+    "region": "Greater London",
+    "url": "https://www.stgeorges.nhs.uk/service/rehabilitation-service",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Official rehab service offers gait analysis and functional electrical stimulation for neuro-rehabilitation",
+      "Specialist spasticity management service",
+      "Douglas Bader Rehabilitation Centre at Queen Mary’s Hospital",
+      "Queen Mary’s rehabilitation service with gait lab, FES, and spasticity management supporting neuro-rehabilitation.",
+      "Servizio di riabilitazione di Queen Mary’s con gait lab, FES e gestione della spasticità a supporto della neuro-riabilitazione."
+    ],
     "status": 200,
-    "title": "Atlanta Brain and Spinal Cord Injury Rehabilitation | Shepherd Center",
-    "evidence": "brain injury | spinal cord injury | rehabilitation | research",
+    "finalUrl": "https://www.stgeorges.nhs.uk/service/rehabilitation-service",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
     "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "Specialist spasticity management service | neuro-rehabilitation | rehabilitation | rehab | neuro | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuro-rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "clinic"
+      ]
+    },
+    "title": "Rehabilitation services - St George&#039;s University Hospitals NHS Foundation Trust"
   },
   {
-    "name": "Spaulding Rehabilitation Hospital Boston",
-    "country": "United States",
-    "url": "https://www.spauldingrehab.org/",
+    "name": "Royal Hospital for Neuro-disability",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://www.rhn.org.uk/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Dedicated brain injury unit",
+      "Research and education page on the official site",
+      "Transitional rehabilitation pathways",
+      "A rehabilitation center for complex neurological disability with a strong focus on brain injury, research, and transitional pathways.",
+      "Centro di riabilitazione per disabilità neurologiche complesse con forte focus su lesioni cerebrali, ricerca e percorsi di transizione."
+    ],
     "status": 200,
-    "title": "Spaulding Rehabilitation - Rehabilitative Medicine in MA",
-    "evidence": "brain injury | neurological rehabilitation | research | rehabilitation hospital",
+    "finalUrl": "https://www.rhn.org.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
     "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Craig Hospital",
-    "country": "United States",
-    "url": "https://craighospital.org/",
-    "status": 307,
-    "title": "Neurorehabilitation Center Colorado | Craig Hospital",
-    "evidence": "neurorehabilitation | brain injury rehabilitation | spinal cord rehabilitation | research",
-    "qualifying": true,
-    "validationTier": "strict"
-  },
-  {
-    "name": "Shirley Ryan AbilityLab",
-    "country": "United States",
-    "url": "https://www.sralab.org/",
-    "status": 200,
-    "title": "AbilityLab Home",
-    "evidence": "brain injury | spinal cord injury | rehabilitation | research",
-    "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "rehab | neurolog | neuro | brain injury | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "brain injury"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Royal Hospital for Neuro-disability"
   },
   {
     "name": "Brooks Rehabilitation",
     "country": "United States",
+    "city": "Jacksonville",
+    "region": "Florida",
     "url": "https://brooksrehab.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Brain, stroke and spinal cord injury expertise on the official site",
+      "Research and innovation focus",
+      "Regional rehabilitation network",
+      "A U.S. center focused on stroke, brain and spinal injuries, robotics, and a regional rehabilitation network.",
+      "Centro statunitense con focus su ictus, lesioni cerebrali e spinali, robotica e rete riabilitativa regionale."
+    ],
     "status": 200,
-    "title": "Stroke, Brain & Spinal Cord Injury Experts | Brooks Rehabilitation",
-    "evidence": "brain injury | spinal cord injury | research",
+    "finalUrl": "https://brooksrehab.org/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
     "qualifying": true,
-    "validationTier": "strict"
+    "evidence": "rehabilitation | rehab | neuro | stroke | spinal cord | spinal | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "parkinson"
+      ],
+      "institution": [
+        "hospital",
+        "center",
+        "rehabilitation hospital"
+      ]
+    },
+    "title": "Stroke, Brain & Spinal Cord Injury Experts | Brooks Rehabilitation"
+  },
+  {
+    "name": "Craig Hospital",
+    "country": "United States",
+    "city": "Englewood",
+    "region": "Colorado",
+    "url": "https://craighospital.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "error",
+    "knownInDataset": true,
+    "needles": [
+      "Exclusively specializes in neurorehabilitation and research",
+      "Brain injury and spinal cord injury rehabilitation",
+      "Model systems and long-term follow-up",
+      "A reference hospital for neurorehabilitation and research, specializing in brain and spinal cord injury with inpatient and outpatient pathways.",
+      "Ospedale di riferimento per neuroriabilitazione e ricerca, specializzato in lesioni cerebrali e midollari con percorsi inpatient e outpatient."
+    ],
+    "status": 307,
+    "finalUrl": "https://craighospital.org/",
+    "contentType": "text/html",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "You are being redirected..."
+  },
+  {
+    "name": "Kessler Institute for Rehabilitation",
+    "country": "United States",
+    "city": "West Orange",
+    "region": "New Jersey",
+    "url": "https://www.kessler-rehab.com/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "error",
+    "knownInDataset": true,
+    "needles": [
+      "Neurologic rehabilitation is listed on the official site",
+      "Brain injury and spinal cord rehabilitation programs",
+      "Research & Innovation and education sections",
+      "Kessler is a major U.S. rehabilitation center with neurologic programs, research, and interdisciplinary care teams.",
+      "Kessler è un importante centro di riabilitazione statunitense con programmi neurologici, ricerca e team interdisciplinari."
+    ],
+    "status": 403,
+    "finalUrl": "https://www.kessler-rehab.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "No qualifying neurorehabilitation evidence found on fetched page.",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [],
+      "institution": []
+    },
+    "title": "Just a moment..."
+  },
+  {
+    "name": "Shepherd Center",
+    "country": "United States",
+    "city": "Atlanta",
+    "region": "Georgia",
+    "url": "https://www.shepherd.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "World leader in advanced rehabilitation treatment and research",
+      "Model Systems of Care",
+      "Dedicated brain injury and spinal cord injury programs",
+      "A U.S. reference center for brain and spinal cord injury, with research, intensive programs, and multidisciplinary care.",
+      "Centro statunitense di riferimento per lesioni cerebrali e midollari, con ricerca, programmi intensivi e approccio multidisciplinare."
+    ],
+    "status": 200,
+    "finalUrl": "https://shepherd.org/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neuro | stroke | spinal cord | spinal | clinic | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "multiple sclerosis"
+      ],
+      "institution": [
+        "clinic",
+        "center"
+      ]
+    },
+    "title": "Atlanta Brain and Spinal Cord Injury Rehabilitation | Shepherd Center"
+  },
+  {
+    "name": "Shirley Ryan AbilityLab",
+    "country": "United States",
+    "city": "Chicago",
+    "region": "Illinois",
+    "url": "https://www.sralab.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "Rehabilitation research hospital",
+      "Brain and spinal cord innovation centers",
+      "Strong academic links and fellowship programs",
+      "A Chicago rehabilitation research hospital with strong brain, spinal cord, robotics, and academic partnership programs.",
+      "Ospedale di riabilitazione e ricerca a Chicago con forti programmi su cervello, midollo, robotica e collaborazione accademica."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sralab.org/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "rehabilitation | rehab | neuro | stroke | spinal cord | spinal | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "cerebral palsy",
+        "multiple sclerosis",
+        "parkinson"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "center",
+        "rehabilitation hospital"
+      ]
+    },
+    "title": "AbilityLab Home"
+  },
+  {
+    "name": "Spaulding Rehabilitation Hospital Boston",
+    "country": "United States",
+    "city": "Boston",
+    "region": "Massachusetts",
+    "url": "https://www.spauldingrehab.org/",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "candidate",
+    "knownInDataset": true,
+    "needles": [
+      "World leader in advanced rehabilitation treatment and research",
+      "Official teaching partner of Harvard Medical School PM&R",
+      "Spaulding Rehabilitation Hospital Boston ranked #2 in the nation",
+      "A Boston rehabilitation hospital with a strong neuro profile, advanced research, and an academic partnership with Harvard.",
+      "Ospedale di riabilitazione di Boston con forte profilo neuro, ricerca avanzata e collegamento accademico con Harvard."
+    ],
+    "status": 200,
+    "finalUrl": "https://www.spauldingrehab.org/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "World leader in advanced rehabilitation treatment and research | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "cerebral palsy",
+        "parkinson"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "rehabilitation hospital"
+      ]
+    },
+    "title": "Spaulding Rehabilitation - Rehabilitative Medicine in MA"
   }
 ]

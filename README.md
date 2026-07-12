@@ -19,6 +19,16 @@ npm run build
 npm audit --omit=dev
 ```
 
+## Scraper workflow
+
+The clinic scraper is a two-stage discovery and validation pipeline. See `scripts/README-scraper.md` for the source config shape, review statuses, and coverage limits.
+
+```bash
+npm run scrape:discover
+npm run scrape
+npm run export:csv
+```
+
 ## Trust model
 
 Seed records link to official institutional pages. The MVP deliberately publishes no fabricated scores. Review and center submissions enter a local pending queue; production publication requires the authentication and moderation backend planned in GSD Phase 2.

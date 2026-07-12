@@ -1,0 +1,453 @@
+{
+  "officialDirectories": [],
+  "seedSites": [
+    {
+      "country": "Germany",
+      "name": "BDH-Klinik Elzach",
+      "city": "Elzach",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://www.bdh-klinik-elzach.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "BDH clinic network / official clinic site",
+      "needles": ["neurologische rehabilitation", "neurologische fruehrehabilitation", "neurorehabilitation", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "BDH-Klinik Greifswald",
+      "city": "Greifswald",
+      "region": "Mecklenburg-Vorpommern",
+      "url": "https://www.bdh-klinik-greifswald.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "BDH clinic network / official clinic site",
+      "needles": ["zentrum fuer neurorehabilitation", "neurologische rehabilitation", "fruehrehabilitation", "schaedel-hirn", "querschnitt"]
+    },
+    {
+      "country": "Germany",
+      "name": "BDH-Klinik Braunfels",
+      "city": "Braunfels",
+      "region": "Hesse",
+      "url": "https://www.bdh-klinik-braunfels.de/bdh-klinik-braunfels/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "BDH clinic network / official clinic site",
+      "needles": ["neurologisches zentrum", "stroke unit", "neurologische rehabilitation", "neurologische fruehrehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "BDH-Klinik Hessisch Oldendorf",
+      "city": "Hessisch Oldendorf",
+      "region": "Lower Saxony",
+      "url": "https://www.bdh-klinik-hessisch-oldendorf.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "BDH clinic network / official clinic site",
+      "needles": ["neurologische fruehrehabilitation", "neurologische rehabilitation", "medizinisch-berufliche rehabilitation", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "BDH-Klinik Vallendar",
+      "city": "Vallendar",
+      "region": "Rhineland-Palatinate",
+      "url": "https://www.bdh-klinik-vallendar.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "BDH clinic network / official clinic site",
+      "needles": ["zentrum fuer neurologische rehabilitation", "neurologische reha", "beatmungsmedizin", "medizinische rehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Allensbach",
+      "city": "Allensbach",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/allensbach/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "phase b", "phase c", "phase d", "parkinson", "multiple sclerosis"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Gailingen",
+      "city": "Gailingen am Hochrhein",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/gailingen/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "multiple sclerosis", "neurorehabilitation", "phase c", "phase d"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Konstanz",
+      "city": "Konstanz",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/konstanz/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "multiple sclerosis", "neurorehabilitation", "phase c", "phase d"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Heidelberg",
+      "city": "Heidelberg",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/heidelberg/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "phase b", "phase c", "phase d", "university hospital"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Gerlingen",
+      "city": "Gerlingen",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/gerlingen/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "phase b", "phase c", "phase d", "neurorehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "Kliniken Schmieder Stuttgart",
+      "city": "Stuttgart",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://kliniken-schmieder.com/hospital/stuttgart/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Kliniken Schmieder official site",
+      "needles": ["neurological rehabilitation", "outpatient", "day clinic", "neurorehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "Schoen Klinik Bad Aibling Harthausen",
+      "city": "Bad Aibling",
+      "region": "Bavaria",
+      "url": "https://www.schoen-klinik.de/bad-aibling-harthausen",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologische fruehrehabilitation", "stroke unit", "robotergestuetzt", "schlaganfall", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "Hegau-Jugendwerk Gailingen",
+      "city": "Gailingen am Hochrhein",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://hegau-jugendwerk.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologisches krankenhaus", "rehabilitationszentrum", "phasen b c d und e", "kinder", "jugendliche"]
+    },
+    {
+      "country": "Germany",
+      "name": "Sankt Rochus Kliniken",
+      "city": "Bad Schoenborn",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://www.sankt-rochus-kliniken.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologische rehabilitation", "neurologische fruehrehabilitation", "phase b", "phase c", "phase d"]
+    },
+    {
+      "country": "Germany",
+      "name": "KLINIK BAVARIA Kreischa",
+      "city": "Kreischa",
+      "region": "Saxony",
+      "url": "https://www.klinik-bavaria.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologie", "fruehrehabilitation", "intensivrehabilitation", "motorische rehabilitation", "kognitive rehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "RehaNova Koeln",
+      "city": "Cologne",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.rehanova.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologisch-neurochirurgische rehabilitationsklinik", "akut-fruehrehabilitation", "phase b-d", "schlaganfall", "multiple sklerose", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "Johanniter-Klinik Godeshoehe",
+      "city": "Bonn",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.godeshoehe.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologische intensivmedizin", "neurologische fruehrehabilitation", "schlaganfaelle", "schaedel-hirn-verletzungen", "multiple sklerose", "morbus parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachklinik Enzensberg",
+      "city": "Fuessen",
+      "region": "Bavaria",
+      "url": "https://www.fachklinik-enzensberg.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologische fruehrehabilitation", "neurologische rehabilitation", "phase b", "phase c", "phase d"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachklinik Bad Heilbrunn",
+      "city": "Bad Heilbrunn",
+      "region": "Bavaria",
+      "url": "https://www.fachklinik-bad-heilbrunn.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologische fruehrehabilitation", "neurologie phase c", "neurologie phase d", "neurologische rehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachkliniken Hohenurach",
+      "city": "Bad Urach",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://www.fachkliniken-hohenurach.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologische fruehrehabilitation", "neurologie phase c", "neurologie phase d", "neuropsychologie", "schlaganfall"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachklinik Ichenhausen",
+      "city": "Ichenhausen",
+      "region": "Bavaria",
+      "url": "https://www.fachklinik-ichenhausen.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologie", "parkinson", "neurologische fruehrehabilitation", "weaning", "neurologie neuropsychologie"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachklinik Herzogenaurach",
+      "city": "Herzogenaurach",
+      "region": "Bavaria",
+      "url": "https://www.fachklinik-herzogenaurach.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologische fruehrehabilitation", "neurologie phase c", "neurologie phase d", "neurologische rehabilitation"]
+    },
+    {
+      "country": "Germany",
+      "name": "m&i-Fachklinik Bad Liebenstein",
+      "city": "Bad Liebenstein",
+      "region": "Thuringia",
+      "url": "https://www.fachklinik-bad-liebenstein.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "m&i Klinikgruppe Enzensberg official site",
+      "needles": ["neurologische fruehrehabilitation", "weiterfuehrende neurorehabilitation", "phase c", "phase d", "weaning"]
+    },
+    {
+      "country": "Germany",
+      "name": "Moritz Klinik Bad Klosterlausnitz",
+      "city": "Bad Klosterlausnitz",
+      "region": "Thuringia",
+      "url": "https://www.moritz-klinik.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologie", "neurologische fruehrehabilitation", "phase b", "rehabilitation", "schlaganfall"]
+    },
+    {
+      "country": "Germany",
+      "name": "Marcus Klinik Bad Driburg",
+      "city": "Bad Driburg",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.marcus-klinik.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official clinic site",
+      "needles": ["neurologie", "neurologische rehabilitation", "schlaganfall", "multiple sklerose", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "Asklepios Klinik Schaufling",
+      "city": "Schaufling",
+      "region": "Bavaria",
+      "url": "https://www.asklepios.com/schaufling/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Asklepios official site / specialist rehab clinic",
+      "needles": ["neurologie", "neuropsychologie", "schlaganfall", "schaedel-hirn", "epilepsie"]
+    },
+    {
+      "country": "Germany",
+      "name": "Asklepios Neurologische Klinik Bad Salzhausen",
+      "city": "Bad Salzhausen",
+      "region": "Hesse",
+      "url": "https://www.asklepios.com/bad-salzhausen/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "Asklepios official site / specialist neurology clinic",
+      "needles": ["neurologische klinik", "neurologische rehabilitation", "multiple sklerose", "parkinson", "schlaganfall"]
+    },
+    {
+      "country": "Germany",
+      "name": "MediClin Fachklinik Rhein/Ruhr",
+      "city": "Essen",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.fachklinik-rheinruhr.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "MediClin official site / specialist rehab clinic",
+      "needles": ["neurologie", "neurologische rehabilitation", "schlaganfall", "multiple sklerose", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "MediClin Hedon Klinik",
+      "city": "Lingen",
+      "region": "Lower Saxony",
+      "url": "https://www.hedon-klinik.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "MediClin official site / specialist rehab clinic",
+      "needles": ["neurologie", "neurologische rehabilitation", "schlaganfall", "schaedel-hirn", "multiple sklerose"]
+    },
+    {
+      "country": "Germany",
+      "name": "SRH Kurpfalzkrankenhaus Heidelberg",
+      "city": "Heidelberg",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://www.kurpfalzkrankenhaus.de/",
+      "sourceType": "germany-pilot-official-seed",
+      "discoverySource": "official hospital site / specialist neurology hospital",
+      "needles": ["neurologische fruehrehabilitation", "phase b", "schlaganfall", "schaedigungen des nervensystems", "neurologie"]
+    },
+    {
+      "country": "Germany",
+      "name": "Dr. Becker Neurozentrum Niedersachsen",
+      "city": "Bad Essen",
+      "region": "Lower Saxony",
+      "url": "https://www.dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+      "needles": ["neurologie", "fruehrehabilitation", "rehabilitation", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "Dr. Becker Rhein-Sieg-Klinik",
+      "city": "Nuembrecht",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.dbkg.de/kliniken/dr-becker-rhein-sieg-klinik/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+      "needles": ["neurologie", "fruehrehabilitation", "rehabilitation", "schlaganfall", "multiple sklerose"]
+    },
+    {
+      "country": "Germany",
+      "name": "Dr. Becker Kiliani-Klinik",
+      "city": "Bad Windsheim",
+      "region": "Bavaria",
+      "url": "https://www.dbkg.de/kliniken/dr-becker-kiliani-klinik/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Dr. Becker clinic group / neurology rehabilitation seed",
+      "needles": ["neurologie", "neuro-onkologie", "fruehrehabilitation", "rehabilitation", "schlaganfall"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik Berlin-Kladow",
+      "city": "Berlin",
+      "region": "Berlin",
+      "url": "https://www.median-kliniken.de/de/median-klinik-berlin-kladow/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologische rehabilitation", "neurologie", "schlaganfall", "schaedel-hirn", "multiple sklerose"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik NRZ Magdeburg",
+      "city": "Magdeburg",
+      "region": "Saxony-Anhalt",
+      "url": "https://www.median-kliniken.de/de/median-klinik-nrz-magdeburg/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologisches rehabilitationszentrum", "neurologische rehabilitation", "phase b", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik Flechtingen",
+      "city": "Flechtingen",
+      "region": "Saxony-Anhalt",
+      "url": "https://www.median-kliniken.de/de/median-klinik-flechtingen/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "phase b", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik Gyhum",
+      "city": "Gyhum",
+      "region": "Lower Saxony",
+      "url": "https://www.median-kliniken.de/de/median-klinik-gyhum/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik Wilhelmshaven",
+      "city": "Wilhelmshaven",
+      "region": "Lower Saxony",
+      "url": "https://www.median-kliniken.de/de/median-klinik-wilhelmshaven/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "MEDIAN Klinik Kalbe",
+      "city": "Kalbe",
+      "region": "Saxony-Anhalt",
+      "url": "https://www.median-kliniken.de/de/median-klinik-kalbe/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "MEDIAN clinic group / neurological rehabilitation seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "schaedel-hirn"]
+    },
+    {
+      "country": "Germany",
+      "name": "Passauer Wolf Bad Goegging",
+      "city": "Bad Goegging",
+      "region": "Bavaria",
+      "url": "https://www.passauerwolf.de/standorte/bad-goegging/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "Passauer Wolf Nittenau",
+      "city": "Nittenau",
+      "region": "Bavaria",
+      "url": "https://www.passauerwolf.de/standorte/nittenau/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "Passauer Wolf Bad Griesbach",
+      "city": "Bad Griesbach",
+      "region": "Bavaria",
+      "url": "https://www.passauerwolf.de/standorte/bad-griesbach/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Passauer Wolf specialist rehabilitation group seed",
+      "needles": ["neurologie", "neurologische rehabilitation", "rehabilitation", "schlaganfall", "parkinson"]
+    },
+    {
+      "country": "Germany",
+      "name": "SRH Fachkrankenhaus Neresheim",
+      "city": "Neresheim",
+      "region": "Baden-Wuerttemberg",
+      "url": "https://www.fachkrankenhaus-neresheim.de/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "SRH specialist hospital / neurological early rehabilitation seed",
+      "needles": ["neurologische fruehrehabilitation", "intensivmedizin", "schaedel-hirn", "hirnschaedigung", "neurologie"]
+    },
+    {
+      "country": "Germany",
+      "name": "Vitrea Klinik Hattingen",
+      "city": "Hattingen",
+      "region": "North Rhine-Westphalia",
+      "url": "https://www.vitrea-gesundheit.de/reha/hattingen/",
+      "sourceType": "germany-second-pass-official-seed",
+      "discoverySource": "Vitrea / former VAMED neurological rehabilitation seed",
+      "needles": ["neurologie", "neurochirurgie", "neuropaediatrie", "fruehrehabilitation", "rehabilitation"]
+    }
+  ],
+  "searchResults": [],
+  "queryTemplates": [
+    "\"neurorehabilitation\" \"{country}\" hospital official",
+    "\"neurological rehabilitation\" \"{country}\" rehabilitation centre",
+    "\"spinal cord injury\" rehabilitation hospital \"{country}\"",
+    "\"brain injury\" rehabilitation hospital \"{country}\"",
+    "\"stroke rehabilitation\" hospital \"{country}\""
+  ]
+}

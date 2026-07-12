@@ -1,379 +1,34 @@
-import { Configuration, PlaywrightCrawler } from 'crawlee';
-import { writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { setTimeout as sleep } from 'node:timers/promises';
 
-Configuration.getGlobalConfig().set('persistStorage', false);
-Configuration.getGlobalConfig().set('systemInfoV2', false);
-Configuration.getGlobalConfig().set('memoryMbytes', 1024);
+import { centers } from '../src/lib/data/centers.js';
 
-const targets = [
-  {
-    country: 'Italy',
-    name: 'Centro Giusti Firenze',
-    url: 'https://www.centrogiusti.eu/',
-    needles: ['pazienti neurologici', 'lesioni midollari', 'esoscheletro', 'ictus', 'sclerosi multipla', 'riabilitazione intensa e continuativa']
-  },
-  {
-    country: 'Spain',
-    name: 'Institut Guttmann',
-    url: 'https://www.guttmann.com/es',
-    needles: ['neurorrehabilitación', 'neurorehabilitation', 'rehabilitación neurológica', 'investigación']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Nacional de Parapléjicos',
-    url: 'http://www.infomedula.org/',
-    needles: ['lesión medular', 'rehabilitación integral', 'espasticidad', 'electroestimulación funcional', 'investigación']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Quirónsalud Miguel Domínguez',
-    url: 'https://www.quironsalud.com/migueldominguez',
-    needles: ['unidad de neuro-rehabilitación', 'neuro-rehabilitación', 'exoesqueletos robóticos', 'realidad virtual', 'pacientes neurológicos']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Vithas Aguas Vivas',
-    url: 'https://vithas.es/centro/vithas-hospital-aguas-vivas/',
-    needles: ['unidad de neurorrehabilitación y daño cerebral', 'neurorrehabilitación especializada', 'piscina', 'tecnología robótica', 'rv']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Vithas Sevilla',
-    url: 'https://vithas.es/centro/vithas-hospital-sevilla/',
-    needles: ['unidad de neurorrehabilitación', 'unidad hospitalaria de daño cerebral', 'irenea', 'recuperación funcional']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Vithas Xanit Internacional',
-    url: 'https://vithas.es/centro/vithas-hospital-xanit-internacional/',
-    needles: ['unidad de neurorrehabilitación', 'irenea', 'daño cerebral', 'recuperación funcional']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Vithas Valencia Consuelo',
-    url: 'https://vithas.es/centro/vithas-hospital-valencia-consuelo/',
-    needles: ['unidad de neurorrehabilitación pediátrica', 'cdiat', 'unidad de neurorrehabilitación']
-  },
-  {
-    country: 'Spain',
-    name: 'Hospital Vithas Vigo',
-    url: 'https://vithas.es/centro/vithas-hospital-vigo/',
-    needles: ['unidad de neurorrehabilitación', 'irenea']
-  },
-  {
-    country: 'Germany',
-    name: 'Kliniken Schmieder',
-    url: 'https://kliniken-schmieder.com/',
-    needles: ['neurological rehabilitation', 'neurorehabilitation', 'rehabilitation']
-  },
-  {
-    country: 'France',
-    name: 'Service universitaire de MPR neurologique — CHU de Nantes',
-    url: 'https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique',
-    needles: ['handicap neurologique lourd', 'cerebrolésions', 'lésions médullaires', 'rééducation-réadaptation']
-  },
-  {
-    country: 'France',
-    name: 'Hôpital Maritime de Berck — AP-HP',
-    url: 'https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck/',
-    needles: ['rééducation neurologique', 'balnéothérapie en eau de mer', 'atelier fauteuils roulants', 'plateau de rééducation']
-  },
-  {
-    country: 'France',
-    name: 'Hôpital Henry Gabrielle — HCL',
-    url: 'https://www.chu-lyon.fr/hopital-henry-gabrielle',
-    needles: ['rééducation des affections neurologiques', 'blessures médullaires', 'traumatismes crâniens', 'suivis post-avc']
-  },
-  {
-    country: 'Portugal',
-    name: 'Centro de Medicina de Reabilitação de Alcoitão',
-    url: 'https://cmra.scml.pt/',
-    needles: ['medicina física e reabilitação', 'lesões medulares', 'reabilitação', 'terapia da fala', 'ortoprotesia']
-  },
-  {
-    country: 'Slovenia',
-    name: 'URI Soča',
-    url: 'https://www.uri-soca.si/en/',
-    needles: ['rehabilitation', 'neurological', 'research']
-  },
-  {
-    country: 'Netherlands',
-    name: 'Roessingh',
-    url: 'https://www.roessingh.nl/',
-    needles: ['neurologische revalidatie', 'niet-aangeboren hersenletsel', 'multiple sclerose', 'parkinson', 'patiënttevredenheid']
-  },
-  {
-    country: 'Belgium',
-    name: 'Inkendaal',
-    url: 'https://www.inkendaal.be/',
-    needles: ['neurologische beperkingen', 'zwembad', 'gehospitaliseerde', 'ambulante']
-  },
-  {
-    country: 'Germany',
-    name: 'BDH-Klinik Elzach',
-    url: 'https://www.bdh-klinik-elzach.de/',
-    needles: ['neurologische rehabilitation', 'neurologische intensivmedizin', 'frührehabilitation']
-  },
-  {
-    country: 'Germany',
-    name: 'BDH-Klinik Greifswald',
-    url: 'https://www.bdh-klinik-greifswald.de/',
-    needles: ['zentrum für neurorehabilitation', 'frührehabilitation', 'rehabilitation schwerst schädelhirngeschädigter patienten']
-  },
-  {
-    country: 'Germany',
-    name: 'Schön Klinik Bad Aibling Harthausen',
-    url: 'https://www.schoen-klinik.de/bad-aibling-harthausen',
-    needles: ['neurologische frührehabilitation', 'robotergestützte', 'schlaganfall', 'stroke unit']
-  },
-  {
-    country: 'Germany',
-    name: 'Hegau-Jugendwerk Gailingen',
-    url: 'https://hegau-jugendwerk.de/',
-    needles: ['neurologische rehabilitation', 'rehabilitationsphasen b, c, d und e', 'kinder', 'jugendliche', 'junge erwachsene']
-  },
-  {
-    country: 'Germany',
-    name: 'Kliniken Schmieder Allensbach',
-    url: 'https://kliniken-schmieder.com/hospital/allensbach/',
-    needles: ['neurological rehabilitation', 'research', 'day care', 'phase-based']
-  },
-  {
-    country: 'Germany',
-    name: 'Kliniken Schmieder Gerlingen',
-    url: 'https://kliniken-schmieder.com/hospital/gerlingen/',
-    needles: ['neurological rehabilitation', 'phase b', 'research', 'day care']
-  },
-  {
-    country: 'Germany',
-    name: 'Kliniken Schmieder Stuttgart',
-    url: 'https://kliniken-schmieder.com/hospital/stuttgart/',
-    needles: ['neurological rehabilitation', 'outpatient', 'day clinic', 'research']
-  },
-  {
-    country: 'Switzerland',
-    name: 'Rehaklinik Zihlschlacht',
-    url: 'https://www.rehaklinik-zihlschlacht.ch/',
-    needles: ['neurorehabilitation', 'robotics', 'parkinson', 'multiple sclerosis']
-  },
-  {
-    country: 'Switzerland',
-    name: 'Rehaklinik Tschugg',
-    url: 'https://www.rehaklinik-tschugg.ch/',
-    needles: ['neurological rehabilitation', 'parkinson', 'epilepsy', 'brain health']
-  },
-  {
-    country: 'Norway',
-    name: 'Sunnaas sykehus HF',
-    url: 'https://www.sunnaas.no/',
-    needles: ['rehabilitering', 'forskning', 'tverrfaglig', 'nevrologi']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'Royal Hospital for Neuro-disability',
-    url: 'https://www.rhn.org.uk/',
-    needles: ['rehab', 'neuro-disability', 'brain injury', 'research']
-  },
-  {
-    country: 'Switzerland',
-    name: 'Swiss Paraplegic Centre',
-    url: 'https://www.paraplegie.ch/en/',
-    needles: ['spinal cord injuries', 'spinal cord injury', 'rehabilitation', 'research', 'innovation']
-  },
-  {
-    country: 'Switzerland',
-    name: 'Balgrist University Hospital',
-    url: 'https://www.balgrist.ch/en/',
-    needles: ['spinal cord injury centre', 'spinal cord injuries', 'physiotherapy', 'nursing care', 'research']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'London Spinal Cord Injury Centre',
-    url: 'https://www.rnoh.nhs.uk/',
-    needles: ['spinal cord injury centre', 'acute spinal injury', 'rehabilitation and therapy', 'neuro-musculoskeletal']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'Mildmay Hospital',
-    url: 'https://www.mildmay.nhs.uk/',
-    needles: ['hiv-associated neurological disorders', 'hand rehabilitation', 'specialist rehabilitation', 'neurocognitive']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'Atkinson Morley Regional Neurosciences Centre — St George’s Hospital',
-    url: 'https://www.stgeorges.nhs.uk/services/',
-    needles: ['neurorehabilitation', 'stroke services', 'rehabilitation services', 'gait laboratory', 'functional electrical stimulation']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'Rehabilitation services — Queen Mary’s Hospital',
-    url: 'https://www.stgeorges.nhs.uk/service/rehabilitation-service/',
-    needles: ['neuro-rehabilitation', 'functional electrical stimulation', 'spasticity management', 'gait lab']
-  },
-  {
-    country: 'Switzerland',
-    name: 'Klinik Valens',
-    url: 'https://www.klinik-valens.ch/',
-    needles: ['neurorehabilitation', 'neurological rehabilitation', 'rehabilitation']
-  },
-  {
-    country: 'Germany',
-    name: 'Sankt Rochus Kliniken',
-    url: 'https://www.sankt-rochus-kliniken.de/',
-    needles: ['neurologische frührehabilitation', 'neurologische rehabilitation', 'phase b', 'phase c', 'phase d']
-  },
-  {
-    country: 'Germany',
-    name: 'KLINIK BAVARIA Kreischa',
-    url: 'https://www.klinik-bavaria.de/',
-    needles: ['intensiv-reha', 'frührehabilitation', 'neurologie', 'motorische rehabilitation', 'kognitive rehabilitation']
-  },
-  {
-    country: 'Czech Republic',
-    name: 'Rehabilitační ústav Brandýs nad Orlicí',
-    url: 'https://www.rehabilitacniustav.cz/',
-    needles: ['robotická rehabilitace', 'neurorehabilitace', 'bazén', 'hydroterapie']
-  },
-  {
-    country: 'Croatia',
-    name: 'University Hospital Centre Zagreb',
-    url: 'http://www.kbc-zagreb.hr/',
-    needles: ['klinika za neurologiju', 'klinički zavod za rehabilitaciju i ortopedska pomagala', 'rehabilitacija', 'neurokirurgija']
-  },
-  {
-    country: 'United Kingdom',
-    name: 'National Hospital for Neurology and Neurosurgery',
-    url: 'https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery',
-    needles: ['neurorehabilitation and therapy services', 'neurorehabilitation', 'rehabilitation']
-  },
-  {
-    country: 'Ireland',
-    name: 'National Rehabilitation Hospital',
-    city: 'Dún Laoghaire',
-    region: 'Dublin',
-    url: 'https://www.nrh.ie/',
-    needles: ['complex specialist rehabilitation services', 'rehabilitation services', 'research']
-  },
-  {
-    country: 'Denmark',
-    name: 'Marselisborgcentret',
-    city: 'Aarhus',
-    region: 'Central Denmark',
-    url: 'https://www.marselisborgcentret.dk/',
-    needles: ['rehabilitering', 'forskning', 'udvikling']
-  },
-  {
-    country: 'Netherlands',
-    name: 'Heliomare',
-    city: 'Wijk aan Zee',
-    region: 'North Holland',
-    url: 'https://www.heliomare.nl/',
-    needles: ['hersenletsel', 'dwarslaesie', 'multiple sclerose', 'revalidatie', 'onderzoek en innovatie']
-  },
-  {
-    country: 'Netherlands',
-    name: 'Kempenhaeghe',
-    city: 'Heeze',
-    region: 'North Brabant',
-    url: 'https://www.kempenhaeghe.nl/',
-    needles: ['neurologische leer- en ontwikkelstoornissen', 'wetenschap', 'innovatie', 'epilepsie']
-  },
-  {
-    country: 'Austria',
-    name: 'Neuromed Campus — Kepler Universitätsklinikum',
-    city: 'Linz',
-    region: 'Upper Austria',
-    url: 'https://www.kepleruniklinikum.at/services/fuer-patientinnen-und-patienten/aufenthalt-am-neuromed-campus/',
-    needles: ['neurologie', 'forschung', 'rehabilitation']
-  },
-  {
-    country: 'Hungary',
-    name: 'National Center for Spinal Disorders',
-    city: 'Budapest',
-    region: 'Budapest',
-    url: 'https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center',
-    needles: ['spinal cord injury', 'rehabilitation', 'research', 'buda health center']
-  },
-  {
-    country: 'Lithuania',
-    name: 'Eglės sanatorija',
-    city: 'Druskininkai',
-    region: 'Alytus County',
-    url: 'https://sanatorija.lt/',
-    needles: ['medicinal rehabilitation', 'physical medicine', 'rehabilitation', 'medical rehabilitation', 'reabilitacijos centrai', 'fizinės medicinos ir reabilitacijos', 'sanatorinis gydymas']
-  },
-  {
-    country: 'Estonia',
-    name: 'Haapsalu Neurological Rehabilitation Centre',
-    city: 'Haapsalu',
-    region: 'Lääne County',
-    url: 'https://www.hnrk.ee/',
-    needles: ['neurorehabilitatsiooni osakond', 'spinaalse rehabilitatsiooni osakond', 'statsionaarne taastusravi', 'haapsalu neuroloogilise rehabilitatsioonikeskuse']
-  },
-  {
-    country: 'Netherlands',
-    name: 'Roessingh',
-    city: 'Enschede',
-    region: 'Overijssel',
-    url: 'https://www.roessingh.nl/',
-    needles: ['revalidatie', 'onderzoek', 'parkinson', 'na-aangeboren hersenletsel']
-  },
-  {
-    country: 'Belgium',
-    name: 'Inkendaal',
-    city: 'Vlezenbeek',
-    region: 'Flemish Brabant',
-    url: 'https://www.inkendaal.be/',
-    needles: ['revalidatie', 'neurologische', 'zwembad']
-  },
-  {
-    country: 'Belgium',
-    name: 'Revalidatieziekenhuis RevArte',
-    city: 'Edegem',
-    region: 'Antwerp',
-    url: 'https://www.revarte.be/',
-    needles: ['hersenletselkliniek', 'dwarslaesiekliniek', 'residentieel en ambulant zorgaanbod', 'revalidatieziekenhuis']
-  },
-  {
-    country: 'United States',
-    name: 'Shepherd Center',
-    url: 'https://www.shepherd.org/',
-    needles: ['brain injury', 'spinal cord injury', 'rehabilitation', 'research']
-  },
-  {
-    country: 'United States',
-    name: 'Spaulding Rehabilitation Hospital Boston',
-    url: 'https://www.spauldingrehab.org/',
-    needles: ['brain injury', 'neurological rehabilitation', 'research', 'rehabilitation hospital']
-  },
-  {
-    country: 'United States',
-    name: 'Craig Hospital',
-    url: 'https://craighospital.org/',
-    needles: ['neurorehabilitation', 'brain injury rehabilitation', 'spinal cord rehabilitation', 'research']
-  },
-  {
-    country: 'United States',
-    name: 'Shirley Ryan AbilityLab',
-    url: 'https://www.sralab.org/',
-    needles: ['brain injury', 'spinal cord injury', 'rehabilitation', 'research']
-  },
-  {
-    country: 'United States',
-    name: 'Brooks Rehabilitation',
-    url: 'https://brooksrehab.org/',
-    needles: ['brain injury', 'spinal cord injury', 'neurological rehabilitation', 'research']
-  }
+const DEFAULT_SOURCE_CONFIG = './scripts/data/neurorehab-official-sources.json';
+const DEFAULT_DISCOVERY_OUT = './neurorehab-discoveries.json';
+const DEFAULT_SCRAPE_OUT = './neurorehab-scrape.json';
+const DEFAULT_VALIDATED_OUT = './src/lib/data/validated-scrape.json';
+
+const explicitNeuroRehabSignals = [
+  'neurorehabilitation',
+  'neuro-rehabilitation',
+  'neurological rehabilitation',
+  'neurologic rehabilitation',
+  'neurorrehabilitación',
+  'rehabilitación neurológica',
+  'neuroriabilitazione',
+  'riabilitazione neurologica',
+  'réadaptation neurologique',
+  'rééducation neurologique',
+  'neurologische rehabilitation',
+  'neurologische revalidatie',
+  'neurorevalidatie',
+  'neurorehabilitace',
+  'neurorehabilitacja',
+  'neurorehabilitacija',
+  'neurorehabilitatsioon',
+  'неврологическая реабилитация',
+  'нейрореабилитация'
 ];
-
-function normalize(text) {
-  return text.toLowerCase().replace(/\s+/g, ' ').trim();
-}
-
-function collectEvidence(body, needles) {
-  const matches = needles.filter((needle) => body.includes(normalize(needle)));
-  return matches.join(' | ');
-}
 
 const rehabSignals = [
   'rehabilitation',
@@ -381,13 +36,15 @@ const rehabSignals = [
   'riabilitazione',
   'revalidatie',
   'rééducation',
-  'reabilitazione',
+  'réadaptation',
   'reabilitação',
   'reabilitacja',
   'rehabilitación',
   'rehabilitace',
   'rehabilitácia',
-  'rehabilitacija'
+  'rehabilitacija',
+  'taastusravi',
+  'реабилитация'
 ];
 
 const neuroSignals = [
@@ -398,91 +55,514 @@ const neuroSignals = [
   'spinal cord',
   'spinal',
   'brain injury',
-  'cerebral',
-  'neurological injuries',
-  'neurological disorders',
+  'acquired brain injury',
+  'cerebral palsy',
+  'cerebrovascular',
   'multiple sclerosis',
   'parkinson',
   'lesion medull',
   'lesões medulares',
-  'lesioni midollari'
+  'lesioni midollari',
+  'dwarslaesie',
+  'hersenletsel',
+  'невролог',
+  'инсульт',
+  'черепно-мозгов',
+  'рассеянный склероз',
+  'паркинсон'
 ];
 
-function hasBroaderNeurologicalRehab(body) {
-  const hasRehab = rehabSignals.some((signal) => body.includes(normalize(signal)));
-  const hasNeuro = neuroSignals.some((signal) => body.includes(normalize(signal)));
-  return hasRehab && hasNeuro;
+const weakInstitutionSignals = [
+  'hospital',
+  'clinic',
+  'kliniek',
+  'klinik',
+  'centre',
+  'center',
+  'centro',
+  'zentrum',
+  'revalidatieziekenhuis',
+  'rehabilitation hospital'
+];
+
+const directoryLinkSignals = [
+  ...explicitNeuroRehabSignals,
+  ...rehabSignals,
+  ...neuroSignals,
+  'spinal injury',
+  'brain injury',
+  'stroke unit'
+];
+
+const directoryLinkExclusions = [
+  'facebook.com',
+  'instagram.com',
+  'linkedin.com',
+  'twitter.com',
+  'x.com',
+  'youtube.com',
+  'mailto:',
+  'tel:',
+  '.pdf',
+  '.jpg',
+  '.jpeg',
+  '.png',
+  '.svg'
+];
+
+function parseOptions(argv) {
+  const options = {
+    sourceConfig: DEFAULT_SOURCE_CONFIG,
+    discoveryOut: DEFAULT_DISCOVERY_OUT,
+    scrapeOut: DEFAULT_SCRAPE_OUT,
+    validatedOut: DEFAULT_VALIDATED_OUT,
+    discoverOnly: false,
+    skipFetch: false,
+    max: Number.POSITIVE_INFINITY,
+    concurrency: 4,
+    delayMs: 150
+  };
+
+  for (const arg of argv) {
+    if (arg === '--discover-only') {
+      options.discoverOnly = true;
+      options.skipFetch = true;
+    } else if (arg === '--skip-fetch') {
+      options.skipFetch = true;
+    } else if (arg.startsWith('--source-config=')) {
+      options.sourceConfig = arg.split('=').slice(1).join('=');
+    } else if (arg.startsWith('--discovery-out=')) {
+      options.discoveryOut = arg.split('=').slice(1).join('=');
+    } else if (arg.startsWith('--scrape-out=')) {
+      options.scrapeOut = arg.split('=').slice(1).join('=');
+    } else if (arg.startsWith('--validated-out=')) {
+      options.validatedOut = arg.split('=').slice(1).join('=');
+    } else if (arg.startsWith('--max=')) {
+      options.max = Number(arg.split('=').at(-1));
+    } else if (arg.startsWith('--concurrency=')) {
+      options.concurrency = Math.max(1, Number(arg.split('=').at(-1)));
+    } else if (arg.startsWith('--delay-ms=')) {
+      options.delayMs = Math.max(0, Number(arg.split('=').at(-1)));
+    } else {
+      throw new Error(`Unknown option: ${arg}`);
+    }
+  }
+
+  return options;
 }
 
-const results = new Map();
+function normalizeText(text) {
+  return String(text ?? '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
-const crawler = new PlaywrightCrawler({
-  maxConcurrency: 3,
-  maxRequestRetries: 2,
-  requestHandlerTimeoutSecs: 60,
-  async requestHandler({ request, response, page, log }) {
-    const target = request.userData.target;
-    const status = response?.status() ?? null;
-    const title = await page.title().catch(() => '');
-    const body = normalize(await page.textContent('body').catch(() => ''));
-    const evidence = collectEvidence(body, target.needles);
-    const broader = hasBroaderNeurologicalRehab(body);
-    const qualifying = Boolean(evidence) || broader;
-    const validationTier = evidence ? 'strict' : broader ? 'broad' : 'none';
+function normalizeUrl(value, baseUrl) {
+  if (!value) return '';
 
-    log.info(`Scraped ${target.name} (${status ?? 'no status'})`);
-    results.set(target.url, {
-      name: target.name,
-      country: target.country,
-      city: target.city ?? '',
-      region: target.region ?? '',
-      url: target.url,
-      status,
-      title,
-      evidence: evidence || 'No direct keyword match found on first pass.',
-      qualifying,
-      validationTier
+  try {
+    const url = baseUrl ? new URL(value, baseUrl) : new URL(value);
+    url.hash = '';
+
+    if (url.pathname !== '/') {
+      url.pathname = url.pathname.replace(/\/+$/, '');
+    }
+
+    return url.toString();
+  } catch {
+    return '';
+  }
+}
+
+function stripHtml(html) {
+  return String(html ?? '')
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&[a-z]+;/gi, ' ');
+}
+
+function extractTitle(html) {
+  const match = String(html ?? '').match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  return match ? stripHtml(match[1]).replace(/\s+/g, ' ').trim() : '';
+}
+
+function extractLinks(html, baseUrl) {
+  const links = [];
+  const anchorPattern = /<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match;
+
+  while ((match = anchorPattern.exec(String(html ?? ''))) !== null) {
+    const href = match[1];
+    const url = normalizeUrl(href, baseUrl);
+    const text = stripHtml(match[2]).replace(/\s+/g, ' ').trim();
+    if (url && text) {
+      links.push({ url, text });
+    }
+  }
+
+  return links;
+}
+
+async function readJsonIfExists(path, fallback) {
+  try {
+    return JSON.parse(await readFile(path, 'utf8'));
+  } catch (error) {
+    if (error.code === 'ENOENT') return fallback;
+    throw error;
+  }
+}
+
+async function writeJson(path, value) {
+  const parent = path.split('/').slice(0, -1).join('/');
+  if (parent) {
+    await mkdir(parent, { recursive: true });
+  }
+
+  await writeFile(path, `${JSON.stringify(value, null, 2)}\n`);
+}
+
+async function fetchPage(url, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      redirect: 'follow',
+      signal: controller.signal,
+      headers: {
+        accept: 'text/html,application/xhtml+xml',
+        'accept-language': 'en,de;q=0.9',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 NeuroviaClinicsDiscovery/0.2'
+      }
     });
-  },
-  failedRequestHandler({ request, log }) {
-    const target = request.userData.target;
-    log.warning(`Failed ${target.name}: ${request.errorMessages?.[0] ?? 'unknown error'}`);
-    results.set(target.url, {
-      name: target.name,
-      country: target.country,
-      city: target.city ?? '',
-      region: target.region ?? '',
-      url: target.url,
-      status: null,
-      title: '',
-      evidence: request.errorMessages?.[0] ?? 'Unknown error',
-      qualifying: false,
-      validationTier: 'none'
+
+    const contentType = response.headers.get('content-type') ?? '';
+    const body = contentType.includes('text/html') || contentType.includes('text/plain')
+      ? await response.text()
+      : '';
+
+    return {
+      ok: response.ok,
+      status: response.status,
+      finalUrl: response.url || url,
+      contentType,
+      html: body
+    };
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function centerToDiscovery(center) {
+  return {
+    name: center.name,
+    country: center.country ?? '',
+    city: center.city ?? '',
+    region: center.region ?? '',
+    url: normalizeUrl(center.url),
+    sourceType: 'curated-dataset',
+    discoverySource: 'src/lib/data/centers.js',
+    reviewStatus: 'known',
+    knownInDataset: true,
+    needles: [
+      ...(center.researchHighlights ?? []),
+      center.description?.en,
+      center.description?.it
+    ].filter(Boolean)
+  };
+}
+
+function configSiteToDiscovery(site) {
+  return {
+    name: site.name ?? site.title ?? '',
+    country: site.country ?? '',
+    city: site.city ?? '',
+    region: site.region ?? '',
+    url: normalizeUrl(site.url),
+    sourceType: site.sourceType ?? 'official-seed',
+    discoverySource: site.discoverySource ?? site.source ?? 'source config',
+    reviewStatus: site.reviewStatus ?? 'unreviewed',
+    knownInDataset: false,
+    needles: Array.isArray(site.needles) ? site.needles : []
+  };
+}
+
+function dedupeDiscoveries(discoveries) {
+  const rows = new Map();
+
+  for (const discovery of discoveries) {
+    const url = normalizeUrl(discovery.url);
+    if (!url) continue;
+
+    const key = url.toLowerCase();
+    const existing = rows.get(key);
+    if (!existing) {
+      rows.set(key, { ...discovery, url });
+      continue;
+    }
+
+    rows.set(key, {
+      ...existing,
+      name: existing.name || discovery.name,
+      country: existing.country || discovery.country,
+      city: existing.city || discovery.city,
+      region: existing.region || discovery.region,
+      sourceType: mergePiped(existing.sourceType, discovery.sourceType),
+      discoverySource: mergePiped(existing.discoverySource, discovery.discoverySource),
+      reviewStatus: existing.reviewStatus === 'known' ? 'known' : discovery.reviewStatus || existing.reviewStatus,
+      knownInDataset: Boolean(existing.knownInDataset || discovery.knownInDataset),
+      needles: Array.from(new Set([...(existing.needles ?? []), ...(discovery.needles ?? [])].filter(Boolean)))
     });
   }
-});
 
-await crawler.run(
-  targets.map((target) => ({
-    url: target.url,
-    uniqueKey: `${target.country}:${target.name}:${target.url}`,
-    userData: { target }
+  return [...rows.values()].sort((a, b) =>
+    `${a.country} ${a.name} ${a.url}`.localeCompare(`${b.country} ${b.name} ${b.url}`, 'en', { sensitivity: 'base' })
+  );
+}
+
+function mergePiped(left, right) {
+  return Array.from(new Set([left, right].flatMap((value) => String(value ?? '').split(' | ')).filter(Boolean))).join(' | ');
+}
+
+function linkLooksRelevant(link) {
+  const haystack = normalizeText(`${link.text} ${link.url}`);
+  const excluded = directoryLinkExclusions.some((term) => haystack.includes(normalizeText(term)));
+  if (excluded) return false;
+
+  return directoryLinkSignals.some((signal) => haystack.includes(normalizeText(signal)));
+}
+
+async function discoverFromDirectories(directories, options) {
+  if (options.skipFetch || !Array.isArray(directories) || directories.length === 0) {
+    return [];
+  }
+
+  const discoveries = [];
+
+  for (const directory of directories) {
+    if (!directory.url) continue;
+    await sleep(options.delayMs);
+
+    try {
+      const page = await fetchPage(directory.url);
+      const links = extractLinks(page.html, page.finalUrl);
+      const relevantLinks = links.filter(linkLooksRelevant).slice(0, directory.maxLinks ?? 50);
+
+      for (const link of relevantLinks) {
+        discoveries.push({
+          name: link.text,
+          country: directory.country ?? '',
+          city: '',
+          region: '',
+          url: link.url,
+          sourceType: 'official-directory-link',
+          discoverySource: `${directory.name ?? 'directory'}: ${directory.url}`,
+          reviewStatus: 'unreviewed',
+          knownInDataset: false,
+          needles: []
+        });
+      }
+    } catch (error) {
+      discoveries.push({
+        name: directory.name ?? 'Official directory fetch failed',
+        country: directory.country ?? '',
+        city: '',
+        region: '',
+        url: normalizeUrl(directory.url),
+        sourceType: 'official-directory',
+        discoverySource: 'directory fetch failed',
+        reviewStatus: 'source-error',
+        knownInDataset: false,
+        discoveryError: error.message,
+        needles: []
+      });
+    }
+  }
+
+  return discoveries;
+}
+
+async function buildDiscoverySet(options) {
+  const sourceConfig = await readJsonIfExists(options.sourceConfig, {
+    officialDirectories: [],
+    seedSites: [],
+    searchResults: []
+  });
+
+  const curatedDiscoveries = centers.map(centerToDiscovery);
+  const configuredSeeds = [
+    ...(sourceConfig.seedSites ?? []),
+    ...(sourceConfig.searchResults ?? [])
+  ].map(configSiteToDiscovery);
+  const directoryDiscoveries = await discoverFromDirectories(sourceConfig.officialDirectories, options);
+
+  return dedupeDiscoveries([
+    ...curatedDiscoveries,
+    ...configuredSeeds,
+    ...directoryDiscoveries
+  ]);
+}
+
+function collectNeedleEvidence(body, needles) {
+  return (needles ?? [])
+    .map((needle) => String(needle ?? '').trim())
+    .filter(Boolean)
+    .filter((needle) => body.includes(normalizeText(needle)));
+}
+
+function collectSignalEvidence(body, signals) {
+  return signals.filter((signal) => body.includes(normalizeText(signal)));
+}
+
+function classifyValidation(discovery, page) {
+  const text = normalizeText(stripHtml(page.html));
+  const title = extractTitle(page.html);
+  const titleText = normalizeText(title);
+  const nameText = normalizeText(discovery.name);
+
+  const needleEvidence = collectNeedleEvidence(text, discovery.needles);
+  const explicitEvidence = collectSignalEvidence(text, explicitNeuroRehabSignals);
+  const rehabEvidence = collectSignalEvidence(text, rehabSignals);
+  const neuroEvidence = collectSignalEvidence(text, neuroSignals);
+  const institutionEvidence = collectSignalEvidence(`${titleText} ${nameText} ${text.slice(0, 1000)}`, weakInstitutionSignals);
+
+  let reviewStatus = 'rejected';
+  let validationTier = 'none';
+
+  if (!page.ok) {
+    reviewStatus = 'error';
+  } else if (needleEvidence.length > 0 || explicitEvidence.length > 0) {
+    reviewStatus = 'candidate';
+    validationTier = 'strict';
+  } else if (rehabEvidence.length > 0 && neuroEvidence.length > 0) {
+    reviewStatus = 'candidate';
+    validationTier = 'broad';
+  } else if ((rehabEvidence.length > 0 || neuroEvidence.length > 0) && institutionEvidence.length > 0) {
+    reviewStatus = 'review';
+    validationTier = 'weak';
+  }
+
+  const evidence = [
+    ...needleEvidence,
+    ...explicitEvidence,
+    ...rehabEvidence.slice(0, 4),
+    ...neuroEvidence.slice(0, 4),
+    ...institutionEvidence.slice(0, 2)
+  ];
+
+  return {
+    reviewStatus,
+    validationTier,
+    qualifying: reviewStatus === 'candidate',
+    evidence: Array.from(new Set(evidence)).join(' | ') || 'No qualifying neurorehabilitation evidence found on fetched page.',
+    matchedSignals: {
+      explicitNeuroRehab: explicitEvidence,
+      rehabilitation: rehabEvidence,
+      neurological: neuroEvidence,
+      institution: institutionEvidence
+    },
+    title
+  };
+}
+
+async function validateDiscovery(discovery, options) {
+  if (discovery.reviewStatus === 'source-error') {
+    return {
+      ...discovery,
+      status: null,
+      finalUrl: discovery.url,
+      title: '',
+      evidence: discovery.discoveryError ?? 'Discovery source failed.',
+      qualifying: false,
+      validationTier: 'none',
+      reviewStatus: 'source-error',
+      matchedSignals: {}
+    };
+  }
+
+  await sleep(options.delayMs);
+
+  try {
+    const page = await fetchPage(discovery.url);
+    const classification = classifyValidation(discovery, page);
+
+    return {
+      ...discovery,
+      status: page.status,
+      finalUrl: normalizeUrl(page.finalUrl) || discovery.url,
+      contentType: page.contentType,
+      ...classification
+    };
+  } catch (error) {
+    return {
+      ...discovery,
+      status: null,
+      finalUrl: discovery.url,
+      title: '',
+      evidence: error.message,
+      qualifying: false,
+      validationTier: 'none',
+      reviewStatus: discovery.knownInDataset ? 'known' : 'error',
+      matchedSignals: {}
+    };
+  }
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length);
+  let cursor = 0;
+
+  async function worker() {
+    while (cursor < items.length) {
+      const index = cursor;
+      cursor += 1;
+      results[index] = await mapper(items[index], index);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
+}
+
+const options = parseOptions(process.argv.slice(2));
+const discoveries = (await buildDiscoverySet(options)).slice(0, options.max);
+
+await writeJson(options.discoveryOut, discoveries);
+console.log(`Stage A discovery wrote ${discoveries.length} rows to ${options.discoveryOut}.`);
+
+if (options.discoverOnly) {
+  process.exit(0);
+}
+
+const validationResults = options.skipFetch
+  ? discoveries.map((discovery) => ({
+    ...discovery,
+    status: null,
+    finalUrl: discovery.url,
+    title: '',
+    evidence: 'Validation skipped by --skip-fetch.',
+    qualifying: false,
+    validationTier: 'none',
+    reviewStatus: discovery.reviewStatus === 'known' ? 'known' : 'unvalidated',
+    matchedSignals: {}
   }))
+  : await mapWithConcurrency(discoveries, options.concurrency, (discovery) => validateDiscovery(discovery, options));
+
+const reviewableResults = validationResults.filter((result) =>
+  ['candidate', 'review', 'known'].includes(result.reviewStatus)
 );
 
-const orderedResults = targets.map((target) => results.get(target.url) ?? {
-  name: target.name,
-  country: target.country,
-  url: target.url,
-  status: null,
-  title: '',
-  evidence: 'Missing result from crawler.',
-  qualifying: false,
-  validationTier: 'none'
-});
+await writeJson(options.scrapeOut, validationResults);
+await writeJson(options.validatedOut, reviewableResults);
 
-const validatedResults = orderedResults.filter((result) => result.qualifying);
-
-await writeFile('neurorehab-scrape.json', JSON.stringify(orderedResults, null, 2));
-await writeFile('src/lib/data/validated-scrape.json', JSON.stringify(validatedResults, null, 2));
-console.log(JSON.stringify(orderedResults, null, 2));
+console.log(`Stage B validation wrote ${validationResults.length} rows to ${options.scrapeOut}.`);
+console.log(`Review output wrote ${reviewableResults.length} rows to ${options.validatedOut}.`);
