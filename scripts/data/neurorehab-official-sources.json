@@ -496,10 +496,10 @@
       "name": "Centre Mutualiste de Kerpape",
       "city": "Ploemeur",
       "region": "Brittany",
-      "url": "https://www.kerpape.mutualite56.fr/",
-      "sourceType": "france-pilot-official-seed",
-      "discoverySource": "official specialist rehabilitation centre seed",
-      "needles": ["rééducation", "réadaptation", "neurologique", "lésion médullaire", "robotique", "exosquelette"]
+      "url": "https://centre-kerpape.fr/mpr-neuro/",
+      "sourceType": "france-second-pass-official-seed",
+      "discoverySource": "official adult neurological MPR service page",
+      "needles": ["MPR Neurologique", "Médecine Physique et Réadaptation neurologique adulte", "atteinte du système nerveux central", "Lésions cérébrales", "accident vasculaire cérébral", "traumatisme crânien", "Sclérose en plaques", "Syndromes parkinsoniens", "Unité de Réadaptation Neurologique Post Réanimation", "affections du système nerveux"]
     },
     {
       "country": "France",
@@ -576,10 +576,10 @@
       "name": "CHU Rouen - Médecine physique et réadaptation",
       "city": "Rouen",
       "region": "Normandy",
-      "url": "https://www.chu-rouen.fr/service/medecine-physique-et-readaptation/",
-      "sourceType": "france-pilot-official-seed",
-      "discoverySource": "CHU MPR service seed",
-      "needles": ["médecine physique et réadaptation", "neurologique", "avc", "cérébrolésé", "rééducation"]
+      "url": "https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique/",
+      "sourceType": "france-second-pass-official-seed",
+      "discoverySource": "official CHU Rouen neuropediatrics / pediatric MPR service page",
+      "needles": ["Neuropédiatrie", "Médecine Physique Réadaptation pédiatrique", "système nerveux central", "Maladies de la moelle", "Hôpital de jour MPR", "maladies neuromusculaires", "neurovasculaires", "Polyhandicap", "Handicap moteur"]
     },
     {
       "country": "France",

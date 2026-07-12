@@ -738,6 +738,44 @@ export const centers = [
     }
   },
   {
+    id: 'centre-mutualiste-kerpape-mpr-neuro',
+    name: 'Centre Mutualiste de Kerpape',
+    country: 'France',
+    city: 'Ploemeur', region: 'Brittany', lat: 47.7248, lng: -3.4304,
+    address: '100 rue de l’Anse du Stole, 56270 Ploemeur', phone: '+33 2 97 82 60 60',
+    url: 'https://centre-kerpape.fr/mpr-neuro/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive'],
+    technologies: ['robotics', 'gait'],
+    modes: ['inpatient', 'outpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie', 'Orthophonie', 'Neuropsychologie'],
+    completeness: 93,
+    researchHighlights: ['Official adult neurological MPR service at Kerpape', 'Covers acquired brain injury, stroke, traumatic brain injury, MS, Parkinsonian syndromes and neuromuscular disease', 'Dedicated post-resuscitation neurorehab unit, conventional rehab unit and day hospital'],
+    features: ['brain-injury', 'spinal-cord', 'research'],
+    description: {
+      it: 'Centro mutualistico di MPR neurologica adulta a Ploemeur, con percorsi per ictus, trauma cranico, sclerosi multipla, Parkinson e malattie neuromuscolari.',
+      en: 'A Ploemeur adult neurological MPR centre covering stroke, traumatic brain injury, multiple sclerosis, Parkinsonian syndromes, and neuromuscular disease.'
+    }
+  },
+  {
+    id: 'chu-rouen-neuropediatrie-mpr',
+    name: 'CHU Rouen - Neuropédiatrie et MPR pédiatrique',
+    country: 'France',
+    city: 'Rouen', region: 'Normandy', lat: 49.4429, lng: 1.1095,
+    address: '1 rue de Germont, 76031 Rouen Cedex', phone: '+33 2 32 88 89 90',
+    url: 'https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique/',
+    conditions: ['pediatric', 'neuromuscular', 'neuromotor', 'cognitive'],
+    technologies: [],
+    modes: ['outpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Neuropédiatrie', 'Médecine physique', 'Rééducation', 'Kinésithérapie', 'Orthophonie', 'Neuropsychologie'],
+    completeness: 87,
+    researchHighlights: ['Official CHU Rouen neuropediatrics and pediatric MPR service', 'Covers central nervous system, spinal, nerve and muscle conditions in children', 'Includes neuropediatric day hospital, MPR day hospital and multidisciplinary follow-up'],
+    features: ['pediatric', 'neuromuscular', 'rehabilitation'],
+    description: {
+      it: 'Servizio di neuropediatria e MPR pediatrica del CHU di Rouen per patologie del sistema nervoso, neuromuscolari e disabilità motorie infantili.',
+      en: 'A CHU Rouen neuropediatrics and pediatric MPR service for nervous-system, neuromuscular, and motor-disability conditions in children.'
+    }
+  },
+  {
     id: 'cmra-alcoitao',
     name: 'Centro de Medicina de Reabilitação de Alcoitão',
     country: 'Portugal',

@@ -180,6 +180,57 @@
     "title": "HNRK - HNRK"
   },
   {
+    "name": "Centre Mutualiste de Kerpape",
+    "country": "France",
+    "city": "Ploemeur",
+    "region": "Brittany",
+    "url": "https://centre-kerpape.fr/mpr-neuro",
+    "sourceType": "france-second-pass-official-seed",
+    "discoverySource": "official adult neurological MPR service page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "MPR Neurologique",
+      "Médecine Physique et Réadaptation neurologique adulte",
+      "atteinte du système nerveux central",
+      "Lésions cérébrales",
+      "accident vasculaire cérébral",
+      "traumatisme crânien",
+      "Sclérose en plaques",
+      "Syndromes parkinsoniens",
+      "Unité de Réadaptation Neurologique Post Réanimation",
+      "affections du système nerveux"
+    ],
+    "status": 200,
+    "finalUrl": "https://centre-kerpape.fr/mpr-neuro",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "MPR Neurologique | Médecine Physique et Réadaptation neurologique adulte | atteinte du système nerveux central | Lésions cérébrales | accident vasculaire cérébral | traumatisme crânien | Sclérose en plaques | Syndromes parkinsoniens | Unité de Réadaptation Neurologique Post Réanimation | affections du système nerveux | réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | parkinson | blessés médullaires | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "réadaptation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson",
+        "blessés médullaires",
+        "accident vasculaire cérébral",
+        "traumatisme crânien",
+        "sclérose en plaques"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "MPR Neurologique - CENTRE MUTUALISTE DE KERPAPE"
+  },
+  {
     "name": "Centre Propara",
     "country": "France",
     "city": "Montpellier",
@@ -307,6 +358,47 @@
       ]
     },
     "title": "CHU Grenoble Alpes"
+  },
+  {
+    "name": "CHU Rouen - Médecine physique et réadaptation",
+    "country": "France",
+    "city": "Rouen",
+    "region": "Normandy",
+    "url": "https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique",
+    "sourceType": "france-second-pass-official-seed",
+    "discoverySource": "official CHU Rouen neuropediatrics / pediatric MPR service page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Neuropédiatrie",
+      "Médecine Physique Réadaptation pédiatrique",
+      "système nerveux central",
+      "Maladies de la moelle",
+      "Hôpital de jour MPR",
+      "maladies neuromusculaires",
+      "neurovasculaires",
+      "Polyhandicap",
+      "Handicap moteur"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuropédiatrie | Médecine Physique Réadaptation pédiatrique | système nerveux central | Maladies de la moelle | Hôpital de jour MPR | maladies neuromusculaires | neurovasculaires | Polyhandicap | Handicap moteur | rééducation | réadaptation | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Neuropédiatrie - Médecine Physique Réadaptation pédiatrique"
   },
   {
     "name": "CHU Toulouse - Médecine physique et de réadaptation",
@@ -496,7 +588,7 @@
     "url": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | AP-HP rare neurological diseases / Huntington SMR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP SMR for rare neurological diseases and Huntington",
@@ -509,28 +601,13 @@
       "rééducation motrice",
       "rééducation cognitive"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "maladies rares neurologiques | huntington | réadaptation | rééducation motrice | rééducation | neurolog | neuro | avc | hospital",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rééducation",
-        "réadaptation"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "avc"
-      ],
-      "institution": [
-        "hospital"
-      ]
-    },
-    "title": "Service de SMR Maladies Rares Neurologiques CRMR Huntington - Hôpital marin de Hendaye | APHP"
+    "title": "",
+    "evidence": "This operation was aborted",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Hôpital Maritime de Berck — AP-HP",
@@ -540,7 +617,7 @@
     "url": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "known",
+    "reviewStatus": "candidate",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP page calls it a reference for neurological rehabilitation",
@@ -549,13 +626,29 @@
       "An AP-HP reference hospital for neurological rehabilitation with sea-water balneotherapy and a dedicated rehab platform.",
       "Ospedale AP-HP di riferimento per la riabilitazione neurologica con balneoterapia in acqua di mare e piattaforma tecnica dedicata."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck",
-    "title": "",
-    "evidence": "This operation was aborted",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rééducation neurologique | rééducation | réadaptation | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rééducation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Présentation de l hôpital Maritime de Berck | Hôpital Maritime de Berck"
   },
   {
     "name": "Hôpital Raymond-Poincaré - Neurologie et MPR pédiatrique",
