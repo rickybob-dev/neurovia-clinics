@@ -24,6 +24,7 @@ export const centers = [
   {
     id: 'santa-lucia-roma',
     name: 'Fondazione Santa Lucia IRCCS',
+    country: 'Italy',
     city: 'Roma', region: 'Lazio', lat: 41.8456, lng: 12.5037,
     address: 'Via Ardeatina 306, 00179 Roma', phone: '+39 06 515011',
     url: 'https://www.hsantalucia.it/servizi-sanitari/riabilitazione-neuromotoria',
@@ -40,6 +41,7 @@ export const centers = [
   {
     id: 'montecatone-imola',
     name: 'Montecatone Rehabilitation Institute',
+    country: 'Italy',
     city: 'Imola', region: 'Emilia-Romagna', lat: 44.3485, lng: 11.7076,
     address: 'Via Montecatone 37, 40026 Imola', phone: '+39 0542 632811',
     url: 'https://www.montecatone.com/',
@@ -55,6 +57,7 @@ export const centers = [
   {
     id: 'don-gnocchi-milano',
     name: 'IRCCS S. Maria Nascente — Don Gnocchi',
+    country: 'Italy',
     city: 'Milano', region: 'Lombardia', lat: 45.4711, lng: 9.1273,
     address: 'Via Alfonso Capecelatro 66, 20148 Milano', phone: '+39 02 403081',
     url: 'https://www.dongnocchi.it/@strutture/centro-irccs-s-maria-nascente',
@@ -69,6 +72,7 @@ export const centers = [
   {
     id: 'bonino-pulejo-messina',
     name: 'IRCCS Centro Neurolesi Bonino Pulejo',
+    country: 'Italy',
     city: 'Messina', region: 'Sicilia', lat: 38.1787, lng: 15.5212,
     address: 'S.S. 113, Contrada Casazza, 98124 Messina', phone: '+39 090 60128111',
     url: 'https://www.irccsme.it/servizi/riabilitazione-robotica/',
@@ -83,6 +87,7 @@ export const centers = [
   {
     id: 'cris-rovigo',
     name: 'CRiS — Città di Rovigo',
+    country: 'Italy',
     city: 'Rovigo', region: 'Veneto', lat: 45.0665, lng: 11.7905,
     address: 'Via G. Falcone e P. Borsellino 69, 45100 Rovigo', phone: '+39 0425 426111',
     url: 'https://cris.cittadirovigo.it/',
@@ -97,6 +102,7 @@ export const centers = [
   {
     id: 'medea-bosisio',
     name: 'IRCCS Eugenio Medea',
+    country: 'Italy',
     city: 'Bosisio Parini', region: 'Lombardia', lat: 45.8035, lng: 9.2914,
     address: 'Via Don Luigi Monza 20, 23842 Bosisio Parini', phone: '+39 031 877111',
     url: 'https://emedea.it/',
@@ -111,6 +117,7 @@ export const centers = [
   {
     id: 'villa-beretta-costa-masnaga',
     name: 'Centro di riabilitazione Villa Beretta',
+    country: 'Italy',
     city: 'Costa Masnaga', region: 'Lombardia', lat: 45.7883, lng: 9.2755,
     address: 'Via Nazario Sauro 17, 23845 Costa Masnaga', phone: '+39 031 856111',
     url: 'https://www.valduce.it/it/chi-siamo/centro-di-riabilitazione-villa-beretta',
@@ -125,6 +132,7 @@ export const centers = [
   {
     id: 'auxologico-meda-riabilitazione',
     name: 'Auxologico Meda Riabilitazione',
+    country: 'Italy',
     city: 'Meda', region: 'Lombardia', lat: 45.6612, lng: 9.1552,
     address: 'Corso della Resistenza 23, 20821 Meda', phone: '+39 02 619112500',
     url: 'https://www.auxologico.it/sedi/auxologico-meda-riabilitazione',
@@ -139,6 +147,7 @@ export const centers = [
   {
     id: 'maugeri-montescano',
     name: 'IRCCS Maugeri Montescano',
+    country: 'Italy',
     city: 'Montescano', region: 'Lombardia', lat: 45.0402, lng: 9.2834,
     address: 'Via per Montescano 1, 27040 Montescano', phone: '+39 0385 2471',
     url: 'https://www.icsmaugeri.it/dove-siamo/irccs-montescano',
@@ -152,6 +161,7 @@ export const centers = [
   {
     id: 'maugeri-pavia',
     name: 'IRCCS Maugeri Pavia',
+    country: 'Italy',
     city: 'Pavia', region: 'Lombardia', lat: 45.1847, lng: 9.1582,
     address: 'Via Salvatore Maugeri 4, 27100 Pavia', phone: '+39 0382 5931',
     url: 'https://www.icsmaugeri.it/dove-siamo/irccs-pavia',
@@ -165,6 +175,7 @@ export const centers = [
   {
     id: 'maugeri-castel-goffredo',
     name: 'IRCCS Maugeri Castel Goffredo',
+    country: 'Italy',
     city: 'Castel Goffredo', region: 'Lombardia', lat: 45.2967, lng: 10.4836,
     address: 'Via dei Gelsi 5, 46042 Castel Goffredo', phone: '+39 0376 7751',
     url: 'https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo',
@@ -178,6 +189,7 @@ export const centers = [
   {
     id: 'maugeri-veruno',
     name: 'IRCCS Maugeri Veruno',
+    country: 'Italy',
     city: 'Gattico-Veruno', region: 'Piemonte', lat: 45.7381, lng: 8.5212,
     address: 'Via per Revislate 13, 28013 Gattico-Veruno', phone: '+39 0322 832111',
     url: 'https://www.icsmaugeri.it/dove-siamo/irccs-veruno',
@@ -590,6 +602,24 @@ export const centers = [
     }
   },
   {
+    id: 'revarte-edegem',
+    name: 'Revalidatieziekenhuis RevArte',
+    country: 'Belgium',
+    city: 'Edegem', region: 'Antwerp', lat: 51.1568, lng: 4.4443,
+    address: 'Drie Eikenstraat 659, 2650 Edegem', phone: '+32 3 443 17 00',
+    url: 'https://www.mkl.be/mkl/revalidatieziekenhuis-revarte/',
+    conditions: ['tbi', 'spinal', 'stroke', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiegeneeskunde', 'Kinesitherapie', 'Logopedie', 'Ergotherapie', 'Verpleegkunde'],
+    completeness: 78,
+    researchHighlights: ['Hersenletselkliniek on the official site', 'Dwarslaesiekliniek on the official site', 'Residentieel and ambulant rehab pathways'],
+    features: ['brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale.',
+      en: 'A rehabilitation hospital in Edegem with dedicated brain-injury and spinal cord pathways, both inpatient and outpatient.'
+    }
+  },
+  {
     id: 'bdh-elzach',
     name: 'BDH-Klinik Elzach',
     country: 'Germany',
@@ -844,6 +874,42 @@ export const centers = [
     description: {
       it: 'Centro ceco di riabilitazione con robotica e neuroriabilitazione esplicitamente indicate sul sito ufficiale, oltre a idroterapia e piscina.',
       en: 'A Czech rehabilitation center with robotic rehabilitation and neurorehabilitation explicitly listed on the official site, plus hydrotherapy and a pool.'
+    }
+  },
+  {
+    id: 'hnrk-haapsalu',
+    name: 'Haapsalu Neurological Rehabilitation Centre',
+    country: 'Estonia',
+    city: 'Haapsalu', region: 'Lääne County', lat: 58.9435, lng: 23.5419,
+    address: 'Sadama 16, 90502 Haapsalu', phone: '+372 4725 400',
+    url: 'https://www.hnrk.ee/',
+    conditions: ['stroke', 'tbi', 'spinal', 'pediatric', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Taastusarst', 'Füsioteraapia', 'Tegevusteraapia', 'Logopeedia', 'Õendus'],
+    completeness: 81,
+    researchHighlights: ['Neurorehabilitatsiooni osakond is listed on the official site', 'Spinaalse rehabilitatsiooni osakond is listed on the official site', 'Statsionaarne and ambulatory rehab services'],
+    features: ['research', 'spinal-cord'],
+    description: {
+      it: 'Centro estone di neuroriabilitazione a Haapsalu con reparti per riabilitazione neuro e spinale, oltre a percorsi residenziali e ambulatoriali.',
+      en: 'An Estonian neurorehabilitation centre in Haapsalu with dedicated neuro and spinal rehabilitation units, plus inpatient and outpatient pathways.'
+    }
+  },
+  {
+    id: 'buda-spinal-disorders-budapest',
+    name: 'National Center for Spinal Disorders',
+    country: 'Hungary',
+    city: 'Budapest', region: 'Budapest', lat: 47.4979, lng: 19.0402,
+    address: 'Budapest', phone: 'Unknown',
+    url: 'https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center',
+    conditions: ['spinal'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Rehabilitation', 'Neurology', 'Physiotherapy', 'Nursing'],
+    completeness: 72,
+    researchHighlights: ['Official site is a spinal-disorders reference page', 'Crawling was blocked, so this is a manual official-source fallback'],
+    features: ['spinal-cord'],
+    description: {
+      it: 'Centro ungherese di riferimento per disturbi spinali a Budapest, aggiunto come fallback manuale da fonte ufficiale bloccata.',
+      en: 'A Hungarian reference center for spinal disorders in Budapest, added as a manual fallback from a blocked official source.'
     }
   },
   {

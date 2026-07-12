@@ -1,0 +1,5 @@
+country,clinic_name,location,website,source_type,validation,evidence
+Belgium,Revalidatieziekenhuis RevArte,"Edegem, Antwerp",https://www.revarte.be/,manual,official site redirected during crawl,residentieel en ambulant zorgaanbod | Hersenletselkliniek | Dwarslaesiekliniek
+Croatia,University Hospital Centre Zagreb,,http://www.kbc-zagreb.hr/,scrape,candidate (strict),klinika za neurologiju | klinički zavod za rehabilitaciju i ortopedska pomagala | neurokirurgija
+Estonia,Haapsalu Neurological Rehabilitation Centre,"Haapsalu, Lääne County",https://www.hnrk.ee/,manual,official site confirmed,neurorehabilitatsiooni osakond | spinaalse rehabilitatsiooni osakond | statsionaarne taastusravi
+Hungary,National Center for Spinal Disorders,"Budapest, Budapest",https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center,manual,official site blocked during crawl,spinal cord injury | rehabilitation | research | Buda Health Center

@@ -2,6 +2,8 @@ import { Configuration, PlaywrightCrawler } from 'crawlee';
 import { writeFile } from 'node:fs/promises';
 
 Configuration.getGlobalConfig().set('persistStorage', false);
+Configuration.getGlobalConfig().set('systemInfoV2', false);
+Configuration.getGlobalConfig().set('memoryMbytes', 1024);
 
 const targets = [
   {
@@ -245,6 +247,94 @@ const targets = [
     needles: ['neurorehabilitation and therapy services', 'neurorehabilitation', 'rehabilitation']
   },
   {
+    country: 'Ireland',
+    name: 'National Rehabilitation Hospital',
+    city: 'Dún Laoghaire',
+    region: 'Dublin',
+    url: 'https://www.nrh.ie/',
+    needles: ['complex specialist rehabilitation services', 'rehabilitation services', 'research']
+  },
+  {
+    country: 'Denmark',
+    name: 'Marselisborgcentret',
+    city: 'Aarhus',
+    region: 'Central Denmark',
+    url: 'https://www.marselisborgcentret.dk/',
+    needles: ['rehabilitering', 'forskning', 'udvikling']
+  },
+  {
+    country: 'Netherlands',
+    name: 'Heliomare',
+    city: 'Wijk aan Zee',
+    region: 'North Holland',
+    url: 'https://www.heliomare.nl/',
+    needles: ['hersenletsel', 'dwarslaesie', 'multiple sclerose', 'revalidatie', 'onderzoek en innovatie']
+  },
+  {
+    country: 'Netherlands',
+    name: 'Kempenhaeghe',
+    city: 'Heeze',
+    region: 'North Brabant',
+    url: 'https://www.kempenhaeghe.nl/',
+    needles: ['neurologische leer- en ontwikkelstoornissen', 'wetenschap', 'innovatie', 'epilepsie']
+  },
+  {
+    country: 'Austria',
+    name: 'Neuromed Campus — Kepler Universitätsklinikum',
+    city: 'Linz',
+    region: 'Upper Austria',
+    url: 'https://www.kepleruniklinikum.at/services/fuer-patientinnen-und-patienten/aufenthalt-am-neuromed-campus/',
+    needles: ['neurologie', 'forschung', 'rehabilitation']
+  },
+  {
+    country: 'Hungary',
+    name: 'National Center for Spinal Disorders',
+    city: 'Budapest',
+    region: 'Budapest',
+    url: 'https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center',
+    needles: ['spinal cord injury', 'rehabilitation', 'research', 'buda health center']
+  },
+  {
+    country: 'Lithuania',
+    name: 'Eglės sanatorija',
+    city: 'Druskininkai',
+    region: 'Alytus County',
+    url: 'https://sanatorija.lt/',
+    needles: ['medicinal rehabilitation', 'physical medicine', 'rehabilitation', 'medical rehabilitation', 'reabilitacijos centrai', 'fizinės medicinos ir reabilitacijos', 'sanatorinis gydymas']
+  },
+  {
+    country: 'Estonia',
+    name: 'Haapsalu Neurological Rehabilitation Centre',
+    city: 'Haapsalu',
+    region: 'Lääne County',
+    url: 'https://www.hnrk.ee/',
+    needles: ['neurorehabilitatsiooni osakond', 'spinaalse rehabilitatsiooni osakond', 'statsionaarne taastusravi', 'haapsalu neuroloogilise rehabilitatsioonikeskuse']
+  },
+  {
+    country: 'Netherlands',
+    name: 'Roessingh',
+    city: 'Enschede',
+    region: 'Overijssel',
+    url: 'https://www.roessingh.nl/',
+    needles: ['revalidatie', 'onderzoek', 'parkinson', 'na-aangeboren hersenletsel']
+  },
+  {
+    country: 'Belgium',
+    name: 'Inkendaal',
+    city: 'Vlezenbeek',
+    region: 'Flemish Brabant',
+    url: 'https://www.inkendaal.be/',
+    needles: ['revalidatie', 'neurologische', 'zwembad']
+  },
+  {
+    country: 'Belgium',
+    name: 'Revalidatieziekenhuis RevArte',
+    city: 'Edegem',
+    region: 'Antwerp',
+    url: 'https://www.revarte.be/',
+    needles: ['hersenletselkliniek', 'dwarslaesiekliniek', 'residentieel en ambulant zorgaanbod', 'revalidatieziekenhuis']
+  },
+  {
     country: 'United States',
     name: 'Shepherd Center',
     url: 'https://www.shepherd.org/',
@@ -344,6 +434,8 @@ const crawler = new PlaywrightCrawler({
     results.set(target.url, {
       name: target.name,
       country: target.country,
+      city: target.city ?? '',
+      region: target.region ?? '',
       url: target.url,
       status,
       title,
@@ -358,6 +450,8 @@ const crawler = new PlaywrightCrawler({
     results.set(target.url, {
       name: target.name,
       country: target.country,
+      city: target.city ?? '',
+      region: target.region ?? '',
       url: target.url,
       status: null,
       title: '',
