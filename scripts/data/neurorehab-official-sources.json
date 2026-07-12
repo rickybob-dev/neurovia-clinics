@@ -440,6 +440,216 @@
       "sourceType": "germany-second-pass-official-seed",
       "discoverySource": "Vitrea / former VAMED neurological rehabilitation seed",
       "needles": ["neurologie", "neurochirurgie", "neuropaediatrie", "fruehrehabilitation", "rehabilitation"]
+    },
+    {
+      "country": "France",
+      "name": "Hôpital Raymond-Poincaré - Neurologie et MPR pédiatrique",
+      "city": "Garches",
+      "region": "Île-de-France",
+      "url": "https://www.aphp.fr/raymond-poincare/service-de-neurologie-et-reanimation-pediatrique-medecine-physique-et-de",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "AP-HP pediatric neurology and MPR service seed",
+      "needles": ["médecine physique et de réadaptation pédiatrique", "neurologie pédiatrique", "pathologies neuromusculaires", "pathologies cérébrales", "pathologies médullaires"]
+    },
+    {
+      "country": "France",
+      "name": "Hôpital Albert-Chenevier - SMR neurolocomoteur",
+      "city": "Créteil",
+      "region": "Île-de-France",
+      "url": "https://www.aphp.fr/albert-chenevier/service-de-soins-medicaux-et-de-readaptation-neurolocomoteur",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "AP-HP neurolocomotor SMR service seed",
+      "needles": ["soins médicaux et de réadaptation neurolocomoteur", "paraplégie", "neurologie", "analyse du mouvement", "rééducation"]
+    },
+    {
+      "country": "France",
+      "name": "Hôpital marin de Hendaye - SMR Maladies Rares Neurologiques",
+      "city": "Hendaye",
+      "region": "Nouvelle-Aquitaine",
+      "url": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "AP-HP rare neurological diseases / Huntington SMR service seed",
+      "needles": ["maladies rares neurologiques", "huntington", "réadaptation", "rééducation motrice", "rééducation cognitive"]
+    },
+    {
+      "country": "France",
+      "name": "Hôpital San Salvadour - SMR affections du système nerveux",
+      "city": "Hyères",
+      "region": "Provence-Alpes-Côte d’Azur",
+      "url": "https://www.aphp.fr/san-salvadour/service-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "AP-HP adult nervous-system SMR service seed",
+      "needles": ["affections du système nerveux", "rééducation post-avc", "sclérose en plaques", "maladie de parkinson", "traumatisme cranien", "rééducation des pathologies médulaires"]
+    },
+    {
+      "country": "France",
+      "name": "Hôpitaux Paris Saint-Maurice",
+      "city": "Saint-Maurice",
+      "region": "Île-de-France",
+      "url": "https://www.hopitaux-saint-maurice.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "public hospital seed / MPR neuro",
+      "needles": ["médecine physique et de réadaptation", "rééducation neurologique", "neurologique", "lésions cérébrales", "accident vasculaire cérébral"]
+    },
+    {
+      "country": "France",
+      "name": "Centre Mutualiste de Kerpape",
+      "city": "Ploemeur",
+      "region": "Brittany",
+      "url": "https://www.kerpape.mutualite56.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "official specialist rehabilitation centre seed",
+      "needles": ["rééducation", "réadaptation", "neurologique", "lésion médullaire", "robotique", "exosquelette"]
+    },
+    {
+      "country": "France",
+      "name": "Centre de l'Arche",
+      "city": "Saint-Saturnin",
+      "region": "Pays de la Loire",
+      "url": "https://www.centre-de-larche.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "official specialist rehabilitation centre seed",
+      "needles": ["médecine physique et de réadaptation", "rééducation neurologique", "cérébrolésé", "lésion médullaire", "avc"]
+    },
+    {
+      "country": "France",
+      "name": "Pôle Saint-Hélier",
+      "city": "Rennes",
+      "region": "Brittany",
+      "url": "https://www.pole-sthelier.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "official rehabilitation centre seed",
+      "needles": ["médecine physique et de réadaptation", "réadaptation neurologique", "rééducation neurologique", "avc", "cérébrolésé"]
+    },
+    {
+      "country": "France",
+      "name": "Centre Propara",
+      "city": "Montpellier",
+      "region": "Occitanie",
+      "url": "https://www.propara.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "official spinal cord injury rehabilitation centre seed",
+      "needles": ["lésion médullaire", "blessés médullaires", "rééducation", "réadaptation", "paraplégie", "tétraplégie"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Grenoble Alpes - Institut de rééducation",
+      "city": "Échirolles",
+      "region": "Auvergne-Rhône-Alpes",
+      "url": "https://www.chu-grenoble.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU seed / institute of rehabilitation",
+      "needles": ["institut de rééducation", "médecine physique et de réadaptation", "mpr en neurologie", "neurologie", "réadaptation"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Lille - Hôpital Pierre Swynghedauw",
+      "city": "Lille",
+      "region": "Hauts-de-France",
+      "url": "https://www.chu-lille.fr/hopital-pierre-swynghedauw",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU specialist rehabilitation hospital seed",
+      "needles": ["rééducation", "réadaptation", "neurologique", "robot de marche", "médecine physique"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Toulouse - Médecine physique et de réadaptation",
+      "city": "Toulouse",
+      "region": "Occitanie",
+      "url": "https://www.chu-toulouse.fr/-medecine-physique-et-de-readaptation-",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU MPR service seed",
+      "needles": ["médecine physique et de réadaptation", "neurologique", "avc", "traumatisme crânien", "lésion médullaire"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Bordeaux - Médecine physique et de réadaptation",
+      "city": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "url": "https://www.chu-bordeaux.fr/Les-services/Service-de-m%C3%A9decine-physique-et-de-r%C3%A9adaptation/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU MPR service seed",
+      "needles": ["médecine physique et de réadaptation", "neurologique", "avc", "lésion médullaire", "réadaptation"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Rouen - Médecine physique et réadaptation",
+      "city": "Rouen",
+      "region": "Normandy",
+      "url": "https://www.chu-rouen.fr/service/medecine-physique-et-readaptation/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU MPR service seed",
+      "needles": ["médecine physique et réadaptation", "neurologique", "avc", "cérébrolésé", "rééducation"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Angers - Les Capucins",
+      "city": "Angers",
+      "region": "Pays de la Loire",
+      "url": "https://www.les-capucins-angers.fr/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "specialist rehabilitation centre seed",
+      "needles": ["médecine physique et de réadaptation", "neurologique", "rééducation", "réadaptation", "avc"]
+    },
+    {
+      "country": "France",
+      "name": "Institut Universitaire de Réadaptation Clemenceau",
+      "city": "Strasbourg",
+      "region": "Grand Est",
+      "url": "https://www.ugecam-alsace.fr/institut-universitaire-de-readaptation-clemenceau",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "UGECAM university rehabilitation institute seed",
+      "needles": ["réadaptation", "médecine physique", "neurologique", "avc", "cérébrolésé"]
+    },
+    {
+      "country": "France",
+      "name": "Fondation Hopale - Centre Jacques Calvé",
+      "city": "Berck",
+      "region": "Hauts-de-France",
+      "url": "https://www.fondation-hopale.org/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "Fondation Hopale specialist rehabilitation seed",
+      "needles": ["rééducation", "réadaptation", "neurologique", "blessés médullaires", "cérébrolésé"]
+    },
+    {
+      "country": "France",
+      "name": "Centre Bouffard Vercelli",
+      "city": "Cerbère",
+      "region": "Occitanie",
+      "url": "https://www.bouffard-vercelli.com/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "specialist rehabilitation centre seed",
+      "needles": ["rééducation", "réadaptation", "neurologique", "lésion médullaire", "avc"]
+    },
+    {
+      "country": "France",
+      "name": "Centre de Réadaptation de Coubert",
+      "city": "Coubert",
+      "region": "Île-de-France",
+      "url": "https://www.ugecamidf.fr/etablissement/crf-de-coubert",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "UGECAM rehabilitation centre seed",
+      "needles": ["réadaptation", "rééducation", "neurologique", "système nerveux", "avc"]
+    },
+    {
+      "country": "France",
+      "name": "CMPR de Bobigny",
+      "city": "Bobigny",
+      "region": "Île-de-France",
+      "url": "https://www.cmpr-bobigny.com/",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "specialist MPR rehabilitation centre seed",
+      "needles": ["médecine physique et de réadaptation", "rééducation", "neurologique", "cérébrolésé", "avc"]
+    },
+    {
+      "country": "France",
+      "name": "CHU Montpellier - Médecine physique et réadaptation",
+      "city": "Montpellier",
+      "region": "Occitanie",
+      "url": "https://www.chu-montpellier.fr/fr/offre-de-soins/consultation/medecine-physique-et-readaptation",
+      "sourceType": "france-pilot-official-seed",
+      "discoverySource": "CHU MPR service seed",
+      "needles": ["médecine physique et réadaptation", "neurologique", "avc", "lésion médullaire", "réadaptation"]
     }
   ],
   "searchResults": [],

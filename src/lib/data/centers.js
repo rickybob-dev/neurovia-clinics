@@ -548,6 +548,196 @@ export const centers = [
     }
   },
   {
+    id: 'propara-montpellier',
+    name: 'Centre Propara',
+    country: 'France',
+    city: 'Montpellier', region: 'Occitanie', lat: 43.6108, lng: 3.8767,
+    address: 'Montpellier, Occitanie',
+    url: 'https://www.propara.fr/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['gait'],
+    modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie', 'Soins infirmiers'],
+    completeness: 84,
+    researchHighlights: ['Official spinal cord injury rehabilitation centre seed', 'Matched neurological rehabilitation and spinal cord injury evidence'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro specializzato nella riabilitazione delle lesioni midollari e dei percorsi neuromotori a Montpellier.',
+      en: 'A Montpellier centre specialized in spinal cord injury rehabilitation and neuromotor recovery pathways.'
+    }
+  },
+  {
+    id: 'chu-bordeaux-mpr',
+    name: 'CHU Bordeaux - Médecine physique et de réadaptation',
+    country: 'France',
+    city: 'Bordeaux', region: 'Nouvelle-Aquitaine', lat: 44.8378, lng: -0.5792,
+    address: 'Bordeaux, Nouvelle-Aquitaine',
+    url: 'https://www.chu-bordeaux.fr/Les-services/Service-de-m%C3%A9decine-physique-et-de-r%C3%A9adaptation/',
+    conditions: ['stroke', 'spinal', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie'],
+    completeness: 82,
+    researchHighlights: ['Official CHU MPR service page', 'Matched medicine physique et réadaptation and neurological evidence'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Servizio universitario di medicina fisica e riadattamento del CHU di Bordeaux con presa in carico neurologica.',
+      en: 'A Bordeaux university hospital physical medicine and rehabilitation service with neurological rehabilitation coverage.'
+    }
+  },
+  {
+    id: 'chu-grenoble-institut-readucation',
+    name: 'CHU Grenoble Alpes - Institut de rééducation',
+    country: 'France',
+    city: 'Échirolles', region: 'Auvergne-Rhône-Alpes', lat: 45.1437, lng: 5.7183,
+    address: 'Échirolles, Auvergne-Rhône-Alpes',
+    url: 'https://www.chu-grenoble.fr/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Neurologie', 'Rééducation', 'Kinésithérapie'],
+    completeness: 80,
+    researchHighlights: ['CHU seed for institute of rehabilitation', 'Official site matched neurology and rehabilitation evidence'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Istituto di riabilitazione del CHU Grenoble Alpes con copertura neurologica e riabilitativa.',
+      en: 'A CHU Grenoble Alpes rehabilitation institute with neurological and rehabilitation coverage.'
+    }
+  },
+  {
+    id: 'chu-toulouse-mpr',
+    name: 'CHU Toulouse - Médecine physique et de réadaptation',
+    country: 'France',
+    city: 'Toulouse', region: 'Occitanie', lat: 43.6047, lng: 1.4442,
+    address: 'Toulouse, Occitanie',
+    url: 'https://www.chu-toulouse.fr/-medecine-physique-et-de-readaptation-',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie', 'Neuropsychologie'],
+    completeness: 88,
+    researchHighlights: ['Official CHU MPR service page', 'Matched AVC, traumatic brain injury, spinal cord injury and neurological rehabilitation evidence'],
+    features: ['stroke', 'brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Servizio MPR del CHU di Tolosa con evidenze per ictus, trauma cranico, lesioni midollari e riabilitazione neurologica.',
+      en: 'A Toulouse university hospital MPR service with evidence for stroke, traumatic brain injury, spinal cord injury, and neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'fondation-hopale-jacques-calve',
+    name: 'Fondation Hopale - Centre Jacques Calvé',
+    country: 'France',
+    city: 'Berck', region: 'Hauts-de-France', lat: 50.4070, lng: 1.5917,
+    address: 'Berck, Hauts-de-France',
+    url: 'https://www.fondation-hopale.org/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie'],
+    completeness: 83,
+    researchHighlights: ['Specialist rehabilitation centre seed from Fondation Hopale', 'Matched rehabilitation centre evidence'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Centro di riabilitazione specialistica della Fondation Hopale a Berck, adatto a percorsi neurologici complessi.',
+      en: 'A Fondation Hopale specialist rehabilitation centre in Berck suited to complex neurological rehabilitation pathways.'
+    }
+  },
+  {
+    id: 'pole-saint-helier-rennes',
+    name: 'Pôle Saint-Hélier',
+    country: 'France',
+    city: 'Rennes', region: 'Brittany', lat: 48.1099, lng: -1.6693,
+    address: 'Rennes, Brittany',
+    url: 'https://www.pole-sthelier.fr/',
+    conditions: ['stroke', 'spinal', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient', 'day clinic'], access: ['public', 'private'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie', 'Orthophonie'],
+    completeness: 86,
+    researchHighlights: ['Official rehabilitation centre seed', 'Matched AVC, neurological rehabilitation and spinal cord injury evidence'],
+    features: ['stroke', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro di riabilitazione di Rennes con percorsi per ictus, lesioni midollari e riabilitazione neurologica.',
+      en: 'A Rennes rehabilitation centre with pathways for stroke, spinal cord injuries, and neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'albert-chenevier-neurolocomoteur',
+    name: 'Hôpital Albert-Chenevier - SMR neurolocomoteur',
+    country: 'France',
+    city: 'Créteil', region: 'Île-de-France', lat: 48.7904, lng: 2.4556,
+    address: '40 rue de Mesly, 94000 Créteil', phone: '+33 1 49 81 24 98',
+    url: 'https://www.aphp.fr/albert-chenevier/service-de-soins-medicaux-et-de-readaptation-neurolocomoteur',
+    conditions: ['stroke', 'spinal', 'neuromotor'],
+    technologies: ['gait'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Neurologie', 'Kinésithérapie', 'Ergothérapie'],
+    completeness: 87,
+    researchHighlights: ['Official AP-HP service for neurolocomotor SMR', 'AP-HP page lists neurology, paraplegia and movement analysis expertise'],
+    features: ['spinal-cord', 'gait-analysis'],
+    description: {
+      it: 'Servizio AP-HP di SMR neurolocomotore a Créteil, con competenze in neurologia, paraplegia e analisi del movimento.',
+      en: 'An AP-HP neurolocomotor SMR service in Créteil, with neurology, paraplegia, and movement-analysis expertise.'
+    }
+  },
+  {
+    id: 'hopital-marin-hendaye-huntington',
+    name: 'Hôpital marin de Hendaye - SMR Maladies Rares Neurologiques',
+    country: 'France',
+    city: 'Hendaye', region: 'Nouvelle-Aquitaine', lat: 43.3717, lng: -1.7741,
+    address: 'Route de la Corniche BP 40139, 64701 Hendaye cedex', phone: '+33 5 59 48 08 00',
+    url: 'https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington',
+    conditions: ['neuromotor', 'cognitive'],
+    technologies: [],
+    modes: ['inpatient'], access: ['public'],
+    disciplines: ['Médecine physique', 'Rééducation motrice', 'Rééducation cognitive', 'Orthophonie', 'Psychologie'],
+    completeness: 86,
+    researchHighlights: ['Official AP-HP SMR for rare neurological diseases and Huntington', 'National specialist pathway with motor, cognitive and social rehabilitation'],
+    features: ['rare-neurology', 'rehabilitation'],
+    description: {
+      it: 'Servizio AP-HP specializzato nelle malattie neurologiche rare, in particolare Huntington, con riabilitazione motoria e cognitiva.',
+      en: 'An AP-HP service specializing in rare neurological diseases, especially Huntington disease, with motor and cognitive rehabilitation.'
+    }
+  },
+  {
+    id: 'raymond-poincare-pediatric-mpr',
+    name: 'Hôpital Raymond-Poincaré - Neurologie et MPR pédiatrique',
+    country: 'France',
+    city: 'Garches', region: 'Île-de-France', lat: 48.8422, lng: 2.1878,
+    address: '104 boulevard Raymond-Poincaré, 92380 Garches', phone: '+33 1 47 10 76 31',
+    url: 'https://www.aphp.fr/raymond-poincare/service-de-neurologie-et-reanimation-pediatrique-medecine-physique-et-de',
+    conditions: ['pediatric', 'spinal', 'neuromuscular', 'neuromotor', 'cognitive'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurologie pédiatrique', 'Médecine physique', 'Rééducation', 'Orthophonie', 'Neuropsychologie'],
+    completeness: 88,
+    researchHighlights: ['Official AP-HP pediatric neurology and pediatric MPR service', 'Covers neuromuscular, cerebral and spinal pathologies in children'],
+    features: ['pediatric', 'neuromuscular', 'spinal-cord'],
+    description: {
+      it: 'Servizio pediatrico AP-HP che associa neurologia, rianimazione e MPR per patologie neuromuscolari, cerebrali e midollari.',
+      en: 'An AP-HP pediatric service combining neurology, intensive care, and MPR for neuromuscular, cerebral, and spinal conditions.'
+    }
+  },
+  {
+    id: 'san-salvadour-smr-systeme-nerveux',
+    name: 'Hôpital San Salvadour - SMR affections du système nerveux',
+    country: 'France',
+    city: 'Hyères', region: 'Provence-Alpes-Côte d’Azur', lat: 43.0849, lng: 6.1501,
+    address: '4312 route de Almanarre, 83400 Hyères', phone: '+33 4 94 38 09 27',
+    url: 'https://www.aphp.fr/san-salvadour/service-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromotor', 'cognitive'],
+    technologies: [],
+    modes: ['inpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Médecine physique', 'Rééducation', 'Kinésithérapie', 'Ergothérapie', 'Orthophonie'],
+    completeness: 92,
+    researchHighlights: ['Official AP-HP adult nervous-system SMR service', 'Lists post-AVC, MS, Parkinson, spinal cord injury and traumatic brain injury rehabilitation'],
+    features: ['stroke', 'brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Servizio AP-HP per adulti con affezioni del sistema nervoso, inclusi ictus, trauma cranico, sclerosi multipla, Parkinson e lesioni midollari.',
+      en: 'An AP-HP adult nervous-system rehabilitation service covering stroke, traumatic brain injury, multiple sclerosis, Parkinson disease, and spinal cord injury.'
+    }
+  },
+  {
     id: 'cmra-alcoitao',
     name: 'Centro de Medicina de Reabilitação de Alcoitão',
     country: 'Portugal',
