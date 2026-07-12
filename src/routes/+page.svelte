@@ -31,14 +31,17 @@
   let moderationQueue = [];
   let compareTargetId = '';
   let compareIds = [];
+  let suggestedCenters = [];
   let currentPage = 1;
   let lastFilterSignature = '';
   const pageSize = 12;
+  const suggestedCentersKey = 'neurovia-suggested-centers';
 
   $: t = copy[language];
   $: normalized = query.trim().toLocaleLowerCase(language);
-  $: countryOptions = [...new Set(centers.map((center) => centerCountry(center)))].sort((a, b) => a.localeCompare(b, language));
-  $: filtered = centers.filter((center) => {
+  $: mergedCenters = [...suggestedCenters, ...centers];
+  $: countryOptions = [...new Set(mergedCenters.map((center) => centerCountry(center)))].sort((a, b) => a.localeCompare(b, language));
+  $: filtered = mergedCenters.filter((center) => {
     const searchable = [center.name, center.city, center.region, ...center.conditions.map((item) => conditionLabels[item]?.[language] ?? item)].join(' ').toLocaleLowerCase(language);
     const centerCountryValue = centerCountry(center);
     const isItaly = centerCountryValue === 'Italy';
@@ -75,10 +78,9 @@
   $: if (!compareTargetId || !compareOptions.some((center) => center.id === compareTargetId)) {
     compareTargetId = compareOptions[0]?.id || '';
   }
-  $: compareTarget = centers.find((center) => center.id === compareTargetId) || compareOptions[0] || selected;
-  $: compareSelection = compareIds.map((id) => centers.find((center) => center.id === id)).filter(Boolean);
+  $: compareTarget = mergedCenters.find((center) => center.id === compareTargetId) || compareOptions[0] || selected;
+  $: compareSelection = compareIds.map((id) => mergedCenters.find((center) => center.id === id)).filter(Boolean);
   $: pendingReviews = moderationQueue.filter((item) => item.kind === 'review');
-  $: pendingCenters = moderationQueue.filter((item) => item.kind === 'center');
   $: approvedReviewCount = moderationQueue.filter((item) => item.kind === 'review' && item.status === 'approved').length;
   $: filterSignature = [normalized, condition, technology, scope, country, minRating, researchOnly, roboticsOnly, hydrotherapyOnly, speechTherapyOnly, cognitiveRehabOnly, spasticityCareOnly, ssnOnly, inpatientOnly].join('|');
   $: if (filterSignature !== lastFilterSignature) {
@@ -105,6 +107,7 @@
     if (storedLanguage === 'it' || storedLanguage === 'en') language = storedLanguage;
     document.documentElement.lang = language;
     moderationQueue = JSON.parse(localStorage.getItem('neurovia-moderation-queue') || '[]');
+    suggestedCenters = JSON.parse(localStorage.getItem(suggestedCentersKey) || '[]');
   });
 
   function setLanguage(value) {
@@ -143,16 +146,81 @@
     localStorage.setItem('neurovia-moderation-queue', JSON.stringify(queue));
   }
 
-  function submitForModeration(event, dialog, kind) {
+  function persistSuggestedCenters(next) {
+    suggestedCenters = next;
+    localStorage.setItem(suggestedCentersKey, JSON.stringify(next));
+  }
+
+  async function geocodeSuggestion(queries) {
+    for (const query of queries) {
+      if (!query) continue;
+      const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(query)}`;
+      try {
+        const response = await fetch(url, { headers: { Accept: 'application/json' } });
+        if (!response.ok) continue;
+        const results = await response.json();
+        const first = results[0];
+        if (!first) continue;
+        return {
+          lat: Number(first.lat),
+          lng: Number(first.lon)
+        };
+      } catch {
+        continue;
+      }
+    }
+    return null;
+  }
+
+  async function submitForModeration(event, dialog, kind) {
+    const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(event.currentTarget));
-    const queue = JSON.parse(localStorage.getItem('neurovia-moderation-queue') || '[]');
-    const submission = { id: crypto.randomUUID(), kind, ...data, submittedAt: new Date().toISOString(), status: 'pending' };
-    if (kind === 'review') submission.centerId = selected?.id;
-    queue.push(submission);
-    persistQueue(queue);
+    if (kind === 'review') {
+      const queue = JSON.parse(localStorage.getItem('neurovia-moderation-queue') || '[]');
+      const submission = { id: crypto.randomUUID(), kind, ...data, submittedAt: new Date().toISOString(), status: 'pending' };
+      submission.centerId = selected?.id;
+      queue.push(submission);
+      persistQueue(queue);
+      toast = t.submitted;
+    } else {
+      const coords = await geocodeSuggestion([
+        [data.address, data.city, data.country].filter(Boolean).join(', '),
+        [data.city, data.country].filter(Boolean).join(', '),
+        data.city,
+        data.country,
+        data.centerName
+      ]);
+      const next = [{
+        id: `suggested-${crypto.randomUUID()}`,
+        name: data.centerName,
+        country: data.country,
+        city: data.city,
+        region: data.city,
+        lat: coords?.lat ?? 48.2,
+        lng: coords?.lng ?? 11.6,
+        address: data.address || centerLabel || data.city,
+        phone: 'Unknown',
+        url: data.officialUrl,
+        conditions: [],
+        technologies: [],
+        modes: ['outpatient'],
+        access: ['community'],
+        disciplines: ['Community suggestion'],
+        completeness: 18,
+        communitySuggestion: true,
+        pendingLocation: !coords,
+        description: {
+          it: 'Centro suggerito dalla community. Verrà verificato prima di essere trattato come voce ufficiale.',
+          en: 'A center suggested by the community. It will be verified before becoming an official record.'
+        }
+      }, ...suggestedCenters];
+      persistSuggestedCenters(next);
+      toast = language === 'it'
+        ? 'Centro aggiunto alla mappa come suggerimento.'
+        : 'Center added to the map as a community suggestion.';
+    }
     dialog.close();
-    event.currentTarget.reset();
-    toast = t.submitted;
+    form.reset();
     setTimeout(() => (toast = ''), 5000);
   }
 
@@ -198,7 +266,7 @@
   }
 
   function centerName(id) {
-    return centers.find((center) => center.id === id)?.name || t.unknownCenter;
+    return mergedCenters.find((center) => center.id === id)?.name || t.unknownCenter;
   }
 
   function centerCountry(center) {
@@ -333,7 +401,7 @@
       <h1>{t.title}</h1>
       <p>{t.subtitle}</p>
       <div class="hero-strip" aria-label={language === 'it' ? 'Panoramica rapida' : 'Quick overview'}>
-        <span>{centers.length} {language === 'it' ? 'centri' : 'centers'}</span>
+        <span>{mergedCenters.length} {language === 'it' ? 'centri' : 'centers'}</span>
         <span>{language === 'it' ? 'Mappa interattiva' : 'Interactive map'}</span>
         <span>{language === 'it' ? 'Recensioni moderate' : 'Moderated reviews'}</span>
       </div>
@@ -442,7 +510,7 @@
         <div class="spotlight-empty">
           <p class="spotlight-kicker">{language === 'it' ? 'Seleziona un centro' : 'Select a center'}</p>
           <h2>{language === 'it' ? 'Clicca un segnaposto per aprire i dettagli.' : 'Click a map pin to open the details.'}</h2>
-          <p>{language === 'it' ? 'La mappa è la vista principale. I centri sono sotto, in una sezione separata.' : 'The map is the main view. The centers live below in a separate section.'}</p>
+              <p>{language === 'it' ? 'La mappa è la vista principale. I centri e i suggerimenti della community compaiono sotto nello stesso elenco.' : 'The map is the main view. Verified centers and community suggestions appear together in the same list.'}</p>
         </div>
       {/if}
     </div>
@@ -551,7 +619,7 @@
     </div>
     <div class="center-grid">
       {#each paginatedCenters as center}
-        <article class:selected={selected?.id === center.id} class="center-card">
+        <article class:selected={selected?.id === center.id} class:suggested={center.communitySuggestion} class="center-card">
           <div class="center-card-top">
             <div>
               <h3>{center.name}</h3>
@@ -564,8 +632,11 @@
             <span>{center.conditions.slice(0, 2).map((item) => conditionLabels[item]?.[language] ?? item).join(' · ')}</span>
             <span>{center.access.join(' · ')}</span>
           </div>
-          {#if reviewSummary(center.id) || center.researchHighlights?.length || center.robotNotes?.length}
+          {#if center.communitySuggestion || reviewSummary(center.id) || center.researchHighlights?.length || center.robotNotes?.length}
             <div class="center-card-highlights">
+              {#if center.communitySuggestion}
+                <span>{language === 'it' ? 'Suggerimento community' : 'Community suggestion'}</span>
+              {/if}
               {#if reviewSummary(center.id)}
                 <span>{language === 'it' ? 'Review' : 'Review'} {reviewSummary(center.id).score}/10</span>
               {/if}
@@ -581,7 +652,11 @@
             <p class="center-card-contact"><Phone size={15} /> <span>{center.phone}</span></p>
           {/if}
           <div class="center-card-actions">
-            <a class="button secondary compact" href={`${base}/center/${center.id}/`}>{language === 'it' ? 'Apri dettagli' : 'Open details'}</a>
+            {#if center.communitySuggestion}
+              <span class="button secondary compact suggestion-pill">{language === 'it' ? 'Suggerimento da verificare' : 'Suggestion to verify'}</span>
+            {:else}
+              <a class="button secondary compact" href={`${base}/center/${center.id}/`}>{language === 'it' ? 'Apri dettagli' : 'Open details'}</a>
+            {/if}
             <button type="button" class="button secondary compact" on:click={() => pick(center)}>{language === 'it' ? 'Apri mappa' : 'Open map'}</button>
             <button type="button" class="button secondary compact" on:click={() => toggleCompare(center)}>
               <ArrowLeftRight size={16} />
@@ -622,7 +697,7 @@
   <details class="meta-panel">
     <summary>
       <span><Scale size={16} /> {language === 'it' ? 'Dati e moderazione' : 'Data & moderation'}</span>
-      <span>{centers.length} {language === 'it' ? 'centri' : 'centers'} · {moderationQueue.length} {t.queueItems}</span>
+      <span>{mergedCenters.length} {language === 'it' ? 'centri' : 'centers'} · {moderationQueue.filter((item) => item.kind === 'review').length} {t.queueItems}</span>
     </summary>
     <div class="legend-queue">
       <article class="legend-panel">
@@ -647,7 +722,7 @@
             <span class="panel-kicker"><ShieldAlert size={16} /> {t.queueKicker}</span>
             <h2>{t.queueTitle}</h2>
           </div>
-          <span class="panel-chip">{moderationQueue.length} {t.queueItems}</span>
+          <span class="panel-chip">{moderationQueue.filter((item) => item.kind === 'review').length} {t.queueItems}</span>
         </div>
         <p class="panel-note">{t.queueNote}</p>
         <div class="queue-columns">
@@ -672,29 +747,29 @@
             {/if}
           </section>
           <section>
-            <div class="queue-column-head"><strong>{t.pendingCenters}</strong><span>{pendingCenters.length}</span></div>
-            {#if pendingCenters.length}
+            <div class="queue-column-head"><strong>{language === 'it' ? 'Centro suggerito' : 'Suggested center'}</strong><span>{suggestedCenters.length}</span></div>
+            {#if suggestedCenters.length}
               <div class="queue-list">
-                {#each pendingCenters.slice(0, 3) as item}
-                  <article class="queue-card">
-                    <div class="queue-card-head"><strong>{item.centerName}</strong><span>{formatSubmittedAt(item.submittedAt)}</span></div>
-                    <div class="queue-badges"><span>{item.city}</span><span>{queueLabel(item)}</span><span>{item.status}</span></div>
-                    <p>{item.officialUrl}</p>
+                {#each suggestedCenters.slice(0, 3) as item}
+                  <article class="queue-card suggestion-card">
+                    <div class="queue-card-head"><strong>{item.name}</strong><span>{item.pendingLocation ? (language === 'it' ? 'In attesa di coordinate' : 'Waiting for coordinates') : formatSubmittedAt(item.submittedAt || new Date().toISOString())}</span></div>
+                    <div class="queue-badges"><span>{item.city}</span><span>{item.country}</span><span>{language === 'it' ? 'Suggerimento community' : 'Community suggestion'}</span></div>
+                    <p>{item.address}</p>
                     <div class="queue-actions">
-                      <button type="button" class="button secondary compact" on:click={() => reviewQueueItem(item.id, 'approved')}>{language === 'it' ? 'Approva' : 'Approve'}</button>
-                      <button type="button" class="button secondary compact" on:click={() => reviewQueueItem(item.id, 'rejected')}>{language === 'it' ? 'Rifiuta' : 'Reject'}</button>
+                      <button type="button" class="button secondary compact" on:click={() => pick(item)}>{language === 'it' ? 'Apri sulla mappa' : 'Open on map'}</button>
+                      <button type="button" class="button secondary compact" on:click={() => persistSuggestedCenters(suggestedCenters.filter((center) => center.id !== item.id))}>{language === 'it' ? 'Rimuovi' : 'Remove'}</button>
                     </div>
                   </article>
                 {/each}
               </div>
             {:else}
-              <p class="queue-empty">{t.noQueueItems}</p>
+              <p class="queue-empty">{language === 'it' ? 'Nessun centro suggerito ancora.' : 'No suggested centers yet.'}</p>
             {/if}
           </section>
         </div>
         {#if moderationQueue.some((item) => item.status !== 'pending')}
           <div class="queue-history">
-            <div class="queue-column-head"><strong>{language === 'it' ? 'Storico moderazione' : 'Moderation history'}</strong><span>{moderationQueue.filter((item) => item.status !== 'pending').length}</span></div>
+            <div class="queue-column-head"><strong>{language === 'it' ? 'Storico moderazione recensioni' : 'Review moderation history'}</strong><span>{moderationQueue.filter((item) => item.status !== 'pending').length}</span></div>
             <div class="queue-list">
               {#each moderationQueue.filter((item) => item.status !== 'pending').slice(0, 4) as item}
                 <article class="queue-card history-card">
@@ -743,8 +818,9 @@
 
 <dialog bind:this={centerDialog} aria-labelledby="center-title">
   <form method="dialog" class="dialog-form" on:submit|preventDefault={(event) => submitForModeration(event, centerDialog, 'center')}>
-    <div class="dialog-head"><div><span class="dialog-icon"><Building2 /></span><h2 id="center-title">{t.newTitle}</h2><p>{language === 'it' ? 'Controlleremo la fonte e i possibili duplicati.' : 'We will verify the source and check for duplicates.'}</p></div><button type="button" class="icon-button" on:click={() => centerDialog.close()} aria-label={t.close}><X /></button></div>
-    <div class="form-columns"><label class="field"><span>{t.centerName}</span><input name="centerName" required /></label><label class="field"><span>{t.city}</span><input name="city" required /></label></div>
+    <div class="dialog-head"><div><span class="dialog-icon"><Building2 /></span><h2 id="center-title">{t.newTitle}</h2><p>{language === 'it' ? 'Se inserisci indirizzo e paese, lo aggiungiamo subito come suggerimento sulla mappa.' : 'If you add an address and country, we place it on the map immediately as a community suggestion.'}</p></div><button type="button" class="icon-button" on:click={() => centerDialog.close()} aria-label={t.close}><X /></button></div>
+    <div class="form-columns"><label class="field"><span>{t.centerName}</span><input name="centerName" required /></label><label class="field"><span>{t.country}</span><input name="country" required /></label></div>
+    <div class="form-columns"><label class="field"><span>{t.city}</span><input name="city" required /></label><label class="field"><span>{t.address}</span><input name="address" required /></label></div>
     <label class="field"><span>{t.officialUrl}</span><input name="officialUrl" type="url" placeholder="https://" required /></label>
     <label class="field"><span>{t.email}</span><input name="email" type="email" required /></label>
     <label class="relation"><input name="sourceConfirmed" type="checkbox" required /> <span>{language === 'it' ? 'Confermo che il link appartiene al centro o a un ente sanitario ufficiale.' : 'I confirm the link belongs to the center or an official health authority.'}</span></label>
