@@ -774,24 +774,6 @@ export const centers = [
     }
   },
   {
-    id: 'valens-switzerland',
-    name: 'Klinikgruppe Valens',
-    country: 'Switzerland',
-    city: 'Valens', region: 'St. Gallen', lat: 47.0108, lng: 9.4583,
-    address: 'Valens, 7317 Valens', phone: '+41 58 511 11 11',
-    url: 'https://www.klinik-valens.ch/',
-    conditions: ['stroke', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
-    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
-    disciplines: ['Neurologische Rehabilitation', 'Therapie', 'Pflege', 'Ärzte'],
-    completeness: 83,
-    researchHighlights: ['Comprehensive rehabilitation offer with modern infrastructure', 'Scientifically grounded programs', 'Research-oriented clinic group'],
-    features: ['research'],
-    description: {
-      it: 'Gruppo svizzero di riabilitazione con un’offerta completa e programmi di neuroriabilitazione sviluppati in modo scientifico.',
-      en: 'A Swiss rehabilitation group with a comprehensive offer and neurorehabilitation programs developed on a scientific basis.'
-    }
-  },
-  {
     id: 'valens-network',
     name: 'Klinik Valens',
     country: 'Switzerland',
