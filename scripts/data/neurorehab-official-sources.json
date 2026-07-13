@@ -1260,6 +1260,116 @@
       "sourceType": "slovenia-second-pass-official-seed",
       "discoverySource": "official CIRIUS Vipava physiotherapy and therapy pages",
       "needles": ["nevrofizioterapija", "obolenja in poškodbe nevrološkega sistema", "možgani, hrbtenjača", "Razvojna nevrološka obravnava", "Bobath koncept za odrasle", "cerebralno paralizo"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Roessingh",
+      "city": "Enschede",
+      "region": "Overijssel",
+      "url": "https://www.roessingh.nl/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Roessingh rehabilitation centre site",
+      "needles": ["Dwarslaesie", "Multiple Sclerose (MS)", "Neuromusculaire Aandoeningen (NMA)", "Niet-Aangeboren Hersenletsel (NAH)", "Ziekte van Parkinson", "Neurologische problematiek"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Basalt",
+      "city": "The Hague",
+      "region": "South Holland",
+      "url": "https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Basalt neurological rehabilitation page",
+      "needles": ["Neurologische revalidatie", "Neurorevalidatie", "beroerte", "dwarslaesie", "MS", "ALS", "Parkinson"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Rijndam Revalidatie",
+      "city": "Rotterdam",
+      "region": "South Holland",
+      "url": "https://www.rijndam.nl/specialismen-behandelingen/revalidatie/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Rijndam rehabilitation page",
+      "needles": ["Dwarslaesie", "MS (Multiple Sclerose)", "NAH (niet-aangeboren hersenletsel)", "Parkinson", "Spierziekten", "Cerebrale Parese"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "De Hoogstraat Revalidatie",
+      "city": "Utrecht",
+      "region": "Utrecht",
+      "url": "https://www.dehoogstraat.nl/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official De Hoogstraat rehabilitation site",
+      "needles": ["Dwarslaesie", "Guillain-Barré syndroom (GBS)", "Locked-in syndroom", "Multiple sclerose (MS)", "Niet-aangeboren hersenletsel", "Spina bifida"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Klimmendaal",
+      "city": "Arnhem",
+      "region": "Gelderland",
+      "url": "https://www.klimmendaal.nl/volwassenen/behandelingen/niet-aangeboren-hersenletsel",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Klimmendaal adult neurological treatment pages",
+      "needles": ["Niet-Aangeboren Hersenletsel", "Beroerte", "MS", "Parkinson", "Neuromusculaire aandoeningen", "ALS"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Heliomare",
+      "city": "Wijk aan Zee",
+      "region": "North Holland",
+      "url": "https://www.heliomare.nl/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Heliomare rehabilitation and expertise pages",
+      "needles": ["medisch specialistische revalidatie", "hersenletsel", "dwarslaesie", "multiple sclerose (MS)", "klinisch", "poliklinisch"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Sint Maartenskliniek",
+      "city": "Nijmegen",
+      "region": "Gelderland",
+      "url": "https://www.maartenskliniek.nl/revalidatiegeneeskunde",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Sint Maartenskliniek rehabilitation medicine page",
+      "needles": ["dwarslaesie", "niet-aangeboren hersenaandoening", "zenuw- en spierziekten", "beroerte", "traumatisch hersenletsel", "Multiple Sclerose"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Revant Revalidatiecentrum Breda",
+      "city": "Breda",
+      "region": "North Brabant",
+      "url": "https://www.revant.nl/neurologischerevalidatie",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Revant neurological rehabilitation page",
+      "needles": ["Neurologische revalidatie", "dwarslaesie", "beroerte", "MS", "Parkinson", "ALS", "Niet Aangeboren Hersenletsel"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Merem Medische Revalidatie",
+      "city": "Hilversum",
+      "region": "North Holland",
+      "url": "https://www.merem.nl/voor-patienten/volwassenen/niet-aangeboren-hersenletsel",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Merem adult acquired brain injury page",
+      "needles": ["Niet Aangeboren Hersenletsel", "revalidatiearts", "klinische of poliklinische behandeling", "afasieteam", "spasticiteit", "klinische behandeling"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Revalidatie Friesland - Lyndenstein",
+      "city": "Beetsterzwaag",
+      "region": "Friesland",
+      "url": "https://www.revalidatie-friesland.nl/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Revalidatie Friesland rehabilitation centre site",
+      "needles": ["hersenletsel (NAH)", "spasticiteit", "kinderen, jongeren en volwassenen", "klinische revalidatiemogelijkheden", "specialist in revalidatie"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Libra Revalidatiecentrum Blixembosch",
+      "city": "Eindhoven",
+      "region": "North Brabant",
+      "url": "https://www.libranet.nl/behandelprogrammas/vroege-intensieve-neurorevalidatie-vin-langdurige-bewustzijnsstoornis-coma/",
+      "sourceType": "netherlands-first-pass-official-seed",
+      "discoverySource": "official Libra intensive neurorehabilitation programme page",
+      "needles": ["Vroege Intensieve Neurorevalidatie", "langdurige bewustzijnsstoornis", "coma", "niet-aangeboren hersenletsel", "dwarslaesie", "Parkinson"]
     }
   ],
   "searchResults": [],

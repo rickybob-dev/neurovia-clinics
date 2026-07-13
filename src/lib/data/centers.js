@@ -1254,15 +1254,195 @@ export const centers = [
     city: 'Enschede', region: 'Overijssel', lat: 52.2227, lng: 6.8936,
     address: 'Roessinghsbleekweg 33B, 7522 AH Enschede', phone: '+31 053 487 58 75',
     url: 'https://www.roessingh.nl/',
-    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromuscular', 'pediatric'],
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
     technologies: ['gait', 'tele'], modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
     disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Logopedie', 'Ergotherapie', 'Psychologie'],
-    completeness: 88,
-    researchHighlights: ['Innovatie & onderzoek', 'Patient satisfaction published on the official site', 'Specialist care for NAH, MS and Parkinson'],
-    features: ['research', 'patient-satisfaction'],
+    completeness: 92,
+    researchHighlights: ['Official site lists adult pathways for spinal cord injury, MS, neuromuscular conditions, acquired brain injury and Parkinson', 'Official site lists child pathways for neurological problems, neuromuscular conditions, spina bifida and acquired brain injury', 'Innovation and research are highlighted on the official site'],
+    features: ['research', 'patient-satisfaction', 'brain-injury', 'spinal-cord'],
     description: {
-      it: 'Centro di riabilitazione olandese specializzato in disturbi neurologici complessi, con ricerca e misurazione della soddisfazione dei pazienti.',
-      en: 'A Dutch rehabilitation center for complex neurological conditions, with research and published patient satisfaction metrics.'
+      it: 'Centro di riabilitazione olandese a Enschede per patologie neurologiche complesse, incluse lesioni midollari, NAH, SM, Parkinson e patologie neuromuscolari.',
+      en: 'A Dutch rehabilitation center in Enschede for complex neurological conditions, including spinal cord injury, acquired brain injury, MS, Parkinson and neuromuscular disorders.'
+    }
+  },
+  {
+    id: 'basalt-den-haag-neurological-rehabilitation',
+    name: 'Basalt',
+    country: 'Netherlands',
+    city: 'The Hague', region: 'South Holland', lat: 52.0411, lng: 4.267,
+    address: 'Vrederustlaan 180, 2543 SW Den Haag', phone: '+31 70 359 3593',
+    url: 'https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Neuropsychologie', 'Verpleegkunde'],
+    completeness: 89,
+    researchHighlights: ['Official page is dedicated to neurological rehabilitation', 'Covers stroke, spinal cord injury, MS, ALS, neuromuscular disorders, cerebral palsy and Parkinson', 'Offers clinical and outpatient neurological rehabilitation at Den Haag and other locations'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro di riabilitazione specialistica a L’Aia con neurorevalidatie clinica e ambulatoriale per ictus, lesioni midollari, SM, Parkinson e patologie neuromuscolari.',
+      en: 'A specialist rehabilitation centre in The Hague with inpatient and outpatient neurorehabilitation for stroke, spinal cord injury, MS, Parkinson and neuromuscular disease.'
+    }
+  },
+  {
+    id: 'rijndam-rotterdam-neurorehabilitation',
+    name: 'Rijndam Revalidatie',
+    country: 'Netherlands',
+    city: 'Rotterdam', region: 'South Holland', lat: 51.9121, lng: 4.4756,
+    address: 'Westersingel 300, 3015 LJ Rotterdam', phone: '+31 10 241 2412',
+    url: 'https://www.rijndam.nl/specialismen-behandelingen/revalidatie/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie'],
+    completeness: 88,
+    researchHighlights: ['Official adult rehabilitation page lists spinal cord injury, MS, acquired brain injury, Parkinson and muscle diseases', 'Official pediatric navigation lists cerebral palsy, spinal cord injury, acquired brain injury, muscle diseases and spina bifida', 'Rijndam publishes research and innovation content for rehabilitation'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Grande centro di riabilitazione a Rotterdam con percorsi adulti e pediatrici per NAH, lesioni midollari, SM, Parkinson, paralisi cerebrale e malattie muscolari.',
+      en: 'A major Rotterdam rehabilitation centre with adult and pediatric pathways for acquired brain injury, spinal cord injury, MS, Parkinson, cerebral palsy and muscle diseases.'
+    }
+  },
+  {
+    id: 'de-hoogstraat-utrecht-neurorehabilitation',
+    name: 'De Hoogstraat Revalidatie',
+    country: 'Netherlands',
+    city: 'Utrecht', region: 'Utrecht', lat: 52.087, lng: 5.1473,
+    address: 'Rembrandtkade 10, 3583 TM Utrecht', phone: '+31 30 256 1211',
+    url: 'https://www.dehoogstraat.nl/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie'],
+    completeness: 88,
+    researchHighlights: ['Official site lists adult diagnoses including spinal cord injury, GBS, locked-in syndrome, MS and acquired brain injury', 'Official pediatric sections include cerebral palsy, spinal cord injury, acquired brain injury, muscle diseases and spina bifida', 'Official site highlights intensive treatment, technical adaptations, research and innovation'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric', 'research'],
+    description: {
+      it: 'Centro di riabilitazione a Utrecht per adulti, bambini e ragazzi, con percorsi per lesioni midollari, NAH, SM, GBS, locked-in syndrome e patologie pediatriche neurologiche.',
+      en: 'A Utrecht rehabilitation centre for adults, children and young people, with pathways for spinal cord injury, acquired brain injury, MS, GBS, locked-in syndrome and pediatric neurological conditions.'
+    }
+  },
+  {
+    id: 'klimmendaal-arnhem-neurorehabilitation',
+    name: 'Klimmendaal',
+    country: 'Netherlands',
+    city: 'Arnhem', region: 'Gelderland', lat: 51.991, lng: 5.8781,
+    address: 'Heijenoordseweg 5, 6813 GG Arnhem', phone: '+31 26 352 6100',
+    url: 'https://www.klimmendaal.nl/volwassenen/behandelingen/niet-aangeboren-hersenletsel',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait', 'vr', 'robotics'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 88,
+    researchHighlights: ['Official treatment pages include acquired brain injury, stroke, MS, Parkinson, neuromuscular disorders and ALS', 'Official navigation lists clinical admission plus movement lab, GRAIL, gait lab, neuropsychological assessment and Parkinson observation centre', 'Arnhem Heijenoordseweg location supports adults, clinical admission and children/youth'],
+    features: ['brain-injury', 'gait-lab', 'research'],
+    description: {
+      it: 'Centro di riabilitazione ad Arnhem con presa in carico neurologica per NAH, ictus, SM, Parkinson, ALS e patologie neuromuscolari, incluso ricovero clinico.',
+      en: 'An Arnhem rehabilitation centre with neurological pathways for acquired brain injury, stroke, MS, Parkinson, ALS and neuromuscular conditions, including inpatient admission.'
+    }
+  },
+  {
+    id: 'heliomare-wijk-aan-zee-neurorehabilitation',
+    name: 'Heliomare',
+    country: 'Netherlands',
+    city: 'Wijk aan Zee', region: 'North Holland', lat: 52.4974, lng: 4.5936,
+    address: 'Relweg 51, 1949 EC Wijk aan Zee', phone: '+31 88 920 8888',
+    url: 'https://www.heliomare.nl/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Bewegingsagogie'],
+    completeness: 86,
+    researchHighlights: ['Official site describes medical specialist rehabilitation for children, young people and adults', 'Official expertise areas include brain injury, spinal cord injury aftercare and MS rehabilitation', 'Official contact page lists a specialist brain-injury treatment centre network in addition to the Wijk aan Zee rehabilitation centre'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Centro di riabilitazione specialistica a Wijk aan Zee con percorsi clinici e ambulatoriali, esperienza su lesioni cerebrali, lesioni midollari, SM e riabilitazione pediatrica.',
+      en: 'A specialist rehabilitation centre in Wijk aan Zee with inpatient and outpatient care, and expertise in brain injury, spinal cord injury, MS and pediatric rehabilitation.'
+    }
+  },
+  {
+    id: 'sint-maartenskliniek-nijmegen-neurorehabilitation',
+    name: 'Sint Maartenskliniek',
+    country: 'Netherlands',
+    city: 'Nijmegen', region: 'Gelderland', lat: 51.8329, lng: 5.8997,
+    address: 'Hengstdal 3, 6574 NA Ubbergen', phone: '+31 24 365 9400',
+    url: 'https://www.maartenskliniek.nl/revalidatiegeneeskunde',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiegeneeskunde', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie'],
+    completeness: 87,
+    researchHighlights: ['Official rehabilitation medicine page covers adults after spinal cord injury, brain disorders and nerve/muscle diseases', 'Official navigation lists stroke, traumatic brain injury, cerebral palsy, MS, GBS and other muscle diseases', 'Official page includes pediatric rehabilitation for disorders of the musculoskeletal or nervous system'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Ospedale specialistico di riabilitazione a Nijmegen/Ubbergen con percorsi per lesioni midollari, ictus, trauma cranico, SM, malattie nervose e muscolari e riabilitazione pediatrica.',
+      en: 'A specialist rehabilitation hospital in Nijmegen/Ubbergen with pathways for spinal cord injury, stroke, traumatic brain injury, MS, nerve and muscle diseases, and pediatric rehabilitation.'
+    }
+  },
+  {
+    id: 'revant-breda-neurological-rehabilitation',
+    name: 'Revant Revalidatiecentrum Breda',
+    country: 'Netherlands',
+    city: 'Breda', region: 'North Brabant', lat: 51.5886, lng: 4.7902,
+    address: 'Brabantlaan 1, 4817 JW Breda', phone: '+31 88 735 8000',
+    url: 'https://www.revant.nl/neurologischerevalidatie',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Cognitief-linguïstisch team'],
+    completeness: 89,
+    researchHighlights: ['Official page is dedicated to neurological rehabilitation', 'Covers brain, nerve and muscle conditions after accident, spinal cord injury, stroke, MS, Parkinson or ALS', 'Breda provides both clinical and outpatient neurological rehabilitation and gait-analysis facilities'],
+    features: ['brain-injury', 'spinal-cord', 'gait-lab'],
+    description: {
+      it: 'Centro Revant a Breda con riabilitazione neurologica clinica e ambulatoriale per ictus, lesioni midollari, SM, Parkinson, ALS e NAH.',
+      en: 'Revant’s Breda centre provides inpatient and outpatient neurological rehabilitation for stroke, spinal cord injury, MS, Parkinson, ALS and acquired brain injury.'
+    }
+  },
+  {
+    id: 'merem-hilversum-neurorehabilitation',
+    name: 'Merem Medische Revalidatie',
+    country: 'Netherlands',
+    city: 'Hilversum', region: 'North Holland', lat: 52.2128, lng: 5.2023,
+    address: 'Soestdijkerstraatweg 129, 1213 VX Hilversum', phone: '+31 35 688 1411',
+    url: 'https://www.merem.nl/voor-patienten/volwassenen/niet-aangeboren-hersenletsel',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Bewegingsagogie'],
+    completeness: 88,
+    researchHighlights: ['Official acquired-brain-injury page describes clinical and outpatient team rehabilitation', 'Official site lists Merem programmes for stroke, ALS, cerebral palsy, spinal cord injury, MS, muscle diseases, acquired brain injury and Parkinson', 'Hilversum is the listed inpatient location for clinical admission'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Centro di riabilitazione medica a Hilversum con ricovero e ambulatorio, forte sui percorsi per NAH, ictus, SM, Parkinson, lesioni midollari e patologie neuromuscolari.',
+      en: 'A Hilversum medical rehabilitation centre with inpatient and outpatient care, strong in acquired brain injury, stroke, MS, Parkinson, spinal cord injury and neuromuscular pathways.'
+    }
+  },
+  {
+    id: 'revalidatie-friesland-lyndenstein-neurorehabilitation',
+    name: 'Revalidatie Friesland - Lyndenstein',
+    country: 'Netherlands',
+    city: 'Beetsterzwaag', region: 'Friesland', lat: 53.0598, lng: 6.0735,
+    address: 'Hoofdstraat 3, 9244 CL Beetsterzwaag', phone: '+31 88 580 1580',
+    url: 'https://www.revalidatie-friesland.nl/',
+    conditions: ['tbi', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 82,
+    researchHighlights: ['Official site describes Revalidatie Friesland as a specialist rehabilitation provider for children, youth and adults', 'Official site identifies expertise in acquired brain injury and spasticity', 'Lyndenstein Beetsterzwaag offers clinical rehabilitation with adult and child/youth departments'],
+    features: ['brain-injury', 'pediatric', 'rehabilitation'],
+    description: {
+      it: 'Sede Lyndenstein di Revalidatie Friesland a Beetsterzwaag, con riabilitazione clinica e ambulatoriale per adulti, bambini e giovani, inclusa competenza in NAH e spasticità.',
+      en: 'Revalidatie Friesland’s Lyndenstein site in Beetsterzwaag provides inpatient and outpatient rehabilitation for adults, children and young people, including acquired brain injury and spasticity expertise.'
+    }
+  },
+  {
+    id: 'libra-blixembosch-eindhoven-neurorehabilitation',
+    name: 'Libra Revalidatiecentrum Blixembosch',
+    country: 'Netherlands',
+    city: 'Eindhoven', region: 'North Brabant', lat: 51.4901, lng: 5.454,
+    address: 'Toledolaan 2, 5629 CC Eindhoven', phone: '+31 88 313 2000',
+    url: 'https://www.libranet.nl/behandelprogrammas/vroege-intensieve-neurorevalidatie-vin-langdurige-bewustzijnsstoornis-coma/',
+    conditions: ['tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie'],
+    completeness: 87,
+    researchHighlights: ['Official programme page covers early intensive neurorehabilitation for prolonged disorders of consciousness and coma', 'Official sitemap lists programmes for spinal cord injury, MS, neuromuscular disorders, acquired brain injury, Parkinson and pediatric neuromuscular disorders', 'Blixembosch Eindhoven is an official rehabilitation centre with inpatient visiting hours and therapy facilities'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Centro Libra Blixembosch a Eindhoven, con programmi neurologici specialistici inclusa neurorevalidatie intensiva precoce, NAH, lesioni midollari, SM, Parkinson e patologie neuromuscolari.',
+      en: 'Libra’s Blixembosch centre in Eindhoven has specialist neurological programmes including early intensive neurorehabilitation, acquired brain injury, spinal cord injury, MS, Parkinson and neuromuscular conditions.'
     }
   },
   {
