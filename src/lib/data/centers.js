@@ -219,6 +219,97 @@ export const centers = [
     }
   },
   {
+    id: 'san-camillo-irccs-venezia',
+    name: 'Ospedale San Camillo IRCCS',
+    country: 'Italy',
+    city: 'Venezia Lido', region: 'Veneto', lat: 45.3540, lng: 12.3190,
+    address: 'Via Alberoni 70, 30126 Venezia Lido', phone: 'Unknown',
+    url: 'https://hsancamillo.it/ospedale-irccs-san-camillo-di-venezia',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'cognitive', 'neuromotor'],
+    technologies: ['tele', 'gait'], modes: ['inpatient', 'outpatient'], access: ['SSN', 'private'],
+    disciplines: ['Neuroriabilitazione motoria', 'Neuroriabilitazione della comunicazione', 'Neuroriabilitazione del comportamento', 'Mielolesioni', 'Sclerosi multipla'],
+    completeness: 92,
+    researchHighlights: ['Official IRCCS page states specialization in neuroriabilitazione', 'Matched brain lesion, ischemic lesion, spinal cord injury and multiple sclerosis evidence', 'Official page lists motor, communication and behavioral neurorehabilitation'],
+    features: ['brain-injury', 'spinal-cord', 'research'],
+    description: {
+      it: 'IRCCS veneziano specializzato in neuroriabilitazione motoria, della comunicazione e del comportamento, inclusi percorsi per mielolesioni e sclerosi multipla.',
+      en: 'A Venice IRCCS specialized in motor, communication and behavioral neurorehabilitation, including spinal cord injury and multiple sclerosis pathways.'
+    }
+  },
+  {
+    id: 'neuromed-neuroriabilitazione-pozzilli',
+    name: 'IRCCS Neuromed - Neuroriabilitazione',
+    country: 'Italy',
+    city: 'Pozzilli', region: 'Molise', lat: 41.5116, lng: 14.0623,
+    address: 'Via Atinense 18, 86077 Pozzilli', phone: 'Unknown',
+    url: 'https://neuromed.it/reparti/neuroriabilitazione',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'], modes: ['inpatient', 'outpatient'], access: ['SSN', 'private'],
+    disciplines: ['Neuroriabilitazione', 'Neurologia', 'Fisiatria', 'Neuropsicologia', 'Logopedia', 'Terapia occupazionale'],
+    completeness: 92,
+    researchHighlights: ['Official department page is dedicated to neuroriabilitazione', 'Matched intensive rehabilitation codes 75 and 56', 'Official page lists multiple sclerosis, Parkinson and robotic rehabilitation evidence'],
+    robotNotes: ['Official page references robotic rehabilitation equipment for neurological recovery.'],
+    features: ['robotics', 'parkinson', 'research'],
+    description: {
+      it: 'Reparto IRCCS di neuroriabilitazione intensiva per lesioni acquisite, sclerosi multipla, Parkinson e disturbi neurologici progressivi, con supporto robotico.',
+      en: 'An IRCCS intensive neurorehabilitation department for acquired lesions, multiple sclerosis, Parkinson and progressive neurological disorders, with robotic support.'
+    }
+  },
+  {
+    id: 'maugeri-telese-terme',
+    name: 'IRCCS Maugeri Telese Terme',
+    country: 'Italy',
+    city: 'Telese Terme', region: 'Campania', lat: 41.2198, lng: 14.5263,
+    address: 'Telese Terme, Benevento', phone: 'Unknown',
+    url: 'https://www.icsmaugeri.it/dove-siamo/irccs-telese',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['SSN', 'private'],
+    disciplines: ['Riabilitazione neuromotoria', 'Neurologia riabilitativa', 'Gravi cerebrolesioni', 'Riabilitazione spinale', 'Stati vegetativi persistenti'],
+    completeness: 91,
+    researchHighlights: ['Official Maugeri page lists riabilitazione neuromotoria', 'Official page lists gravi cerebrolesioni and riabilitazione spinale', 'Official specialty evidence includes Parkinson and sclerosi multipla'],
+    features: ['brain-injury', 'spinal-cord', 'parkinson'],
+    description: {
+      it: 'Sede IRCCS Maugeri con percorsi di riabilitazione neuromotoria, gravi cerebrolesioni, stati vegetativi persistenti e riabilitazione spinale.',
+      en: 'A Maugeri IRCCS site with neuromotor rehabilitation, severe brain injury, persistent vegetative state and spinal rehabilitation pathways.'
+    }
+  },
+  {
+    id: 'prosperius-villa-cherubini-neuro',
+    name: 'Prosperius Villa Cherubini - Riabilitazione Neurologica',
+    country: 'Italy',
+    city: 'Firenze', region: 'Toscana', lat: 43.7797, lng: 11.2530,
+    address: 'Firenze', phone: 'Unknown',
+    url: 'https://prosperius.it/riabilitazione/riabilitazione-neurologica',
+    conditions: ['stroke', 'ms', 'parkinson', 'neuromuscular', 'neuromotor'],
+    technologies: ['robotics', 'gait'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Riabilitazione neurologica', 'Riabilitazione robotica', 'Fisioterapia', 'Terapia locomotoria', 'Ricovero ordinario'],
+    completeness: 87,
+    researchHighlights: ['Official page is dedicated to riabilitazione neurologica', 'Matched stroke, multiple sclerosis and Parkinson evidence', 'Official page lists robotic rehabilitation and inpatient/outpatient pathways'],
+    robotNotes: ['Official page references Lokomat and robotic rehabilitation for neurological patients.'],
+    features: ['robotics', 'gait-training', 'parkinson'],
+    description: {
+      it: 'Clinica fiorentina con riabilitazione neurologica per esiti di ictus e patologie neurodegenerative come sclerosi multipla e Parkinson, anche con robotica.',
+      en: 'A Florence clinic offering neurological rehabilitation after stroke and for neurodegenerative conditions such as multiple sclerosis and Parkinson, including robotic rehabilitation.'
+    }
+  },
+  {
+    id: 'fondazione-turati-vieste-riabilitazione',
+    name: 'Fondazione Turati - Centro di Riabilitazione di Vieste',
+    country: 'Italy',
+    city: 'Vieste', region: 'Puglia', lat: 41.8584, lng: 16.1620,
+    address: 'Localita Macchia di Mauro, Vieste', phone: '+39 0884 708827',
+    url: 'https://fondazioneturati.it/centri-di-riabilitazione-e-terapia-fisica/centro-di-riabilitazione-a-vieste-della-fondazione-turati',
+    conditions: ['neuromotor'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['SSN', 'private'],
+    disciplines: ['Riabilitazione neurologica', 'Riabilitazione neuromotoria', 'Riabilitazione residenziale', 'Riabilitazione ambulatoriale', 'Terapia fisica'],
+    completeness: 82,
+    researchHighlights: ['Official page lists neurological and neuromotor rehabilitation', 'Official page lists residential and outpatient rehabilitation', 'Official page states access through the Italian National Health Service and private care'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Centro di riabilitazione in Puglia con percorsi residenziali e ambulatoriali per bisogni neurologici e neuromotori, in convenzione SSN e privato.',
+      en: 'A rehabilitation centre in Puglia with residential and outpatient neurological and neuromotor pathways, available through SSN and private access.'
+    }
+  },
+  {
     id: 'guttmann-badalona',
     name: 'Institut Guttmann',
     country: 'Spain',

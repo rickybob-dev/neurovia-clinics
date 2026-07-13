@@ -970,6 +970,56 @@
       "sourceType": "uk-second-pass-official-seed",
       "discoverySource": "official Active Care Group Murdostoun neurological rehabilitation centre page",
       "needles": ["Murdostoun Brain Injury Rehabilitation", "Neurological rehabilitation", "brain injury", "spinal cord injury", "stroke", "specialist inpatient rehabilitation"]
+    },
+    {
+      "country": "Italy",
+      "name": "Ospedale San Camillo IRCCS",
+      "city": "Venezia Lido",
+      "region": "Veneto",
+      "url": "https://hsancamillo.it/ospedale-irccs-san-camillo-di-venezia/",
+      "sourceType": "italy-first-pass-official-seed",
+      "discoverySource": "official San Camillo IRCCS hospital profile",
+      "needles": ["Neuroriabilitazione", "lesioni cerebrali", "lesioni ischemiche", "mielolesioni", "Sclerosi Multipla", "IRCCS"]
+    },
+    {
+      "country": "Italy",
+      "name": "IRCCS Neuromed - Neuroriabilitazione",
+      "city": "Pozzilli",
+      "region": "Molise",
+      "url": "https://neuromed.it/reparti/neuroriabilitazione/",
+      "sourceType": "italy-first-pass-official-seed",
+      "discoverySource": "official Neuromed neurorehabilitation department page",
+      "needles": ["Neuroriabilitazione", "codice 75", "codice 56", "Sclerosi Multipla", "Parkinson", "riabilitazione robotica"]
+    },
+    {
+      "country": "Italy",
+      "name": "IRCCS Maugeri Telese Terme",
+      "city": "Telese Terme",
+      "region": "Campania",
+      "url": "https://www.icsmaugeri.it/dove-siamo/irccs-telese",
+      "sourceType": "italy-first-pass-official-seed",
+      "discoverySource": "official Maugeri Telese Terme site and specialty pages",
+      "needles": ["Riabilitazione neuromotoria", "Gravi cerebrolesioni", "Riabilitazione spinale", "Stati vegetativi persistenti", "Parkinson", "sclerosi multipla"]
+    },
+    {
+      "country": "Italy",
+      "name": "Prosperius Villa Cherubini - Riabilitazione Neurologica",
+      "city": "Firenze",
+      "region": "Toscana",
+      "url": "https://prosperius.it/riabilitazione/riabilitazione-neurologica/",
+      "sourceType": "italy-first-pass-official-seed",
+      "discoverySource": "official Prosperius Villa Cherubini neurological rehabilitation page",
+      "needles": ["Riabilitazione Neurologica", "ictus cerebrale", "Sclerosi Multipla", "Parkinson", "Riabilitazione robotica", "ricovero"]
+    },
+    {
+      "country": "Italy",
+      "name": "Fondazione Turati - Centro di Riabilitazione di Vieste",
+      "city": "Vieste",
+      "region": "Puglia",
+      "url": "https://fondazioneturati.it/centri-di-riabilitazione-e-terapia-fisica/centro-di-riabilitazione-a-vieste-della-fondazione-turati/",
+      "sourceType": "italy-first-pass-official-seed",
+      "discoverySource": "official Fondazione Turati Vieste rehabilitation centre page",
+      "needles": ["riabilitazione", "neurologica", "neuromotorie", "residenziale", "ambulatoriale", "Sistema Sanitario Nazionale"]
     }
   ],
   "searchResults": [],

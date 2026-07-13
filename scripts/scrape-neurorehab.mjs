@@ -1,7 +1,11 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { execFile } from 'node:child_process';
 import { setTimeout as sleep } from 'node:timers/promises';
+import { promisify } from 'node:util';
 
 import { centers } from '../src/lib/data/centers.js';
+
+const execFileAsync = promisify(execFile);
 
 const DEFAULT_SOURCE_CONFIG = './scripts/data/neurorehab-official-sources.json';
 const DEFAULT_DISCOVERY_OUT = './neurorehab-discoveries.json';
@@ -272,8 +276,62 @@ async function fetchPage(url, timeoutMs = 15000) {
       contentType,
       html: body
     };
+  } catch (error) {
+    return fetchPageWithCurl(url, timeoutMs, error);
   } finally {
     clearTimeout(timeout);
+  }
+}
+
+async function fetchPageWithCurl(url, timeoutMs, originalError) {
+  const marker = '__NEUROVIA_CURL_META__';
+  const seconds = Math.max(1, Math.ceil(timeoutMs / 1000));
+
+  try {
+    const { stdout } = await execFileAsync('curl', [
+      '--location',
+      '--silent',
+      '--show-error',
+      '--max-time',
+      String(seconds),
+      '--user-agent',
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 NeuroviaClinicsDiscovery/0.2',
+      '--header',
+      'accept: text/html,application/xhtml+xml',
+      '--header',
+      'accept-language: en,it;q=0.9',
+      '--write-out',
+      `${marker}%{http_code}\t%{url_effective}\t%{content_type}`,
+      url
+    ], {
+      maxBuffer: 10 * 1024 * 1024
+    });
+
+    const markerIndex = stdout.lastIndexOf(marker);
+    if (markerIndex === -1) {
+      throw new Error('curl response metadata marker not found');
+    }
+
+    const body = stdout.slice(0, markerIndex);
+    const [statusText, finalUrl, contentType = ''] = stdout.slice(markerIndex + marker.length).split('\t');
+    const status = Number(statusText);
+    const html = contentType.includes('text/html') || contentType.includes('text/plain') ? body : '';
+
+    return {
+      ok: status >= 200 && status < 300,
+      status,
+      finalUrl: finalUrl || url,
+      contentType,
+      html
+    };
+  } catch (curlError) {
+    const stderr = String(curlError.stderr ?? '').trim();
+    const detail = stderr.split('\n').at(-1) || (
+      curlError.signal
+        ? `curl terminated with signal ${curlError.signal}`
+        : `curl exited with code ${curlError.code ?? 'unknown'}`
+    );
+    throw new Error(`${originalError.message}; curl fallback failed: ${detail}`);
   }
 }
 
@@ -515,7 +573,8 @@ async function validateDiscovery(discovery, options) {
       status: page.status,
       finalUrl: normalizeUrl(page.finalUrl) || discovery.url,
       contentType: page.contentType,
-      ...classification
+      ...classification,
+      reviewStatus: discovery.knownInDataset ? 'known' : classification.reviewStatus
     };
   } catch (error) {
     return {

@@ -7,7 +7,7 @@
     "url": "https://www.inkendaal.be/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Reference center for several rehabilitation specialties",
@@ -54,13 +54,28 @@
       "A rehabilitation hospital in Edegem with dedicated brain-injury and spinal cord pathways, both inpatient and outpatient.",
       "Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte",
-    "title": "",
-    "evidence": "fetch failed",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "revalidatie | neuro | dwarslaesie | hersenletsel | hospital | revalidatieziekenhuis",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neuro",
+        "dwarslaesie",
+        "hersenletsel"
+      ],
+      "institution": [
+        "hospital",
+        "revalidatieziekenhuis"
+      ]
+    },
+    "title": "Revalidatieziekenhuis RevArte - MKL"
   },
   {
     "name": "University Hospital Centre Zagreb",
@@ -70,7 +85,7 @@
     "url": "https://www.kbc-zagreb.hr/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital site lists neurology, neurosurgery and rehabilitation services",
@@ -110,7 +125,7 @@
     "url": "https://www.rehabilitacniustav.cz/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Robotická rehabilitace a neurorehabilitace on the official site",
@@ -148,7 +163,7 @@
     "url": "https://www.hnrk.ee/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurorehabilitatsiooni osakond is listed on the official site",
@@ -200,7 +215,7 @@
     "status": null,
     "finalUrl": "https://www.bouffard-vercelli.com/",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.bouffard-vercelli.com",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -225,7 +240,7 @@
     "status": null,
     "finalUrl": "https://www.centre-de-larche.fr/",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.centre-de-larche.fr",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -250,7 +265,7 @@
     "status": null,
     "finalUrl": "https://www.ugecamidf.fr/etablissement/crf-de-coubert",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: how to fix it, please visit the web page mentioned above.",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -263,7 +278,7 @@
     "url": "https://centre-kerpape.fr/mpr-neuro",
     "sourceType": "curated-dataset | france-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official adult neurological MPR service page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official adult neurological MPR service at Kerpape",
@@ -319,7 +334,7 @@
     "url": "https://www.propara.fr/",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official spinal cord injury rehabilitation centre seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official spinal cord injury rehabilitation centre seed",
@@ -399,7 +414,7 @@
     "url": "https://www.chu-bordeaux.fr/Les-services/Service-de-m%C3%A9decine-physique-et-de-r%C3%A9adaptation",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | CHU MPR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official CHU MPR service page",
@@ -438,7 +453,7 @@
     "url": "https://www.chu-grenoble.fr/",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | CHU seed / institute of rehabilitation",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "CHU seed for institute of rehabilitation",
@@ -546,7 +561,7 @@
     "url": "https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique",
     "sourceType": "curated-dataset | france-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official CHU Rouen neuropediatrics / pediatric MPR service page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official CHU Rouen neuropediatrics and pediatric MPR service",
@@ -592,7 +607,7 @@
     "url": "https://www.chu-toulouse.fr/-medecine-physique-et-de-readaptation-",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | CHU MPR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official CHU MPR service page",
@@ -655,7 +670,7 @@
     "status": null,
     "finalUrl": "https://www.cmpr-bobigny.com/",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.cmpr-bobigny.com",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -668,7 +683,7 @@
     "url": "https://www.fondation-hopale.org/",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Fondation Hopale specialist rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Specialist rehabilitation centre seed from Fondation Hopale",
@@ -708,7 +723,7 @@
     "url": "https://www.aphp.fr/albert-chenevier/service-de-soins-medicaux-et-de-readaptation-neurolocomoteur",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | AP-HP neurolocomotor SMR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP service for neurolocomotor SMR",
@@ -752,7 +767,7 @@
     "url": "https://www.chu-lyon.fr/hopital-henry-gabrielle",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Nationally recognized neurological rehabilitation center",
@@ -797,7 +812,7 @@
     "url": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | AP-HP rare neurological diseases / Huntington SMR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP SMR for rare neurological diseases and Huntington",
@@ -841,7 +856,7 @@
     "url": "https://maritimeberck.aphp.fr/presentation-de-lhopital-maritime-de-berck",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP page calls it a reference for neurological rehabilitation",
@@ -882,7 +897,7 @@
     "url": "https://www.aphp.fr/raymond-poincare/service-de-neurologie-et-reanimation-pediatrique-medecine-physique-et-de",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | AP-HP pediatric neurology and MPR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP pediatric neurology and pediatric MPR service",
@@ -925,7 +940,7 @@
     "url": "https://www.aphp.fr/san-salvadour/service-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | AP-HP adult nervous-system SMR service seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official AP-HP adult nervous-system SMR service",
@@ -987,7 +1002,7 @@
     "status": null,
     "finalUrl": "https://www.hopitaux-saint-maurice.fr/",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: how to fix it, please visit the web page mentioned above.",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -1012,7 +1027,7 @@
     "status": null,
     "finalUrl": "https://www.ugecam-alsace.fr/institut-universitaire-de-readaptation-clemenceau",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: how to fix it, please visit the web page mentioned above.",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -1025,7 +1040,7 @@
     "url": "https://www.pole-sthelier.fr/",
     "sourceType": "curated-dataset | france-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official rehabilitation centre seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official rehabilitation centre seed",
@@ -1070,7 +1085,7 @@
     "url": "https://www.chu-nantes.fr/medecine-physique-et-de-readaptation-neurologique",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official university neuro-rehab service for severe neurological handicap",
@@ -1117,7 +1132,7 @@
     "url": "https://www.asklepios.com/schaufling",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Asklepios official site / specialist rehab clinic",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Asklepios site matched neurology and neuropsychology signals",
@@ -1162,7 +1177,7 @@
     "url": "https://www.asklepios.com/bad-salzhausen",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Asklepios official site / specialist neurology clinic",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Asklepios site matched neurological clinic and neurological rehabilitation signals",
@@ -1210,7 +1225,7 @@
     "url": "https://www.bdh-klinik-braunfels.de/bdh-klinik-braunfels",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched stroke unit and neurological rehabilitation signals",
@@ -1256,7 +1271,7 @@
     "url": "https://www.bdh-klinik-elzach.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Zentrum für NeuroRehabilitation",
@@ -1301,7 +1316,7 @@
     "url": "https://www.bdh-klinik-greifswald.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Zentrum für Neurorehabilitation",
@@ -1347,7 +1362,7 @@
     "url": "https://www.bdh-klinik-hessisch-oldendorf.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurological rehabilitation and medical-vocational rehabilitation signals",
@@ -1393,7 +1408,7 @@
     "url": "https://www.bdh-klinik-vallendar.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | BDH clinic network / official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurological rehab and respiratory medicine signals",
@@ -1471,7 +1486,7 @@
     "url": "https://www.dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | Dr. Becker clinic group / neurology rehabilitation seed",
-    "reviewStatus": "review",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Approved after second-pass review",
@@ -1544,7 +1559,7 @@
     "url": "https://hegau-jugendwerk.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurologisches Krankenhaus und Rehabilitationszentrum",
@@ -1590,7 +1605,7 @@
     "url": "https://www.godeshoehe.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurological intensive medicine and early rehabilitation",
@@ -1637,7 +1652,7 @@
     "url": "https://www.klinik-bavaria.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Intensive rehab including early rehabilitation",
@@ -1683,7 +1698,7 @@
     "url": "https://kliniken-schmieder.com/hospital/allensbach",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Phase-based neurological rehabilitation",
@@ -1732,7 +1747,7 @@
     "url": "https://kliniken-schmieder.com/hospital/gailingen",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Schmieder location page matched neurological rehabilitation evidence",
@@ -1780,7 +1795,7 @@
     "url": "https://kliniken-schmieder.com/hospital/gerlingen",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurological rehab across phases A-E",
@@ -1827,7 +1842,7 @@
     "url": "https://kliniken-schmieder.com/hospital/heidelberg",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Own research institute",
@@ -1875,7 +1890,7 @@
     "url": "https://kliniken-schmieder.com/hospital/konstanz",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Network umbrella page for neurological rehabilitation clinics",
@@ -1923,7 +1938,7 @@
     "url": "https://kliniken-schmieder.com/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Lurija Institute for rehabilitation sciences and health research",
@@ -1973,7 +1988,7 @@
     "url": "https://kliniken-schmieder.com/hospital/stuttgart",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | Kliniken Schmieder official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Day-clinic and outpatient neurological rehabilitation",
@@ -2019,7 +2034,7 @@
     "url": "https://www.fachklinik-bad-heilbrunn.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official clinic page matched rehabilitation and neurological signals",
@@ -2063,7 +2078,7 @@
     "url": "https://www.fachklinik-bad-liebenstein.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurorehabilitation and weaning evidence",
@@ -2109,7 +2124,7 @@
     "url": "https://www.fachklinik-enzensberg.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched phase B and neurological rehabilitation signals",
@@ -2154,7 +2169,7 @@
     "url": "https://www.fachklinik-herzogenaurach.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official clinic page matched rehabilitation and neurological signals",
@@ -2198,7 +2213,7 @@
     "url": "https://www.fachklinik-ichenhausen.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurology and Parkinson evidence",
@@ -2243,7 +2258,7 @@
     "url": "https://www.fachkliniken-hohenurach.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | m&i Klinikgruppe Enzensberg official site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neuropsychology and stroke evidence",
@@ -2288,7 +2303,7 @@
     "url": "https://www.marcus-klinik.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurology and Parkinson evidence",
@@ -2333,7 +2348,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-berlin-kladow",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurological rehabilitation evidence",
@@ -2379,7 +2394,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-flechtingen",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology and phase B evidence",
@@ -2423,7 +2438,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-gyhum",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology and rehabilitation evidence",
@@ -2467,7 +2482,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-kalbe",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology and rehabilitation evidence",
@@ -2511,7 +2526,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-nrz-magdeburg",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurological rehabilitation and neurorehabilitation evidence",
@@ -2558,7 +2573,7 @@
     "url": "https://www.median-kliniken.de/de/median-klinik-wilhelmshaven",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | MEDIAN clinic group / neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology, rehabilitation, stroke and neurorehabilitation evidence",
@@ -2604,7 +2619,7 @@
     "url": "https://www.fachklinik-rheinruhr.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | MediClin official site / specialist rehab clinic",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurology, stroke and multiple sclerosis evidence",
@@ -2660,7 +2675,7 @@
     "status": null,
     "finalUrl": "https://www.hedon-klinik.de/",
     "title": "",
-    "evidence": "fetch failed",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.hedon-klinik.de",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -2673,7 +2688,7 @@
     "url": "https://www.moritz-klinik.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site matched neurology, rehabilitation and stroke evidence",
@@ -2717,7 +2732,7 @@
     "url": "https://www.passauerwolf.de/standorte/bad-goegging",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | Passauer Wolf specialist rehabilitation group seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology, stroke and Parkinson evidence",
@@ -2763,7 +2778,7 @@
     "url": "https://www.passauerwolf.de/standorte/bad-griesbach",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | Passauer Wolf specialist rehabilitation group seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology, stroke and Parkinson evidence",
@@ -2809,7 +2824,7 @@
     "url": "https://www.passauerwolf.de/standorte/nittenau",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | Passauer Wolf specialist rehabilitation group seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology, stroke and Parkinson evidence",
@@ -2855,7 +2870,7 @@
     "url": "https://www.rehanova.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site describes a neurological-neurosurgical rehabilitation clinic",
@@ -2904,7 +2919,7 @@
     "url": "https://www.sankt-rochus-kliniken.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurological early rehabilitation phase B/C/D",
@@ -2950,7 +2965,7 @@
     "url": "https://www.schoen-klinik.de/bad-aibling-harthausen",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official clinic site",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurological early rehabilitation and acute neurology",
@@ -2998,7 +3013,7 @@
     "url": "https://www.fachkrankenhaus-neresheim.de/",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | SRH specialist hospital / neurological early rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched intensive medicine and neurological evidence",
@@ -3042,7 +3057,7 @@
     "url": "https://www.kurpfalzkrankenhaus.de/",
     "sourceType": "curated-dataset | germany-pilot-official-seed",
     "discoverySource": "src/lib/data/centers.js | official hospital site / specialist neurology hospital",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital page matched neurology signals",
@@ -3083,7 +3098,7 @@
     "url": "https://www.vitrea-gesundheit.de/reha/hattingen",
     "sourceType": "curated-dataset | germany-second-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | Vitrea / former VAMED neurological rehabilitation seed",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page matched neurology, neurosurgery and rehabilitation evidence",
@@ -3128,7 +3143,7 @@
     "url": "https://nepegeszsegugyi-egyesulet.hu/en/national-center-spinal-disorders-buda-health-center",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "error",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site is a spinal-disorders reference page",
@@ -3160,7 +3175,7 @@
     "url": "https://www.auxologico.it/sedi/auxologico-meda-riabilitazione",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "An outpatient rehabilitation center with multidisciplinary care for neuromotor, cognitive and prevention needs.",
@@ -3195,7 +3210,7 @@
     "url": "https://www.valduce.it/it/chi-siamo/centro-di-riabilitazione-villa-beretta",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "A rehabilitation center specialized in central nervous system injuries, with an interdisciplinary model and advanced technology.",
@@ -3234,7 +3249,7 @@
     "url": "https://www.centrogiusti.eu/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site explicitly targets neurological patients and spinal cord lesions",
@@ -3276,7 +3291,7 @@
     "url": "https://cris.cittadirovigo.it/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "A clinic for physical and cognitive rehabilitation of nervous system disorders, including telerehabilitation.",
@@ -3318,7 +3333,7 @@
     "url": "https://www.hsantalucia.it/servizi-sanitari/riabilitazione-neuromotoria",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "A highly specialized hospital for motor and cognitive neurorehabilitation, with multidisciplinary pathways and advanced technology.",
@@ -3352,6 +3367,51 @@
     "title": "Riabilitazione Neuromotoria | Fondazione Santa Lucia"
   },
   {
+    "name": "Fondazione Turati - Centro di Riabilitazione di Vieste",
+    "country": "Italy",
+    "city": "Vieste",
+    "region": "Puglia",
+    "url": "https://fondazioneturati.it/centri-di-riabilitazione-e-terapia-fisica/centro-di-riabilitazione-a-vieste-della-fondazione-turati",
+    "sourceType": "curated-dataset | italy-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Fondazione Turati Vieste rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page lists neurological and neuromotor rehabilitation",
+      "Official page lists residential and outpatient rehabilitation",
+      "Official page states access through the Italian National Health Service and private care",
+      "A rehabilitation centre in Puglia with residential and outpatient neurological and neuromotor pathways, available through SSN and private access.",
+      "Centro di riabilitazione in Puglia con percorsi residenziali e ambulatoriali per bisogni neurologici e neuromotori, in convenzione SSN e privato.",
+      "riabilitazione",
+      "neurologica",
+      "neuromotorie",
+      "residenziale",
+      "ambulatoriale",
+      "Sistema Sanitario Nazionale"
+    ],
+    "status": 200,
+    "finalUrl": "https://fondazioneturati.it/centri-di-riabilitazione-e-terapia-fisica/centro-di-riabilitazione-a-vieste-della-fondazione-turati",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurologica | neuromotorie | residenziale | ambulatoriale | Sistema Sanitario Nazionale | neurolog | neuro | parkinson | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "centro"
+      ]
+    },
+    "title": "Centro di Riabilitazione a Vieste in Puglia della Fondazione Turati"
+  },
+  {
     "name": "IRCCS Centro Neurolesi Bonino Pulejo",
     "country": "Italy",
     "city": "Messina",
@@ -3365,13 +3425,27 @@
       "A highly specialized center for neuromotor, cognitive and robotic rehabilitation, including severe brain injury care.",
       "Centro di alta specializzazione con riabilitazione neuromotoria, cognitiva e robotica, inclusa un’unità per gravi cerebrolesioni."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.irccsme.it/servizi/riabilitazione-robotica",
-    "title": "",
-    "evidence": "fetch failed",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro | clinic | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic",
+        "centro"
+      ]
+    },
+    "title": "Centro Neurolesi Bonino Pulejo Messina | IRCCS"
   },
   {
     "name": "IRCCS Eugenio Medea",
@@ -3387,13 +3461,25 @@
       "An IRCCS focused on research, care and rehabilitation for neurological and neuropsychiatric disabilities in children.",
       "IRCCS dedicato alla ricerca, cura e riabilitazione delle disabilità neurologiche e neuropsichiatriche in età evolutiva."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://emedea.it/",
-    "title": "",
-    "evidence": "fetch failed",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neuroriabilitazione | riabilitazione | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Istituto Scientifico per la neuroriabilitazione in età evolutiva"
   },
   {
     "name": "IRCCS Maugeri Castel Goffredo",
@@ -3403,7 +3489,7 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "A site with neurological specialties and neuromotor rehabilitation in the functional care pathway.",
@@ -3436,7 +3522,7 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-montescano",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "An IRCCS with a strong rehabilitation focus, including neuromotor rehabilitation and neurophysiology.",
@@ -3468,7 +3554,7 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-pavia",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "An IRCCS site oriented toward neuromotor rehabilitation and multidisciplinary functional recovery pathways.",
@@ -3495,6 +3581,50 @@
     "title": "IRCCS Maugeri Pavia - IRCCS Maugeri Pavia - Maugeri"
   },
   {
+    "name": "IRCCS Maugeri Telese Terme",
+    "country": "Italy",
+    "city": "Telese Terme",
+    "region": "Campania",
+    "url": "https://www.icsmaugeri.it/dove-siamo/irccs-telese",
+    "sourceType": "curated-dataset | italy-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Maugeri Telese Terme site and specialty pages",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Maugeri page lists riabilitazione neuromotoria",
+      "Official page lists gravi cerebrolesioni and riabilitazione spinale",
+      "Official specialty evidence includes Parkinson and sclerosi multipla",
+      "A Maugeri IRCCS site with neuromotor rehabilitation, severe brain injury, persistent vegetative state and spinal rehabilitation pathways.",
+      "Sede IRCCS Maugeri con percorsi di riabilitazione neuromotoria, gravi cerebrolesioni, stati vegetativi persistenti e riabilitazione spinale.",
+      "Riabilitazione neuromotoria",
+      "Gravi cerebrolesioni",
+      "Riabilitazione spinale",
+      "Stati vegetativi persistenti",
+      "Parkinson",
+      "sclerosi multipla"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-telese",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Riabilitazione neuromotoria | Gravi cerebrolesioni | Riabilitazione spinale | Stati vegetativi persistenti | riabilitazione | neuro | spinal | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neuro",
+        "spinal"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "IRCCS Maugeri Telese Terme - IRCCS Maugeri Telese Terme - Maugeri"
+  },
+  {
     "name": "IRCCS Maugeri Veruno",
     "country": "Italy",
     "city": "Gattico-Veruno",
@@ -3502,7 +3632,7 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-veruno",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "An institute with neurology and physical rehabilitation suited to neuromotor recovery pathways.",
@@ -3530,6 +3660,52 @@
     "title": "IRCCS Maugeri Veruno - IRCCS Maugeri Veruno - Maugeri"
   },
   {
+    "name": "IRCCS Neuromed - Neuroriabilitazione",
+    "country": "Italy",
+    "city": "Pozzilli",
+    "region": "Molise",
+    "url": "https://neuromed.it/reparti/neuroriabilitazione",
+    "sourceType": "curated-dataset | italy-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Neuromed neurorehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official department page is dedicated to neuroriabilitazione",
+      "Matched intensive rehabilitation codes 75 and 56",
+      "Official page lists multiple sclerosis, Parkinson and robotic rehabilitation evidence",
+      "An IRCCS intensive neurorehabilitation department for acquired lesions, multiple sclerosis, Parkinson and progressive neurological disorders, with robotic support.",
+      "Reparto IRCCS di neuroriabilitazione intensiva per lesioni acquisite, sclerosi multipla, Parkinson e disturbi neurologici progressivi, con supporto robotico.",
+      "Neuroriabilitazione",
+      "codice 75",
+      "codice 56",
+      "Sclerosi Multipla",
+      "Parkinson",
+      "riabilitazione robotica"
+    ],
+    "status": 200,
+    "finalUrl": "https://neuromed.it/reparti/neuroriabilitazione",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuroriabilitazione | codice 75 | codice 56 | Sclerosi Multipla | Parkinson | riabilitazione robotica | neuroriabilitazione | riabilitazione | neurolog | neuro | spinal | parkinson",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "Neuroriabilitazione - Neuromed - Istituto Neurologico Mediterraneo Pozzilli"
+  },
+  {
     "name": "IRCCS S. Maria Nascente — Don Gnocchi",
     "country": "Italy",
     "city": "Milano",
@@ -3537,7 +3713,7 @@
     "url": "https://www.dongnocchi.it/@strutture/centro-irccs-s-maria-nascente",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "An intensive neurological rehabilitation unit for cerebrovascular, neurodegenerative, spinal and neuromuscular conditions.",
@@ -3573,7 +3749,7 @@
     "url": "https://www.montecatone.com/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "A highly specialized center for intensive rehabilitation after spinal cord and acquired brain injuries.",
@@ -3608,6 +3784,105 @@
     "title": "Istituto di Montecatone Ospedale di Riabilitazione"
   },
   {
+    "name": "Ospedale San Camillo IRCCS",
+    "country": "Italy",
+    "city": "Venezia Lido",
+    "region": "Veneto",
+    "url": "https://hsancamillo.it/ospedale-irccs-san-camillo-di-venezia",
+    "sourceType": "curated-dataset | italy-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official San Camillo IRCCS hospital profile",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official IRCCS page states specialization in neuroriabilitazione",
+      "Matched brain lesion, ischemic lesion, spinal cord injury and multiple sclerosis evidence",
+      "Official page lists motor, communication and behavioral neurorehabilitation",
+      "A Venice IRCCS specialized in motor, communication and behavioral neurorehabilitation, including spinal cord injury and multiple sclerosis pathways.",
+      "IRCCS veneziano specializzato in neuroriabilitazione motoria, della comunicazione e del comportamento, inclusi percorsi per mielolesioni e sclerosi multipla.",
+      "Neuroriabilitazione",
+      "lesioni cerebrali",
+      "lesioni ischemiche",
+      "mielolesioni",
+      "Sclerosi Multipla",
+      "IRCCS"
+    ],
+    "status": 200,
+    "finalUrl": "https://hsancamillo.it/ospedale-irccs-san-camillo-di-venezia",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuroriabilitazione | lesioni cerebrali | lesioni ischemiche | mielolesioni | Sclerosi Multipla | IRCCS | neuroriabilitazione | riabilitazione | neurolog | neuro | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "Chi siamo - San Camillo IRCCS"
+  },
+  {
+    "name": "Prosperius Villa Cherubini - Riabilitazione Neurologica",
+    "country": "Italy",
+    "city": "Firenze",
+    "region": "Toscana",
+    "url": "https://prosperius.it/riabilitazione/riabilitazione-neurologica",
+    "sourceType": "curated-dataset | italy-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Prosperius Villa Cherubini neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page is dedicated to riabilitazione neurologica",
+      "Matched stroke, multiple sclerosis and Parkinson evidence",
+      "Official page lists robotic rehabilitation and inpatient/outpatient pathways",
+      "A Florence clinic offering neurological rehabilitation after stroke and for neurodegenerative conditions such as multiple sclerosis and Parkinson, including robotic rehabilitation.",
+      "Clinica fiorentina con riabilitazione neurologica per esiti di ictus e patologie neurodegenerative come sclerosi multipla e Parkinson, anche con robotica.",
+      "Riabilitazione Neurologica",
+      "ictus cerebrale",
+      "Sclerosi Multipla",
+      "Parkinson",
+      "Riabilitazione robotica",
+      "ricovero"
+    ],
+    "status": 200,
+    "finalUrl": "https://prosperius.it/riabilitazione/riabilitazione-neurologica",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Riabilitazione Neurologica | ictus cerebrale | Sclerosi Multipla | Parkinson | Riabilitazione robotica | ricovero | neuroriabilitazione | riabilitazione neurologica | rehabilitation | rehab | riabilitazione | neurolog | neuro | ictus | parkinson | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroriabilitazione",
+        "riabilitazione neurologica"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "parkinson",
+        "lesioni midollari"
+      ],
+      "institution": [
+        "hospital",
+        "clinic"
+      ]
+    },
+    "title": "Riabilitazione Neurologica - Prosperius Villa Cherubini"
+  },
+  {
     "name": "Roessingh",
     "country": "Netherlands",
     "city": "Enschede",
@@ -3615,7 +3890,7 @@
     "url": "https://www.roessingh.nl/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Innovatie & onderzoek",
@@ -3654,7 +3929,7 @@
     "url": "https://www.sunnaas.no/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Largest specialized hospital in physical medicine and rehabilitation in Norway",
@@ -3690,7 +3965,7 @@
     "url": "https://cmra.scml.pt/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "review",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Portuguese rehabilitation center with multidisciplinary services",
@@ -3725,7 +4000,7 @@
     "url": "https://www.uri-soca.si/en",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Tertiary-level health institution with scientific research",
@@ -3767,7 +4042,7 @@
     "url": "https://ceadac.imserso.es/",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Imserso state reference centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Imserso state reference centre for acquired brain injury",
@@ -3808,7 +4083,7 @@
     "url": "https://casaverdeneuro.com/centros/madrid/centro-casaverde-madrid",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Casaverde Neuro centre page",
@@ -3860,7 +4135,7 @@
     "url": "https://www.clinicasanvicente.es/",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official neurorehabilitation clinic page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official neurorehabilitation clinic page",
@@ -3905,7 +4180,7 @@
     "url": "https://fundacionhospitalariasmadrid.org/que-hacemos/unidades-especializadas/unidad-de-dano-cerebral-rehabilitable",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Fundación Hospitalarias Madrid brain injury unit page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Fundación Hospitalarias Madrid brain-injury unit page",
@@ -3956,7 +4231,7 @@
     "url": "https://casaverdeneuro.com/centros/alicante/hospital-casaverde",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Casaverde Neuro hospital page",
@@ -4009,7 +4284,7 @@
     "url": "https://casaverdeneuro.com/centros/extremadura/hospital-casaverde-extremadura",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Casaverde Neuro hospital page",
@@ -4062,7 +4337,7 @@
     "url": "https://casaverdeneuro.com/centros/valladolid/hospital-casaverde-valladolid",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Casaverde Neuro hospital page",
@@ -4114,7 +4389,7 @@
     "url": "https://hospitallosmadronos.es/unidades-especializadas/unidad-avanzada-de-neurorrehabilitacion",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official hospital advanced neurorehabilitation unit page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital advanced neurorehabilitation unit page",
@@ -4169,7 +4444,7 @@
     "url": "http://www.infomedula.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site of the National Spinal Cord Injury Hospital",
@@ -4207,7 +4482,7 @@
     "url": "https://www.quironsalud.com/migueldominguez",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official neuro-rehabilitation unit on the hospital site",
@@ -4249,7 +4524,7 @@
     "url": "https://vithas.es/centro/vithas-hospital-aguas-vivas",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official page states neurorrehabilitation and brain injury unit",
@@ -4293,7 +4568,7 @@
     "url": "https://vithas.es/centro/vithas-hospital-sevilla",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital page lists a neurorrehabilitation unit",
@@ -4335,7 +4610,7 @@
     "url": "https://vithas.es/centro/vithas-hospital-valencia-consuelo",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital page lists a pediatric neurorrehabilitation unit",
@@ -4377,7 +4652,7 @@
     "url": "https://vithas.es/centro/vithas-hospital-vigo",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital page lists a neurorrehabilitation unit",
@@ -4418,7 +4693,7 @@
     "url": "https://vithas.es/centro/vithas-hospital-xanit-internacional",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official hospital page lists a neurorrehabilitation unit",
@@ -4460,7 +4735,7 @@
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-bekoetxe-ifas",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Bekoetxe brain-injury day-centre page",
@@ -4507,7 +4782,7 @@
     "url": "https://www.guttmann.com/es",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Hospital de Neurorrehabilitación",
@@ -4548,7 +4823,7 @@
     "url": "https://www.lescer.es/",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official specialist neurorehabilitation centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official specialist neurorehabilitation centre page",
@@ -4602,7 +4877,7 @@
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-bilbao",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Bilbao neurorehabilitation centre page",
@@ -4656,7 +4931,7 @@
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-san-sebastian",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official San Sebastián neurorehabilitation centre page",
@@ -4704,7 +4979,7 @@
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-musakola",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Ospitalarioak filtered brain-injury centre list",
@@ -4751,7 +5026,7 @@
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/hospital-aita-menni",
     "sourceType": "curated-dataset | spain-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Ospitalarioak brain-injury centre page",
@@ -4802,7 +5077,7 @@
     "url": "https://www.balgrist.ch/en",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "review",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official site explicitly lists a Spinal Cord Injury Center",
@@ -4841,7 +5116,7 @@
     "url": "https://www.klinik-valens.ch/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Klinik Valens site for neurological rehabilitation",
@@ -4884,7 +5159,7 @@
     "url": "https://www.rehaklinik-tschugg.ch/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurologische Rehabilitation, Parkinsonzentrum and Epilepsy Center on the official site",
@@ -4928,7 +5203,7 @@
     "url": "https://www.rehaklinik-zihlschlacht.ch/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "One of the leading centers for neurorehabilitation in Switzerland",
@@ -4972,7 +5247,7 @@
     "url": "https://www.paraplegie.ch/en",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Comprehensive rehabilitation for people with spinal cord injuries",
@@ -5011,7 +5286,7 @@
     "url": "https://www.stgeorges.nhs.uk/services",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official services page lists a Neurosciences Centre with neurorehabilitation and stroke services",
@@ -5056,11 +5331,16 @@
     "city": "London",
     "region": "Greater London",
     "url": "https://activecaregroup.co.uk/location/blackheath-rehabilitation-centre",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Active Care Group brain injury rehabilitation centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Active Care Group brain injury rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Active Care Group brain injury rehabilitation centre page",
+      "Matched acquired brain injury and complex neurological condition evidence",
+      "Specialist inpatient Level 1 and Level 2 rehabilitation profile",
+      "An Active Care Group centre in Blackheath for specialist inpatient rehabilitation after brain injury and complex neurological conditions.",
+      "Centro Active Care Group a Blackheath per riabilitazione specialistica in ricovero dopo danno cerebrale e condizioni neurologiche complesse.",
       "Brain Injury Rehabilitation Centre",
       "Neurological Rehabilitation",
       "acquired brain injury",
@@ -5103,11 +5383,16 @@
     "city": "London",
     "region": "Greater London",
     "url": "https://activecaregroup.co.uk/location/chislehurst-rehabilitation-centre",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Active Care Group neurological rehabilitation centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Active Care Group neurological rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Active Care Group neurological rehabilitation centre page",
+      "Matched brain injury, stroke, progressive neurological conditions and cognitive rehabilitation evidence",
+      "Specialist post-acute rehabilitation and long-term neurological care in southeast London",
+      "An Active Care Group centre in Chislehurst for neurological rehabilitation, brain injury, stroke, and progressive neurological conditions.",
+      "Centro Active Care Group a Chislehurst per riabilitazione neurologica, danno cerebrale, ictus e condizioni neurologiche progressive.",
       "Neurological Rehabilitation",
       "brain injury",
       "stroke",
@@ -5147,11 +5432,16 @@
     "city": "Bristol",
     "region": "South Gloucestershire",
     "url": "https://activecaregroup.co.uk/location/frenchay-rehabilitation-centre",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Active Care Group Frenchay neurological rehabilitation centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Active Care Group Frenchay neurological rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Active Care Group Frenchay neurological rehabilitation centre page",
+      "Matched acquired or traumatic brain injury and complex stroke evidence",
+      "Specialist Level 1 and Level 2 rehabilitation profile in Bristol",
+      "An Active Care Group centre in Bristol for neurorehabilitation after acquired or traumatic brain injury and complex stroke.",
+      "Centro Active Care Group a Bristol per neuroriabilitazione dopo danno cerebrale acquisito o traumatico e ictus complesso.",
       "Frenchay Brain Injury Rehabilitation Centre",
       "Neurological rehabilitation",
       "acquired or traumatic brain injury",
@@ -5199,7 +5489,7 @@
     "url": "https://hobbsrehabilitation.co.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official specialist neurological rehabilitation provider page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official specialist neurological rehabilitation provider page",
@@ -5250,7 +5540,7 @@
     "url": "https://hollandenparkhospital.co.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Renovo Care Group hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Renovo Care Group hospital page",
@@ -5295,11 +5585,16 @@
     "city": "Hothfield",
     "region": "Kent",
     "url": "https://activecaregroup.co.uk/location/hothfield-rehabilitation-centre",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Active Care Group Hothfield neurological rehabilitation centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Active Care Group Hothfield neurological rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Active Care Group Hothfield neurological rehabilitation centre page",
+      "Matched brain injury, spinal injury, stroke and neurological condition evidence",
+      "Specialist neurological rehabilitation and residential care centre in Kent",
+      "An Active Care Group centre in Kent for neurorehabilitation, brain injury, spinal injury, and stroke.",
+      "Centro Active Care Group nel Kent per neuroriabilitazione, danno cerebrale, lesione spinale e ictus.",
       "Hothfield Neurological Rehabilitation Centre",
       "brain injury",
       "neurological condition",
@@ -5341,11 +5636,16 @@
     "city": "Glasgow",
     "region": "Scotland",
     "url": "https://www.nhsggc.scot/hospitals-services/institute-of-neurological-sciences-and-spinal-unit",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official NHS Greater Glasgow and Clyde neurosciences and spinal unit page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official NHS Greater Glasgow and Clyde neurosciences and spinal unit page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official NHS Greater Glasgow and Clyde neurosciences and spinal unit page",
+      "Page lists neurorehabilitation and the Queen Elizabeth National Spinal Injuries Unit",
+      "Specialist neurological sciences and spinal injury services at Queen Elizabeth University Hospital",
+      "A Glasgow NHS neurosciences centre with neurorehabilitation and the Queen Elizabeth National Spinal Injuries Unit.",
+      "Centro NHS di Glasgow con Institute of Neurological Sciences, neuroriabilitazione e National Spinal Injuries Unit.",
       "Neurorehabilitation",
       "Queen Elizabeth National Spinal Injuries Unit",
       "Spinal Injuries",
@@ -5392,7 +5692,7 @@
     "url": "https://www.rnoh.nhs.uk/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "London Spinal Cord Injury Centre listed on the official RNOH site",
@@ -5431,11 +5731,16 @@
     "city": "Oswestry",
     "region": "Shropshire",
     "url": "https://www.rjah.nhs.uk/our-services/midland-centre-for-spinal-injuries",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official RJAH NHS spinal injuries centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official RJAH NHS spinal injuries centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official RJAH NHS spinal injuries centre page",
+      "Matched spinal cord injury and active rehabilitation programme evidence",
+      "Specialist inpatient rehabilitation beds and outpatient spinal injury pathways",
+      "An NHS spinal injuries centre in Oswestry with an active rehabilitation programme and inpatient and outpatient pathways.",
+      "Centro NHS a Oswestry per lesioni midollari, con programma attivo di riabilitazione e percorsi di ricovero e ambulatoriali.",
       "Midland Centre for Spinal Injuries",
       "spinal cord",
       "rehabilitation",
@@ -5476,7 +5781,7 @@
     "url": "https://www.mildmay.nhs.uk/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Specialist rehabilitation for HIV-associated neurological disorders (HAND)",
@@ -5513,11 +5818,16 @@
     "city": "Wishaw",
     "region": "North Lanarkshire",
     "url": "https://activecaregroup.co.uk/location/murdostoun-rehabilitation-centre",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Active Care Group Murdostoun neurological rehabilitation centre page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Active Care Group Murdostoun neurological rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Active Care Group Murdostoun neurological rehabilitation centre page",
+      "Matched brain injury, spinal cord injury, stroke and specialist inpatient rehabilitation evidence",
+      "North Lanarkshire service for brain injury and complex neurological rehabilitation",
+      "An Active Care Group centre in North Lanarkshire for inpatient neurological rehabilitation, brain injury, spinal cord injury, and stroke.",
+      "Centro Active Care Group in North Lanarkshire per riabilitazione neurologica in ricovero, danno cerebrale, lesione midollare e ictus.",
       "Murdostoun Brain Injury Rehabilitation",
       "Neurological rehabilitation",
       "brain injury",
@@ -5562,7 +5872,7 @@
     "url": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official neurorehabilitation and therapy services listing",
@@ -5609,7 +5919,7 @@
     "url": "https://nationalrehabilitationcentre.nhs.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official NHS National Rehabilitation Centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official NHS National Rehabilitation Centre page",
@@ -5657,7 +5967,7 @@
     "url": "https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Buckinghamshire Healthcare NHS spinal injuries centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Buckinghamshire Healthcare NHS spinal injuries centre page",
@@ -5699,11 +6009,16 @@
     "city": "Belfast",
     "region": "Northern Ireland",
     "url": "https://belfasttrust.hscni.net/service/regional-neurorehabilitation-services",
-    "sourceType": "uk-second-pass-official-seed",
-    "discoverySource": "official Belfast Health and Social Care Trust regional neurorehabilitation service page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Belfast Health and Social Care Trust regional neurorehabilitation service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official Belfast Trust regional neurorehabilitation service page",
+      "Page lists acquired brain injury and spinal cord injury units at Musgrave Park Hospital",
+      "Provides inpatient and outpatient rehabilitation under regional rehabilitation services",
+      "A Musgrave Park Hospital regional service for neurorehabilitation, acquired brain injury, and spinal cord injury rehabilitation.",
+      "Servizio regionale a Musgrave Park Hospital per neuroriabilitazione, danno cerebrale acquisito e lesione midollare.",
       "Regional Neurorehabilitation Services",
       "Regional Acquired Brain Injury Unit",
       "Spinal Cord Injury Unit",
@@ -5748,7 +6063,7 @@
     "url": "https://www.stgeorges.nhs.uk/service/rehabilitation-service",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official rehab service offers gait analysis and functional electrical stimulation for neuro-rehabilitation",
@@ -5789,7 +6104,7 @@
     "url": "https://www.royalbucks.co.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official specialist rehabilitation hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official specialist rehabilitation hospital page",
@@ -5841,7 +6156,7 @@
     "url": "https://www.rhn.org.uk/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Dedicated brain injury unit",
@@ -5880,7 +6195,7 @@
     "url": "https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official Salisbury NHS spinal treatment centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official Salisbury NHS spinal treatment centre page",
@@ -5928,7 +6243,7 @@
     "url": "https://stepsrehabilitation.co.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official specialist rehabilitation centre page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official specialist rehabilitation centre page",
@@ -5977,7 +6292,7 @@
     "url": "https://www.thechildrenstrust.org.uk/",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official pediatric brain-injury rehabilitation charity page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official pediatric brain-injury rehabilitation charity page",
@@ -6025,7 +6340,7 @@
     "url": "https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital",
     "sourceType": "curated-dataset | uk-first-pass-official-seed",
     "discoverySource": "src/lib/data/centers.js | official HCA UK hospital page",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Official HCA UK hospital page",
@@ -6096,7 +6411,7 @@
     "status": null,
     "finalUrl": "https://www.cntw.nhs.uk/locations/walkergate-park",
     "title": "",
-    "evidence": "This operation was aborted",
+    "evidence": "This operation was aborted; curl fallback failed: curl: (28) Operation timed out after 15006 milliseconds with 0 bytes received",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -6109,7 +6424,7 @@
     "url": "https://brooksrehab.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Brain, stroke and spinal cord injury expertise on the official site",
@@ -6154,7 +6469,7 @@
     "url": "https://craighospital.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "error",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Exclusively specializes in neurorehabilitation and research",
@@ -6187,7 +6502,7 @@
     "url": "https://www.kessler-rehab.com/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "error",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Neurologic rehabilitation is listed on the official site",
@@ -6218,7 +6533,7 @@
     "url": "https://www.shepherd.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "World leader in advanced rehabilitation treatment and research",
@@ -6262,7 +6577,7 @@
     "url": "https://www.sralab.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "Rehabilitation research hospital",
@@ -6310,7 +6625,7 @@
     "url": "https://www.spauldingrehab.org/",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "candidate",
+    "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
       "World leader in advanced rehabilitation treatment and research",
