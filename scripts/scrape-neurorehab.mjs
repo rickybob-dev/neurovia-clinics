@@ -11,6 +11,7 @@ const DEFAULT_SOURCE_CONFIG = './scripts/data/neurorehab-official-sources.json';
 const DEFAULT_DISCOVERY_OUT = './neurorehab-discoveries.json';
 const DEFAULT_SCRAPE_OUT = './neurorehab-scrape.json';
 const DEFAULT_VALIDATED_OUT = './src/lib/data/validated-scrape.json';
+const BROWSER_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
 const explicitNeuroRehabSignals = [
   'neurorehabilitation',
@@ -30,6 +31,8 @@ const explicitNeuroRehabSignals = [
   'neurorevalidatie',
   'neurorehabilitace',
   'neurorehabilitacja',
+  'rehabilitacja neurologiczna',
+  'rehabilitacji neurologicznej',
   'neurorehabilitacija',
   'neurorehabilitatsioon',
   'неврологическая реабилитация',
@@ -44,6 +47,7 @@ const rehabSignals = [
   'rééducation',
   'réadaptation',
   'reabilitação',
+  'rehabilitacja',
   'reabilitacja',
   'rehabilitación',
   'rehabilitace',
@@ -57,15 +61,38 @@ const neuroSignals = [
   'neurolog',
   'neuro',
   'stroke',
+  'udar mózgu',
+  'udarach mózgu',
+  'po udarze',
+  'przebytych udarach',
+  'udarze',
+  'udarach',
   'ictus',
   'spinal cord',
   'spinal',
+  'rdzeń kręgowy',
+  'rdzenia kręgowego',
+  'uraz rdzenia',
+  'urazie rdzenia',
   'brain injury',
   'acquired brain injury',
+  'uraz mózgu',
+  'urazy mózgu',
+  'urazy mózgowo-czaszkowe',
+  'urazach czaszkowo-mózgowych',
   'cerebral palsy',
   'cerebrovascular',
   'multiple sclerosis',
+  'stwardnienie rozsiane',
+  'stwardnieniu rozsianym',
   'parkinson',
+  'choroba parkinsona',
+  'chorobie parkinsona',
+  'polineuropatia',
+  'polineuropatiach',
+  'niedowład',
+  'porażenie',
+  'porażeniem',
   'lesion medull',
   'lesões medulares',
   'lesioni midollari',
@@ -100,6 +127,12 @@ const weakInstitutionSignals = [
   'center',
   'centro',
   'zentrum',
+  'ośrodek',
+  'osrodek',
+  'klinika',
+  'szpital',
+  'oddział',
+  'oddzial',
   'revalidatieziekenhuis',
   'rehabilitation hospital'
 ];
@@ -259,8 +292,8 @@ async function fetchPage(url, timeoutMs = 15000) {
       signal: controller.signal,
       headers: {
         accept: 'text/html,application/xhtml+xml',
-        'accept-language': 'en,de;q=0.9',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 NeuroviaClinicsDiscovery/0.2'
+        'accept-language': 'pl,en;q=0.9',
+        'user-agent': BROWSER_USER_AGENT
       }
     });
 
@@ -268,6 +301,10 @@ async function fetchPage(url, timeoutMs = 15000) {
     const body = contentType.includes('text/html') || contentType.includes('text/plain')
       ? await response.text()
       : '';
+
+    if (!response.ok && [403, 406, 429, 500, 502, 503, 504].includes(response.status)) {
+      return fetchPageWithCurl(url, timeoutMs, new Error(`fetch returned HTTP ${response.status}`));
+    }
 
     return {
       ok: response.ok,
@@ -295,11 +332,11 @@ async function fetchPageWithCurl(url, timeoutMs, originalError) {
       '--max-time',
       String(seconds),
       '--user-agent',
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 NeuroviaClinicsDiscovery/0.2',
+      BROWSER_USER_AGENT,
       '--header',
       'accept: text/html,application/xhtml+xml',
       '--header',
-      'accept-language: en,it;q=0.9',
+      'accept-language: pl,en;q=0.9',
       '--write-out',
       `${marker}%{http_code}\t%{url_effective}\t%{content_type}`,
       url

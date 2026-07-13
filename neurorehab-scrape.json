@@ -112,7 +112,8 @@
       "institution": [
         "hospital",
         "klinik",
-        "centre"
+        "centre",
+        "klinika"
       ]
     },
     "title": "Naslovnica - Klinički bolnički centar Zagreb"
@@ -394,7 +395,7 @@
     ],
     "status": 403,
     "finalUrl": "https://www.les-capucins-angers.fr/",
-    "contentType": "text/html; charset=utf-8",
+    "contentType": "text/html",
     "validationTier": "none",
     "qualifying": false,
     "evidence": "No qualifying neurorehabilitation evidence found on fetched page.",
@@ -404,7 +405,7 @@
       "neurological": [],
       "institution": []
     },
-    "title": "Just a moment..."
+    "title": "Error 403 Forbidden"
   },
   {
     "name": "CHU Bordeaux - Médecine physique et de réadaptation",
@@ -2638,7 +2639,7 @@
     "contentType": "text/html;charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | schlaganfall | multiple sklerose | rehabilitation | rehab | neurolog | neuro | klinik",
+    "evidence": "neurologie | schlaganfall | multiple sklerose | rehabilitation | rehab | neurolog | neuro | klinik | klinika",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -2650,7 +2651,8 @@
         "neuro"
       ],
       "institution": [
-        "klinik"
+        "klinik",
+        "klinika"
       ]
     },
     "title": "Reha für Orthopädie, Neurologie und Geriatrie &#448; MEDICLIN Fachklinik Rhein Ruhr"
@@ -3958,6 +3960,268 @@
     "title": "Forside - Sunnaas sykehus HF"
   },
   {
+    "name": "Centrum Kompleksowej Rehabilitacji Konstancin",
+    "country": "Poland",
+    "city": "Konstancin-Jeziorna",
+    "region": "Masovian Voivodeship",
+    "url": "https://ckr.pl/rehabilitacja",
+    "sourceType": "curated-dataset | poland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official CKR Konstancin rehabilitation centre site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site states rehabilitation for stroke, neurosurgery, multiple sclerosis, Parkinson and polyneuropathies",
+      "Official exoskeleton page references lower-limb paresis/paralysis including complete spinal cord interruption",
+      "Official contact and service pages list NFZ and paid rehabilitation beds",
+      "A Konstancin-Jeziorna rehabilitation centre with inpatient, outpatient, NFZ-funded and private pathways for stroke, spinal injury, MS and Parkinson.",
+      "Centro riabilitativo a Konstancin-Jeziorna con ricovero, ambulatorio, NFZ e percorsi privati per ictus, lesione midollare, MS e Parkinson.",
+      "udar",
+      "operacjach neurochirurgicznych",
+      "stwardnieniu rozsianym",
+      "chorobie Parkinsona",
+      "przerwaniu rdzenia kręgowego",
+      "Egzoszkielet"
+    ],
+    "status": 200,
+    "finalUrl": "https://ckr.pl/rehabilitacja",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Egzoszkielet | rehab | rehabilitacja | neurolog | neuro | oddział",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "oddział"
+      ]
+    },
+    "title": "Rehabilitacja - Centrum Kompleksowej Rehabilitacji Warszawa"
+  },
+  {
+    "name": "Centrum Origin Kraków",
+    "country": "Poland",
+    "city": "Kraków",
+    "region": "Lesser Poland Voivodeship",
+    "url": "https://www.originpolska.com/placowka/centrum-origin-krakow",
+    "sourceType": "curated-dataset | poland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Origin Polska Kraków rehabilitation centre page and programme navigation",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Origin Polska site describes private neurological and post-accident rehabilitation in Otwock and Kraków",
+      "Official programme navigation lists stroke, spinal cord injury, traumatic brain injury, Parkinson and neuropathy programmes",
+      "Official map data lists the Kraków rehabilitation centre address and coordinates",
+      "Origin’s Kraków centre for private neurological rehabilitation, with programmes for stroke, brain injury, spinal cord injury, Parkinson and neuropathy.",
+      "Centro Origin a Cracovia per riabilitazione neurologica privata, con programmi per ictus, trauma cranico, lesione midollare, Parkinson e neuropatie.",
+      "rehabilitacji neurologicznej",
+      "Udar mózgu",
+      "Urazy rdzenia kręgowego",
+      "Urazy mózgowo-czaszkowe",
+      "Choroba Parkinsona",
+      "Wyposażenie i robotyka"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-krakow",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacji neurologicznej | Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarach mózgu",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacji neurologicznej"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarach mózgu",
+        "po udarze",
+        "udarze",
+        "udarach",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Kraków - rehabilitacja po udarach i wypadkach, ambulatoryjna"
+  },
+  {
+    "name": "Centrum Origin Otwock",
+    "country": "Poland",
+    "city": "Otwock",
+    "region": "Masovian Voivodeship",
+    "url": "https://www.originpolska.com/placowka/centrum-origin-otwock",
+    "sourceType": "curated-dataset | poland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Origin Polska Otwock rehabilitation centre page and programme navigation",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Origin Polska site describes private neurological and post-accident rehabilitation in Otwock and Kraków",
+      "Official programme navigation lists stroke, spinal cord injury, traumatic brain injury, Parkinson and neuropathy programmes",
+      "Official site lists rehabilitation robotics including ReoAmbulator and upper-limb robotic therapy",
+      "Origin’s Otwock centre for private neurological rehabilitation, with programmes for stroke, brain injury, spinal cord injury, Parkinson and robotics.",
+      "Centro Origin a Otwock per riabilitazione neurologica privata, con programmi per ictus, trauma cranico, lesione midollare, Parkinson e robotica.",
+      "rehabilitacji neurologicznej",
+      "Udar mózgu",
+      "Urazy rdzenia kręgowego",
+      "Urazy mózgowo-czaszkowe",
+      "Choroba Parkinsona",
+      "Wyposażenie i robotyka"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-otwock",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarze",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarze",
+        "udarach",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Otwock - rehabilitacja po udarach i wypadkach, neurologiczna"
+  },
+  {
+    "name": "Constance Care",
+    "country": "Poland",
+    "city": "Kierszek",
+    "region": "Masovian Voivodeship",
+    "url": "https://constancecare.pl/pl/rehabilitacja-neurologiczna",
+    "sourceType": "curated-dataset | poland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Constance Care rehabilitation centre site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes Constance Care as a private neurological and post-stroke rehabilitation centre",
+      "Official pages list rehabilitation after stroke, traumatic brain injury, spinal cord injury, neurological operations, MS and Parkinson",
+      "Official contact page provides centre address, phone and map coordinates",
+      "A private centre near Konstancin-Jeziorna for intensive neurological, post-stroke, brain injury, spinal injury, MS and Parkinson rehabilitation.",
+      "Centro privato vicino a Konstancin-Jeziorna per riabilitazione neurologica intensiva, post-ictus, trauma cranico, lesione midollare, MS e Parkinson.",
+      "rehabilitacja neurologiczna",
+      "rehabilitacji po udarze",
+      "urazach czaszkowo-mózgowych",
+      "urazach rdzenia kręgowego",
+      "stwardnienie rozsiane",
+      "choroba Parkinsona"
+    ],
+    "status": 200,
+    "finalUrl": "https://constancecare.pl/pl/rehabilitacja-neurologiczna",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacja neurologiczna | urazach czaszkowo-mózgowych | urazach rdzenia kręgowego | stwardnienie rozsiane | choroba Parkinsona | rehabilitacji neurologicznej | rehab | rehabilitacja | neurolog | neuro | udarach mózgu | po udarze",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacja neurologiczna",
+        "rehabilitacji neurologicznej"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udarach mózgu",
+        "po udarze",
+        "udarze",
+        "udarach",
+        "rdzenia kręgowego",
+        "uraz rdzenia",
+        "urazie rdzenia",
+        "uraz mózgu",
+        "urazach czaszkowo-mózgowych",
+        "stwardnienie rozsiane",
+        "stwardnieniu rozsianym",
+        "parkinson",
+        "choroba parkinsona",
+        "chorobie parkinsona",
+        "niedowład",
+        "porażenie",
+        "porażeniem"
+      ],
+      "institution": []
+    },
+    "title": "Rehabilitacja Neurologiczna, leczenie neurologiczne Konstancin"
+  },
+  {
+    "name": "Górnośląskie Centrum Rehabilitacji \"Repty\"",
+    "country": "Poland",
+    "city": "Tarnowskie Góry",
+    "region": "Silesian Voivodeship",
+    "url": "https://repty.pl/",
+    "sourceType": "curated-dataset | poland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Repty GCR rehabilitation hospital site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital site lists neurological rehabilitation and post-hospital rehabilitation",
+      "Official metadata matches neurology, stroke-like conditions, multiple sclerosis, paralysis and paresis",
+      "Site navigation lists inpatient departments, rehabilitation clinic and day rehabilitation centre",
+      "A public rehabilitation hospital in Silesia with neurological, post-hospital, outpatient and day rehabilitation pathways.",
+      "Ospedale riabilitativo pubblico in Slesia con riabilitazione neurologica, post-ospedaliera, ambulatoriale e diurna.",
+      "rehabilitacja neurologiczna",
+      "neurologia",
+      "wylew",
+      "stwardnienie rozsiane",
+      "paraliż",
+      "niedowład"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.repty.pl/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacja neurologiczna | rehab | rehabilitacja | neurolog | neuro | szpital | oddział",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacja neurologiczna"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "szpital",
+        "oddział"
+      ]
+    },
+    "title": "Górnośląskie Centrum Rehabilitacji \"Repty\""
+  },
+  {
     "name": "Centro de Medicina de Reabilitação de Alcoitão",
     "country": "Portugal",
     "city": "Alcoitão",
@@ -4057,20 +4321,23 @@
       "servicios de atención directa"
     ],
     "status": 200,
-    "finalUrl": "https://ceadac.imserso.es/",
-    "contentType": "text/html",
-    "validationTier": "none",
-    "qualifying": false,
-    "evidence": "centro",
+    "finalUrl": "https://ceadac.imserso.es/web/ceadac",
+    "contentType": "text/html;charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
-      "rehabilitation": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación"
+      ],
       "neurological": [],
       "institution": [
         "centro"
       ]
     },
-    "title": "Instituto de Mayores y Servicios Sociales - Página mantenimiento"
+    "title": "Inicio - CEADAC - Instituto de Mayores y Servicios Sociales"
   },
   {
     "name": "Centro Casaverde Madrid",
@@ -4423,7 +4690,8 @@
         "neuro",
         "ictus",
         "cerebrovascular",
-        "parkinson"
+        "parkinson",
+        "polineuropatia"
       ],
       "institution": [
         "hospital",
@@ -5894,7 +6162,7 @@
     ],
     "status": 200,
     "finalUrl": "https://hollandenparkhospital.co.uk/",
-    "contentType": "text/html; charset=UTF-8",
+    "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
@@ -6869,14 +7137,16 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "none",
     "qualifying": false,
-    "evidence": "No qualifying neurorehabilitation evidence found on fetched page.",
+    "evidence": "rehab",
     "matchedSignals": {
       "explicitNeuroRehab": [],
-      "rehabilitation": [],
+      "rehabilitation": [
+        "rehab"
+      ],
       "neurological": [],
       "institution": []
     },
-    "title": "Just a moment..."
+    "title": "Attention Required! | Cloudflare"
   },
   {
     "name": "Shepherd Center",

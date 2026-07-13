@@ -1090,6 +1090,56 @@
       "sourceType": "switzerland-first-pass-official-seed",
       "discoverySource": "official Swiss Medical Network Clinique Valmont page",
       "needles": ["Rééducation neurologique", "AVC", "Maladie de Parkinson", "Sclérose en plaques", "Neuropsychologie", "Neuro-pédiatrie"]
+    },
+    {
+      "country": "Poland",
+      "name": "Górnośląskie Centrum Rehabilitacji Repty",
+      "city": "Tarnowskie Góry",
+      "region": "Silesian Voivodeship",
+      "url": "https://repty.pl/",
+      "sourceType": "poland-first-pass-official-seed",
+      "discoverySource": "official Repty GCR rehabilitation hospital site",
+      "needles": ["rehabilitacja neurologiczna", "neurologia", "wylew", "stwardnienie rozsiane", "paraliż", "niedowład"]
+    },
+    {
+      "country": "Poland",
+      "name": "Centrum Kompleksowej Rehabilitacji Konstancin",
+      "city": "Konstancin-Jeziorna",
+      "region": "Masovian Voivodeship",
+      "url": "https://ckr.pl/rehabilitacja/",
+      "sourceType": "poland-first-pass-official-seed",
+      "discoverySource": "official CKR Konstancin rehabilitation centre site",
+      "needles": ["udar", "operacjach neurochirurgicznych", "stwardnieniu rozsianym", "chorobie Parkinsona", "przerwaniu rdzenia kręgowego", "Egzoszkielet"]
+    },
+    {
+      "country": "Poland",
+      "name": "Centrum Origin Otwock",
+      "city": "Otwock",
+      "region": "Masovian Voivodeship",
+      "url": "https://www.originpolska.com/placowka/centrum-origin-otwock/",
+      "sourceType": "poland-first-pass-official-seed",
+      "discoverySource": "official Origin Polska Otwock rehabilitation centre page and programme navigation",
+      "needles": ["rehabilitacji neurologicznej", "Udar mózgu", "Urazy rdzenia kręgowego", "Urazy mózgowo-czaszkowe", "Choroba Parkinsona", "Wyposażenie i robotyka"]
+    },
+    {
+      "country": "Poland",
+      "name": "Centrum Origin Kraków",
+      "city": "Kraków",
+      "region": "Lesser Poland Voivodeship",
+      "url": "https://www.originpolska.com/placowka/centrum-origin-krakow/",
+      "sourceType": "poland-first-pass-official-seed",
+      "discoverySource": "official Origin Polska Kraków rehabilitation centre page and programme navigation",
+      "needles": ["rehabilitacji neurologicznej", "Udar mózgu", "Urazy rdzenia kręgowego", "Urazy mózgowo-czaszkowe", "Choroba Parkinsona", "Wyposażenie i robotyka"]
+    },
+    {
+      "country": "Poland",
+      "name": "Constance Care",
+      "city": "Kierszek",
+      "region": "Masovian Voivodeship",
+      "url": "https://constancecare.pl/pl/rehabilitacja-neurologiczna",
+      "sourceType": "poland-first-pass-official-seed",
+      "discoverySource": "official Constance Care rehabilitation centre site",
+      "needles": ["rehabilitacja neurologiczna", "rehabilitacji po udarze", "urazach czaszkowo-mózgowych", "urazach rdzenia kręgowego", "stwardnienie rozsiane", "choroba Parkinsona"]
     }
   ],
   "searchResults": [],

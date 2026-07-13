@@ -2417,6 +2417,104 @@ export const centers = [
     }
   },
   {
+    id: 'repty-gcr-tarnowskie-gory',
+    name: 'Górnośląskie Centrum Rehabilitacji "Repty"',
+    country: 'Poland',
+    city: 'Tarnowskie Góry', region: 'Silesian Voivodeship', lat: 50.4386, lng: 18.8289,
+    address: 'ul. Śniadeckiego 1, 42-600 Tarnowskie Góry', phone: '+48 32 390 14 14',
+    url: 'https://repty.pl/',
+    conditions: ['stroke', 'ms', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Rehabilitacja neurologiczna', 'Rehabilitacja poszpitalna', 'Poradnia rehabilitacyjna', 'Ośrodek rehabilitacji dziennej', 'Fizjoterapia'],
+    completeness: 88,
+    researchHighlights: ['Official hospital site lists neurological rehabilitation and post-hospital rehabilitation', 'Official metadata matches neurology, stroke-like conditions, multiple sclerosis, paralysis and paresis', 'Site navigation lists inpatient departments, rehabilitation clinic and day rehabilitation centre'],
+    features: ['stroke', 'rehabilitation'],
+    description: {
+      it: 'Ospedale riabilitativo pubblico in Slesia con riabilitazione neurologica, post-ospedaliera, ambulatoriale e diurna.',
+      en: 'A public rehabilitation hospital in Silesia with neurological, post-hospital, outpatient and day rehabilitation pathways.'
+    }
+  },
+  {
+    id: 'ckr-konstancin',
+    name: 'Centrum Kompleksowej Rehabilitacji Konstancin',
+    country: 'Poland',
+    city: 'Konstancin-Jeziorna', region: 'Masovian Voivodeship', lat: 52.0766, lng: 21.1246,
+    address: 'ul. Gąsiorowskiego 12/14, 05-510 Konstancin-Jeziorna', phone: '+48 22 703 08 88',
+    url: 'https://ckr.pl/rehabilitacja/',
+    conditions: ['stroke', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'neuromotor'],
+    technologies: ['exoskeleton', 'gait'],
+    modes: ['inpatient', 'outpatient', 'home'], access: ['public', 'private'],
+    disciplines: ['Oddział rehabilitacyjny', 'Rehabilitacja neurologiczna', 'Przychodnia rehabilitacyjna', 'Rehabilitacja domowa', 'Egzoszkielet'],
+    completeness: 91,
+    researchHighlights: ['Official site states rehabilitation for stroke, neurosurgery, multiple sclerosis, Parkinson and polyneuropathies', 'Official exoskeleton page references lower-limb paresis/paralysis including complete spinal cord interruption', 'Official contact and service pages list NFZ and paid rehabilitation beds'],
+    robotNotes: ['Official CKR pages list an exoskeleton package for gait support.'],
+    features: ['spinal-cord', 'parkinson', 'gait-training'],
+    description: {
+      it: 'Centro riabilitativo a Konstancin-Jeziorna con ricovero, ambulatorio, NFZ e percorsi privati per ictus, lesione midollare, MS e Parkinson.',
+      en: 'A Konstancin-Jeziorna rehabilitation centre with inpatient, outpatient, NFZ-funded and private pathways for stroke, spinal injury, MS and Parkinson.'
+    }
+  },
+  {
+    id: 'origin-otwock',
+    name: 'Centrum Origin Otwock',
+    country: 'Poland',
+    city: 'Otwock', region: 'Masovian Voivodeship', lat: 52.1041, lng: 21.2621,
+    address: 'ul. Bernardyńska 13, 05-400 Otwock', phone: 'Unknown',
+    url: 'https://www.originpolska.com/placowka/centrum-origin-otwock/',
+    conditions: ['stroke', 'tbi', 'spinal', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'],
+    modes: ['inpatient', 'outpatient'], access: ['private'],
+    disciplines: ['Rehabilitacja neurologiczna', 'Udar mózgu', 'Urazy rdzenia kręgowego', 'Urazy mózgowo-czaszkowe', 'Choroba Parkinsona', 'Robotyka rehabilitacyjna'],
+    completeness: 89,
+    researchHighlights: ['Official Origin Polska site describes private neurological and post-accident rehabilitation in Otwock and Kraków', 'Official programme navigation lists stroke, spinal cord injury, traumatic brain injury, Parkinson and neuropathy programmes', 'Official site lists rehabilitation robotics including ReoAmbulator and upper-limb robotic therapy'],
+    robotNotes: ['Official Origin Polska content references ReoAmbulator gait re-education and Reo-Go upper-limb robotic therapy.'],
+    features: ['robotics', 'spinal-cord', 'brain-injury'],
+    description: {
+      it: 'Centro Origin a Otwock per riabilitazione neurologica privata, con programmi per ictus, trauma cranico, lesione midollare, Parkinson e robotica.',
+      en: 'Origin’s Otwock centre for private neurological rehabilitation, with programmes for stroke, brain injury, spinal cord injury, Parkinson and robotics.'
+    }
+  },
+  {
+    id: 'origin-krakow',
+    name: 'Centrum Origin Kraków',
+    country: 'Poland',
+    city: 'Kraków', region: 'Lesser Poland Voivodeship', lat: 50.0660, lng: 20.0169,
+    address: 'Osiedle Młodości 10, 31-908 Kraków', phone: 'Unknown',
+    url: 'https://www.originpolska.com/placowka/centrum-origin-krakow/',
+    conditions: ['stroke', 'tbi', 'spinal', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'],
+    modes: ['inpatient', 'outpatient'], access: ['private'],
+    disciplines: ['Rehabilitacja neurologiczna', 'Udar mózgu', 'Urazy rdzenia kręgowego', 'Urazy mózgowo-czaszkowe', 'Choroba Parkinsona', 'Robotyka rehabilitacyjna'],
+    completeness: 89,
+    researchHighlights: ['Official Origin Polska site describes private neurological and post-accident rehabilitation in Otwock and Kraków', 'Official programme navigation lists stroke, spinal cord injury, traumatic brain injury, Parkinson and neuropathy programmes', 'Official map data lists the Kraków rehabilitation centre address and coordinates'],
+    robotNotes: ['Official Origin Polska content references ReoAmbulator gait re-education and Reo-Go upper-limb robotic therapy.'],
+    features: ['robotics', 'spinal-cord', 'brain-injury'],
+    description: {
+      it: 'Centro Origin a Cracovia per riabilitazione neurologica privata, con programmi per ictus, trauma cranico, lesione midollare, Parkinson e neuropatie.',
+      en: 'Origin’s Kraków centre for private neurological rehabilitation, with programmes for stroke, brain injury, spinal cord injury, Parkinson and neuropathy.'
+    }
+  },
+  {
+    id: 'constance-care-kierszek',
+    name: 'Constance Care',
+    country: 'Poland',
+    city: 'Kierszek', region: 'Masovian Voivodeship', lat: 52.0970, lng: 21.0734,
+    address: 'ul. Działkowa 125, 05-500 Kierszek', phone: '+48 22 123 92 83',
+    url: 'https://constancecare.pl/pl/rehabilitacja-neurologiczna',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromotor', 'cognitive'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private'],
+    disciplines: ['Rehabilitacja neurologiczna', 'Rehabilitacja po udarze', 'Rehabilitacja po urazie rdzenia kręgowego', 'Neuropsychologia', 'Neurologopedia'],
+    completeness: 88,
+    researchHighlights: ['Official site describes Constance Care as a private neurological and post-stroke rehabilitation centre', 'Official pages list rehabilitation after stroke, traumatic brain injury, spinal cord injury, neurological operations, MS and Parkinson', 'Official contact page provides centre address, phone and map coordinates'],
+    features: ['stroke', 'spinal-cord', 'brain-injury'],
+    description: {
+      it: 'Centro privato vicino a Konstancin-Jeziorna per riabilitazione neurologica intensiva, post-ictus, trauma cranico, lesione midollare, MS e Parkinson.',
+      en: 'A private centre near Konstancin-Jeziorna for intensive neurological, post-stroke, brain injury, spinal injury, MS and Parkinson rehabilitation.'
+    }
+  },
+  {
     id: 'sankt-rochus-bad-schonborn',
     name: 'Sankt Rochus Kliniken',
     country: 'Germany',
