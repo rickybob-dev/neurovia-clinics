@@ -1180,6 +1180,26 @@
       "sourceType": "croatia-first-pass-official-seed",
       "discoverySource": "official Poliklinika Glavić Dubrovnik services page",
       "needles": ["Robotska neurorehabilitacija", "neurorehabilitacija robotikom", "Moždani udar", "Multipla skleroza", "Ozljede kralježničke moždine", "Traumatske ozljede mozga"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Toplice Lipik",
+      "city": "Lipik",
+      "region": "Požega-Slavonia County",
+      "url": "https://toplice-lipik.hr/hr/medicinski-tretmani/stranica/1",
+      "sourceType": "croatia-second-pass-official-seed",
+      "discoverySource": "official Toplice Lipik special rehabilitation hospital treatment page",
+      "needles": ["Rehabilitacija neuroloških stanja", "cerebrovaskularnog inzulta", "Multipla skleroza", "operacija na mozgu i kralježnici", "Mb. Parkinson", "neurorehabilitacije"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Specijalna bolnica za ortopediju i rehabilitaciju Martin Horvat Rovinj-Rovigno",
+      "city": "Rovinj",
+      "region": "Istria County",
+      "url": "https://www.bolnica-rovinj.hr/djelatnosti/fizikalna-medicina-i-rehabilitacija/",
+      "sourceType": "croatia-second-pass-official-seed",
+      "discoverySource": "official Martin Horvat Rovinj physical medicine and rehabilitation page",
+      "needles": ["rehabilitacija za neurološku problematiku nakon moždanog udara", "rehabilitacija za neurološka oboljenja", "multiplosklerozu", "mišićnu distrofiju", "cerebralnu paralizu", "amiotrofičnu lateralnu sklerozu"]
     }
   ],
   "searchResults": [],

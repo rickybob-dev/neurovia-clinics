@@ -20,7 +20,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -31,6 +31,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -128,6 +129,7 @@
         "multipla skleroza",
         "živčanog sustava",
         "neurološkim bolestima",
+        "cerebralnu paralizu",
         "paraplegija"
       ],
       "institution": [
@@ -303,6 +305,125 @@
       ]
     },
     "title": "Odjel za rehabilitaciju neuroloških bolesnika | Specijalna bolnica za medicinsku rehabilitaciju Varaždinske Toplice"
+  },
+  {
+    "name": "Specijalna bolnica za ortopediju i rehabilitaciju \"Martin Horvat\" Rovinj-Rovigno",
+    "country": "Croatia",
+    "city": "Rovinj",
+    "region": "Istria County",
+    "url": "https://www.bolnica-rovinj.hr/djelatnosti/fizikalna-medicina-i-rehabilitacija",
+    "sourceType": "curated-dataset | croatia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Martin Horvat Rovinj physical medicine and rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official rehabilitation page lists rehabilitation for neurological problems after stroke",
+      "Official text includes neurological diseases, multiple sclerosis, muscular dystrophy, cerebral palsy, ALS and neuro-risk children",
+      "Official site lists neurology, physical medicine and rehabilitation, and a children rehabilitation department",
+      "A Rovinj special orthopaedic and rehabilitation hospital with stated rehabilitation for post-stroke neurological problems, MS, muscular dystrophy, cerebral palsy, ALS and neuro-risk children.",
+      "Ospedale speciale di Rovinj per ortopedia e riabilitazione con percorsi dichiarati per problematiche neurologiche post-ictus, MS, distrofia muscolare, paralisi cerebrale, SLA e bambini a rischio neurologico.",
+      "rehabilitacija za neurološku problematiku nakon moždanog udara",
+      "rehabilitacija za neurološka oboljenja",
+      "multiplosklerozu",
+      "mišićnu distrofiju",
+      "cerebralnu paralizu",
+      "amiotrofičnu lateralnu sklerozu"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bolnica-rovinj.hr/djelatnosti/fizikalna-medicina-i-rehabilitacija",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacija za neurološku problematiku nakon moždanog udara | rehabilitacija za neurološka oboljenja | multiplosklerozu | mišićnu distrofiju | cerebralnu paralizu | amiotrofičnu lateralnu sklerozu | rehabilitacija za neurološku problematiku | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | moždanog udara | neurološka oboljenja | bolnica | odjel",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacija za neurološka oboljenja",
+        "rehabilitacija za neurološku problematiku"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždanog udara",
+        "neurološka oboljenja",
+        "neurološku problematiku",
+        "multiplosklerozu",
+        "mišićnu distrofiju",
+        "cerebralnu paralizu",
+        "amiotrofičnu lateralnu sklerozu",
+        "neurorizične djece"
+      ],
+      "institution": [
+        "bolnica",
+        "odjel"
+      ]
+    },
+    "title": "Fizikalna medicina i rehabilitacija - Bolnica Rovinj"
+  },
+  {
+    "name": "Toplice Lipik",
+    "country": "Croatia",
+    "city": "Lipik",
+    "region": "Požega-Slavonia County",
+    "url": "https://toplice-lipik.hr/hr/medicinski-tretmani/stranica/1",
+    "sourceType": "curated-dataset | croatia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Toplice Lipik special rehabilitation hospital treatment page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official treatment page lists rehabilitation of neurological conditions",
+      "Official indications include post-stroke hemiparesis/hemiplegia, MS, post-traumatic peripheral nerve lesions, polyneuropathies and Parkinson disease",
+      "Official page references inpatient wards for mobile and immobile patients plus Bobath, PNF, MOTOMED, occupational therapy and speech therapy",
+      "A Croatian special rehabilitation hospital in Lipik for neurological conditions, stroke, MS, Parkinson, neuropathies and central-nervous-system trauma.",
+      "Ospedale speciale croato a Lipik con riabilitazione per condizioni neurologiche, ictus, sclerosi multipla, Parkinson, neuropatie e trauma del sistema nervoso centrale.",
+      "Rehabilitacija neuroloških stanja",
+      "cerebrovaskularnog inzulta",
+      "Multipla skleroza",
+      "operacija na mozgu i kralježnici",
+      "Mb. Parkinson",
+      "neurorehabilitacije"
+    ],
+    "status": 200,
+    "finalUrl": "https://toplice-lipik.hr/hr/medicinski-tretmani/stranica/1",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Rehabilitacija neuroloških stanja | cerebrovaskularnog inzulta | Multipla skleroza | operacija na mozgu i kralježnici | Mb. Parkinson | neurorehabilitacije | rehabilitacija neuroloških stanja | rehabilitacija neuroloških stanja bolesti | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | moždanog udara | trauma cns-a | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacija neuroloških stanja",
+        "rehabilitacija neuroloških stanja bolesti"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždanog udara",
+        "trauma cns-a",
+        "cerebrovaskularnog inzulta",
+        "hemipareze",
+        "hemiplegije",
+        "posttraumatske lezije",
+        "multipla skleroza",
+        "parkinson",
+        "živčanog sustava"
+      ],
+      "institution": [
+        "klinik",
+        "klinika",
+        "poliklinika",
+        "bolnica"
+      ]
+    },
+    "title": "Medicinski tretmani - Toplice Lipik"
   },
   {
     "name": "University Hospital Centre Zagreb",

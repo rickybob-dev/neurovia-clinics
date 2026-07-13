@@ -2704,6 +2704,44 @@ export const centers = [
     }
   },
   {
+    id: 'toplice-lipik-neurorehab',
+    name: 'Toplice Lipik',
+    country: 'Croatia',
+    city: 'Lipik', region: 'Požega-Slavonia County', lat: 45.4136, lng: 17.1610,
+    address: 'Ulica Marije Terezije 13, 34551 Lipik', phone: '+385 34 440 700',
+    url: 'https://toplice-lipik.hr/hr/medicinski-tretmani/stranica/1',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabilitacija neuroloških stanja i bolesti', 'Fizijatrija', 'Neurologija', 'Bobath', 'PNF', 'Radna terapija', 'Logopedoterapija'],
+    completeness: 89,
+    researchHighlights: ['Official treatment page lists rehabilitation of neurological conditions', 'Official indications include post-stroke hemiparesis/hemiplegia, MS, post-traumatic peripheral nerve lesions, polyneuropathies and Parkinson disease', 'Official page references inpatient wards for mobile and immobile patients plus Bobath, PNF, MOTOMED, occupational therapy and speech therapy'],
+    features: ['stroke', 'parkinson', 'rehabilitation'],
+    description: {
+      it: 'Ospedale speciale croato a Lipik con riabilitazione per condizioni neurologiche, ictus, sclerosi multipla, Parkinson, neuropatie e trauma del sistema nervoso centrale.',
+      en: 'A Croatian special rehabilitation hospital in Lipik for neurological conditions, stroke, MS, Parkinson, neuropathies and central-nervous-system trauma.'
+    }
+  },
+  {
+    id: 'martin-horvat-rovinj-neurorehab',
+    name: 'Specijalna bolnica za ortopediju i rehabilitaciju "Martin Horvat" Rovinj-Rovigno',
+    country: 'Croatia',
+    city: 'Rovinj', region: 'Istria County', lat: 45.0987, lng: 13.6364,
+    address: 'Luigi Monti 2, 52210 Rovinj', phone: '+385 95 6333 229',
+    url: 'https://www.bolnica-rovinj.hr/djelatnosti/fizikalna-medicina-i-rehabilitacija/',
+    conditions: ['stroke', 'ms', 'neuromuscular', 'pediatric', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Fizikalna medicina i rehabilitacija', 'Neurologija', 'Fizioterapija', 'Hidroterapija', 'Dječja rehabilitacija'],
+    completeness: 84,
+    researchHighlights: ['Official rehabilitation page lists rehabilitation for neurological problems after stroke', 'Official text includes neurological diseases, multiple sclerosis, muscular dystrophy, cerebral palsy, ALS and neuro-risk children', 'Official site lists neurology, physical medicine and rehabilitation, and a children rehabilitation department'],
+    features: ['stroke', 'pediatric', 'rehabilitation'],
+    description: {
+      it: 'Ospedale speciale di Rovinj per ortopedia e riabilitazione con percorsi dichiarati per problematiche neurologiche post-ictus, MS, distrofia muscolare, paralisi cerebrale, SLA e bambini a rischio neurologico.',
+      en: 'A Rovinj special orthopaedic and rehabilitation hospital with stated rehabilitation for post-stroke neurological problems, MS, muscular dystrophy, cerebral palsy, ALS and neuro-risk children.'
+    }
+  },
+  {
     id: 'uclh-queen-square-london',
     name: 'National Hospital for Neurology and Neurosurgery',
     country: 'United Kingdom',
