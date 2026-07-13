@@ -4680,16 +4680,162 @@
     "title": "Services - St George&#039;s University Hospitals NHS Foundation Trust"
   },
   {
+    "name": "Blackheath Brain Injury Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://activecaregroup.co.uk/location/blackheath-rehabilitation-centre",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Active Care Group brain injury rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Brain Injury Rehabilitation Centre",
+      "Neurological Rehabilitation",
+      "acquired brain injury",
+      "complex neurological condition",
+      "Level 1",
+      "specialist rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://activecaregroup.co.uk/location/blackheath-rehabilitation-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Brain Injury Rehabilitation Centre | Neurological Rehabilitation | acquired brain injury | complex neurological condition | Level 1 | specialist rehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | brain injury | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "brain injury",
+        "acquired brain injury",
+        "multiple sclerosis",
+        "parkinson"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Blackheath Brain Injury Rehabilitation Centre | Neurological Rehabilitation | Active Care Group"
+  },
+  {
+    "name": "Chislehurst Neurological Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://activecaregroup.co.uk/location/chislehurst-rehabilitation-centre",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Active Care Group neurological rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Neurological Rehabilitation",
+      "brain injury",
+      "stroke",
+      "progressive neurological conditions",
+      "cognitive rehabilitation",
+      "rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://activecaregroup.co.uk/location/chislehurst-rehabilitation-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurological Rehabilitation | brain injury | stroke | progressive neurological conditions | cognitive rehabilitation | rehabilitation | neurological rehabilitation | rehab | neurolog | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "brain injury"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Chislehurst Centre | Neurological Rehabilitation | Active Care Group"
+  },
+  {
+    "name": "Frenchay Brain Injury Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "Bristol",
+    "region": "South Gloucestershire",
+    "url": "https://activecaregroup.co.uk/location/frenchay-rehabilitation-centre",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Active Care Group Frenchay neurological rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Frenchay Brain Injury Rehabilitation Centre",
+      "Neurological rehabilitation",
+      "acquired or traumatic brain injury",
+      "complex stroke",
+      "Level 1",
+      "specialist rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://activecaregroup.co.uk/location/frenchay-rehabilitation-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Frenchay Brain Injury Rehabilitation Centre | Neurological rehabilitation | acquired or traumatic brain injury | complex stroke | Level 1 | specialist rehabilitation | neurorehabilitation | neuro-rehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neuro-rehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "acquired brain injury",
+        "multiple sclerosis"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Frenchay | Neurological Rehabilitation | Active Care Group"
+  },
+  {
     "name": "Hobbs Rehabilitation",
     "country": "United Kingdom",
     "city": "Winchester",
     "region": "Hampshire",
     "url": "https://hobbsrehabilitation.co.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official specialist neurological rehabilitation provider page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official specialist neurological rehabilitation provider page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official specialist neurological rehabilitation provider page",
+      "Matched neurological rehabilitation, spinal cord, stroke, inpatient and outpatient evidence",
+      "Specialist neurorehabilitation provider based in Hampshire",
+      "A specialist neurological rehabilitation provider in Hampshire with evidence for stroke, spinal cord injury, inpatient and outpatient care.",
+      "Provider specialistico di riabilitazione neurologica nell’Hampshire con evidenze per ictus, lesione midollare, ricovero e ambulatorio.",
       "Neurological Rehabilitation",
       "Spinal Cord",
       "stroke",
@@ -4731,11 +4877,16 @@
     "city": "Hildenborough",
     "region": "Kent",
     "url": "https://hollandenparkhospital.co.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official Renovo Care Group hospital page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Renovo Care Group hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Renovo Care Group hospital page",
+      "Matched neurorehabilitation, acquired brain injury, spinal injury and neurological care evidence",
+      "Specialist rehabilitation and neurological care hospital in Kent",
+      "A Renovo Care hospital in Kent with evidence for neurorehabilitation, acquired brain injury, spinal injury, and neurological care.",
+      "Ospedale Renovo Care nel Kent con evidenze per neuroriabilitazione, danno cerebrale acquisito, lesione spinale e cure neurologiche.",
       "neurorehabilitation",
       "acquired brain injury",
       "spinal injury",
@@ -4766,6 +4917,101 @@
       ]
     },
     "title": "Rehabilitation and Neurological Care | Renovo Care Group"
+  },
+  {
+    "name": "Hothfield Neurological Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "Hothfield",
+    "region": "Kent",
+    "url": "https://activecaregroup.co.uk/location/hothfield-rehabilitation-centre",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Active Care Group Hothfield neurological rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Hothfield Neurological Rehabilitation Centre",
+      "brain injury",
+      "neurological condition",
+      "spinal injury",
+      "stroke",
+      "Neurorehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://activecaregroup.co.uk/location/hothfield-rehabilitation-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Hothfield Neurological Rehabilitation Centre | brain injury | neurological condition | spinal injury | stroke | Neurorehabilitation | neurorehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | spinal | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal",
+        "brain injury"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Hothfield Neurological Rehabilitation Centre | Kent"
+  },
+  {
+    "name": "Institute of Neurological Sciences and Queen Elizabeth National Spinal Injuries Unit",
+    "country": "United Kingdom",
+    "city": "Glasgow",
+    "region": "Scotland",
+    "url": "https://www.nhsggc.scot/hospitals-services/institute-of-neurological-sciences-and-spinal-unit",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official NHS Greater Glasgow and Clyde neurosciences and spinal unit page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Neurorehabilitation",
+      "Queen Elizabeth National Spinal Injuries Unit",
+      "Spinal Injuries",
+      "Neurology",
+      "Neurosurgery",
+      "NHS"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.nhsggc.scot/hospitals-services/institute-of-neurological-sciences-and-spinal-unit",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurorehabilitation | Queen Elizabeth National Spinal Injuries Unit | Spinal Injuries | Neurology | Neurosurgery | NHS | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "parkinson"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "centre"
+      ]
+    },
+    "title": "Institute of Institute Neurological Sciences and Queen Elizabeth National Spinal Injuries Unit - NHSGGC"
   },
   {
     "name": "London Spinal Cord Injury Centre",
@@ -4809,6 +5055,49 @@
     "title": "Home :: Royal National Orthopaedic Hospital"
   },
   {
+    "name": "Midland Centre for Spinal Injuries - RJAH",
+    "country": "United Kingdom",
+    "city": "Oswestry",
+    "region": "Shropshire",
+    "url": "https://www.rjah.nhs.uk/our-services/midland-centre-for-spinal-injuries",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official RJAH NHS spinal injuries centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Midland Centre for Spinal Injuries",
+      "spinal cord",
+      "rehabilitation",
+      "in-patient rehabilitation beds",
+      "active rehabilitation programme",
+      "NHS"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rjah.nhs.uk/our-services/midland-centre-for-spinal-injuries",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Midland Centre for Spinal Injuries | spinal cord | rehabilitation | in-patient rehabilitation beds | active rehabilitation programme | NHS | rehab | neurolog | neuro | spinal | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "Midland Centre for Spinal Injuries - RJAH"
+  },
+  {
     "name": "Mildmay Hospital",
     "country": "United Kingdom",
     "city": "London",
@@ -4846,6 +5135,53 @@
       ]
     },
     "title": "Mildmay Hospital | Specialist HIV Rehabilitation & Care for the NHS"
+  },
+  {
+    "name": "Murdostoun Brain Injury Rehabilitation and Neurological Care Centre",
+    "country": "United Kingdom",
+    "city": "Wishaw",
+    "region": "North Lanarkshire",
+    "url": "https://activecaregroup.co.uk/location/murdostoun-rehabilitation-centre",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Active Care Group Murdostoun neurological rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Murdostoun Brain Injury Rehabilitation",
+      "Neurological rehabilitation",
+      "brain injury",
+      "spinal cord injury",
+      "stroke",
+      "specialist inpatient rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://activecaregroup.co.uk/location/murdostoun-rehabilitation-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Murdostoun Brain Injury Rehabilitation | Neurological rehabilitation | brain injury | spinal cord injury | stroke | specialist inpatient rehabilitation | neurorehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | spinal cord | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Murdostoun | Neurological Rehabilitation | Active Care Group"
   },
   {
     "name": "National Hospital for Neurology and Neurosurgery",
@@ -4900,11 +5236,16 @@
     "city": "Nottingham",
     "region": "Nottinghamshire",
     "url": "https://nationalrehabilitationcentre.nhs.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official NHS National Rehabilitation Centre page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official NHS National Rehabilitation Centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official NHS National Rehabilitation Centre page",
+      "Matched neurorehabilitation, inpatient rehabilitation and stroke evidence",
+      "National NHS rehabilitation programme with research orientation",
+      "An NHS national rehabilitation centre in Nottinghamshire with evidence for neurorehabilitation, inpatient care, and stroke rehabilitation.",
+      "Centro nazionale NHS per la riabilitazione nel Nottinghamshire, con evidenze per neuroriabilitazione, ricovero e ictus.",
       "neurorehabilitation",
       "rehabilitation",
       "stroke",
@@ -4943,11 +5284,16 @@
     "city": "Aylesbury",
     "region": "Buckinghamshire",
     "url": "https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official Buckinghamshire Healthcare NHS spinal injuries centre page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Buckinghamshire Healthcare NHS spinal injuries centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Buckinghamshire Healthcare NHS spinal injuries centre page",
+      "Matched spinal cord, inpatient and outpatient evidence",
+      "National specialist spinal injuries centre at Stoke Mandeville Hospital",
+      "An NHS national spinal injuries centre at Stoke Mandeville Hospital with inpatient and outpatient rehabilitation pathways.",
+      "Centro nazionale NHS per lesioni spinali allo Stoke Mandeville Hospital, con percorsi di ricovero e ambulatoriali.",
       "National Spinal Injuries Centre",
       "spinal cord",
       "inpatient",
@@ -4975,6 +5321,53 @@
       ]
     },
     "title": "National Spinal Injuries Centre - Buckinghamshire Healthcare NHS Trust"
+  },
+  {
+    "name": "Regional Neurorehabilitation Services - Musgrave Park Hospital",
+    "country": "United Kingdom",
+    "city": "Belfast",
+    "region": "Northern Ireland",
+    "url": "https://belfasttrust.hscni.net/service/regional-neurorehabilitation-services",
+    "sourceType": "uk-second-pass-official-seed",
+    "discoverySource": "official Belfast Health and Social Care Trust regional neurorehabilitation service page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Regional Neurorehabilitation Services",
+      "Regional Acquired Brain Injury Unit",
+      "Spinal Cord Injury Unit",
+      "inpatient",
+      "outpatient",
+      "rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://belfasttrust.hscni.net/service/regional-neurorehabilitation-services",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Regional Neurorehabilitation Services | Regional Acquired Brain Injury Unit | Spinal Cord Injury Unit | inpatient | outpatient | rehabilitation | neurorehabilitation | rehab | neurolog | neuro | spinal cord | spinal | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "acquired brain injury"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "Regional Neurorehabilitation Services | Belfast Health & Social Care Trust website"
   },
   {
     "name": "Rehabilitation services — Queen Mary’s Hospital",
@@ -5023,11 +5416,16 @@
     "city": "Aylesbury",
     "region": "Buckinghamshire",
     "url": "https://www.royalbucks.co.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official specialist rehabilitation hospital page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official specialist rehabilitation hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official specialist rehabilitation hospital page",
+      "Matched brain injury, spinal cord, stroke, inpatient and outpatient evidence",
+      "Specialist rehabilitation hospital in Aylesbury",
+      "A specialist rehabilitation hospital in Aylesbury with evidence for brain injury, spinal cord injury, and stroke rehabilitation.",
+      "Ospedale specialistico di riabilitazione ad Aylesbury con evidenze per danno cerebrale, lesione midollare e ictus.",
       "Brain Injury",
       "spinal cord",
       "stroke",
@@ -5109,11 +5507,16 @@
     "city": "Salisbury",
     "region": "Wiltshire",
     "url": "https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official Salisbury NHS spinal treatment centre page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Salisbury NHS spinal treatment centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Salisbury NHS spinal treatment centre page",
+      "Matched spinal cord, spinal injury, inpatient and outpatient rehabilitation evidence",
+      "Specialist NHS spinal injury rehabilitation centre",
+      "An NHS Salisbury centre for spinal injury treatment and rehabilitation, with inpatient and outpatient pathways.",
+      "Centro NHS di Salisbury per trattamento e riabilitazione delle lesioni spinali, con percorsi di ricovero e ambulatoriali.",
       "Spinal Treatment Centre",
       "Spinal Cord",
       "Spinal Injury",
@@ -5152,11 +5555,16 @@
     "city": "Sheffield",
     "region": "South Yorkshire",
     "url": "https://stepsrehabilitation.co.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official specialist rehabilitation centre page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official specialist rehabilitation centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official specialist rehabilitation centre page",
+      "Matched brain injury, spinal cord, stroke, MS and Parkinson evidence",
+      "Specialist private rehabilitation centre in Sheffield",
+      "A specialist rehabilitation centre in Sheffield with evidence for brain injury, spinal cord injury, stroke, multiple sclerosis, and Parkinson disease.",
+      "Centro specialistico di riabilitazione a Sheffield con evidenze per danno cerebrale, lesione midollare, ictus, sclerosi multipla e Parkinson.",
       "brain injury",
       "spinal cord",
       "stroke",
@@ -5196,11 +5604,16 @@
     "city": "Tadworth",
     "region": "Surrey",
     "url": "https://www.thechildrenstrust.org.uk/",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official pediatric brain-injury rehabilitation charity page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official pediatric brain-injury rehabilitation charity page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official pediatric brain-injury rehabilitation charity page",
+      "Matched children with brain injury, acquired brain injury, neurodisability and rehabilitation evidence",
+      "Specialist pediatric rehabilitation centre in Surrey",
+      "A Surrey pediatric centre for children with acquired brain injury, neurorehabilitation needs, and neurodisability.",
+      "Centro pediatrico nel Surrey per bambini con danno cerebrale acquisito, neuroriabilitazione e neurodisabilità.",
       "children with brain injury",
       "acquired brain injury",
       "brain injury",
@@ -5239,11 +5652,16 @@
     "city": "London",
     "region": "Greater London",
     "url": "https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official HCA UK hospital page",
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official HCA UK hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official HCA UK hospital page",
+      "Matched neurological rehabilitation, acquired brain injury, spinal cord, stroke, MS and Parkinson evidence",
+      "Private London hospital with rehabilitation centre evidence",
+      "A private London hospital with evidence for neurorehabilitation, acquired brain injury, spinal cord injury, stroke, MS, and Parkinson disease.",
+      "Ospedale privato londinese con evidenze per neuroriabilitazione, danno cerebrale acquisito, lesione midollare, ictus, MS e Parkinson.",
       "Neuro-rehabilitation",
       "neurological rehabilitation",
       "neurorehabilitation",
@@ -5287,11 +5705,16 @@
     "city": "Newcastle upon Tyne",
     "region": "Tyne and Wear",
     "url": "https://www.cntw.nhs.uk/locations/walkergate-park",
-    "sourceType": "uk-first-pass-official-seed",
-    "discoverySource": "official NHS location page",
-    "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | uk-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official NHS location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official NHS location page for Walkergate Park",
+      "Page matched neurorehabilitation, inpatient and outpatient evidence",
+      "Specialist centre for neurorehabilitation and neuropsychiatry in Newcastle",
+      "An NHS Newcastle centre for neurorehabilitation and neuropsychiatry with inpatient and outpatient pathways.",
+      "Centro NHS di Newcastle per neuroriabilitazione e neuropsichiatria, con percorsi di ricovero e ambulatoriali.",
       "Walkergate Park",
       "Neurorehabilitation",
       "rehabilitation",
@@ -5299,29 +5722,13 @@
       "outpatient",
       "NHS"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.cntw.nhs.uk/locations/walkergate-park",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Walkergate Park | Neurorehabilitation | rehabilitation | inpatient | outpatient | NHS | neurorehabilitation | rehab | neurolog | neuro | centre",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "neurorehabilitation"
-      ],
-      "rehabilitation": [
-        "rehabilitation",
-        "rehab"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro"
-      ],
-      "institution": [
-        "centre"
-      ]
-    },
-    "title": "Walkergate Park :: Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust"
+    "title": "",
+    "evidence": "This operation was aborted",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Brooks Rehabilitation",

@@ -1935,6 +1935,158 @@ export const centers = [
     }
   },
   {
+    id: 'midland-centre-spinal-injuries-oswestry',
+    name: 'Midland Centre for Spinal Injuries - RJAH',
+    country: 'United Kingdom',
+    city: 'Oswestry', region: 'Shropshire', lat: 52.8853, lng: -3.0340,
+    address: 'The Robert Jones and Agnes Hunt Orthopaedic Hospital, Oswestry', phone: 'Unknown',
+    url: 'https://www.rjah.nhs.uk/our-services/midland-centre-for-spinal-injuries',
+    conditions: ['spinal', 'pediatric', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Spinal injuries', 'Rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech and language therapy'],
+    completeness: 90,
+    researchHighlights: ['Official RJAH NHS spinal injuries centre page', 'Matched spinal cord injury and active rehabilitation programme evidence', 'Specialist inpatient rehabilitation beds and outpatient spinal injury pathways'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro NHS a Oswestry per lesioni midollari, con programma attivo di riabilitazione e percorsi di ricovero e ambulatoriali.',
+      en: 'An NHS spinal injuries centre in Oswestry with an active rehabilitation programme and inpatient and outpatient pathways.'
+    }
+  },
+  {
+    id: 'glasgow-ins-national-spinal-unit',
+    name: 'Institute of Neurological Sciences and Queen Elizabeth National Spinal Injuries Unit',
+    country: 'United Kingdom',
+    city: 'Glasgow', region: 'Scotland', lat: 55.8620, lng: -4.3370,
+    address: 'Queen Elizabeth University Hospital, Glasgow', phone: 'Unknown',
+    url: 'https://www.nhsggc.scot/hospitals-services/institute-of-neurological-sciences-and-spinal-unit',
+    conditions: ['stroke', 'tbi', 'spinal', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitation', 'Neurology', 'Neurosurgery', 'Neuropsychology', 'Spinal injuries'],
+    completeness: 90,
+    researchHighlights: ['Official NHS Greater Glasgow and Clyde neurosciences and spinal unit page', 'Page lists neurorehabilitation and the Queen Elizabeth National Spinal Injuries Unit', 'Specialist neurological sciences and spinal injury services at Queen Elizabeth University Hospital'],
+    features: ['spinal-cord', 'brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro NHS di Glasgow con Institute of Neurological Sciences, neuroriabilitazione e National Spinal Injuries Unit.',
+      en: 'A Glasgow NHS neurosciences centre with neurorehabilitation and the Queen Elizabeth National Spinal Injuries Unit.'
+    }
+  },
+  {
+    id: 'musgrave-park-regional-neurorehabilitation',
+    name: 'Regional Neurorehabilitation Services - Musgrave Park Hospital',
+    country: 'United Kingdom',
+    city: 'Belfast', region: 'Northern Ireland', lat: 54.5680, lng: -5.9750,
+    address: 'Musgrave Park Hospital, Belfast', phone: 'Unknown',
+    url: 'https://belfasttrust.hscni.net/service/regional-neurorehabilitation-services',
+    conditions: ['tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Regional Acquired Brain Injury Unit', 'Spinal Cord Injury Unit', 'Neurology Unit', 'Rehabilitation medicine', 'Specialist seating'],
+    completeness: 89,
+    researchHighlights: ['Official Belfast Trust regional neurorehabilitation service page', 'Page lists acquired brain injury and spinal cord injury units at Musgrave Park Hospital', 'Provides inpatient and outpatient rehabilitation under regional rehabilitation services'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Servizio regionale a Musgrave Park Hospital per neuroriabilitazione, danno cerebrale acquisito e lesione midollare.',
+      en: 'A Musgrave Park Hospital regional service for neurorehabilitation, acquired brain injury, and spinal cord injury rehabilitation.'
+    }
+  },
+  {
+    id: 'chislehurst-neurological-rehabilitation-centre',
+    name: 'Chislehurst Neurological Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'London', region: 'Greater London', lat: 51.4184, lng: 0.0586,
+    address: '15 Selby Close, Chislehurst, London BR7 5RU', phone: 'Unknown',
+    url: 'https://activecaregroup.co.uk/location/chislehurst-rehabilitation-centre',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurological rehabilitation', 'Cognitive rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech and language therapy', 'Psychology'],
+    completeness: 86,
+    researchHighlights: ['Official Active Care Group neurological rehabilitation centre page', 'Matched brain injury, stroke, progressive neurological conditions and cognitive rehabilitation evidence', 'Specialist post-acute rehabilitation and long-term neurological care in southeast London'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro Active Care Group a Chislehurst per riabilitazione neurologica, danno cerebrale, ictus e condizioni neurologiche progressive.',
+      en: 'An Active Care Group centre in Chislehurst for neurological rehabilitation, brain injury, stroke, and progressive neurological conditions.'
+    }
+  },
+  {
+    id: 'blackheath-brain-injury-rehabilitation-centre',
+    name: 'Blackheath Brain Injury Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'London', region: 'Greater London', lat: 51.4720, lng: -0.0175,
+    address: '80-82 Blackheath Hill, London', phone: 'Unknown',
+    url: 'https://activecaregroup.co.uk/location/blackheath-rehabilitation-centre',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor', 'neuromuscular'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Brain injury rehabilitation', 'Neurological rehabilitation', 'Rehabilitation medicine', 'Therapies', 'Nursing'],
+    completeness: 87,
+    researchHighlights: ['Official Active Care Group brain injury rehabilitation centre page', 'Matched acquired brain injury and complex neurological condition evidence', 'Specialist inpatient Level 1 and Level 2 rehabilitation profile'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro Active Care Group a Blackheath per riabilitazione specialistica in ricovero dopo danno cerebrale e condizioni neurologiche complesse.',
+      en: 'An Active Care Group centre in Blackheath for specialist inpatient rehabilitation after brain injury and complex neurological conditions.'
+    }
+  },
+  {
+    id: 'frenchay-brain-injury-rehabilitation-centre',
+    name: 'Frenchay Brain Injury Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'Bristol', region: 'South Gloucestershire', lat: 51.4988, lng: -2.5222,
+    address: 'Briggs Road, Frenchay, Winterbourne', phone: 'Unknown',
+    url: 'https://activecaregroup.co.uk/location/frenchay-rehabilitation-centre',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Brain injury rehabilitation', 'Neurological rehabilitation', 'Rehabilitation medicine', 'Therapies', 'Nursing'],
+    completeness: 88,
+    researchHighlights: ['Official Active Care Group Frenchay neurological rehabilitation centre page', 'Matched acquired or traumatic brain injury and complex stroke evidence', 'Specialist Level 1 and Level 2 rehabilitation profile in Bristol'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro Active Care Group a Bristol per neuroriabilitazione dopo danno cerebrale acquisito o traumatico e ictus complesso.',
+      en: 'An Active Care Group centre in Bristol for neurorehabilitation after acquired or traumatic brain injury and complex stroke.'
+    }
+  },
+  {
+    id: 'hothfield-neurological-rehabilitation-centre',
+    name: 'Hothfield Neurological Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'Hothfield', region: 'Kent', lat: 51.1656, lng: 0.8119,
+    address: 'Hothfield, Kent', phone: 'Unknown',
+    url: 'https://activecaregroup.co.uk/location/hothfield-rehabilitation-centre',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab', 'assistive-tech'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurological rehabilitation', 'Neurorehabilitation', 'Brain injury rehabilitation', 'Therapies', 'Nursing'],
+    completeness: 86,
+    researchHighlights: ['Official Active Care Group Hothfield neurological rehabilitation centre page', 'Matched brain injury, spinal injury, stroke and neurological condition evidence', 'Specialist neurological rehabilitation and residential care centre in Kent'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro Active Care Group nel Kent per neuroriabilitazione, danno cerebrale, lesione spinale e ictus.',
+      en: 'An Active Care Group centre in Kent for neurorehabilitation, brain injury, spinal injury, and stroke.'
+    }
+  },
+  {
+    id: 'murdostoun-brain-injury-rehabilitation-centre',
+    name: 'Murdostoun Brain Injury Rehabilitation and Neurological Care Centre',
+    country: 'United Kingdom',
+    city: 'Wishaw', region: 'North Lanarkshire', lat: 55.7948, lng: -3.8751,
+    address: 'Newmains, Wishaw, North Lanarkshire', phone: 'Unknown',
+    url: 'https://activecaregroup.co.uk/location/murdostoun-rehabilitation-centre',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor', 'neuromuscular'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Brain injury rehabilitation', 'Neurological rehabilitation', 'Specialist inpatient rehabilitation', 'Therapies', 'Nursing'],
+    completeness: 87,
+    researchHighlights: ['Official Active Care Group Murdostoun neurological rehabilitation centre page', 'Matched brain injury, spinal cord injury, stroke and specialist inpatient rehabilitation evidence', 'North Lanarkshire service for brain injury and complex neurological rehabilitation'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro Active Care Group in North Lanarkshire per riabilitazione neurologica in ricovero, danno cerebrale, lesione midollare e ictus.',
+      en: 'An Active Care Group centre in North Lanarkshire for inpatient neurological rehabilitation, brain injury, spinal cord injury, and stroke.'
+    }
+  },
+  {
     id: 'swiss-paraplegic-centre-nottwil',
     name: 'Swiss Paraplegic Centre',
     country: 'Switzerland',

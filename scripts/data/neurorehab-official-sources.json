@@ -890,6 +890,86 @@
       "sourceType": "uk-first-pass-official-seed",
       "discoverySource": "official Renovo Care Group hospital page",
       "needles": ["neurorehabilitation", "acquired brain injury", "spinal injury", "rehabilitation", "Neurological Care", "hospital"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Midland Centre for Spinal Injuries - RJAH",
+      "city": "Oswestry",
+      "region": "Shropshire",
+      "url": "https://www.rjah.nhs.uk/our-services/midland-centre-for-spinal-injuries/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official RJAH NHS spinal injuries centre page",
+      "needles": ["Midland Centre for Spinal Injuries", "spinal cord", "rehabilitation", "in-patient rehabilitation beds", "active rehabilitation programme", "NHS"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Institute of Neurological Sciences and Queen Elizabeth National Spinal Injuries Unit",
+      "city": "Glasgow",
+      "region": "Scotland",
+      "url": "https://www.nhsggc.scot/hospitals-services/institute-of-neurological-sciences-and-spinal-unit/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official NHS Greater Glasgow and Clyde neurosciences and spinal unit page",
+      "needles": ["Neurorehabilitation", "Queen Elizabeth National Spinal Injuries Unit", "Spinal Injuries", "Neurology", "Neurosurgery", "NHS"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Regional Neurorehabilitation Services - Musgrave Park Hospital",
+      "city": "Belfast",
+      "region": "Northern Ireland",
+      "url": "https://belfasttrust.hscni.net/service/regional-neurorehabilitation-services/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Belfast Health and Social Care Trust regional neurorehabilitation service page",
+      "needles": ["Regional Neurorehabilitation Services", "Regional Acquired Brain Injury Unit", "Spinal Cord Injury Unit", "inpatient", "outpatient", "rehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Chislehurst Neurological Rehabilitation Centre",
+      "city": "London",
+      "region": "Greater London",
+      "url": "https://activecaregroup.co.uk/location/chislehurst-rehabilitation-centre/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Active Care Group neurological rehabilitation centre page",
+      "needles": ["Neurological Rehabilitation", "brain injury", "stroke", "progressive neurological conditions", "cognitive rehabilitation", "rehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Blackheath Brain Injury Rehabilitation Centre",
+      "city": "London",
+      "region": "Greater London",
+      "url": "https://activecaregroup.co.uk/location/blackheath-rehabilitation-centre/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Active Care Group brain injury rehabilitation centre page",
+      "needles": ["Brain Injury Rehabilitation Centre", "Neurological Rehabilitation", "acquired brain injury", "complex neurological condition", "Level 1", "specialist rehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Frenchay Brain Injury Rehabilitation Centre",
+      "city": "Bristol",
+      "region": "South Gloucestershire",
+      "url": "https://activecaregroup.co.uk/location/frenchay-rehabilitation-centre/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Active Care Group Frenchay neurological rehabilitation centre page",
+      "needles": ["Frenchay Brain Injury Rehabilitation Centre", "Neurological rehabilitation", "acquired or traumatic brain injury", "complex stroke", "Level 1", "specialist rehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Hothfield Neurological Rehabilitation Centre",
+      "city": "Hothfield",
+      "region": "Kent",
+      "url": "https://activecaregroup.co.uk/location/hothfield-rehabilitation-centre/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Active Care Group Hothfield neurological rehabilitation centre page",
+      "needles": ["Hothfield Neurological Rehabilitation Centre", "brain injury", "neurological condition", "spinal injury", "stroke", "Neurorehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Murdostoun Brain Injury Rehabilitation and Neurological Care Centre",
+      "city": "Wishaw",
+      "region": "North Lanarkshire",
+      "url": "https://activecaregroup.co.uk/location/murdostoun-rehabilitation-centre/",
+      "sourceType": "uk-second-pass-official-seed",
+      "discoverySource": "official Active Care Group Murdostoun neurological rehabilitation centre page",
+      "needles": ["Murdostoun Brain Injury Rehabilitation", "Neurological rehabilitation", "brain injury", "spinal cord injury", "stroke", "specialist inpatient rehabilitation"]
     }
   ],
   "searchResults": [],
