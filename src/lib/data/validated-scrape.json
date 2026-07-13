@@ -3032,19 +3032,30 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "known",
+    "reviewStatus": "candidate",
     "knownInDataset": true,
     "needles": [
       "A site with neurological specialties and neuromotor rehabilitation in the functional care pathway.",
       "Sede con specialità neurologiche e riabilitazione neuromotoria nel percorso di presa in carico funzionale."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-castel-goffredo",
-    "title": "",
-    "evidence": "This operation was aborted",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "IRCCS Maugeri Castel Goffredo - IRCCS Maugeri Castel Goffredo - Maugeri"
   },
   {
     "name": "IRCCS Maugeri Montescano",
@@ -3054,19 +3065,29 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-montescano",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "known",
+    "reviewStatus": "candidate",
     "knownInDataset": true,
     "needles": [
       "An IRCCS with a strong rehabilitation focus, including neuromotor rehabilitation and neurophysiology.",
       "IRCCS con forte vocazione riabilitativa, inclusa la riabilitazione neuromotoria e la neurofisiologia."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-montescano",
-    "title": "",
-    "evidence": "This operation was aborted",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "IRCCS Maugeri Montescano - IRCCS Maugeri Montescano - Maugeri"
   },
   {
     "name": "IRCCS Maugeri Pavia",
@@ -3110,19 +3131,32 @@
     "url": "https://www.icsmaugeri.it/dove-siamo/irccs-veruno",
     "sourceType": "curated-dataset",
     "discoverySource": "src/lib/data/centers.js",
-    "reviewStatus": "known",
+    "reviewStatus": "candidate",
     "knownInDataset": true,
     "needles": [
       "An institute with neurology and physical rehabilitation suited to neuromotor recovery pathways.",
       "Istituto con neurologia e medicina fisica e riabilitativa, adatto a percorsi di recupero neuromotorio."
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.icsmaugeri.it/dove-siamo/irccs-veruno",
-    "title": "",
-    "evidence": "This operation was aborted",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "broad",
+    "qualifying": true,
+    "evidence": "riabilitazione | neurolog | neuro | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "IRCCS Maugeri Veruno - IRCCS Maugeri Veruno - Maugeri"
   },
   {
     "name": "IRCCS S. Maria Nascente — Don Gnocchi",
@@ -3360,11 +3394,16 @@
     "city": "Madrid",
     "region": "Community of Madrid",
     "url": "https://ceadac.imserso.es/",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Imserso state reference centre page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Imserso state reference centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Imserso state reference centre for acquired brain injury",
+      "Official page describes comprehensive rehabilitation for people with brain injury",
+      "Public reference centre with direct-care services",
+      "An Imserso state reference centre in Madrid for acquired brain injury and comprehensive rehabilitation.",
+      "Centro statale di riferimento Imserso a Madrid per il danno cerebrale acquisito e la riabilitazione integrale.",
       "Centro de Referencia Estatal de Atención al Daño Cerebral",
       "rehabilitación integral",
       "daño cerebral",
@@ -3396,11 +3435,16 @@
     "city": "Madrid",
     "region": "Community of Madrid",
     "url": "https://casaverdeneuro.com/centros/madrid/centro-casaverde-madrid",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Casaverde Neuro centre page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Casaverde Neuro centre page",
+      "Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence",
+      "Madrid centre within the Casaverde neurological rehabilitation network",
+      "A Casaverde centre in Madrid with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.",
+      "Centro Casaverde a Madrid con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.",
       "Centros Casaverde Neurorrehabilitación",
       "neurorrehabilitación",
       "rehabilitación neurológica",
@@ -3443,11 +3487,16 @@
     "city": "Madrid",
     "region": "Community of Madrid",
     "url": "https://www.clinicasanvicente.es/",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official neurorehabilitation clinic page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official neurorehabilitation clinic page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official neurorehabilitation clinic page",
+      "Matched brain injury, stroke and hospitalization evidence",
+      "Dedicated Madrid clinic candidate for neurological rehabilitation",
+      "A Madrid clinic with official evidence for brain-injury rehabilitation, stroke care, and rehabilitation hospitalization.",
+      "Clinica madrilena con evidenze ufficiali per riabilitazione del danno cerebrale, ictus e ricovero riabilitativo.",
       "daño cerebral",
       "neurorehabilitación",
       "neurorrehabilitación",
@@ -3483,11 +3532,16 @@
     "city": "Madrid",
     "region": "Community of Madrid",
     "url": "https://fundacionhospitalariasmadrid.org/que-hacemos/unidades-especializadas/unidad-de-dano-cerebral-rehabilitable",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Fundación Hospitalarias Madrid brain injury unit page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Fundación Hospitalarias Madrid brain injury unit page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Fundación Hospitalarias Madrid brain-injury unit page",
+      "Matched neurorehabilitation, stroke, traumatic brain injury, spinal cord injury and hospitalization evidence",
+      "Specialized rehabilitable brain-injury unit",
+      "A Madrid rehabilitable brain-injury unit with evidence for stroke, traumatic brain injury, spinal cord injury, and inpatient care.",
+      "Unità madrilena di danno cerebrale riabilitabile con evidenze per ictus, trauma cranioencefalico, lesione midollare e ricovero.",
       "Unidad de Daño Cerebral",
       "daño cerebral rehabilitable",
       "neurorehabilitación",
@@ -3529,11 +3583,16 @@
     "city": "Mutxamel",
     "region": "Valencian Community",
     "url": "https://casaverdeneuro.com/centros/alicante/hospital-casaverde",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Casaverde Neuro hospital page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Casaverde Neuro hospital page",
+      "Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence",
+      "Hospital site within the Casaverde neurological rehabilitation network",
+      "A Casaverde hospital in Mutxamel with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.",
+      "Ospedale Casaverde a Mutxamel con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.",
       "Centros Casaverde Neurorrehabilitación",
       "neurorrehabilitación",
       "rehabilitación neurológica",
@@ -3577,11 +3636,16 @@
     "city": "Mérida",
     "region": "Extremadura",
     "url": "https://casaverdeneuro.com/centros/extremadura/hospital-casaverde-extremadura",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Casaverde Neuro hospital page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Casaverde Neuro hospital page",
+      "Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence",
+      "Hospital site within the Casaverde neurological rehabilitation network",
+      "A Casaverde hospital in Extremadura with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.",
+      "Ospedale Casaverde in Estremadura con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.",
       "Centros Casaverde Neurorrehabilitación",
       "neurorrehabilitación",
       "rehabilitación neurológica",
@@ -3625,11 +3689,16 @@
     "city": "Valladolid",
     "region": "Castile and León",
     "url": "https://casaverdeneuro.com/centros/valladolid/hospital-casaverde-valladolid",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Casaverde Neuro hospital page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Casaverde Neuro hospital page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Casaverde Neuro hospital page",
+      "Matched neurological rehabilitation, stroke and Parkinson evidence",
+      "Hospital site within the Casaverde neurological rehabilitation network",
+      "A Casaverde hospital in Valladolid with official evidence for neurological rehabilitation, stroke, and Parkinson disease.",
+      "Ospedale Casaverde a Valladolid con evidenze ufficiali di riabilitazione neurologica, ictus e Parkinson.",
       "Centros Casaverde Neurorrehabilitación",
       "neurorrehabilitación",
       "rehabilitación neurológica",
@@ -3672,11 +3741,16 @@
     "city": "Brunete",
     "region": "Community of Madrid",
     "url": "https://hospitallosmadronos.es/unidades-especializadas/unidad-avanzada-de-neurorrehabilitacion",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official hospital advanced neurorehabilitation unit page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official hospital advanced neurorehabilitation unit page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official hospital advanced neurorehabilitation unit page",
+      "Matched neurological rehabilitation, brain injury, stroke, TBI, spinal cord injury, MS and Parkinson evidence",
+      "Hospital-based advanced neurorehabilitation unit near Madrid",
+      "A hospital advanced neurorehabilitation unit in Brunete, with evidence for stroke, traumatic brain injury, spinal cord injury, multiple sclerosis, and Parkinson disease.",
+      "Unità avanzata di neuroriabilitazione ospedaliera a Brunete, con evidenze per ictus, trauma cranico, lesione midollare, sclerosi multipla e Parkinson.",
       "Unidad Avanzada de Neurorrehabilitación",
       "rehabilitación neurológica",
       "daño cerebral",
@@ -4013,11 +4087,16 @@
     "city": "Bilbao",
     "region": "Basque Country",
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-bekoetxe-ifas",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Bekoetxe brain-injury day-centre page",
+      "Matched neurorehabilitation, brain injury and neuropsychology evidence",
+      "IFAS day-centre candidate in Bilbao",
+      "The IFAS Bekoetxe day centre in Bilbao for people with brain injury, with evidence of neurorehabilitation and neuropsychology.",
+      "Centro diurno IFAS Bekoetxe a Bilbao per persone con danno cerebrale, con evidenze di neuroriabilitazione e neuropsicologia.",
       "Centro de Día de Daño Cerebral Bekoetxe",
       "Neurorrehabilitación y daño cerebral",
       "daño cerebral",
@@ -4096,11 +4175,16 @@
     "city": "Madrid",
     "region": "Community of Madrid",
     "url": "https://www.lescer.es/",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official specialist neurorehabilitation centre page",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official specialist neurorehabilitation centre page",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official specialist neurorehabilitation centre page",
+      "Matched brain injury, stroke, traumatic brain injury, spinal cord injury, MS and Parkinson evidence",
+      "Official site lists hospitalization and neurological rehabilitation",
+      "A Madrid neurorehabilitation centre for brain injury, stroke, traumatic brain injury, spinal cord injury, multiple sclerosis, and Parkinson disease.",
+      "Centro madrileno di neuroriabilitazione per danno cerebrale, ictus, trauma cranico, lesione midollare, sclerosi multipla e Parkinson.",
       "neurorrehabilitación",
       "rehabilitación neurológica",
       "daño cerebral",
@@ -4145,11 +4229,16 @@
     "city": "Bilbao",
     "region": "Basque Country",
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-bilbao",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Bilbao neurorehabilitation centre page",
+      "Specialized in rehabilitation of sequelae caused by acquired brain injury",
+      "Page lists stroke, cranioencephalic trauma, Parkinson, MS, ALS and child rehabilitation",
+      "A Bilbao neurorehabilitation centre specializing in acquired brain injury, stroke, cranioencephalic trauma, neurodegenerative disease, and child rehabilitation.",
+      "Centro di neuroriabilitazione di Bilbao specializzato nel danno cerebrale acquisito, ictus, trauma cranico, malattie neurodegenerative e riabilitazione infantile.",
       "Centro de Neurorrehabilitación",
       "rehabilitación de las secuelas causadas por el daño cerebral adquirido",
       "Unidad de Rehabilitación Ambulatoria",
@@ -4194,11 +4283,16 @@
     "city": "San Sebastián",
     "region": "Basque Country",
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-san-sebastian",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official San Sebastián neurorehabilitation centre page",
+      "Official page lists neurorehabilitation and brain injury",
+      "Centre page describes a day centre for people with neurological disability and personalized care programs",
+      "A San Sebastián neurorehabilitation centre with a brain-injury day centre and personalized programs for neurological disability.",
+      "Centro di neuroriabilitazione a San Sebastián con centro diurno per danno cerebrale e programmi personalizzati per disabilità neurologica.",
       "Centro de Neurorrehabilitación",
       "Neurorrehabilitación y daño cerebral",
       "Centro de Día de Daño Cerebral",
@@ -4237,11 +4331,16 @@
     "city": "Arrasate/Mondragón",
     "region": "Basque Country",
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-musakola",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Ospitalarioak filtered brain-injury centre list",
+      "Centre page states 30 day-centre places for people with brain injury",
+      "Official page lists a Centro de Día de Daño Cerebral",
+      "Centro Musakola in Arrasate/Mondragón with a day centre for people with brain injury and neurorehabilitation.",
+      "Centro Musakola ad Arrasate/Mondragón con centro diurno per persone con danno cerebrale e neuroriabilitazione.",
       "Neurorrehabilitación y daño cerebral",
       "Centro de Día de Daño Cerebral",
       "personas con daño cerebral",
@@ -4279,11 +4378,16 @@
     "city": "Arrasate/Mondragón",
     "region": "Basque Country",
     "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/hospital-aita-menni",
-    "sourceType": "spain-first-pass-official-seed",
-    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "sourceType": "curated-dataset | spain-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ospitalarioak filtered brain-injury centre list",
     "reviewStatus": "candidate",
-    "knownInDataset": false,
+    "knownInDataset": true,
     "needles": [
+      "Official Ospitalarioak brain-injury centre page",
+      "Hospitalization unit for multidisciplinary rehabilitation of severe neurological sequelae",
+      "Page lists brain injury, stroke, cranial trauma and outpatient neurological rehabilitation",
+      "Aita Menni hospital in Arrasate/Mondragón with inpatient and outpatient rehabilitation for brain injury, stroke, and cranial trauma.",
+      "Ospedale Aita Menni ad Arrasate/Mondragón con unità di ricovero e riabilitazione ambulatoriale per danno cerebrale, ictus e trauma cranico.",
       "Neurorrehabilitación y daño cerebral",
       "Unidad de Hospitalización",
       "rehabilitación multidisciplinar",
@@ -4576,6 +4680,94 @@
     "title": "Services - St George&#039;s University Hospitals NHS Foundation Trust"
   },
   {
+    "name": "Hobbs Rehabilitation",
+    "country": "United Kingdom",
+    "city": "Winchester",
+    "region": "Hampshire",
+    "url": "https://hobbsrehabilitation.co.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official specialist neurological rehabilitation provider page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Neurological Rehabilitation",
+      "Spinal Cord",
+      "stroke",
+      "rehabilitation",
+      "inpatient",
+      "outpatient"
+    ],
+    "status": 200,
+    "finalUrl": "https://hobbsrehabilitation.co.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurological Rehabilitation | Spinal Cord | stroke | rehabilitation | inpatient | outpatient | neurological rehabilitation | rehab | neurolog | neuro | spinal cord | clinic | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "clinic",
+        "centre"
+      ]
+    },
+    "title": "Hobbs Rehabilitation | Multidisciplinary Neurological Rehabilitation"
+  },
+  {
+    "name": "Hollanden Park Hospital - Renovo Care Group",
+    "country": "United Kingdom",
+    "city": "Hildenborough",
+    "region": "Kent",
+    "url": "https://hollandenparkhospital.co.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official Renovo Care Group hospital page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurorehabilitation",
+      "acquired brain injury",
+      "spinal injury",
+      "rehabilitation",
+      "Neurological Care",
+      "hospital"
+    ],
+    "status": 200,
+    "finalUrl": "https://hollandenparkhospital.co.uk/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Rehabilitation and Neurological Care | Renovo Care Group"
+  },
+  {
     "name": "London Spinal Cord Injury Centre",
     "country": "United Kingdom",
     "city": "Stanmore",
@@ -4703,6 +4895,88 @@
     "title": "UCLH Neurology and Neurosurgery | Specialist brain and spine care in London"
   },
   {
+    "name": "National Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "Nottingham",
+    "region": "Nottinghamshire",
+    "url": "https://nationalrehabilitationcentre.nhs.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official NHS National Rehabilitation Centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "neurorehabilitation",
+      "rehabilitation",
+      "stroke",
+      "inpatient",
+      "NHS",
+      "National Rehabilitation Centre"
+    ],
+    "status": 200,
+    "finalUrl": "https://nationalrehabilitationcentre.nhs.uk/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurorehabilitation | rehabilitation | stroke | inpatient | NHS | National Rehabilitation Centre | rehab | neurolog | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Home - National Rehabilitation Centre"
+  },
+  {
+    "name": "National Spinal Injuries Centre - Stoke Mandeville Hospital",
+    "country": "United Kingdom",
+    "city": "Aylesbury",
+    "region": "Buckinghamshire",
+    "url": "https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official Buckinghamshire Healthcare NHS spinal injuries centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "National Spinal Injuries Centre",
+      "spinal cord",
+      "inpatient",
+      "outpatient",
+      "rehabilitation",
+      "NHS"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "National Spinal Injuries Centre | spinal cord | inpatient | outpatient | NHS | spinal | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "centre"
+      ]
+    },
+    "title": "National Spinal Injuries Centre - Buckinghamshire Healthcare NHS Trust"
+  },
+  {
     "name": "Rehabilitation services — Queen Mary’s Hospital",
     "country": "United Kingdom",
     "city": "Roehampton",
@@ -4744,6 +5018,53 @@
     "title": "Rehabilitation services - St George&#039;s University Hospitals NHS Foundation Trust"
   },
   {
+    "name": "Royal Buckinghamshire Hospital",
+    "country": "United Kingdom",
+    "city": "Aylesbury",
+    "region": "Buckinghamshire",
+    "url": "https://www.royalbucks.co.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official specialist rehabilitation hospital page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Brain Injury",
+      "spinal cord",
+      "stroke",
+      "rehabilitation",
+      "inpatient",
+      "outpatient",
+      "Hospital"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.royalbucks.co.uk/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Brain Injury | spinal cord | stroke | rehabilitation | inpatient | outpatient | Hospital | rehab | neurolog | neuro | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "centre"
+      ]
+    },
+    "title": "The Royal Buckinghamshire Hospital | Aylesbury, Bucks"
+  },
+  {
     "name": "Royal Hospital for Neuro-disability",
     "country": "United Kingdom",
     "city": "London",
@@ -4781,6 +5102,226 @@
       ]
     },
     "title": "Royal Hospital for Neuro-disability"
+  },
+  {
+    "name": "Salisbury Spinal Treatment Centre",
+    "country": "United Kingdom",
+    "city": "Salisbury",
+    "region": "Wiltshire",
+    "url": "https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official Salisbury NHS spinal treatment centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Spinal Treatment Centre",
+      "Spinal Cord",
+      "Spinal Injury",
+      "rehabilitation",
+      "inpatient",
+      "outpatient",
+      "NHS"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Spinal Treatment Centre | Spinal Cord | Spinal Injury | rehabilitation | inpatient | outpatient | NHS | rehab | neuro | spinal cord | spinal | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "spinal cord",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "Spinal Treatment Centre"
+  },
+  {
+    "name": "STEPS Rehabilitation",
+    "country": "United Kingdom",
+    "city": "Sheffield",
+    "region": "South Yorkshire",
+    "url": "https://stepsrehabilitation.co.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official specialist rehabilitation centre page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "brain injury",
+      "spinal cord",
+      "stroke",
+      "multiple sclerosis",
+      "parkinson",
+      "rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://stepsrehabilitation.co.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "brain injury | spinal cord | stroke | multiple sclerosis | parkinson | rehabilitation | rehab | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "multiple sclerosis",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "STEPS Rehabilitation"
+  },
+  {
+    "name": "The Children's Trust",
+    "country": "United Kingdom",
+    "city": "Tadworth",
+    "region": "Surrey",
+    "url": "https://www.thechildrenstrust.org.uk/",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official pediatric brain-injury rehabilitation charity page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "children with brain injury",
+      "acquired brain injury",
+      "brain injury",
+      "neurorehabilitation",
+      "neurodisability",
+      "rehabilitation",
+      "stroke"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.thechildrenstrust.org.uk/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "children with brain injury | acquired brain injury | brain injury | neurodisability | rehabilitation | stroke | rehab | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "brain injury",
+        "acquired brain injury"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "For children with brain injury | The Children&#039;s Trust"
+  },
+  {
+    "name": "The Wellington Hospital - Rehabilitation Centre",
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "Greater London",
+    "url": "https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official HCA UK hospital page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Neuro-rehabilitation",
+      "neurological rehabilitation",
+      "neurorehabilitation",
+      "acquired brain injury",
+      "spinal cord",
+      "stroke",
+      "multiple sclerosis",
+      "Parkinson",
+      "inpatient",
+      "outpatient"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurological rehabilitation | outpatient | rehabilitation | rehab | neurolog | neuro | spinal | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "The Wellington Hospital | Private Hospital London | HCA UK"
+  },
+  {
+    "name": "Walkergate Park Centre for Neurorehabilitation and Neuropsychiatry",
+    "country": "United Kingdom",
+    "city": "Newcastle upon Tyne",
+    "region": "Tyne and Wear",
+    "url": "https://www.cntw.nhs.uk/locations/walkergate-park",
+    "sourceType": "uk-first-pass-official-seed",
+    "discoverySource": "official NHS location page",
+    "reviewStatus": "candidate",
+    "knownInDataset": false,
+    "needles": [
+      "Walkergate Park",
+      "Neurorehabilitation",
+      "rehabilitation",
+      "inpatient",
+      "outpatient",
+      "NHS"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.cntw.nhs.uk/locations/walkergate-park",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Walkergate Park | Neurorehabilitation | rehabilitation | inpatient | outpatient | NHS | neurorehabilitation | rehab | neurolog | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Walkergate Park :: Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust"
   },
   {
     "name": "Brooks Rehabilitation",

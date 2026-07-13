@@ -790,6 +790,106 @@
       "sourceType": "spain-first-pass-official-seed",
       "discoverySource": "official Casaverde Neuro hospital page",
       "needles": ["Centros Casaverde Neurorrehabilitación", "neurorrehabilitación", "rehabilitación neurológica", "ictus", "parkinson", "hospital", "unidad"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "National Rehabilitation Centre",
+      "city": "Nottingham",
+      "region": "Nottinghamshire",
+      "url": "https://nationalrehabilitationcentre.nhs.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official NHS National Rehabilitation Centre page",
+      "needles": ["neurorehabilitation", "rehabilitation", "stroke", "inpatient", "NHS", "National Rehabilitation Centre"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Walkergate Park Centre for Neurorehabilitation and Neuropsychiatry",
+      "city": "Newcastle upon Tyne",
+      "region": "Tyne and Wear",
+      "url": "https://www.cntw.nhs.uk/locations/walkergate-park",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official NHS location page",
+      "needles": ["Walkergate Park", "Neurorehabilitation", "rehabilitation", "inpatient", "outpatient", "NHS"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "National Spinal Injuries Centre - Stoke Mandeville Hospital",
+      "city": "Aylesbury",
+      "region": "Buckinghamshire",
+      "url": "https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official Buckinghamshire Healthcare NHS spinal injuries centre page",
+      "needles": ["National Spinal Injuries Centre", "spinal cord", "inpatient", "outpatient", "rehabilitation", "NHS"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Salisbury Spinal Treatment Centre",
+      "city": "Salisbury",
+      "region": "Wiltshire",
+      "url": "https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official Salisbury NHS spinal treatment centre page",
+      "needles": ["Spinal Treatment Centre", "Spinal Cord", "Spinal Injury", "rehabilitation", "inpatient", "outpatient", "NHS"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "The Children's Trust",
+      "city": "Tadworth",
+      "region": "Surrey",
+      "url": "https://www.thechildrenstrust.org.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official pediatric brain-injury rehabilitation charity page",
+      "needles": ["children with brain injury", "acquired brain injury", "brain injury", "neurorehabilitation", "neurodisability", "rehabilitation", "stroke"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "STEPS Rehabilitation",
+      "city": "Sheffield",
+      "region": "South Yorkshire",
+      "url": "https://stepsrehabilitation.co.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official specialist rehabilitation centre page",
+      "needles": ["brain injury", "spinal cord", "stroke", "multiple sclerosis", "parkinson", "rehabilitation"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Royal Buckinghamshire Hospital",
+      "city": "Aylesbury",
+      "region": "Buckinghamshire",
+      "url": "https://www.royalbucks.co.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official specialist rehabilitation hospital page",
+      "needles": ["Brain Injury", "spinal cord", "stroke", "rehabilitation", "inpatient", "outpatient", "Hospital"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Hobbs Rehabilitation",
+      "city": "Winchester",
+      "region": "Hampshire",
+      "url": "https://hobbsrehabilitation.co.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official specialist neurological rehabilitation provider page",
+      "needles": ["Neurological Rehabilitation", "Spinal Cord", "stroke", "rehabilitation", "inpatient", "outpatient"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "The Wellington Hospital - Rehabilitation Centre",
+      "city": "London",
+      "region": "Greater London",
+      "url": "https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official HCA UK hospital page",
+      "needles": ["Neuro-rehabilitation", "neurological rehabilitation", "neurorehabilitation", "acquired brain injury", "spinal cord", "stroke", "multiple sclerosis", "Parkinson", "inpatient", "outpatient"]
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Hollanden Park Hospital - Renovo Care Group",
+      "city": "Hildenborough",
+      "region": "Kent",
+      "url": "https://hollandenparkhospital.co.uk/",
+      "sourceType": "uk-first-pass-official-seed",
+      "discoverySource": "official Renovo Care Group hospital page",
+      "needles": ["neurorehabilitation", "acquired brain injury", "spinal injury", "rehabilitation", "Neurological Care", "hospital"]
     }
   ],
   "searchResults": [],

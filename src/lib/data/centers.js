@@ -1745,6 +1745,196 @@ export const centers = [
     }
   },
   {
+    id: 'national-rehabilitation-centre-nottingham',
+    name: 'National Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'Nottingham', region: 'Nottinghamshire', lat: 52.8050, lng: -1.1460,
+    address: 'Nottinghamshire', phone: 'Unknown',
+    url: 'https://nationalrehabilitationcentre.nhs.uk/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitation', 'Rehabilitation medicine', 'Therapies', 'Nursing', 'Research'],
+    completeness: 86,
+    researchHighlights: ['Official NHS National Rehabilitation Centre page', 'Matched neurorehabilitation, inpatient rehabilitation and stroke evidence', 'National NHS rehabilitation programme with research orientation'],
+    features: ['research', 'rehabilitation'],
+    description: {
+      it: 'Centro nazionale NHS per la riabilitazione nel Nottinghamshire, con evidenze per neuroriabilitazione, ricovero e ictus.',
+      en: 'An NHS national rehabilitation centre in Nottinghamshire with evidence for neurorehabilitation, inpatient care, and stroke rehabilitation.'
+    }
+  },
+  {
+    id: 'walkergate-park-neurorehabilitation',
+    name: 'Walkergate Park Centre for Neurorehabilitation and Neuropsychiatry',
+    country: 'United Kingdom',
+    city: 'Newcastle upon Tyne', region: 'Tyne and Wear', lat: 54.9970, lng: -1.5720,
+    address: 'Walkergate Park, Newcastle upon Tyne', phone: 'Unknown',
+    url: 'https://www.cntw.nhs.uk/locations/walkergate-park',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitation', 'Neuropsychiatry', 'Therapies', 'Nursing', 'Rehabilitation medicine'],
+    completeness: 88,
+    researchHighlights: ['Official NHS location page for Walkergate Park', 'Page matched neurorehabilitation, inpatient and outpatient evidence', 'Specialist centre for neurorehabilitation and neuropsychiatry in Newcastle'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro NHS di Newcastle per neuroriabilitazione e neuropsichiatria, con percorsi di ricovero e ambulatoriali.',
+      en: 'An NHS Newcastle centre for neurorehabilitation and neuropsychiatry with inpatient and outpatient pathways.'
+    }
+  },
+  {
+    id: 'stoke-mandeville-national-spinal-injuries',
+    name: 'National Spinal Injuries Centre - Stoke Mandeville Hospital',
+    country: 'United Kingdom',
+    city: 'Aylesbury', region: 'Buckinghamshire', lat: 51.7930, lng: -0.8070,
+    address: 'Stoke Mandeville Hospital, Aylesbury', phone: 'Unknown',
+    url: 'https://www.buckshealthcare.nhs.uk/wards/national-spinal-injuries-centre/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Spinal injuries', 'Rehabilitation', 'Therapies', 'Nursing', 'Outpatient services'],
+    completeness: 90,
+    researchHighlights: ['Official Buckinghamshire Healthcare NHS spinal injuries centre page', 'Matched spinal cord, inpatient and outpatient evidence', 'National specialist spinal injuries centre at Stoke Mandeville Hospital'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro nazionale NHS per lesioni spinali allo Stoke Mandeville Hospital, con percorsi di ricovero e ambulatoriali.',
+      en: 'An NHS national spinal injuries centre at Stoke Mandeville Hospital with inpatient and outpatient rehabilitation pathways.'
+    }
+  },
+  {
+    id: 'salisbury-spinal-treatment-centre',
+    name: 'Salisbury Spinal Treatment Centre',
+    country: 'United Kingdom',
+    city: 'Salisbury', region: 'Wiltshire', lat: 51.0688, lng: -1.7945,
+    address: 'Salisbury District Hospital, Salisbury', phone: 'Unknown',
+    url: 'https://www.salisbury.nhs.uk/wards-departments/departments/spinal-treatment-centre/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Spinal treatment', 'Rehabilitation', 'Therapies', 'Nursing', 'Outpatient services'],
+    completeness: 89,
+    researchHighlights: ['Official Salisbury NHS spinal treatment centre page', 'Matched spinal cord, spinal injury, inpatient and outpatient rehabilitation evidence', 'Specialist NHS spinal injury rehabilitation centre'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro NHS di Salisbury per trattamento e riabilitazione delle lesioni spinali, con percorsi di ricovero e ambulatoriali.',
+      en: 'An NHS Salisbury centre for spinal injury treatment and rehabilitation, with inpatient and outpatient pathways.'
+    }
+  },
+  {
+    id: 'childrens-trust-tadworth',
+    name: "The Children's Trust",
+    country: 'United Kingdom',
+    city: 'Tadworth', region: 'Surrey', lat: 51.2910, lng: -0.2350,
+    address: 'Tadworth, Surrey', phone: 'Unknown',
+    url: 'https://www.thechildrenstrust.org.uk/',
+    conditions: ['pediatric', 'stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public', 'charity'],
+    disciplines: ['Pediatric neurorehabilitation', 'Neurodisability', 'Therapies', 'Education', 'Nursing'],
+    completeness: 89,
+    researchHighlights: ['Official pediatric brain-injury rehabilitation charity page', 'Matched children with brain injury, acquired brain injury, neurodisability and rehabilitation evidence', 'Specialist pediatric rehabilitation centre in Surrey'],
+    features: ['pediatric', 'brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro pediatrico nel Surrey per bambini con danno cerebrale acquisito, neuroriabilitazione e neurodisabilità.',
+      en: 'A Surrey pediatric centre for children with acquired brain injury, neurorehabilitation needs, and neurodisability.'
+    }
+  },
+  {
+    id: 'steps-rehabilitation-sheffield',
+    name: 'STEPS Rehabilitation',
+    country: 'United Kingdom',
+    city: 'Sheffield', region: 'South Yorkshire', lat: 53.3811, lng: -1.4701,
+    address: 'Sheffield, South Yorkshire', phone: 'Unknown',
+    url: 'https://stepsrehabilitation.co.uk/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech and language therapy', 'Neuropsychology'],
+    completeness: 88,
+    researchHighlights: ['Official specialist rehabilitation centre page', 'Matched brain injury, spinal cord, stroke, MS and Parkinson evidence', 'Specialist private rehabilitation centre in Sheffield'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro specialistico di riabilitazione a Sheffield con evidenze per danno cerebrale, lesione midollare, ictus, sclerosi multipla e Parkinson.',
+      en: 'A specialist rehabilitation centre in Sheffield with evidence for brain injury, spinal cord injury, stroke, multiple sclerosis, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'royal-buckinghamshire-hospital',
+    name: 'Royal Buckinghamshire Hospital',
+    country: 'United Kingdom',
+    city: 'Aylesbury', region: 'Buckinghamshire', lat: 51.8168, lng: -0.8148,
+    address: 'Aylesbury, Buckinghamshire', phone: 'Unknown',
+    url: 'https://www.royalbucks.co.uk/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Rehabilitation', 'Brain injury rehabilitation', 'Spinal cord injury rehabilitation', 'Physiotherapy', 'Nursing'],
+    completeness: 86,
+    researchHighlights: ['Official specialist rehabilitation hospital page', 'Matched brain injury, spinal cord, stroke, inpatient and outpatient evidence', 'Specialist rehabilitation hospital in Aylesbury'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Ospedale specialistico di riabilitazione ad Aylesbury con evidenze per danno cerebrale, lesione midollare e ictus.',
+      en: 'A specialist rehabilitation hospital in Aylesbury with evidence for brain injury, spinal cord injury, and stroke rehabilitation.'
+    }
+  },
+  {
+    id: 'hobbs-rehabilitation-winchester',
+    name: 'Hobbs Rehabilitation',
+    country: 'United Kingdom',
+    city: 'Winchester', region: 'Hampshire', lat: 51.0629, lng: -1.3160,
+    address: 'Winchester, Hampshire', phone: 'Unknown',
+    url: 'https://hobbsrehabilitation.co.uk/',
+    conditions: ['stroke', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurological rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech and language therapy', 'Neuropsychology'],
+    completeness: 84,
+    researchHighlights: ['Official specialist neurological rehabilitation provider page', 'Matched neurological rehabilitation, spinal cord, stroke, inpatient and outpatient evidence', 'Specialist neurorehabilitation provider based in Hampshire'],
+    features: ['spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Provider specialistico di riabilitazione neurologica nell’Hampshire con evidenze per ictus, lesione midollare, ricovero e ambulatorio.',
+      en: 'A specialist neurological rehabilitation provider in Hampshire with evidence for stroke, spinal cord injury, inpatient and outpatient care.'
+    }
+  },
+  {
+    id: 'wellington-hospital-rehabilitation',
+    name: 'The Wellington Hospital - Rehabilitation Centre',
+    country: 'United Kingdom',
+    city: 'London', region: 'Greater London', lat: 51.5310, lng: -0.1740,
+    address: 'London, Greater London', phone: 'Unknown',
+    url: 'https://www.hcahealthcare.co.uk/locations/hospitals/the-wellington-hospital',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neuro-rehabilitation', 'Neurological rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech and language therapy'],
+    completeness: 87,
+    researchHighlights: ['Official HCA UK hospital page', 'Matched neurological rehabilitation, acquired brain injury, spinal cord, stroke, MS and Parkinson evidence', 'Private London hospital with rehabilitation centre evidence'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Ospedale privato londinese con evidenze per neuroriabilitazione, danno cerebrale acquisito, lesione midollare, ictus, MS e Parkinson.',
+      en: 'A private London hospital with evidence for neurorehabilitation, acquired brain injury, spinal cord injury, stroke, MS, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'hollanden-park-renovo',
+    name: 'Hollanden Park Hospital - Renovo Care Group',
+    country: 'United Kingdom',
+    city: 'Hildenborough', region: 'Kent', lat: 51.2160, lng: 0.2280,
+    address: 'Hildenborough, Kent', phone: 'Unknown',
+    url: 'https://hollandenparkhospital.co.uk/',
+    conditions: ['tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorehabilitation', 'Neurological care', 'Complex care', 'Therapies', 'Nursing'],
+    completeness: 83,
+    researchHighlights: ['Official Renovo Care Group hospital page', 'Matched neurorehabilitation, acquired brain injury, spinal injury and neurological care evidence', 'Specialist rehabilitation and neurological care hospital in Kent'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Ospedale Renovo Care nel Kent con evidenze per neuroriabilitazione, danno cerebrale acquisito, lesione spinale e cure neurologiche.',
+      en: 'A Renovo Care hospital in Kent with evidence for neurorehabilitation, acquired brain injury, spinal injury, and neurological care.'
+    }
+  },
+  {
     id: 'swiss-paraplegic-centre-nottwil',
     name: 'Swiss Paraplegic Centre',
     country: 'Switzerland',
