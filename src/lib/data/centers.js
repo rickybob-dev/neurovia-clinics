@@ -765,15 +765,55 @@ export const centers = [
     country: 'Slovenia',
     city: 'Ljubljana', region: 'Ljubljana', lat: 46.0569, lng: 14.5058,
     address: 'Linhartova 51, 1000 Ljubljana', phone: '+386 1 4758 100',
-    url: 'https://www.uri-soca.si/en/',
-    conditions: ['stroke', 'spinal', 'neuromuscular', 'cognitive'],
+    url: 'https://www.uri-soca.si/en/medical-rehabilitation/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
     technologies: ['prosthetics', 'tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
-    disciplines: ['Rehabilitacijska medicina', 'Fizioterapija', 'Terapija occupazionale', 'Psihologija', 'Logopedia'],
-    completeness: 84,
-    researchHighlights: ['Tertiary-level health institution with scientific research', 'Comprehensive rehab for central and peripheral nervous system disorders', 'Training center for rehabilitation professionals'],
+    disciplines: ['Rehabilitation medicine', 'Physiotherapy', 'Occupational therapy', 'Psychology', 'Speech therapy', 'Rehabilitation nursing'],
+    completeness: 92,
+    researchHighlights: ['Official medical rehabilitation page describes comprehensive rehabilitation for central and peripheral nervous-system disorders', 'Dedicated departments cover traumatic brain injury, multiple sclerosis, stroke and spinal lesions', 'Services include inpatient and outpatient rehabilitation plus physiotherapy, occupational therapy, psychology and speech therapy'],
+    features: ['stroke', 'spinal-cord', 'brain-injury'],
     description: {
-      it: 'Istituto universitario sloveno per la riabilitazione medica, con riabilitazione completa per disturbi del sistema nervoso centrale e periferico.',
-      en: 'Slovenia’s university rehabilitation institute, offering comprehensive medical rehabilitation for central and peripheral nervous system disorders.'
+      it: 'Istituto universitario sloveno per la riabilitazione medica, con reparti per ictus, trauma cranico, sclerosi multipla, lesioni spinali e riabilitazione pediatrica.',
+      en: 'Slovenia’s university rehabilitation institute, with departments for stroke, traumatic brain injury, multiple sclerosis, spinal lesions and paediatric rehabilitation.'
+    }
+  },
+  {
+    id: 'center-korak-kranj-brain-injury',
+    name: 'Center Korak',
+    country: 'Slovenia',
+    city: 'Kranj', region: 'Upper Carniola', lat: 46.2520, lng: 14.3493,
+    address: 'Kidričeva cesta 53, 4000 Kranj', phone: '+386 4 281 8611',
+    url: 'https://center-korak.si/zdravstvene-storitve/',
+    conditions: ['tbi', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['outpatient'], access: ['public'],
+    disciplines: ['Dolgotrajna rehabilitacija', 'Nevrofizioterapija', 'Delovna terapija', 'Logopedske storitve', 'Psihiatrija'],
+    completeness: 82,
+    researchHighlights: ['Official site defines Center Korak for people with acquired brain injury', 'Official health-services page states long-term rehabilitation for acquired brain injury', 'Official page lists neurophysiotherapy, occupational therapy and speech therapy'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Centro sloveno a Kranj per la riabilitazione a lungo termine di persone con lesione cerebrale acquisita, con neurofisioterapia, terapia occupazionale e logopedia.',
+      en: 'A Slovenian Kranj centre for long-term rehabilitation after acquired brain injury, with neurophysiotherapy, occupational therapy and speech therapy.'
+    }
+  },
+  {
+    id: 'center-naprej-maribor-brain-injury',
+    name: 'Center Naprej',
+    country: 'Slovenia',
+    city: 'Maribor', region: 'Styria', lat: 46.5591, lng: 15.6624,
+    address: 'Ulica heroja Jevtiča 9, 2000 Maribor', phone: '+386 591 23 001',
+    url: 'https://www.center-naprej.si/rehabilitacija',
+    conditions: ['tbi', 'cognitive', 'neuromotor'],
+    technologies: ['robotics'],
+    modes: ['outpatient'], access: ['public'],
+    disciplines: ['Dolgotrajna rehabilitacija', 'Nevrofizioterapija', 'Delovna terapija', 'Rehabilitacijska zdravstvena nega', 'Psihologija in psihiatrija'],
+    completeness: 86,
+    researchHighlights: ['Official site defines Center Naprej as a centre for people with acquired brain injury', 'Official rehabilitation page describes long-term interdisciplinary rehabilitation after acquired brain injury', 'Official neurophysiotherapy page lists neurorehabilitation, Bobath, PNF, motor relearning and robotic arm rehabilitation'],
+    robotNotes: ['Official neurophysiotherapy page references robotic equipment for hand rehabilitation and FitMi.'],
+    features: ['brain-injury', 'robotics', 'rehabilitation'],
+    description: {
+      it: 'Centro sloveno a Maribor per la riabilitazione sanitaria e psicosociale a lungo termine dopo lesione cerebrale acquisita, con neurofisioterapia, terapia occupazionale e tecnologie per la mano.',
+      en: 'A Slovenian Maribor centre for long-term health and psychosocial rehabilitation after acquired brain injury, with neurophysiotherapy, occupational therapy and hand-rehabilitation technology.'
     }
   },
   {

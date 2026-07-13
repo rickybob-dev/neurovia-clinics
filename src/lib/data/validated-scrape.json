@@ -463,7 +463,8 @@
         "hospital",
         "klinik",
         "centre",
-        "klinika"
+        "klinika",
+        "zavod"
       ]
     },
     "title": "Naslovnica - Klinički bolnički centar Zagreb"
@@ -4268,28 +4269,132 @@
     "title": "Início - CMRA"
   },
   {
+    "name": "Center Korak",
+    "country": "Slovenia",
+    "city": "Kranj",
+    "region": "Upper Carniola",
+    "url": "https://center-korak.si/zdravstvene-storitve",
+    "sourceType": "curated-dataset | slovenia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Center Korak health-services page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site defines Center Korak for people with acquired brain injury",
+      "Official health-services page states long-term rehabilitation for acquired brain injury",
+      "Official page lists neurophysiotherapy, occupational therapy and speech therapy",
+      "A Slovenian Kranj centre for long-term rehabilitation after acquired brain injury, with neurophysiotherapy, occupational therapy and speech therapy.",
+      "Centro sloveno a Kranj per la riabilitazione a lungo termine di persone con lesione cerebrale acquisita, con neurofisioterapia, terapia occupazionale e logopedia.",
+      "Dolgotrajna rehabilitacija za osebe s pridobljeno možgansko poškodbo",
+      "nevrofizioterapije",
+      "plastičnost živčnega sistema",
+      "Delovna terapija",
+      "Logopedske storitve"
+    ],
+    "status": 200,
+    "finalUrl": "https://center-korak.si/zdravstvene-storitve",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Dolgotrajna rehabilitacija za osebe s pridobljeno možgansko poškodbo | nevrofizioterapije | plastičnost živčnega sistema | Delovna terapija | Logopedske storitve | nevrofizioterapija | dolgotrajna rehabilitacija | rehabilitacija za osebe s pridobljeno možgansko poškodbo | rehab | rehabilitacija | pridobljeno možgansko poškodbo | možganski poškodbi | živčnega sistema | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrofizioterapija",
+        "dolgotrajna rehabilitacija",
+        "rehabilitacija za osebe s pridobljeno možgansko poškodbo"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [
+        "pridobljeno možgansko poškodbo",
+        "možganski poškodbi",
+        "živčnega sistema"
+      ],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Zdravstvene storitve &#8211; Center Korak"
+  },
+  {
+    "name": "Center Naprej",
+    "country": "Slovenia",
+    "city": "Maribor",
+    "region": "Styria",
+    "url": "https://www.center-naprej.si/rehabilitacija",
+    "sourceType": "curated-dataset | slovenia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Center Naprej rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site defines Center Naprej as a centre for people with acquired brain injury",
+      "Official rehabilitation page describes long-term interdisciplinary rehabilitation after acquired brain injury",
+      "Official neurophysiotherapy page lists neurorehabilitation, Bobath, PNF, motor relearning and robotic arm rehabilitation",
+      "A Slovenian Maribor centre for long-term health and psychosocial rehabilitation after acquired brain injury, with neurophysiotherapy, occupational therapy and hand-rehabilitation technology.",
+      "Centro sloveno a Maribor per la riabilitazione sanitaria e psicosociale a lungo termine dopo lesione cerebrale acquisita, con neurofisioterapia, terapia occupazionale e tecnologie per la mano.",
+      "pridobljeno možgansko poškodbo",
+      "dolgotrajni rehabilitaciji",
+      "nevrološke okvare",
+      "Nevroplastičnost možganov",
+      "interdisciplinarno"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.center-naprej.si/rehabilitacija",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "dolgotrajni rehabilitaciji | nevrološke okvare | Nevroplastičnost možganov | interdisciplinarno | nevrofizioterapija | dolgotrajna rehabilitacija | rehab | rehabilitacija | rehabilitacije | avc | center | zavod",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrofizioterapija",
+        "dolgotrajna rehabilitacija"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "nevrološke okvare",
+        "avc"
+      ],
+      "institution": [
+        "center",
+        "zavod"
+      ]
+    },
+    "title": "Center Naprej – Rehabilitacija"
+  },
+  {
     "name": "URI Soča",
     "country": "Slovenia",
     "city": "Ljubljana",
     "region": "Ljubljana",
-    "url": "https://www.uri-soca.si/en",
-    "sourceType": "curated-dataset",
-    "discoverySource": "src/lib/data/centers.js",
+    "url": "https://www.uri-soca.si/en/medical-rehabilitation",
+    "sourceType": "curated-dataset | slovenia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official URI Soča medical rehabilitation page",
     "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
-      "Tertiary-level health institution with scientific research",
-      "Comprehensive rehab for central and peripheral nervous system disorders",
-      "Training center for rehabilitation professionals",
-      "Slovenia’s university rehabilitation institute, offering comprehensive medical rehabilitation for central and peripheral nervous system disorders.",
-      "Istituto universitario sloveno per la riabilitazione medica, con riabilitazione completa per disturbi del sistema nervoso centrale e periferico."
+      "Official medical rehabilitation page describes comprehensive rehabilitation for central and peripheral nervous-system disorders",
+      "Dedicated departments cover traumatic brain injury, multiple sclerosis, stroke and spinal lesions",
+      "Services include inpatient and outpatient rehabilitation plus physiotherapy, occupational therapy, psychology and speech therapy",
+      "Slovenia’s university rehabilitation institute, with departments for stroke, traumatic brain injury, multiple sclerosis, spinal lesions and paediatric rehabilitation.",
+      "Istituto universitario sloveno per la riabilitazione medica, con reparti per ictus, trauma cranico, sclerosi multipla, lesioni spinali e riabilitazione pediatrica.",
+      "central and peripheral nervous system disorders",
+      "Traumatic Brain Injury",
+      "Multiple Sclerosis",
+      "after Stroke",
+      "Spinal Lesions",
+      "(Re)habilitation of Children"
     ],
     "status": 200,
-    "finalUrl": "https://www.uri-soca.si/en",
+    "finalUrl": "https://www.uri-soca.si/en/medical-rehabilitation",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "broad",
+    "validationTier": "strict",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
+    "evidence": "central and peripheral nervous system disorders | Traumatic Brain Injury | Multiple Sclerosis | after Stroke | Spinal Lesions | (Re)habilitation of Children | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [

@@ -1200,6 +1200,36 @@
       "sourceType": "croatia-second-pass-official-seed",
       "discoverySource": "official Martin Horvat Rovinj physical medicine and rehabilitation page",
       "needles": ["rehabilitacija za neurološku problematiku nakon moždanog udara", "rehabilitacija za neurološka oboljenja", "multiplosklerozu", "mišićnu distrofiju", "cerebralnu paralizu", "amiotrofičnu lateralnu sklerozu"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "URI Soča",
+      "city": "Ljubljana",
+      "region": "Ljubljana",
+      "url": "https://www.uri-soca.si/en/medical-rehabilitation/",
+      "sourceType": "slovenia-first-pass-official-seed",
+      "discoverySource": "official URI Soča medical rehabilitation page",
+      "needles": ["central and peripheral nervous system disorders", "Traumatic Brain Injury", "Multiple Sclerosis", "after Stroke", "Spinal Lesions", "(Re)habilitation of Children"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "Center Korak",
+      "city": "Kranj",
+      "region": "Upper Carniola",
+      "url": "https://center-korak.si/zdravstvene-storitve/",
+      "sourceType": "slovenia-first-pass-official-seed",
+      "discoverySource": "official Center Korak health-services page",
+      "needles": ["Dolgotrajna rehabilitacija za osebe s pridobljeno možgansko poškodbo", "nevrofizioterapije", "plastičnost živčnega sistema", "Delovna terapija", "Logopedske storitve"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "Center Naprej",
+      "city": "Maribor",
+      "region": "Styria",
+      "url": "https://www.center-naprej.si/rehabilitacija",
+      "sourceType": "slovenia-first-pass-official-seed",
+      "discoverySource": "official Center Naprej rehabilitation page",
+      "needles": ["pridobljeno možgansko poškodbo", "dolgotrajni rehabilitaciji", "nevrološke okvare", "Nevroplastičnost možganov", "interdisciplinarno"]
     }
   ],
   "searchResults": [],
