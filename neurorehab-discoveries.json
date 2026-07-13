@@ -147,11 +147,16 @@
     "city": "Ploemeur",
     "region": "Brittany",
     "url": "https://centre-kerpape.fr/mpr-neuro",
-    "sourceType": "france-second-pass-official-seed",
-    "discoverySource": "official adult neurological MPR service page",
-    "reviewStatus": "unreviewed",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | france-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official adult neurological MPR service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official adult neurological MPR service at Kerpape",
+      "Covers acquired brain injury, stroke, traumatic brain injury, MS, Parkinsonian syndromes and neuromuscular disease",
+      "Dedicated post-resuscitation neurorehab unit, conventional rehab unit and day hospital",
+      "A Ploemeur adult neurological MPR centre covering stroke, traumatic brain injury, multiple sclerosis, Parkinsonian syndromes, and neuromuscular disease.",
+      "Centro mutualistico di MPR neurologica adulta a Ploemeur, con percorsi per ictus, trauma cranico, sclerosi multipla, Parkinson e malattie neuromuscolari.",
       "MPR Neurologique",
       "Médecine Physique et Réadaptation neurologique adulte",
       "atteinte du système nerveux central",
@@ -286,16 +291,21 @@
     ]
   },
   {
-    "name": "CHU Rouen - Médecine physique et réadaptation",
+    "name": "CHU Rouen - Neuropédiatrie et MPR pédiatrique",
     "country": "France",
     "city": "Rouen",
     "region": "Normandy",
     "url": "https://www.chu-rouen.fr/services/pediatrie-neonatale-et-reanimation-neuropediatrie/neuropediatrie-medecine-physique-readaptation-pediatrique",
-    "sourceType": "france-second-pass-official-seed",
-    "discoverySource": "official CHU Rouen neuropediatrics / pediatric MPR service page",
-    "reviewStatus": "unreviewed",
-    "knownInDataset": false,
+    "sourceType": "curated-dataset | france-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official CHU Rouen neuropediatrics / pediatric MPR service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
     "needles": [
+      "Official CHU Rouen neuropediatrics and pediatric MPR service",
+      "Covers central nervous system, spinal, nerve and muscle conditions in children",
+      "Includes neuropediatric day hospital, MPR day hospital and multidisciplinary follow-up",
+      "A CHU Rouen neuropediatrics and pediatric MPR service for nervous-system, neuromuscular, and motor-disability conditions in children.",
+      "Servizio di neuropediatria e MPR pediatrica del CHU di Rouen per patologie del sistema nervoso, neuromuscolari e disabilità motorie infantili.",
       "Neuropédiatrie",
       "Médecine Physique Réadaptation pédiatrique",
       "système nerveux central",
@@ -1866,6 +1876,165 @@
     ]
   },
   {
+    "name": "CEADAC - Centro de Referencia Estatal de Atención al Daño Cerebral",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Community of Madrid",
+    "url": "https://ceadac.imserso.es/",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Imserso state reference centre page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centro de Referencia Estatal de Atención al Daño Cerebral",
+      "rehabilitación integral",
+      "daño cerebral",
+      "daño cerebral adquirido",
+      "servicios de atención directa"
+    ]
+  },
+  {
+    "name": "Centro Casaverde Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Community of Madrid",
+    "url": "https://casaverdeneuro.com/centros/madrid/centro-casaverde-madrid",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Casaverde Neuro centre page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centros Casaverde Neurorrehabilitación",
+      "neurorrehabilitación",
+      "rehabilitación neurológica",
+      "ictus",
+      "parkinson",
+      "centro",
+      "unidad"
+    ]
+  },
+  {
+    "name": "Clínica San Vicente",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Community of Madrid",
+    "url": "https://www.clinicasanvicente.es/",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official neurorehabilitation clinic page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "daño cerebral",
+      "neurorehabilitación",
+      "neurorrehabilitación",
+      "ictus",
+      "hospitalización",
+      "unidad"
+    ]
+  },
+  {
+    "name": "Hospital Beata María Ana - Unidad de Daño Cerebral Rehabilitable",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Community of Madrid",
+    "url": "https://fundacionhospitalariasmadrid.org/que-hacemos/unidades-especializadas/unidad-de-dano-cerebral-rehabilitable",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Fundación Hospitalarias Madrid brain injury unit page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Unidad de Daño Cerebral",
+      "daño cerebral rehabilitable",
+      "neurorehabilitación",
+      "neurorrehabilitación",
+      "ictus",
+      "traumatismo craneoencefálico",
+      "lesión medular",
+      "hospitalización"
+    ]
+  },
+  {
+    "name": "Hospital Casaverde Alicante",
+    "country": "Spain",
+    "city": "Mutxamel",
+    "region": "Valencian Community",
+    "url": "https://casaverdeneuro.com/centros/alicante/hospital-casaverde",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Casaverde Neuro hospital page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centros Casaverde Neurorrehabilitación",
+      "neurorrehabilitación",
+      "rehabilitación neurológica",
+      "ictus",
+      "parkinson",
+      "hospital",
+      "unidad"
+    ]
+  },
+  {
+    "name": "Hospital Casaverde Extremadura",
+    "country": "Spain",
+    "city": "Mérida",
+    "region": "Extremadura",
+    "url": "https://casaverdeneuro.com/centros/extremadura/hospital-casaverde-extremadura",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Casaverde Neuro hospital page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centros Casaverde Neurorrehabilitación",
+      "neurorrehabilitación",
+      "rehabilitación neurológica",
+      "ictus",
+      "parkinson",
+      "hospital",
+      "unidad"
+    ]
+  },
+  {
+    "name": "Hospital Casaverde Valladolid",
+    "country": "Spain",
+    "city": "Valladolid",
+    "region": "Castile and León",
+    "url": "https://casaverdeneuro.com/centros/valladolid/hospital-casaverde-valladolid",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Casaverde Neuro hospital page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centros Casaverde Neurorrehabilitación",
+      "neurorrehabilitación",
+      "rehabilitación neurológica",
+      "ictus",
+      "parkinson",
+      "hospital",
+      "unidad"
+    ]
+  },
+  {
+    "name": "Hospital Los Madroños - Unidad Avanzada de Neurorrehabilitación",
+    "country": "Spain",
+    "city": "Brunete",
+    "region": "Community of Madrid",
+    "url": "https://hospitallosmadronos.es/unidades-especializadas/unidad-avanzada-de-neurorrehabilitacion",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official hospital advanced neurorehabilitation unit page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Unidad Avanzada de Neurorrehabilitación",
+      "rehabilitación neurológica",
+      "daño cerebral",
+      "ictus",
+      "traumatismo craneoencefálico",
+      "lesión medular",
+      "esclerosis múltiple",
+      "parkinson"
+    ]
+  },
+  {
     "name": "Hospital Nacional de Parapléjicos",
     "country": "Spain",
     "city": "Toledo",
@@ -1990,6 +2159,24 @@
     ]
   },
   {
+    "name": "IFAS - Centro de Día de Daño Cerebral Bekoetxe",
+    "country": "Spain",
+    "city": "Bilbao",
+    "region": "Basque Country",
+    "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-bekoetxe-ifas",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centro de Día de Daño Cerebral Bekoetxe",
+      "Neurorrehabilitación y daño cerebral",
+      "daño cerebral",
+      "Neuropsicología",
+      "rehabilitación"
+    ]
+  },
+  {
     "name": "Institut Guttmann",
     "country": "Spain",
     "city": "Badalona",
@@ -2005,6 +2192,107 @@
       "Más de 4.500 personas atendidas al año",
       "A highly specialized neurorehabilitation hospital with an interdisciplinary model, brain health focus and pediatric care.",
       "Ospedale di neuroriabilitazione altamente specializzato con approccio interdisciplinare, salute cerebrale e area pediatrica."
+    ]
+  },
+  {
+    "name": "LESCER Centro de Neurorehabilitación",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Community of Madrid",
+    "url": "https://www.lescer.es/",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official specialist neurorehabilitation centre page",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "neurorrehabilitación",
+      "rehabilitación neurológica",
+      "daño cerebral",
+      "ictus",
+      "traumatismo craneoencefálico",
+      "lesión medular",
+      "esclerosis múltiple",
+      "parkinson",
+      "hospitalización"
+    ]
+  },
+  {
+    "name": "Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación Bilbao",
+    "country": "Spain",
+    "city": "Bilbao",
+    "region": "Basque Country",
+    "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-bilbao",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centro de Neurorrehabilitación",
+      "rehabilitación de las secuelas causadas por el daño cerebral adquirido",
+      "Unidad de Rehabilitación Ambulatoria",
+      "ictus",
+      "traumatismos craneoencefálicos",
+      "enfermedades neurodegenerativas",
+      "Párkinson",
+      "esclerosis múltiple",
+      "Unidad de Rehabilitación Infantil"
+    ]
+  },
+  {
+    "name": "Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación San Sebastián",
+    "country": "Spain",
+    "city": "San Sebastián",
+    "region": "Basque Country",
+    "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-san-sebastian",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Centro de Neurorrehabilitación",
+      "Neurorrehabilitación y daño cerebral",
+      "Centro de Día de Daño Cerebral",
+      "Discapacidad Neurológica",
+      "programas de atención personalizados"
+    ]
+  },
+  {
+    "name": "Ospitalarioak Fundazioa Euskadi - Centro Musakola",
+    "country": "Spain",
+    "city": "Arrasate/Mondragón",
+    "region": "Basque Country",
+    "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-musakola",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Neurorrehabilitación y daño cerebral",
+      "Centro de Día de Daño Cerebral",
+      "personas con daño cerebral",
+      "30 más para personas con daño cerebral",
+      "ictus"
+    ]
+  },
+  {
+    "name": "Ospitalarioak Fundazioa Euskadi - Hospital Aita Menni",
+    "country": "Spain",
+    "city": "Arrasate/Mondragón",
+    "region": "Basque Country",
+    "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/hospital-aita-menni",
+    "sourceType": "spain-first-pass-official-seed",
+    "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+    "reviewStatus": "unreviewed",
+    "knownInDataset": false,
+    "needles": [
+      "Neurorrehabilitación y daño cerebral",
+      "Unidad de Hospitalización",
+      "rehabilitación multidisciplinar",
+      "secuelas neurológicas",
+      "lesión cerebral",
+      "ictus",
+      "traumatismos craneales",
+      "afección neurológica"
     ]
   },
   {

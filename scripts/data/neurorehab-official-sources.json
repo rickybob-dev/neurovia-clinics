@@ -650,6 +650,146 @@
       "sourceType": "france-pilot-official-seed",
       "discoverySource": "CHU MPR service seed",
       "needles": ["médecine physique et réadaptation", "neurologique", "avc", "lésion médullaire", "réadaptation"]
+    },
+    {
+      "country": "Spain",
+      "name": "CEADAC - Centro de Referencia Estatal de Atención al Daño Cerebral",
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "url": "https://ceadac.imserso.es/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Imserso state reference centre page",
+      "needles": ["Centro de Referencia Estatal de Atención al Daño Cerebral", "rehabilitación integral", "daño cerebral", "daño cerebral adquirido", "servicios de atención directa"]
+    },
+    {
+      "country": "Spain",
+      "name": "LESCER Centro de Neurorehabilitación",
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "url": "https://www.lescer.es/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official specialist neurorehabilitation centre page",
+      "needles": ["neurorrehabilitación", "rehabilitación neurológica", "daño cerebral", "ictus", "traumatismo craneoencefálico", "lesión medular", "esclerosis múltiple", "parkinson", "hospitalización"]
+    },
+    {
+      "country": "Spain",
+      "name": "Clínica San Vicente",
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "url": "https://www.clinicasanvicente.es/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official neurorehabilitation clinic page",
+      "needles": ["daño cerebral", "neurorehabilitación", "neurorrehabilitación", "ictus", "hospitalización", "unidad"]
+    },
+    {
+      "country": "Spain",
+      "name": "Ospitalarioak Fundazioa Euskadi - Hospital Aita Menni",
+      "city": "Arrasate/Mondragón",
+      "region": "Basque Country",
+      "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/hospital-aita-menni/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+      "needles": ["Neurorrehabilitación y daño cerebral", "Unidad de Hospitalización", "rehabilitación multidisciplinar", "secuelas neurológicas", "lesión cerebral", "ictus", "traumatismos craneales", "afección neurológica"]
+    },
+    {
+      "country": "Spain",
+      "name": "Ospitalarioak Fundazioa Euskadi - Centro Musakola",
+      "city": "Arrasate/Mondragón",
+      "region": "Basque Country",
+      "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-musakola/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+      "needles": ["Neurorrehabilitación y daño cerebral", "Centro de Día de Daño Cerebral", "personas con daño cerebral", "30 más para personas con daño cerebral", "ictus"]
+    },
+    {
+      "country": "Spain",
+      "name": "Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación Bilbao",
+      "city": "Bilbao",
+      "region": "Basque Country",
+      "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-bilbao/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+      "needles": ["Centro de Neurorrehabilitación", "rehabilitación de las secuelas causadas por el daño cerebral adquirido", "Unidad de Rehabilitación Ambulatoria", "ictus", "traumatismos craneoencefálicos", "enfermedades neurodegenerativas", "Párkinson", "esclerosis múltiple", "Unidad de Rehabilitación Infantil"]
+    },
+    {
+      "country": "Spain",
+      "name": "Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación San Sebastián",
+      "city": "San Sebastián",
+      "region": "Basque Country",
+      "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-san-sebastian/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+      "needles": ["Centro de Neurorrehabilitación", "Neurorrehabilitación y daño cerebral", "Centro de Día de Daño Cerebral", "Discapacidad Neurológica", "programas de atención personalizados"]
+    },
+    {
+      "country": "Spain",
+      "name": "IFAS - Centro de Día de Daño Cerebral Bekoetxe",
+      "city": "Bilbao",
+      "region": "Basque Country",
+      "url": "https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-bekoetxe-ifas/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Ospitalarioak filtered brain-injury centre list",
+      "needles": ["Centro de Día de Daño Cerebral Bekoetxe", "Neurorrehabilitación y daño cerebral", "daño cerebral", "Neuropsicología", "rehabilitación"]
+    },
+    {
+      "country": "Spain",
+      "name": "Hospital Beata María Ana - Unidad de Daño Cerebral Rehabilitable",
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "url": "https://fundacionhospitalariasmadrid.org/que-hacemos/unidades-especializadas/unidad-de-dano-cerebral-rehabilitable/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Fundación Hospitalarias Madrid brain injury unit page",
+      "needles": ["Unidad de Daño Cerebral", "daño cerebral rehabilitable", "neurorehabilitación", "neurorrehabilitación", "ictus", "traumatismo craneoencefálico", "lesión medular", "hospitalización"]
+    },
+    {
+      "country": "Spain",
+      "name": "Hospital Los Madroños - Unidad Avanzada de Neurorrehabilitación",
+      "city": "Brunete",
+      "region": "Community of Madrid",
+      "url": "https://hospitallosmadronos.es/unidades-especializadas/unidad-avanzada-de-neurorrehabilitacion/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official hospital advanced neurorehabilitation unit page",
+      "needles": ["Unidad Avanzada de Neurorrehabilitación", "rehabilitación neurológica", "daño cerebral", "ictus", "traumatismo craneoencefálico", "lesión medular", "esclerosis múltiple", "parkinson"]
+    },
+    {
+      "country": "Spain",
+      "name": "Hospital Casaverde Alicante",
+      "city": "Mutxamel",
+      "region": "Valencian Community",
+      "url": "https://casaverdeneuro.com/centros/alicante/hospital-casaverde/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Casaverde Neuro hospital page",
+      "needles": ["Centros Casaverde Neurorrehabilitación", "neurorrehabilitación", "rehabilitación neurológica", "ictus", "parkinson", "hospital", "unidad"]
+    },
+    {
+      "country": "Spain",
+      "name": "Hospital Casaverde Extremadura",
+      "city": "Mérida",
+      "region": "Extremadura",
+      "url": "https://casaverdeneuro.com/centros/extremadura/hospital-casaverde-extremadura/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Casaverde Neuro hospital page",
+      "needles": ["Centros Casaverde Neurorrehabilitación", "neurorrehabilitación", "rehabilitación neurológica", "ictus", "parkinson", "hospital", "unidad"]
+    },
+    {
+      "country": "Spain",
+      "name": "Centro Casaverde Madrid",
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "url": "https://casaverdeneuro.com/centros/madrid/centro-casaverde-madrid/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Casaverde Neuro centre page",
+      "needles": ["Centros Casaverde Neurorrehabilitación", "neurorrehabilitación", "rehabilitación neurológica", "ictus", "parkinson", "centro", "unidad"]
+    },
+    {
+      "country": "Spain",
+      "name": "Hospital Casaverde Valladolid",
+      "city": "Valladolid",
+      "region": "Castile and León",
+      "url": "https://casaverdeneuro.com/centros/valladolid/hospital-casaverde-valladolid/",
+      "sourceType": "spain-first-pass-official-seed",
+      "discoverySource": "official Casaverde Neuro hospital page",
+      "needles": ["Centros Casaverde Neurorrehabilitación", "neurorrehabilitación", "rehabilitación neurológica", "ictus", "parkinson", "hospital", "unidad"]
     }
   ],
   "searchResults": [],

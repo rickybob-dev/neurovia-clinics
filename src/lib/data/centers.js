@@ -365,6 +365,272 @@ export const centers = [
     }
   },
   {
+    id: 'ceadac-madrid',
+    name: 'CEADAC - Centro de Referencia Estatal de Atención al Daño Cerebral',
+    country: 'Spain',
+    city: 'Madrid', region: 'Community of Madrid', lat: 40.4815, lng: -3.7110,
+    address: 'Madrid, Community of Madrid',
+    url: 'https://ceadac.imserso.es/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['outpatient', 'day clinic'], access: ['public'],
+    disciplines: ['Rehabilitación', 'Neuropsicología', 'Fisioterapia', 'Terapia ocupacional', 'Logopedia'],
+    completeness: 88,
+    researchHighlights: ['Official Imserso state reference centre for acquired brain injury', 'Official page describes comprehensive rehabilitation for people with brain injury', 'Public reference centre with direct-care services'],
+    features: ['brain-injury', 'research', 'rehabilitation'],
+    description: {
+      it: 'Centro statale di riferimento Imserso a Madrid per il danno cerebrale acquisito e la riabilitazione integrale.',
+      en: 'An Imserso state reference centre in Madrid for acquired brain injury and comprehensive rehabilitation.'
+    }
+  },
+  {
+    id: 'lescer-madrid',
+    name: 'LESCER Centro de Neurorehabilitación',
+    country: 'Spain',
+    city: 'Madrid', region: 'Community of Madrid', lat: 40.4168, lng: -3.7038,
+    address: 'Madrid, Community of Madrid',
+    url: 'https://www.lescer.es/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Fisioterapia', 'Terapia ocupacional', 'Logopedia', 'Neuropsicología'],
+    completeness: 89,
+    researchHighlights: ['Official specialist neurorehabilitation centre page', 'Matched brain injury, stroke, traumatic brain injury, spinal cord injury, MS and Parkinson evidence', 'Official site lists hospitalization and neurological rehabilitation'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro madrileno di neuroriabilitazione per danno cerebrale, ictus, trauma cranico, lesione midollare, sclerosi multipla e Parkinson.',
+      en: 'A Madrid neurorehabilitation centre for brain injury, stroke, traumatic brain injury, spinal cord injury, multiple sclerosis, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'clinica-san-vicente-madrid',
+    name: 'Clínica San Vicente',
+    country: 'Spain',
+    city: 'Madrid', region: 'Community of Madrid', lat: 40.4168, lng: -3.7038,
+    address: 'Madrid, Community of Madrid',
+    url: 'https://www.clinicasanvicente.es/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Rehabilitación', 'Fisioterapia', 'Logopedia', 'Neuropsicología', 'Terapia ocupacional'],
+    completeness: 82,
+    researchHighlights: ['Official neurorehabilitation clinic page', 'Matched brain injury, stroke and hospitalization evidence', 'Dedicated Madrid clinic candidate for neurological rehabilitation'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Clinica madrilena con evidenze ufficiali per riabilitazione del danno cerebrale, ictus e ricovero riabilitativo.',
+      en: 'A Madrid clinic with official evidence for brain-injury rehabilitation, stroke care, and rehabilitation hospitalization.'
+    }
+  },
+  {
+    id: 'beata-maria-ana-dano-cerebral',
+    name: 'Hospital Beata María Ana - Unidad de Daño Cerebral Rehabilitable',
+    country: 'Spain',
+    city: 'Madrid', region: 'Community of Madrid', lat: 40.4168, lng: -3.6696,
+    address: 'Madrid, Community of Madrid',
+    url: 'https://fundacionhospitalariasmadrid.org/que-hacemos/unidades-especializadas/unidad-de-dano-cerebral-rehabilitable/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Medicina física', 'Fisioterapia', 'Terapia ocupacional', 'Logopedia', 'Neuropsicología'],
+    completeness: 88,
+    researchHighlights: ['Official Fundación Hospitalarias Madrid brain-injury unit page', 'Matched neurorehabilitation, stroke, traumatic brain injury, spinal cord injury and hospitalization evidence', 'Specialized rehabilitable brain-injury unit'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Unità madrilena di danno cerebrale riabilitabile con evidenze per ictus, trauma cranioencefalico, lesione midollare e ricovero.',
+      en: 'A Madrid rehabilitable brain-injury unit with evidence for stroke, traumatic brain injury, spinal cord injury, and inpatient care.'
+    }
+  },
+  {
+    id: 'hospital-los-madronos-neurorrehabilitacion',
+    name: 'Hospital Los Madroños - Unidad Avanzada de Neurorrehabilitación',
+    country: 'Spain',
+    city: 'Brunete', region: 'Community of Madrid', lat: 40.4055, lng: -3.9980,
+    address: 'Brunete, Community of Madrid',
+    url: 'https://hospitallosmadronos.es/unidades-especializadas/unidad-avanzada-de-neurorrehabilitacion/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Neurología', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 87,
+    researchHighlights: ['Official hospital advanced neurorehabilitation unit page', 'Matched neurological rehabilitation, brain injury, stroke, TBI, spinal cord injury, MS and Parkinson evidence', 'Hospital-based advanced neurorehabilitation unit near Madrid'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Unità avanzata di neuroriabilitazione ospedaliera a Brunete, con evidenze per ictus, trauma cranico, lesione midollare, sclerosi multipla e Parkinson.',
+      en: 'A hospital advanced neurorehabilitation unit in Brunete, with evidence for stroke, traumatic brain injury, spinal cord injury, multiple sclerosis, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'casaverde-alicante',
+    name: 'Hospital Casaverde Alicante',
+    country: 'Spain',
+    city: 'Mutxamel', region: 'Valencian Community', lat: 38.4154, lng: -0.4455,
+    address: 'Mutxamel, Valencian Community',
+    url: 'https://casaverdeneuro.com/centros/alicante/hospital-casaverde/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación neurológica', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 83,
+    researchHighlights: ['Official Casaverde Neuro hospital page', 'Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence', 'Hospital site within the Casaverde neurological rehabilitation network'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Ospedale Casaverde a Mutxamel con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.',
+      en: 'A Casaverde hospital in Mutxamel with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'casaverde-extremadura',
+    name: 'Hospital Casaverde Extremadura',
+    country: 'Spain',
+    city: 'Mérida', region: 'Extremadura', lat: 38.9161, lng: -6.3437,
+    address: 'Mérida, Extremadura',
+    url: 'https://casaverdeneuro.com/centros/extremadura/hospital-casaverde-extremadura/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación neurológica', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 83,
+    researchHighlights: ['Official Casaverde Neuro hospital page', 'Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence', 'Hospital site within the Casaverde neurological rehabilitation network'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Ospedale Casaverde in Estremadura con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.',
+      en: 'A Casaverde hospital in Extremadura with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'casaverde-madrid',
+    name: 'Centro Casaverde Madrid',
+    country: 'Spain',
+    city: 'Madrid', region: 'Community of Madrid', lat: 40.4168, lng: -3.7038,
+    address: 'Madrid, Community of Madrid',
+    url: 'https://casaverdeneuro.com/centros/madrid/centro-casaverde-madrid/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['outpatient', 'day clinic'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación neurológica', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 81,
+    researchHighlights: ['Official Casaverde Neuro centre page', 'Matched neurorrehabilitation, neurological rehabilitation, stroke and Parkinson evidence', 'Madrid centre within the Casaverde neurological rehabilitation network'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Centro Casaverde a Madrid con evidenze ufficiali di neuroriabilitazione, riabilitazione neurologica, ictus e Parkinson.',
+      en: 'A Casaverde centre in Madrid with official evidence for neurorehabilitation, neurological rehabilitation, stroke, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'casaverde-valladolid',
+    name: 'Hospital Casaverde Valladolid',
+    country: 'Spain',
+    city: 'Valladolid', region: 'Castile and León', lat: 41.6523, lng: -4.7245,
+    address: 'Valladolid, Castile and León',
+    url: 'https://casaverdeneuro.com/centros/valladolid/hospital-casaverde-valladolid/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación neurológica', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 82,
+    researchHighlights: ['Official Casaverde Neuro hospital page', 'Matched neurological rehabilitation, stroke and Parkinson evidence', 'Hospital site within the Casaverde neurological rehabilitation network'],
+    features: ['rehabilitation'],
+    description: {
+      it: 'Ospedale Casaverde a Valladolid con evidenze ufficiali di riabilitazione neurologica, ictus e Parkinson.',
+      en: 'A Casaverde hospital in Valladolid with official evidence for neurological rehabilitation, stroke, and Parkinson disease.'
+    }
+  },
+  {
+    id: 'aita-menni-hospital-arrasate',
+    name: 'Ospitalarioak Fundazioa Euskadi - Hospital Aita Menni',
+    country: 'Spain',
+    city: 'Arrasate/Mondragón', region: 'Basque Country', lat: 43.0644, lng: -2.4898,
+    address: 'Barrio Gesalibar 15, 20500 Arrasate/Mondragón',
+    url: 'https://ospitalarioakfundazioaeuskadi.org/es/centro/hospital-aita-menni/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación multidisciplinar', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 90,
+    researchHighlights: ['Official Ospitalarioak brain-injury centre page', 'Hospitalization unit for multidisciplinary rehabilitation of severe neurological sequelae', 'Page lists brain injury, stroke, cranial trauma and outpatient neurological rehabilitation'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Ospedale Aita Menni ad Arrasate/Mondragón con unità di ricovero e riabilitazione ambulatoriale per danno cerebrale, ictus e trauma cranico.',
+      en: 'Aita Menni hospital in Arrasate/Mondragón with inpatient and outpatient rehabilitation for brain injury, stroke, and cranial trauma.'
+    }
+  },
+  {
+    id: 'aita-menni-musakola',
+    name: 'Ospitalarioak Fundazioa Euskadi - Centro Musakola',
+    country: 'Spain',
+    city: 'Arrasate/Mondragón', region: 'Basque Country', lat: 43.0644, lng: -2.4898,
+    address: 'C/ Notario Etxagibel 1, 20500 Arrasate/Mondragón',
+    url: 'https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-musakola/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['day clinic', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurorrehabilitación', 'Centro de día de daño cerebral', 'Fisioterapia', 'Terapia ocupacional', 'Neuropsicología'],
+    completeness: 84,
+    researchHighlights: ['Official Ospitalarioak filtered brain-injury centre list', 'Centre page states 30 day-centre places for people with brain injury', 'Official page lists a Centro de Día de Daño Cerebral'],
+    features: ['brain-injury', 'day-clinic'],
+    description: {
+      it: 'Centro Musakola ad Arrasate/Mondragón con centro diurno per persone con danno cerebrale e neuroriabilitazione.',
+      en: 'Centro Musakola in Arrasate/Mondragón with a day centre for people with brain injury and neurorehabilitation.'
+    }
+  },
+  {
+    id: 'aita-menni-bilbao-neurorrehab',
+    name: 'Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación Bilbao',
+    country: 'Spain',
+    city: 'Bilbao', region: 'Basque Country', lat: 43.2583, lng: -2.9375,
+    address: 'Calle Egaña 10, 48010 Bilbao', phone: '+34 944 434 927',
+    url: 'https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-bilbao/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['outpatient', 'day clinic'], access: ['public', 'private'],
+    disciplines: ['Neurorrehabilitación', 'Rehabilitación ambulatoria', 'Rehabilitación infantil', 'Fisioterapia', 'Logopedia', 'Neuropsicología'],
+    completeness: 91,
+    researchHighlights: ['Official Bilbao neurorehabilitation centre page', 'Specialized in rehabilitation of sequelae caused by acquired brain injury', 'Page lists stroke, cranioencephalic trauma, Parkinson, MS, ALS and child rehabilitation'],
+    features: ['brain-injury', 'pediatric', 'rehabilitation'],
+    description: {
+      it: 'Centro di neuroriabilitazione di Bilbao specializzato nel danno cerebrale acquisito, ictus, trauma cranico, malattie neurodegenerative e riabilitazione infantile.',
+      en: 'A Bilbao neurorehabilitation centre specializing in acquired brain injury, stroke, cranioencephalic trauma, neurodegenerative disease, and child rehabilitation.'
+    }
+  },
+  {
+    id: 'aita-menni-san-sebastian-neurorrehab',
+    name: 'Ospitalarioak Fundazioa Euskadi - Centro de Neurorrehabilitación San Sebastián',
+    country: 'Spain',
+    city: 'San Sebastián', region: 'Basque Country', lat: 43.3060, lng: -2.0140,
+    address: 'Parque Empresarial Zuatzu, Edificio Oria, C/ Zuatzu 8, 20018 San Sebastián', phone: '+34 943 224 401',
+    url: 'https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-aita-menni-san-sebastian/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['day clinic', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurorrehabilitación', 'Centro de día de daño cerebral', 'Fisioterapia', 'Terapia ocupacional', 'Neuropsicología'],
+    completeness: 86,
+    researchHighlights: ['Official San Sebastián neurorehabilitation centre page', 'Official page lists neurorehabilitation and brain injury', 'Centre page describes a day centre for people with neurological disability and personalized care programs'],
+    features: ['brain-injury', 'day-clinic'],
+    description: {
+      it: 'Centro di neuroriabilitazione a San Sebastián con centro diurno per danno cerebrale e programmi personalizzati per disabilità neurologica.',
+      en: 'A San Sebastián neurorehabilitation centre with a brain-injury day centre and personalized programs for neurological disability.'
+    }
+  },
+  {
+    id: 'bekoetxe-ifas-dano-cerebral',
+    name: 'IFAS - Centro de Día de Daño Cerebral Bekoetxe',
+    country: 'Spain',
+    city: 'Bilbao', region: 'Basque Country', lat: 43.2630, lng: -2.9350,
+    address: 'Calle Doctor Ornilla 1 B, 48004 Bilbao', phone: '+34 944 000 066',
+    url: 'https://ospitalarioakfundazioaeuskadi.org/es/centro/centro-dano-cerebral-bekoetxe-ifas/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['rehab'],
+    modes: ['day clinic'], access: ['public'],
+    disciplines: ['Neurorrehabilitación', 'Centro de día de daño cerebral', 'Neuropsicología', 'Fisioterapia', 'Terapia ocupacional'],
+    completeness: 82,
+    researchHighlights: ['Official Bekoetxe brain-injury day-centre page', 'Matched neurorehabilitation, brain injury and neuropsychology evidence', 'IFAS day-centre candidate in Bilbao'],
+    features: ['brain-injury', 'day-clinic'],
+    description: {
+      it: 'Centro diurno IFAS Bekoetxe a Bilbao per persone con danno cerebrale, con evidenze di neuroriabilitazione e neuropsicologia.',
+      en: 'The IFAS Bekoetxe day centre in Bilbao for people with brain injury, with evidence of neurorehabilitation and neuropsychology.'
+    }
+  },
+  {
     id: 'schmieder-heidelberg',
     name: 'Kliniken Schmieder Heidelberg',
     country: 'Germany',
