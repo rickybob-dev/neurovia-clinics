@@ -1140,6 +1140,46 @@
       "sourceType": "poland-first-pass-official-seed",
       "discoverySource": "official Constance Care rehabilitation centre site",
       "needles": ["rehabilitacja neurologiczna", "rehabilitacji po udarze", "urazach czaszkowo-mózgowych", "urazach rdzenia kręgowego", "stwardnienie rozsiane", "choroba Parkinsona"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Specijalna bolnica za medicinsku rehabilitaciju Krapinske Toplice",
+      "city": "Krapinske Toplice",
+      "region": "Krapina-Zagorje County",
+      "url": "https://www.sbkt.hr/KT/odjel-rehabilitaciju-kraniocerebralnih-bolesnika-akutnu-neurologiju/",
+      "sourceType": "croatia-first-pass-official-seed",
+      "discoverySource": "official Krapinske Toplice special rehabilitation hospital neurorehabilitation pages",
+      "needles": ["medicinsku rehabilitaciju kraniocerebralnih bolesnika", "akutnu neurologiju", "Neurološka rehabilitacija", "moždanog udara", "robotski potpomognuta rehabilitacija", "virtualne stvarnosti"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Specijalna bolnica za medicinsku rehabilitaciju Varaždinske Toplice",
+      "city": "Varaždinske Toplice",
+      "region": "Varaždin County",
+      "url": "https://www.minerva.hr/odjel-za-rehabilitaciju-neuroloskih-bolesnika/",
+      "sourceType": "croatia-first-pass-official-seed",
+      "discoverySource": "official Varaždinske Toplice neurological-patient rehabilitation department page",
+      "needles": ["Odjel za rehabilitaciju neuroloških bolesnika", "neurološkim bolestima", "neurorehabilitaciju", "središnjeg ili perifernog živčanog sustava", "neuromišičnim oboljenjima", "moždanih udara"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Poliklinika Glavić Zagreb",
+      "city": "Zagreb",
+      "region": "City of Zagreb",
+      "url": "https://www.poliklinika-glavic.hr/poliklinika-zagreb-usluge/neurorehabilitacija-robotikom",
+      "sourceType": "croatia-first-pass-official-seed",
+      "discoverySource": "official Poliklinika Glavić Zagreb robotic neurorehabilitation page",
+      "needles": ["Robotska neurorehabilitacija", "neurorehabilitacija robotikom", "Moždani udar", "Multipla skleroza", "Ozljede kralježničke moždine", "Traumatske ozljede mozga"]
+    },
+    {
+      "country": "Croatia",
+      "name": "Poliklinika Glavić Dubrovnik",
+      "city": "Dubrovnik",
+      "region": "Dubrovnik-Neretva County",
+      "url": "https://www.poliklinika-glavic.hr/poliklinika-dubrovnik-usluge",
+      "sourceType": "croatia-first-pass-official-seed",
+      "discoverySource": "official Poliklinika Glavić Dubrovnik services page",
+      "needles": ["Robotska neurorehabilitacija", "neurorehabilitacija robotikom", "Moždani udar", "Multipla skleroza", "Ozljede kralježničke moždine", "Traumatske ozljede mozga"]
     }
   ],
   "searchResults": [],

@@ -20,7 +20,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "evidence": "revalidatie | neurolog | neuro | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -31,7 +31,6 @@
         "neuro"
       ],
       "institution": [
-        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -78,6 +77,234 @@
     "title": "Revalidatieziekenhuis RevArte - MKL"
   },
   {
+    "name": "Poliklinika Glavić Dubrovnik",
+    "country": "Croatia",
+    "city": "Dubrovnik",
+    "region": "Dubrovnik-Neretva County",
+    "url": "https://www.poliklinika-glavic.hr/poliklinika-dubrovnik-usluge",
+    "sourceType": "curated-dataset | croatia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Poliklinika Glavić Dubrovnik services page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Dubrovnik services page lists robotic neurorehabilitation and a neurological clinic",
+      "Official text describes treatment and rehabilitation of neurological patients in Dubrovnik and Zagreb",
+      "Official indication list includes stroke, multiple sclerosis, spinal cord injuries, traumatic brain injuries, neuropathy and paraplegia",
+      "Poliklinika Glavić’s Dubrovnik site, providing robotic neurorehabilitation for stroke, brain injury, spinal injury, MS and neuropathy.",
+      "Sede di Dubrovnik della Poliklinika Glavić con neurorehabilitacija robotikom per ictus, trauma cranico, lesione midollare, MS e neuropatie.",
+      "Robotska neurorehabilitacija",
+      "neurorehabilitacija robotikom",
+      "Moždani udar",
+      "Multipla skleroza",
+      "Ozljede kralježničke moždine",
+      "Traumatske ozljede mozga"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.poliklinika-glavic.hr/poliklinika-dubrovnik-usluge",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Robotska neurorehabilitacija | neurorehabilitacija robotikom | Moždani udar | Multipla skleroza | Ozljede kralježničke moždine | Traumatske ozljede mozga | neurorehabilitacija | robotska neurorehabilitacija | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | moždani udar | moždanog udara | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitacija",
+        "robotska neurorehabilitacija",
+        "neurorehabilitacija robotikom"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždani udar",
+        "moždanog udara",
+        "spinal",
+        "kralježničke moždine",
+        "ozljede kralježničke moždine",
+        "traumatske ozljede mozga",
+        "multipla skleroza",
+        "živčanog sustava",
+        "neurološkim bolestima",
+        "paraplegija"
+      ],
+      "institution": [
+        "klinik",
+        "klinika",
+        "poliklinika"
+      ]
+    },
+    "title": "Poliklinika Glavić - Dubrovnik"
+  },
+  {
+    "name": "Poliklinika Glavić Zagreb",
+    "country": "Croatia",
+    "city": "Zagreb",
+    "region": "City of Zagreb",
+    "url": "https://www.poliklinika-glavic.hr/poliklinika-zagreb-usluge/neurorehabilitacija-robotikom",
+    "sourceType": "curated-dataset | croatia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Poliklinika Glavić Zagreb robotic neurorehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Zagreb page describes a robotic neurorehabilitation centre and reference centre for South-East Europe",
+      "Official indication list includes stroke, multiple sclerosis, spinal cord injuries, traumatic brain injuries, neuropathy and paraplegia",
+      "Official page lists Lokomat, Armeo Spring, Pablo, Amadeo and other robotic neurorehabilitation devices",
+      "A private Zagreb robotic neurorehabilitation centre with Lokomat and related technologies for stroke, spinal injury, brain injury, MS and neuropathy.",
+      "Centro privato a Zagabria per neurorehabilitacija robotikom, con Lokomat e tecnologie per ictus, lesione midollare, trauma cranico, MS e neuropatie.",
+      "Robotska neurorehabilitacija",
+      "neurorehabilitacija robotikom",
+      "Moždani udar",
+      "Multipla skleroza",
+      "Ozljede kralježničke moždine",
+      "Traumatske ozljede mozga"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.poliklinika-glavic.hr/poliklinika-zagreb-usluge/neurorehabilitacija-robotikom",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Robotska neurorehabilitacija | neurorehabilitacija robotikom | Moždani udar | Multipla skleroza | Ozljede kralježničke moždine | Traumatske ozljede mozga | neurorehabilitacija | robotska neurorehabilitacija | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | moždani udar | moždanog udara | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitacija",
+        "robotska neurorehabilitacija",
+        "neurorehabilitacija robotikom"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždani udar",
+        "moždanog udara",
+        "kralježničke moždine",
+        "ozljede kralježničke moždine",
+        "traumatske ozljede mozga",
+        "multipla skleroza",
+        "živčanog sustava",
+        "paraplegija"
+      ],
+      "institution": [
+        "klinik",
+        "klinika",
+        "poliklinika"
+      ]
+    },
+    "title": "Poliklinika Glavić - Neurorehabilitacija robotikom"
+  },
+  {
+    "name": "Specijalna bolnica za medicinsku rehabilitaciju Krapinske Toplice",
+    "country": "Croatia",
+    "city": "Krapinske Toplice",
+    "region": "Krapina-Zagorje County",
+    "url": "https://www.sbkt.hr/KT/odjel-rehabilitaciju-kraniocerebralnih-bolesnika-akutnu-neurologiju",
+    "sourceType": "curated-dataset | croatia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Krapinske Toplice special rehabilitation hospital neurorehabilitation pages",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site lists departments for neurological-patient rehabilitation and cranio-cerebral patient rehabilitation with acute neurology",
+      "Official cranio-cerebral department page lists 45 rehabilitation beds plus acute neurology beds",
+      "Official page describes multidisciplinary neurorehabilitation, brain-injury care, stroke neurology, robotic gait/hand rehabilitation and VR",
+      "A Croatian special rehabilitation hospital for neurorehabilitation, brain injury, stroke and acute neurology, with robot-assisted and VR rehabilitation.",
+      "Ospedale speciale croato per neuroriabilitazione, trauma cranico, ictus e neurologia acuta, con riabilitazione robot-assistita e VR.",
+      "medicinsku rehabilitaciju kraniocerebralnih bolesnika",
+      "akutnu neurologiju",
+      "Neurološka rehabilitacija",
+      "moždanog udara",
+      "robotski potpomognuta rehabilitacija",
+      "virtualne stvarnosti"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sbkt.hr/KT/odjel-rehabilitaciju-kraniocerebralnih-bolesnika-akutnu-neurologiju",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "medicinsku rehabilitaciju kraniocerebralnih bolesnika | akutnu neurologiju | Neurološka rehabilitacija | moždanog udara | robotski potpomognuta rehabilitacija | virtualne stvarnosti | neurološka rehabilitacija | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | kraniocerebralnih | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurološka rehabilitacija"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždanog udara",
+        "kraniocerebralnih",
+        "ozljedom mozga"
+      ],
+      "institution": [
+        "klinik",
+        "klinika",
+        "poliklinika",
+        "bolnica",
+        "odjel"
+      ]
+    },
+    "title": "Odjel za medicinsku rehabilitaciju kraniocerebralnih bolesnika i akutnu neurologiju - sbkt.hr"
+  },
+  {
+    "name": "Specijalna bolnica za medicinsku rehabilitaciju Varaždinske Toplice",
+    "country": "Croatia",
+    "city": "Varaždinske Toplice",
+    "region": "Varaždin County",
+    "url": "https://www.minerva.hr/odjel-za-rehabilitaciju-neuroloskih-bolesnika",
+    "sourceType": "curated-dataset | croatia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Varaždinske Toplice neurological-patient rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page lists a dedicated department for rehabilitation of neurological patients",
+      "Official text covers central and peripheral nervous-system damage plus neuromuscular conditions",
+      "Official site also references a national rehabilitation centre project for spinal-cord diseases and impairments",
+      "A Varaždinske Toplice special hospital with a department for neurological-patient rehabilitation, multidisciplinary care and neurological/spinal pathways.",
+      "Ospedale speciale di Varaždinske Toplice con reparto per riabilitazione di pazienti neurologici, team multidisciplinare e percorsi neurologici/spinali.",
+      "Odjel za rehabilitaciju neuroloških bolesnika",
+      "neurološkim bolestima",
+      "neurorehabilitaciju",
+      "središnjeg ili perifernog živčanog sustava",
+      "neuromišičnim oboljenjima",
+      "moždanih udara"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.minerva.hr/odjel-za-rehabilitaciju-neuroloskih-bolesnika",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Odjel za rehabilitaciju neuroloških bolesnika | neurološkim bolestima | neurorehabilitaciju | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | spinal | kralježnične moždine | bolnica | odjel",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal",
+        "kralježnične moždine",
+        "oštećenjima kralježnične moždine",
+        "neurološkim bolestima"
+      ],
+      "institution": [
+        "bolnica",
+        "odjel"
+      ]
+    },
+    "title": "Odjel za rehabilitaciju neuroloških bolesnika | Specijalna bolnica za medicinsku rehabilitaciju Varaždinske Toplice"
+  },
+  {
     "name": "University Hospital Centre Zagreb",
     "country": "Croatia",
     "city": "Zagreb",
@@ -98,16 +325,18 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehab | neurolog | neuro | spinal | hospital | klinik",
+    "evidence": "rehab | rehabilitacije | neurolog | neuro | spinal | živčanog sustava | hospital | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
-        "rehab"
+        "rehab",
+        "rehabilitacije"
       ],
       "neurological": [
         "neurolog",
         "neuro",
-        "spinal"
+        "spinal",
+        "živčanog sustava"
       ],
       "institution": [
         "hospital",

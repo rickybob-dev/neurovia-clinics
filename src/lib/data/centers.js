@@ -2625,6 +2625,85 @@ export const centers = [
     }
   },
   {
+    id: 'sbkt-krapinske-toplice',
+    name: 'Specijalna bolnica za medicinsku rehabilitaciju Krapinske Toplice',
+    country: 'Croatia',
+    city: 'Krapinske Toplice', region: 'Krapina-Zagorje County', lat: 46.0934, lng: 15.8382,
+    address: 'Ulica Ljudevita Gaja 2, 49217 Krapinske Toplice', phone: '+385 49 383 100',
+    url: 'https://www.sbkt.hr/KT/odjel-rehabilitaciju-kraniocerebralnih-bolesnika-akutnu-neurologiju/',
+    conditions: ['stroke', 'tbi', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'vr', 'gait'],
+    modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Neurološka rehabilitacija', 'Rehabilitacija kraniocerebralnih bolesnika', 'Akutna neurologija', 'Logopedija', 'Radna terapija', 'Fizioterapija'],
+    completeness: 93,
+    researchHighlights: ['Official site lists departments for neurological-patient rehabilitation and cranio-cerebral patient rehabilitation with acute neurology', 'Official cranio-cerebral department page lists 45 rehabilitation beds plus acute neurology beds', 'Official page describes multidisciplinary neurorehabilitation, brain-injury care, stroke neurology, robotic gait/hand rehabilitation and VR'],
+    robotNotes: ['Official page references robot-assisted gait and hand rehabilitation plus virtual-reality rehabilitation.'],
+    features: ['brain-injury', 'robotics', 'early-rehab'],
+    description: {
+      it: 'Ospedale speciale croato per neuroriabilitazione, trauma cranico, ictus e neurologia acuta, con riabilitazione robot-assistita e VR.',
+      en: 'A Croatian special rehabilitation hospital for neurorehabilitation, brain injury, stroke and acute neurology, with robot-assisted and VR rehabilitation.'
+    }
+  },
+  {
+    id: 'varazdinske-toplice-neurorehab',
+    name: 'Specijalna bolnica za medicinsku rehabilitaciju Varaždinske Toplice',
+    country: 'Croatia',
+    city: 'Varaždinske Toplice', region: 'Varaždin County', lat: 46.2108, lng: 16.4185,
+    address: 'Trg sv. Martina 1, 42223 Varaždinske Toplice', phone: '+385 42 630 000',
+    url: 'https://www.minerva.hr/odjel-za-rehabilitaciju-neuroloskih-bolesnika/',
+    conditions: ['stroke', 'spinal', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Odjel za rehabilitaciju neuroloških bolesnika', 'Fizijatrija', 'Neurologija', 'Fizioterapija', 'Radna terapija', 'Logopedija', 'Psihologija'],
+    completeness: 89,
+    researchHighlights: ['Official page lists a dedicated department for rehabilitation of neurological patients', 'Official text covers central and peripheral nervous-system damage plus neuromuscular conditions', 'Official site also references a national rehabilitation centre project for spinal-cord diseases and impairments'],
+    features: ['spinal-cord', 'stroke', 'rehabilitation'],
+    description: {
+      it: 'Ospedale speciale di Varaždinske Toplice con reparto per riabilitazione di pazienti neurologici, team multidisciplinare e percorsi neurologici/spinali.',
+      en: 'A Varaždinske Toplice special hospital with a department for neurological-patient rehabilitation, multidisciplinary care and neurological/spinal pathways.'
+    }
+  },
+  {
+    id: 'poliklinika-glavic-zagreb',
+    name: 'Poliklinika Glavić Zagreb',
+    country: 'Croatia',
+    city: 'Zagreb', region: 'City of Zagreb', lat: 45.8135, lng: 15.9937,
+    address: 'Ulica Marijana Derenčina 3, Zagreb', phone: '+385 20 435 565',
+    url: 'https://www.poliklinika-glavic.hr/poliklinika-zagreb-usluge/neurorehabilitacija-robotikom',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'],
+    modes: ['outpatient'], access: ['private'],
+    disciplines: ['Robotska neurorehabilitacija', 'Neurološka ordinacija', 'Lokomat', 'Armeo Spring', 'Pablo', 'Amadeo', 'Konvencionalna neurorehabilitacija'],
+    completeness: 91,
+    researchHighlights: ['Official Zagreb page describes a robotic neurorehabilitation centre and reference centre for South-East Europe', 'Official indication list includes stroke, multiple sclerosis, spinal cord injuries, traumatic brain injuries, neuropathy and paraplegia', 'Official page lists Lokomat, Armeo Spring, Pablo, Amadeo and other robotic neurorehabilitation devices'],
+    robotNotes: ['Official page lists Lokomat, Armeo Spring, Pablo, Tymo, Amadeo and other robotic-assisted therapy devices.'],
+    features: ['robotics', 'spinal-cord', 'brain-injury'],
+    description: {
+      it: 'Centro privato a Zagabria per neurorehabilitacija robotikom, con Lokomat e tecnologie per ictus, lesione midollare, trauma cranico, MS e neuropatie.',
+      en: 'A private Zagreb robotic neurorehabilitation centre with Lokomat and related technologies for stroke, spinal injury, brain injury, MS and neuropathy.'
+    }
+  },
+  {
+    id: 'poliklinika-glavic-dubrovnik',
+    name: 'Poliklinika Glavić Dubrovnik',
+    country: 'Croatia',
+    city: 'Dubrovnik', region: 'Dubrovnik-Neretva County', lat: 42.6583, lng: 18.0845,
+    address: 'Ćira Carića 3, 20000 Dubrovnik', phone: '+385 20 435 565',
+    url: 'https://www.poliklinika-glavic.hr/poliklinika-dubrovnik-usluge',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'],
+    modes: ['outpatient'], access: ['private'],
+    disciplines: ['Robotska neurorehabilitacija', 'Neurološka ordinacija', 'Lokomat', 'Neurologija', 'Fizikalna medicina i rehabilitacija'],
+    completeness: 90,
+    researchHighlights: ['Official Dubrovnik services page lists robotic neurorehabilitation and a neurological clinic', 'Official text describes treatment and rehabilitation of neurological patients in Dubrovnik and Zagreb', 'Official indication list includes stroke, multiple sclerosis, spinal cord injuries, traumatic brain injuries, neuropathy and paraplegia'],
+    robotNotes: ['Official Poliklinika Glavić pages reference Lokomat and other robotic neurorehabilitation equipment.'],
+    features: ['robotics', 'spinal-cord', 'brain-injury'],
+    description: {
+      it: 'Sede di Dubrovnik della Poliklinika Glavić con neurorehabilitacija robotikom per ictus, trauma cranico, lesione midollare, MS e neuropatie.',
+      en: 'Poliklinika Glavić’s Dubrovnik site, providing robotic neurorehabilitation for stroke, brain injury, spinal injury, MS and neuropathy.'
+    }
+  },
+  {
     id: 'uclh-queen-square-london',
     name: 'National Hospital for Neurology and Neurosurgery',
     country: 'United Kingdom',
