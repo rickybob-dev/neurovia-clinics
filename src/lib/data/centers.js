@@ -2289,6 +2289,134 @@ export const centers = [
     }
   },
   {
+    id: 'rehab-basel-neurorehabilitation',
+    name: 'REHAB Basel',
+    country: 'Switzerland',
+    city: 'Basel', region: 'Basel-Stadt', lat: 47.5708, lng: 7.5596,
+    address: 'Im Burgfelderhof 40, 4055 Basel', phone: '+41 61 325 00 00',
+    url: 'https://www.rehab.ch/en/medical-services/neurorehabilitation',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'insurance'],
+    disciplines: ['Neurorehabilitation', 'Neurological rehabilitation', 'Paraplegiology', 'Neuropsychology', 'Speech therapy'],
+    completeness: 93,
+    researchHighlights: ['Official REHAB Basel neurorehabilitation page', 'Matched traumatic or illness-related brain damage, motor, speech and mental ability evidence', 'Clinic describes itself as a clinic for neurorehabilitation and paraplegiology'],
+    features: ['brain-injury', 'spinal-cord', 'early-rehab'],
+    description: {
+      it: 'Clinica di Basilea per neuroriabilitazione e paraplegiologia, con presa in carico di danni cerebrali traumatici o da malattia e servizi ambulatoriali.',
+      en: 'A Basel clinic for neurorehabilitation and paraplegiology, treating traumatic or illness-related brain damage with inpatient and outpatient pathways.'
+    }
+  },
+  {
+    id: 'crr-suva-sion-neuroreadaptation',
+    name: 'Clinique romande de réadaptation',
+    country: 'Switzerland',
+    city: 'Sion', region: 'Valais', lat: 46.2314, lng: 7.3860,
+    address: 'Avenue Grand-Champsec 90, 1950 Sion', phone: '+41 27 603 30 30',
+    url: 'https://www.crr-suva.ch/clinique-readaptation/readaptation-neurologie-118.html',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neuroréadaptation', 'Physiothérapie', 'Ergothérapie', 'Logopédie', 'Neuropsychologie', 'Réadaptation professionnelle'],
+    completeness: 90,
+    researchHighlights: ['Official CRR Sion neuroréadaptation page', 'Matched central and peripheral nervous-system rehabilitation evidence', 'Official page lists therapy, neuropsychology and brain-injury care evidence'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Clinica romanda di riadattamento a Sion con neuroriabilitazione per lesioni cerebrali e disturbi del sistema nervoso centrale o periferico.',
+      en: 'A Sion rehabilitation clinic with neurorehabilitation for brain lesions and central or peripheral nervous-system conditions.'
+    }
+  },
+  {
+    id: 'klinik-lengg-zurich',
+    name: 'Klinik Lengg',
+    country: 'Switzerland',
+    city: 'Zurich', region: 'Zurich', lat: 47.3530, lng: 8.5760,
+    address: 'Bleulerstrasse 60, 8008 Zürich', phone: '+41 44 387 67 67',
+    url: 'https://kliniklengg.ch/',
+    conditions: ['stroke', 'ms', 'parkinson', 'epilepsy', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'neuromodulation'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Epileptologie', 'Neuropsychologie', 'Medizinische Therapien', 'Robotikzentrum'],
+    completeness: 90,
+    researchHighlights: ['Official site calls Klinik Lengg a Zurich competence centre for epileptology and neurological rehabilitation', 'Official navigation lists Hirnschlag, multiple sclerosis and Parkinson services', 'Official page lists a Robotikzentrum within medical therapies'],
+    features: ['robotics', 'parkinson', 'epilepsy'],
+    description: {
+      it: 'Centro zurighese per epilettologia e riabilitazione neurologica, con Zürcher RehaZentrum Lengg, servizi per ictus, sclerosi multipla, Parkinson e robotica.',
+      en: 'A Zurich centre for epileptology and neurological rehabilitation, with services for stroke, multiple sclerosis, Parkinson and rehabilitation robotics.'
+    }
+  },
+  {
+    id: 'cereneo-vitznau',
+    name: 'cereneo',
+    country: 'Switzerland',
+    city: 'Vitznau', region: 'Lucerne', lat: 47.0106, lng: 8.4848,
+    address: 'Seestrasse 18, 6354 Vitznau', phone: '+41 41 399 67 00',
+    url: 'https://cereneo.ch/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'vr', 'tele', 'gait'], modes: ['inpatient', 'outpatient', 'home'], access: ['private', 'insurance'],
+    disciplines: ['Neurorehabilitation', 'Neurology', 'Inpatient rehabilitation', 'Home rehabilitation', 'Online rehabilitation', 'Therapy'],
+    completeness: 91,
+    researchHighlights: ['Official cereneo page describes a Swiss neurorehabilitation clinic', 'Matched stroke, Parkinson, multiple sclerosis and traumatic brain injury evidence', 'Official page lists inpatient, home and online rehabilitation'],
+    robotNotes: ['Official page references robotics, VR games and technology-supported treatment methods.'],
+    features: ['robotics', 'tele-rehab', 'research'],
+    description: {
+      it: 'Clinica svizzera di neurorehabilitation con sedi sul Lago dei Quattro Cantoni, programmi personalizzati per ictus, Parkinson, MS e trauma cranico, anche a casa e online.',
+      en: 'A Swiss neurorehabilitation clinic on Lake Lucerne with personalized programmes for stroke, Parkinson, MS and traumatic brain injury, including home and online rehabilitation.'
+    }
+  },
+  {
+    id: 'clinica-hildebrand-brissago',
+    name: 'Clinica Hildebrand Centro di riabilitazione Brissago',
+    country: 'Switzerland',
+    city: 'Brissago', region: 'Ticino', lat: 46.1206, lng: 8.7095,
+    address: 'Via Crodolo 18, 6614 Brissago', phone: '+41 91 786 86 86',
+    url: 'https://www.clinica-hildebrand.ch/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Riabilitazione neurologica', 'Fisioterapia', 'Ergoterapia', 'Logopedia', 'Neuropsicologia'],
+    completeness: 89,
+    researchHighlights: ['Official Clinica Hildebrand site lists riabilitazione neurologica', 'Matched stroke, traumatic brain injury, multiple sclerosis, Parkinson and spinal cord pathology evidence', 'Official page distinguishes neurological rehabilitation from orthopaedic rehabilitation'],
+    features: ['brain-injury', 'spinal-cord', 'parkinson'],
+    description: {
+      it: 'Centro ticinese di riabilitazione neurologica per ictus, trauma cranico, sclerosi multipla, Parkinson, patologie del midollo spinale e neuropatie.',
+      en: 'A Ticino neurological rehabilitation centre for stroke, brain injury, multiple sclerosis, Parkinson, spinal cord pathologies and neuropathies.'
+    }
+  },
+  {
+    id: 'rehaklinik-bellikon-neuro',
+    name: 'Rehaklinik Bellikon',
+    country: 'Switzerland',
+    city: 'Bellikon', region: 'Aargau', lat: 47.3898, lng: 8.3446,
+    address: 'Mutschellenstrasse 2, 5454 Bellikon', phone: '+41 56 485 51 11',
+    url: 'https://www.rehabellikon.ch/neurologische-rehabilitation',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Traumatische Hirnverletzung', 'Schlaganfall/Hirnblutung', 'Tages-Rehabilitation', 'Neuropsychologisches Assessment'],
+    completeness: 88,
+    researchHighlights: ['Official Rehaklinik Bellikon neurological rehabilitation page', 'Matched brain injury, traumatic brain injury and stroke/brain haemorrhage evidence', 'Official page lists inpatient, day-rehabilitation and outpatient specialist consultation pathways'],
+    features: ['brain-injury', 'stroke', 'vocational-reintegration'],
+    description: {
+      it: 'Clinica riabilitativa in Argovia con riabilitazione neurologica per lesioni cerebrali, trauma cranico, ictus/emorragia cerebrale e reintegrazione.',
+      en: 'An Aargau rehabilitation clinic with neurological rehabilitation for brain injury, traumatic brain injury, stroke/brain haemorrhage and reintegration.'
+    }
+  },
+  {
+    id: 'clinique-valmont-glion',
+    name: 'Clinique Valmont',
+    country: 'Switzerland',
+    city: 'Glion sur Montreux', region: 'Vaud', lat: 46.4263, lng: 6.9309,
+    address: 'Route de Valmont, 1823 Glion sur Montreux', phone: '+41 21 962 35 35',
+    url: 'https://www.swissmedical.net/fr/hopitaux/valmont',
+    conditions: ['stroke', 'ms', 'parkinson', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'gait'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Rééducation neurologique', 'Neurologie', 'Neuropsychologie', 'Ergothérapie', 'Logopédie', 'Physiothérapie'],
+    completeness: 88,
+    researchHighlights: ['Official Swiss Medical Network page lists rééducation neurologique', 'Matched AVC, Parkinson and neuropsychology evidence', 'Official structured data lists neurological rehabilitation services and devices including MindMotion, REAplan and Lyra Gait'],
+    robotNotes: ['Official structured data lists MindMotion, REAplan and Lyra Gait.'],
+    features: ['robotics', 'gait-training', 'parkinson'],
+    description: {
+      it: 'Clinica di riabilitazione a Glion con rieducazione neurologica per AVC, Parkinson, sclerosi multipla e neuropsicologia, con tecnologie di supporto al cammino e agli arti superiori.',
+      en: 'A Glion rehabilitation clinic with neurological rehabilitation for stroke, Parkinson, multiple sclerosis and neuropsychology, supported by gait and upper-limb technologies.'
+    }
+  },
+  {
     id: 'sankt-rochus-bad-schonborn',
     name: 'Sankt Rochus Kliniken',
     country: 'Germany',

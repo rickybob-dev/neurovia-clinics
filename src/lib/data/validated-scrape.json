@@ -3718,23 +3718,20 @@
       "servicios de atención directa"
     ],
     "status": 200,
-    "finalUrl": "https://ceadac.imserso.es/web/ceadac",
-    "contentType": "text/html;charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | centro",
+    "finalUrl": "https://ceadac.imserso.es/",
+    "contentType": "text/html",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitación"
-      ],
+      "rehabilitation": [],
       "neurological": [],
       "institution": [
         "centro"
       ]
     },
-    "title": "Inicio - CEADAC - Instituto de Mayores y Servicios Sociales"
+    "title": "Instituto de Mayores y Servicios Sociales - Página mantenimiento"
   },
   {
     "name": "Centro Casaverde Madrid",
@@ -4770,6 +4767,248 @@
     "title": "Balgrist University Hospital: Balgrist University Hospital"
   },
   {
+    "name": "cereneo",
+    "country": "Switzerland",
+    "city": "Vitznau",
+    "region": "Lucerne",
+    "url": "https://cereneo.ch/",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official cereneo neurorehabilitation clinic site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official cereneo page describes a Swiss neurorehabilitation clinic",
+      "Matched stroke, Parkinson, multiple sclerosis and traumatic brain injury evidence",
+      "Official page lists inpatient, home and online rehabilitation",
+      "A Swiss neurorehabilitation clinic on Lake Lucerne with personalized programmes for stroke, Parkinson, MS and traumatic brain injury, including home and online rehabilitation.",
+      "Clinica svizzera di neurorehabilitation con sedi sul Lago dei Quattro Cantoni, programmi personalizzati per ictus, Parkinson, MS e trauma cranico, anche a casa e online.",
+      "Neurorehabilitation",
+      "Schlaganfall",
+      "Parkinson",
+      "Multiple Sklerose",
+      "traumatische Hirnverletzung",
+      "Stationäre Rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://cereneo.ch/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurorehabilitation | Schlaganfall | Parkinson | Multiple Sklerose | traumatische Hirnverletzung | Stationäre Rehabilitation | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | parkinson | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "cereneo - Ein ganzheitliches Konzept für die Neuroreha­bilitation"
+  },
+  {
+    "name": "Clinica Hildebrand Centro di riabilitazione Brissago",
+    "country": "Switzerland",
+    "city": "Brissago",
+    "region": "Ticino",
+    "url": "https://www.clinica-hildebrand.ch/",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Clinica Hildebrand site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Clinica Hildebrand site lists riabilitazione neurologica",
+      "Matched stroke, traumatic brain injury, multiple sclerosis, Parkinson and spinal cord pathology evidence",
+      "Official page distinguishes neurological rehabilitation from orthopaedic rehabilitation",
+      "A Ticino neurological rehabilitation centre for stroke, brain injury, multiple sclerosis, Parkinson, spinal cord pathologies and neuropathies.",
+      "Centro ticinese di riabilitazione neurologica per ictus, trauma cranico, sclerosi multipla, Parkinson, patologie del midollo spinale e neuropatie.",
+      "RIABILITAZIONE NEUROLOGICA",
+      "Patologie cerebrovascolari",
+      "Trauma cranico",
+      "Sclerosi multipla",
+      "Malattia di Parkinson",
+      "Patologie del midollo spinale"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.clinica-hildebrand.ch/index.html",
+    "contentType": "text/html",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "RIABILITAZIONE NEUROLOGICA | Patologie cerebrovascolari | Trauma cranico | Sclerosi multipla | Malattia di Parkinson | Patologie del midollo spinale | riabilitazione neurologica | riabilitazione | neurolog | neuro | ictus | spinal | clinic | centro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "riabilitazione neurologica"
+      ],
+      "rehabilitation": [
+        "riabilitazione"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "ictus",
+        "spinal",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "centro"
+      ]
+    },
+    "title": "Clinica Hildebrand Brissago - Benvenuti a Brissago"
+  },
+  {
+    "name": "Clinique romande de réadaptation",
+    "country": "Switzerland",
+    "city": "Sion",
+    "region": "Valais",
+    "url": "https://www.crr-suva.ch/clinique-readaptation/readaptation-neurologie-118.html",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official CRR Sion neuroréadaptation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official CRR Sion neuroréadaptation page",
+      "Matched central and peripheral nervous-system rehabilitation evidence",
+      "Official page lists therapy, neuropsychology and brain-injury care evidence",
+      "A Sion rehabilitation clinic with neurorehabilitation for brain lesions and central or peripheral nervous-system conditions.",
+      "Clinica romanda di riadattamento a Sion con neuroriabilitazione per lesioni cerebrali e disturbi del sistema nervoso centrale o periferico.",
+      "Neuroréadaptation",
+      "système nerveux central",
+      "système nerveux périphérique",
+      "lésions cérébrales",
+      "neuropsychologie",
+      "patients cérébro-lésés"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.crr-suva.ch/clinique-readaptation/neuroreadaptation-118.html",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuroréadaptation | système nerveux central | lésions cérébrales | neuropsychologie | patients cérébro-lésés | réadaptation | neuro | centre | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "réadaptation"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": [
+        "centre",
+        "center"
+      ]
+    },
+    "title": "Neuror adaptation :: Clinique romande de r adaptation :: Sion :: Valais"
+  },
+  {
+    "name": "Clinique Valmont",
+    "country": "Switzerland",
+    "city": "Glion sur Montreux",
+    "region": "Vaud",
+    "url": "https://www.swissmedical.net/fr/hopitaux/valmont",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Swiss Medical Network Clinique Valmont page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Swiss Medical Network page lists rééducation neurologique",
+      "Matched AVC, Parkinson and neuropsychology evidence",
+      "Official structured data lists neurological rehabilitation services and devices including MindMotion, REAplan and Lyra Gait",
+      "A Glion rehabilitation clinic with neurological rehabilitation for stroke, Parkinson, multiple sclerosis and neuropsychology, supported by gait and upper-limb technologies.",
+      "Clinica di riabilitazione a Glion con rieducazione neurologica per AVC, Parkinson, sclerosi multipla e neuropsicologia, con tecnologie di supporto al cammino e agli arti superiori.",
+      "Rééducation neurologique",
+      "AVC",
+      "Maladie de Parkinson",
+      "Sclérose en plaques",
+      "Neuropsychologie",
+      "Neuro-pédiatrie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.swissmedical.net/fr/hopitaux/valmont",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Rééducation neurologique | AVC | Maladie de Parkinson | Neuropsychologie | rééducation neurologique | rehabilitation | rehab | rééducation | réadaptation | neurolog | neuro | parkinson | avc | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rééducation neurologique"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson",
+        "avc",
+        "maladie de parkinson"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Clinique Valmont | Swiss Medical Network"
+  },
+  {
+    "name": "Klinik Lengg",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "region": "Zurich",
+    "url": "https://kliniklengg.ch/",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Klinik Lengg site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site calls Klinik Lengg a Zurich competence centre for epileptology and neurological rehabilitation",
+      "Official navigation lists Hirnschlag, multiple sclerosis and Parkinson services",
+      "Official page lists a Robotikzentrum within medical therapies",
+      "A Zurich centre for epileptology and neurological rehabilitation, with services for stroke, multiple sclerosis, Parkinson and rehabilitation robotics.",
+      "Centro zurighese per epilettologia e riabilitazione neurologica, con Zürcher RehaZentrum Lengg, servizi per ictus, sclerosi multipla, Parkinson e robotica.",
+      "neurologische Rehabilitation",
+      "Zürcher RehaZentrum Lengg",
+      "Hirnschlag",
+      "Multiple Sklerose",
+      "Morbus Parkinson",
+      "Robotikzentrum"
+    ],
+    "status": 200,
+    "finalUrl": "https://kliniklengg.ch/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neurologische Rehabilitation | Zürcher RehaZentrum Lengg | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "zentrum"
+      ]
+    },
+    "title": "Klinik Lengg | Startseite"
+  },
+  {
     "name": "Klinik Valens",
     "country": "Switzerland",
     "city": "Valens",
@@ -4811,6 +5050,104 @@
       ]
     },
     "title": "Startseite | Klinikgruppe Valens"
+  },
+  {
+    "name": "REHAB Basel",
+    "country": "Switzerland",
+    "city": "Basel",
+    "region": "Basel-Stadt",
+    "url": "https://www.rehab.ch/en/medical-services/neurorehabilitation",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official REHAB Basel neurorehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official REHAB Basel neurorehabilitation page",
+      "Matched traumatic or illness-related brain damage, motor, speech and mental ability evidence",
+      "Clinic describes itself as a clinic for neurorehabilitation and paraplegiology",
+      "A Basel clinic for neurorehabilitation and paraplegiology, treating traumatic or illness-related brain damage with inpatient and outpatient pathways.",
+      "Clinica di Basilea per neuroriabilitazione e paraplegiologia, con presa in carico di danni cerebrali traumatici o da malattia e servizi ambulatoriali.",
+      "Neurorehabilitation",
+      "traumatic or illness-related brain damage",
+      "motor skills",
+      "speech",
+      "mental ability",
+      "Klinik für Neurorehabilitation und Paraplegiologie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehab.ch/en/medical-services/neurorehabilitation",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurorehabilitation | traumatic or illness-related brain damage | motor skills | speech | mental ability | Klinik für Neurorehabilitation und Paraplegiologie | neurorehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | cerebral palsy | multiple sclerosis | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "cerebral palsy",
+        "multiple sclerosis"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "Neurorehabilitation - REHAB Basel"
+  },
+  {
+    "name": "Rehaklinik Bellikon",
+    "country": "Switzerland",
+    "city": "Bellikon",
+    "region": "Aargau",
+    "url": "https://www.rehabellikon.ch/neurologische-rehabilitation",
+    "sourceType": "curated-dataset | switzerland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Rehaklinik Bellikon neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Rehaklinik Bellikon neurological rehabilitation page",
+      "Matched brain injury, traumatic brain injury and stroke/brain haemorrhage evidence",
+      "Official page lists inpatient, day-rehabilitation and outpatient specialist consultation pathways",
+      "An Aargau rehabilitation clinic with neurological rehabilitation for brain injury, traumatic brain injury, stroke/brain haemorrhage and reintegration.",
+      "Clinica riabilitativa in Argovia con riabilitazione neurologica per lesioni cerebrali, trauma cranico, ictus/emorragia cerebrale e reintegrazione.",
+      "Neurologische Rehabilitation",
+      "Verletzungen des Gehirns",
+      "Mehrfachverletzung mit Hirnverletzung",
+      "Traumatische Hirnverletzung",
+      "Schlaganfall/Hirnblutung",
+      "Tages-Rehabilitation"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehabellikon.ch/neurologische-rehabilitation",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurologische Rehabilitation | Verletzungen des Gehirns | Mehrfachverletzung mit Hirnverletzung | Traumatische Hirnverletzung | Schlaganfall/Hirnblutung | Tages-Rehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologische rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic",
+        "klinik"
+      ]
+    },
+    "title": "Neurologische Rehabilitation - Rehaklinik Bellikon"
   },
   {
     "name": "Rehaklinik Tschugg",
@@ -5218,7 +5555,7 @@
     ],
     "status": 200,
     "finalUrl": "https://hollandenparkhospital.co.uk/",
-    "contentType": "text/html; charset=utf-8",
+    "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
@@ -6069,13 +6406,29 @@
       "outpatient",
       "NHS"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.cntw.nhs.uk/locations/walkergate-park",
-    "title": "",
-    "evidence": "This operation was aborted; curl fallback failed: curl: (28) Operation timed out after 15006 milliseconds with 0 bytes received",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Walkergate Park | Neurorehabilitation | rehabilitation | inpatient | outpatient | NHS | neurorehabilitation | rehab | neurolog | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Walkergate Park :: Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust"
   },
   {
     "name": "Brooks Rehabilitation",

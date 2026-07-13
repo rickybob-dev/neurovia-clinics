@@ -1020,6 +1020,76 @@
       "sourceType": "italy-first-pass-official-seed",
       "discoverySource": "official Fondazione Turati Vieste rehabilitation centre page",
       "needles": ["riabilitazione", "neurologica", "neuromotorie", "residenziale", "ambulatoriale", "Sistema Sanitario Nazionale"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "REHAB Basel",
+      "city": "Basel",
+      "region": "Basel-Stadt",
+      "url": "https://www.rehab.ch/en/medical-services/neurorehabilitation",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official REHAB Basel neurorehabilitation page",
+      "needles": ["Neurorehabilitation", "traumatic or illness-related brain damage", "motor skills", "speech", "mental ability", "Klinik für Neurorehabilitation und Paraplegiologie"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "Clinique romande de réadaptation",
+      "city": "Sion",
+      "region": "Valais",
+      "url": "https://www.crr-suva.ch/clinique-readaptation/readaptation-neurologie-118.html",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official CRR Sion neuroréadaptation page",
+      "needles": ["Neuroréadaptation", "système nerveux central", "système nerveux périphérique", "lésions cérébrales", "neuropsychologie", "patients cérébro-lésés"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "Klinik Lengg",
+      "city": "Zurich",
+      "region": "Zurich",
+      "url": "https://kliniklengg.ch/",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official Klinik Lengg site",
+      "needles": ["neurologische Rehabilitation", "Zürcher RehaZentrum Lengg", "Hirnschlag", "Multiple Sklerose", "Morbus Parkinson", "Robotikzentrum"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "cereneo",
+      "city": "Vitznau",
+      "region": "Lucerne",
+      "url": "https://cereneo.ch/",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official cereneo neurorehabilitation clinic site",
+      "needles": ["Neurorehabilitation", "Schlaganfall", "Parkinson", "Multiple Sklerose", "traumatische Hirnverletzung", "Stationäre Rehabilitation"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "Clinica Hildebrand Centro di riabilitazione Brissago",
+      "city": "Brissago",
+      "region": "Ticino",
+      "url": "https://www.clinica-hildebrand.ch/",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official Clinica Hildebrand site",
+      "needles": ["RIABILITAZIONE NEUROLOGICA", "Patologie cerebrovascolari", "Trauma cranico", "Sclerosi multipla", "Malattia di Parkinson", "Patologie del midollo spinale"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "Rehaklinik Bellikon",
+      "city": "Bellikon",
+      "region": "Aargau",
+      "url": "https://www.rehabellikon.ch/neurologische-rehabilitation/",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official Rehaklinik Bellikon neurological rehabilitation page",
+      "needles": ["Neurologische Rehabilitation", "Verletzungen des Gehirns", "Mehrfachverletzung mit Hirnverletzung", "Traumatische Hirnverletzung", "Schlaganfall/Hirnblutung", "Tages-Rehabilitation"]
+    },
+    {
+      "country": "Switzerland",
+      "name": "Clinique Valmont",
+      "city": "Glion sur Montreux",
+      "region": "Vaud",
+      "url": "https://www.swissmedical.net/fr/hopitaux/valmont",
+      "sourceType": "switzerland-first-pass-official-seed",
+      "discoverySource": "official Swiss Medical Network Clinique Valmont page",
+      "needles": ["Rééducation neurologique", "AVC", "Maladie de Parkinson", "Sclérose en plaques", "Neuropsychologie", "Neuro-pédiatrie"]
     }
   ],
   "searchResults": [],
