@@ -817,6 +817,63 @@ export const centers = [
     }
   },
   {
+    id: 'thermana-lasko-stroke-rehabilitation',
+    name: 'Thermana Laško',
+    country: 'Slovenia',
+    city: 'Laško', region: 'Savinja', lat: 46.1601, lng: 15.2271,
+    address: 'Zdraviliška cesta 6, 3270 Laško', phone: '+386 3 423 2100',
+    url: 'https://www.thermana.si/sl/program-po-mozganski-kapi',
+    conditions: ['stroke', 'cognitive', 'neuromotor'],
+    technologies: [],
+    modes: ['outpatient'], access: ['private'],
+    disciplines: ['Fizioterapija', 'Delovna terapija', 'Fizikalna in rehabilitacijska medicina', 'Logopedija'],
+    completeness: 78,
+    researchHighlights: ['Official programme page is dedicated to rehabilitation after stroke', 'Official text states comprehensive rehabilitation and multidisciplinary cooperation after stroke', 'Official package includes physiotherapist consultation and Bobath treatment'],
+    features: ['stroke', 'rehabilitation'],
+    description: {
+      it: 'Programma riabilitativo sloveno a Laško per il recupero dopo ictus, con approccio multidisciplinare, fisioterapia e trattamenti Bobath.',
+      en: 'A Slovenian Laško rehabilitation programme for recovery after stroke, with multidisciplinary care, physiotherapy and Bobath treatment.'
+    }
+  },
+  {
+    id: 'cirius-kamnik-pediatric-neurorehabilitation',
+    name: 'CIRIUS Kamnik',
+    country: 'Slovenia',
+    city: 'Kamnik', region: 'Upper Carniola', lat: 46.2189, lng: 14.6112,
+    address: 'Novi trg 43a, 1241 Kamnik', phone: '+386 1 830 1300',
+    url: 'https://www.cirius-kamnik.si/zdravstvo/medicinska-rehabilitacija/fizioterapija/',
+    conditions: ['pediatric', 'neuromuscular', 'neuromotor', 'cognitive'],
+    technologies: ['fes'],
+    modes: ['outpatient'], access: ['public'],
+    disciplines: ['Medicinska rehabilitacija', 'Nevrofizioterapija', 'Delovna terapija', 'Logopedija', 'Klinična psihologija'],
+    completeness: 84,
+    researchHighlights: ['Official presentation describes CIRIUS Kamnik as Slovenia’s central state education-rehabilitation institution for physically disabled children and adolescents', 'Official physiotherapy page states neurophysiotherapy is central for children and adolescents and treats central nervous-system damage and injury', 'Official page lists RNO, Bobath, PNF, hipotherapy, Halliwick water therapy and TheraSuit for neuromuscular impairments'],
+    features: ['pediatric', 'neuromuscular', 'rehabilitation'],
+    description: {
+      it: 'Centro statale sloveno a Kamnik per bambini e adolescenti con disabilità motorie, con riabilitazione medica, neurofisioterapia, terapia occupazionale e logopedia.',
+      en: 'A Slovenian state centre in Kamnik for children and adolescents with motor disabilities, offering medical rehabilitation, neurophysiotherapy, occupational therapy and speech therapy.'
+    }
+  },
+  {
+    id: 'cirius-vipava-pediatric-neurorehabilitation',
+    name: 'CIRIUS Vipava',
+    country: 'Slovenia',
+    city: 'Vipava', region: 'Littoral-Inner Carniola', lat: 45.8412, lng: 13.9620,
+    address: 'Vojkova ulica 33, 5271 Vipava', phone: '+386 5 365 5200',
+    url: 'https://www.cirius-vipava.si/fizioterapija/',
+    conditions: ['pediatric', 'neuromuscular', 'neuromotor', 'cognitive'],
+    technologies: [],
+    modes: ['outpatient'], access: ['public'],
+    disciplines: ['Medicinska (re)habilitacija', 'Nevrofizioterapija', 'Delovna terapija', 'Logopedija', 'Hipoterapija'],
+    completeness: 84,
+    researchHighlights: ['Official therapy page describes a team medical habilitation and rehabilitation programme for children and adolescents', 'Official physiotherapy page lists neurophysiotherapy for neurological-system diseases and injuries affecting brain, spinal cord and nerves', 'Official page lists RNO, Bobath, PNF, TheraSuit, hipotherapy and Halliwick hydrotherapy, including use in cerebral palsy'],
+    features: ['pediatric', 'neuromuscular', 'rehabilitation'],
+    description: {
+      it: 'Centro sloveno a Vipava per bambini e adolescenti con bisogni speciali, con programma medico di abilitazione/riabilitazione e neurofisioterapia.',
+      en: 'A Slovenian Vipava centre for children and adolescents with special needs, with medical habilitation/rehabilitation and neurophysiotherapy.'
+    }
+  },
+  {
     id: 'schmieder-konstanz',
     name: 'Kliniken Schmieder Konstanz',
     country: 'Germany',

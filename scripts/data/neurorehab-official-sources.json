@@ -1230,6 +1230,36 @@
       "sourceType": "slovenia-first-pass-official-seed",
       "discoverySource": "official Center Naprej rehabilitation page",
       "needles": ["pridobljeno možgansko poškodbo", "dolgotrajni rehabilitaciji", "nevrološke okvare", "Nevroplastičnost možganov", "interdisciplinarno"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "Thermana Laško",
+      "city": "Laško",
+      "region": "Savinja",
+      "url": "https://www.thermana.si/sl/program-po-mozganski-kapi",
+      "sourceType": "slovenia-second-pass-official-seed",
+      "discoverySource": "official Thermana Laško stroke programme page",
+      "needles": ["Program po možganski kapi", "celovita rehabilitacijska obravnava", "multidisciplinarno sodelovanje", "posvet pri fizioterapevtu", "Bobath obravnava"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "CIRIUS Kamnik",
+      "city": "Kamnik",
+      "region": "Upper Carniola",
+      "url": "https://www.cirius-kamnik.si/zdravstvo/medicinska-rehabilitacija/fizioterapija/",
+      "sourceType": "slovenia-second-pass-official-seed",
+      "discoverySource": "official CIRIUS Kamnik physiotherapy and medical rehabilitation pages",
+      "needles": ["nevrofizioterapevtski pristop", "okvare in poškodbe osrednjega živčevja", "RNO – Razvojno nevrološka obravnava", "Bobath za odrasle", "PNF", "TheraSuit terapija"]
+    },
+    {
+      "country": "Slovenia",
+      "name": "CIRIUS Vipava",
+      "city": "Vipava",
+      "region": "Littoral-Inner Carniola",
+      "url": "https://www.cirius-vipava.si/fizioterapija/",
+      "sourceType": "slovenia-second-pass-official-seed",
+      "discoverySource": "official CIRIUS Vipava physiotherapy and therapy pages",
+      "needles": ["nevrofizioterapija", "obolenja in poškodbe nevrološkega sistema", "možgani, hrbtenjača", "Razvojna nevrološka obravnava", "Bobath koncept za odrasle", "cerebralno paralizo"]
     }
   ],
   "searchResults": [],
