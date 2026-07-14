@@ -1700,6 +1700,116 @@
       "sourceType": "sweden-first-pass-official-seed",
       "discoverySource": "official 1177 contact card",
       "needles": ["Ryggmärgsskadeteam", "Smärt- och rehabiliteringsmedicinska kliniken", "Universitetssjukhuset, Linköping"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Aleris Rehab Station Liljeholmen",
+      "city": "Stockholm",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Aleris-Rehab-Station-Planerad-neurologisk-rehab-Liljeholmen/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Aleris Rehab Station Planerad neurologisk rehab Liljeholmen", "specialiserade på rehab för dig med MS", "annan neurologisk diagnos", "dagrehab", "Neurologisk rehabilitering"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Avd 41 Neurorehabilitering Sunderby sjukhus",
+      "city": "Södra Sunderbyn",
+      "region": "Norrbotten",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Avd-41-Neurorehabilitering-Sunderby-sjukhus-Division-MedAK/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Avdelning 41 Neurorehab", "specialiserad rehabilitering", "neurologisk sjukdom/skada", "stroke", "traumatisk hjärnskada", "ryggmärgsskada", "CARF"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Avdelning 134 Ryggmärgsskador, Göteborg",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Avdelning-134-Ryggmargsskador-Goteborg/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Avdelning 134 Ryggmärgsskador", "Göteborg", "Rehabiliteringsmedicin", "Bruna stråket 5"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Capio Rehab Neuroteam",
+      "city": "Enskededalen",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Rehab-Neuroteam/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Capio Rehab Neuroteam", "neuroteam", "Region Stockholm", "Neurologisk rehabilitering", "rehabilitering vid stroke"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Furuhöjden Inneliggande Rehabilitering",
+      "city": "Täby",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Furuhojden-Inneliggande-Rehabilitering-Taby/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Furuhöjden Rehabilitering", "inneliggande neurologisk rehabilitering", "Region Stockholm", "Neurologisk rehabilitering", "rehabilitering vid stroke"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Hjärnskaderehabilitering Huddinge, Danderyds sjukhus",
+      "city": "Huddinge",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Huddinge-Danderyds-sjukhus/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Hjärnskaderehabilitering mottagning Huddinge", "Danderyds sjukhus", "Neurologisk rehabilitering", "Rehabiliteringsmedicin", "Blickagången 6D"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Rehabiliteringsmedicin och neurogeriatrisk avdelning 85 C",
+      "city": "Uppsala",
+      "region": "Uppsala",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-och-neurogeriatrisk-avdelning-85-C/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["specialiserad rehabilitering", "hjärnskada", "annan neurologisk sjukdom", "heldygnsrehabilitering", "logoped", "psykolog"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Specialistrehabilitering Karlshamn",
+      "city": "Karlshamn",
+      "region": "Blekinge",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Specialistrehabilitering-Karlshamn/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card surfaced by 1177 brain-injury and spinal-cord searches",
+      "needles": ["Specialistrehabilitering Karlshamn", "arbetsterapeut", "logoped", "läkare", "neuropsykolog", "sjukgymnast"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Rehabiliteringsmedicinska mottagningen Västerås",
+      "city": "Västerås",
+      "region": "Västmanland",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinska-mottagningen-Vasteras/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["specialiserade team", "kroniskt neurologiskt sjuka", "ryggmärgsskadade", "hjärnskadade", "arbetsför ålder"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Avdelning 51 Rehabiliteringsmedicin Hallands sjukhus Halmstad",
+      "city": "Halmstad",
+      "region": "Halland",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Avdelning-51-Rehabiliteringsmedicin-Hallands-sjukhus-Halmstad/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Rehabiliteringsmedicin", "Neurologisk rehabilitering", "dagrehabilitering", "ryggmärgsskador", "neuropsykolog", "CARF"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Rehabiliteringsmedicin Öppenvård Falun",
+      "city": "Falun",
+      "region": "Dalarna",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-Oppenvard-Falun/",
+      "sourceType": "sweden-second-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Rehabiliteringsmedicin Öppenvård Falun", "Neurologi", "Strokevård", "hjärnskador", "neurologiska skador eller sjukdomar", "team"]
     }
   ],
   "searchResults": [],

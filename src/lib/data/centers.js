@@ -3779,5 +3779,203 @@ export const centers = [
       it: 'Team pubblico per lesioni midollari presso la clinica di medicina del dolore e riabilitazione dell’ospedale universitario di Linköping.',
       en: 'A public spinal cord injury team at Linköping University Hospital’s pain and rehabilitation medicine clinic.'
     }
+  },
+  {
+    id: 'aleris-rehab-station-liljeholmen',
+    name: 'Aleris Rehab Station Liljeholmen',
+    country: 'Sweden',
+    city: 'Stockholm', region: 'Stockholm', lat: 59.3142, lng: 18.0236,
+    address: 'Trekantsvägen 1, 117 43 Stockholm', phone: '+46 8 681 99 90',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Aleris-Rehab-Station-Planerad-neurologisk-rehab-Liljeholmen/',
+    conditions: ['ms', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['day-hospital', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Fysioterapi', 'Arbetsterapi', 'Kurator', 'Rehabinstruktör', 'Läkare'],
+    completeness: 84,
+    researchHighlights: ['1177 says the Liljeholmen branch is specialised in rehabilitation for MS and other neurological diagnoses', 'Day rehabilitation 2-3 half-days per week for 8-12 weeks', 'Care types include neurological rehabilitation, stroke rehabilitation and specialised rehabilitation'],
+    features: ['ms-specialist', 'stroke'],
+    description: {
+      it: 'Sede Aleris a Liljeholmen per day rehab neurologica, specializzata in SM e altre diagnosi neurologiche.',
+      en: 'An Aleris Liljeholmen day-rehabilitation branch specialising in MS and other neurological diagnoses.'
+    }
+  },
+  {
+    id: 'sunderby-avd-41-neurorehab',
+    name: 'Avd 41 Neurorehabilitering Sunderby sjukhus',
+    country: 'Sweden',
+    city: 'Södra Sunderbyn', region: 'Norrbotten', lat: 65.6712, lng: 21.9319,
+    address: 'Sunderby sjukhus, Avd 41 N, trapphus A, plan 4, 954 42 Södra Sunderbyn', phone: '+46 920 282 041',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Avd-41-Neurorehabilitering-Sunderby-sjukhus-Division-MedAK/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Arbetsterapi', 'Fysioterapi', 'Logopedi', 'Läkare', 'Kurator', 'Neuropsykologi', 'Omvårdnad'],
+    completeness: 90,
+    researchHighlights: ['County-level specialist rehabilitation assignment for adults with neurological disease or injury', 'Covers intensive rehabilitation after stroke, traumatic brain injury and spinal cord injury', 'Internationally accredited by CARF according to 1177'],
+    features: ['brain-injury', 'spinal-cord', 'stroke', 'carf'],
+    description: {
+      it: 'Unità di neuro-riabilitazione specialistica a Sunderby sjukhus per ictus, trauma cranico, lesioni midollari e altre malattie o lesioni neurologiche.',
+      en: 'A specialist neurorehabilitation ward at Sunderby Hospital for stroke, traumatic brain injury, spinal cord injury, and other neurological disease or injury.'
+    }
+  },
+  {
+    id: 'sahlgrenska-avd-134-spinal-cord',
+    name: 'Avdelning 134 Ryggmärgsskador, Göteborg',
+    country: 'Sweden',
+    city: 'Göteborg', region: 'Västra Götaland', lat: 57.6826, lng: 11.9617,
+    address: 'Bruna stråket 5, 413 46 Göteborg', phone: '+46 31 342 11 34',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Avdelning-134-Ryggmargsskador-Goteborg/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Ryggmärgsskador', 'Sjukhusvård'],
+    completeness: 76,
+    researchHighlights: ['1177 lists Avdelning 134 Ryggmärgsskador in Göteborg', 'Hospital ward focused on spinal cord injuries', 'Public rehabilitation medicine service'],
+    features: ['spinal-cord'],
+    description: {
+      it: 'Reparto pubblico a Göteborg per lesioni del midollo spinale nell’ambito della medicina riabilitativa.',
+      en: 'A public Gothenburg rehabilitation medicine ward focused on spinal cord injuries.'
+    }
+  },
+  {
+    id: 'capio-rehab-neuroteam-enskededalen',
+    name: 'Capio Rehab Neuroteam',
+    country: 'Sweden',
+    city: 'Enskededalen', region: 'Stockholm', lat: 59.2886, lng: 18.0987,
+    address: 'Åstorpsringen 6, 121 31 Enskededalen', phone: '+46 8 684 337 14',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Capio-Rehab-Neuroteam/',
+    conditions: ['stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Neuroteam', 'Neurologisk rehabilitering', 'Rehabilitering vid stroke'],
+    completeness: 78,
+    researchHighlights: ['1177 identifies Capio Rehab Neuroteam as a neuroteam working on behalf of Region Stockholm', 'Care types include neurological rehabilitation and stroke rehabilitation', 'Distinct outpatient neuroteam in Enskededalen'],
+    features: ['stroke'],
+    description: {
+      it: 'Neuroteam ambulatoriale Capio a Enskededalen, attivo su incarico della Regione Stockholm per riabilitazione neurologica e post-ictus.',
+      en: 'A Capio outpatient neuroteam in Enskededalen, operating on behalf of Region Stockholm for neurological and stroke rehabilitation.'
+    }
+  },
+  {
+    id: 'furuhojden-inpatient-rehab-taby',
+    name: 'Furuhöjden Inneliggande Rehabilitering',
+    country: 'Sweden',
+    city: 'Täby', region: 'Stockholm', lat: 59.4660, lng: 18.0881,
+    address: 'Gribbylundsvägen 75, 187 68 Täby', phone: '+46 8 630 89 00',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Furuhojden-Inneliggande-Rehabilitering-Taby/',
+    conditions: ['stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'private'],
+    disciplines: ['Inneliggande rehabilitering', 'Neurologisk rehabilitering', 'Specialistläkare', 'Multiprofessionellt team', 'Omvårdnad'],
+    completeness: 84,
+    researchHighlights: ['1177 says Furuhöjden offers inpatient rehabilitation after acute-hospital care and inpatient neurological rehabilitation', 'Works on behalf of Region Stockholm', 'Care types include neurological rehabilitation, stroke rehabilitation and specialised rehabilitation'],
+    features: ['stroke'],
+    description: {
+      it: 'Centro di riabilitazione residenziale a Täby per riabilitazione dopo ospedale acuto e riabilitazione neurologica.',
+      en: 'An inpatient rehabilitation centre in Täby for post-acute and neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'huddinge-brain-injury-rehab',
+    name: 'Hjärnskaderehabilitering Huddinge, Danderyds sjukhus',
+    country: 'Sweden',
+    city: 'Huddinge', region: 'Stockholm', lat: 59.2207, lng: 17.9394,
+    address: 'Blickagången 6D, 141 52 Huddinge', phone: '+46 8 123 595 49',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Huddinge-Danderyds-sjukhus/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Hjärnskaderehabilitering', 'Rehabiliteringsmedicin', 'Läkare', 'Sjuksköterska'],
+    completeness: 82,
+    researchHighlights: ['1177 lists the Huddinge brain-injury rehabilitation clinic under neurological rehabilitation and rehabilitation medicine', 'Separate Huddinge location from the Danderyd brain-injury rehabilitation entry', 'Official description covers assessment and planning for continued rehabilitation'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Sede Huddinge del servizio di riabilitazione per danno cerebrale di Danderyds sjukhus, con valutazione e pianificazione riabilitativa.',
+      en: 'The Huddinge location of Danderyd Hospital’s brain-injury rehabilitation service, providing assessment and rehabilitation planning.'
+    }
+  },
+  {
+    id: 'akademiska-neurogeriatric-rehab-uppsala',
+    name: 'Rehabiliteringsmedicin och neurogeriatrisk avdelning 85 C',
+    country: 'Sweden',
+    city: 'Uppsala', region: 'Uppsala', lat: 59.8473, lng: 17.6410,
+    address: 'Akademiska sjukhuset, ingång 85, plan 7, 751 85 Uppsala', phone: '+46 18 611 50 10',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-och-neurogeriatrisk-avdelning-85-C/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Neurogeriatrik', 'Läkare', 'Arbetsterapi', 'Fysioterapi', 'Logopedi', 'Psykologi', 'Kurator'],
+    completeness: 86,
+    researchHighlights: ['1177 describes specialised inpatient rehabilitation for adults with brain injury or other neurological disease', 'Team includes physician, nursing, occupational therapy, physiotherapy, speech therapy, psychology and social work', 'Public Akademiska sjukhuset service'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Reparto di riabilitazione e neurogeriatria dell’Akademiska sjukhuset per pazienti con danno cerebrale o altra malattia neurologica.',
+      en: 'An Akademiska Hospital rehabilitation medicine and neurogeriatric ward for patients with brain injury or other neurological disease.'
+    }
+  },
+  {
+    id: 'specialistrehabilitering-karlshamn',
+    name: 'Specialistrehabilitering Karlshamn',
+    country: 'Sweden',
+    city: 'Karlshamn', region: 'Blekinge', lat: 56.1870, lng: 14.8512,
+    address: 'Blekingesjukhuset, Sjukhusvägen 8, 374 41 Karlshamn', phone: '+46 454 732 470',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Specialistrehabilitering-Karlshamn/',
+    conditions: ['tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Specialistrehabilitering', 'Arbetsterapi', 'Kurator', 'Logopedi', 'Läkare', 'Neuropsykologi', 'Fysioterapi', 'Omvårdnad'],
+    completeness: 79,
+    researchHighlights: ['1177 returned the clinic for brain-injury and spinal-cord rehabilitation searches', 'Official card describes specialist rehabilitation after inpatient rehabilitation or referral', 'Team includes speech therapy, physician, neuropsychology, physiotherapy and nursing'],
+    features: ['brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Ambulatorio specialistico di riabilitazione a Karlshamn/Blekingesjukhuset con team multiprofessionale e competenze neuropsicologiche e logopediche.',
+      en: 'A specialist rehabilitation clinic at Blekinge Hospital in Karlshamn with a multidisciplinary team including neuropsychology and speech therapy.'
+    }
+  },
+  {
+    id: 'vasteras-rehabmed-clinic',
+    name: 'Rehabiliteringsmedicinska mottagningen Västerås',
+    country: 'Sweden',
+    city: 'Västerås', region: 'Västmanland', lat: 59.6171, lng: 16.5807,
+    address: 'Västmanlands sjukhus Västerås, Utmarksgatan 8, 722 17 Västerås', phone: '+46 21 175 395',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinska-mottagningen-Vasteras/',
+    conditions: ['tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Specialiserade team', 'Neurologisk uppföljning', 'Ryggmärgsskada', 'Hjärnskada'],
+    completeness: 84,
+    researchHighlights: ['1177 says the clinic has specialised teams for chronic neurological disease, spinal cord injury and brain injury in working-age adults', 'Public Västmanlands sjukhus rehabilitation medicine clinic', 'Combines time-limited interventions with long-term follow-up and support'],
+    features: ['brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Ambulatorio pubblico di medicina riabilitativa a Västerås con team per malattie neurologiche croniche, lesioni midollari e danni cerebrali.',
+      en: 'A public Västerås rehabilitation medicine clinic with teams for chronic neurological disease, spinal cord injury and brain injury.'
+    }
+  },
+  {
+    id: 'halland-rehabmed-avd-51-halmstad',
+    name: 'Avdelning 51 Rehabiliteringsmedicin Hallands sjukhus Halmstad',
+    country: 'Sweden',
+    city: 'Halmstad', region: 'Halland', lat: 56.6826, lng: 12.8464,
+    address: 'Hallands sjukhus Halmstad, ingång 19, målpunkt F, plan 5, 301 85 Halmstad', phone: '+46 35 131 151',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Avdelning-51-Rehabiliteringsmedicin-Hallands-sjukhus-Halmstad/',
+    conditions: ['spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'day-hospital', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Dagrehabilitering', 'Specialiserad öppenvård', 'Logopedi', 'Neuropsykologi', 'Fysioterapi', 'Specialistläkare'],
+    completeness: 86,
+    researchHighlights: ['1177 lists rehabilitation medicine, neurological rehabilitation and specialised rehabilitation care types', 'Official description covers inpatient care, day rehabilitation and specialised outpatient care including spinal cord injuries', 'CARF-accredited rehabilitation medicine service according to 1177'],
+    features: ['spinal-cord', 'carf'],
+    description: {
+      it: 'Servizio pubblico di medicina riabilitativa ad Halmstad con degenza, day rehab e ambulatorio specialistico, inclusa riabilitazione per lesioni midollari.',
+      en: 'A public Halmstad rehabilitation medicine service with inpatient care, day rehabilitation and specialist outpatient care including spinal cord injuries.'
+    }
+  },
+  {
+    id: 'falun-rehabmed-outpatient',
+    name: 'Rehabiliteringsmedicin Öppenvård Falun',
+    country: 'Sweden',
+    city: 'Falun', region: 'Dalarna', lat: 60.6101, lng: 15.6456,
+    address: 'Falu lasarett, Psilanders väg 1, 791 82 Falun', phone: '+46 23 492 373',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-Oppenvard-Falun/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Neurologi', 'Strokevård', 'Rehabiliteringsteam'],
+    completeness: 84,
+    researchHighlights: ['1177 lists rehabilitation medicine, neurology and stroke care types', 'Official description covers working-age people with mild to severe brain injuries or other neurological injuries and diseases', 'Assessment, investigation and/or team treatment at Falu lasarett'],
+    features: ['brain-injury', 'stroke'],
+    description: {
+      it: 'Ambulatorio pubblico di medicina riabilitativa a Falun per danni cerebrali e altre lesioni o malattie neurologiche.',
+      en: 'A public Falun rehabilitation medicine outpatient service for brain injuries and other neurological injuries or diseases.'
+    }
   }
 ];
