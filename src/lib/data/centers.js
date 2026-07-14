@@ -3045,6 +3045,78 @@ export const centers = [
     }
   },
   {
+    id: 'rehabilitacni-ustav-kladruby',
+    name: 'Rehabilitační ústav Kladruby',
+    country: 'Czech Republic',
+    city: 'Kladruby u Vlašimi', region: 'Central Bohemian Region', lat: 49.7339, lng: 14.9568,
+    address: 'Kladruby 30, 257 62 Kladruby u Vlašimi', phone: '+420 317 881 111',
+    url: 'https://www.rehabilitace.cz/poskytovana-pece/kranioprogram/',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Komplexní intenzivní rehabilitační péče', 'Fyzioterapie', 'Ergoterapie', 'Logopedie', 'Psychologie', 'Spinální rehabilitace'],
+    completeness: 88,
+    researchHighlights: ['Official Kranioprogram page covers acquired brain injury after ischemic or hemorrhagic stroke and craniotrauma', 'Official page requires ability to complete complex rehabilitation at least four hours daily across physiotherapy, occupational therapy, speech therapy and psychology', 'Official site also lists a spinal rehabilitation unit for patients with recent spinal cord impairment'],
+    features: ['brain-injury', 'stroke-rehab', 'spinal-cord', 'intensive-rehab'],
+    description: {
+      it: 'Istituto pubblico ceco di riabilitazione a Kladruby con kranioprogram per danno cerebrale acquisito, ictus e trauma cranico, oltre a unità di riabilitazione spinale.',
+      en: 'A Czech public rehabilitation institute in Kladruby with a cranioprogramme for acquired brain injury, stroke and craniotrauma, plus a spinal rehabilitation unit.'
+    }
+  },
+  {
+    id: 'rehabilitacni-ustav-hrabyne-chuchelna',
+    name: 'Rehabilitační ústav Hrabyně a Chuchelná',
+    country: 'Czech Republic',
+    city: 'Hrabyně', region: 'Moravian-Silesian Region', lat: 49.8827, lng: 18.0538,
+    address: 'Hrabyně 204, 747 67 Hrabyně 3', phone: '+420 553 603 111',
+    url: 'https://www.ruhrabyne.cz/kranio-iktovy-program',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'insurance'],
+    disciplines: ['Kranio-iktový program', 'Spinální program', 'Fyzioterapie', 'Ergoterapie', 'Logopedie', 'Psychologie'],
+    completeness: 89,
+    researchHighlights: ['Official kranio-iktový programme admits adults with acquired brain injury after stroke or craniotrauma', 'Programme requires an intensive rehabilitation programme of at least four hours daily across multiple rehabilitation specialties', 'Official spinal programme page describes specialist care for traumatic and non-traumatic spinal cord injury and a 30-bed spinal rehabilitation unit'],
+    features: ['brain-injury', 'stroke-rehab', 'spinal-cord', 'intensive-rehab'],
+    description: {
+      it: 'Istituto pubblico di riabilitazione a Hrabyně/Chuchelná con programma kranio-ictale per ictus e trauma cranico e programma spinale specialistico.',
+      en: 'A public rehabilitation institute in Hrabyně/Chuchelná with a cranio-stroke programme for stroke and craniotrauma and a specialist spinal programme.'
+    }
+  },
+  {
+    id: 'hamzova-lecebna-luze',
+    name: 'Hamzova odborná léčebna pro děti a dospělé',
+    country: 'Czech Republic',
+    city: 'Luže', region: 'Pardubice Region', lat: 49.8785, lng: 16.0365,
+    address: 'Košumberk 80, 538 54 Luže', phone: '+420 469 648 111',
+    url: 'https://www.hamzova-lecebna.cz/kontakty/kontaktni-informace/',
+    conditions: ['stroke', 'spinal', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'hippotherapy'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Rehabilitačně-neurologická péče', 'Spinální rehabilitační jednotka', 'Kranioprogram', 'Dětská rehabilitace', 'Robotické centrum', 'Logopedie'],
+    completeness: 88,
+    researchHighlights: ['Official pavilion listing includes multiple rehabilitation-neurological pavilions including CMP/stroke', 'Official site lists a spinal rehabilitation unit, cranioprogram and pediatric rehabilitation services', 'The same official listing includes a robotic centre, diagnostics, speech therapy, occupational therapy and physiotherapy'],
+    features: ['stroke-rehab', 'spinal-cord', 'pediatric-rehab', 'robotics'],
+    description: {
+      it: 'Istituto ceco di riabilitazione per bambini e adulti a Luže-Košumberk, con padiglioni neurologico-riabilitativi per CMP/ictus, programma spinale, kranioprogram e centro robotico.',
+      en: 'A Czech rehabilitation institute for children and adults in Luže-Košumberk, with rehabilitation-neurological pavilions for stroke/CMP, a spinal unit, cranioprogramme and robotic centre.'
+    }
+  },
+  {
+    id: 'sanatoria-klimkovice-neurorehabilitace',
+    name: 'Sanatoria Klimkovice',
+    country: 'Czech Republic',
+    city: 'Klimkovice', region: 'Moravian-Silesian Region', lat: 49.8071, lng: 18.0989,
+    address: 'Hýlov 24, 742 84 Klimkovice', phone: '',
+    url: 'https://www.sanatoria-klimkovice.cz/intenzita/a-374/',
+    conditions: ['stroke', 'tbi', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Intenzivní neurorehabilitační pobyty', 'Fyzioterapie', 'Ergoterapie', 'Klinická logopedie', 'Klinická psychologie'],
+    completeness: 86,
+    researchHighlights: ['Official site describes Sanatoria Klimkovice as an expert treatment institute and neurorehabilitation centre', 'Official INTENZITA+ page lists intensive neurorehabilitation stays for adults after neurological disease or injury', 'Official pediatric treatment page lists post-stroke states, post-injury states and most neurological diagnoses including cerebral palsy'],
+    features: ['intensive-neurorehab', 'stroke-rehab', 'brain-injury', 'pediatric-rehab'],
+    description: {
+      it: 'Centro ceco di neuro-riabilitazione a Klimkovice con soggiorni intensivi per adulti e bambini, indicazioni neurologiche, CMP/ictus e danno cerebrale acquisito.',
+      en: 'A Czech neurorehabilitation centre in Klimkovice with intensive adult and pediatric stays for neurological disease, stroke/CMP and acquired brain injury.'
+    }
+  },
+  {
     id: 'hnrk-haapsalu',
     name: 'Haapsalu Neurological Rehabilitation Centre',
     country: 'Estonia',

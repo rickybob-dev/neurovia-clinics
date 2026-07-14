@@ -1199,7 +1199,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Odjel za rehabilitaciju neuroloških bolesnika | neurološkim bolestima | neurorehabilitaciju | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | spinal | kralježnične moždine | bolnica | odjel",
+    "evidence": "Odjel za rehabilitaciju neuroloških bolesnika | neurološkim bolestima | neurorehabilitaciju | rehab | rehabilitacija | rehabilitacije | neurolog | neuro | spinální | spinalni | bolnica | odjel",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -1210,6 +1210,8 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "spinální",
+        "spinalni",
         "spinal",
         "kralježnične moždine",
         "oštećenjima kralježnične moždine",
@@ -1389,6 +1391,62 @@
     "title": "Naslovnica - Klinički bolnički centar Zagreb"
   },
   {
+    "name": "Hamzova odborná léčebna pro děti a dospělé",
+    "country": "Czech Republic",
+    "city": "Luže",
+    "region": "Pardubice Region",
+    "url": "https://www.hamzova-lecebna.cz/kontakty/kontaktni-informace",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | czech-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Hamzova contact and pavilion listing",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official pavilion listing includes multiple rehabilitation-neurological pavilions including CMP/stroke",
+      "Official site lists a spinal rehabilitation unit, cranioprogram and pediatric rehabilitation services",
+      "The same official listing includes a robotic centre, diagnostics, speech therapy, occupational therapy and physiotherapy",
+      "A Czech rehabilitation institute for children and adults in Luže-Košumberk, with rehabilitation-neurological pavilions for stroke/CMP, a spinal unit, cranioprogramme and robotic centre.",
+      "Istituto ceco di riabilitazione per bambini e adulti a Luže-Košumberk, con padiglioni neurologico-riabilitativi per CMP/ictus, programma spinale, kranioprogram e centro robotico.",
+      "rehabilitačně - neurologická problematika včetně CMP",
+      "rehabilitačně-neurologická problematika včetně CMP",
+      "Spinální rehabilitační jednotka",
+      "Kranioprogram",
+      "Dětská mozková obrna"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hamzova-lecebna.cz/kontakty/kontaktni-informace",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitačně - neurologická problematika včetně CMP | rehabilitačně-neurologická problematika včetně CMP | Spinální rehabilitační jednotka | Kranioprogram | Dětská mozková obrna | rehabilitačně-neurologická | spinální rehabilitační | rehab | rehabilitace | neurolog | neuro | cmp | kranioprogram",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitačně-neurologická",
+        "spinální rehabilitační"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitace"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "cmp",
+        "kranioprogram",
+        "spinální",
+        "spinalni",
+        "dětská mozková obrna",
+        "detska mozkova obrna",
+        "mozková obrna",
+        "mozkova obrna",
+        "spinal",
+        "nah"
+      ],
+      "institution": []
+    },
+    "title": "Kontaktní informace - Rehabilitační ústav Hamzova léčebna Luže-Košumberk"
+  },
+  {
     "name": "Rehabilitační ústav Brandýs nad Orlicí",
     "country": "Czech Republic",
     "city": "Brandýs nad Orlicí",
@@ -1411,7 +1469,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorehabilitace | rehab | rehabilitace | neuro",
+    "evidence": "neurorehabilitace | rehab | rehabilitace | neuro | kranioprogram",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitace"
@@ -1421,11 +1479,171 @@
         "rehabilitace"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "kranioprogram"
       ],
       "institution": []
     },
     "title": "Rehabilitace | Rehabilitační ústav Brandýs nad Orlicí"
+  },
+  {
+    "name": "Rehabilitační ústav Hrabyně a Chuchelná",
+    "country": "Czech Republic",
+    "city": "Hrabyně",
+    "region": "Moravian-Silesian Region",
+    "url": "https://www.ruhrabyne.cz/kranio-iktovy-program",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | czech-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official RÚ Hrabyně kranio-iktový programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official kranio-iktový programme admits adults with acquired brain injury after stroke or craniotrauma",
+      "Programme requires an intensive rehabilitation programme of at least four hours daily across multiple rehabilitation specialties",
+      "Official spinal programme page describes specialist care for traumatic and non-traumatic spinal cord injury and a 30-bed spinal rehabilitation unit",
+      "A public rehabilitation institute in Hrabyně/Chuchelná with a cranio-stroke programme for stroke and craniotrauma and a specialist spinal programme.",
+      "Istituto pubblico di riabilitazione a Hrabyně/Chuchelná con programma kranio-ictale per ictus e trauma cranico e programma spinale specialistico.",
+      "Kranio-iktový program",
+      "Získané poškození mozku",
+      "cévní mozkové příhodě",
+      "kraniotraumatu",
+      "intenzivní rehabilitační program"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.ruhrabyne.cz/kranio-iktovy-program",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Kranio-iktový program | Získané poškození mozku | cévní mozkové příhodě | kraniotraumatu | intenzivní rehabilitační program | rehab | získané poškození mozku | ziskane poskozeni mozku | poškození mozku",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab"
+      ],
+      "neurological": [
+        "cévní mozkové příhodě",
+        "získané poškození mozku",
+        "ziskane poskozeni mozku",
+        "poškození mozku",
+        "poskozeni mozku",
+        "kraniotrauma",
+        "kranio-iktový",
+        "kranio-iktovy",
+        "spinální",
+        "spinalni",
+        "spinal"
+      ],
+      "institution": []
+    },
+    "title": "Kranio-iktový program | Rehabilitační ústav Hrabyně"
+  },
+  {
+    "name": "Rehabilitační ústav Kladruby",
+    "country": "Czech Republic",
+    "city": "Kladruby u Vlašimi",
+    "region": "Central Bohemian Region",
+    "url": "https://www.rehabilitace.cz/poskytovana-pece/kranioprogram",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | czech-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Rehabilitační ústav Kladruby Kranioprogram page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Kranioprogram page covers acquired brain injury after ischemic or hemorrhagic stroke and craniotrauma",
+      "Official page requires ability to complete complex rehabilitation at least four hours daily across physiotherapy, occupational therapy, speech therapy and psychology",
+      "Official site also lists a spinal rehabilitation unit for patients with recent spinal cord impairment",
+      "A Czech public rehabilitation institute in Kladruby with a cranioprogramme for acquired brain injury, stroke and craniotrauma, plus a spinal rehabilitation unit.",
+      "Istituto pubblico ceco di riabilitazione a Kladruby con kranioprogram per danno cerebrale acquisito, ictus e trauma cranico, oltre a unità di riabilitazione spinale.",
+      "Kranioprogram",
+      "získané poškození mozku",
+      "komplexní intenzivní rehabilitační péče",
+      "cévních mozkových příhodách",
+      "kraniotraumatech"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehabilitace.cz/poskytovana-pece/kranioprogram",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Kranioprogram | získané poškození mozku | komplexní intenzivní rehabilitační péče | cévních mozkových příhodách | kraniotraumatech | spinální rehabilitační | rehabilitation | rehab | rehabilitace | neuro | ziskane poskozeni mozku",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "spinální rehabilitační"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "rehabilitace"
+      ],
+      "neurological": [
+        "neuro",
+        "cévních mozkových příhodách",
+        "získané poškození mozku",
+        "ziskane poskozeni mozku",
+        "poškození mozku",
+        "poskozeni mozku",
+        "kraniotrauma",
+        "kraniotraumatech",
+        "kranioprogram",
+        "spinální",
+        "spinalni",
+        "spinal"
+      ],
+      "institution": []
+    },
+    "title": "Kranioprogram - Oficiální stránky Rehabilitační ústav Kladruby"
+  },
+  {
+    "name": "Sanatoria Klimkovice",
+    "country": "Czech Republic",
+    "city": "Klimkovice",
+    "region": "Moravian-Silesian Region",
+    "url": "https://www.sanatoria-klimkovice.cz/intenzita/a-374",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | czech-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Sanatoria Klimkovice INTENZITA+ page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes Sanatoria Klimkovice as an expert treatment institute and neurorehabilitation centre",
+      "Official INTENZITA+ page lists intensive neurorehabilitation stays for adults after neurological disease or injury",
+      "Official pediatric treatment page lists post-stroke states, post-injury states and most neurological diagnoses including cerebral palsy",
+      "A Czech neurorehabilitation centre in Klimkovice with intensive adult and pediatric stays for neurological disease, stroke/CMP and acquired brain injury.",
+      "Centro ceco di neuro-riabilitazione a Klimkovice con soggiorni intensivi per adulti e bambini, indicazioni neurologiche, CMP/ictus e danno cerebrale acquisito.",
+      "intenzivní neurorehabilitační pobyt",
+      "neurologickém onemocnění",
+      "cévní mozkové příhodě",
+      "získaném poškození mozku",
+      "těžkým poškozením mozku"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sanatoria-klimkovice.cz/intenzita/a-374",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "intenzivní neurorehabilitační pobyt | neurologickém onemocnění | cévní mozkové příhodě | získaném poškození mozku | těžkým poškozením mozku | neurorehabilitace | intenzivní neurorehabilitační | rehab | rehabilitace | neurolog | neuro | cmp",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitace",
+        "intenzivní neurorehabilitační"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitace"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "cévní mozkové příhodě",
+        "cmp",
+        "poškození mozku",
+        "poskozeni mozku",
+        "tce",
+        "nah"
+      ],
+      "institution": []
+    },
+    "title": "INTENZITA+ | Sanatoria Klimkovice"
   },
   {
     "name": "Center for Hjerneskade",

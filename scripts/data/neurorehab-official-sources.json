@@ -2131,6 +2131,46 @@
       "sourceType": "portugal-second-pass-official-seed",
       "discoverySource": "official NeuroVida NeuroTriad rehabilitation programme page",
       "needles": ["Reabilitação Neurológica Intensiva em Lisboa", "reabilitação neurológica intensiva", "lesão cerebral adquirida", "AVC", "traumatismo cranioencefálico", "doença de Parkinson"]
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Rehabilitační ústav Kladruby",
+      "city": "Kladruby u Vlašimi",
+      "region": "Central Bohemian Region",
+      "url": "https://www.rehabilitace.cz/poskytovana-pece/kranioprogram/",
+      "sourceType": "czech-first-pass-official-seed",
+      "discoverySource": "official Rehabilitační ústav Kladruby Kranioprogram page",
+      "needles": ["Kranioprogram", "získané poškození mozku", "komplexní intenzivní rehabilitační péče", "cévních mozkových příhodách", "kraniotraumatech"]
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Rehabilitační ústav Hrabyně a Chuchelná",
+      "city": "Hrabyně",
+      "region": "Moravian-Silesian Region",
+      "url": "https://www.ruhrabyne.cz/kranio-iktovy-program",
+      "sourceType": "czech-first-pass-official-seed",
+      "discoverySource": "official RÚ Hrabyně kranio-iktový programme page",
+      "needles": ["Kranio-iktový program", "Získané poškození mozku", "cévní mozkové příhodě", "kraniotraumatu", "intenzivní rehabilitační program"]
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Hamzova odborná léčebna pro děti a dospělé",
+      "city": "Luže",
+      "region": "Pardubice Region",
+      "url": "https://www.hamzova-lecebna.cz/kontakty/kontaktni-informace/",
+      "sourceType": "czech-second-pass-official-seed",
+      "discoverySource": "official Hamzova contact and pavilion listing",
+      "needles": ["rehabilitačně - neurologická problematika včetně CMP", "rehabilitačně-neurologická problematika včetně CMP", "Spinální rehabilitační jednotka", "Kranioprogram", "Dětská mozková obrna"]
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Sanatoria Klimkovice",
+      "city": "Klimkovice",
+      "region": "Moravian-Silesian Region",
+      "url": "https://www.sanatoria-klimkovice.cz/intenzita/a-374/",
+      "sourceType": "czech-second-pass-official-seed",
+      "discoverySource": "official Sanatoria Klimkovice INTENZITA+ page",
+      "needles": ["intenzivní neurorehabilitační pobyt", "neurologickém onemocnění", "cévní mozkové příhodě", "získaném poškození mozku", "těžkým poškozením mozku"]
     }
   ],
   "searchResults": [],
