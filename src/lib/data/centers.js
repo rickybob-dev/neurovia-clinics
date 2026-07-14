@@ -1608,6 +1608,42 @@ export const centers = [
     }
   },
   {
+    id: 'uz-leuven-pellenberg-rehabilitation-centre',
+    name: 'UZ Leuven Revalidatiecentrum Pellenberg',
+    country: 'Belgium',
+    city: 'Pellenberg', region: 'Flemish Brabant', lat: 50.8600, lng: 4.7984,
+    address: 'Weligerveld 1, 3212 Pellenberg', phone: '+32 16 33 87 00',
+    url: 'https://www.uzleuven.be/nl/revalidatiecentrum-pellenberg',
+    conditions: ['tbi', 'spinal', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiegeneeskunde', 'Kinesitherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 88,
+    researchHighlights: ['Official UZ Leuven page identifies Revalidatiecentrum Pellenberg and its rehabilitation programmes', 'Programmes include acquired brain injury, spinal cord injury/paraplegia and peripheral nervous system injuries', 'Hospitalisation rehabilitation A covers adults with acquired brain injury; rehabilitation B covers spinal cord injury and peripheral nervous system disorders'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Revalidatiecentrum Pellenberg di UZ Leuven offre programmi di riabilitazione per lesioni cerebrali acquisite, lesioni midollari/dwarslaesie e lesioni del sistema nervoso periferico, con ricovero e percorsi terapeutici multidisciplinari.',
+      en: 'UZ Leuven Revalidatiecentrum Pellenberg provides rehabilitation programmes for acquired brain injury, spinal cord injury/paraplegia and peripheral nervous system injuries, with inpatient and multidisciplinary therapy pathways.'
+    }
+  },
+  {
+    id: 'trainm-ghent-south-zottegem-neurorehabilitation',
+    name: 'TRAINM Clinics Ghent-South',
+    country: 'Belgium',
+    city: 'Zottegem', region: 'East Flanders', lat: 50.8963, lng: 3.8054,
+    address: 'Balegemstraat 2, 9620 Zottegem', phone: '+32 3 283 0223',
+    url: 'https://www.trainm.com/who/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'vr', 'gait'], modes: ['outpatient'], access: ['private'],
+    disciplines: ['Doctors', 'Physiotherapy', 'Occupational therapy', 'Neuropsychology', 'Speech and swallowing therapy'],
+    completeness: 84,
+    researchHighlights: ['Official TRAINM indications page lists the Ghent-South clinic branch at Balegemstraat 2 in Zottegem', 'Official site describes TRAINM as a neurorehabilitation clinic for children and adults with neurological disabilities', 'Covers stroke, acquired brain injury, spinal cord injury, MS, Parkinson and cognitive deficits'],
+    features: ['robotics', 'brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Sede TRAINM Ghent-South a Zottegem, clinica privata di neuro-riabilitazione con robotica, VR e neuromodulazione per ictus, ABI, lesioni midollari, SM, Parkinson e paralisi cerebrale.',
+      en: 'TRAINM’s Ghent-South branch in Zottegem is a private neurorehabilitation clinic using robotics, VR and neuromodulation for stroke, ABI, spinal cord injury, MS, Parkinson and cerebral palsy.'
+    }
+  },
+  {
     id: 'bdh-elzach',
     name: 'BDH-Klinik Elzach',
     country: 'Germany',

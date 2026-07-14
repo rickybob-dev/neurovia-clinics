@@ -1460,6 +1460,26 @@
       "sourceType": "belgium-first-pass-official-seed",
       "discoverySource": "official TRAINM neurorehabilitation clinic site",
       "needles": ["Neuro Rehabilitation Center", "Neurorehabilitation Clinic", "Stroke", "Acquired brain injury (ABI)", "Spinal cord injury (SCI)", "Multiple sclerosis (MS)", "Parkinson’s disease"]
+    },
+    {
+      "country": "Belgium",
+      "name": "UZ Leuven Revalidatiecentrum Pellenberg",
+      "city": "Pellenberg",
+      "region": "Flemish Brabant",
+      "url": "https://www.uzleuven.be/nl/revalidatiecentrum-pellenberg",
+      "sourceType": "belgium-second-pass-official-seed",
+      "discoverySource": "official UZ Leuven Revalidatiecentrum Pellenberg page",
+      "needles": ["Revalidatiecentrum Pellenberg", "niet-aangeboren hersenletsel (NAH)", "ruggenmergletsel of dwarslaesie", "perifeer zenuwstelsel", "Hospitalisatie revalidatie A", "Hospitalisatie revalidatie B"]
+    },
+    {
+      "country": "Belgium",
+      "name": "TRAINM Clinics Ghent-South",
+      "city": "Zottegem",
+      "region": "East Flanders",
+      "url": "https://www.trainm.com/who/",
+      "sourceType": "belgium-second-pass-official-seed",
+      "discoverySource": "official TRAINM indications page and Ghent-South branch footer",
+      "needles": ["TRAINM Clinics – Ghent-South", "Balegemstraat 2", "B-9620 Zottegem", "Stroke (CVA)", "Acquired Brain Injury (ABI)", "Spinal Cord Injury (SCI)", "Parkinson’s Disease (PD)"]
     }
   ],
   "searchResults": [],

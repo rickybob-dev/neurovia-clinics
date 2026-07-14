@@ -145,6 +145,55 @@
     ]
   },
   {
+    "name": "TRAINM Clinics Ghent-South",
+    "country": "Belgium",
+    "city": "Zottegem",
+    "region": "East Flanders",
+    "url": "https://www.trainm.com/who",
+    "sourceType": "curated-dataset | belgium-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official TRAINM indications page and Ghent-South branch footer",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official TRAINM indications page lists the Ghent-South clinic branch at Balegemstraat 2 in Zottegem",
+      "Official site describes TRAINM as a neurorehabilitation clinic for children and adults with neurological disabilities",
+      "Covers stroke, acquired brain injury, spinal cord injury, MS, Parkinson and cognitive deficits",
+      "TRAINM’s Ghent-South branch in Zottegem is a private neurorehabilitation clinic using robotics, VR and neuromodulation for stroke, ABI, spinal cord injury, MS, Parkinson and cerebral palsy.",
+      "Sede TRAINM Ghent-South a Zottegem, clinica privata di neuro-riabilitazione con robotica, VR e neuromodulazione per ictus, ABI, lesioni midollari, SM, Parkinson e paralisi cerebrale.",
+      "TRAINM Clinics – Ghent-South",
+      "Balegemstraat 2",
+      "B-9620 Zottegem",
+      "Stroke (CVA)",
+      "Acquired Brain Injury (ABI)",
+      "Spinal Cord Injury (SCI)",
+      "Parkinson’s Disease (PD)"
+    ]
+  },
+  {
+    "name": "UZ Leuven Revalidatiecentrum Pellenberg",
+    "country": "Belgium",
+    "city": "Pellenberg",
+    "region": "Flemish Brabant",
+    "url": "https://www.uzleuven.be/nl/revalidatiecentrum-pellenberg",
+    "sourceType": "curated-dataset | belgium-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official UZ Leuven Revalidatiecentrum Pellenberg page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official UZ Leuven page identifies Revalidatiecentrum Pellenberg and its rehabilitation programmes",
+      "Programmes include acquired brain injury, spinal cord injury/paraplegia and peripheral nervous system injuries",
+      "Hospitalisation rehabilitation A covers adults with acquired brain injury; rehabilitation B covers spinal cord injury and peripheral nervous system disorders",
+      "UZ Leuven Revalidatiecentrum Pellenberg provides rehabilitation programmes for acquired brain injury, spinal cord injury/paraplegia and peripheral nervous system injuries, with inpatient and multidisciplinary therapy pathways.",
+      "Revalidatiecentrum Pellenberg di UZ Leuven offre programmi di riabilitazione per lesioni cerebrali acquisite, lesioni midollari/dwarslaesie e lesioni del sistema nervoso periferico, con ricovero e percorsi terapeutici multidisciplinari.",
+      "Revalidatiecentrum Pellenberg",
+      "niet-aangeboren hersenletsel (NAH)",
+      "ruggenmergletsel of dwarslaesie",
+      "perifeer zenuwstelsel",
+      "Hospitalisatie revalidatie A",
+      "Hospitalisatie revalidatie B"
+    ]
+  },
+  {
     "name": "Poliklinika Glavić Dubrovnik",
     "country": "Croatia",
     "city": "Dubrovnik",
