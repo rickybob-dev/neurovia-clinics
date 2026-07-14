@@ -3135,6 +3135,42 @@ export const centers = [
     }
   },
   {
+    id: 'itk-taastusravikliinik-tallinn',
+    name: 'Ida-Tallinna Keskhaigla Taastusravikliinik',
+    country: 'Estonia',
+    city: 'Tallinn', region: 'Harju County', lat: 59.41682, lng: 24.73878,
+    address: 'Pärnu mnt 104, Tallinn', phone: '+372 666 1900',
+    url: 'https://www.itk.ee/patsiendile/kliinikud/taastusravikliinik',
+    conditions: ['neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Statsionaarne taastusravi', 'Ambulatoorne taastusravi', 'Füsioteraapia', 'Tegevusteraapia', 'Logopeed', 'Psühholoog'],
+    completeness: 82,
+    researchHighlights: ['Official page says the rehabilitation clinic works with neurological, cardiological, rheumatological, post-traumatic and orthopedic patients', 'Official page lists inpatient and outpatient rehabilitation centres', 'Official multidisciplinary team includes rehabilitation physician, physiotherapist, occupational therapist, speech therapist, psychologist and social worker'],
+    features: ['rehabilitation', 'multidisciplinary'],
+    description: {
+      it: 'Clinica pubblica di riabilitazione dell’Ida-Tallinna Keskhaigla a Tallinn, con percorsi residenziali e ambulatoriali per pazienti neurologici e team multidisciplinare.',
+      en: 'A public rehabilitation clinic at East Tallinn Central Hospital with inpatient and outpatient pathways for neurological patients and a multidisciplinary team.'
+    }
+  },
+  {
+    id: 'adeli-rehabilitation-center-tallinn',
+    name: 'Adeli Rahvusvaheline Rehabilitatsioonikeskus',
+    country: 'Estonia',
+    city: 'Tallinn', region: 'Harju County', lat: 59.4309, lng: 24.7443,
+    address: 'Endla 4, 10142 Tallinn', phone: '+372 654 4840',
+    url: 'https://www.adeli.ee/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['fes'], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Füsioteraapia', 'Tegevusteraapia', 'Logopeed', 'Psühholoog', 'Eripedagoog', 'FES elektrofunktsionaalne stimulatsioon'],
+    completeness: 87,
+    researchHighlights: ['Official Estonian page says Adeli provides evidence-based complex rehabilitation after stroke and brain/spinal cord trauma', 'Official page also names MS, Parkinson disease, children with PCI/cerebral palsy and speech/developmental disorders', 'Official English page describes comprehensive multidisciplinary rehabilitation for adult and pediatric neurological, musculoskeletal and developmental disorders with inpatient and outpatient services'],
+    features: ['stroke-rehab', 'brain-injury', 'spinal-cord', 'pediatric-rehab'],
+    description: {
+      it: 'Centro privato/internazionale di riabilitazione a Tallinn per ictus, traumi cranio-midollari, SM, Parkinson e bambini con PCI/paralisi cerebrale, con servizi residenziali e ambulatoriali.',
+      en: 'A private/international rehabilitation centre in Tallinn for stroke, brain and spinal cord trauma, MS, Parkinson and children with cerebral palsy/PCI, with inpatient and outpatient services.'
+    }
+  },
+  {
     id: 'buda-spinal-disorders-budapest',
     name: 'National Center for Spinal Disorders',
     country: 'Hungary',

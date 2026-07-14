@@ -2171,6 +2171,26 @@
       "sourceType": "czech-second-pass-official-seed",
       "discoverySource": "official Sanatoria Klimkovice INTENZITA+ page",
       "needles": ["intenzivní neurorehabilitační pobyt", "neurologickém onemocnění", "cévní mozkové příhodě", "získaném poškození mozku", "těžkým poškozením mozku"]
+    },
+    {
+      "country": "Estonia",
+      "name": "Ida-Tallinna Keskhaigla Taastusravikliinik",
+      "city": "Tallinn",
+      "region": "Harju County",
+      "url": "https://www.itk.ee/patsiendile/kliinikud/taastusravikliinik",
+      "sourceType": "estonia-first-pass-official-seed",
+      "discoverySource": "official East Tallinn Central Hospital rehabilitation clinic page",
+      "needles": ["Taastusravikliinik", "Tegeleme neuroloogiliste", "statsionaarne taastusravikeskus", "ambulatoorne taastusravikeskus", "logopeed"]
+    },
+    {
+      "country": "Estonia",
+      "name": "Adeli Rahvusvaheline Rehabilitatsioonikeskus",
+      "city": "Tallinn",
+      "region": "Harju County",
+      "url": "https://www.adeli.ee/",
+      "sourceType": "estonia-second-pass-official-seed",
+      "discoverySource": "official Adeli rehabilitation centre overview page",
+      "needles": ["kompleksset taastusravi", "insuldi", "pea-ja seljaajutraumade", "Sclerosis multiplex", "Parkinsoni", "PCI diagnoosiga"]
     }
   ],
   "searchResults": [],

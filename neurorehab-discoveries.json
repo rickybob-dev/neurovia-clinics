@@ -972,6 +972,31 @@
     ]
   },
   {
+    "name": "Adeli Rahvusvaheline Rehabilitatsioonikeskus",
+    "country": "Estonia",
+    "city": "Tallinn",
+    "region": "Harju County",
+    "url": "https://www.adeli.ee/",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | estonia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Adeli rehabilitation centre overview page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Estonian page says Adeli provides evidence-based complex rehabilitation after stroke and brain/spinal cord trauma",
+      "Official page also names MS, Parkinson disease, children with PCI/cerebral palsy and speech/developmental disorders",
+      "Official English page describes comprehensive multidisciplinary rehabilitation for adult and pediatric neurological, musculoskeletal and developmental disorders with inpatient and outpatient services",
+      "A private/international rehabilitation centre in Tallinn for stroke, brain and spinal cord trauma, MS, Parkinson and children with cerebral palsy/PCI, with inpatient and outpatient services.",
+      "Centro privato/internazionale di riabilitazione a Tallinn per ictus, traumi cranio-midollari, SM, Parkinson e bambini con PCI/paralisi cerebrale, con servizi residenziali e ambulatoriali.",
+      "kompleksset taastusravi",
+      "insuldi",
+      "pea-ja seljaajutraumade",
+      "Sclerosis multiplex",
+      "Parkinsoni",
+      "PCI diagnoosiga"
+    ]
+  },
+  {
     "name": "Haapsalu Neurological Rehabilitation Centre",
     "country": "Estonia",
     "city": "Haapsalu",
@@ -988,6 +1013,30 @@
       "Statsionaarne and ambulatory rehab services",
       "An Estonian neurorehabilitation centre in Haapsalu with dedicated neuro and spinal rehabilitation units, plus inpatient and outpatient pathways.",
       "Centro estone di neuroriabilitazione a Haapsalu con reparti per riabilitazione neuro e spinale, oltre a percorsi residenziali e ambulatoriali."
+    ]
+  },
+  {
+    "name": "Ida-Tallinna Keskhaigla Taastusravikliinik",
+    "country": "Estonia",
+    "city": "Tallinn",
+    "region": "Harju County",
+    "url": "https://www.itk.ee/patsiendile/kliinikud/taastusravikliinik",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | estonia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official East Tallinn Central Hospital rehabilitation clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page says the rehabilitation clinic works with neurological, cardiological, rheumatological, post-traumatic and orthopedic patients",
+      "Official page lists inpatient and outpatient rehabilitation centres",
+      "Official multidisciplinary team includes rehabilitation physician, physiotherapist, occupational therapist, speech therapist, psychologist and social worker",
+      "A public rehabilitation clinic at East Tallinn Central Hospital with inpatient and outpatient pathways for neurological patients and a multidisciplinary team.",
+      "Clinica pubblica di riabilitazione dell’Ida-Tallinna Keskhaigla a Tallinn, con percorsi residenziali e ambulatoriali per pazienti neurologici e team multidisciplinare.",
+      "Taastusravikliinik",
+      "Tegeleme neuroloogiliste",
+      "statsionaarne taastusravikeskus",
+      "ambulatoorne taastusravikeskus",
+      "logopeed"
     ]
   },
   {
