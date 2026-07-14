@@ -2223,6 +2223,27 @@
       "sourceType": "hungary-second-pass-official-seed",
       "discoverySource": "official Szent Vincent Szeged rehabilitation centre page",
       "needles": ["komplex rehabilitációs terápia", "Stroke-on, agyvérzésen átesett", "Parkinson, Guillain-Barré", "Sclerosis Multiplex", "Robot asszisztált terápiával"]
+    },
+    {
+      "country": "Slovakia",
+      "name": "Národné rehabilitačné centrum Kováčová",
+      "city": "Kováčová",
+      "region": "Banská Bystrica Region",
+      "url": "https://www.nrckovacova.sk/",
+      "validationUrl": "https://www.nrckovacova.sk/indikacne-spektrum.html",
+      "sourceType": "slovakia-first-pass-official-seed",
+      "discoverySource": "official NRC Kováčová indication spectrum page",
+      "needles": ["komplexnú prevenciu, diagnostiku a kvalifikovanú rehabilitačnú liečbu", "centrálneho nervového systému", "Spinálnej rehabilitačnej jednotke", "po úrazoch mozgu", "akútnych cievnych mozgových príhodách"]
+    },
+    {
+      "country": "Slovakia",
+      "name": "ADELI Medical Center",
+      "city": "Piešťany",
+      "region": "Trnava Region",
+      "url": "https://adelicenter.com/",
+      "sourceType": "slovakia-second-pass-official-seed",
+      "discoverySource": "official ADELI Medical Center neurorehabilitation homepage",
+      "needles": ["Neuroreha-Klinik", "neurologischen Beeinträchtigungen", "Neurorehabilitation", "Schlaganfällen", "Gehirns und Rückenmarks"]
     }
   ],
   "searchResults": [],

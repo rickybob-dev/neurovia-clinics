@@ -3243,6 +3243,42 @@ export const centers = [
     }
   },
   {
+    id: 'nrc-kovacova',
+    name: 'Národné rehabilitačné centrum Kováčová',
+    country: 'Slovakia',
+    city: 'Kováčová', region: 'Banská Bystrica Region', lat: 48.6083, lng: 19.1067,
+    address: 'Sládkovičova 1, 962 37 Kováčová', phone: 'Unknown',
+    url: 'https://www.nrckovacova.sk/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor'],
+    technologies: ['robotics'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabilitácia', 'Spinálna rehabilitačná jednotka', 'Ergoterapia', 'Fyzioterapia', 'Vodoliečba', 'Ortopedická protetika'],
+    completeness: 88,
+    researchHighlights: ['Official indication spectrum says NRC Kováčová provides complex prevention, diagnostics and qualified rehabilitation treatment', 'Official indications include central nervous system injuries, spinal cord procedures and lasting spinal cord damage requiring admission to the spinal rehabilitation unit', 'Official indications also include brain trauma, acute cerebrovascular events and neuropathies; the homepage references robotic devices for gait rehabilitation'],
+    features: ['spinal-cord', 'brain-injury', 'stroke-rehab', 'robotics'],
+    description: {
+      it: 'Centro nazionale pubblico di riabilitazione a Kováčová, con indicazioni ufficiali per lesioni del sistema nervoso centrale, lesioni midollari, traumi cerebrali e ictus.',
+      en: 'A public national rehabilitation centre in Kováčová with official indications for central nervous system injury, spinal cord injury, brain trauma and stroke.'
+    }
+  },
+  {
+    id: 'adeli-medical-center-piestany',
+    name: 'ADELI Medical Center',
+    country: 'Slovakia',
+    city: 'Piešťany', region: 'Trnava Region', lat: 48.5947, lng: 17.8382,
+    address: 'Hlboká 45, 92101 Piešťany', phone: '+421 33 79 15 900',
+    url: 'https://adelicenter.com/',
+    conditions: ['stroke', 'tbi', 'spinal', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurorehabilitation', 'Adult rehabilitation', 'Children and youth rehabilitation', 'Physiotherapy', 'Multidisciplinary therapies'],
+    completeness: 86,
+    researchHighlights: ['Official homepage describes ADELI as an internationally renowned rehabilitation centre specializing in neurological impairments', 'Official adult programme text says neurorehabilitation is for neurological diseases, brain damage after hemorrhage and stroke, and consequences of brain and spinal cord accidents', 'Official site also describes programmes for children and adolescents with neurological diseases'],
+    features: ['brain-injury', 'spinal-cord', 'stroke-rehab', 'pediatric-rehab'],
+    description: {
+      it: 'Centro privato/internazionale di neuro-riabilitazione a Piešťany per adulti e bambini con danni neurologici, ictus, lesioni cerebrali e midollari.',
+      en: 'A private/international neurorehabilitation centre in Piešťany for adults and children with neurological impairment, stroke, brain injury and spinal cord injury.'
+    }
+  },
+  {
     id: 'kbc-zagreb',
     name: 'University Hospital Centre Zagreb',
     country: 'Croatia',
