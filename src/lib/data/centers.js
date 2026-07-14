@@ -4193,5 +4193,149 @@ export const centers = [
       it: 'Centro VITREA di riabilitazione ambulatoriale a Wörgl con offerta neurologica per patologie del sistema nervoso.',
       en: 'A VITREA outpatient rehabilitation center in Wörgl with a neurological pathway for nervous-system conditions.'
     }
+  },
+  {
+    id: 'hammel-neurocenter',
+    name: 'Regionshospitalet Hammel Neurocenter',
+    country: 'Denmark',
+    city: 'Hammel', region: 'Central Denmark', lat: 56.2568, lng: 9.8683,
+    address: 'Voldbyvej 15A, 8450 Hammel', phone: '+45 78 41 96 00',
+    url: 'https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-hammel-neurocenter/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor', 'pediatric'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitering', 'NeuroIntensiv Rehabilitering', 'Neuropsykologi', 'Fysioterapi', 'Ergoterapi', 'Logopædi'],
+    completeness: 92,
+    researchHighlights: ['Official Region Midtjylland page says Hammel rehabilitates patients with acquired brain injury at highly specialised and regional levels', 'Official service cards include NeuroIntensiv Rehabilitering and Klinik for Neurorehabilitering', 'Offers clinics for adults, children/young people, cerebral palsy, mental functional impairments and spasticity after brain injury'],
+    features: ['brain-injury', 'highly-specialised', 'neurointensive'],
+    description: {
+      it: 'Centro pubblico altamente specializzato per neurorehabilitation dopo danno cerebrale acquisito, con reparti, cliniche e neurointensiva.',
+      en: 'A public highly specialised neurorehabilitation center for acquired brain injury, with wards, clinics and neurointensive rehabilitation.'
+    }
+  },
+  {
+    id: 'vestdansk-center-rygmarvsskade',
+    name: 'Vestdansk Center for Rygmarvsskade',
+    country: 'Denmark',
+    city: 'Viborg', region: 'Central Denmark', lat: 56.4525, lng: 9.4000,
+    address: 'Søndersøparken 11, 8800 Viborg', phone: '+45 78 44 00 00',
+    url: 'https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-viborg/neurologi/vestdansk-center-for-rygmarvsskade/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rygmarvsskade', 'Rehabilitering', 'Neurologi', 'Sengeafsnit', 'Opfølgning og kontrol'],
+    completeness: 91,
+    researchHighlights: ['Official page describes a highly specialised center rehabilitating people with spinal cord injury from Jutland and Funen', 'Offers Afsnit for Rygmarvsskade, Klinik for Rygmarvsskade and short rehabilitation pathways', 'Public Regionshospitalet Viborg/Neurologi service'],
+    features: ['spinal-cord', 'highly-specialised'],
+    description: {
+      it: 'Centro pubblico altamente specializzato a Viborg per riabilitazione dopo lesione midollare, con reparto e clinica di follow-up.',
+      en: 'A public highly specialised Viborg center for spinal cord injury rehabilitation, with an inpatient ward and follow-up clinic.'
+    }
+  },
+  {
+    id: 'vejlefjord-rehabilitering',
+    name: 'Vejlefjord Rehabilitering',
+    country: 'Denmark',
+    city: 'Stouby', region: 'Central Denmark', lat: 55.7186, lng: 9.8572,
+    address: 'Sanatorievej 27B, 7140 Stouby', phone: '+45 76 82 33 33',
+    url: 'https://vejlefjord.dk/voksne/specialiseret-rehabilitering/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Hjerneskaderehabilitering', 'Neuropsykologi', 'Neuropædagogik', 'Fysioterapi', 'Ergoterapi'],
+    completeness: 88,
+    researchHighlights: ['Official page states Vejlefjord has treated, retrained and rehabilitated people with acquired brain injury since 1985', 'It describes Vejlefjord as one of Denmark\'s oldest special hospitals for brain injury', 'Pathways are multidisciplinary, coordinated and holistic'],
+    features: ['brain-injury', 'special-hospital'],
+    description: {
+      it: 'Specialsygehus danese per riabilitazione dopo danno cerebrale acquisito, con percorsi multidisciplinari e accesso pubblico, assicurativo o privato.',
+      en: 'A Danish special hospital for acquired brain injury rehabilitation, with multidisciplinary pathways and public, insurance or private access routes.'
+    }
+  },
+  {
+    id: 'center-for-hjerneskade-copenhagen',
+    name: 'Center for Hjerneskade',
+    country: 'Denmark',
+    city: 'Copenhagen', region: 'Capital Region', lat: 55.6625, lng: 12.5893,
+    address: 'Amagerfælledvej 56A, 2300 København S', phone: '+45 35 32 90 06',
+    url: 'https://cfh.ku.dk/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'pediatric', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Hjerneskaderehabilitering', 'Neuropsykologi', 'Sprogtræning', 'Kognitiv træning', 'Fysisk genoptræning'],
+    completeness: 83,
+    researchHighlights: ['Official Center for Hjerneskade metadata says it specialises in training physical, language and cognitive functions', 'The center offers intensive adapted training for children, young people and adults with acquired brain injury', 'Official University of Copenhagen-hosted page lists adult brain injury and concussion services'],
+    features: ['brain-injury', 'outpatient-specialist', 'cognitive-rehab'],
+    description: {
+      it: 'Centro specialistico ambulatoriale a Copenaghen per danno cerebrale acquisito, funzioni cognitive, linguistiche e fisiche.',
+      en: 'A Copenhagen outpatient specialist center for acquired brain injury, including cognitive, language and physical rehabilitation.'
+    }
+  },
+  {
+    id: 'sclerosehospitalet-ry',
+    name: 'Sclerosehospitalet i Ry',
+    country: 'Denmark',
+    city: 'Ry', region: 'Central Denmark', lat: 56.0870, lng: 9.7648,
+    address: 'Klostervej 136, 8680 Ry', phone: '+45 78 41 25 00',
+    url: 'https://www.scleroseforeningen.dk/sclerosehospitalerne/',
+    conditions: ['ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Sclerosespecialiseret rehabilitering', 'Neurologi', 'Fysioterapi', 'Ergoterapi', 'Patientinddragelse'],
+    completeness: 84,
+    researchHighlights: ['Official Sclerosehospitalerne page says the hospitals are specialists in rehabilitation for people with sclerosis', 'The page states people are referred by their doctor or neurologist', 'Ry is one of the two official Sclerosehospitalerne locations'],
+    features: ['multiple-sclerosis', 'disease-specific-rehab'],
+    description: {
+      it: 'Sede di Ry degli ospedali danesi specializzati nella riabilitazione per persone con sclerosi multipla.',
+      en: 'The Ry site of the Danish hospitals specialising in rehabilitation for people with multiple sclerosis.'
+    }
+  },
+  {
+    id: 'sclerosehospitalet-haslev',
+    name: 'Sclerosehospitalet i Haslev',
+    country: 'Denmark',
+    city: 'Haslev', region: 'Zealand', lat: 55.3238, lng: 11.9645,
+    address: 'Ringstedvej 106, 4690 Haslev', phone: '+45 78 41 25 00',
+    url: 'https://www.scleroseforeningen.dk/sclerosehospitalerne/kontakt-os/',
+    conditions: ['ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Sclerosespecialiseret rehabilitering', 'Neurologi', 'Fysioterapi', 'Ergoterapi', 'Patientinddragelse'],
+    completeness: 84,
+    researchHighlights: ['Official Sclerosehospitalerne page says the hospitals provide sclerosis-specialised rehabilitation for all people with sclerosis', 'The page lists tailored rehabilitation stays and referral by doctor or neurologist', 'Haslev is one of the two official Sclerosehospitalerne locations'],
+    features: ['multiple-sclerosis', 'disease-specific-rehab'],
+    description: {
+      it: 'Sede di Haslev degli ospedali danesi specializzati nella riabilitazione per persone con sclerosi multipla.',
+      en: 'The Haslev site of the Danish hospitals specialising in rehabilitation for people with multiple sclerosis.'
+    }
+  },
+  {
+    id: 'specialhospitalet-rodovre',
+    name: 'Specialhospitalet i Rødovre',
+    country: 'Denmark',
+    city: 'Rødovre', region: 'Capital Region', lat: 55.6824, lng: 12.4492,
+    address: 'Fjeldhammervej 8, 2610 Rødovre', phone: '+45 36 73 90 00',
+    url: 'https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-rodovre/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['vr'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Specialiseret rehabilitering', 'Rygmarvsskade', 'Polio', 'Fysioterapi', 'Ergoterapi'],
+    completeness: 83,
+    researchHighlights: ['Official site says Specialhospitalet treats polio and accident patients and has more than 75 years of specialised rehabilitation experience', 'Navigation and research sections repeatedly identify spinal cord injury rehabilitation', 'Rødovre site has modern accessible training and treatment facilities'],
+    features: ['spinal-cord', 'post-polio', 'special-hospital'],
+    description: {
+      it: 'Sede di Rødovre dello Specialhospitalet, con riabilitazione specialistica per pazienti con esiti di polio, incidenti e lesione midollare.',
+      en: 'The Rødovre site of Specialhospitalet, providing specialised rehabilitation for post-polio, accident and spinal cord injury patients.'
+    }
+  },
+  {
+    id: 'specialhospitalet-aarhus',
+    name: 'Specialhospitalet i Aarhus',
+    country: 'Denmark',
+    city: 'Aarhus', region: 'Central Denmark', lat: 56.1418, lng: 10.1998,
+    address: 'MarselisborgCentret, Evald Krogs Gade 4C, 8000 Aarhus C', phone: '+45 36 73 90 00',
+    url: 'https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-aarhus/',
+    conditions: ['spinal', 'neuromotor'],
+    technologies: ['vr'], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Specialiseret rehabilitering', 'Rygmarvsskade', 'Polio', 'Fysioterapi', 'Ergoterapi'],
+    completeness: 80,
+    researchHighlights: ['Official site says Specialhospitalet treats polio and accident patients with specialised rehabilitation', 'Research topics include rehabilitation for spinal cord injury and post-polio sequelae', 'Aarhus site has accessible gym facilities, warm-water pool access and a dedicated address at MarselisborgCentret'],
+    features: ['spinal-cord', 'post-polio', 'special-hospital'],
+    description: {
+      it: 'Sede di Aarhus dello Specialhospitalet, con programmi specialistici per esiti di polio, incidenti e lesione midollare.',
+      en: 'The Aarhus site of Specialhospitalet, with specialist rehabilitation for post-polio, accident and spinal cord injury patients.'
+    }
   }
 ];

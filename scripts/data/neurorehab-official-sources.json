@@ -1930,6 +1930,86 @@
       "sourceType": "austria-second-pass-official-seed",
       "discoverySource": "official VITREA ambulatory rehabilitation site",
       "needles": ["VITREA Rehazentrum Wörgl", "Neurologische Rehabilitation", "Erkrankungen des zentralen und peripheren Nervensystems", "ambulante Rehabilitation", "PVA", "ÖGK"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Regionshospitalet Hammel Neurocenter",
+      "city": "Hammel",
+      "region": "Central Denmark",
+      "url": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-hammel-neurocenter/",
+      "sourceType": "denmark-first-pass-official-seed",
+      "discoverySource": "official Region Midtjylland hospital page",
+      "needles": ["Regionshospitalet Hammel Neurocenter", "rehabiliterer patienter med erhvervet hjerneskade", "højt specialiseret", "Klinik for Neurorehabilitering", "NeuroIntensiv Rehabilitering"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Vestdansk Center for Rygmarvsskade",
+      "city": "Viborg",
+      "region": "Central Denmark",
+      "url": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-viborg/neurologi/vestdansk-center-for-rygmarvsskade/",
+      "sourceType": "denmark-first-pass-official-seed",
+      "discoverySource": "official Region Midtjylland hospital page",
+      "needles": ["Vestdansk Center for Rygmarvsskade", "højt specialiseret center", "rehabiliterer personer med rygmarvsskade", "Afsnit for Rygmarvsskade", "Klinik for Rygmarvsskade"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Vejlefjord Rehabilitering",
+      "city": "Stouby",
+      "region": "Central Denmark",
+      "url": "https://vejlefjord.dk/voksne/specialiseret-rehabilitering/",
+      "sourceType": "denmark-first-pass-official-seed",
+      "discoverySource": "official Vejlefjord specialist rehabilitation page",
+      "needles": ["Rehabilitering efter hjerneskade", "erhvervet hjerneskade", "specialsygehuse for hjerneskade", "hjerneskaderehabilitering", "tværfaglige"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Center for Hjerneskade",
+      "city": "Copenhagen",
+      "region": "Capital Region",
+      "url": "https://cfh.ku.dk/",
+      "sourceType": "denmark-second-pass-official-seed",
+      "discoverySource": "official University of Copenhagen-hosted center page",
+      "needles": ["Center for Hjerneskade", "Specialister i hjerneskader", "fysiske, sproglige og kognitive funktioner", "erhvervet hjerneskade", "Hjerneskade (voksne)"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Sclerosehospitalet i Ry",
+      "city": "Ry",
+      "region": "Central Denmark",
+      "url": "https://www.scleroseforeningen.dk/sclerosehospitalerne/",
+      "sourceType": "denmark-second-pass-official-seed",
+      "discoverySource": "official Danish MS Hospitals site",
+      "needles": ["Sclerosehospitalet i Ry", "Specialister i rehabilitering af mennesker med sclerose", "sclerosespecialiseret rehabilitering", "læge eller neurolog", "Klostervej 136"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Sclerosehospitalet i Haslev",
+      "city": "Haslev",
+      "region": "Zealand",
+      "url": "https://www.scleroseforeningen.dk/sclerosehospitalerne/kontakt-os/",
+      "sourceType": "denmark-second-pass-official-seed",
+      "discoverySource": "official Danish MS Hospitals site",
+      "needles": ["Sclerosehospitalet i Haslev", "Specialister i rehabilitering af mennesker med sclerose", "sclerosespecialiseret rehabilitering", "læge eller neurolog", "Ringstedvej 106"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Specialhospitalet i Rødovre",
+      "city": "Rødovre",
+      "region": "Capital Region",
+      "url": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-rodovre/",
+      "sourceType": "denmark-second-pass-official-seed",
+      "discoverySource": "official Specialhospitalet site",
+      "needles": ["Specialhospitalet", "Rygmarvsskade", "specialiseret rehabilitering", "polio- og ulykkespatienter", "Fjeldhammervej 8"]
+    },
+    {
+      "country": "Denmark",
+      "name": "Specialhospitalet i Aarhus",
+      "city": "Aarhus",
+      "region": "Central Denmark",
+      "url": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-aarhus/",
+      "sourceType": "denmark-second-pass-official-seed",
+      "discoverySource": "official Specialhospitalet site",
+      "needles": ["Specialhospitalet", "Rygmarvsskade", "specialiseret rehabilitering", "polio- og ulykkespatienter", "Evald Krogs Gade 4C"]
     }
   ],
   "searchResults": [],

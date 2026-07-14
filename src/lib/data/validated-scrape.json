@@ -1401,6 +1401,395 @@
     "title": "Rehabilitace | Rehabilitační ústav Brandýs nad Orlicí"
   },
   {
+    "name": "Center for Hjerneskade",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "region": "Capital Region",
+    "url": "https://cfh.ku.dk/",
+    "sourceType": "curated-dataset | denmark-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University of Copenhagen-hosted center page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Center for Hjerneskade metadata says it specialises in training physical, language and cognitive functions",
+      "The center offers intensive adapted training for children, young people and adults with acquired brain injury",
+      "Official University of Copenhagen-hosted page lists adult brain injury and concussion services",
+      "A Copenhagen outpatient specialist center for acquired brain injury, including cognitive, language and physical rehabilitation.",
+      "Centro specialistico ambulatoriale a Copenaghen per danno cerebrale acquisito, funzioni cognitive, linguistiche e fisiche.",
+      "Center for Hjerneskade",
+      "Specialister i hjerneskader",
+      "fysiske, sproglige og kognitive funktioner",
+      "erhvervet hjerneskade",
+      "Hjerneskade (voksne)"
+    ],
+    "status": 200,
+    "finalUrl": "https://centerforhjerneskade.dk/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Center for Hjerneskade | Specialister i hjerneskader | Hjerneskade (voksne) | hjerne | hjerneskade | hjernerystelse | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "hjerne",
+        "hjerneskade",
+        "hjernerystelse"
+      ],
+      "institution": [
+        "hospital",
+        "centre",
+        "center"
+      ]
+    },
+    "title": "Center for Hjerneskade – Center for Hjerneskade"
+  },
+  {
+    "name": "Regionshospitalet Hammel Neurocenter",
+    "country": "Denmark",
+    "city": "Hammel",
+    "region": "Central Denmark",
+    "url": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-hammel-neurocenter",
+    "sourceType": "curated-dataset | denmark-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Region Midtjylland hospital page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Region Midtjylland page says Hammel rehabilitates patients with acquired brain injury at highly specialised and regional levels",
+      "Official service cards include NeuroIntensiv Rehabilitering and Klinik for Neurorehabilitering",
+      "Offers clinics for adults, children/young people, cerebral palsy, mental functional impairments and spasticity after brain injury",
+      "A public highly specialised neurorehabilitation center for acquired brain injury, with wards, clinics and neurointensive rehabilitation.",
+      "Centro pubblico altamente specializzato per neurorehabilitation dopo danno cerebrale acquisito, con reparti, cliniche e neurointensiva.",
+      "Regionshospitalet Hammel Neurocenter",
+      "rehabiliterer patienter med erhvervet hjerneskade",
+      "højt specialiseret",
+      "Klinik for Neurorehabilitering",
+      "NeuroIntensiv Rehabilitering"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-hammel-neurocenter",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Regionshospitalet Hammel Neurocenter | rehabiliterer patienter med erhvervet hjerneskade | Klinik for Neurorehabilitering | NeuroIntensiv Rehabilitering | neurorehabilitering | rehab | rehabilitering | neuro | hjerne | hjerneskade | erhvervet hjerneskade | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitering",
+        "neurorehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neuro",
+        "hjerne",
+        "hjerneskade",
+        "erhvervet hjerneskade",
+        "cerebral parese"
+      ],
+      "institution": [
+        "hospital",
+        "center"
+      ]
+    },
+    "title": "Regionshospitalet Hammel Neurocenter - Til patienter og p&#229;r&#248;rende - Hospitalsenhed Midt"
+  },
+  {
+    "name": "Sclerosehospitalet i Haslev",
+    "country": "Denmark",
+    "city": "Haslev",
+    "region": "Zealand",
+    "url": "https://www.scleroseforeningen.dk/sclerosehospitalerne/kontakt-os",
+    "sourceType": "curated-dataset | denmark-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Danish MS Hospitals site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Sclerosehospitalerne page says the hospitals provide sclerosis-specialised rehabilitation for all people with sclerosis",
+      "The page lists tailored rehabilitation stays and referral by doctor or neurologist",
+      "Haslev is one of the two official Sclerosehospitalerne locations",
+      "The Haslev site of the Danish hospitals specialising in rehabilitation for people with multiple sclerosis.",
+      "Sede di Haslev degli ospedali danesi specializzati nella riabilitazione per persone con sclerosi multipla.",
+      "Sclerosehospitalet i Haslev",
+      "Specialister i rehabilitering af mennesker med sclerose",
+      "sclerosespecialiseret rehabilitering",
+      "læge eller neurolog",
+      "Ringstedvej 106"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.scleroseforeningen.dk/sclerosehospitalerne/kontakt-os",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Sclerosehospitalet i Haslev | sclerosespecialiseret rehabilitering | Ringstedvej 106 | specialiseret rehabilitering | rehab | rehabilitering | sclerose | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "sclerosespecialiseret rehabilitering",
+        "specialiseret rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "sclerose"
+      ],
+      "institution": [
+        "hospital",
+        "center",
+        "sclerosehospitalet"
+      ]
+    },
+    "title": "Kontakt os | Sclerosehospitalerne"
+  },
+  {
+    "name": "Sclerosehospitalet i Ry",
+    "country": "Denmark",
+    "city": "Ry",
+    "region": "Central Denmark",
+    "url": "https://www.scleroseforeningen.dk/sclerosehospitalerne",
+    "sourceType": "curated-dataset | denmark-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Danish MS Hospitals site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Sclerosehospitalerne page says the hospitals are specialists in rehabilitation for people with sclerosis",
+      "The page states people are referred by their doctor or neurologist",
+      "Ry is one of the two official Sclerosehospitalerne locations",
+      "The Ry site of the Danish hospitals specialising in rehabilitation for people with multiple sclerosis.",
+      "Sede di Ry degli ospedali danesi specializzati nella riabilitazione per persone con sclerosi multipla.",
+      "Sclerosehospitalet i Ry",
+      "Specialister i rehabilitering af mennesker med sclerose",
+      "sclerosespecialiseret rehabilitering",
+      "læge eller neurolog",
+      "Klostervej 136"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.scleroseforeningen.dk/sclerosehospitalerne",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Sclerosehospitalet i Ry | Specialister i rehabilitering af mennesker med sclerose | sclerosespecialiseret rehabilitering | læge eller neurolog | Klostervej 136 | specialiseret rehabilitering | rehab | rehabilitering | neurolog | neuro | sclerose | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "sclerosespecialiseret rehabilitering",
+        "specialiseret rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "sclerose"
+      ],
+      "institution": [
+        "hospital",
+        "center",
+        "sclerosehospitalet"
+      ]
+    },
+    "title": "Forside | Sclerosehospitalerne"
+  },
+  {
+    "name": "Specialhospitalet i Aarhus",
+    "country": "Denmark",
+    "city": "Aarhus",
+    "region": "Central Denmark",
+    "url": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-aarhus",
+    "sourceType": "curated-dataset | denmark-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Specialhospitalet site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site says Specialhospitalet treats polio and accident patients with specialised rehabilitation",
+      "Research topics include rehabilitation for spinal cord injury and post-polio sequelae",
+      "Aarhus site has accessible gym facilities, warm-water pool access and a dedicated address at MarselisborgCentret",
+      "The Aarhus site of Specialhospitalet, with specialist rehabilitation for post-polio, accident and spinal cord injury patients.",
+      "Sede di Aarhus dello Specialhospitalet, con programmi specialistici per esiti di polio, incidenti e lesione midollare.",
+      "Specialhospitalet",
+      "Rygmarvsskade",
+      "specialiseret rehabilitering",
+      "polio- og ulykkespatienter",
+      "Evald Krogs Gade 4C"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-aarhus",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Specialhospitalet | Rygmarvsskade | specialiseret rehabilitering | Evald Krogs Gade 4C | rehab | rehabilitering | rygmarvsskade | rygmarvsskadede | polio | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "specialiseret rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "rygmarvsskade",
+        "rygmarvsskadede",
+        "polio"
+      ],
+      "institution": [
+        "hospital",
+        "center",
+        "specialhospitalet"
+      ]
+    },
+    "title": "Faciliteter i Aarhus"
+  },
+  {
+    "name": "Specialhospitalet i Rødovre",
+    "country": "Denmark",
+    "city": "Rødovre",
+    "region": "Capital Region",
+    "url": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-rodovre",
+    "sourceType": "curated-dataset | denmark-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Specialhospitalet site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site says Specialhospitalet treats polio and accident patients and has more than 75 years of specialised rehabilitation experience",
+      "Navigation and research sections repeatedly identify spinal cord injury rehabilitation",
+      "Rødovre site has modern accessible training and treatment facilities",
+      "The Rødovre site of Specialhospitalet, providing specialised rehabilitation for post-polio, accident and spinal cord injury patients.",
+      "Sede di Rødovre dello Specialhospitalet, con riabilitazione specialistica per pazienti con esiti di polio, incidenti e lesione midollare.",
+      "Specialhospitalet",
+      "Rygmarvsskade",
+      "specialiseret rehabilitering",
+      "polio- og ulykkespatienter",
+      "Fjeldhammervej 8"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.specialhospitalet.dk/om-os/faciliteter/faciliteter-i-rodovre",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Specialhospitalet | Rygmarvsskade | specialiseret rehabilitering | Fjeldhammervej 8 | rehab | rehabilitering | rygmarvsskade | rygmarvsskadede | polio | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "specialiseret rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "rygmarvsskade",
+        "rygmarvsskadede",
+        "polio"
+      ],
+      "institution": [
+        "hospital",
+        "center",
+        "specialhospitalet"
+      ]
+    },
+    "title": "Faciliteter i R&#xF8;dovre"
+  },
+  {
+    "name": "Vejlefjord Rehabilitering",
+    "country": "Denmark",
+    "city": "Stouby",
+    "region": "Central Denmark",
+    "url": "https://vejlefjord.dk/voksne/specialiseret-rehabilitering",
+    "sourceType": "curated-dataset | denmark-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Vejlefjord specialist rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page states Vejlefjord has treated, retrained and rehabilitated people with acquired brain injury since 1985",
+      "It describes Vejlefjord as one of Denmark's oldest special hospitals for brain injury",
+      "Pathways are multidisciplinary, coordinated and holistic",
+      "A Danish special hospital for acquired brain injury rehabilitation, with multidisciplinary pathways and public, insurance or private access routes.",
+      "Specialsygehus danese per riabilitazione dopo danno cerebrale acquisito, con percorsi multidisciplinari e accesso pubblico, assicurativo o privato.",
+      "Rehabilitering efter hjerneskade",
+      "erhvervet hjerneskade",
+      "specialsygehuse for hjerneskade",
+      "hjerneskaderehabilitering",
+      "tværfaglige"
+    ],
+    "status": 200,
+    "finalUrl": "https://vejlefjord.dk/voksne/specialiseret-rehabilitering",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Rehabilitering efter hjerneskade | erhvervet hjerneskade | specialsygehuse for hjerneskade | hjerneskaderehabilitering | tværfaglige | specialiseret rehabilitering | rehab | rehabilitering | genoptræning | optræning | neuro | hjerne | hjerneskade | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "hjerneskaderehabilitering",
+        "specialiseret rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering",
+        "genoptræning",
+        "optræning"
+      ],
+      "neurological": [
+        "neuro",
+        "hjerne",
+        "hjerneskade",
+        "erhvervet hjerneskade"
+      ],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Specialiseret Rehabilitering | Vejlefjord Rehabilitering"
+  },
+  {
+    "name": "Vestdansk Center for Rygmarvsskade",
+    "country": "Denmark",
+    "city": "Viborg",
+    "region": "Central Denmark",
+    "url": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-viborg/neurologi/vestdansk-center-for-rygmarvsskade",
+    "sourceType": "curated-dataset | denmark-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Region Midtjylland hospital page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page describes a highly specialised center rehabilitating people with spinal cord injury from Jutland and Funen",
+      "Offers Afsnit for Rygmarvsskade, Klinik for Rygmarvsskade and short rehabilitation pathways",
+      "Public Regionshospitalet Viborg/Neurologi service",
+      "A public highly specialised Viborg center for spinal cord injury rehabilitation, with an inpatient ward and follow-up clinic.",
+      "Centro pubblico altamente specializzato a Viborg per riabilitazione dopo lesione midollare, con reparto e clinica di follow-up.",
+      "Vestdansk Center for Rygmarvsskade",
+      "højt specialiseret center",
+      "rehabiliterer personer med rygmarvsskade",
+      "Afsnit for Rygmarvsskade",
+      "Klinik for Rygmarvsskade"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hospitalsenhedmidt.dk/afdelinger-og-steder/regionshospitalet-viborg/neurologi/vestdansk-center-for-rygmarvsskade",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Vestdansk Center for Rygmarvsskade | rehabiliterer personer med rygmarvsskade | Afsnit for Rygmarvsskade | Klinik for Rygmarvsskade | rehab | rehabilitering | neurolog | neuro | rygmarvsskade | rygmarvsskader | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "rygmarvsskade",
+        "rygmarvsskader"
+      ],
+      "institution": [
+        "hospital",
+        "center"
+      ]
+    },
+    "title": "Vestdansk Center for Rygmarvsskade - Regionshospitalet Viborg - Hospitalsenhed Midt"
+  },
+  {
     "name": "Haapsalu Neurological Rehabilitation Centre",
     "country": "Estonia",
     "city": "Haapsalu",
@@ -1472,7 +1861,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "MPR Neurologique | Médecine Physique et Réadaptation neurologique adulte | atteinte du système nerveux central | Lésions cérébrales | accident vasculaire cérébral | traumatisme crânien | Sclérose en plaques | Syndromes parkinsoniens | Unité de Réadaptation Neurologique Post Réanimation | affections du système nerveux | réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | parkinson | blessés médullaires | centre",
+    "evidence": "MPR Neurologique | Médecine Physique et Réadaptation neurologique adulte | atteinte du système nerveux central | Lésions cérébrales | accident vasculaire cérébral | traumatisme crânien | Sclérose en plaques | Syndromes parkinsoniens | Unité de Réadaptation Neurologique Post Réanimation | affections du système nerveux | réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | sclerose | parkinson | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "réadaptation neurologique"
@@ -1484,6 +1873,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
         "parkinson",
         "blessés médullaires",
         "accident vasculaire cérébral",
@@ -1698,7 +2088,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "médecine physique et de réadaptation | neurologique | avc | traumatisme crânien | lésion médullaire | réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | lesion medull | hospital | centre",
+    "evidence": "médecine physique et de réadaptation | neurologique | avc | traumatisme crânien | lésion médullaire | réadaptation neurologique | rééducation | réadaptation | neurolog | neuro | sclerose | polio | hospital | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "réadaptation neurologique"
@@ -1710,6 +2100,8 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
+        "polio",
         "lesion medull",
         "lésion médullaire",
         "avc",
@@ -1963,7 +2355,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "médecine physique et de réadaptation pédiatrique | neurologie pédiatrique | pathologies neuromusculaires | pathologies cérébrales | rééducation | réadaptation | neurolog | neuro | hospital",
+    "evidence": "médecine physique et de réadaptation pédiatrique | neurologie pédiatrique | pathologies neuromusculaires | pathologies cérébrales | rééducation | réadaptation | neurolog | neuro | sclerose | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -1972,7 +2364,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "sclerose"
       ],
       "institution": [
         "hospital"
@@ -2007,7 +2400,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "affections du système nerveux | rééducation post-avc | sclérose en plaques | maladie de parkinson | traumatisme cranien | rééducation des pathologies médulaires | rééducation | réadaptation | neurolog | neuro | parkinson | accident vasculaire cérébral | hospital",
+    "evidence": "affections du système nerveux | rééducation post-avc | sclérose en plaques | maladie de parkinson | traumatisme cranien | rééducation des pathologies médulaires | rééducation | réadaptation | neurolog | neuro | sclerose | parkinson | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -2017,6 +2410,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
         "parkinson",
         "accident vasculaire cérébral",
         "avc",
@@ -4255,7 +4649,8 @@
         "neurolog",
         "neuro",
         "ictus",
-        "spinal"
+        "spinal",
+        "polio"
       ],
       "institution": [
         "centro"
@@ -4937,7 +5332,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neurologische revalidatie | Neurorevalidatie | beroerte | dwarslaesie | MS | ALS | Parkinson | neurologische revalidatie | neurorevalidatie | revalidatie | neurolog | neuro | parkinson",
+    "evidence": "Neurologische revalidatie | Neurorevalidatie | beroerte | dwarslaesie | MS | ALS | Parkinson | neurologische revalidatie | neurorevalidatie | revalidatie | neurolog | neuro | sclerose | parkinson",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische revalidatie",
@@ -4949,6 +5344,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
         "parkinson",
         "dwarslaesie",
         "beroerte",
@@ -5033,13 +5429,14 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Dwarslaesie | Guillain-Barré syndroom (GBS) | Locked-in syndroom | Multiple sclerose (MS) | Niet-aangeboren hersenletsel | Spina bifida | revalidatie | dwarslaesie | beroerte | cva | hersenletsel",
+    "evidence": "Dwarslaesie | Guillain-Barré syndroom (GBS) | Locked-in syndroom | Multiple sclerose (MS) | Niet-aangeboren hersenletsel | Spina bifida | revalidatie | sclerose | dwarslaesie | beroerte | cva",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "revalidatie"
       ],
       "neurological": [
+        "sclerose",
         "dwarslaesie",
         "beroerte",
         "cva",
@@ -5084,13 +5481,14 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "medisch specialistische revalidatie | hersenletsel | dwarslaesie | multiple sclerose (MS) | klinisch | poliklinisch | revalidatie | niet-aangeboren hersenletsel | nah | kliniek",
+    "evidence": "medisch specialistische revalidatie | hersenletsel | dwarslaesie | multiple sclerose (MS) | klinisch | poliklinisch | revalidatie | sclerose | niet-aangeboren hersenletsel | kliniek",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "revalidatie"
       ],
       "neurological": [
+        "sclerose",
         "dwarslaesie",
         "hersenletsel",
         "niet-aangeboren hersenletsel",
@@ -5412,13 +5810,14 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Dwarslaesie | MS (Multiple Sclerose) | NAH (niet-aangeboren hersenletsel) | Parkinson | Spierziekten | Cerebrale Parese | revalidatie | parkinson | dwarslaesie | hersenletsel | niet-aangeboren hersenletsel",
+    "evidence": "Dwarslaesie | MS (Multiple Sclerose) | NAH (niet-aangeboren hersenletsel) | Parkinson | Spierziekten | Cerebrale Parese | revalidatie | sclerose | parkinson | dwarslaesie | hersenletsel",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "revalidatie"
       ],
       "neurological": [
+        "sclerose",
         "parkinson",
         "dwarslaesie",
         "hersenletsel",
@@ -5461,7 +5860,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Dwarslaesie | Multiple Sclerose (MS) | Neuromusculaire Aandoeningen (NMA) | Niet-Aangeboren Hersenletsel (NAH) | Ziekte van Parkinson | Neurologische problematiek | revalidatie | neurolog | neuro | parkinson | dwarslaesie",
+    "evidence": "Dwarslaesie | Multiple Sclerose (MS) | Neuromusculaire Aandoeningen (NMA) | Niet-Aangeboren Hersenletsel (NAH) | Ziekte van Parkinson | Neurologische problematiek | revalidatie | neurolog | neuro | sclerose | parkinson",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -5470,6 +5869,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
         "parkinson",
         "dwarslaesie",
         "hersenletsel",
@@ -5514,7 +5914,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "dwarslaesie | niet-aangeboren hersenaandoening | zenuw- en spierziekten | beroerte | traumatisch hersenletsel | Multiple Sclerose | revalidatie | neurolog | neuro | dwarslaesiezorg | kliniek",
+    "evidence": "dwarslaesie | niet-aangeboren hersenaandoening | zenuw- en spierziekten | beroerte | traumatisch hersenletsel | Multiple Sclerose | revalidatie | neurolog | neuro | sclerose | polio | kliniek",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -5523,6 +5923,8 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "sclerose",
+        "polio",
         "dwarslaesie",
         "dwarslaesiezorg",
         "beroerte",
@@ -5569,13 +5971,14 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Dwarslaesie | Traumatisch hersenletsel | Niet-aangeboren hersenletsel | revalidatie | dwarslaesie | beroerte | cva | hersenletsel",
+    "evidence": "Dwarslaesie | Traumatisch hersenletsel | Niet-aangeboren hersenletsel | revalidatie | sclerose | dwarslaesie | beroerte | cva",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "revalidatie"
       ],
       "neurological": [
+        "sclerose",
         "dwarslaesie",
         "beroerte",
         "cva",
@@ -5632,6 +6035,7 @@
       "neurological": [
         "hjerne",
         "hjerneskade",
+        "traumatisk hjerneskade",
         "ervervet hjerneskade",
         "traumatisk hjerneskade",
         "ryggmargsskade",
@@ -5888,7 +6292,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Unicare Fram | Hjerneslag og ervervet hjerneskade | Nevrologisk og nevromuskulær sykdommer | Paal Bergs vei 129 | 1349 Rykkinn | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | ervervet hjerneskade",
+    "evidence": "Unicare Fram | Hjerneslag og ervervet hjerneskade | Nevrologisk og nevromuskulær sykdommer | Paal Bergs vei 129 | 1349 Rykkinn | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | hjernerystelse",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "nevrologisk og nevromuskulær sykdom"
@@ -5901,6 +6305,7 @@
         "hjerneslag",
         "hjerne",
         "hjerneskade",
+        "hjernerystelse",
         "ervervet hjerneskade",
         "nevromuskulær",
         "parkinson"
@@ -6022,7 +6427,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Unicare Steffensrud | Hjerneslag og traumatiske hjerneskader | Nevrologisk og nevromuskulær sykdom | Parkinson gruppe | Multippel sklerose (MS) gruppe | Vestre Totenveg 1530 | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | traumatiske hjerneskader",
+    "evidence": "Unicare Steffensrud | Hjerneslag og traumatiske hjerneskader | Nevrologisk og nevromuskulær sykdom | Parkinson gruppe | Multippel sklerose (MS) gruppe | Vestre Totenveg 1530 | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | cerebral parese",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "nevrologisk og nevromuskulær sykdom"
@@ -6035,6 +6440,8 @@
         "hjerneslag",
         "hjerne",
         "hjerneskade",
+        "cerebral parese",
+        "polio",
         "traumatiske hjerneskader",
         "nevromuskulær",
         "multippel sklerose",
@@ -6142,6 +6549,7 @@
         "hjerneslag",
         "hjerne",
         "hjerneskade",
+        "traumatisk hjerneskade",
         "traumatisk hjerneskade",
         "nevromuskulær",
         "nevromuskulære"
@@ -7869,7 +8277,8 @@
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
-        "planerad neurologisk rehab"
+        "planerad neurologisk rehab",
+        "neurologisk rehabilitering"
       ],
       "rehabilitation": [
         "rehab",
@@ -7918,7 +8327,9 @@
       "explicitNeuroRehab": [
         "neurorehabilitering",
         "neurologisk rehabilitering",
-        "rehabiliteringsmedicin"
+        "rehabiliteringsmedicin",
+        "neurorehabilitering",
+        "neurologisk rehabilitering"
       ],
       "rehabilitation": [
         "rehabilitation",
@@ -8016,6 +8427,7 @@
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
         "rehabiliteringsmedicin",
+        "neurologisk rehabilitering",
         "dagrehabilitering"
       ],
       "rehabilitation": [
@@ -8068,6 +8480,7 @@
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
+        "neurologisk rehabilitering",
         "dagrehabilitering"
       ],
       "rehabilitation": [
@@ -8115,7 +8528,8 @@
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
-        "neuroteam"
+        "neuroteam",
+        "neurologisk rehabilitering"
       ],
       "rehabilitation": [
         "rehab",
@@ -8166,6 +8580,7 @@
     "evidence": "Furuhöjden Rehabilitering | inneliggande neurologisk rehabilitering | Region Stockholm | Neurologisk rehabilitering | rehabilitering vid stroke | neurologisk rehabilitering | rehab | rehabilitering | inneliggande rehabilitering | neurolog | neuro | stroke",
     "matchedSignals": {
       "explicitNeuroRehab": [
+        "neurologisk rehabilitering",
         "neurologisk rehabilitering"
       ],
       "rehabilitation": [
@@ -8263,7 +8678,8 @@
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
-        "rehabiliteringsmedicin"
+        "rehabiliteringsmedicin",
+        "neurologisk rehabilitering"
       ],
       "rehabilitation": [
         "rehab",
@@ -8307,9 +8723,10 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Mälargården Rehab Center | specialiserad rehabilitering inom neurologi | Stroke | Parkinson | MS | postpolio | neurologisk rehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | parkinson | center",
+    "evidence": "Mälargården Rehab Center | specialiserad rehabilitering inom neurologi | Stroke | Parkinson | MS | postpolio | neurologisk rehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | polio | center",
     "matchedSignals": {
       "explicitNeuroRehab": [
+        "neurologisk rehabilitering",
         "neurologisk rehabilitering"
       ],
       "rehabilitation": [
@@ -8320,6 +8737,7 @@
         "neurolog",
         "neuro",
         "stroke",
+        "polio",
         "parkinson"
       ],
       "institution": [
@@ -8361,6 +8779,7 @@
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
         "specialiserad neurologisk rehabilitering",
+        "neurologisk rehabilitering",
         "dagrehabilitering"
       ],
       "rehabilitation": [
@@ -8459,6 +8878,8 @@
     "evidence": "Neurorehabilitering Västerbotten | Norrlands universitetssjukhus | 901 85 Umeå | neurorehabilitering | neurologisk rehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | ryggmargsskade",
     "matchedSignals": {
       "explicitNeuroRehab": [
+        "neurorehabilitering",
+        "neurologisk rehabilitering",
         "neurorehabilitering",
         "neurologisk rehabilitering"
       ],
@@ -8856,6 +9277,7 @@
     "evidence": "Förvärvad hjärnskada | neurologisk rehabilitering | fysioterapeut | arbetsterapeut | kurator | logoped | Herrgårdsvägen 97 | rehab | rehabilitering | neurolog | neuro | hjärnskada | hjarnskada",
     "matchedSignals": {
       "explicitNeuroRehab": [
+        "neurologisk rehabilitering",
         "neurologisk rehabilitering"
       ],
       "rehabilitation": [
@@ -10845,6 +11267,7 @@
         "stroke",
         "spinal cord",
         "spinal",
+        "polio",
         "brain injury",
         "cerebral palsy",
         "parkinson",
