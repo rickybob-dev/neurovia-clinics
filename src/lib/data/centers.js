@@ -4337,5 +4337,113 @@ export const centers = [
       it: 'Sede di Aarhus dello Specialhospitalet, con programmi specialistici per esiti di polio, incidenti e lesione midollare.',
       en: 'The Aarhus site of Specialhospitalet, with specialist rehabilitation for post-polio, accident and spinal cord injury patients.'
     }
+  },
+  {
+    id: 'validia-synapsia-helsinki',
+    name: 'Validia Kuntoutuskeskus Synapsia',
+    country: 'Finland',
+    city: 'Helsinki', region: 'Uusimaa', lat: 60.1879, lng: 24.9139,
+    address: 'Nordenskiöldinkatu 18 B, 00250 Helsinki', phone: '+358 29 170 7220',
+    url: 'https://www.validia.fi/kuntoutus/',
+    conditions: ['tbi', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['outpatient', 'inpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologinen kuntoutus', 'Moniammatillinen yksilökuntoutus', 'Avokuntoutus', 'Fysioterapia', 'Toimintaterapia'],
+    completeness: 84,
+    researchHighlights: ['Official Validia page identifies the provider as an expert in rehabilitation for brain and spinal cord injuries and other neurological injuries and diseases', 'The page lists Kuntoutuskeskus Synapsia in Helsinki as a rehabilitation unit', 'Validia lists multidisciplinary individual rehabilitation and outpatient rehabilitation services'],
+    features: ['brain-injury', 'spinal-cord', 'multidisciplinary-rehab'],
+    description: {
+      it: 'Unità Validia a Helsinki per riabilitazione neurologica multidisciplinare, inclusi esiti di lesioni cerebrali e midollari.',
+      en: 'A Validia Helsinki unit for multidisciplinary neurological rehabilitation, including brain and spinal cord injury rehabilitation.'
+    }
+  },
+  {
+    id: 'maskun-neurologinen-kuntoutuskeskus',
+    name: 'Maskun neurologinen kuntoutuskeskus',
+    country: 'Finland',
+    city: 'Masku', region: 'Southwest Finland', lat: 60.5726, lng: 22.1029,
+    address: 'Vaihemäentie 10 A, 21250 Masku', phone: '+358 2 439 2111',
+    url: 'https://kuntoutukseen.fi/palvelut/maskun-neurologinen-kuntoutuskeskus/',
+    conditions: ['ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologinen kuntoutus', 'Sopeutumisen tuki', 'Yksilökuntoutus', 'Kurssikuntoutus', 'Moniammatillinen kuntoutus'],
+    completeness: 86,
+    researchHighlights: ['Official Kuntoutukseen page describes Masku as Finland\'s longest-running unit focused on rehabilitation and adaptation support for neurological diseases', 'The page states that the largest client group is people with MS', 'It also identifies Masku as a resource center for rare neurological diseases'],
+    features: ['multiple-sclerosis', 'rare-neurological-diseases', 'multidisciplinary-rehab'],
+    description: {
+      it: 'Centro Neuroliitto a Masku specializzato in riabilitazione per malattie neurologiche, sclerosi multipla e condizioni neurologiche rare.',
+      en: 'A Neuroliitto center in Masku specialising in rehabilitation for neurological diseases, multiple sclerosis and rare neurological conditions.'
+    }
+  },
+  {
+    id: 'peurunka-neurologinen-kuntoutus',
+    name: 'Peurunka neurologinen kuntoutus',
+    country: 'Finland',
+    city: 'Laukaa', region: 'Central Finland', lat: 62.4167, lng: 25.8826,
+    address: 'Peurungantie 85, 41340 Laukaa', phone: '+358 20 751 6300',
+    url: 'https://peurunka.fi/kuntoutus/vaativa-laakinnallinen-kuntoutus/',
+    conditions: ['stroke', 'spinal', 'parkinson', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private'],
+    disciplines: ['Vaativa lääkinnällinen kuntoutus', 'Aikuisten neurologinen palvelu', 'Moniammatillinen yksilökuntoutus', 'Kuntoutuskurssit', 'Fysioterapia'],
+    completeness: 84,
+    researchHighlights: ['Official Peurunka demanding medical rehabilitation page lists a neurological pathway for people with neurological disease or spinal cord injury', 'Peurunka describes a multidisciplinary individual rehabilitation need for eligible neurological clients', 'Official Peurunka course pages include adult neurological rehabilitation, stroke and movement-disorder rehabilitation courses'],
+    features: ['neurological-disease', 'spinal-cord', 'kela-rehabilitation'],
+    description: {
+      it: 'Centro di riabilitazione a Laukaa con percorsi neurologici e riabilitazione medica intensiva per malattie neurologiche e lesioni midollari.',
+      en: 'A Laukaa rehabilitation center with neurological pathways and demanding medical rehabilitation for neurological disease and spinal cord injury.'
+    }
+  },
+  {
+    id: 'neuropiste-helsinki',
+    name: 'Neuropiste Helsinki',
+    country: 'Finland',
+    city: 'Helsinki', region: 'Uusimaa', lat: 60.2089, lng: 24.9766,
+    address: 'Arabiankatu 17, 00560 Helsinki', phone: '+358 40 088 4667',
+    url: 'https://www.neuropiste.fi/toimipisteet/helsinki/',
+    conditions: ['neuromotor', 'cognitive'],
+    technologies: ['robotics', 'gait'], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologinen kuntoutus', 'Fysioterapia', 'Kävelykuntoutus', 'Toimintaterapia', 'Neurologin vastaanotto'],
+    completeness: 80,
+    researchHighlights: ['Official Helsinki branch page says the Arabia and Itäkeskus sites provide rehabilitation for neurological disorders', 'The page states that training uses robotics and game technology', 'The services list includes Lokomat robotic gait rehabilitation at Arabia'],
+    features: ['outpatient-neurorehab', 'robotic-gait', 'neurologist'],
+    description: {
+      it: 'Sede Neuropiste di Helsinki per riabilitazione neurologica ambulatoriale, con robotica Lokomat e tecnologie per il cammino.',
+      en: 'Neuropiste\'s Helsinki branch for outpatient neurological rehabilitation, including Lokomat robotic gait training and gait technologies.'
+    }
+  },
+  {
+    id: 'neuropiste-turku',
+    name: 'Neuropiste Turku',
+    country: 'Finland',
+    city: 'Turku', region: 'Southwest Finland', lat: 60.4552, lng: 22.2584,
+    address: 'Läntinen Pitkäkatu 21-23 B, 20100 Turku', phone: '+358 40 088 4667',
+    url: 'https://www.neuropiste.fi/toimipisteet/turku/',
+    conditions: ['neuromotor'],
+    technologies: ['robotics', 'gait'], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologinen kuntoutus', 'Fysioterapia', 'Kävelykuntoutus', 'Toimintaterapia', 'Allasterapia'],
+    completeness: 79,
+    researchHighlights: ['Official Turku branch page says Neuropiste Turku specialises in rehabilitation for neurological diseases and injuries', 'The page lists gait rehabilitation and cooperation with the client\'s multidisciplinary network', 'Equipment includes robotic OmegoPlus gait rehabilitation and LiteGait body-weight-supported training'],
+    features: ['outpatient-neurorehab', 'gait-rehabilitation', 'rehab-technology'],
+    description: {
+      it: 'Sede Neuropiste di Turku specializzata in riabilitazione ambulatoriale per malattie e lesioni neurologiche, con tecnologie per il cammino.',
+      en: 'Neuropiste\'s Turku branch specialising in outpatient rehabilitation for neurological diseases and injuries, with gait rehabilitation technology.'
+    }
+  },
+  {
+    id: 'neuropiste-seinajoki',
+    name: 'Neuropiste Seinäjoki',
+    country: 'Finland',
+    city: 'Seinäjoki', region: 'South Ostrobothnia', lat: 62.7966, lng: 22.8085,
+    address: 'Karvarinkatu 8, 60320 Seinäjoki', phone: '+358 40 088 4667',
+    url: 'https://www.neuropiste.fi/toimipisteet/seinajoki/',
+    conditions: ['neuromotor', 'pediatric'],
+    technologies: ['gait'], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologinen fysioterapia', 'Fysioterapia', 'Toimintakykytestaus', 'Kotikäynnit', 'Kuntosaliharjoittelu'],
+    completeness: 78,
+    researchHighlights: ['Official Seinäjoki branch page states its special area is rehabilitation for neurological diseases and injuries', 'The service list includes neurological physiotherapy for children and young people as well as adults', 'The page describes body-weight-supported gait training as an evidence-based method in neurological rehabilitation'],
+    features: ['outpatient-neurorehab', 'pediatric-neurophysiotherapy', 'gait-rehabilitation'],
+    description: {
+      it: 'Sede Neuropiste di Seinäjoki con fisioterapia neurologica per adulti, bambini e giovani, inclusa riabilitazione del cammino.',
+      en: 'Neuropiste\'s Seinäjoki branch with neurological physiotherapy for adults, children and young people, including gait rehabilitation.'
+    }
   }
 ];

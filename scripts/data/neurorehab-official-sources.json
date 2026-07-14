@@ -2010,6 +2010,66 @@
       "sourceType": "denmark-second-pass-official-seed",
       "discoverySource": "official Specialhospitalet site",
       "needles": ["Specialhospitalet", "Rygmarvsskade", "specialiseret rehabilitering", "polio- og ulykkespatienter", "Evald Krogs Gade 4C"]
+    },
+    {
+      "country": "Finland",
+      "name": "Validia Kuntoutuskeskus Synapsia",
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "url": "https://www.validia.fi/kuntoutus/",
+      "sourceType": "finland-first-pass-official-seed",
+      "discoverySource": "official Validia rehabilitation page",
+      "needles": ["Kuntoutuskeskus Synapsia", "aivo- ja selkäydinvammojen", "neurologisten vammojen ja sairauksien kuntoutuksen asiantuntija", "moniammatillista yksilökuntoutusta", "Nordenskiöldinkatu 18 B"]
+    },
+    {
+      "country": "Finland",
+      "name": "Maskun neurologinen kuntoutuskeskus",
+      "city": "Masku",
+      "region": "Southwest Finland",
+      "url": "https://kuntoutukseen.fi/palvelut/maskun-neurologinen-kuntoutuskeskus/",
+      "sourceType": "finland-first-pass-official-seed",
+      "discoverySource": "official Neuroliitto/Kuntoutukseen service page",
+      "needles": ["Maskun neurologinen kuntoutuskeskus", "neurologisten sairauksien kuntoutukseen", "MS-tautia sairastavat", "harvinaisten neurologisten sairauksien", "Vaihemäentie 10 A"]
+    },
+    {
+      "country": "Finland",
+      "name": "Peurunka neurologinen kuntoutus",
+      "city": "Laukaa",
+      "region": "Central Finland",
+      "url": "https://peurunka.fi/kuntoutus/vaativa-laakinnallinen-kuntoutus/",
+      "sourceType": "finland-first-pass-official-seed",
+      "discoverySource": "official Peurunka demanding medical rehabilitation page",
+      "needles": ["Neurologinen", "vaativan lääkinnällisen kuntoutuksen", "neurologinen sairaus", "selkäydinvamma", "moniammatillisen yksilökuntoutuksen"]
+    },
+    {
+      "country": "Finland",
+      "name": "Neuropiste Helsinki",
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "url": "https://www.neuropiste.fi/toimipisteet/helsinki/",
+      "sourceType": "finland-second-pass-official-seed",
+      "discoverySource": "official Neuropiste branch page",
+      "needles": ["Neuropisteet Arabiassa ja Itäkeskuksessa", "neurologisten häiriöiden kuntoutusta", "robotiikkaa ja peliteknologiaa", "Lokomat-kävelykuntoutus", "Arabiankatu 17"]
+    },
+    {
+      "country": "Finland",
+      "name": "Neuropiste Turku",
+      "city": "Turku",
+      "region": "Southwest Finland",
+      "url": "https://www.neuropiste.fi/toimipisteet/turku/",
+      "sourceType": "finland-second-pass-official-seed",
+      "discoverySource": "official Neuropiste branch page",
+      "needles": ["Neuropiste Turku", "neurologisten sairauksien ja vammojen kuntoutukseen", "kävelykuntoutukseen", "moniammatillisen verkoston", "Läntinen Pitkäkatu 21-23 B"]
+    },
+    {
+      "country": "Finland",
+      "name": "Neuropiste Seinäjoki",
+      "city": "Seinäjoki",
+      "region": "South Ostrobothnia",
+      "url": "https://www.neuropiste.fi/toimipisteet/seinajoki/",
+      "sourceType": "finland-second-pass-official-seed",
+      "discoverySource": "official Neuropiste branch page",
+      "needles": ["Neuropiste Seinäjoki", "neurologisten sairauksien ja vammojen kuntoutus", "Neurologinen fysioterapia", "Painokevenetty kävelyharjoittelu", "Karvarinkatu 8"]
     }
   ],
   "searchResults": [],
