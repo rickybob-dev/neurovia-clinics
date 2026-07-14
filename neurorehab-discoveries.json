@@ -2772,6 +2772,78 @@
     ]
   },
   {
+    "name": "Semmelweis University Rehabilitation Clinic",
+    "country": "Hungary",
+    "city": "Budapest",
+    "region": "Budapest",
+    "url": "https://semmelweis.hu/rehabilitaciosklinika",
+    "validationUrl": "https://semmelweis.hu/rehabilitaciosklinika/betegellatas/osztalyok/agyserultek-rehabilitacios-osztalya",
+    "sourceType": "curated-dataset | hungary-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Semmelweis University Rehabilitation Clinic brain-injury rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Semmelweis page says the clinic is the successor of the former National Institute for Medical Rehabilitation and is the highest progressive level rehabilitation provider",
+      "Official brain-injury department page lists rehabilitation after traumatic brain injury, stroke and other neurological-origin rehabilitation needs including MS, neuropathy and Guillain-Barre syndrome",
+      "Official spinal-cord pages list dedicated spinal cord injury and early tetraplegic rehabilitation departments",
+      "A public university rehabilitation clinic in Budapest, successor to OORI, with rehabilitation for brain injury, stroke, spinal cord injury, MS and other neurological conditions.",
+      "Clinica universitaria pubblica di Budapest, erede dell’OORI, con riabilitazione per lesioni cerebrali, ictus, lesioni midollari, SM e altre condizioni neurologiche.",
+      "Agysérültek Rehabilitációs Osztálya",
+      "agysérülést szenvedett betegek orvosi rehabilitációja",
+      "stroke vagy más neurológiai eredetű rehabilitációt",
+      "sclerosis multiplex",
+      "Guillain-Barre szindróma"
+    ]
+  },
+  {
+    "name": "Szent Vincent Rehabilitációs Központ Szeged",
+    "country": "Hungary",
+    "city": "Szeged",
+    "region": "Csongrád-Csanád County",
+    "url": "https://szentvincentrehab.hu/szeged",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | hungary-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Szent Vincent Szeged rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page targets patients after stroke and brain hemorrhage, Parkinson disease, Guillain-Barre syndrome and multiple sclerosis",
+      "Official page also lists neurodegenerative, peripheral, muscular dystrophy and traumatic conditions",
+      "Official services include neurological consultation, cognitive assessment, physiotherapy, occupational therapy, speech therapy, TMS and robot-assisted therapy",
+      "A private rehabilitation centre in Szeged for stroke, Parkinson, Guillain-Barre, MS and other neurological disorders, with robot-assisted therapy and TMS.",
+      "Centro privato di riabilitazione a Szeged per ictus, Parkinson, Guillain-Barré, SM e altri disturbi neurologici, con terapia robot-assistita e TMS.",
+      "komplex rehabilitációs terápia",
+      "Stroke-on, agyvérzésen átesett",
+      "Parkinson, Guillain-Barré",
+      "Sclerosis Multiplex",
+      "Robot asszisztált terápiával"
+    ]
+  },
+  {
+    "name": "University of Debrecen Medical Rehabilitation and Physical Medicine Clinic",
+    "country": "Hungary",
+    "city": "Debrecen",
+    "region": "Hajdú-Bihar County",
+    "url": "https://rehabilitacio.unideb.hu/",
+    "validationUrl": "https://rehabilitacio.unideb.hu/hu/rolunk-koszonto",
+    "sourceType": "curated-dataset | hungary-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University of Debrecen rehabilitation clinic overview page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official overview says the clinic has a unified 110-bed inpatient and 18-bed day-care rehabilitation service",
+      "Official page states high-progressivity rehabilitation for brain-injured and trauma patients",
+      "Official page also states care for chronic neurological patients, with outpatient neurological specialist clinic listed on the contact/search page",
+      "A public university rehabilitation medicine clinic in Debrecen with inpatient, day-care and outpatient services for brain-injured and chronic neurological patients.",
+      "Clinica pubblica universitaria di Debrecen per medicina riabilitativa, con degenza, day hospital e percorsi per lesioni cerebrali e pazienti neurologici cronici.",
+      "Orvosi Rehabilitáció és Fizikális Medicina Klinika",
+      "110 ágyas fekvő",
+      "18 ágyas nappali ellátó",
+      "agysérült és a traumás betegeket rehabilitációja",
+      "krónikus neurológiai"
+    ]
+  },
+  {
     "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
     "country": "Ireland",
     "city": "Dublin",

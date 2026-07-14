@@ -3189,6 +3189,60 @@ export const centers = [
     }
   },
   {
+    id: 'semmelweis-rehabilitation-clinic-budapest',
+    name: 'Semmelweis University Rehabilitation Clinic',
+    country: 'Hungary',
+    city: 'Budapest', region: 'Budapest', lat: 47.5031, lng: 18.9665,
+    address: '1121 Budapest, Szanatórium u. 19.', phone: '+36 1 391 1900',
+    url: 'https://semmelweis.hu/rehabilitaciosklinika/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'cognitive', 'neuromotor'],
+    technologies: ['fes'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Agysérültek rehabilitációja', 'Gerincvelősérültek rehabilitációja', 'Fizioterápia', 'Ergoterápia', 'Logopédia', 'Pszichológia', 'Sportterápia'],
+    completeness: 90,
+    researchHighlights: ['Official Semmelweis page says the clinic is the successor of the former National Institute for Medical Rehabilitation and is the highest progressive level rehabilitation provider', 'Official brain-injury department page lists rehabilitation after traumatic brain injury, stroke and other neurological-origin rehabilitation needs including MS, neuropathy and Guillain-Barre syndrome', 'Official spinal-cord pages list dedicated spinal cord injury and early tetraplegic rehabilitation departments'],
+    features: ['brain-injury', 'spinal-cord', 'stroke-rehab', 'research'],
+    description: {
+      it: 'Clinica universitaria pubblica di Budapest, erede dell’OORI, con riabilitazione per lesioni cerebrali, ictus, lesioni midollari, SM e altre condizioni neurologiche.',
+      en: 'A public university rehabilitation clinic in Budapest, successor to OORI, with rehabilitation for brain injury, stroke, spinal cord injury, MS and other neurological conditions.'
+    }
+  },
+  {
+    id: 'university-debrecen-rehabilitation-clinic',
+    name: 'University of Debrecen Medical Rehabilitation and Physical Medicine Clinic',
+    country: 'Hungary',
+    city: 'Debrecen', region: 'Hajdú-Bihar County', lat: 47.5316, lng: 21.6168,
+    address: 'Bartók Béla út 2-26., Debrecen', phone: 'Unknown',
+    url: 'https://rehabilitacio.unideb.hu/',
+    conditions: ['tbi', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'day', 'outpatient'], access: ['public'],
+    disciplines: ['Orvosi rehabilitáció', 'Fizikális medicina', 'Fizioterápia', 'Gyógytorna', 'Neurológiai szakambulancia'],
+    completeness: 82,
+    researchHighlights: ['Official overview says the clinic has a unified 110-bed inpatient and 18-bed day-care rehabilitation service', 'Official page states high-progressivity rehabilitation for brain-injured and trauma patients', 'Official page also states care for chronic neurological patients, with outpatient neurological specialist clinic listed on the contact/search page'],
+    features: ['brain-injury', 'rehabilitation'],
+    description: {
+      it: 'Clinica pubblica universitaria di Debrecen per medicina riabilitativa, con degenza, day hospital e percorsi per lesioni cerebrali e pazienti neurologici cronici.',
+      en: 'A public university rehabilitation medicine clinic in Debrecen with inpatient, day-care and outpatient services for brain-injured and chronic neurological patients.'
+    }
+  },
+  {
+    id: 'szent-vincent-rehab-szeged',
+    name: 'Szent Vincent Rehabilitációs Központ Szeged',
+    country: 'Hungary',
+    city: 'Szeged', region: 'Csongrád-Csanád County', lat: 46.2596, lng: 20.1371,
+    address: '6724 Szeged, Bakay Nándor u. 50.', phone: '+36 70 652 0800',
+    url: 'https://szentvincentrehab.hu/szeged/',
+    conditions: ['stroke', 'ms', 'parkinson', 'neuromotor', 'cognitive'],
+    technologies: ['robotics', 'tms'], modes: ['outpatient', 'day'], access: ['private'],
+    disciplines: ['Neurológiai szakrendelés', 'Fizioterápia', 'Gyógytorna', 'Ergoterápia', 'Logopédia', 'Pszichológia', 'Robot asszisztált terápia', 'TMS terápia'],
+    completeness: 86,
+    researchHighlights: ['Official page targets patients after stroke and brain hemorrhage, Parkinson disease, Guillain-Barre syndrome and multiple sclerosis', 'Official page also lists neurodegenerative, peripheral, muscular dystrophy and traumatic conditions', 'Official services include neurological consultation, cognitive assessment, physiotherapy, occupational therapy, speech therapy, TMS and robot-assisted therapy'],
+    features: ['stroke-rehab', 'robotics', 'rehabilitation'],
+    description: {
+      it: 'Centro privato di riabilitazione a Szeged per ictus, Parkinson, Guillain-Barré, SM e altri disturbi neurologici, con terapia robot-assistita e TMS.',
+      en: 'A private rehabilitation centre in Szeged for stroke, Parkinson, Guillain-Barre, MS and other neurological disorders, with robot-assisted therapy and TMS.'
+    }
+  },
+  {
     id: 'kbc-zagreb',
     name: 'University Hospital Centre Zagreb',
     country: 'Croatia',

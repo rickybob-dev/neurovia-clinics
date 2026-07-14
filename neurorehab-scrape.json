@@ -672,7 +672,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -683,7 +683,6 @@
         "neuro"
       ],
       "institution": [
-        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -5648,6 +5647,163 @@
     "title": "Access denied | NKE"
   },
   {
+    "name": "Semmelweis University Rehabilitation Clinic",
+    "country": "Hungary",
+    "city": "Budapest",
+    "region": "Budapest",
+    "url": "https://semmelweis.hu/rehabilitaciosklinika",
+    "validationUrl": "https://semmelweis.hu/rehabilitaciosklinika/betegellatas/osztalyok/agyserultek-rehabilitacios-osztalya",
+    "sourceType": "curated-dataset | hungary-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Semmelweis University Rehabilitation Clinic brain-injury rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Semmelweis page says the clinic is the successor of the former National Institute for Medical Rehabilitation and is the highest progressive level rehabilitation provider",
+      "Official brain-injury department page lists rehabilitation after traumatic brain injury, stroke and other neurological-origin rehabilitation needs including MS, neuropathy and Guillain-Barre syndrome",
+      "Official spinal-cord pages list dedicated spinal cord injury and early tetraplegic rehabilitation departments",
+      "A public university rehabilitation clinic in Budapest, successor to OORI, with rehabilitation for brain injury, stroke, spinal cord injury, MS and other neurological conditions.",
+      "Clinica universitaria pubblica di Budapest, erede dell’OORI, con riabilitazione per lesioni cerebrali, ictus, lesioni midollari, SM e altre condizioni neurologiche.",
+      "Agysérültek Rehabilitációs Osztálya",
+      "agysérülést szenvedett betegek orvosi rehabilitációja",
+      "stroke vagy más neurológiai eredetű rehabilitációt",
+      "sclerosis multiplex",
+      "Guillain-Barre szindróma"
+    ],
+    "status": 200,
+    "finalUrl": "https://semmelweis.hu/rehabilitaciosklinika/betegellatas/osztalyok/agyserultek-rehabilitacios-osztalya",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Agysérültek Rehabilitációs Osztálya | agysérülést szenvedett betegek orvosi rehabilitációja | stroke vagy más neurológiai eredetű rehabilitációt | sclerosis multiplex | Guillain-Barre szindróma | orvosi rehabilitáció | agysérültek rehabilitációs | gerincvelősérültek rehabilitációs | rehab | rehabilitáció | neurolog | neuro | stroke | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "orvosi rehabilitáció",
+        "agysérültek rehabilitációs",
+        "gerincvelősérültek rehabilitációs",
+        "stroke vagy más neurológiai eredetű rehabilitációt"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitáció"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "sclerosis multiplex",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Agysérültek Rehabilitációs Osztálya &#8211; 01H7R2205 &#8211; Rehabilitációs Klinika"
+  },
+  {
+    "name": "Szent Vincent Rehabilitációs Központ Szeged",
+    "country": "Hungary",
+    "city": "Szeged",
+    "region": "Csongrád-Csanád County",
+    "url": "https://szentvincentrehab.hu/szeged",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | hungary-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Szent Vincent Szeged rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official page targets patients after stroke and brain hemorrhage, Parkinson disease, Guillain-Barre syndrome and multiple sclerosis",
+      "Official page also lists neurodegenerative, peripheral, muscular dystrophy and traumatic conditions",
+      "Official services include neurological consultation, cognitive assessment, physiotherapy, occupational therapy, speech therapy, TMS and robot-assisted therapy",
+      "A private rehabilitation centre in Szeged for stroke, Parkinson, Guillain-Barre, MS and other neurological disorders, with robot-assisted therapy and TMS.",
+      "Centro privato di riabilitazione a Szeged per ictus, Parkinson, Guillain-Barré, SM e altri disturbi neurologici, con terapia robot-assistita e TMS.",
+      "komplex rehabilitációs terápia",
+      "Stroke-on, agyvérzésen átesett",
+      "Parkinson, Guillain-Barré",
+      "Sclerosis Multiplex",
+      "Robot asszisztált terápiával"
+    ],
+    "status": 200,
+    "finalUrl": "https://szentvincentrehab.hu/szeged",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "komplex rehabilitációs terápia | Stroke-on, agyvérzésen átesett | Parkinson, Guillain-Barré | Sclerosis Multiplex | Robot asszisztált terápiával | rehab | rehabilitáció | neurolog | neuro | stroke | sclerosis multiplex",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "komplex rehabilitációs terápia"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitáció"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "sclerosis multiplex",
+        "parkinson",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": []
+    },
+    "title": "Szeged &#8211; Szent Vincent Rehabilitációs Központ"
+  },
+  {
+    "name": "University of Debrecen Medical Rehabilitation and Physical Medicine Clinic",
+    "country": "Hungary",
+    "city": "Debrecen",
+    "region": "Hajdú-Bihar County",
+    "url": "https://rehabilitacio.unideb.hu/",
+    "validationUrl": "https://rehabilitacio.unideb.hu/hu/rolunk-koszonto",
+    "sourceType": "curated-dataset | hungary-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University of Debrecen rehabilitation clinic overview page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official overview says the clinic has a unified 110-bed inpatient and 18-bed day-care rehabilitation service",
+      "Official page states high-progressivity rehabilitation for brain-injured and trauma patients",
+      "Official page also states care for chronic neurological patients, with outpatient neurological specialist clinic listed on the contact/search page",
+      "A public university rehabilitation medicine clinic in Debrecen with inpatient, day-care and outpatient services for brain-injured and chronic neurological patients.",
+      "Clinica pubblica universitaria di Debrecen per medicina riabilitativa, con degenza, day hospital e percorsi per lesioni cerebrali e pazienti neurologici cronici.",
+      "Orvosi Rehabilitáció és Fizikális Medicina Klinika",
+      "110 ágyas fekvő",
+      "18 ágyas nappali ellátó",
+      "agysérült és a traumás betegeket rehabilitációja",
+      "krónikus neurológiai"
+    ],
+    "status": 200,
+    "finalUrl": "https://rehabilitacio.unideb.hu/hu/rolunk-koszonto",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Orvosi Rehabilitáció és Fizikális Medicina Klinika | 110 ágyas fekvő | 18 ágyas nappali ellátó | agysérült és a traumás betegeket rehabilitációja | krónikus neurológiai | orvosi rehabilitáció | rehab | rehabilitáció | neurolog | neuro | stroke | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "orvosi rehabilitáció",
+        "krónikus neurológiai"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitáció"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Rólunk - Köszöntő | DE Klinikai Központ"
+  },
+  {
     "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
     "country": "Ireland",
     "city": "Dublin",
@@ -8616,12 +8772,13 @@
     "contentType": "text/html;charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | centro",
+    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | rehabilitáció | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [],
       "institution": [
@@ -8660,7 +8817,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | centro | unidad | rehab | rehabilitación | neurolog | neuro | tce",
+    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | centro | unidad | rehab | rehabilitación | rehabilitáció | neurolog | neuro | tce",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
@@ -8668,7 +8825,8 @@
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -8713,12 +8871,13 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "daño cerebral | unidad | rehab | rehabilitación | neuro | hospital | clinic",
+    "evidence": "daño cerebral | unidad | rehab | rehabilitación | rehabilitáció | neuro | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neuro"
@@ -8761,14 +8920,16 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Unidad de Daño Cerebral | neurorehabilitación | neurorrehabilitación | ictus | traumatismo craneoencefálico | lesión medular | hospitalización | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "Unidad de Daño Cerebral | neurorehabilitación | neurorrehabilitación | ictus | traumatismo craneoencefálico | lesión medular | hospitalización | neurorehabilitáció | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
-        "neurorrehabilitación"
+        "neurorrehabilitación",
+        "neurorehabilitáció"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -8812,7 +8973,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | neurolog | neuro | tce | centro",
+    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | rehabilitáció | neurolog | neuro | tce | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
@@ -8820,7 +8981,8 @@
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -8867,7 +9029,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | neurolog | neuro | tce | centro",
+    "evidence": "Centros Casaverde Neurorrehabilitación | neurorrehabilitación | rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | rehabilitáció | neurolog | neuro | tce | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
@@ -8875,7 +9037,8 @@
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -8922,14 +9085,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | neurolog | neuro | tce | centro",
+    "evidence": "rehabilitación neurológica | ictus | parkinson | hospital | unidad | rehab | rehabilitación | rehabilitáció | neurolog | neuro | tce | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "rehabilitación neurológica"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -8977,16 +9141,18 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Unidad Avanzada de Neurorrehabilitación | rehabilitación neurológica | daño cerebral | ictus | traumatismo craneoencefálico | lesión medular | esclerosis múltiple | parkinson | neurorrehabilitación | fisioterapia neurológica | rehab | rehabilitación | neurolog | neuro | tce | hospital | clinic",
+    "evidence": "Unidad Avanzada de Neurorrehabilitación | rehabilitación neurológica | daño cerebral | ictus | traumatismo craneoencefálico | lesión medular | esclerosis múltiple | parkinson | neurorrehabilitación | fisioterapia neurológica | neurorehabilitáció | rehab | rehabilitación | rehabilitáció | neurolog | neuro | tce | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
         "rehabilitación neurológica",
-        "fisioterapia neurológica"
+        "fisioterapia neurológica",
+        "neurorehabilitáció"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9030,12 +9196,13 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehab | rehabilitación | neuro | hospital",
+    "evidence": "rehab | rehabilitación | rehabilitáció | neuro | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neuro"
@@ -9069,14 +9236,15 @@
     "contentType": "text/html;charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9112,14 +9280,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | ictus | parkinson | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | ictus | parkinson | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9157,14 +9326,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9199,14 +9369,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | ictus | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | ictus | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9242,14 +9413,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9285,14 +9457,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9333,14 +9506,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centro de Día de Daño Cerebral Bekoetxe | Neurorrehabilitación y daño cerebral | daño cerebral | Neuropsicología | rehabilitación | neurorrehabilitación | rehab | neuro | ictus | hospital | centro",
+    "evidence": "Centro de Día de Daño Cerebral Bekoetxe | Neurorrehabilitación y daño cerebral | daño cerebral | Neuropsicología | rehabilitación | neurorrehabilitación | rehab | rehabilitáció | neuro | ictus | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neuro",
@@ -9376,14 +9550,16 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Hospital de Neurorrehabilitación | Investigación e Innovación | neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital",
+    "evidence": "Hospital de Neurorrehabilitación | Investigación e Innovación | neurorrehabilitación | neurorehabilitáció | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [
-        "neurorrehabilitación"
+        "neurorrehabilitación",
+        "neurorehabilitáció"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9427,7 +9603,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehabilitación neurológica | daño cerebral | ictus | traumatismo craneoencefálico | lesión medular | esclerosis múltiple | parkinson | hospitalización | fisioterapia neurológica | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehabilitación neurológica | daño cerebral | ictus | traumatismo craneoencefálico | lesión medular | esclerosis múltiple | parkinson | hospitalización | fisioterapia neurológica | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
@@ -9436,7 +9612,8 @@
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9485,14 +9662,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centro de Neurorrehabilitación | rehabilitación de las secuelas causadas por el daño cerebral adquirido | Unidad de Rehabilitación Ambulatoria | ictus | traumatismos craneoencefálicos | enfermedades neurodegenerativas | Párkinson | esclerosis múltiple | Unidad de Rehabilitación Infantil | neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | cerebrovascular | hospital | centro",
+    "evidence": "Centro de Neurorrehabilitación | rehabilitación de las secuelas causadas por el daño cerebral adquirido | Unidad de Rehabilitación Ambulatoria | ictus | traumatismos craneoencefálicos | enfermedades neurodegenerativas | Párkinson | esclerosis múltiple | Unidad de Rehabilitación Infantil | neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | cerebrovascular | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9536,14 +9714,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centro de Neurorrehabilitación | Neurorrehabilitación y daño cerebral | Centro de Día de Daño Cerebral | Discapacidad Neurológica | programas de atención personalizados | neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | ictus | hospital | centro",
+    "evidence": "Centro de Neurorrehabilitación | Neurorrehabilitación y daño cerebral | Centro de Día de Daño Cerebral | Discapacidad Neurológica | programas de atención personalizados | neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | ictus | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",
@@ -9585,14 +9764,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neurorrehabilitación y daño cerebral | Centro de Día de Daño Cerebral | personas con daño cerebral | 30 más para personas con daño cerebral | ictus | neurorrehabilitación | rehab | rehabilitación | neuro | hospital | centro",
+    "evidence": "Neurorrehabilitación y daño cerebral | Centro de Día de Daño Cerebral | personas con daño cerebral | 30 más para personas con daño cerebral | ictus | neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neuro",
@@ -9636,14 +9816,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neurorrehabilitación y daño cerebral | Unidad de Hospitalización | rehabilitación multidisciplinar | secuelas neurológicas | lesión cerebral | ictus | traumatismos craneales | afección neurológica | neurorrehabilitación | rehab | rehabilitación | neurolog | neuro | hospital | centro",
+    "evidence": "Neurorrehabilitación y daño cerebral | Unidad de Hospitalización | rehabilitación multidisciplinar | secuelas neurológicas | lesión cerebral | ictus | traumatismos craneales | afección neurológica | neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
       ],
       "rehabilitation": [
         "rehab",
-        "rehabilitación"
+        "rehabilitación",
+        "rehabilitáció"
       ],
       "neurological": [
         "neurolog",

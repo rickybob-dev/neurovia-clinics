@@ -105,6 +105,14 @@ const explicitNeuroRehabSignals = [
   'rehabilitacija po možganski poškodbi',
   'rehabilitacija za osebe s pridobljeno možgansko poškodbo',
   'neurorehabilitatsioon',
+  'neurorehabilitáció',
+  'neurológiai rehabilitáció',
+  'orvosi rehabilitáció',
+  'agysérültek rehabilitációs',
+  'gerincvelősérültek rehabilitációs',
+  'stroke vagy más neurológiai eredetű rehabilitációt',
+  'krónikus neurológiai',
+  'komplex rehabilitációs terápia',
   'неврологическая реабилитация',
   'нейрореабилитация'
 ];
@@ -144,6 +152,7 @@ const rehabSignals = [
   'laitoskuntoutus',
   'avokuntoutus',
   'taastusravi',
+  'rehabilitáció',
   'реабилитация'
 ];
 

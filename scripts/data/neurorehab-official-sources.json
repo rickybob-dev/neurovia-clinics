@@ -2191,6 +2191,38 @@
       "sourceType": "estonia-second-pass-official-seed",
       "discoverySource": "official Adeli rehabilitation centre overview page",
       "needles": ["kompleksset taastusravi", "insuldi", "pea-ja seljaajutraumade", "Sclerosis multiplex", "Parkinsoni", "PCI diagnoosiga"]
+    },
+    {
+      "country": "Hungary",
+      "name": "Semmelweis University Rehabilitation Clinic",
+      "city": "Budapest",
+      "region": "Budapest",
+      "url": "https://semmelweis.hu/rehabilitaciosklinika/",
+      "validationUrl": "https://semmelweis.hu/rehabilitaciosklinika/betegellatas/osztalyok/agyserultek-rehabilitacios-osztalya/",
+      "sourceType": "hungary-first-pass-official-seed",
+      "discoverySource": "official Semmelweis University Rehabilitation Clinic brain-injury rehabilitation department page",
+      "needles": ["Agysérültek Rehabilitációs Osztálya", "agysérülést szenvedett betegek orvosi rehabilitációja", "stroke vagy más neurológiai eredetű rehabilitációt", "sclerosis multiplex", "Guillain-Barre szindróma"]
+    },
+    {
+      "country": "Hungary",
+      "name": "University of Debrecen Medical Rehabilitation and Physical Medicine Clinic",
+      "city": "Debrecen",
+      "region": "Hajdú-Bihar County",
+      "url": "https://rehabilitacio.unideb.hu/",
+      "validationUrl": "https://rehabilitacio.unideb.hu/hu/rolunk-koszonto",
+      "sourceType": "hungary-first-pass-official-seed",
+      "discoverySource": "official University of Debrecen rehabilitation clinic overview page",
+      "needles": ["Orvosi Rehabilitáció és Fizikális Medicina Klinika", "110 ágyas fekvő", "18 ágyas nappali ellátó", "agysérült és a traumás betegeket rehabilitációja", "krónikus neurológiai"]
+    },
+    {
+      "country": "Hungary",
+      "name": "Szent Vincent Rehabilitációs Központ Szeged",
+      "city": "Szeged",
+      "region": "Csongrád-Csanád County",
+      "url": "https://szentvincentrehab.hu/szeged/",
+      "sourceType": "hungary-second-pass-official-seed",
+      "discoverySource": "official Szent Vincent Szeged rehabilitation centre page",
+      "needles": ["komplex rehabilitációs terápia", "Stroke-on, agyvérzésen átesett", "Parkinson, Guillain-Barré", "Sclerosis Multiplex", "Robot asszisztált terápiával"]
     }
   ],
   "searchResults": [],
