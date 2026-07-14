@@ -2093,6 +2093,30 @@
     ]
   },
   {
+    "name": "Basalt Leiden",
+    "country": "Netherlands",
+    "city": "Leiden",
+    "region": "South Holland",
+    "url": "https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/locaties",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Basalt neurological rehabilitation locations page and Leiden location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Basalt neurological rehabilitation locations page lists Leiden as a clinic and outpatient neurorehabilitation location",
+      "Official Leiden page lists Volwassenen Neuro/Ortho/Pijn and a clinical ward contact",
+      "Basalt neurological rehabilitation covers stroke, spinal cord injury, MS, ALS, neuromuscular disorders, cerebral palsy and Parkinson",
+      "Basalt’s Leiden site provides inpatient and outpatient neurorehabilitation, linked to Basalt pathways for stroke, spinal cord injury, MS, Parkinson, ALS and neuromuscular conditions.",
+      "Sede Basalt di Leiden per neurorevalidatie clinica e ambulatoriale, collegata ai percorsi Basalt per ictus, lesioni midollari, SM, Parkinson, ALS e patologie neuromuscolari.",
+      "Basalt biedt neurorevalidatie aan op de locaties",
+      "Leiden (kliniek en polikliniek)",
+      "Volwassenen Neuro/Ortho/Pijn",
+      "Kliniek",
+      "neurologische revalidatie",
+      "neurorevalidatie"
+    ]
+  },
+  {
     "name": "De Hoogstraat Revalidatie",
     "country": "Netherlands",
     "city": "Utrecht",
@@ -2186,6 +2210,30 @@
       "niet-aangeboren hersenletsel",
       "dwarslaesie",
       "Parkinson"
+    ]
+  },
+  {
+    "name": "Libra Revalidatiecentrum Leijpark",
+    "country": "Netherlands",
+    "city": "Tilburg",
+    "region": "North Brabant",
+    "url": "https://www.libranet.nl/service-menu/locaties/libra-revalidatiecentrum-leijpark-tilburg",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Libra Leijpark Tilburg rehabilitation centre location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official location page identifies Vroege Intensieve Neurorevalidatie (VIN) as a specialised Leijpark department",
+      "VIN is described for severe brain injury including stroke, traumatic brain injury and other neurological conditions",
+      "Leijpark has clinical and outpatient rehabilitation, 35 inpatient beds and VIN-specific visiting hours",
+      "Libra’s Leijpark centre in Tilburg has a VIN early intensive neurorehabilitation department for severe brain injury, stroke, traumatic brain injury and other neurological conditions.",
+      "Sede Libra Leijpark a Tilburg con reparto VIN per neurorevalidatie intensiva precoce dopo gravi lesioni cerebrali, ictus, trauma cranico e altre patologie neurologiche.",
+      "Vroege Intensieve Neurorevalidatie (VIN)",
+      "ernstig hersenletsel",
+      "beroerte",
+      "traumatisch hersenletsel",
+      "neurologische aandoeningen",
+      "klinische revalidatie"
     ]
   },
   {
@@ -2330,6 +2378,30 @@
       "beroerte",
       "traumatisch hersenletsel",
       "Multiple Sclerose"
+    ]
+  },
+  {
+    "name": "Vogellanden",
+    "country": "Netherlands",
+    "city": "Zwolle",
+    "region": "Overijssel",
+    "url": "https://www.vogellanden.nl/revalidatie/aandoeningen",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Vogellanden rehabilitation condition pages and contact page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official sitemap lists rehabilitation pages for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury",
+      "Official contact page lists adult inpatient rehabilitation and adult outpatient rehabilitation at Hyacinthstraat Zwolle",
+      "Official news pages reference virtual rehabilitation for brain injury and participation in stroke recovery research",
+      "A Zwolle rehabilitation centre with pathways for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury, including inpatient and outpatient care.",
+      "Centro di riabilitazione a Zwolle con percorsi per CVA/ictus, lesioni midollari, SM, trauma cranico e NAH, con ricovero e ambulatorio.",
+      "Beroerte CVA",
+      "Dwarslaesie",
+      "Multiple Sclerose MS",
+      "Traumatisch hersenletsel",
+      "Niet-aangeboren hersenletsel",
+      "Kliniek revalidatie volwassenen"
     ]
   },
   {

@@ -20,7 +20,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -31,6 +31,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -981,28 +982,13 @@
       "rééducation motrice",
       "rééducation cognitive"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "maladies rares neurologiques | huntington | réadaptation | rééducation motrice | rééducation | neurolog | neuro | avc | hospital",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rééducation",
-        "réadaptation"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "avc"
-      ],
-      "institution": [
-        "hospital"
-      ]
-    },
-    "title": "Service de SMR Maladies Rares Neurologiques CRMR Huntington - Hôpital marin de Hendaye | APHP"
+    "title": "",
+    "evidence": "This operation was aborted; curl fallback failed: curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Hôpital Maritime de Berck — AP-HP",
@@ -1111,32 +1097,20 @@
       "rééducation des pathologies médulaires"
     ],
     "status": 200,
-    "finalUrl": "https://www.aphp.fr/san-salvadour/service-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux",
+    "finalUrl": "https://validate.perfdrive.com/?ssa=0983d536-70ff-4d69-8ca8-b2a1d1e48b0e&ssb=11774233736&ssc=https%3A%2F%2Fwww.aphp.fr%2Fsan-salvadour%2Fservice-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux&ssi=30c20a23-c77j-43f9-91fa-dd0ac6764165&ssk=botmanager_support@radware.com&ssm=39733402963431856109876585227655&ssn=c923101a5eaa2137da2fb4581c0d95274cfa481dbf44-8de0-4257-ab3476&sso=291b7dd4-9e2f1064a9cd6564601f0f11e5b75a5ad711dcb8474de28d&ssp=92774616781784027938178401620277556&ssq=25135741278060651950312780974677081918484&ssr=MTUxLjE2LjIxMi42Mw==&sst=Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_15_7)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/126.0+Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImFwaHAuZnIiLCJfX3V6bWYiOiI3ZjkwMDA0ODFkYmY0NC04ZGUwLTQyNTctYWRkNC05ZTJmMTA2NGE5Y2QxLTE3ODQwMTI3ODA2MjgwLTAwNDVlOWIxOWU0MmYxMGZiY2UxMCIsInV6bXgiOiI3ZjkwMDAwYzg0ODMxNC01NDA4LTQxYWMtOTBjZi1lZjAyNzFjYWFjY2ExLTE3ODQwMTI3ODA2MjgwLThkM2I2MjBiNjkwZmVhYmMxMCJ9",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "affections du système nerveux | rééducation post-avc | sclérose en plaques | maladie de parkinson | traumatisme cranien | rééducation des pathologies médulaires | rééducation | réadaptation | neurolog | neuro | parkinson | accident vasculaire cérébral | hospital",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "réadaptation",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
-        "rééducation",
         "réadaptation"
       ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "parkinson",
-        "accident vasculaire cérébral",
-        "avc",
-        "traumatisme crânien",
-        "sclérose en plaques",
-        "maladie de parkinson"
-      ],
-      "institution": [
-        "hospital"
-      ]
+      "neurological": [],
+      "institution": []
     },
-    "title": "Service de Soins Médicaux et de Réadaptation (SMR) Affections du système nerveux adultes - Hôpital San Salvadour | APHP"
+    "title": "Radware Captcha Page"
   },
   {
     "name": "Pôle Saint-Hélier",
@@ -3992,6 +3966,49 @@
     "title": "Neurologische revalidatie - Basalt - de kracht van revalidatie"
   },
   {
+    "name": "Basalt Leiden",
+    "country": "Netherlands",
+    "city": "Leiden",
+    "region": "South Holland",
+    "url": "https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/locaties",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Basalt neurological rehabilitation locations page and Leiden location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Basalt neurological rehabilitation locations page lists Leiden as a clinic and outpatient neurorehabilitation location",
+      "Official Leiden page lists Volwassenen Neuro/Ortho/Pijn and a clinical ward contact",
+      "Basalt neurological rehabilitation covers stroke, spinal cord injury, MS, ALS, neuromuscular disorders, cerebral palsy and Parkinson",
+      "Basalt’s Leiden site provides inpatient and outpatient neurorehabilitation, linked to Basalt pathways for stroke, spinal cord injury, MS, Parkinson, ALS and neuromuscular conditions.",
+      "Sede Basalt di Leiden per neurorevalidatie clinica e ambulatoriale, collegata ai percorsi Basalt per ictus, lesioni midollari, SM, Parkinson, ALS e patologie neuromuscolari.",
+      "Basalt biedt neurorevalidatie aan op de locaties",
+      "Leiden (kliniek en polikliniek)",
+      "Volwassenen Neuro/Ortho/Pijn",
+      "Kliniek",
+      "neurologische revalidatie",
+      "neurorevalidatie"
+    ],
+    "status": 200,
+    "finalUrl": "https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/locaties",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Basalt biedt neurorevalidatie aan op de locaties | Leiden (kliniek en polikliniek) | Kliniek | neurorevalidatie | revalidatie | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorevalidatie"
+      ],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Locaties - Basalt - de kracht van revalidatie"
+  },
+  {
     "name": "De Hoogstraat Revalidatie",
     "country": "Netherlands",
     "city": "Utrecht",
@@ -4185,6 +4202,55 @@
       ]
     },
     "title": "Vroege Intensieve Neurorevalidatie (VIN) - Langdurige bewustzijnsstoornis - Coma"
+  },
+  {
+    "name": "Libra Revalidatiecentrum Leijpark",
+    "country": "Netherlands",
+    "city": "Tilburg",
+    "region": "North Brabant",
+    "url": "https://www.libranet.nl/service-menu/locaties/libra-revalidatiecentrum-leijpark-tilburg",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Libra Leijpark Tilburg rehabilitation centre location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official location page identifies Vroege Intensieve Neurorevalidatie (VIN) as a specialised Leijpark department",
+      "VIN is described for severe brain injury including stroke, traumatic brain injury and other neurological conditions",
+      "Leijpark has clinical and outpatient rehabilitation, 35 inpatient beds and VIN-specific visiting hours",
+      "Libra’s Leijpark centre in Tilburg has a VIN early intensive neurorehabilitation department for severe brain injury, stroke, traumatic brain injury and other neurological conditions.",
+      "Sede Libra Leijpark a Tilburg con reparto VIN per neurorevalidatie intensiva precoce dopo gravi lesioni cerebrali, ictus, trauma cranico e altre patologie neurologiche.",
+      "Vroege Intensieve Neurorevalidatie (VIN)",
+      "ernstig hersenletsel",
+      "beroerte",
+      "traumatisch hersenletsel",
+      "neurologische aandoeningen",
+      "klinische revalidatie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.libranet.nl/service-menu/locaties/libra-revalidatiecentrum-leijpark-tilburg",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Vroege Intensieve Neurorevalidatie (VIN) | ernstig hersenletsel | beroerte | traumatisch hersenletsel | neurologische aandoeningen | klinische revalidatie | neurorevalidatie | revalidatie | neurolog | neuro | hersenletsel | kliniek",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorevalidatie"
+      ],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "beroerte",
+        "hersenletsel",
+        "langdurige bewustzijnsstoornis"
+      ],
+      "institution": [
+        "kliniek"
+      ]
+    },
+    "title": "Libra Revalidatiecentrum Leijpark Tilburg"
   },
   {
     "name": "Merem Medische Revalidatie",
@@ -4477,6 +4543,54 @@
       ]
     },
     "title": "Revalidatiegeneeskunde voor volwassenen"
+  },
+  {
+    "name": "Vogellanden",
+    "country": "Netherlands",
+    "city": "Zwolle",
+    "region": "Overijssel",
+    "url": "https://www.vogellanden.nl/revalidatie/aandoeningen",
+    "sourceType": "curated-dataset | netherlands-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Vogellanden rehabilitation condition pages and contact page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official sitemap lists rehabilitation pages for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury",
+      "Official contact page lists adult inpatient rehabilitation and adult outpatient rehabilitation at Hyacinthstraat Zwolle",
+      "Official news pages reference virtual rehabilitation for brain injury and participation in stroke recovery research",
+      "A Zwolle rehabilitation centre with pathways for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury, including inpatient and outpatient care.",
+      "Centro di riabilitazione a Zwolle con percorsi per CVA/ictus, lesioni midollari, SM, trauma cranico e NAH, con ricovero e ambulatorio.",
+      "Beroerte CVA",
+      "Dwarslaesie",
+      "Multiple Sclerose MS",
+      "Traumatisch hersenletsel",
+      "Niet-aangeboren hersenletsel",
+      "Kliniek revalidatie volwassenen"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.vogellanden.nl/revalidatie/aandoeningen",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Dwarslaesie | Traumatisch hersenletsel | Niet-aangeboren hersenletsel | revalidatie | dwarslaesie | beroerte | cva | hersenletsel",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "dwarslaesie",
+        "beroerte",
+        "cva",
+        "hersenletsel",
+        "niet-aangeboren hersenletsel",
+        "multiple sclerose",
+        "spierziekten",
+        "cerebrale parese"
+      ],
+      "institution": []
+    },
+    "title": "Aandoeningen revalidatie | Vogellanden"
   },
   {
     "name": "Sunnaas sykehus HF",

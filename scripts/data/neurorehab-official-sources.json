@@ -1370,6 +1370,36 @@
       "sourceType": "netherlands-first-pass-official-seed",
       "discoverySource": "official Libra intensive neurorehabilitation programme page",
       "needles": ["Vroege Intensieve Neurorevalidatie", "langdurige bewustzijnsstoornis", "coma", "niet-aangeboren hersenletsel", "dwarslaesie", "Parkinson"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Vogellanden",
+      "city": "Zwolle",
+      "region": "Overijssel",
+      "url": "https://www.vogellanden.nl/revalidatie/aandoeningen",
+      "sourceType": "netherlands-second-pass-official-seed",
+      "discoverySource": "official Vogellanden rehabilitation condition pages and contact page",
+      "needles": ["Beroerte CVA", "Dwarslaesie", "Multiple Sclerose MS", "Traumatisch hersenletsel", "Niet-aangeboren hersenletsel", "Kliniek revalidatie volwassenen"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Libra Revalidatiecentrum Leijpark",
+      "city": "Tilburg",
+      "region": "North Brabant",
+      "url": "https://www.libranet.nl/service-menu/locaties/libra-revalidatiecentrum-leijpark-tilburg/",
+      "sourceType": "netherlands-second-pass-official-seed",
+      "discoverySource": "official Libra Leijpark Tilburg rehabilitation centre location page",
+      "needles": ["Vroege Intensieve Neurorevalidatie (VIN)", "ernstig hersenletsel", "beroerte", "traumatisch hersenletsel", "neurologische aandoeningen", "klinische revalidatie"]
+    },
+    {
+      "country": "Netherlands",
+      "name": "Basalt Leiden",
+      "city": "Leiden",
+      "region": "South Holland",
+      "url": "https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/locaties/",
+      "sourceType": "netherlands-second-pass-official-seed",
+      "discoverySource": "official Basalt neurological rehabilitation locations page and Leiden location page",
+      "needles": ["Basalt biedt neurorevalidatie aan op de locaties", "Leiden (kliniek en polikliniek)", "Volwassenen Neuro/Ortho/Pijn", "Kliniek", "neurologische revalidatie", "neurorevalidatie"]
     }
   ],
   "searchResults": [],

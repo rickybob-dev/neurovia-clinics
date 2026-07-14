@@ -1446,6 +1446,60 @@ export const centers = [
     }
   },
   {
+    id: 'vogellanden-zwolle-neurorehabilitation',
+    name: 'Vogellanden',
+    country: 'Netherlands',
+    city: 'Zwolle', region: 'Overijssel', lat: 52.5027, lng: 6.117,
+    address: 'Hyacinthstraat 66A, 8013 XZ Zwolle', phone: '+31 38 498 1111',
+    url: 'https://www.vogellanden.nl/revalidatie/aandoeningen',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['vr'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 87,
+    researchHighlights: ['Official sitemap lists rehabilitation pages for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury', 'Official contact page lists adult inpatient rehabilitation and adult outpatient rehabilitation at Hyacinthstraat Zwolle', 'Official news pages reference virtual rehabilitation for brain injury and participation in stroke recovery research'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Centro di riabilitazione a Zwolle con percorsi per CVA/ictus, lesioni midollari, SM, trauma cranico e NAH, con ricovero e ambulatorio.',
+      en: 'A Zwolle rehabilitation centre with pathways for stroke/CVA, spinal cord injury, MS, traumatic brain injury and acquired brain injury, including inpatient and outpatient care.'
+    }
+  },
+  {
+    id: 'libra-leijpark-tilburg-neurorehabilitation',
+    name: 'Libra Revalidatiecentrum Leijpark',
+    country: 'Netherlands',
+    city: 'Tilburg', region: 'North Brabant', lat: 51.5415, lng: 5.1035,
+    address: 'Prof. Stoltehof 3, 5022 KE Tilburg', phone: '+31 88 313 2000',
+    url: 'https://www.libranet.nl/service-menu/locaties/libra-revalidatiecentrum-leijpark-tilburg/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Physician assistant', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Verpleegkunde'],
+    completeness: 86,
+    researchHighlights: ['Official location page identifies Vroege Intensieve Neurorevalidatie (VIN) as a specialised Leijpark department', 'VIN is described for severe brain injury including stroke, traumatic brain injury and other neurological conditions', 'Leijpark has clinical and outpatient rehabilitation, 35 inpatient beds and VIN-specific visiting hours'],
+    features: ['brain-injury', 'early-rehab'],
+    description: {
+      it: 'Sede Libra Leijpark a Tilburg con reparto VIN per neurorevalidatie intensiva precoce dopo gravi lesioni cerebrali, ictus, trauma cranico e altre patologie neurologiche.',
+      en: 'Libra’s Leijpark centre in Tilburg has a VIN early intensive neurorehabilitation department for severe brain injury, stroke, traumatic brain injury and other neurological conditions.'
+    }
+  },
+  {
+    id: 'basalt-leiden-neurological-rehabilitation',
+    name: 'Basalt Leiden',
+    country: 'Netherlands',
+    city: 'Leiden', region: 'South Holland', lat: 52.1707, lng: 4.4691,
+    address: 'Wassenaarseweg 501, 2333 AL Leiden', phone: '+31 71 519 5195',
+    url: 'https://basaltrevalidatie.nl/volwassenen/neurologische-revalidatie/locaties/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Revalidatiearts', 'Fysiotherapie', 'Ergotherapie', 'Logopedie', 'Neuropsychologie', 'Verpleegkunde'],
+    completeness: 85,
+    researchHighlights: ['Official Basalt neurological rehabilitation locations page lists Leiden as a clinic and outpatient neurorehabilitation location', 'Official Leiden page lists Volwassenen Neuro/Ortho/Pijn and a clinical ward contact', 'Basalt neurological rehabilitation covers stroke, spinal cord injury, MS, ALS, neuromuscular disorders, cerebral palsy and Parkinson'],
+    features: ['brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Sede Basalt di Leiden per neurorevalidatie clinica e ambulatoriale, collegata ai percorsi Basalt per ictus, lesioni midollari, SM, Parkinson, ALS e patologie neuromuscolari.',
+      en: 'Basalt’s Leiden site provides inpatient and outpatient neurorehabilitation, linked to Basalt pathways for stroke, spinal cord injury, MS, Parkinson, ALS and neuromuscular conditions.'
+    }
+  },
+  {
     id: 'inkendaal-vlezenbeek',
     name: 'Inkendaal',
     country: 'Belgium',
