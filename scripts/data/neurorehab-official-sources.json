@@ -2110,6 +2110,27 @@
       "sourceType": "ireland-second-pass-official-seed",
       "discoverySource": "official Bloomfield Hospital neurological and neurodegenerative disorders page",
       "needles": ["Other Neurological and Neurodegenerative Disorders", "Rare Neurological Diseases", "long-term or rehabilitative care provision", "specialising in the provision of care", "Stocking Lane"]
+    },
+    {
+      "country": "Portugal",
+      "name": "Centro de Reabilitação do Norte",
+      "city": "Valadares",
+      "region": "Porto District",
+      "url": "https://www.ulsge.min-saude.pt/PORTALCRN",
+      "validationUrl": "https://www.ulsge.min-saude.pt/api-gateway/public-portal/public-information/viewmenuoptions/MNCRN?language=pt",
+      "sourceType": "portugal-first-pass-official-seed",
+      "discoverySource": "official Centro de Reabilitação do Norte subportal menu API",
+      "needles": ["Centro de Reabilitação do Norte", "Unidade de Reab. Acidente Vascular Cerebral", "Unidade de Reabilitação de Lesões Medulares", "Unidade de Reabilitação Pediátrica", "Unidade de Reab. Traumatismo Crânio-Encefálico"]
+    },
+    {
+      "country": "Portugal",
+      "name": "NeuroVida NeuroTriad",
+      "city": "Lisboa",
+      "region": "Lisbon District",
+      "url": "https://neurovida.pt/pt/servicos-e-programas/programas/neurotriad-lesao-cerebral-adquirida/",
+      "sourceType": "portugal-second-pass-official-seed",
+      "discoverySource": "official NeuroVida NeuroTriad rehabilitation programme page",
+      "needles": ["Reabilitação Neurológica Intensiva em Lisboa", "reabilitação neurológica intensiva", "lesão cerebral adquirida", "AVC", "traumatismo cranioencefálico", "doença de Parkinson"]
     }
   ],
   "searchResults": [],

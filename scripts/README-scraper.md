@@ -63,6 +63,7 @@ Add reviewed search results or known official clinic pages as seed sites:
       "city": "Example City",
       "region": "Example Region",
       "url": "https://example-hospital.org/neurorehabilitation",
+      "validationUrl": "https://example-hospital.org/api/services/neurorehabilitation",
       "sourceType": "search-reviewed",
       "discoverySource": "manual query: neurological rehabilitation Example",
       "needles": ["neurorehabilitation", "spinal cord injury", "brain injury"]
@@ -70,6 +71,8 @@ Add reviewed search results or known official clinic pages as seed sites:
   ]
 }
 ```
+
+Use `validationUrl` only when the public `url` is the correct user-facing website, but the official evidence is exposed through a separate official API or text endpoint.
 
 ## Review Statuses
 

@@ -1248,6 +1248,42 @@ export const centers = [
     }
   },
   {
+    id: 'centro-reabilitacao-norte-valadares',
+    name: 'Centro de Reabilitação do Norte',
+    country: 'Portugal',
+    city: 'Valadares', region: 'Porto District', lat: 41.0945, lng: -8.6419,
+    address: 'Valadares, Vila Nova de Gaia', phone: '',
+    url: 'https://www.ulsge.min-saude.pt/PORTALCRN',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive', 'pediatric'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Medicina Física e Reabilitação', 'Reabilitação AVC', 'Reabilitação de lesões medulares', 'Reabilitação de traumatismo crânio-encefálico', 'Reabilitação pediátrica'],
+    completeness: 84,
+    researchHighlights: ['Official CRN subportal menu lists inpatient units for stroke, spinal cord injuries, pediatric rehabilitation and traumatic brain injury', 'The same official menu lists outpatient/ambulatory services and a rehabilitation programme for users and caregivers', 'CRN is the Centro de Reabilitação do Norte within ULS Gaia/Espinho, part of the public health network'],
+    features: ['stroke-rehab', 'spinal-cord', 'brain-injury', 'pediatric-rehab'],
+    description: {
+      it: 'Centro pubblico di riabilitazione neurologica a Valadares per ictus, lesioni midollari, trauma cranico-encefalico e riabilitazione pediatrica.',
+      en: 'A public neurorehabilitation centre in Valadares for stroke, spinal cord injury, traumatic brain injury and pediatric rehabilitation.'
+    }
+  },
+  {
+    id: 'neurovida-neurotriad-lisboa',
+    name: 'NeuroVida NeuroTriad',
+    country: 'Portugal',
+    city: 'Lisboa', region: 'Lisbon District', lat: 38.7136, lng: -9.2294,
+    address: 'Edifício Atlas III, Av. José Gomes Ferreira 13, Piso 0, 1495-139 Lisboa', phone: '+351 21 406 42 91',
+    url: 'https://neurovida.pt/pt/servicos-e-programas/programas/neurotriad-lesao-cerebral-adquirida/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'neuromotor', 'cognitive'],
+    technologies: ['tms', 'tdcs'], modes: ['outpatient', 'day clinic'], access: ['private'],
+    disciplines: ['Reabilitação neurológica intensiva', 'Fisioterapia neurológica', 'Terapia ocupacional', 'Terapia da fala', 'Neuropsicologia', 'Estimulação cognitiva'],
+    completeness: 84,
+    researchHighlights: ['Official NeuroTriad page describes intensive neurological rehabilitation in Lisbon for acquired brain injury, AVC, TCE, Parkinson and other neurological changes', 'Official acquired brain injury page lists personalized neurological rehabilitation, neurological physiotherapy, occupational therapy, speech therapy and NeuroTriad', 'Official contact information identifies NeuroVida at Av. José Gomes Ferreira 13 with phone +351 21 406 42 91'],
+    features: ['intensive-neurorehab', 'brain-injury', 'stroke-rehab', 'neuromodulation'],
+    description: {
+      it: 'Programma privato di riabilitazione neurologica intensiva a Lisbona per lesione cerebrale acquisita, ictus, TCE, Parkinson e deficit cognitivi o motori.',
+      en: 'A private intensive neurological rehabilitation programme in Lisbon for acquired brain injury, stroke, TBI, Parkinson and cognitive or motor deficits.'
+    }
+  },
+  {
     id: 'roessingh-enschede',
     name: 'Roessingh',
     country: 'Netherlands',

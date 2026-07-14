@@ -26,6 +26,13 @@ const explicitNeuroRehabSignals = [
   'rééducation neurologique',
   'rééducation neuromotrice',
   'réadaptation neuromotrice',
+  'neuroreabilitação',
+  'neurorreabilitação',
+  'reabilitação neurológica',
+  'reabilitação neuropsicológica',
+  'reabilitação neuromotora',
+  'reabilitação neurológica intensiva',
+  'fisioterapia neurológica',
   'revalidation neurologique',
   'revalidation neuro',
   'neurologische rehabilitation',
@@ -150,6 +157,25 @@ const neuroSignals = [
   'udarze',
   'udarach',
   'ictus',
+  'acidente vascular cerebral',
+  'avc',
+  'lesão cerebral adquirida',
+  'lesao cerebral adquirida',
+  'traumatismo cranioencefálico',
+  'traumatismo cranioencefalico',
+  'traumatismo crânio-encefálico',
+  'traumatismo cranio-encefalico',
+  'tce',
+  'lesão medular',
+  'lesao medular',
+  'lesões medulares',
+  'lesoes medulares',
+  'paralisia cerebral',
+  'doença de parkinson',
+  'doenca de parkinson',
+  'parkinsonismo',
+  'esclerose múltipla',
+  'esclerose multipla',
   'spinal cord',
   'spinal',
   'schlaganfall',
@@ -545,7 +571,7 @@ async function fetchPage(url, timeoutMs = 15000) {
     });
 
     const contentType = response.headers.get('content-type') ?? '';
-    const body = contentType.includes('text/html') || contentType.includes('text/plain')
+    const body = contentType.includes('text/html') || contentType.includes('text/plain') || contentType.includes('application/json')
       ? await response.text()
       : '';
 
@@ -599,7 +625,7 @@ async function fetchPageWithCurl(url, timeoutMs, originalError) {
     const body = stdout.slice(0, markerIndex);
     const [statusText, finalUrl, contentType = ''] = stdout.slice(markerIndex + marker.length).split('\t');
     const status = Number(statusText);
-    const html = contentType.includes('text/html') || contentType.includes('text/plain') ? body : '';
+    const html = contentType.includes('text/html') || contentType.includes('text/plain') || contentType.includes('application/json') ? body : '';
 
     return {
       ok: status >= 200 && status < 300,
@@ -626,6 +652,7 @@ function centerToDiscovery(center) {
     city: center.city ?? '',
     region: center.region ?? '',
     url: normalizeUrl(center.url),
+    validationUrl: '',
     sourceType: 'curated-dataset',
     discoverySource: 'src/lib/data/centers.js',
     reviewStatus: 'known',
@@ -645,6 +672,7 @@ function configSiteToDiscovery(site) {
     city: site.city ?? '',
     region: site.region ?? '',
     url: normalizeUrl(site.url),
+    validationUrl: normalizeUrl(site.validationUrl),
     sourceType: site.sourceType ?? 'official-seed',
     discoverySource: site.discoverySource ?? site.source ?? 'source config',
     reviewStatus: site.reviewStatus ?? 'unreviewed',
@@ -673,6 +701,7 @@ function dedupeDiscoveries(discoveries) {
       country: existing.country || discovery.country,
       city: existing.city || discovery.city,
       region: existing.region || discovery.region,
+      validationUrl: existing.validationUrl || discovery.validationUrl,
       sourceType: mergePiped(existing.sourceType, discovery.sourceType),
       discoverySource: mergePiped(existing.discoverySource, discovery.discoverySource),
       reviewStatus: existing.reviewStatus === 'known' ? 'known' : discovery.reviewStatus || existing.reviewStatus,
@@ -849,7 +878,7 @@ async function validateDiscovery(discovery, options) {
   await sleep(options.delayMs);
 
   try {
-    const page = await fetchPage(discovery.url);
+    const page = await fetchPage(discovery.validationUrl || discovery.url);
     const classification = classifyValidation(discovery, page);
 
     return {
