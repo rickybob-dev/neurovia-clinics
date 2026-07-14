@@ -3527,5 +3527,59 @@ export const centers = [
       it: 'Centro Unicare ad Alta con riabilitazione specialistica per ictus e danno cerebrale acquisito.',
       en: 'A Unicare centre in Alta providing specialist rehabilitation for stroke and acquired brain injury.'
     }
+  },
+  {
+    id: 'skogli-lillehammer',
+    name: 'Skogli Helse- og Rehabiliteringssenter',
+    country: 'Norway',
+    city: 'Lillehammer', region: 'Innlandet', lat: 61.1004, lng: 10.4822,
+    address: 'Fredrik Colletsvei 13, 2614 Lillehammer', phone: '+47 61 24 91 00',
+    url: 'https://skogli.no/rehabilitering/vart-rehabiliteringstilbud/hjerneslag/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient'], access: ['public', 'private'],
+    disciplines: ['Lege', 'Sykepleie', 'Fysioterapi', 'Ergoterapi', 'Logopedi', 'Synspedagog', 'Sosionom', 'Ernæringsfysiologi', 'Psykologi'],
+    completeness: 87,
+    researchHighlights: ['Official stroke and brain injury rehabilitation programme', 'Primary and late-phase inpatient stroke rehabilitation', 'Offers intensive gait training and intensive arm/hand training'],
+    features: ['brain-injury', 'gait-training'],
+    description: {
+      it: 'Centro di riabilitazione a Lillehammer con programma ufficiale per ictus e danno cerebrale, inclusa riabilitazione intensiva del cammino e arto superiore.',
+      en: 'A Lillehammer rehabilitation centre with an official stroke and brain injury programme, including intensive gait and upper-limb rehabilitation.'
+    }
+  },
+  {
+    id: 'ringen-moelv',
+    name: 'Ringen Rehabiliteringssenter',
+    country: 'Norway',
+    city: 'Moelv', region: 'Innlandet', lat: 60.9647, lng: 10.6730,
+    address: 'Nordre Ringsveg 82, 2390 Moelv', phone: '+47 62 33 45 00',
+    url: 'https://www.ringen-rehab.no/vaare-tilbud/parkinsonrehabilitering/',
+    conditions: ['parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Lege', 'Nevrolog', 'Sykepleie', 'Fysioterapi', 'Ergoterapi', 'Logopedi'],
+    completeness: 84,
+    researchHighlights: ['Official Parkinson rehabilitation programme', 'Individual inpatient, group inpatient and day rehabilitation options', 'Multidisciplinary team includes physician, neurologist, physiotherapist and occupational therapist'],
+    features: ['parkinson', 'lsvt-big'],
+    description: {
+      it: 'Centro di riabilitazione a Moelv con programma specialistico per Parkinson, inclusi percorsi residenziali, diurni e LSVT BIG.',
+      en: 'A Moelv rehabilitation centre with specialist Parkinson rehabilitation, including inpatient, day, group, and LSVT BIG pathways.'
+    }
+  },
+  {
+    id: 'vigor-tromso',
+    name: 'ViGØR Rehabiliteringssykehus',
+    country: 'Norway',
+    city: 'Tromsø', region: 'Troms', lat: 69.6648, lng: 18.9510,
+    address: 'Conrad Holmboes veg 95, 9011 Tromsø', phone: '+47 77 66 88 00',
+    url: 'https://vigor.no/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['gait'], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'private'],
+    disciplines: ['Lege', 'Fysioterapi', 'Ergoterapi', 'Logopedi', 'Sykepleie', 'Tverrfaglig team'],
+    completeness: 86,
+    researchHighlights: ['Official site lists stroke, subacute stroke and acquired brain injury rehabilitation', 'Neurological programmes include MS, Parkinson, Huntington, CP and neuromuscular disorders', 'Offers intensive hand, gait and speech training'],
+    features: ['brain-injury', 'ms-specialist', 'parkinson', 'pediatric'],
+    description: {
+      it: 'Ospedale riabilitativo a Tromsø con percorsi per ictus, danno cerebrale acquisito, SM, Parkinson, Huntington, CP e disturbi neuromuscolari.',
+      en: 'A Tromsø rehabilitation hospital with pathways for stroke, acquired brain injury, MS, Parkinson, Huntington, CP, and neuromuscular disorders.'
+    }
   }
 ];

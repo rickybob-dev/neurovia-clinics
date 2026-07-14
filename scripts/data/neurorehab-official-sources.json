@@ -1560,6 +1560,36 @@
       "sourceType": "norway-first-pass-official-seed",
       "discoverySource": "official Unicare Alta branch page",
       "needles": ["Unicare Alta", "Hjerneslag og ervervet hjerneskade", "Follumsvei 1", "9510 Alta"]
+    },
+    {
+      "country": "Norway",
+      "name": "Skogli Helse- og Rehabiliteringssenter",
+      "city": "Lillehammer",
+      "region": "Innlandet",
+      "url": "https://skogli.no/rehabilitering/vart-rehabiliteringstilbud/hjerneslag/",
+      "sourceType": "norway-second-pass-official-seed",
+      "discoverySource": "official Skogli stroke rehabilitation page",
+      "needles": ["Hjerneslag", "rehabilitering etter hjerneslag og hjerneskade", "Primærrehabilitering i akutt fase", "Senrehabilitering i kronisk fase", "intensiv gangtrening", "intensiv arm- og håndtrening"]
+    },
+    {
+      "country": "Norway",
+      "name": "Ringen Rehabiliteringssenter",
+      "city": "Moelv",
+      "region": "Innlandet",
+      "url": "https://www.ringen-rehab.no/vaare-tilbud/parkinsonrehabilitering/",
+      "sourceType": "norway-second-pass-official-seed",
+      "discoverySource": "official Ringen Parkinson rehabilitation page",
+      "needles": ["Parkinsonrehabilitering", "Individuell døgnrehabilitering", "Døgnrehabilitering LSVT-BIG", "Dagtilbud", "lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut", "Nordre Ringsveg 82"]
+    },
+    {
+      "country": "Norway",
+      "name": "ViGØR Rehabiliteringssykehus",
+      "city": "Tromsø",
+      "region": "Troms",
+      "url": "https://vigor.no/",
+      "sourceType": "norway-second-pass-official-seed",
+      "discoverySource": "official ViGØR rehabilitation hospital site",
+      "needles": ["ViGØR Rehabiliteringssykehus", "nevrologiske lidelser", "Hjerneslag", "Subakutt hjerneslag", "MS", "Nevromuskulære lidelser", "Parkinson", "Conrad Holmboes veg 95"]
     }
   ],
   "searchResults": [],

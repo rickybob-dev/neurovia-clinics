@@ -2588,6 +2588,54 @@
     ]
   },
   {
+    "name": "Ringen Rehabiliteringssenter",
+    "country": "Norway",
+    "city": "Moelv",
+    "region": "Innlandet",
+    "url": "https://www.ringen-rehab.no/vaare-tilbud/parkinsonrehabilitering",
+    "sourceType": "curated-dataset | norway-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ringen Parkinson rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Parkinson rehabilitation programme",
+      "Individual inpatient, group inpatient and day rehabilitation options",
+      "Multidisciplinary team includes physician, neurologist, physiotherapist and occupational therapist",
+      "A Moelv rehabilitation centre with specialist Parkinson rehabilitation, including inpatient, day, group, and LSVT BIG pathways.",
+      "Centro di riabilitazione a Moelv con programma specialistico per Parkinson, inclusi percorsi residenziali, diurni e LSVT BIG.",
+      "Parkinsonrehabilitering",
+      "Individuell døgnrehabilitering",
+      "Døgnrehabilitering LSVT-BIG",
+      "Dagtilbud",
+      "lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut",
+      "Nordre Ringsveg 82"
+    ]
+  },
+  {
+    "name": "Skogli Helse- og Rehabiliteringssenter",
+    "country": "Norway",
+    "city": "Lillehammer",
+    "region": "Innlandet",
+    "url": "https://skogli.no/rehabilitering/vart-rehabiliteringstilbud/hjerneslag",
+    "sourceType": "curated-dataset | norway-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Skogli stroke rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official stroke and brain injury rehabilitation programme",
+      "Primary and late-phase inpatient stroke rehabilitation",
+      "Offers intensive gait training and intensive arm/hand training",
+      "A Lillehammer rehabilitation centre with an official stroke and brain injury programme, including intensive gait and upper-limb rehabilitation.",
+      "Centro di riabilitazione a Lillehammer con programma ufficiale per ictus e danno cerebrale, inclusa riabilitazione intensiva del cammino e arto superiore.",
+      "Hjerneslag",
+      "rehabilitering etter hjerneslag og hjerneskade",
+      "Primærrehabilitering i akutt fase",
+      "Senrehabilitering i kronisk fase",
+      "intensiv gangtrening",
+      "intensiv arm- og håndtrening"
+    ]
+  },
+  {
     "name": "Sunnaas sykehus HF",
     "country": "Norway",
     "city": "Bjørnemyr",
@@ -2739,6 +2787,32 @@
       "Parkinson gruppe",
       "Multippel sklerose (MS) gruppe",
       "Vestre Totenveg 1530"
+    ]
+  },
+  {
+    "name": "ViGØR Rehabiliteringssykehus",
+    "country": "Norway",
+    "city": "Tromsø",
+    "region": "Troms",
+    "url": "https://vigor.no/",
+    "sourceType": "curated-dataset | norway-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official ViGØR rehabilitation hospital site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site lists stroke, subacute stroke and acquired brain injury rehabilitation",
+      "Neurological programmes include MS, Parkinson, Huntington, CP and neuromuscular disorders",
+      "Offers intensive hand, gait and speech training",
+      "A Tromsø rehabilitation hospital with pathways for stroke, acquired brain injury, MS, Parkinson, Huntington, CP, and neuromuscular disorders.",
+      "Ospedale riabilitativo a Tromsø con percorsi per ictus, danno cerebrale acquisito, SM, Parkinson, Huntington, CP e disturbi neuromuscolari.",
+      "ViGØR Rehabiliteringssykehus",
+      "nevrologiske lidelser",
+      "Hjerneslag",
+      "Subakutt hjerneslag",
+      "MS",
+      "Nevromuskulære lidelser",
+      "Parkinson",
+      "Conrad Holmboes veg 95"
     ]
   },
   {
