@@ -4872,6 +4872,196 @@
     "title": "Access denied | NKE"
   },
   {
+    "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
+    "country": "Ireland",
+    "city": "Dublin",
+    "region": "County Dublin",
+    "url": "https://bloomfield.ie/service/other-neurological-neurodegenerative-disorders",
+    "sourceType": "curated-dataset | ireland-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Bloomfield Hospital neurological and neurodegenerative disorders page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Bloomfield page focuses on neurological and neurodegenerative disorders with cognitive and behavioural expression",
+      "The page refers to rare neurological diseases and long-term or rehabilitative care provision in Ireland",
+      "Bloomfield states it specialises in provision of care for this group of conditions at its Rathfarnham facilities",
+      "A specialist Rathfarnham hospital for neurological and neurodegenerative disorders with complex cognitive, behavioural and rehabilitative needs.",
+      "Ospedale specialistico a Rathfarnham per disturbi neurologici e neurodegenerativi con bisogni cognitivi, comportamentali e riabilitativi complessi.",
+      "Other Neurological and Neurodegenerative Disorders",
+      "Rare Neurological Diseases",
+      "long-term or rehabilitative care provision",
+      "specialising in the provision of care",
+      "Stocking Lane"
+    ],
+    "status": 200,
+    "finalUrl": "https://bloomfield.ie/service/other-neurological-neurodegenerative-disorders",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Other Neurological and Neurodegenerative Disorders | Rare Neurological Diseases | long-term or rehabilitative care provision | specialising in the provision of care | Stocking Lane | rehabilitation | rehab | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Other Neurological & Neurodegenerative Disorders &#8211; Bloomfield Hospital"
+  },
+  {
+    "name": "National Rehabilitation Hospital",
+    "country": "Ireland",
+    "city": "Dún Laoghaire",
+    "region": "County Dublin",
+    "url": "https://www.nrh.ie/rehabilitation-services",
+    "sourceType": "curated-dataset | ireland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official National Rehabilitation Hospital rehabilitation services page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official NRH rehabilitation services page describes consultant-led rehabilitation teams and complex specialist rehabilitation services",
+      "The page lists Acquired Brain Injury and Stroke Specialty and Spinal Cord System of Care programmes",
+      "NRH accepts adult and paediatric referrals requiring complex specialist rehabilitation services",
+      "Ireland's national specialist rehabilitation hospital, with programmes for brain injury, stroke, spinal cord injury and paediatric rehabilitation.",
+      "Ospedale nazionale irlandese per riabilitazione specialistica complessa, con programmi per danno cerebrale, ictus, lesioni midollari e pazienti pediatrici.",
+      "National Rehabilitation Hospital",
+      "complex specialist rehabilitation services",
+      "Acquired Brain Injury and Stroke Specialty",
+      "Spinal Cord System of Care",
+      "Rochestown Avenue"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.nrh.ie/rehabilitation-services",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "National Rehabilitation Hospital | complex specialist rehabilitation services | Acquired Brain Injury and Stroke Specialty | Spinal Cord System of Care | Rochestown Avenue | rehabilitation | rehab | stroke | spinal cord | spinal | brain injury | hospital | rehabilitation hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "acquired brain injury"
+      ],
+      "institution": [
+        "hospital",
+        "rehabilitation hospital"
+      ]
+    },
+    "title": "Rehabilitation Programmes and Services - National Rehabilitation Hospital"
+  },
+  {
+    "name": "Peamount Healthcare Neuro-Rehabilitation",
+    "country": "Ireland",
+    "city": "Newcastle",
+    "region": "County Dublin",
+    "url": "https://www.peamount.ie/neuro-rehabilitation",
+    "sourceType": "curated-dataset | ireland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Peamount Healthcare neuro-rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Peamount page describes a consultant-led multidisciplinary level 2 specialist inpatient neuro-rehabilitation service",
+      "The service has a 15-bed unit predominantly for patients under 65 years",
+      "The page lists traumatic brain injury, stroke, progressive neurological conditions and other neurological conditions",
+      "A specialist inpatient neuro-rehabilitation service at Peamount, consultant-led and integrated into Ireland's managed clinical rehabilitation network.",
+      "Servizio specialistico di neuroriabilitazione inpatient a Peamount, guidato da consulenti e integrato nella rete clinica di riabilitazione irlandese.",
+      "Neuro-Rehabilitation",
+      "consultant led multidisciplinary",
+      "level 2 specialist",
+      "inpatient, neuro-rehabilitation service",
+      "traumatic brain injury, stroke, progressive neurological conditions"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.peamount.ie/neuro-rehabilitation",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuro-Rehabilitation | consultant led multidisciplinary | level 2 specialist | inpatient, neuro-rehabilitation service | traumatic brain injury, stroke, progressive neurological conditions | neuro-rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | brain injury | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuro-rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "brain injury"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Neuro-Rehabilitation - Peamount Healthcare"
+  },
+  {
+    "name": "Royal Hospital Donnybrook Specialist Neurorehabilitation",
+    "country": "Ireland",
+    "city": "Dublin",
+    "region": "County Dublin",
+    "url": "https://rhd.ie/services/neurorehabilitation",
+    "sourceType": "curated-dataset | ireland-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Royal Hospital Donnybrook specialist neurorehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Royal Hospital Donnybrook page describes specialist neurorehabilitation for adults under 65 with varying degrees of disability",
+      "The service is a specialist rehabilitation consultant-led multidisciplinary team",
+      "The page says conditions treated include multiple sclerosis and acquired brain injury in a 12-bed unit",
+      "A specialist neurorehabilitation unit in Donnybrook for adults under 65, including multiple sclerosis and acquired brain injury.",
+      "Unità specialistica di neurorehabilitation a Donnybrook per adulti sotto i 65 anni, incluse sclerosi multipla e lesione cerebrale acquisita.",
+      "Specialist Neurorehabilitation",
+      "specialist rehabilitation consultant-led multidisciplinary team",
+      "multiple sclerosis and acquired brain injury",
+      "12-bed unit",
+      "neurorehabilitation for up to 12 weeks"
+    ],
+    "status": 200,
+    "finalUrl": "https://rhd.ie/services/neurorehabilitation",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Specialist Neurorehabilitation | specialist rehabilitation consultant-led multidisciplinary team | multiple sclerosis and acquired brain injury | 12-bed unit | neurorehabilitation for up to 12 weeks | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | brain injury | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "brain injury",
+        "acquired brain injury",
+        "multiple sclerosis"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Specialist Neurorehabilitation | Royal Hospital Donnybrook"
+  },
+  {
     "name": "Auxologico Meda Riabilitazione",
     "country": "Italy",
     "city": "Meda",

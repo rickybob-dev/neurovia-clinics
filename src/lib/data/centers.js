@@ -4445,5 +4445,77 @@ export const centers = [
       it: 'Sede Neuropiste di Seinäjoki con fisioterapia neurologica per adulti, bambini e giovani, inclusa riabilitazione del cammino.',
       en: 'Neuropiste\'s Seinäjoki branch with neurological physiotherapy for adults, children and young people, including gait rehabilitation.'
     }
+  },
+  {
+    id: 'national-rehabilitation-hospital-dublin',
+    name: 'National Rehabilitation Hospital',
+    country: 'Ireland',
+    city: 'Dún Laoghaire', region: 'County Dublin', lat: 53.2755, lng: -6.1530,
+    address: 'Rochestown Avenue, Dún Laoghaire, Co. Dublin, A96 RPN4', phone: '+353 1 235 5000',
+    url: 'https://www.nrh.ie/rehabilitation-services/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive', 'pediatric'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Complex specialist rehabilitation', 'Acquired brain injury and stroke', 'Spinal cord system of care', 'Paediatric rehabilitation', 'Outpatient and outreach services'],
+    completeness: 91,
+    researchHighlights: ['Official NRH rehabilitation services page describes consultant-led rehabilitation teams and complex specialist rehabilitation services', 'The page lists Acquired Brain Injury and Stroke Specialty and Spinal Cord System of Care programmes', 'NRH accepts adult and paediatric referrals requiring complex specialist rehabilitation services'],
+    features: ['national-specialist-hospital', 'brain-injury-stroke', 'spinal-cord'],
+    description: {
+      it: 'Ospedale nazionale irlandese per riabilitazione specialistica complessa, con programmi per danno cerebrale, ictus, lesioni midollari e pazienti pediatrici.',
+      en: 'Ireland\'s national specialist rehabilitation hospital, with programmes for brain injury, stroke, spinal cord injury and paediatric rehabilitation.'
+    }
+  },
+  {
+    id: 'peamount-neuro-rehabilitation',
+    name: 'Peamount Healthcare Neuro-Rehabilitation',
+    country: 'Ireland',
+    city: 'Newcastle', region: 'County Dublin', lat: 53.3149, lng: -6.4853,
+    address: 'Newcastle Road, Newcastle, Co. Dublin, D22 Y008', phone: '+353 1 601 0300',
+    url: 'https://www.peamount.ie/neuro-rehabilitation/',
+    conditions: ['stroke', 'tbi', 'neuromotor', 'cognitive', 'ms', 'parkinson'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Neuro-rehabilitation', 'Consultant-led multidisciplinary rehabilitation', 'Level 2 specialist rehabilitation', 'Managed Clinical Rehabilitation Network', 'Goal-directed rehabilitation'],
+    completeness: 85,
+    researchHighlights: ['Official Peamount page describes a consultant-led multidisciplinary level 2 specialist inpatient neuro-rehabilitation service', 'The service has a 15-bed unit predominantly for patients under 65 years', 'The page lists traumatic brain injury, stroke, progressive neurological conditions and other neurological conditions'],
+    features: ['level-2-specialist-rehab', 'inpatient-neurorehab', 'managed-clinical-network'],
+    description: {
+      it: 'Servizio specialistico di neuroriabilitazione inpatient a Peamount, guidato da consulenti e integrato nella rete clinica di riabilitazione irlandese.',
+      en: 'A specialist inpatient neuro-rehabilitation service at Peamount, consultant-led and integrated into Ireland\'s managed clinical rehabilitation network.'
+    }
+  },
+  {
+    id: 'royal-hospital-donnybrook-neurorehabilitation',
+    name: 'Royal Hospital Donnybrook Specialist Neurorehabilitation',
+    country: 'Ireland',
+    city: 'Dublin', region: 'County Dublin', lat: 53.3251, lng: -6.2482,
+    address: 'Bloomfield Avenue, Donnybrook, Dublin', phone: '+353 1 406 6600',
+    url: 'https://rhd.ie/services/neurorehabilitation/',
+    conditions: ['tbi', 'ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Specialist neurorehabilitation', 'Rehabilitation medicine', 'Multidisciplinary rehabilitation', 'Progressive neurological conditions', 'Acquired brain injury'],
+    completeness: 82,
+    researchHighlights: ['Official Royal Hospital Donnybrook page describes specialist neurorehabilitation for adults under 65 with varying degrees of disability', 'The service is a specialist rehabilitation consultant-led multidisciplinary team', 'The page says conditions treated include multiple sclerosis and acquired brain injury in a 12-bed unit'],
+    features: ['specialist-neurorehab', 'acquired-brain-injury', 'progressive-neurological-conditions'],
+    description: {
+      it: 'Unità specialistica di neurorehabilitation a Donnybrook per adulti sotto i 65 anni, incluse sclerosi multipla e lesione cerebrale acquisita.',
+      en: 'A specialist neurorehabilitation unit in Donnybrook for adults under 65, including multiple sclerosis and acquired brain injury.'
+    }
+  },
+  {
+    id: 'bloomfield-neurological-neurodegenerative',
+    name: 'Bloomfield Hospital Neurological and Neurodegenerative Disorders',
+    country: 'Ireland',
+    city: 'Dublin', region: 'County Dublin', lat: 53.2820, lng: -6.3000,
+    address: 'Stocking Lane, Rathfarnham, Dublin 16, D16 C6T4', phone: '+353 1 495 0021',
+    url: 'https://bloomfield.ie/service/other-neurological-neurodegenerative-disorders/',
+    conditions: ['neuromotor', 'cognitive', 'neuromuscular'],
+    technologies: [], modes: ['inpatient', 'residential'], access: ['public', 'private'],
+    disciplines: ['Neurological and neurodegenerative disorders', 'Rare neurological diseases', 'Rehabilitative care', 'Neuropsychiatry', 'Multidisciplinary inpatient care'],
+    completeness: 76,
+    researchHighlights: ['Official Bloomfield page focuses on neurological and neurodegenerative disorders with cognitive and behavioural expression', 'The page refers to rare neurological diseases and long-term or rehabilitative care provision in Ireland', 'Bloomfield states it specialises in provision of care for this group of conditions at its Rathfarnham facilities'],
+    features: ['neurodegenerative-disorders', 'rare-neurological-diseases', 'residential-rehab-care'],
+    description: {
+      it: 'Ospedale specialistico a Rathfarnham per disturbi neurologici e neurodegenerativi con bisogni cognitivi, comportamentali e riabilitativi complessi.',
+      en: 'A specialist Rathfarnham hospital for neurological and neurodegenerative disorders with complex cognitive, behavioural and rehabilitative needs.'
+    }
   }
 ];

@@ -2070,6 +2070,46 @@
       "sourceType": "finland-second-pass-official-seed",
       "discoverySource": "official Neuropiste branch page",
       "needles": ["Neuropiste Seinäjoki", "neurologisten sairauksien ja vammojen kuntoutus", "Neurologinen fysioterapia", "Painokevenetty kävelyharjoittelu", "Karvarinkatu 8"]
+    },
+    {
+      "country": "Ireland",
+      "name": "National Rehabilitation Hospital",
+      "city": "Dún Laoghaire",
+      "region": "County Dublin",
+      "url": "https://www.nrh.ie/rehabilitation-services/",
+      "sourceType": "ireland-first-pass-official-seed",
+      "discoverySource": "official National Rehabilitation Hospital rehabilitation services page",
+      "needles": ["National Rehabilitation Hospital", "complex specialist rehabilitation services", "Acquired Brain Injury and Stroke Specialty", "Spinal Cord System of Care", "Rochestown Avenue"]
+    },
+    {
+      "country": "Ireland",
+      "name": "Peamount Healthcare Neuro-Rehabilitation",
+      "city": "Newcastle",
+      "region": "County Dublin",
+      "url": "https://www.peamount.ie/neuro-rehabilitation/",
+      "sourceType": "ireland-first-pass-official-seed",
+      "discoverySource": "official Peamount Healthcare neuro-rehabilitation page",
+      "needles": ["Neuro-Rehabilitation", "consultant led multidisciplinary", "level 2 specialist", "inpatient, neuro-rehabilitation service", "traumatic brain injury, stroke, progressive neurological conditions"]
+    },
+    {
+      "country": "Ireland",
+      "name": "Royal Hospital Donnybrook Specialist Neurorehabilitation",
+      "city": "Dublin",
+      "region": "County Dublin",
+      "url": "https://rhd.ie/services/neurorehabilitation/",
+      "sourceType": "ireland-second-pass-official-seed",
+      "discoverySource": "official Royal Hospital Donnybrook specialist neurorehabilitation page",
+      "needles": ["Specialist Neurorehabilitation", "specialist rehabilitation consultant-led multidisciplinary team", "multiple sclerosis and acquired brain injury", "12-bed unit", "neurorehabilitation for up to 12 weeks"]
+    },
+    {
+      "country": "Ireland",
+      "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
+      "city": "Dublin",
+      "region": "County Dublin",
+      "url": "https://bloomfield.ie/service/other-neurological-neurodegenerative-disorders/",
+      "sourceType": "ireland-second-pass-official-seed",
+      "discoverySource": "official Bloomfield Hospital neurological and neurodegenerative disorders page",
+      "needles": ["Other Neurological and Neurodegenerative Disorders", "Rare Neurological Diseases", "long-term or rehabilitative care provision", "specialising in the provision of care", "Stocking Lane"]
     }
   ],
   "searchResults": [],
