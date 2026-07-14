@@ -1400,6 +1400,66 @@
       "sourceType": "netherlands-second-pass-official-seed",
       "discoverySource": "official Basalt neurological rehabilitation locations page and Leiden location page",
       "needles": ["Basalt biedt neurorevalidatie aan op de locaties", "Leiden (kliniek en polikliniek)", "Volwassenen Neuro/Ortho/Pijn", "Kliniek", "neurologische revalidatie", "neurorevalidatie"]
+    },
+    {
+      "country": "Belgium",
+      "name": "Inkendaal",
+      "city": "Vlezenbeek",
+      "region": "Flemish Brabant",
+      "url": "https://www.inkendaal.be/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official Inkendaal rehabilitation hospital site",
+      "needles": ["ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen", "complexe neurologische beperkingen", "neuro-revalidatieziekenhuis", "kinderen als voor volwassenen", "ambulante als voor gehospitaliseerde revalidanten", "gespecialiseerde multidisciplinaire team"]
+    },
+    {
+      "country": "Belgium",
+      "name": "Revalidatieziekenhuis RevArte",
+      "city": "Edegem",
+      "region": "Antwerp",
+      "url": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official RevArte rehabilitation hospital page",
+      "needles": ["Hersenletselkliniek", "Dwarslaesiekliniek", "Polyneuropathiekliniek", "residentieel en ambulant zorgaanbod", "Revalidatieziekenhuis", "Gehospitaliseerde revalidatie"]
+    },
+    {
+      "country": "Belgium",
+      "name": "Centre Hospitalier Neurologique William Lennox",
+      "city": "Ottignies",
+      "region": "Walloon Brabant",
+      "url": "https://www.cnwl.be/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official William Lennox neurological hospital site",
+      "needles": ["Centre Hospitalier Neurologique William Lennox", "La réadaptation fonctionnelle", "troubles neurologiques", "accident vasculaire cérébral", "trauma crânien", "troubles de la conscience"]
+    },
+    {
+      "country": "Belgium",
+      "name": "Nationaal MS Centrum",
+      "city": "Melsbroek",
+      "region": "Flemish Brabant",
+      "url": "https://www.mscenter.be/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official National MS Center site",
+      "needles": ["Nationaal MS centrum", "Consultatie - Behandeling - Revalidatie - Begeleiding - Wetenschappelijk onderzoek", "personen met MS", "andere chronische neurologische aandoeningen", "topklinische en geïntegreerde zorgtrajecten", "Neuromyelitis optica"]
+    },
+    {
+      "country": "Belgium",
+      "name": "Noorderhart Revalidatie & MS",
+      "city": "Pelt",
+      "region": "Limburg",
+      "url": "https://www.noorderhart.be/nl/revalidatie-ms/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official Noorderhart Revalidatie & MS site",
+      "needles": ["Revalidatie & MS", "revalidatiecentrum", "MSkliniek", "Universitair MS Centrum", "Onthaal Revalidatie & MS Centrum", "Boemerangstraat 2"]
+    },
+    {
+      "country": "Belgium",
+      "name": "TRAINM Clinics Antwerp",
+      "city": "Antwerp",
+      "region": "Antwerp",
+      "url": "https://www.trainm.com/",
+      "sourceType": "belgium-first-pass-official-seed",
+      "discoverySource": "official TRAINM neurorehabilitation clinic site",
+      "needles": ["Neuro Rehabilitation Center", "Neurorehabilitation Clinic", "Stroke", "Acquired brain injury (ABI)", "Spinal cord injury (SCI)", "Multiple sclerosis (MS)", "Parkinson’s disease"]
     }
   ],
   "searchResults": [],

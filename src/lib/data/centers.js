@@ -1506,15 +1506,15 @@ export const centers = [
     city: 'Vlezenbeek', region: 'Flemish Brabant', lat: 50.8242, lng: 4.2134,
     address: 'Inkendaalstraat 1, 1602 Vlezenbeek', phone: '+32 2 531 51 11',
     url: 'https://www.inkendaal.be/',
-    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'neuromotor'],
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'pediatric', 'cognitive', 'neuromotor'],
     technologies: ['tele'], modes: ['inpatient', 'outpatient'], access: ['public'],
     disciplines: ['Kinesitherapie', 'Logopedie', 'Ergotherapie', 'Psychologie', 'Artsen'],
-    completeness: 84,
-    researchHighlights: ['Reference center for several rehabilitation specialties', 'Official quality model and accreditation history'],
+    completeness: 88,
+    researchHighlights: ['Official site describes rehabilitation for severe locomotor, neurological and cardiopulmonary conditions', 'Aims to improve quality of life and independence for people with complex neurological disabilities', 'Offers individual inpatient and outpatient rehabilitation programmes for children and adults'],
     features: ['pool', 'water-therapy'],
     description: {
-      it: 'Ospedale di riabilitazione con team multidisciplinare, percorsi per adulti e bambini e attività extramurali inclusa la piscina.',
-      en: 'A rehabilitation hospital with multidisciplinary teams, adult and pediatric pathways, and extramural activities including a pool.'
+      it: 'Ospedale di riabilitazione a Vlezenbeek per bambini e adulti con disabilità neurologiche complesse, con ricovero, ambulatorio e team multidisciplinari.',
+      en: 'A Vlezenbeek rehabilitation hospital for children and adults with complex neurological disabilities, offering inpatient, outpatient and multidisciplinary care.'
     }
   },
   {
@@ -1527,12 +1527,84 @@ export const centers = [
     conditions: ['tbi', 'spinal', 'stroke', 'cognitive'],
     technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
     disciplines: ['Revalidatiegeneeskunde', 'Kinesitherapie', 'Logopedie', 'Ergotherapie', 'Verpleegkunde'],
-    completeness: 78,
-    researchHighlights: ['Hersenletselkliniek on the official site', 'Dwarslaesiekliniek on the official site', 'Residentieel and ambulant rehab pathways'],
+    completeness: 86,
+    researchHighlights: ['Official site lists brain-injury, spinal-cord-injury and polyneuropathy clinics', 'Provides residential and outpatient rehabilitation care', 'Official page describes hospitalised rehabilitation and rehabilitation without overnight stay'],
     features: ['brain-injury', 'spinal-cord'],
     description: {
       it: 'Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale.',
       en: 'A rehabilitation hospital in Edegem with dedicated brain-injury and spinal cord pathways, both inpatient and outpatient.'
+    }
+  },
+  {
+    id: 'william-lennox-ottignies-neurorehabilitation',
+    name: 'Centre Hospitalier Neurologique William Lennox',
+    country: 'Belgium',
+    city: 'Ottignies', region: 'Walloon Brabant', lat: 50.6786, lng: 4.5916,
+    address: 'Allée de Clerlande 6, 1340 Ottignies', phone: '+32 10 430 211',
+    url: 'https://www.cnwl.be/',
+    conditions: ['stroke', 'tbi', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['vr'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurologie', 'Réadaptation fonctionnelle', 'Kinésithérapie', 'Ergothérapie', 'Logopédie', 'Neuropsychologie'],
+    completeness: 89,
+    researchHighlights: ['Official site describes a 179-bed neurological hospital devoted to rehabilitation and care for adults and children with neurological disorders', 'Covers stroke, traumatic brain injury, epilepsy, disorders of consciousness and developmental cognitive disorders', 'Hospital has adult neurology and neuropediatrics departments plus specialist consultations'],
+    features: ['brain-injury', 'pediatric', 'research'],
+    description: {
+      it: 'Ospedale neurologico di riabilitazione a Ottignies per adulti e bambini con ictus, trauma cranico, disturbi della coscienza, epilessia e disturbi cognitivi dello sviluppo.',
+      en: 'A neurological rehabilitation hospital in Ottignies for adults and children with stroke, traumatic brain injury, disorders of consciousness, epilepsy and developmental cognitive disorders.'
+    }
+  },
+  {
+    id: 'nationaal-ms-centrum-melsbroek',
+    name: 'Nationaal MS Centrum',
+    country: 'Belgium',
+    city: 'Melsbroek', region: 'Flemish Brabant', lat: 50.9183, lng: 4.4788,
+    address: 'Vereeckenstraat 44, 1820 Melsbroek', phone: '+32 2 597 80 00',
+    url: 'https://www.mscenter.be/',
+    conditions: ['ms', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurologie', 'Revalidatiegeneeskunde', 'Kinesitherapie', 'Ergotherapie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 86,
+    researchHighlights: ['Official site describes consultation, treatment, rehabilitation, guidance and scientific research', 'Provides integrated specialist care pathways for people with MS and other chronic neurological disorders', 'Official navigation includes MS-related pathology such as neuromyelitis optica'],
+    features: ['ms-specialist', 'research'],
+    description: {
+      it: 'Centro nazionale MS a Melsbroek con percorsi integrati per sclerosi multipla e altre patologie neurologiche croniche, includendo trattamento, riabilitazione e ricerca.',
+      en: 'A national MS centre in Melsbroek with integrated pathways for multiple sclerosis and other chronic neurological disorders, including treatment, rehabilitation and research.'
+    }
+  },
+  {
+    id: 'noorderhart-revalidatie-ms-pelt',
+    name: 'Noorderhart Revalidatie & MS',
+    country: 'Belgium',
+    city: 'Pelt', region: 'Limburg', lat: 51.1916, lng: 5.3882,
+    address: 'Boemerangstraat 2, 3900 Pelt', phone: '+32 11 80 91 00',
+    url: 'https://www.noorderhart.be/nl/revalidatie-ms/',
+    conditions: ['ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurologie', 'Revalidatiegeneeskunde', 'Kinesitherapie', 'Ergotherapie', 'Psychologie', 'Verpleegkunde'],
+    completeness: 82,
+    researchHighlights: ['Official site identifies a dedicated Revalidatie & MS campus and Universitair MS Centrum', 'Official metadata describes Revalidatie & MS as a rehabilitation centre and MS clinic', 'Official page lists a dedicated Revalidatie & MS reception and address at Boemerangstraat 2'],
+    features: ['ms-specialist', 'rehabilitation'],
+    description: {
+      it: 'Centro Noorderhart Revalidatie & MS a Pelt, con campus dedicato alla riabilitazione e alla sclerosi multipla e collegamento al centro universitario MS.',
+      en: 'Noorderhart Revalidatie & MS in Pelt is a dedicated rehabilitation and MS campus linked to a university MS centre.'
+    }
+  },
+  {
+    id: 'trainm-antwerp-neurorehabilitation',
+    name: 'TRAINM Clinics Antwerp',
+    country: 'Belgium',
+    city: 'Antwerp', region: 'Antwerp', lat: 51.2162, lng: 4.4159,
+    address: 'Quellinstraat 38, 2018 Antwerp', phone: '+32 3 283 0223',
+    url: 'https://www.trainm.com/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: ['robotics', 'vr', 'gait'], modes: ['outpatient'], access: ['private'],
+    disciplines: ['Doctors', 'Physiotherapy', 'Occupational therapy', 'Neuropsychology', 'Speech and swallowing therapy'],
+    completeness: 87,
+    researchHighlights: ['Official site describes TRAINM as a neurorehabilitation clinic for children and adults with neurological disabilities', 'Covers stroke, acquired brain injury, cerebral palsy, spinal cord injury, MS, Parkinson, speech/swallow/language and cognitive deficits', 'Technology mix includes robotics, non-invasive neuromodulation, VR, neurogaming, BCI and AI'],
+    features: ['robotics', 'brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Clinica privata di neuro-riabilitazione ad Anversa per adulti e bambini, con robotica, VR e neuromodulazione per ictus, ABI, lesioni midollari, SM, Parkinson e paralisi cerebrale.',
+      en: 'A private neurorehabilitation clinic in Antwerp for adults and children, using robotics, VR and neuromodulation for stroke, ABI, spinal cord injury, MS, Parkinson and cerebral palsy.'
     }
   },
   {

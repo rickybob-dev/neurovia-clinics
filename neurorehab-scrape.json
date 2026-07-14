@@ -1,26 +1,83 @@
 [
   {
+    "name": "Centre Hospitalier Neurologique William Lennox",
+    "country": "Belgium",
+    "city": "Ottignies",
+    "region": "Walloon Brabant",
+    "url": "https://www.cnwl.be/",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official William Lennox neurological hospital site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes a 179-bed neurological hospital devoted to rehabilitation and care for adults and children with neurological disorders",
+      "Covers stroke, traumatic brain injury, epilepsy, disorders of consciousness and developmental cognitive disorders",
+      "Hospital has adult neurology and neuropediatrics departments plus specialist consultations",
+      "A neurological rehabilitation hospital in Ottignies for adults and children with stroke, traumatic brain injury, disorders of consciousness, epilepsy and developmental cognitive disorders.",
+      "Ospedale neurologico di riabilitazione a Ottignies per adulti e bambini con ictus, trauma cranico, disturbi della coscienza, epilessia e disturbi cognitivi dello sviluppo.",
+      "Centre Hospitalier Neurologique William Lennox",
+      "La réadaptation fonctionnelle",
+      "troubles neurologiques",
+      "accident vasculaire cérébral",
+      "trauma crânien",
+      "troubles de la conscience"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.chnwl.be/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Centre Hospitalier Neurologique William Lennox | La réadaptation fonctionnelle | troubles neurologiques | accident vasculaire cérébral | trauma crânien | troubles de la conscience | rééducation | réadaptation | neurolog | neuro | hospital | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "accident vasculaire cérébral",
+        "trauma crânien",
+        "troubles neurologiques",
+        "troubles de la conscience"
+      ],
+      "institution": [
+        "hospital",
+        "centre"
+      ]
+    },
+    "title": "Centre Hospitalier Neurologique William Lennox"
+  },
+  {
     "name": "Inkendaal",
     "country": "Belgium",
     "city": "Vlezenbeek",
     "region": "Flemish Brabant",
     "url": "https://www.inkendaal.be/",
-    "sourceType": "curated-dataset",
-    "discoverySource": "src/lib/data/centers.js",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Inkendaal rehabilitation hospital site",
     "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
-      "Reference center for several rehabilitation specialties",
-      "Official quality model and accreditation history",
-      "A rehabilitation hospital with multidisciplinary teams, adult and pediatric pathways, and extramural activities including a pool.",
-      "Ospedale di riabilitazione con team multidisciplinare, percorsi per adulti e bambini e attività extramurali inclusa la piscina."
+      "Official site describes rehabilitation for severe locomotor, neurological and cardiopulmonary conditions",
+      "Aims to improve quality of life and independence for people with complex neurological disabilities",
+      "Offers individual inpatient and outpatient rehabilitation programmes for children and adults",
+      "A Vlezenbeek rehabilitation hospital for children and adults with complex neurological disabilities, offering inpatient, outpatient and multidisciplinary care.",
+      "Ospedale di riabilitazione a Vlezenbeek per bambini e adulti con disabilità neurologiche complesse, con ricovero, ambulatorio e team multidisciplinari.",
+      "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen",
+      "complexe neurologische beperkingen",
+      "neuro-revalidatieziekenhuis",
+      "kinderen als voor volwassenen",
+      "ambulante als voor gehospitaliseerde revalidanten",
+      "gespecialiseerde multidisciplinaire team"
     ],
     "status": 200,
     "finalUrl": "https://www.inkendaal.be/",
     "contentType": "text/html; charset=utf-8",
-    "validationTier": "broad",
+    "validationTier": "strict",
     "qualifying": true,
-    "evidence": "revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -38,28 +95,117 @@
     "title": "Revalidatieziekenhuis Inkendaal Vlezenbeek"
   },
   {
+    "name": "Nationaal MS Centrum",
+    "country": "Belgium",
+    "city": "Melsbroek",
+    "region": "Flemish Brabant",
+    "url": "https://www.mscenter.be/",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official National MS Center site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes consultation, treatment, rehabilitation, guidance and scientific research",
+      "Provides integrated specialist care pathways for people with MS and other chronic neurological disorders",
+      "Official navigation includes MS-related pathology such as neuromyelitis optica",
+      "A national MS centre in Melsbroek with integrated pathways for multiple sclerosis and other chronic neurological disorders, including treatment, rehabilitation and research.",
+      "Centro nazionale MS a Melsbroek con percorsi integrati per sclerosi multipla e altre patologie neurologiche croniche, includendo trattamento, riabilitazione e ricerca.",
+      "Nationaal MS centrum",
+      "Consultatie - Behandeling - Revalidatie - Begeleiding - Wetenschappelijk onderzoek",
+      "personen met MS",
+      "andere chronische neurologische aandoeningen",
+      "topklinische en geïntegreerde zorgtrajecten",
+      "Neuromyelitis optica"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.mscenter.be/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nationaal MS centrum | Consultatie - Behandeling - Revalidatie - Begeleiding - Wetenschappelijk onderzoek | personen met MS | andere chronische neurologische aandoeningen | topklinische en geïntegreerde zorgtrajecten | Neuromyelitis optica | revalidatie | neurolog | neuro | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Home | MS Center"
+  },
+  {
+    "name": "Noorderhart Revalidatie & MS",
+    "country": "Belgium",
+    "city": "Pelt",
+    "region": "Limburg",
+    "url": "https://www.noorderhart.be/nl/revalidatie-ms",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Noorderhart Revalidatie & MS site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site identifies a dedicated Revalidatie & MS campus and Universitair MS Centrum",
+      "Official metadata describes Revalidatie & MS as a rehabilitation centre and MS clinic",
+      "Official page lists a dedicated Revalidatie & MS reception and address at Boemerangstraat 2",
+      "Noorderhart Revalidatie & MS in Pelt is a dedicated rehabilitation and MS campus linked to a university MS centre.",
+      "Centro Noorderhart Revalidatie & MS a Pelt, con campus dedicato alla riabilitazione e alla sclerosi multipla e collegamento al centro universitario MS.",
+      "Revalidatie & MS",
+      "revalidatiecentrum",
+      "MSkliniek",
+      "Universitair MS Centrum",
+      "Onthaal Revalidatie & MS Centrum",
+      "Boemerangstraat 2"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.noorderhart.be/nl/revalidatie-ms",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Revalidatie & MS | Universitair MS Centrum | Boemerangstraat 2 | revalidatie",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "revalidatie"
+      ],
+      "neurological": [],
+      "institution": []
+    },
+    "title": "Revalidatie & MS - Noorderhart"
+  },
+  {
     "name": "Revalidatieziekenhuis RevArte",
     "country": "Belgium",
     "city": "Edegem",
     "region": "Antwerp",
     "url": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte",
-    "sourceType": "curated-dataset",
-    "discoverySource": "src/lib/data/centers.js",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official RevArte rehabilitation hospital page",
     "reviewStatus": "known",
     "knownInDataset": true,
     "needles": [
-      "Hersenletselkliniek on the official site",
-      "Dwarslaesiekliniek on the official site",
-      "Residentieel and ambulant rehab pathways",
+      "Official site lists brain-injury, spinal-cord-injury and polyneuropathy clinics",
+      "Provides residential and outpatient rehabilitation care",
+      "Official page describes hospitalised rehabilitation and rehabilitation without overnight stay",
       "A rehabilitation hospital in Edegem with dedicated brain-injury and spinal cord pathways, both inpatient and outpatient.",
-      "Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale."
+      "Ospedale di riabilitazione a Edegem con cliniche dedicate a lesioni cerebrali e lesioni midollari, sia in regime residenziale sia ambulatoriale.",
+      "Hersenletselkliniek",
+      "Dwarslaesiekliniek",
+      "Polyneuropathiekliniek",
+      "residentieel en ambulant zorgaanbod",
+      "Revalidatieziekenhuis",
+      "Gehospitaliseerde revalidatie"
     ],
     "status": 200,
     "finalUrl": "https://www.mkl.be/mkl/revalidatieziekenhuis-revarte",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "broad",
+    "validationTier": "strict",
     "qualifying": true,
-    "evidence": "revalidatie | neuro | dwarslaesie | hersenletsel | nah | hospital | revalidatieziekenhuis",
+    "evidence": "Hersenletselkliniek | Dwarslaesiekliniek | Polyneuropathiekliniek | residentieel en ambulant zorgaanbod | Revalidatieziekenhuis | Gehospitaliseerde revalidatie | revalidatie | neuro | polyneuropathie | dwarslaesie | hersenletsel | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -67,6 +213,7 @@
       ],
       "neurological": [
         "neuro",
+        "polyneuropathie",
         "dwarslaesie",
         "hersenletsel",
         "nah"
@@ -77,6 +224,64 @@
       ]
     },
     "title": "Revalidatieziekenhuis RevArte - MKL"
+  },
+  {
+    "name": "TRAINM Clinics Antwerp",
+    "country": "Belgium",
+    "city": "Antwerp",
+    "region": "Antwerp",
+    "url": "https://www.trainm.com/",
+    "sourceType": "curated-dataset | belgium-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official TRAINM neurorehabilitation clinic site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes TRAINM as a neurorehabilitation clinic for children and adults with neurological disabilities",
+      "Covers stroke, acquired brain injury, cerebral palsy, spinal cord injury, MS, Parkinson, speech/swallow/language and cognitive deficits",
+      "Technology mix includes robotics, non-invasive neuromodulation, VR, neurogaming, BCI and AI",
+      "A private neurorehabilitation clinic in Antwerp for adults and children, using robotics, VR and neuromodulation for stroke, ABI, spinal cord injury, MS, Parkinson and cerebral palsy.",
+      "Clinica privata di neuro-riabilitazione ad Anversa per adulti e bambini, con robotica, VR e neuromodulazione per ictus, ABI, lesioni midollari, SM, Parkinson e paralisi cerebrale.",
+      "Neuro Rehabilitation Center",
+      "Neurorehabilitation Clinic",
+      "Stroke",
+      "Acquired brain injury (ABI)",
+      "Spinal cord injury (SCI)",
+      "Multiple sclerosis (MS)",
+      "Parkinson’s disease"
+    ],
+    "status": 200,
+    "finalUrl": "https://trainm.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuro Rehabilitation Center | Neurorehabilitation Clinic | Stroke | Acquired brain injury (ABI) | Spinal cord injury (SCI) | Multiple sclerosis (MS) | Parkinson’s disease | neurorehabilitation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | clinic | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation",
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "acquired brain injury",
+        "cerebral palsy",
+        "multiple sclerosis",
+        "parkinson"
+      ],
+      "institution": [
+        "clinic",
+        "center"
+      ]
+    },
+    "title": "TRAINM | Europe&#039;s Most Innovative Neuro Rehabilitation Center"
   },
   {
     "name": "Poliklinika Glavić Dubrovnik",
@@ -673,7 +878,8 @@
         "blessés médullaires",
         "accident vasculaire cérébral",
         "traumatisme crânien",
-        "sclérose en plaques"
+        "sclérose en plaques",
+        "lésions cérébrales"
       ],
       "institution": [
         "centre"
@@ -1180,13 +1386,28 @@
       "rééducation motrice",
       "rééducation cognitive"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.aphp.fr/hendaye/service-de-smr-maladies-rares-neurologiques-crmr-huntington",
-    "title": "",
-    "evidence": "This operation was aborted; curl fallback failed: curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "maladies rares neurologiques | huntington | réadaptation | rééducation motrice | rééducation | neurolog | neuro | avc | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "avc"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Service de SMR Maladies Rares Neurologiques CRMR Huntington - Hôpital marin de Hendaye | APHP"
   },
   {
     "name": "Hôpital Maritime de Berck — AP-HP",
@@ -1295,20 +1516,33 @@
       "rééducation des pathologies médulaires"
     ],
     "status": 200,
-    "finalUrl": "https://validate.perfdrive.com/?ssa=0983d536-70ff-4d69-8ca8-b2a1d1e48b0e&ssb=11774233736&ssc=https%3A%2F%2Fwww.aphp.fr%2Fsan-salvadour%2Fservice-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux&ssi=30c20a23-c77j-43f9-91fa-dd0ac6764165&ssk=botmanager_support@radware.com&ssm=39733402963431856109876585227655&ssn=c923101a5eaa2137da2fb4581c0d95274cfa481dbf44-8de0-4257-ab3476&sso=291b7dd4-9e2f1064a9cd6564601f0f11e5b75a5ad711dcb8474de28d&ssp=92774616781784027938178401620277556&ssq=25135741278060651950312780974677081918484&ssr=MTUxLjE2LjIxMi42Mw==&sst=Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_15_7)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/126.0+Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImFwaHAuZnIiLCJfX3V6bWYiOiI3ZjkwMDA0ODFkYmY0NC04ZGUwLTQyNTctYWRkNC05ZTJmMTA2NGE5Y2QxLTE3ODQwMTI3ODA2MjgwLTAwNDVlOWIxOWU0MmYxMGZiY2UxMCIsInV6bXgiOiI3ZjkwMDAwYzg0ODMxNC01NDA4LTQxYWMtOTBjZi1lZjAyNzFjYWFjY2ExLTE3ODQwMTI3ODA2MjgwLThkM2I2MjBiNjkwZmVhYmMxMCJ9",
+    "finalUrl": "https://www.aphp.fr/san-salvadour/service-de-soins-medicaux-et-de-readaptation-smr-affections-du-systeme-nerveux",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "none",
-    "qualifying": false,
-    "evidence": "réadaptation",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "affections du système nerveux | rééducation post-avc | sclérose en plaques | maladie de parkinson | traumatisme cranien | rééducation des pathologies médulaires | rééducation | réadaptation | neurolog | neuro | parkinson | accident vasculaire cérébral | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
+        "rééducation",
         "réadaptation"
       ],
-      "neurological": [],
-      "institution": []
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson",
+        "accident vasculaire cérébral",
+        "avc",
+        "traumatisme crânien",
+        "sclérose en plaques",
+        "maladie de parkinson",
+        "polyneuropathie"
+      ],
+      "institution": [
+        "hospital"
+      ]
     },
-    "title": "Radware Captcha Page"
+    "title": "Service de Soins Médicaux et de Réadaptation (SMR) Affections du système nerveux adultes - Hôpital San Salvadour | APHP"
   },
   {
     "name": "Hôpitaux Paris Saint-Maurice",
@@ -1446,7 +1680,8 @@
         "cérébrolésés",
         "cerebrolese",
         "cerebroleses",
-        "avc"
+        "avc",
+        "lésions cérébrales"
       ],
       "institution": []
     },
@@ -3357,6 +3592,7 @@
         "stroke",
         "spinal",
         "parkinson",
+        "polyneuropathie",
         "nah"
       ],
       "institution": [
@@ -6770,7 +7006,8 @@
         "réadaptation"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "lésions cérébrales"
       ],
       "institution": [
         "centre",
