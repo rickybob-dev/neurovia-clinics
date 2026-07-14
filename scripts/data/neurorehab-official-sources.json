@@ -1480,6 +1480,86 @@
       "sourceType": "belgium-second-pass-official-seed",
       "discoverySource": "official TRAINM indications page and Ghent-South branch footer",
       "needles": ["TRAINM Clinics – Ghent-South", "Balegemstraat 2", "B-9620 Zottegem", "Stroke (CVA)", "Acquired Brain Injury (ABI)", "Spinal Cord Injury (SCI)", "Parkinson’s Disease (PD)"]
+    },
+    {
+      "country": "Norway",
+      "name": "CatoSenteret",
+      "city": "Son",
+      "region": "Akershus",
+      "url": "https://www.catosenteret.no/nevrologisk-og-nevromuskulaer-sykdom/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official CatoSenteret neurological and neuromuscular disease programme",
+      "needles": ["Nevrologisk og nevromuskulær sykdom", "tverrfaglig, spesialisert og intensivt rehabiliteringsprogram", "ryggmargsskade", "ervervet hjerneskade", "traumatisk hjerneskade", "nevromuskulære sykdommer"]
+    },
+    {
+      "country": "Norway",
+      "name": "Vikersund Bad Rehabiliteringssenter",
+      "city": "Vikersund",
+      "region": "Buskerud",
+      "url": "https://vikersundbad.no/rehabilitering/nevrologiske-og-nevromuskulaere-sykdommer/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Vikersund Bad neurological and neuromuscular rehabilitation page",
+      "needles": ["Nevrologiske og nevromuskulære sykdommer", "Hjerneslag og traumatisk hjerneskade", "Rehabilitering for Huntingtons sykdom", "Multippel sklerose", "Haaviks vei 25", "Tlf: 32 78 15 00"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Fram",
+      "city": "Rykkinn",
+      "region": "Akershus",
+      "url": "https://unicare.no/fram/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Fram branch page",
+      "needles": ["Unicare Fram", "Hjerneslag og ervervet hjerneskade", "Nevrologisk og nevromuskulær sykdommer", "Paal Bergs vei 129", "1349 Rykkinn"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Hokksund",
+      "city": "Hokksund",
+      "region": "Buskerud",
+      "url": "https://unicare.no/hokksund/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Hokksund branch page",
+      "needles": ["Unicare Hokksund", "Nevrologisk og nevromuskulær sykdommer", "Loesmoveien 79", "3300 Hokksund"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Steffensrud",
+      "city": "Bøverbru",
+      "region": "Innlandet",
+      "url": "https://unicare.no/steffensrud/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Steffensrud branch page",
+      "needles": ["Unicare Steffensrud", "Hjerneslag og traumatiske hjerneskader", "Nevrologisk og nevromuskulær sykdom", "Parkinson gruppe", "Multippel sklerose (MS) gruppe", "Vestre Totenveg 1530"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Helsefort",
+      "city": "Hasselvika",
+      "region": "Trøndelag",
+      "url": "https://unicare.no/helsefort/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Helsefort branch page",
+      "needles": ["Unicare Helsefort", "Hjerneslag og traumatiske hodeskader", "Hysnesveien 11", "7112 Hasselvika", "Helse Midt - Norge RHF"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Bakke",
+      "city": "Halden",
+      "region": "Østfold",
+      "url": "https://unicare.no/bakke/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Bakke branch page",
+      "needles": ["Unicare Bakke", "Hjerneslag og ervervet hjerneskade", "Iddefjordsveien 885", "1765 Halden"]
+    },
+    {
+      "country": "Norway",
+      "name": "Unicare Alta",
+      "city": "Alta",
+      "region": "Finnmark",
+      "url": "https://unicare.no/alta/",
+      "sourceType": "norway-first-pass-official-seed",
+      "discoverySource": "official Unicare Alta branch page",
+      "needles": ["Unicare Alta", "Hjerneslag og ervervet hjerneskade", "Follumsvei 1", "9510 Alta"]
     }
   ],
   "searchResults": [],

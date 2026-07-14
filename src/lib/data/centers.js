@@ -3383,5 +3383,149 @@ export const centers = [
       it: 'Ospedale norvegese specializzato in riabilitazione e ricerca con team multidisciplinare e forte attenzione ai disturbi neurologici.',
       en: 'A Norwegian specialist rehabilitation hospital with multidisciplinary care and a strong focus on neurological conditions.'
     }
+  },
+  {
+    id: 'catosenteret-son',
+    name: 'CatoSenteret',
+    country: 'Norway',
+    city: 'Son', region: 'Akershus', lat: 59.5102, lng: 10.6906,
+    address: 'Kvartsveien 2, 1555 Son', phone: '+47 64 98 44 00',
+    url: 'https://www.catosenteret.no/nevrologisk-og-nevromuskulaer-sykdom/',
+    conditions: ['tbi', 'spinal', 'neuromuscular', 'pediatric', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Rehabilitering', 'Fysioterapi', 'Ergoterapi', 'Logopedi', 'Psykologi', 'Sykepleie'],
+    completeness: 87,
+    researchHighlights: ['Official programme for neurological and neuromuscular disease', 'Covers spinal cord injury, acquired brain injury, late moderate traumatic brain injury and neuromuscular disease', 'Adult and child/youth rehabilitation pathways'],
+    features: ['brain-injury', 'spinal-cord', 'pediatric'],
+    description: {
+      it: 'Centro norvegese a Son con programma specialistico per malattie neurologiche e neuromuscolari, lesioni midollari e danno cerebrale acquisito.',
+      en: 'A Norwegian centre in Son with specialist rehabilitation for neurological and neuromuscular disease, spinal cord injury, and acquired brain injury.'
+    }
+  },
+  {
+    id: 'vikersund-bad',
+    name: 'Vikersund Bad Rehabiliteringssenter',
+    country: 'Norway',
+    city: 'Vikersund', region: 'Buskerud', lat: 59.9726, lng: 9.9985,
+    address: 'Haaviks vei 25, 3370 Vikersund', phone: '+47 32 78 15 00',
+    url: 'https://vikersundbad.no/rehabilitering/nevrologiske-og-nevromuskulaere-sykdommer/',
+    conditions: ['stroke', 'tbi', 'ms', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['tele'], modes: ['inpatient', 'outpatient', 'day-hospital'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Rehabilitering', 'Fysioterapi', 'Ergoterapi', 'Logopedi', 'Psykologi', 'Sykepleie'],
+    completeness: 86,
+    researchHighlights: ['Official neurological and neuromuscular rehabilitation programme', 'Separate official programme for stroke and traumatic brain injury', 'Includes MS and Huntington rehabilitation offers'],
+    features: ['brain-injury', 'ms-specialist', 'telemedicine'],
+    description: {
+      it: 'Centro di riabilitazione a Vikersund con percorsi per ictus, trauma cranico, malattie neurologiche e neuromuscolari, SM e Huntington.',
+      en: 'A Vikersund rehabilitation centre with programmes for stroke, traumatic brain injury, neurological and neuromuscular disease, MS, and Huntington disease.'
+    }
+  },
+  {
+    id: 'unicare-fram-rykkinn',
+    name: 'Unicare Fram',
+    country: 'Norway',
+    city: 'Rykkinn', region: 'Akershus', lat: 59.9342, lng: 10.4761,
+    address: 'Paal Bergs vei 129, 1349 Rykkinn', phone: '+47 67 15 28 00',
+    url: 'https://unicare.no/fram/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Logopedi', 'Psykologi', 'Sosionom'],
+    completeness: 85,
+    researchHighlights: ['Official branch page links to stroke/acquired brain injury rehabilitation', 'Official branch page links to neurological and neuromuscular disease rehabilitation', 'Part of Unicare specialized rehabilitation services'],
+    features: ['brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Centro Unicare a Rykkinn con programmi per ictus e danno cerebrale acquisito, oltre a riabilitazione neurologica e neuromuscolare.',
+      en: 'A Unicare centre in Rykkinn with stroke and acquired brain injury rehabilitation plus neurological and neuromuscular rehabilitation.'
+    }
+  },
+  {
+    id: 'unicare-hokksund',
+    name: 'Unicare Hokksund',
+    country: 'Norway',
+    city: 'Hokksund', region: 'Buskerud', lat: 59.7659, lng: 9.9161,
+    address: 'Loesmoveien 79, 3300 Hokksund', phone: '+47 32 25 32 00',
+    url: 'https://unicare.no/hokksund/',
+    conditions: ['spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Psykologi', 'Sosionom'],
+    completeness: 82,
+    researchHighlights: ['Official branch page links to neurological and neuromuscular disease rehabilitation', 'Unicare programme covers Parkinson, multiple sclerosis, neuromuscular disease and spinal cord injuries', 'Specialized rehabilitation centre in Øvre Eiker'],
+    features: ['spinal-cord', 'ms-specialist'],
+    description: {
+      it: 'Centro Unicare a Hokksund con riabilitazione per malattie neurologiche e neuromuscolari, inclusi Parkinson, SM e lesioni midollari.',
+      en: 'A Unicare centre in Hokksund providing neurological and neuromuscular rehabilitation, including Parkinson, MS, and spinal cord injury pathways.'
+    }
+  },
+  {
+    id: 'unicare-steffensrud-boverbru',
+    name: 'Unicare Steffensrud',
+    country: 'Norway',
+    city: 'Bøverbru', region: 'Innlandet', lat: 60.6815, lng: 10.7063,
+    address: 'Vestre Totenveg 1530, 2846 Bøverbru', phone: '+47 61 19 91 00',
+    url: 'https://unicare.no/steffensrud/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Logopedi', 'Psykologi', 'Sosionom'],
+    completeness: 86,
+    researchHighlights: ['Official branch page lists stroke and traumatic brain injury rehabilitation', 'Official branch page lists neurological and neuromuscular disease rehabilitation', 'Includes Parkinson, MS, post-polio and cerebral palsy group offers'],
+    features: ['brain-injury', 'spinal-cord', 'ms-specialist'],
+    description: {
+      it: 'Centro Unicare a Bøverbru con percorsi per ictus, trauma cranico, Parkinson, SM, post-polio, paralisi cerebrale e disturbi neuromuscolari.',
+      en: 'A Unicare centre in Bøverbru with stroke, traumatic brain injury, Parkinson, MS, post-polio, cerebral palsy, and neuromuscular rehabilitation.'
+    }
+  },
+  {
+    id: 'unicare-helsefort-hasselvika',
+    name: 'Unicare Helsefort',
+    country: 'Norway',
+    city: 'Hasselvika', region: 'Trøndelag', lat: 63.6289, lng: 9.8218,
+    address: 'Hysnesveien 11, 7112 Hasselvika', phone: '+47 73 85 53 00',
+    url: 'https://unicare.no/helsefort/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Logopedi', 'Psykologi', 'Sosionom'],
+    completeness: 82,
+    researchHighlights: ['Official branch page lists stroke and traumatic head injury rehabilitation', 'Specialized rehabilitation provider with Helse Midt-Norge agreement', 'Part of Unicare specialized rehabilitation services'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Centro Unicare a Hasselvika con riabilitazione specialistica per ictus e traumi cranici.',
+      en: 'A Unicare centre in Hasselvika providing specialist rehabilitation for stroke and traumatic head injury.'
+    }
+  },
+  {
+    id: 'unicare-bakke-halden',
+    name: 'Unicare Bakke',
+    country: 'Norway',
+    city: 'Halden', region: 'Østfold', lat: 59.0164, lng: 11.4489,
+    address: 'Iddefjordsveien 885, 1765 Halden', phone: '+47 69 17 26 00',
+    url: 'https://unicare.no/bakke/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Logopedi', 'Psykologi', 'Sosionom'],
+    completeness: 82,
+    researchHighlights: ['Official branch page links to stroke and acquired brain injury rehabilitation', 'Specialist rehabilitation centre near Halden', 'Part of Unicare specialized rehabilitation services'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Centro Unicare vicino a Halden con riabilitazione per ictus e danno cerebrale acquisito.',
+      en: 'A Unicare centre near Halden providing rehabilitation for stroke and acquired brain injury.'
+    }
+  },
+  {
+    id: 'unicare-alta',
+    name: 'Unicare Alta',
+    country: 'Norway',
+    city: 'Alta', region: 'Finnmark', lat: 69.9677, lng: 23.2778,
+    address: 'Follumsvei 1, 9510 Alta', phone: '+47 97 60 02 00',
+    url: 'https://unicare.no/alta/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Legespesialist', 'Fysioterapi', 'Ergoterapi', 'Idrettspedagog', 'Sykepleie', 'Logopedi', 'Psykologi', 'Sosionom'],
+    completeness: 81,
+    researchHighlights: ['Official branch page links to stroke and acquired brain injury rehabilitation', 'Specialized rehabilitation centre in Alta', 'Part of Unicare specialized rehabilitation services'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Centro Unicare ad Alta con riabilitazione specialistica per ictus e danno cerebrale acquisito.',
+      en: 'A Unicare centre in Alta providing specialist rehabilitation for stroke and acquired brain injury.'
+    }
   }
 ];

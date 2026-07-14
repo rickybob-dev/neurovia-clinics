@@ -77,7 +77,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -88,6 +88,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -4932,6 +4933,59 @@
     "title": "Aandoeningen revalidatie | Vogellanden"
   },
   {
+    "name": "CatoSenteret",
+    "country": "Norway",
+    "city": "Son",
+    "region": "Akershus",
+    "url": "https://www.catosenteret.no/nevrologisk-og-nevromuskulaer-sykdom",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official CatoSenteret neurological and neuromuscular disease programme",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official programme for neurological and neuromuscular disease",
+      "Covers spinal cord injury, acquired brain injury, late moderate traumatic brain injury and neuromuscular disease",
+      "Adult and child/youth rehabilitation pathways",
+      "A Norwegian centre in Son with specialist rehabilitation for neurological and neuromuscular disease, spinal cord injury, and acquired brain injury.",
+      "Centro norvegese a Son con programma specialistico per malattie neurologiche e neuromuscolari, lesioni midollari e danno cerebrale acquisito.",
+      "Nevrologisk og nevromuskulær sykdom",
+      "tverrfaglig, spesialisert og intensivt rehabiliteringsprogram",
+      "ryggmargsskade",
+      "ervervet hjerneskade",
+      "traumatisk hjerneskade",
+      "nevromuskulære sykdommer"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.catosenteret.no/nevrologisk-og-nevromuskulaer-sykdom",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nevrologisk og nevromuskulær sykdom | tverrfaglig, spesialisert og intensivt rehabiliteringsprogram | ryggmargsskade | ervervet hjerneskade | traumatisk hjerneskade | nevromuskulære sykdommer | nevrologiske sykdommer | nevrologisk og nevromuskulær sykdom | nevrologiske og nevromuskulære sykdommer | rehab | rehabilitering | døgnopphold | hjerne | hjerneskade",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrologiske sykdommer",
+        "nevrologisk og nevromuskulær sykdom",
+        "nevrologiske og nevromuskulære sykdommer"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering",
+        "døgnopphold"
+      ],
+      "neurological": [
+        "hjerne",
+        "hjerneskade",
+        "ervervet hjerneskade",
+        "traumatisk hjerneskade",
+        "ryggmargsskade",
+        "nevromuskulær",
+        "nevromuskulære"
+      ],
+      "institution": []
+    },
+    "title": "Nevrologisk og nevromuskulær sykdom - CatoSenteret"
+  },
+  {
     "name": "Sunnaas sykehus HF",
     "country": "Norway",
     "city": "Bjørnemyr",
@@ -4953,19 +5007,341 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehab | spinal cord | spinal",
+    "evidence": "rehab | rehabilitering | spinal cord | spinal | ryggmargsskade",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
-        "rehab"
+        "rehab",
+        "rehabilitering"
       ],
       "neurological": [
         "spinal cord",
-        "spinal"
+        "spinal",
+        "ryggmargsskade"
       ],
       "institution": []
     },
     "title": "Forside - Sunnaas sykehus HF"
+  },
+  {
+    "name": "Unicare Alta",
+    "country": "Norway",
+    "city": "Alta",
+    "region": "Finnmark",
+    "url": "https://unicare.no/alta",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Alta branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page links to stroke and acquired brain injury rehabilitation",
+      "Specialized rehabilitation centre in Alta",
+      "Part of Unicare specialized rehabilitation services",
+      "A Unicare centre in Alta providing specialist rehabilitation for stroke and acquired brain injury.",
+      "Centro Unicare ad Alta con riabilitazione specialistica per ictus e danno cerebrale acquisito.",
+      "Unicare Alta",
+      "Hjerneslag og ervervet hjerneskade",
+      "Follumsvei 1",
+      "9510 Alta"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/alta",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Alta | Hjerneslag og ervervet hjerneskade | Follumsvei 1 | 9510 Alta | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | ervervet hjerneskade",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "hjerneskade",
+        "ervervet hjerneskade"
+      ],
+      "institution": []
+    },
+    "title": "Unicare Alta Rehabiliteringssenter"
+  },
+  {
+    "name": "Unicare Bakke",
+    "country": "Norway",
+    "city": "Halden",
+    "region": "Østfold",
+    "url": "https://unicare.no/bakke",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Bakke branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page links to stroke and acquired brain injury rehabilitation",
+      "Specialist rehabilitation centre near Halden",
+      "Part of Unicare specialized rehabilitation services",
+      "A Unicare centre near Halden providing rehabilitation for stroke and acquired brain injury.",
+      "Centro Unicare vicino a Halden con riabilitazione per ictus e danno cerebrale acquisito.",
+      "Unicare Bakke",
+      "Hjerneslag og ervervet hjerneskade",
+      "Iddefjordsveien 885",
+      "1765 Halden"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/bakke",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Bakke | Hjerneslag og ervervet hjerneskade | Iddefjordsveien 885 | 1765 Halden | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | ervervet hjerneskade | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "hjerneskade",
+        "ervervet hjerneskade"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Unicare Bakke Rehabiliteringssenter"
+  },
+  {
+    "name": "Unicare Fram",
+    "country": "Norway",
+    "city": "Rykkinn",
+    "region": "Akershus",
+    "url": "https://unicare.no/fram",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Fram branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page links to stroke/acquired brain injury rehabilitation",
+      "Official branch page links to neurological and neuromuscular disease rehabilitation",
+      "Part of Unicare specialized rehabilitation services",
+      "A Unicare centre in Rykkinn with stroke and acquired brain injury rehabilitation plus neurological and neuromuscular rehabilitation.",
+      "Centro Unicare a Rykkinn con programmi per ictus e danno cerebrale acquisito, oltre a riabilitazione neurologica e neuromuscolare.",
+      "Unicare Fram",
+      "Hjerneslag og ervervet hjerneskade",
+      "Nevrologisk og nevromuskulær sykdommer",
+      "Paal Bergs vei 129",
+      "1349 Rykkinn"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/fram",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Fram | Hjerneslag og ervervet hjerneskade | Nevrologisk og nevromuskulær sykdommer | Paal Bergs vei 129 | 1349 Rykkinn | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | ervervet hjerneskade",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrologisk og nevromuskulær sykdom"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "hjerneskade",
+        "ervervet hjerneskade",
+        "nevromuskulær",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "Unicare Fram Rehabiliteringssenter i spesialisthelsetjenesten"
+  },
+  {
+    "name": "Unicare Helsefort",
+    "country": "Norway",
+    "city": "Hasselvika",
+    "region": "Trøndelag",
+    "url": "https://unicare.no/helsefort",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Helsefort branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page lists stroke and traumatic head injury rehabilitation",
+      "Specialized rehabilitation provider with Helse Midt-Norge agreement",
+      "Part of Unicare specialized rehabilitation services",
+      "A Unicare centre in Hasselvika providing specialist rehabilitation for stroke and traumatic head injury.",
+      "Centro Unicare a Hasselvika con riabilitazione specialistica per ictus e traumi cranici.",
+      "Unicare Helsefort",
+      "Hjerneslag og traumatiske hodeskader",
+      "Hysnesveien 11",
+      "7112 Hasselvika",
+      "Helse Midt - Norge RHF"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/helsefort",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Helsefort | Hjerneslag og traumatiske hodeskader | Hysnesveien 11 | 7112 Hasselvika | Helse Midt - Norge RHF | rehab | rehabilitering | hjerneslag | hjerne | traumatiske hodeskader",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "traumatiske hodeskader"
+      ],
+      "institution": []
+    },
+    "title": "Unicare Helsefort Rehabiliteringssenter i Midt-Norge"
+  },
+  {
+    "name": "Unicare Hokksund",
+    "country": "Norway",
+    "city": "Hokksund",
+    "region": "Buskerud",
+    "url": "https://unicare.no/hokksund",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Hokksund branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page links to neurological and neuromuscular disease rehabilitation",
+      "Unicare programme covers Parkinson, multiple sclerosis, neuromuscular disease and spinal cord injuries",
+      "Specialized rehabilitation centre in Øvre Eiker",
+      "A Unicare centre in Hokksund providing neurological and neuromuscular rehabilitation, including Parkinson, MS, and spinal cord injury pathways.",
+      "Centro Unicare a Hokksund con riabilitazione per malattie neurologiche e neuromuscolari, inclusi Parkinson, SM e lesioni midollari.",
+      "Unicare Hokksund",
+      "Nevrologisk og nevromuskulær sykdommer",
+      "Loesmoveien 79",
+      "3300 Hokksund"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/hokksund",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Hokksund | Nevrologisk og nevromuskulær sykdommer | Loesmoveien 79 | 3300 Hokksund | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | nevromuskulær",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrologisk og nevromuskulær sykdom"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "nevromuskulær"
+      ],
+      "institution": []
+    },
+    "title": "Unicare Hokksund Rehabilitering"
+  },
+  {
+    "name": "Unicare Steffensrud",
+    "country": "Norway",
+    "city": "Bøverbru",
+    "region": "Innlandet",
+    "url": "https://unicare.no/steffensrud",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Unicare Steffensrud branch page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official branch page lists stroke and traumatic brain injury rehabilitation",
+      "Official branch page lists neurological and neuromuscular disease rehabilitation",
+      "Includes Parkinson, MS, post-polio and cerebral palsy group offers",
+      "A Unicare centre in Bøverbru with stroke, traumatic brain injury, Parkinson, MS, post-polio, cerebral palsy, and neuromuscular rehabilitation.",
+      "Centro Unicare a Bøverbru con percorsi per ictus, trauma cranico, Parkinson, SM, post-polio, paralisi cerebrale e disturbi neuromuscolari.",
+      "Unicare Steffensrud",
+      "Hjerneslag og traumatiske hjerneskader",
+      "Nevrologisk og nevromuskulær sykdom",
+      "Parkinson gruppe",
+      "Multippel sklerose (MS) gruppe",
+      "Vestre Totenveg 1530"
+    ],
+    "status": 200,
+    "finalUrl": "https://unicare.no/steffensrud",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Unicare Steffensrud | Hjerneslag og traumatiske hjerneskader | Nevrologisk og nevromuskulær sykdom | Parkinson gruppe | Multippel sklerose (MS) gruppe | Vestre Totenveg 1530 | nevrologisk og nevromuskulær sykdom | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | traumatiske hjerneskader",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrologisk og nevromuskulær sykdom"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "hjerneskade",
+        "traumatiske hjerneskader",
+        "nevromuskulær",
+        "multippel sklerose",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "Unicare Steffensrud Rehabiliteringssenter"
+  },
+  {
+    "name": "Vikersund Bad Rehabiliteringssenter",
+    "country": "Norway",
+    "city": "Vikersund",
+    "region": "Buskerud",
+    "url": "https://vikersundbad.no/rehabilitering/nevrologiske-og-nevromuskulaere-sykdommer",
+    "sourceType": "curated-dataset | norway-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Vikersund Bad neurological and neuromuscular rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official neurological and neuromuscular rehabilitation programme",
+      "Separate official programme for stroke and traumatic brain injury",
+      "Includes MS and Huntington rehabilitation offers",
+      "A Vikersund rehabilitation centre with programmes for stroke, traumatic brain injury, neurological and neuromuscular disease, MS, and Huntington disease.",
+      "Centro di riabilitazione a Vikersund con percorsi per ictus, trauma cranico, malattie neurologiche e neuromuscolari, SM e Huntington.",
+      "Nevrologiske og nevromuskulære sykdommer",
+      "Hjerneslag og traumatisk hjerneskade",
+      "Rehabilitering for Huntingtons sykdom",
+      "Multippel sklerose",
+      "Haaviks vei 25",
+      "Tlf: 32 78 15 00"
+    ],
+    "status": 200,
+    "finalUrl": "https://vikersundbad.no/rehabilitering/nevrologiske-og-nevromuskulaere-sykdommer",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nevrologiske og nevromuskulære sykdommer | Hjerneslag og traumatisk hjerneskade | Rehabilitering for Huntingtons sykdom | Haaviks vei 25 | Tlf: 32 78 15 00 | nevrologiske og nevromuskulære sykdommer | rehab | rehabilitering | hjerneslag | hjerne | hjerneskade | traumatisk hjerneskade",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nevrologiske og nevromuskulære sykdommer"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "hjerneslag",
+        "hjerne",
+        "hjerneskade",
+        "traumatisk hjerneskade",
+        "nevromuskulær",
+        "nevromuskulære"
+      ],
+      "institution": []
+    },
+    "title": "Nevrologiske og nevromuskulære sykdommer - Vikersund Bad Rehabiliteringssenter"
   },
   {
     "name": "Centrum Kompleksowej Rehabilitacji Konstancin",
@@ -7578,7 +7954,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neuro | spinal cord | spinal | hospital | centre",
+    "evidence": "rehabilitation | rehab | neuro | spinal cord | spinal | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -7592,6 +7968,7 @@
       ],
       "institution": [
         "hospital",
+        "clinic",
         "centre"
       ]
     },
