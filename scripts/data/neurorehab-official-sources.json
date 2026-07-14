@@ -1590,6 +1590,116 @@
       "sourceType": "norway-second-pass-official-seed",
       "discoverySource": "official ViGØR rehabilitation hospital site",
       "needles": ["ViGØR Rehabiliteringssykehus", "nevrologiske lidelser", "Hjerneslag", "Subakutt hjerneslag", "MS", "Nevromuskulære lidelser", "Parkinson", "Conrad Holmboes veg 95"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Aleris Rehab Station",
+      "city": "Solna",
+      "region": "Stockholm",
+      "url": "https://www.aleris.se/mottagningar/stockholm/rehab-station/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official Aleris Rehab Station page",
+      "needles": ["Aleris Rehab Station", "nationellt och internationellt rehabiliteringscenter", "förvärvade och medfödda ryggmärgsskador", "neurologiska skador och sjukdomar", "stroke", "multipel skleros"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Mälargården Rehab Center",
+      "city": "Sigtuna",
+      "region": "Stockholm",
+      "url": "https://www.malargarden.se/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official Mälargården Rehab Center site",
+      "needles": ["Mälargården Rehab Center", "specialiserad rehabilitering inom neurologi", "Stroke", "Parkinson", "MS", "postpolio", "Hertigvägen 5"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Valjeviken",
+      "city": "Sölvesborg",
+      "region": "Blekinge",
+      "url": "https://valjeviken.se/forvarvad-hjarnskada-profil/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official Valjeviken acquired brain injury profile",
+      "needles": ["Förvärvad hjärnskada", "neurologisk rehabilitering", "fysioterapeut", "arbetsterapeut", "kurator", "logoped", "Herrgårdsvägen 97"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Bragée Neurologisk rehabilitering",
+      "city": "Stockholm",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Bragee-Neurologisk-rehabilitering-Ostermalm/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Bragée Neurologisk rehabilitering", "neurologisk rehabilitering", "rehabilitering vid stroke", "Parkinson", "läkare, fysioterapeuter, psykologer, sjuksköterskor, logoped och dietist"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Neurologiska Rehabiliteringskliniken Stiftelsen Stora Sköndal",
+      "city": "Stockholm",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-Rehabiliteringskliniken-Stiftelsen-Stora-Skondal/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["specialiserad neurologisk rehabilitering", "Stroke", "Parkinsons sjukdom", "MS", "förvärvad hjärnskada", "heldygnsrehabilitering och dagrehabilitering"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Neurorehabilitering Västerbotten",
+      "city": "Umeå",
+      "region": "Västerbotten",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurorehabilitering-Vasterbotten/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Neurorehabilitering Västerbotten", "Norrlands universitetssjukhus", "901 85 Umeå"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Rehabiliteringsmedicin Orup Höör",
+      "city": "Höör",
+      "region": "Skåne",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinavdelning-neurorehab-trauma-Orup-Hoor/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card and related Orup records",
+      "needles": ["Rehabiliteringsmedicinavdelning neurorehab trauma Orup Höör", "hjärnskada Orup Höör", "ryggmärgsskada Orup Höör", "Sanatorievägen 34A"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Hjärnskaderehabilitering Danderyds sjukhus",
+      "city": "Danderyd",
+      "region": "Stockholm",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Danderyd-Danderyds-sjukhus/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Hjärnskaderehabilitering", "Danderyds sjukhus", "dagvård", "konsultteam", "Entrévägen 6"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Rehabiliteringsmedicin neuroteam Universitetssjukhuset Örebro",
+      "city": "Örebro",
+      "region": "Örebro",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-neuroteam-Universitetssjukhuset-Orebro-Orebro/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Rehabiliteringsmedicin neuroteam", "Universitetssjukhuset Örebro", "Örebro"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Neurologiska rehabiliteringsmottagningen Kalmar",
+      "city": "Kalmar",
+      "region": "Kalmar",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-rehabiliteringsmottagningen-Kalmar/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Neurologiska rehabiliteringsmottagningen Kalmar", "Hälsogränd 4", "Kalmar"]
+    },
+    {
+      "country": "Sweden",
+      "name": "Ryggmärgsskadeteam, Smärt- och rehabiliteringsmedicinska kliniken",
+      "city": "Linköping",
+      "region": "Östergötland",
+      "url": "https://www.1177.se/hitta-vard/kontaktkort/Ryggmargsskadeteam-Smart-och-Rehabiliteringsmedicinska-kliniken/",
+      "sourceType": "sweden-first-pass-official-seed",
+      "discoverySource": "official 1177 contact card",
+      "needles": ["Ryggmärgsskadeteam", "Smärt- och rehabiliteringsmedicinska kliniken", "Universitetssjukhuset, Linköping"]
     }
   ],
   "searchResults": [],

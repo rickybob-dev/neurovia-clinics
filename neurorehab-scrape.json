@@ -77,7 +77,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -88,6 +88,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -5351,12 +5352,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Parkinsonrehabilitering | Individuell døgnrehabilitering | Døgnrehabilitering LSVT-BIG | Dagtilbud | lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut | Nordre Ringsveg 82 | rehab | rehabilitering | parkinson",
+    "evidence": "Parkinsonrehabilitering | Individuell døgnrehabilitering | Døgnrehabilitering LSVT-BIG | Dagtilbud | lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut | Nordre Ringsveg 82 | dagrehabilitering | rehab | rehabilitering | parkinson",
     "matchedSignals": {
-      "explicitNeuroRehab": [],
+      "explicitNeuroRehab": [
+        "dagrehabilitering"
+      ],
       "rehabilitation": [
         "rehab",
-        "rehabilitering"
+        "rehabilitering",
+        "dagrehabilitering"
       ],
       "neurological": [
         "parkinson"
@@ -7458,6 +7462,537 @@
       ]
     },
     "title": "Ospitalarioak Fundazioa Euskadi (antes Hospital Aita Menni) - Ospitalarioak Fundazioa Euskadi (antes Aita Menni)"
+  },
+  {
+    "name": "Aleris Rehab Station",
+    "country": "Sweden",
+    "city": "Solna",
+    "region": "Stockholm",
+    "url": "https://www.aleris.se/mottagningar/stockholm/rehab-station",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Aleris Rehab Station page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "National and international rehabilitation centre on the official site",
+      "Official page covers acquired and congenital spinal cord injuries, neurological injuries and diseases, stroke and MS",
+      "Provides specialist care on behalf of Region Stockholm",
+      "A Swedish specialist medical rehabilitation centre in Solna, covering spinal cord injury, stroke, MS, and other neurological conditions.",
+      "Centro svedese a Solna per riabilitazione medica specialistica, con percorsi per lesioni midollari, ictus, SM e altre condizioni neurologiche.",
+      "Aleris Rehab Station",
+      "nationellt och internationellt rehabiliteringscenter",
+      "förvärvade och medfödda ryggmärgsskador",
+      "neurologiska skador och sjukdomar",
+      "stroke",
+      "multipel skleros"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.aleris.se/mottagningar/stockholm/rehab-station",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Aleris Rehab Station | nationellt och internationellt rehabiliteringscenter | förvärvade och medfödda ryggmärgsskador | neurologiska skador och sjukdomar | stroke | multipel skleros | medicinsk rehabilitering | rehabilitation | rehab | rehabilitering | neurolog | neuro | spinal cord | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "medicinsk rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "neurologiska skador",
+        "neurologiska skador och sjukdomar",
+        "nervsystemet",
+        "multipel skleros"
+      ],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Aleris Rehab Station | Aleris Medicinsk rehabilitering"
+  },
+  {
+    "name": "Bragée Neurologisk rehabilitering",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "region": "Stockholm",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Bragee-Neurologisk-rehabilitering-Ostermalm",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists neurological rehabilitation and stroke rehabilitation care types",
+      "Care is provided on behalf of Region Stockholm",
+      "Team includes physicians, physiotherapists, psychologists, nurses, speech therapist and dietitian",
+      "A Stockholm neurological rehabilitation unit with day rehabilitation and a multidisciplinary team, operating on behalf of Region Stockholm.",
+      "Unità di riabilitazione neurologica a Stoccolma con day rehab e team multidisciplinare, attiva su incarico della Regione Stockholm.",
+      "Bragée Neurologisk rehabilitering",
+      "neurologisk rehabilitering",
+      "rehabilitering vid stroke",
+      "Parkinson",
+      "läkare, fysioterapeuter, psykologer, sjuksköterskor, logoped och dietist"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Bragee-Neurologisk-rehabilitering-Ostermalm",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Bragée Neurologisk rehabilitering | neurologisk rehabilitering | rehabilitering vid stroke | läkare, fysioterapeuter, psykologer, sjuksköterskor, logoped och dietist | dagrehabilitering | rehab | rehabilitering | neurolog | neuro | stroke",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologisk rehabilitering",
+        "dagrehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering",
+        "dagrehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke"
+      ],
+      "institution": []
+    },
+    "title": "Brag&#233;e Neurologisk rehabilitering, &#214;stermalm - 1177"
+  },
+  {
+    "name": "Hjärnskaderehabilitering Danderyds sjukhus",
+    "country": "Sweden",
+    "city": "Danderyd",
+    "region": "Stockholm",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Danderyd-Danderyds-sjukhus",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists Danderyd brain-injury rehabilitation outpatient, day-care and consultation-team services",
+      "Specialised hospital brain-injury rehabilitation service",
+      "Includes Danderyd and Huddinge brain-injury rehabilitation locations",
+      "A Danderyd Hospital specialist brain-injury rehabilitation service with outpatient, day-care, and consultation-team pathways.",
+      "Servizio specialistico di Danderyds sjukhus per riabilitazione del danno cerebrale, con ambulatorio, day care e team consulenziale.",
+      "Hjärnskaderehabilitering",
+      "Danderyds sjukhus",
+      "dagvård",
+      "konsultteam",
+      "Entrévägen 6"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Danderyd-Danderyds-sjukhus",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Hjärnskaderehabilitering | Danderyds sjukhus | dagvård | konsultteam | Entrévägen 6 | slutenvårdsrehabilitering | rehab | rehabilitering | neuro | stroke | hjärnskada | hjarnskada",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "slutenvårdsrehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering",
+        "slutenvårdsrehabilitering"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "hjärnskada",
+        "hjarnskada",
+        "förvärvad hjärnskada",
+        "forvarvad hjarnskada"
+      ],
+      "institution": []
+    },
+    "title": "Hj&#228;rnskaderehabilitering mottagning Danderyd, Danderyds sjukhus - 1177"
+  },
+  {
+    "name": "Mälargården Rehab Center",
+    "country": "Sweden",
+    "city": "Sigtuna",
+    "region": "Stockholm",
+    "url": "https://www.malargarden.se/",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Mälargården Rehab Center site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official site describes specialised rehabilitation in neurology and oncology",
+      "Official programme links include stroke, Parkinson, MS and post-polio rehabilitation",
+      "Planned specialised rehabilitation can be financed by county council referral",
+      "A specialist rehabilitation centre in Sigtuna with official neurology, stroke, Parkinson, MS, and post-polio programmes.",
+      "Centro di riabilitazione specialistica a Sigtuna con programmi ufficiali per neurologia, ictus, Parkinson, SM e post-polio.",
+      "Mälargården Rehab Center",
+      "specialiserad rehabilitering inom neurologi",
+      "Stroke",
+      "Parkinson",
+      "MS",
+      "postpolio",
+      "Hertigvägen 5"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.malargarden.se/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Mälargården Rehab Center | specialiserad rehabilitering inom neurologi | Stroke | Parkinson | MS | postpolio | neurologisk rehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | parkinson | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologisk rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "parkinson"
+      ],
+      "institution": [
+        "center"
+      ]
+    },
+    "title": "Rehabilitering av neurologiska, onkologisk & lungsjukdomar | Mälargården Rehab Center"
+  },
+  {
+    "name": "Neurologiska Rehabiliteringskliniken Stiftelsen Stora Sköndal",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "region": "Stockholm",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-Rehabiliteringskliniken-Stiftelsen-Stora-Skondal",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 says the clinic offers specialised neurological rehabilitation for nervous-system diseases and injuries",
+      "Programmes include stroke, Parkinson, epilepsy, MS, cervical dystonia and acquired brain injury",
+      "Offers inpatient and day rehabilitation",
+      "Stora Sköndal neurological clinic offering inpatient and day rehabilitation for stroke, Parkinson, MS, and acquired brain injury.",
+      "Clinica neurologica di Stora Sköndal con riabilitazione residenziale e diurna per ictus, Parkinson, SM e danno cerebrale acquisito.",
+      "specialiserad neurologisk rehabilitering",
+      "Stroke",
+      "Parkinsons sjukdom",
+      "MS",
+      "förvärvad hjärnskada",
+      "heldygnsrehabilitering och dagrehabilitering"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-Rehabiliteringskliniken-Stiftelsen-Stora-Skondal",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "specialiserad neurologisk rehabilitering | Stroke | Parkinsons sjukdom | MS | förvärvad hjärnskada | heldygnsrehabilitering och dagrehabilitering | neurologisk rehabilitering | dagrehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | hjärnskada | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologisk rehabilitering",
+        "specialiserad neurologisk rehabilitering",
+        "dagrehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering",
+        "dagrehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "hjärnskada",
+        "hjarnskada",
+        "förvärvad hjärnskada",
+        "forvarvad hjarnskada",
+        "nervsystemet",
+        "parkinsons sjukdom",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Neurologiska Rehabiliteringskliniken Stiftelsen Stora Sk&#246;ndal - 1177"
+  },
+  {
+    "name": "Neurologiska rehabiliteringsmottagningen Kalmar",
+    "country": "Sweden",
+    "city": "Kalmar",
+    "region": "Kalmar",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-rehabiliteringsmottagningen-Kalmar",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists Neurologiska rehabiliteringsmottagningen Kalmar",
+      "Public neurological rehabilitation outpatient clinic",
+      "Regional specialist neurorehabilitation service",
+      "A public neurological rehabilitation outpatient clinic in Kalmar.",
+      "Ambulatorio pubblico di riabilitazione neurologica a Kalmar.",
+      "Neurologiska rehabiliteringsmottagningen Kalmar",
+      "Hälsogränd 4",
+      "Kalmar"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-rehabiliteringsmottagningen-Kalmar",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurologiska rehabiliteringsmottagningen Kalmar | Hälsogränd 4 | Kalmar | rehab | rehabilitering | neurolog | neuro | stroke | hjärnskada",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "hjärnskada",
+        "hjarnskada",
+        "ryggmärgsskada",
+        "ryggmargsskada"
+      ],
+      "institution": []
+    },
+    "title": "Neurologiska rehabiliteringsmottagningen Kalmar - 1177"
+  },
+  {
+    "name": "Neurorehabilitering Västerbotten",
+    "country": "Sweden",
+    "city": "Umeå",
+    "region": "Västerbotten",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Neurorehabilitering-Vasterbotten",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 identifies Neurorehabilitering Västerbotten at Norrlands universitetssjukhus",
+      "Public university-hospital neurorehabilitation service",
+      "Regional specialist neurorehabilitation pathway",
+      "A public neurorehabilitation service at Norrlands University Hospital in Umeå.",
+      "Servizio pubblico di neuroriabilitazione presso il Norrlands universitetssjukhus di Umeå.",
+      "Neurorehabilitering Västerbotten",
+      "Norrlands universitetssjukhus",
+      "901 85 Umeå"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Neurorehabilitering-Vasterbotten",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurorehabilitering Västerbotten | Norrlands universitetssjukhus | 901 85 Umeå | neurorehabilitering | neurologisk rehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | ryggmargsskade",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitering",
+        "neurologisk rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "ryggmargsskade",
+        "ryggmargskader",
+        "hjärnskada",
+        "hjarnskada",
+        "ryggmärgsskada",
+        "ryggmargsskada"
+      ],
+      "institution": []
+    },
+    "title": "Neurorehabilitering V&#228;sterbotten - 1177"
+  },
+  {
+    "name": "Rehabiliteringsmedicin neuroteam Universitetssjukhuset Örebro",
+    "country": "Sweden",
+    "city": "Örebro",
+    "region": "Örebro",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-neuroteam-Universitetssjukhuset-Orebro-Orebro",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists a rehabilitation medicine neuroteam at Universitetssjukhuset Örebro",
+      "Public university-hospital rehabilitation medicine service",
+      "Associated 1177 record for rehabilitation medicine day hospital at USÖ",
+      "A public rehabilitation medicine neuroteam at Örebro University Hospital.",
+      "Neuroteam pubblico di medicina riabilitativa presso l’ospedale universitario di Örebro.",
+      "Rehabiliteringsmedicin neuroteam",
+      "Universitetssjukhuset Örebro",
+      "Örebro"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-neuroteam-Universitetssjukhuset-Orebro-Orebro",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Rehabiliteringsmedicin neuroteam | Universitetssjukhuset Örebro | Örebro | rehab | rehabilitering | neurolog | neuro | neurologiska sjukdomar",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "neurologiska sjukdomar"
+      ],
+      "institution": []
+    },
+    "title": "Rehabiliteringsmedicin neuroteam Universitetssjukhuset &#214;rebro, &#214;rebro - 1177"
+  },
+  {
+    "name": "Rehabiliteringsmedicin Orup Höör",
+    "country": "Sweden",
+    "city": "Höör",
+    "region": "Skåne",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinavdelning-neurorehab-trauma-Orup-Hoor",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card and related Orup records",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists a neurorehab trauma rehabilitation medicine ward at Orup Höör",
+      "Separate 1177 records cover brain-injury rehabilitation medicine and spinal-cord-injury rehabilitation medicine at Orup",
+      "Public Skåne specialist rehabilitation medicine service",
+      "A public rehabilitation medicine unit at Orup/Höör with neurotrauma, brain injury, and spinal cord injury pathways.",
+      "Unità pubblica di medicina riabilitativa a Orup/Höör con percorsi neurotrauma, danno cerebrale e lesione midollare.",
+      "Rehabiliteringsmedicinavdelning neurorehab trauma Orup Höör",
+      "hjärnskada Orup Höör",
+      "ryggmärgsskada Orup Höör",
+      "Sanatorievägen 34A"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinavdelning-neurorehab-trauma-Orup-Hoor",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Rehabiliteringsmedicinavdelning neurorehab trauma Orup Höör | Sanatorievägen 34A | rehab | rehabilitering | neuro | stroke | guillain-barre | guillain-barré",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neuro",
+        "stroke",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": []
+    },
+    "title": "Rehabiliteringsmedicinavdelning neurorehab trauma Orup H&#246;&#246;r - 1177"
+  },
+  {
+    "name": "Ryggmärgsskadeteam, Smärt- och rehabiliteringsmedicinska kliniken",
+    "country": "Sweden",
+    "city": "Linköping",
+    "region": "Östergötland",
+    "url": "https://www.1177.se/hitta-vard/kontaktkort/Ryggmargsskadeteam-Smart-och-Rehabiliteringsmedicinska-kliniken",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official 1177 contact card",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "1177 lists a spinal cord injury team at the pain and rehabilitation medicine clinic",
+      "Public university-hospital specialist service in Linköping",
+      "Explicit spinal-cord-injury rehabilitation medicine pathway",
+      "A public spinal cord injury team at Linköping University Hospital’s pain and rehabilitation medicine clinic.",
+      "Team pubblico per lesioni midollari presso la clinica di medicina del dolore e riabilitazione dell’ospedale universitario di Linköping.",
+      "Ryggmärgsskadeteam",
+      "Smärt- och rehabiliteringsmedicinska kliniken",
+      "Universitetssjukhuset, Linköping"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.1177.se/hitta-vard/kontaktkort/Ryggmargsskadeteam-Smart-och-Rehabiliteringsmedicinska-kliniken",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Ryggmärgsskadeteam | Smärt- och rehabiliteringsmedicinska kliniken | Universitetssjukhuset, Linköping | rehab | rehabilitering | ryggmargsskade | ryggmärgsskada | ryggmargsskada | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "ryggmargsskade",
+        "ryggmärgsskada",
+        "ryggmargsskada"
+      ],
+      "institution": [
+        "klinik"
+      ]
+    },
+    "title": "Ryggm&#228;rgsskadeteam, Sm&#228;rt- och rehabiliteringsmedicinska kliniken - 1177"
+  },
+  {
+    "name": "Valjeviken",
+    "country": "Sweden",
+    "city": "Sölvesborg",
+    "region": "Blekinge",
+    "url": "https://valjeviken.se/forvarvad-hjarnskada-profil",
+    "sourceType": "curated-dataset | sweden-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Valjeviken acquired brain injury profile",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official acquired brain injury profile",
+      "Official site states Valjeviken runs neurological rehabilitation",
+      "Team access includes physiotherapist, occupational therapist, counsellor and speech therapist",
+      "A Sölvesborg centre with an acquired brain injury profile and neurological rehabilitation supported by a multidisciplinary team.",
+      "Centro a Sölvesborg con profilo per danno cerebrale acquisito e riabilitazione neurologica, con team multiprofessionale.",
+      "Förvärvad hjärnskada",
+      "neurologisk rehabilitering",
+      "fysioterapeut",
+      "arbetsterapeut",
+      "kurator",
+      "logoped",
+      "Herrgårdsvägen 97"
+    ],
+    "status": 200,
+    "finalUrl": "https://valjeviken.se/forvarvad-hjarnskada-profil",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Förvärvad hjärnskada | neurologisk rehabilitering | fysioterapeut | arbetsterapeut | kurator | logoped | Herrgårdsvägen 97 | rehab | rehabilitering | neurolog | neuro | hjärnskada | hjarnskada",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologisk rehabilitering"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitering"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "hjärnskada",
+        "hjarnskada",
+        "förvärvad hjärnskada",
+        "forvarvad hjarnskada"
+      ],
+      "institution": []
+    },
+    "title": "Förvärvad hjärnskada - profil - Valjeviken"
   },
   {
     "name": "Balgrist University Hospital",

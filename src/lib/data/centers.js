@@ -3581,5 +3581,203 @@ export const centers = [
       it: 'Ospedale riabilitativo a Tromsø con percorsi per ictus, danno cerebrale acquisito, SM, Parkinson, Huntington, CP e disturbi neuromuscolari.',
       en: 'A Tromsø rehabilitation hospital with pathways for stroke, acquired brain injury, MS, Parkinson, Huntington, CP, and neuromuscular disorders.'
     }
+  },
+  {
+    id: 'aleris-rehab-station-stockholm',
+    name: 'Aleris Rehab Station',
+    country: 'Sweden',
+    city: 'Solna', region: 'Stockholm', lat: 59.3686, lng: 18.0284,
+    address: 'Frösundaviks allé 4A, 169 89 Stockholm', phone: '+46 8 555 44 000',
+    url: 'https://www.aleris.se/mottagningar/stockholm/rehab-station/',
+    conditions: ['stroke', 'spinal', 'ms', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Medicinsk rehabilitering', 'Fysioterapi', 'Arbetsterapi', 'Logopedi', 'Omvårdnad', 'Forskning'],
+    completeness: 86,
+    researchHighlights: ['National and international rehabilitation centre on the official site', 'Official page covers acquired and congenital spinal cord injuries, neurological injuries and diseases, stroke and MS', 'Provides specialist care on behalf of Region Stockholm'],
+    features: ['spinal-cord', 'ms-specialist', 'research'],
+    description: {
+      it: 'Centro svedese a Solna per riabilitazione medica specialistica, con percorsi per lesioni midollari, ictus, SM e altre condizioni neurologiche.',
+      en: 'A Swedish specialist medical rehabilitation centre in Solna, covering spinal cord injury, stroke, MS, and other neurological conditions.'
+    }
+  },
+  {
+    id: 'malargarden-rehab-center-sigtuna',
+    name: 'Mälargården Rehab Center',
+    country: 'Sweden',
+    city: 'Sigtuna', region: 'Stockholm', lat: 59.6200, lng: 17.6920,
+    address: 'Hertigvägen 5, 193 21 Sigtuna', phone: '+46 8 594 936 30',
+    url: 'https://www.malargarden.se/',
+    conditions: ['stroke', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'private', 'insurance'],
+    disciplines: ['Rehabilitering', 'Fysioterapi', 'Arbetsterapi', 'Omvårdnad', 'Läkare', 'Rehabiliteringsteam'],
+    completeness: 85,
+    researchHighlights: ['Official site describes specialised rehabilitation in neurology and oncology', 'Official programme links include stroke, Parkinson, MS and post-polio rehabilitation', 'Planned specialised rehabilitation can be financed by county council referral'],
+    features: ['ms-specialist', 'parkinson'],
+    description: {
+      it: 'Centro di riabilitazione specialistica a Sigtuna con programmi ufficiali per neurologia, ictus, Parkinson, SM e post-polio.',
+      en: 'A specialist rehabilitation centre in Sigtuna with official neurology, stroke, Parkinson, MS, and post-polio programmes.'
+    }
+  },
+  {
+    id: 'valjeviken-solvesborg',
+    name: 'Valjeviken',
+    country: 'Sweden',
+    city: 'Sölvesborg', region: 'Blekinge', lat: 56.0486, lng: 14.5553,
+    address: 'Herrgårdsvägen 97, 294 37 Sölvesborg', phone: '+46 456 151 15',
+    url: 'https://valjeviken.se/forvarvad-hjarnskada-profil/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'private'],
+    disciplines: ['Neurologisk rehabilitering', 'Fysioterapi', 'Arbetsterapi', 'Kurator', 'Logopedi', 'Rehabiliteringsteam'],
+    completeness: 81,
+    researchHighlights: ['Official acquired brain injury profile', 'Official site states Valjeviken runs neurological rehabilitation', 'Team access includes physiotherapist, occupational therapist, counsellor and speech therapist'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Centro a Sölvesborg con profilo per danno cerebrale acquisito e riabilitazione neurologica, con team multiprofessionale.',
+      en: 'A Sölvesborg centre with an acquired brain injury profile and neurological rehabilitation supported by a multidisciplinary team.'
+    }
+  },
+  {
+    id: 'bragee-neurological-rehab-stockholm',
+    name: 'Bragée Neurologisk rehabilitering',
+    country: 'Sweden',
+    city: 'Stockholm', region: 'Stockholm', lat: 59.3361, lng: 18.0962,
+    address: 'Karlavägen 100, 115 26 Stockholm', phone: '+46 8 425 035 00',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Bragee-Neurologisk-rehabilitering-Ostermalm/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient', 'day-hospital'], access: ['public', 'private'],
+    disciplines: ['Läkare', 'Fysioterapi', 'Psykologi', 'Sjuksköterska', 'Logopedi', 'Dietist'],
+    completeness: 84,
+    researchHighlights: ['1177 lists neurological rehabilitation and stroke rehabilitation care types', 'Care is provided on behalf of Region Stockholm', 'Team includes physicians, physiotherapists, psychologists, nurses, speech therapist and dietitian'],
+    features: ['stroke', 'parkinson'],
+    description: {
+      it: 'Unità di riabilitazione neurologica a Stoccolma con day rehab e team multidisciplinare, attiva su incarico della Regione Stockholm.',
+      en: 'A Stockholm neurological rehabilitation unit with day rehabilitation and a multidisciplinary team, operating on behalf of Region Stockholm.'
+    }
+  },
+  {
+    id: 'stora-skondal-neurological-rehab',
+    name: 'Neurologiska Rehabiliteringskliniken Stiftelsen Stora Sköndal',
+    country: 'Sweden',
+    city: 'Stockholm', region: 'Stockholm', lat: 59.2532, lng: 18.1283,
+    address: 'Efraim Dahlins väg 5, 128 64 Sköndal', phone: '+46 8 400 291 00',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-Rehabiliteringskliniken-Stiftelsen-Stora-Skondal/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'day-hospital'], access: ['public', 'private'],
+    disciplines: ['Neurologisk rehabilitering', 'Rehabiliteringsteam', 'Heldygnsrehabilitering', 'Dagrehabilitering'],
+    completeness: 88,
+    researchHighlights: ['1177 says the clinic offers specialised neurological rehabilitation for nervous-system diseases and injuries', 'Programmes include stroke, Parkinson, epilepsy, MS, cervical dystonia and acquired brain injury', 'Offers inpatient and day rehabilitation'],
+    features: ['brain-injury', 'ms-specialist', 'parkinson'],
+    description: {
+      it: 'Clinica neurologica di Stora Sköndal con riabilitazione residenziale e diurna per ictus, Parkinson, SM e danno cerebrale acquisito.',
+      en: 'Stora Sköndal neurological clinic offering inpatient and day rehabilitation for stroke, Parkinson, MS, and acquired brain injury.'
+    }
+  },
+  {
+    id: 'neurorehabilitering-vasterbotten-umea',
+    name: 'Neurorehabilitering Västerbotten',
+    country: 'Sweden',
+    city: 'Umeå', region: 'Västerbotten', lat: 63.8154, lng: 20.2993,
+    address: 'Norrlands universitetssjukhus, 901 85 Umeå', phone: '+46 90 785 18 91',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Neurorehabilitering-Vasterbotten/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitering', 'Rehabiliteringsmedicin', 'Sjukhusvård', 'Rehabiliteringsteam'],
+    completeness: 78,
+    researchHighlights: ['1177 identifies Neurorehabilitering Västerbotten at Norrlands universitetssjukhus', 'Public university-hospital neurorehabilitation service', 'Regional specialist neurorehabilitation pathway'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Servizio pubblico di neuroriabilitazione presso il Norrlands universitetssjukhus di Umeå.',
+      en: 'A public neurorehabilitation service at Norrlands University Hospital in Umeå.'
+    }
+  },
+  {
+    id: 'rehabmedicin-orup-hoor',
+    name: 'Rehabiliteringsmedicin Orup Höör',
+    country: 'Sweden',
+    city: 'Höör', region: 'Skåne', lat: 55.9091, lng: 13.5285,
+    address: 'Sanatorievägen 34A, 243 95 Höör', phone: '+46 413 556 670',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicinavdelning-neurorehab-trauma-Orup-Hoor/',
+    conditions: ['tbi', 'spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Neurorehab trauma', 'Hjärnskaderehabilitering', 'Ryggmärgsskada'],
+    completeness: 86,
+    researchHighlights: ['1177 lists a neurorehab trauma rehabilitation medicine ward at Orup Höör', 'Separate 1177 records cover brain-injury rehabilitation medicine and spinal-cord-injury rehabilitation medicine at Orup', 'Public Skåne specialist rehabilitation medicine service'],
+    features: ['brain-injury', 'spinal-cord'],
+    description: {
+      it: 'Unità pubblica di medicina riabilitativa a Orup/Höör con percorsi neurotrauma, danno cerebrale e lesione midollare.',
+      en: 'A public rehabilitation medicine unit at Orup/Höör with neurotrauma, brain injury, and spinal cord injury pathways.'
+    }
+  },
+  {
+    id: 'danderyd-brain-injury-rehab',
+    name: 'Hjärnskaderehabilitering Danderyds sjukhus',
+    country: 'Sweden',
+    city: 'Danderyd', region: 'Stockholm', lat: 59.3907, lng: 18.0407,
+    address: 'Entrévägen 6, 182 88 Danderyd', phone: '+46 8 123 567 82',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Hjarnskaderehabilitering-mottagning-Danderyd-Danderyds-sjukhus/',
+    conditions: ['tbi', 'stroke', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Hjärnskaderehabilitering', 'Rehabiliteringsmedicin', 'Dagvård', 'Konsultteam'],
+    completeness: 83,
+    researchHighlights: ['1177 lists Danderyd brain-injury rehabilitation outpatient, day-care and consultation-team services', 'Specialised hospital brain-injury rehabilitation service', 'Includes Danderyd and Huddinge brain-injury rehabilitation locations'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Servizio specialistico di Danderyds sjukhus per riabilitazione del danno cerebrale, con ambulatorio, day care e team consulenziale.',
+      en: 'A Danderyd Hospital specialist brain-injury rehabilitation service with outpatient, day-care, and consultation-team pathways.'
+    }
+  },
+  {
+    id: 'uso-rehabmedicin-neuroteam-orebro',
+    name: 'Rehabiliteringsmedicin neuroteam Universitetssjukhuset Örebro',
+    country: 'Sweden',
+    city: 'Örebro', region: 'Örebro', lat: 59.2762, lng: 15.2290,
+    address: 'Universitetssjukhuset Örebro, Södra Grev Rosengatan, 701 85 Örebro', phone: '+46 19 602 11 98',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Rehabiliteringsmedicin-neuroteam-Universitetssjukhuset-Orebro-Orebro/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient', 'day-hospital'], access: ['public'],
+    disciplines: ['Rehabiliteringsmedicin', 'Neuroteam', 'Dagsjukvård', 'Sjukhusvård'],
+    completeness: 79,
+    researchHighlights: ['1177 lists a rehabilitation medicine neuroteam at Universitetssjukhuset Örebro', 'Public university-hospital rehabilitation medicine service', 'Associated 1177 record for rehabilitation medicine day hospital at USÖ'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Neuroteam pubblico di medicina riabilitativa presso l’ospedale universitario di Örebro.',
+      en: 'A public rehabilitation medicine neuroteam at Örebro University Hospital.'
+    }
+  },
+  {
+    id: 'kalmar-neurological-rehab-clinic',
+    name: 'Neurologiska rehabiliteringsmottagningen Kalmar',
+    country: 'Sweden',
+    city: 'Kalmar', region: 'Kalmar', lat: 56.6581, lng: 16.3293,
+    address: 'Hälsogränd 4, 392 34 Kalmar', phone: '+46 10 358 43 20',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Neurologiska-rehabiliteringsmottagningen-Kalmar/',
+    conditions: ['stroke', 'tbi', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Neurologisk rehabilitering', 'Rehabiliteringsmottagning', 'Sjukhusvård'],
+    completeness: 76,
+    researchHighlights: ['1177 lists Neurologiska rehabiliteringsmottagningen Kalmar', 'Public neurological rehabilitation outpatient clinic', 'Regional specialist neurorehabilitation service'],
+    features: ['brain-injury'],
+    description: {
+      it: 'Ambulatorio pubblico di riabilitazione neurologica a Kalmar.',
+      en: 'A public neurological rehabilitation outpatient clinic in Kalmar.'
+    }
+  },
+  {
+    id: 'linkoping-spinal-cord-injury-team',
+    name: 'Ryggmärgsskadeteam, Smärt- och rehabiliteringsmedicinska kliniken',
+    country: 'Sweden',
+    city: 'Linköping', region: 'Östergötland', lat: 58.4002, lng: 15.6201,
+    address: 'Universitetssjukhuset, 581 85 Linköping', phone: '+46 10 105 97 87',
+    url: 'https://www.1177.se/hitta-vard/kontaktkort/Ryggmargsskadeteam-Smart-och-Rehabiliteringsmedicinska-kliniken/',
+    conditions: ['spinal', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public'],
+    disciplines: ['Ryggmärgsskadeteam', 'Rehabiliteringsmedicin', 'Smärt- och rehabiliteringsmedicin'],
+    completeness: 77,
+    researchHighlights: ['1177 lists a spinal cord injury team at the pain and rehabilitation medicine clinic', 'Public university-hospital specialist service in Linköping', 'Explicit spinal-cord-injury rehabilitation medicine pathway'],
+    features: ['spinal-cord'],
+    description: {
+      it: 'Team pubblico per lesioni midollari presso la clinica di medicina del dolore e riabilitazione dell’ospedale universitario di Linköping.',
+      en: 'A public spinal cord injury team at Linköping University Hospital’s pain and rehabilitation medicine clinic.'
+    }
   }
 ];
