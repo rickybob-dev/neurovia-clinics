@@ -1810,6 +1810,126 @@
       "sourceType": "sweden-second-pass-official-seed",
       "discoverySource": "official 1177 contact card",
       "needles": ["Rehabiliteringsmedicin Öppenvård Falun", "Neurologi", "Strokevård", "hjärnskador", "neurologiska skador eller sjukdomar", "team"]
+    },
+    {
+      "country": "Austria",
+      "name": "Rehaklinik Enns",
+      "city": "Enns",
+      "region": "Upper Austria",
+      "url": "https://www.rehaklinikenns.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official VITREA clinic site",
+      "needles": ["Rehaklinik Enns", "Neurologie", "neurologischen", "MS Zentrum", "multiprofessionelles Team"]
+    },
+    {
+      "country": "Austria",
+      "name": "Rehaklinik Gmundnerberg",
+      "city": "Altmünster",
+      "region": "Upper Austria",
+      "url": "https://www.reha-gmundnerberg.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official VITREA clinic site",
+      "needles": ["Rehaklinik Gmundnerberg", "Neurologie", "führenden Rehabilitationseinrichtungen", "neurologische Patientinnen und Patienten", "multiprofessionelles Team"]
+    },
+    {
+      "country": "Austria",
+      "name": "Neurologisches Therapiezentrum Kapfenberg",
+      "city": "Kapfenberg",
+      "region": "Styria",
+      "url": "https://www.ntk.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official special hospital site",
+      "needles": ["Neurologisches Therapiezentrum Kapfenberg", "neurologische Akutnachbehandlung", "Stationäres Angebot", "Neurologische Bestellambulanz", "Ambulatorium für neurologische Spezialtherapie"]
+    },
+    {
+      "country": "Austria",
+      "name": "Neurologisches Rehabilitationszentrum Rosenhügel",
+      "city": "Vienna",
+      "region": "Vienna",
+      "url": "https://www.nrz.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official neurological rehabilitation center site",
+      "needles": ["NRZ Rosenhügel", "neurologische und neuropsychologische Rehabilitation", "147 Betten", "30 ambulante Therapieplätze", "Stationäre Rehabilitation"]
+    },
+    {
+      "country": "Austria",
+      "name": "Rehaklinik Montafon",
+      "city": "Schruns",
+      "region": "Vorarlberg",
+      "url": "https://www.rehaklinik-montafon.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official VITREA clinic site",
+      "needles": ["Reha-Klinik Montafon", "neurologische-neurochirurgische Rehabilitation", "Neurologie und Neurochirurgie", "215 Betten", "medizinisch-therapeutischer"]
+    },
+    {
+      "country": "Austria",
+      "name": "Gailtal-Klinik",
+      "city": "Hermagor",
+      "region": "Carinthia",
+      "url": "https://www.gailtal-klinik.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official KABEG public hospital site",
+      "needles": ["Gailtal-Klinik", "Neurorehabilitationsangebot", "Neurologische Rehabilitation", "Neuropsychologie", "Ergotherapie", "Physiotherapie", "Logopädie"]
+    },
+    {
+      "country": "Austria",
+      "name": "OptimaMed Neurologisches Rehabilitationszentrum Kittsee",
+      "city": "Kittsee",
+      "region": "Burgenland",
+      "url": "https://www.neuroreha-kittsee.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official OptimaMed neurological rehabilitation center site",
+      "needles": ["Neurologisches Rehazentrum Kittsee", "Kompetenzzentrum für Neurologie und Neurorehabilitation", "wirkungsorientierte Neurorehabilitation", "Schlaganfall", "Schädel-Hirn-Traumata", "Multiple Sklerose"]
+    },
+    {
+      "country": "Austria",
+      "name": "VITREA Rehaklinik Kitzbühel",
+      "city": "Kitzbühel",
+      "region": "Tyrol",
+      "url": "https://www.reha-kitz.at/",
+      "sourceType": "austria-first-pass-official-seed",
+      "discoverySource": "official VITREA clinic site",
+      "needles": ["Rehaklinik Kitzbühel", "Neurochirurgische Reha", "Neurologische Rehabilitation", "Schlaganfall", "neurologischen Erkrankung", "Operation am Nervensystem"]
+    },
+    {
+      "country": "Austria",
+      "name": "OptimaMed Ambulantes Rehabilitationszentrum Klagenfurt",
+      "city": "Klagenfurt",
+      "region": "Carinthia",
+      "url": "https://www.rehazentrum-klagenfurt.at/",
+      "sourceType": "austria-second-pass-official-seed",
+      "discoverySource": "official OptimaMed ambulatory rehabilitation site",
+      "needles": ["Ambulantes Rehazentrum Klagenfurt", "Neurologische Rehabilitation", "Neurologie", "Phase 2", "Phase 3", "ambulanten Rehabilitation"]
+    },
+    {
+      "country": "Austria",
+      "name": "OptimaMed Ambulantes Rehabilitationszentrum Wiener Neustadt",
+      "city": "Wiener Neustadt",
+      "region": "Lower Austria",
+      "url": "https://www.reha-wn.at/",
+      "sourceType": "austria-second-pass-official-seed",
+      "discoverySource": "official OptimaMed ambulatory rehabilitation site",
+      "needles": ["Ambulantes Rehazentrum Wiener Neustadt", "Neurologische Rehabilitation", "Neurologie", "Phase 2", "Phase 3", "ambulanten Rehabilitation"]
+    },
+    {
+      "country": "Austria",
+      "name": "VITREA Rehazentrum Innsbruck",
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "url": "https://www.vitrea-arz-innsbruck.at/",
+      "sourceType": "austria-second-pass-official-seed",
+      "discoverySource": "official VITREA ambulatory rehabilitation site",
+      "needles": ["VITREA Rehazentrum Innsbruck", "Neurologische Rehabilitation", "Erkrankungen des zentralen und peripheren Nervensystems", "Reha-Phasen 2 und 3", "ambulante Rehabilitation"]
+    },
+    {
+      "country": "Austria",
+      "name": "VITREA Rehazentrum Wörgl",
+      "city": "Wörgl",
+      "region": "Tyrol",
+      "url": "https://www.ambulante-reha-woergl.at/",
+      "sourceType": "austria-second-pass-official-seed",
+      "discoverySource": "official VITREA ambulatory rehabilitation site",
+      "needles": ["VITREA Rehazentrum Wörgl", "Neurologische Rehabilitation", "Erkrankungen des zentralen und peripheren Nervensystems", "ambulante Rehabilitation", "PVA", "ÖGK"]
     }
   ],
   "searchResults": [],

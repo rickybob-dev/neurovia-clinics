@@ -3977,5 +3977,221 @@ export const centers = [
       it: 'Ambulatorio pubblico di medicina riabilitativa a Falun per danni cerebrali e altre lesioni o malattie neurologiche.',
       en: 'A public Falun rehabilitation medicine outpatient service for brain injuries and other neurological injuries or diseases.'
     }
+  },
+  {
+    id: 'rehaklinik-enns',
+    name: 'Rehaklinik Enns',
+    country: 'Austria',
+    city: 'Enns', region: 'Upper Austria', lat: 48.2139, lng: 14.4760,
+    address: 'Bahnhofweg 7, 4470 Enns', phone: '+43 7223 82828',
+    url: 'https://www.rehaklinikenns.at/',
+    conditions: ['stroke', 'ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitationsmedizin', 'Physiotherapie', 'Ergotherapie', 'Logopädie', 'Pflege'],
+    completeness: 86,
+    researchHighlights: ['Official VITREA site lists Neurologie as a stationaere Reha indication', 'Home page says the clinic treats people with neurological or pneumological diseases', 'Official page identifies the site as an MS Zentrum'],
+    features: ['ms-center', 'inpatient-neurorehab'],
+    description: {
+      it: 'Clinica VITREA di riabilitazione a Enns per pazienti con patologie neurologiche, inclusa competenza MS, con team multiprofessionale.',
+      en: 'A VITREA rehabilitation clinic in Enns for neurological conditions, including MS expertise, with a multidisciplinary team.'
+    }
+  },
+  {
+    id: 'rehaklinik-gmundnerberg',
+    name: 'Rehaklinik Gmundnerberg',
+    country: 'Austria',
+    city: 'Altmünster', region: 'Upper Austria', lat: 47.9025, lng: 13.7544,
+    address: 'Gmundnerberg 82, 4813 Altmünster', phone: '+43 7612 88000',
+    url: 'https://www.reha-gmundnerberg.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Rehabilitationsmedizin', 'Physiotherapie', 'Ergotherapie', 'Logopädie', 'Neuropsychologie'],
+    completeness: 88,
+    researchHighlights: ['Official VITREA page lists Neurologie as the rehabilitation indication', 'The site describes Gmundnerberg as one of Austria\'s leading rehabilitation facilities for neurological patients', 'Multiprofessional medical, therapy and nursing team is stated on the official page'],
+    features: ['inpatient-neurorehab'],
+    description: {
+      it: 'Centro VITREA di riabilitazione neurologica sul Gmundnerberg per pazienti neurologici in regime di degenza.',
+      en: 'A VITREA neurological inpatient rehabilitation center on the Gmundnerberg for neurological patients.'
+    }
+  },
+  {
+    id: 'neurologisches-therapiezentrum-kapfenberg',
+    name: 'Neurologisches Therapiezentrum Kapfenberg',
+    country: 'Austria',
+    city: 'Kapfenberg', region: 'Styria', lat: 47.4440, lng: 15.2933,
+    address: 'Anton-Buchalka-Straße 1, 8605 Kapfenberg', phone: '+43 3862 2900',
+    url: 'https://www.ntk.at/',
+    conditions: ['stroke', 'tbi', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologie', 'Neurologische Akutnachbehandlung', 'Physiotherapie', 'Ergotherapie', 'Logopädie', 'Neuropsychologie'],
+    completeness: 89,
+    researchHighlights: ['Official page calls NTK the only public special hospital for neurological acute follow-up treatment in Upper Styria', 'Stationary and ambulatory neurological services are both listed', 'Official site lists neurological specialist therapy and neurological outpatient clinic services'],
+    features: ['acute-follow-up', 'public-special-hospital'],
+    description: {
+      it: 'Sonderkrankenanstalt pubblica in Alta Stiria per post-trattamento neurologico acuto, con offerte stazionarie e ambulatoriali.',
+      en: 'A public special hospital in Upper Styria for neurological acute follow-up treatment, with inpatient and outpatient services.'
+    }
+  },
+  {
+    id: 'nrz-rosenhuegel-wien',
+    name: 'Neurologisches Rehabilitationszentrum Rosenhügel',
+    country: 'Austria',
+    city: 'Vienna', region: 'Vienna', lat: 48.1676, lng: 16.2830,
+    address: 'Rosenhügelstraße 192a, 1130 Wien', phone: '+43 1 880 320',
+    url: 'https://www.nrz.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'day-hospital', 'outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Neuropsychologie', 'Physiotherapie', 'Ergotherapie', 'Logopädie', 'Pflege'],
+    completeness: 91,
+    researchHighlights: ['Official NRZ page describes Rosenhügel as a competence center for neurological and neuropsychological rehabilitation', 'The center lists 147 beds and 30 ambulatory therapy places', 'Stationary and teil-stationary rehabilitation are both official service lines'],
+    features: ['neuropsychology', 'inpatient-neurorehab', 'day-rehab'],
+    description: {
+      it: 'Centro neurologico e neuropsicologico di riabilitazione a Vienna con degenza, day rehab e posti ambulatoriali.',
+      en: 'A neurological and neuropsychological rehabilitation center in Vienna with inpatient, day rehabilitation and outpatient capacity.'
+    }
+  },
+  {
+    id: 'rehaklinik-montafon',
+    name: 'Rehaklinik Montafon',
+    country: 'Austria',
+    city: 'Schruns', region: 'Vorarlberg', lat: 47.0801, lng: 9.9206,
+    address: 'Wagenweg 4a, 6780 Schruns', phone: '+43 5556 205',
+    url: 'https://www.rehaklinik-montafon.at/',
+    conditions: ['stroke', 'tbi', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Neurologie', 'Neurochirurgie', 'Rehabilitationsmedizin', 'Physiotherapie', 'Ergotherapie', 'Logopädie'],
+    completeness: 84,
+    researchHighlights: ['Official page lists neurologische-neurochirurgische Rehabilitation as a clinical focus', 'The clinic reports 215 beds and more than 175 employees', 'VITREA page positions Montafon as a multi-indication rehabilitation clinic rather than a generic therapy center'],
+    features: ['neurochirurgical-rehab', 'inpatient-rehab'],
+    description: {
+      it: 'Clinica riabilitativa VITREA nel Montafon con percorso neurologico-neurochirurgico in degenza.',
+      en: 'A VITREA rehabilitation clinic in Montafon with an inpatient neurological and neurosurgical rehabilitation pathway.'
+    }
+  },
+  {
+    id: 'gailtal-klinik-hermagor',
+    name: 'Gailtal-Klinik',
+    country: 'Austria',
+    city: 'Hermagor', region: 'Carinthia', lat: 46.6301, lng: 13.3666,
+    address: 'Radniger Straße 12, 9620 Hermagor', phone: '+43 4282 2220',
+    url: 'https://www.gailtal-klinik.at/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitation', 'Neuropsychologie', 'Physiotherapie', 'Ergotherapie', 'Logopädie', 'Pflege'],
+    completeness: 89,
+    researchHighlights: ['KABEG official site describes a comprehensive Neurorehabilitationsangebot', 'Official navigation includes Neurologische Rehabilitation, Neuropsychologie, Ergotherapie, Physiotherapie and Logopädie', 'Public Carinthian hospital provider page gives direct contact details and address'],
+    features: ['public-hospital', 'neuropsychology', 'inpatient-neurorehab'],
+    description: {
+      it: 'Clinica pubblica KABEG a Hermagor con offerta completa di neurorehabilitation e servizi neuropsicologici, fisio, ergo e logopedia.',
+      en: 'A public KABEG clinic in Hermagor with a comprehensive neurorehabilitation offer and neuropsychology, physiotherapy, occupational therapy and speech therapy.'
+    }
+  },
+  {
+    id: 'optimamed-nrz-kittsee',
+    name: 'OptimaMed Neurologisches Rehabilitationszentrum Kittsee',
+    country: 'Austria',
+    city: 'Kittsee', region: 'Burgenland', lat: 48.0926, lng: 17.0644,
+    address: 'Spitalgasse 1, 2421 Kittsee', phone: '+43 2143 30100',
+    url: 'https://www.neuroreha-kittsee.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Neurologie', 'Neurorehabilitation', 'Rehabilitationsmedizin', 'Therapie', 'Pflege'],
+    completeness: 88,
+    researchHighlights: ['Official page calls Kittsee a competence center for Neurologie and Neurorehabilitation', 'OptimaMed location directory lists Schlaganfall, Schädel-Hirn-Traumata and Multiple Sklerose for the center', 'Official page describes wirkungsorientierte Neurorehabilitation in Burgenland'],
+    features: ['inpatient-neurorehab', 'brain-injury', 'ms'],
+    description: {
+      it: 'Centro OptimaMed nel Burgenland dedicato a neurologia e neurorehabilitation, con indicazioni tra cui ictus, trauma cranico e sclerosi multipla.',
+      en: 'An OptimaMed center in Burgenland dedicated to neurology and neurorehabilitation, including stroke, brain injury and multiple sclerosis indications.'
+    }
+  },
+  {
+    id: 'rehaklinik-kitzbuehel',
+    name: 'VITREA Rehaklinik Kitzbühel',
+    country: 'Austria',
+    city: 'Kitzbühel', region: 'Tyrol', lat: 47.4508, lng: 12.3937,
+    address: 'Hornweg 32, 6370 Kitzbühel', phone: '+43 5356 670670',
+    url: 'https://www.reha-kitz.at/',
+    conditions: ['stroke', 'tbi', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public', 'insurance', 'private'],
+    disciplines: ['Neurologische Rehabilitation', 'Neurochirurgische Rehabilitation', 'Physiotherapie', 'Ergotherapie', 'Pflege'],
+    completeness: 78,
+    researchHighlights: ['Official VITREA site lists neurochirurgische Reha and describes neurological rehabilitation after stroke, neurological disease or nervous-system surgery', 'Stationary rehabilitation and ambulatory therapy are both available', 'Included with lower completeness because the clinic is mixed orthopaedic and neurochirurgical rather than neuro-only'],
+    features: ['neurochirurgical-rehab'],
+    description: {
+      it: 'Clinica VITREA mista a Kitzbühel con percorso neurologico-neurochirurgico, inclusa riabilitazione dopo ictus o chirurgia del sistema nervoso.',
+      en: 'A mixed VITREA clinic in Kitzbühel with a neurological and neurosurgical rehabilitation pathway, including rehabilitation after stroke or nervous-system surgery.'
+    }
+  },
+  {
+    id: 'optimamed-arz-klagenfurt',
+    name: 'OptimaMed Ambulantes Rehabilitationszentrum Klagenfurt',
+    country: 'Austria',
+    city: 'Klagenfurt', region: 'Carinthia', lat: 46.6247, lng: 14.3095,
+    address: '8.-Mai-Straße 3, 9020 Klagenfurt', phone: '+43 463 908013',
+    url: 'https://www.rehazentrum-klagenfurt.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Ambulante Rehabilitation', 'Physiotherapie', 'Ergotherapie', 'Trainingstherapie'],
+    completeness: 80,
+    researchHighlights: ['Official page lists neurologische Rehabilitation among seven ambulatory indications', 'The center provides phase 2 after hospital care and phase 3 after inpatient or outpatient rehabilitation', 'OptimaMed page gives a central Klagenfurt outpatient rehab address and insurer-oriented access'],
+    features: ['phase-2', 'phase-3', 'outpatient-neurorehab'],
+    description: {
+      it: 'Centro ambulatoriale OptimaMed a Klagenfurt con riabilitazione neurologica nelle fasi 2 e 3.',
+      en: 'An OptimaMed outpatient rehabilitation center in Klagenfurt offering neurological rehabilitation in phases 2 and 3.'
+    }
+  },
+  {
+    id: 'optimamed-arz-wiener-neustadt',
+    name: 'OptimaMed Ambulantes Rehabilitationszentrum Wiener Neustadt',
+    country: 'Austria',
+    city: 'Wiener Neustadt', region: 'Lower Austria', lat: 47.8130, lng: 16.2430,
+    address: 'Sparkassengasse 1, 2700 Wiener Neustadt', phone: '+43 2622 90990',
+    url: 'https://www.reha-wn.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Ambulante Rehabilitation', 'Physiotherapie', 'Ergotherapie', 'Trainingstherapie'],
+    completeness: 80,
+    researchHighlights: ['Official page lists neurologische Rehabilitation among seven ambulatory indications', 'The center describes phase 2 rehabilitation after hospital stay and phase 3 follow-up rehabilitation', 'OptimaMed official page provides direct address and contact data'],
+    features: ['phase-2', 'phase-3', 'outpatient-neurorehab'],
+    description: {
+      it: 'Centro ambulatoriale OptimaMed a Wiener Neustadt con indicazione neurologica e programmi di riabilitazione fase 2 e 3.',
+      en: 'An OptimaMed outpatient center in Wiener Neustadt with neurological rehabilitation and phase 2 and 3 programs.'
+    }
+  },
+  {
+    id: 'vitrea-rehazentrum-innsbruck',
+    name: 'VITREA Rehazentrum Innsbruck',
+    country: 'Austria',
+    city: 'Innsbruck', region: 'Tyrol', lat: 47.2692, lng: 11.4041,
+    address: 'Neuhauserstraße 5, 6020 Innsbruck', phone: '+43 512 3095950',
+    url: 'https://www.vitrea-arz-innsbruck.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Ambulante Rehabilitation', 'Therapie', 'Rehabilitationsmedizin'],
+    completeness: 79,
+    researchHighlights: ['Official VITREA page lists neurologische Rehabilitation and Erkrankungen des zentralen und peripheren Nervensystems', 'The center states ambulatory rehabilitation in reha phases 2 and 3', 'Official page lists seven medical disciplines and direct Innsbruck contact data'],
+    features: ['phase-2', 'phase-3', 'outpatient-neurorehab'],
+    description: {
+      it: 'Centro VITREA di riabilitazione ambulatoriale a Innsbruck, incluso percorso neurologico per patologie del sistema nervoso centrale e periferico.',
+      en: 'A VITREA outpatient rehabilitation center in Innsbruck, including neurological rehabilitation for central and peripheral nervous-system conditions.'
+    }
+  },
+  {
+    id: 'vitrea-rehazentrum-woergl',
+    name: 'VITREA Rehazentrum Wörgl',
+    country: 'Austria',
+    city: 'Wörgl', region: 'Tyrol', lat: 47.4892, lng: 12.0620,
+    address: 'Innsbrucker Straße 9, 6300 Wörgl', phone: '+43 5332 20830300',
+    url: 'https://www.ambulante-reha-woergl.at/',
+    conditions: ['stroke', 'tbi', 'ms', 'parkinson', 'neuromotor'],
+    technologies: [], modes: ['outpatient'], access: ['public', 'insurance'],
+    disciplines: ['Neurologische Rehabilitation', 'Ambulante Rehabilitation', 'Therapie', 'Rehabilitationsmedizin'],
+    completeness: 79,
+    researchHighlights: ['Official VITREA page lists neurologische Rehabilitation as a service line', 'The Wörgl page lists diseases of the central and peripheral nervous system among supported indications', 'Official page states contracts with PVA, BVAEB, ÖGK, KUF and SVS'],
+    features: ['outpatient-neurorehab'],
+    description: {
+      it: 'Centro VITREA di riabilitazione ambulatoriale a Wörgl con offerta neurologica per patologie del sistema nervoso.',
+      en: 'A VITREA outpatient rehabilitation center in Wörgl with a neurological pathway for nervous-system conditions.'
+    }
   }
 ];
