@@ -3523,6 +3523,56 @@
     ]
   },
   {
+    "name": "Centre National de Rééducation Fonctionnelle et de Réadaptation Rehazenter",
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "region": "Luxembourg District",
+    "url": "https://www.rehazenter.lu/fr",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | luxembourg-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Rehazenter neurological rehabilitation programme and annual report",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Rehazenter information identifies dedicated neurological and trauma-orthopaedic rehabilitation units, with both inpatient rooms and ambulatory activity",
+      "Its official 2024 annual report describes neurological rehabilitation for severe stroke sequelae, severe traumatic brain injury, disorders of consciousness and spinal cord injury",
+      "The annual report lists neurological rehabilitation stays for stroke, spinal cord injury, Parkinson disease, multiple sclerosis, myopathy, Guillain-Barre syndrome and severe brain injury",
+      "Luxembourg’s public national rehabilitation centre, with neurological rehabilitation for stroke, brain injury, spinal cord injury, Parkinson disease and multiple sclerosis.",
+      "Centro nazionale pubblico di riabilitazione del Lussemburgo con unità di riabilitazione neurologica per ictus, trauma cranico, lesione midollare, Parkinson e sclerosi multipla.",
+      "pôles de rééducation neurologique",
+      "Rééducation neurologique",
+      "accidents vasculaires cérébraux",
+      "traumatismes crâniens",
+      "lésions médullaires",
+      "Scléroses en plaques"
+    ]
+  },
+  {
+    "name": "Hôpitaux Robert Schuman Service de Rééducation Gériatrique et Neurologique",
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "region": "Luxembourg District",
+    "url": "https://www.hopitauxschuman.lu/fr/accessibilite/accessibilite-brochure-prise-en-charge-des-avc-aux-hopitaux-robert-schuman",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | luxembourg-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Hôpitaux Robert Schuman stroke-care and geriatric neurological rehabilitation brochure",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Hôpitaux Robert Schuman stroke-care brochure describes an inpatient geriatric/neurological rehabilitation unit at the ZithaKlinik site",
+      "The official eligibility description includes functional loss after stroke and advanced degenerative disease",
+      "Official programme information describes personalised functional rehabilitation delivered by rehabilitation physicians, nursing staff, physiotherapists, occupational therapists, psychologists and dietitians, with motor and speech rehabilitation",
+      "A public Luxembourg hospital service providing geriatric and neurological rehabilitation, including after stroke and advanced degenerative disease.",
+      "Servizio ospedaliero pubblico a Lussemburgo per riabilitazione geriatrica e neurologica, incluso post-ictus e malattie degenerative avanzate.",
+      "rééducation gériatrique/neurologique",
+      "accident vasculaire cérébral",
+      "maladie dégénérative avancée",
+      "programme personnalisé de rééducation fonctionnelle",
+      "kinésithérapeutes",
+      "ergothérapeutes"
+    ]
+  },
+  {
     "name": "Basalt",
     "country": "Netherlands",
     "city": "The Hague",

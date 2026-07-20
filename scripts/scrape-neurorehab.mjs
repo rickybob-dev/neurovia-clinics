@@ -24,6 +24,7 @@ const explicitNeuroRehabSignals = [
   'riabilitazione neurologica',
   'réadaptation neurologique',
   'rééducation neurologique',
+  'rééducation gériatrique/neurologique',
   'rééducation neuromotrice',
   'réadaptation neuromotrice',
   'neuroreabilitação',

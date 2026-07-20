@@ -2345,6 +2345,26 @@
       "sourceType": "latvia-second-pass-official-seed",
       "discoverySource": "official Liepāja Regional Hospital inpatient rehabilitation department page",
       "needles": ["neiroloģisku", "subakūtās medicīniskās rehabilitācijas pakalpojumi", "augstu intensitāti", "ilgtermiņa rehabilitācijas pakalpojumi", "hroniskiem funkcionēšanas traucējumiem"]
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Centre National de Rééducation Fonctionnelle et de Réadaptation Rehazenter",
+      "city": "Luxembourg",
+      "region": "Luxembourg District",
+      "url": "https://www.rehazenter.lu/fr/",
+      "sourceType": "luxembourg-first-pass-official-seed",
+      "discoverySource": "official Rehazenter neurological rehabilitation programme and annual report",
+      "needles": ["pôles de rééducation neurologique", "Rééducation neurologique", "accidents vasculaires cérébraux", "traumatismes crâniens", "lésions médullaires", "Scléroses en plaques"]
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Hôpitaux Robert Schuman Service de Rééducation Gériatrique et Neurologique",
+      "city": "Luxembourg",
+      "region": "Luxembourg District",
+      "url": "https://www.hopitauxschuman.lu/fr/accessibilite/accessibilite-brochure-prise-en-charge-des-avc-aux-hopitaux-robert-schuman/",
+      "sourceType": "luxembourg-second-pass-official-seed",
+      "discoverySource": "official Hôpitaux Robert Schuman stroke-care and geriatric neurological rehabilitation brochure",
+      "needles": ["rééducation gériatrique/neurologique", "accident vasculaire cérébral", "maladie dégénérative avancée", "programme personnalisé de rééducation fonctionnelle", "kinésithérapeutes", "ergothérapeutes"]
     }
   ],
   "searchResults": [],

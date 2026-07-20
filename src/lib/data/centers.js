@@ -4931,5 +4931,41 @@ export const centers = [
       it: 'Reparto pubblico di riabilitazione ospedaliera a Liepāja per patologie neurologiche, con programmi subacuti e a lungo termine di intensità moderata o alta.',
       en: 'A public inpatient rehabilitation department in Liepāja for neurological conditions, providing moderate- and high-intensity subacute and long-term programmes.'
     }
+  },
+  {
+    id: 'rehazenter-luxembourg',
+    name: 'Centre National de Rééducation Fonctionnelle et de Réadaptation Rehazenter',
+    country: 'Luxembourg',
+    city: 'Luxembourg', region: 'Luxembourg District', lat: 49.6308, lng: 6.1652,
+    address: '1, rue André Vésale, L-2674 Luxembourg', phone: '+352 26 98 1',
+    url: 'https://www.rehazenter.lu/fr/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurological rehabilitation', 'Physical medicine and rehabilitation', 'Neuropsychology', 'Physiotherapy', 'Occupational therapy', 'Speech therapy'],
+    completeness: 94,
+    researchHighlights: ['Official Rehazenter information identifies dedicated neurological and trauma-orthopaedic rehabilitation units, with both inpatient rooms and ambulatory activity', 'Its official 2024 annual report describes neurological rehabilitation for severe stroke sequelae, severe traumatic brain injury, disorders of consciousness and spinal cord injury', 'The annual report lists neurological rehabilitation stays for stroke, spinal cord injury, Parkinson disease, multiple sclerosis, myopathy, Guillain-Barre syndrome and severe brain injury'],
+    features: ['national-rehabilitation-centre', 'neurological-rehabilitation', 'brain-injury', 'spinal-cord', 'inpatient-rehab'],
+    description: {
+      it: 'Centro nazionale pubblico di riabilitazione del Lussemburgo con unità di riabilitazione neurologica per ictus, trauma cranico, lesione midollare, Parkinson e sclerosi multipla.',
+      en: 'Luxembourg’s public national rehabilitation centre, with neurological rehabilitation for stroke, brain injury, spinal cord injury, Parkinson disease and multiple sclerosis.'
+    }
+  },
+  {
+    id: 'hrs-geriatric-neurological-rehabilitation',
+    name: 'Hôpitaux Robert Schuman Service de Rééducation Gériatrique et Neurologique',
+    country: 'Luxembourg',
+    city: 'Luxembourg', region: 'Luxembourg District', lat: 49.6069, lng: 6.1258,
+    address: '36, rue Sainte Zithe, L-2763 Luxembourg', phone: '+352 28 63 85 72',
+    url: 'https://www.hopitauxschuman.lu/fr/accessibilite/accessibilite-brochure-prise-en-charge-des-avc-aux-hopitaux-robert-schuman/',
+    conditions: ['stroke', 'parkinson', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Geriatric and neurological rehabilitation', 'Stroke rehabilitation', 'Physical medicine and rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech therapy', 'Neuropsychology'],
+    completeness: 88,
+    researchHighlights: ['Official Hôpitaux Robert Schuman stroke-care brochure describes an inpatient geriatric/neurological rehabilitation unit at the ZithaKlinik site', 'The official eligibility description includes functional loss after stroke and advanced degenerative disease', 'Official programme information describes personalised functional rehabilitation delivered by rehabilitation physicians, nursing staff, physiotherapists, occupational therapists, psychologists and dietitians, with motor and speech rehabilitation'],
+    features: ['stroke-rehab', 'geriatric-neurorehab', 'inpatient-rehab', 'multidisciplinary-rehab'],
+    description: {
+      it: 'Servizio ospedaliero pubblico a Lussemburgo per riabilitazione geriatrica e neurologica, incluso post-ictus e malattie degenerative avanzate.',
+      en: 'A public Luxembourg hospital service providing geriatric and neurological rehabilitation, including after stroke and advanced degenerative disease.'
+    }
   }
 ];

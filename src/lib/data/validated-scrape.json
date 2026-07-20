@@ -6857,6 +6857,108 @@
     }
   },
   {
+    "name": "Centre National de Rééducation Fonctionnelle et de Réadaptation Rehazenter",
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "region": "Luxembourg District",
+    "url": "https://www.rehazenter.lu/fr",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | luxembourg-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Rehazenter neurological rehabilitation programme and annual report",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Rehazenter information identifies dedicated neurological and trauma-orthopaedic rehabilitation units, with both inpatient rooms and ambulatory activity",
+      "Its official 2024 annual report describes neurological rehabilitation for severe stroke sequelae, severe traumatic brain injury, disorders of consciousness and spinal cord injury",
+      "The annual report lists neurological rehabilitation stays for stroke, spinal cord injury, Parkinson disease, multiple sclerosis, myopathy, Guillain-Barre syndrome and severe brain injury",
+      "Luxembourg’s public national rehabilitation centre, with neurological rehabilitation for stroke, brain injury, spinal cord injury, Parkinson disease and multiple sclerosis.",
+      "Centro nazionale pubblico di riabilitazione del Lussemburgo con unità di riabilitazione neurologica per ictus, trauma cranico, lesione midollare, Parkinson e sclerosi multipla.",
+      "pôles de rééducation neurologique",
+      "Rééducation neurologique",
+      "accidents vasculaires cérébraux",
+      "traumatismes crâniens",
+      "lésions médullaires",
+      "Scléroses en plaques"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.rehazenter.lu/fr",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "pôles de rééducation neurologique | Rééducation neurologique | rééducation neurologique | rééducation | réadaptation | neurolog | neuro | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rééducation neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Accueil - Rehazenter"
+  },
+  {
+    "name": "Hôpitaux Robert Schuman Service de Rééducation Gériatrique et Neurologique",
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "region": "Luxembourg District",
+    "url": "https://www.hopitauxschuman.lu/fr/accessibilite/accessibilite-brochure-prise-en-charge-des-avc-aux-hopitaux-robert-schuman",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | luxembourg-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Hôpitaux Robert Schuman stroke-care and geriatric neurological rehabilitation brochure",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Hôpitaux Robert Schuman stroke-care brochure describes an inpatient geriatric/neurological rehabilitation unit at the ZithaKlinik site",
+      "The official eligibility description includes functional loss after stroke and advanced degenerative disease",
+      "Official programme information describes personalised functional rehabilitation delivered by rehabilitation physicians, nursing staff, physiotherapists, occupational therapists, psychologists and dietitians, with motor and speech rehabilitation",
+      "A public Luxembourg hospital service providing geriatric and neurological rehabilitation, including after stroke and advanced degenerative disease.",
+      "Servizio ospedaliero pubblico a Lussemburgo per riabilitazione geriatrica e neurologica, incluso post-ictus e malattie degenerative avanzate.",
+      "rééducation gériatrique/neurologique",
+      "accident vasculaire cérébral",
+      "maladie dégénérative avancée",
+      "programme personnalisé de rééducation fonctionnelle",
+      "kinésithérapeutes",
+      "ergothérapeutes"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.hopitauxschuman.lu/fr/accessibilite/accessibilite-brochure-prise-en-charge-des-avc-aux-hopitaux-robert-schuman",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rééducation gériatrique/neurologique | accident vasculaire cérébral | maladie dégénérative avancée | programme personnalisé de rééducation fonctionnelle | kinésithérapeutes | ergothérapeutes | rééducation | réadaptation | neurolog | neuro | stroke | avc",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rééducation gériatrique/neurologique"
+      ],
+      "rehabilitation": [
+        "rééducation",
+        "réadaptation"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "avc",
+        "sclerose",
+        "accident vasculaire cérébral",
+        "avc",
+        "lésion cérébrale",
+        "lésions cérébrales",
+        "nah"
+      ],
+      "institution": []
+    },
+    "title": "Brochure : prise en charge des AVC aux Hôpitaux Robert Schuman - HÔPITAUX ROBERT SCHUMAN"
+  },
+  {
     "name": "Basalt",
     "country": "Netherlands",
     "city": "The Hague",
@@ -8211,38 +8313,13 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-krakow",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "rehabilitacji neurologicznej | Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarach mózgu",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "rehabilitacji neurologicznej"
-      ],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "udar mózgu",
-        "udarach mózgu",
-        "po udarze",
-        "udarze",
-        "udarach",
-        "tce",
-        "rdzenia kręgowego",
-        "urazy mózgowo-czaszkowe",
-        "urazach czaszkowo-mózgowych",
-        "parkinson",
-        "choroba parkinsona"
-      ],
-      "institution": []
-    },
-    "title": "Centrum Origin Kraków - rehabilitacja po udarach i wypadkach, ambulatoryjna"
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Centrum Origin Otwock",
@@ -8268,33 +8345,13 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-otwock",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarze",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "udar mózgu",
-        "udarze",
-        "udarach",
-        "rdzenia kręgowego",
-        "urazy mózgowo-czaszkowe",
-        "urazach czaszkowo-mózgowych",
-        "parkinson",
-        "choroba parkinsona"
-      ],
-      "institution": []
-    },
-    "title": "Centrum Origin Otwock - rehabilitacja po udarach i wypadkach, neurologiczna"
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Constance Care",
@@ -8384,30 +8441,13 @@
       "paraliż",
       "niedowład"
     ],
-    "status": 200,
-    "finalUrl": "https://www.repty.pl/",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "rehabilitacja neurologiczna | rehab | rehabilitacja | neurolog | neuro | szpital | oddział",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "rehabilitacja neurologiczna"
-      ],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro"
-      ],
-      "institution": [
-        "szpital",
-        "oddział"
-      ]
-    },
-    "title": "Górnośląskie Centrum Rehabilitacji \"Repty\""
+    "status": null,
+    "finalUrl": "https://repty.pl/",
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: repty.pl",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Centro de Medicina de Reabilitação de Alcoitão",
@@ -8928,13 +8968,30 @@
       "Spinal Lesions",
       "(Re)habilitation of Children"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.uri-soca.si/en/medical-rehabilitation",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (28) Connection timed out after 15002 milliseconds",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "central and peripheral nervous system disorders | Traumatic Brain Injury | Multiple Sclerosis | after Stroke | Spinal Lesions | (Re)habilitation of Children | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "multiple sclerosis"
+      ],
+      "institution": []
+    },
+    "title": "Medical rehabilitation - University Rehabilitation Institute, Republic of Slovenia - Soča"
   },
   {
     "name": "CEADAC - Centro de Referencia Estatal de Atención al Daño Cerebral",
@@ -11378,7 +11435,7 @@
     ],
     "status": 200,
     "finalUrl": "https://www.swissmedical.net/fr/hopitaux/valmont",
-    "contentType": "text/html; charset=utf-8",
+    "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "Rééducation neurologique | Maladie de Parkinson | Neuropsychologie | rééducation neurologique | rehabilitation | rehab | rééducation | réadaptation | neurolog | neuro | parkinson | maladie de parkinson | centre",
@@ -12020,7 +12077,7 @@
     ],
     "status": 200,
     "finalUrl": "https://hollandenparkhospital.co.uk/",
-    "contentType": "text/html; charset=UTF-8",
+    "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
@@ -13158,7 +13215,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "World leader in advanced rehabilitation treatment and research | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "evidence": "World leader in advanced rehabilitation treatment and research | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | center",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -13175,7 +13232,6 @@
       ],
       "institution": [
         "hospital",
-        "clinic",
         "center",
         "rehabilitation hospital"
       ]
