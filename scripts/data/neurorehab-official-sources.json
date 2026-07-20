@@ -2295,6 +2295,56 @@
       "sourceType": "lithuania-second-pass-official-seed",
       "discoverySource": "official RVUL inpatient rehabilitation department page",
       "needles": ["nervų sistemos", "stacionarinės medicininės reabilitacijos paslaugas", "Stacionarinės reabilitacijos poskyryje yra 40 lovų", "kineziterapijos", "ergoterapijos", "psichoterapijos"]
+    },
+    {
+      "country": "Latvia",
+      "name": "National Rehabilitation Centre Vaivari",
+      "city": "Jūrmala",
+      "region": "Jūrmala",
+      "url": "https://nrcvaivari.lv/lv",
+      "sourceType": "latvia-first-pass-official-seed",
+      "discoverySource": "official National Rehabilitation Centre Vaivari programme page",
+      "needles": ["Spinālo pacientu rehabilitācija", "Neirorehablitācija", "Stacionārā rehabilitācija", "Ambulatorā rehabilitācija", "Lokomat Pro"]
+    },
+    {
+      "country": "Latvia",
+      "name": "Rīgas Austrumu klīniskā universitātes slimnīca Rehabilitācijas klīnika",
+      "city": "Riga",
+      "region": "Riga",
+      "url": "https://aslimnica.lv/stacionari/gailezers/rehabilitacijas-klinika/",
+      "sourceType": "latvia-first-pass-official-seed",
+      "discoverySource": "official Rīga East University Hospital rehabilitation clinic page",
+      "needles": ["Insulta pacientu rehabilitācijas programma", "Pacientu ar neirodeģeneratīvām slimībām rehabilitācijas programma", "Neiro-onkoloģisko pacientu rehabilitācijas programma", "neiroloģiskiem traucējumiem", "Rehabilitācijas diennakts stacionārs"]
+    },
+    {
+      "country": "Latvia",
+      "name": "Paula Stradiņa Klīniskā universitātes slimnīca Neiroloģijas klīnika",
+      "city": "Riga",
+      "region": "Riga",
+      "url": "https://www.stradini.lv/lv/content/neirologijas-klinika-0",
+      "sourceType": "latvia-first-pass-official-seed",
+      "discoverySource": "official Pauls Stradiņš Clinical University Hospital neurology clinic page",
+      "needles": ["Insulta vienība", "fizioterapijas un ergoterapijas iespējas", "agrīnā perioda rehabilitācija", "valodas traucējumu korekcija", "Multiplās sklerozes centrs"]
+    },
+    {
+      "country": "Latvia",
+      "name": "Bērnu klīniskā universitātes slimnīca Bērnu neiroloģijas un neiroķirurģijas klīnika",
+      "city": "Riga",
+      "region": "Riga",
+      "url": "https://www.bkus.lv/bernu-neirologijas-un-neirokirurgijas-klinika",
+      "sourceType": "latvia-second-pass-official-seed",
+      "discoverySource": "official Children’s Clinical University Hospital neurology and neurosurgery clinic page",
+      "needles": ["nervu slimību", "rehabilitācija", "neiromuskulāras un demielinizējošas slimības", "nervu sistēmas traumu sekas", "2000 pacienti"]
+    },
+    {
+      "country": "Latvia",
+      "name": "Liepājas reģionālā slimnīca Stacionārā rehabilitācijas nodaļa",
+      "city": "Liepāja",
+      "region": "Kurzeme",
+      "url": "https://liepajasslimnica.lv/pakalpojumi/stacionarie-pakalpojumi/fizikalas-terapijas-un-rehabilitacijas-nodala",
+      "sourceType": "latvia-second-pass-official-seed",
+      "discoverySource": "official Liepāja Regional Hospital inpatient rehabilitation department page",
+      "needles": ["neiroloģisku", "subakūtās medicīniskās rehabilitācijas pakalpojumi", "augstu intensitāti", "ilgtermiņa rehabilitācijas pakalpojumi", "hroniskiem funkcionēšanas traucējumiem"]
     }
   ],
   "searchResults": [],

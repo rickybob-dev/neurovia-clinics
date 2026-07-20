@@ -135,7 +135,16 @@ const explicitNeuroRehabSignals = [
   'išsėtine skleroze',
   'Parkinsono liga',
   'неврологическая реабилитация',
-  'нейрореабилитация'
+  'нейрореабилитация',
+  'neirorehabilitācija',
+  'neirorehabilitacija',
+  'neiroloģisku traucējumu',
+  'neiroloģisku saslimšanu',
+  'neiroloģisko slimību',
+  'insulta pacientu rehabilitācijas programma',
+  'neirodeģeneratīvām slimībām',
+  'neiro-onkoloģisko pacientu rehabilitācijas programma',
+  'agrīnā rehabilitācija'
 ];
 
 const rehabSignals = [

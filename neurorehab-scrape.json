@@ -6736,6 +6736,230 @@
     "title": "Riabilitazione Neurologica - Prosperius Villa Cherubini"
   },
   {
+    "name": "Bērnu klīniskā universitātes slimnīca Bērnu neiroloģijas un neiroķirurģijas klīnika",
+    "country": "Latvia",
+    "city": "Riga",
+    "region": "Riga",
+    "url": "https://www.bkus.lv/bernu-neirologijas-un-neirokirurgijas-klinika",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | latvia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Children’s Clinical University Hospital neurology and neurosurgery clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Children’s Clinical University Hospital page says its paediatric neurology and neurosurgery clinic provides rehabilitation alongside assessment and treatment of acute and chronic nervous-system disease",
+      "Official service list includes neuromuscular and demyelinating diseases, central nervous-system vascular diseases and consequences of nervous-system trauma",
+      "The official page reports treatment of about 2,000 patients yearly from infancy onward",
+      "A public university paediatric clinic in Riga providing rehabilitation for neurological, neuromuscular and demyelinating conditions and nervous-system trauma sequelae.",
+      "Clinica pediatrica universitaria pubblica a Riga con riabilitazione per malattie neurologiche, neuromuscolari, demielinizzanti e conseguenze di traumi del sistema nervoso.",
+      "nervu slimību",
+      "rehabilitācija",
+      "neiromuskulāras un demielinizējošas slimības",
+      "nervu sistēmas traumu sekas",
+      "2000 pacienti"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bkus.lv/bernu-neirologijas-un-neirokirurgijas-klinika",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "nervu slimību | rehabilitācija | neiromuskulāras un demielinizējošas slimības | nervu sistēmas traumu sekas | 2000 pacienti | rehab | rehabilitacija | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [],
+      "institution": [
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Bērnu neiroloģijas un neiroķirurģijas klīnika | BKUS"
+  },
+  {
+    "name": "Liepājas reģionālā slimnīca Stacionārā rehabilitācijas nodaļa",
+    "country": "Latvia",
+    "city": "Liepāja",
+    "region": "Kurzeme",
+    "url": "https://liepajasslimnica.lv/pakalpojumi/stacionarie-pakalpojumi/fizikalas-terapijas-un-rehabilitacijas-nodala",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | latvia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Liepāja Regional Hospital inpatient rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Liepāja Regional Hospital page identifies its inpatient rehabilitation department as treating neurological conditions with individual treatment plans",
+      "Official page describes moderate- and high-intensity subacute medical rehabilitation of two to four hours daily",
+      "The department also provides long-term rehabilitation for chronic functional impairment with high complication or deterioration risk",
+      "A public inpatient rehabilitation department in Liepāja for neurological conditions, providing moderate- and high-intensity subacute and long-term programmes.",
+      "Reparto pubblico di riabilitazione ospedaliera a Liepāja per patologie neurologiche, con programmi subacuti e a lungo termine di intensità moderata o alta.",
+      "neiroloģisku",
+      "subakūtās medicīniskās rehabilitācijas pakalpojumi",
+      "augstu intensitāti",
+      "ilgtermiņa rehabilitācijas pakalpojumi",
+      "hroniskiem funkcionēšanas traucējumiem"
+    ],
+    "status": 200,
+    "finalUrl": "https://liepajasslimnica.lv/pakalpojumi/stacionarie-pakalpojumi/fizikalas-terapijas-un-rehabilitacijas-nodala",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "neiroloģisku | subakūtās medicīniskās rehabilitācijas pakalpojumi | augstu intensitāti | ilgtermiņa rehabilitācijas pakalpojumi | hroniskiem funkcionēšanas traucējumiem | rehab | rehabilitacija",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [],
+      "institution": []
+    },
+    "title": "Stacionārā rehabilitācijas nodaļa"
+  },
+  {
+    "name": "National Rehabilitation Centre Vaivari",
+    "country": "Latvia",
+    "city": "Jūrmala",
+    "region": "Jūrmala",
+    "url": "https://nrcvaivari.lv/lv",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | latvia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official National Rehabilitation Centre Vaivari programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Vaivari site identifies it as Latvia’s largest state medical rehabilitation institution and lists inpatient, outpatient and day-hospital services",
+      "Official programme list includes neurorehabilitation and spinal patient rehabilitation",
+      "Official site lists Lokomat Pro robotic gait training, Andago and Ekso GT exoskeleton technology for patients with lower-limb paresis or paralysis",
+      "Latvia’s public national rehabilitation centre in Jūrmala, with neurorehabilitation and spinal rehabilitation programmes across inpatient and outpatient care.",
+      "Centro nazionale pubblico di riabilitazione a Jūrmala con programmi di neuroriabilitazione e lesione midollare, in regime ricoverato e ambulatoriale.",
+      "Spinālo pacientu rehabilitācija",
+      "Neirorehablitācija",
+      "Stacionārā rehabilitācija",
+      "Ambulatorā rehabilitācija",
+      "Lokomat Pro"
+    ],
+    "status": 200,
+    "finalUrl": "https://nrcvaivari.lv/lv",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Spinālo pacientu rehabilitācija | Neirorehablitācija | Stacionārā rehabilitācija | Ambulatorā rehabilitācija | Lokomat Pro | neirorehabilitācija | neirorehabilitacija | rehab | rehabilitacija | spinal | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neirorehabilitācija",
+        "neirorehabilitacija"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [
+        "spinal"
+      ],
+      "institution": [
+        "centre"
+      ]
+    },
+    "title": "Nacionālais rehabilitācijas centrs Vaivari"
+  },
+  {
+    "name": "Paula Stradiņa Klīniskā universitātes slimnīca Neiroloģijas klīnika",
+    "country": "Latvia",
+    "city": "Riga",
+    "region": "Riga",
+    "url": "https://www.stradini.lv/lv/content/neirologijas-klinika-0",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | latvia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Pauls Stradiņš Clinical University Hospital neurology clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Pauls Stradiņš University Hospital page lists a stroke unit, multiple sclerosis centre and rare neurological diseases centre",
+      "Official page states that inpatient neurological care includes early rehabilitation, physiotherapy, occupational therapy and speech-therapy correction for language disorders",
+      "The clinic provides both outpatient and inpatient specialist neurological care nationally",
+      "A public university neurology clinic in Riga with a stroke unit, multiple sclerosis service and multidisciplinary early neurological rehabilitation.",
+      "Clinica neurologica universitaria pubblica a Riga con unità ictus, sclerosi multipla e riabilitazione neurologica precoce multidisciplinare.",
+      "Insulta vienība",
+      "fizioterapijas un ergoterapijas iespējas",
+      "agrīnā perioda rehabilitācija",
+      "valodas traucējumu korekcija",
+      "Multiplās sklerozes centrs"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.stradini.lv/lv/content/neirologijas-klinika-0",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Insulta vienība | fizioterapijas un ergoterapijas iespējas | agrīnā perioda rehabilitācija | valodas traucējumu korekcija | Multiplās sklerozes centrs | neiroloģisko slimību | rehab | rehabilitacija | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neiroloģisko slimību"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [],
+      "institution": [
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Neiroloģijas klīnika | Stradiņa slimnīca"
+  },
+  {
+    "name": "Rīgas Austrumu klīniskā universitātes slimnīca Rehabilitācijas klīnika",
+    "country": "Latvia",
+    "city": "Riga",
+    "region": "Riga",
+    "url": "https://aslimnica.lv/stacionari/gailezers/rehabilitacijas-klinika",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | latvia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Rīga East University Hospital rehabilitation clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Rīga East University Hospital page says its rehabilitation clinic provides inpatient, day-hospital and outpatient rehabilitation across its hospital sites",
+      "Official programme list includes rehabilitation for stroke, neurodegenerative disease and neuro-oncology patients",
+      "Official clinic page describes care for acute and chronic neurological disorders from a team of rehabilitation physicians and functional specialists",
+      "A public Riga East University Hospital rehabilitation clinic with programmes for stroke, neurodegenerative disease and neuro-oncology patients.",
+      "Clinica pubblica di riabilitazione dell’ospedale universitario di Riga Est, con programmi per ictus, malattie neurodegenerative e neuro-oncologia.",
+      "Insulta pacientu rehabilitācijas programma",
+      "Pacientu ar neirodeģeneratīvām slimībām rehabilitācijas programma",
+      "Neiro-onkoloģisko pacientu rehabilitācijas programma",
+      "neiroloģiskiem traucējumiem",
+      "Rehabilitācijas diennakts stacionārs"
+    ],
+    "status": 200,
+    "finalUrl": "https://aslimnica.lv/stacionari/gailezers/rehabilitacijas-klinika",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Insulta pacientu rehabilitācijas programma | Pacientu ar neirodeģeneratīvām slimībām rehabilitācijas programma | Neiro-onkoloģisko pacientu rehabilitācijas programma | neiroloģiskiem traucējumiem | Rehabilitācijas diennakts stacionārs | insulta pacientu rehabilitācijas programma | neirodeģeneratīvām slimībām | neiro-onkoloģisko pacientu rehabilitācijas programma | rehab | rehabilitacija | tce | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "insulta pacientu rehabilitācijas programma",
+        "neirodeģeneratīvām slimībām",
+        "neiro-onkoloģisko pacientu rehabilitācijas programma"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [
+        "tce"
+      ],
+      "institution": [
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Rehabilitācijas klīnika - aSlimnīca"
+  },
+  {
     "name": "Abromiškių reabilitacijos ligoninė",
     "country": "Lithuania",
     "city": "Abromiškės",
@@ -9056,30 +9280,13 @@
       "Spinal Lesions",
       "(Re)habilitation of Children"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.uri-soca.si/en/medical-rehabilitation",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "central and peripheral nervous system disorders | Traumatic Brain Injury | Multiple Sclerosis | after Stroke | Spinal Lesions | (Re)habilitation of Children | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rehabilitation",
-        "rehab"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "stroke",
-        "spinal cord",
-        "spinal",
-        "brain injury",
-        "multiple sclerosis"
-      ],
-      "institution": []
-    },
-    "title": "Medical rehabilitation - University Rehabilitation Institute, Republic of Slovenia - Soča"
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (28) Connection timed out after 15002 milliseconds",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "CEADAC - Centro de Referencia Estatal de Atención al Daño Cerebral",
@@ -11523,7 +11730,7 @@
     ],
     "status": 200,
     "finalUrl": "https://www.swissmedical.net/fr/hopitaux/valmont",
-    "contentType": "text/html; charset=UTF-8",
+    "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "Rééducation neurologique | Maladie de Parkinson | Neuropsychologie | rééducation neurologique | rehabilitation | rehab | rééducation | réadaptation | neurolog | neuro | parkinson | maladie de parkinson | centre",
@@ -13303,11 +13510,9 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "World leader in advanced rehabilitation treatment and research | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "evidence": "World leader in advanced rehabilitation treatment and research | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
     "matchedSignals": {
-      "explicitNeuroRehab": [
-        "neurological rehabilitation"
-      ],
+      "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehabilitation",
         "rehab"
@@ -13318,16 +13523,12 @@
         "stroke",
         "spinal cord",
         "spinal",
-        "polio",
-        "brain injury",
-        "cerebral palsy",
-        "parkinson",
-        "guillain-barre",
-        "guillain-barré"
+        "brain injury"
       ],
       "institution": [
         "hospital",
         "clinic",
+        "center",
         "rehabilitation hospital"
       ]
     },

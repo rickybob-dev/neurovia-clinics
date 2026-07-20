@@ -4841,5 +4841,95 @@ export const centers = [
       it: 'Ospedale specialistico a Rathfarnham per disturbi neurologici e neurodegenerativi con bisogni cognitivi, comportamentali e riabilitativi complessi.',
       en: 'A specialist Rathfarnham hospital for neurological and neurodegenerative disorders with complex cognitive, behavioural and rehabilitative needs.'
     }
+  },
+  {
+    id: 'national-rehabilitation-centre-vaivari',
+    name: 'National Rehabilitation Centre Vaivari',
+    country: 'Latvia',
+    city: 'Jūrmala', region: 'Jūrmala', lat: 56.9591, lng: 23.6677,
+    address: 'Asaru prospekts 61, Jūrmala, LV-2008', phone: '+371 66 958 555',
+    url: 'https://nrcvaivari.lv/lv',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromotor', 'cognitive', 'pediatric'],
+    technologies: ['robotics', 'vr', 'exoskeleton'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurorehabilitation', 'Spinal patient rehabilitation', 'Inpatient rehabilitation', 'Outpatient rehabilitation', 'Multidisciplinary rehabilitation'],
+    completeness: 94,
+    researchHighlights: ['Official Vaivari site identifies it as Latvia’s largest state medical rehabilitation institution and lists inpatient, outpatient and day-hospital services', 'Official programme list includes neurorehabilitation and spinal patient rehabilitation', 'Official site lists Lokomat Pro robotic gait training, Andago and Ekso GT exoskeleton technology for patients with lower-limb paresis or paralysis'],
+    features: ['national-rehabilitation-centre', 'neurorehab', 'spinal-cord', 'robotic-gait-training'],
+    description: {
+      it: 'Centro nazionale pubblico di riabilitazione a Jūrmala con programmi di neuroriabilitazione e lesione midollare, in regime ricoverato e ambulatoriale.',
+      en: 'Latvia’s public national rehabilitation centre in Jūrmala, with neurorehabilitation and spinal rehabilitation programmes across inpatient and outpatient care.'
+    }
+  },
+  {
+    id: 'riga-east-university-hospital-rehabilitation-clinic',
+    name: 'Rīgas Austrumu klīniskā universitātes slimnīca Rehabilitācijas klīnika',
+    country: 'Latvia',
+    city: 'Riga', region: 'Riga', lat: 56.9656, lng: 24.2465,
+    address: 'Hipokrāta iela 2, Rīga, LV-1038', phone: '+371 67 042 950',
+    url: 'https://aslimnica.lv/stacionari/gailezers/rehabilitacijas-klinika/',
+    conditions: ['stroke', 'neurodegenerative', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Stroke rehabilitation programme', 'Neurodegenerative disease rehabilitation', 'Neuro-oncology rehabilitation', 'Physical and rehabilitation medicine', 'Occupational therapy'],
+    completeness: 91,
+    researchHighlights: ['Official Rīga East University Hospital page says its rehabilitation clinic provides inpatient, day-hospital and outpatient rehabilitation across its hospital sites', 'Official programme list includes rehabilitation for stroke, neurodegenerative disease and neuro-oncology patients', 'Official clinic page describes care for acute and chronic neurological disorders from a team of rehabilitation physicians and functional specialists'],
+    features: ['stroke-rehab', 'neurodegenerative-rehab', 'neuro-oncology-rehab', 'inpatient-rehab'],
+    description: {
+      it: 'Clinica pubblica di riabilitazione dell’ospedale universitario di Riga Est, con programmi per ictus, malattie neurodegenerative e neuro-oncologia.',
+      en: 'A public Riga East University Hospital rehabilitation clinic with programmes for stroke, neurodegenerative disease and neuro-oncology patients.'
+    }
+  },
+  {
+    id: 'pauls-stradins-neurology-clinic',
+    name: 'Paula Stradiņa Klīniskā universitātes slimnīca Neiroloģijas klīnika',
+    country: 'Latvia',
+    city: 'Riga', region: 'Riga', lat: 56.9305, lng: 24.0510,
+    address: 'Pilsoņu iela 13, Rīga, LV-1002', phone: '+371 67 069 280',
+    url: 'https://www.stradini.lv/lv/content/neirologijas-klinika-0',
+    conditions: ['stroke', 'ms', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurology', 'Stroke unit', 'Early neurological rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Speech therapy'],
+    completeness: 88,
+    researchHighlights: ['Official Pauls Stradiņš University Hospital page lists a stroke unit, multiple sclerosis centre and rare neurological diseases centre', 'Official page states that inpatient neurological care includes early rehabilitation, physiotherapy, occupational therapy and speech-therapy correction for language disorders', 'The clinic provides both outpatient and inpatient specialist neurological care nationally'],
+    features: ['stroke-unit', 'early-neurorehab', 'multiple-sclerosis', 'speech-rehabilitation'],
+    description: {
+      it: 'Clinica neurologica universitaria pubblica a Riga con unità ictus, sclerosi multipla e riabilitazione neurologica precoce multidisciplinare.',
+      en: 'A public university neurology clinic in Riga with a stroke unit, multiple sclerosis service and multidisciplinary early neurological rehabilitation.'
+    }
+  },
+  {
+    id: 'children-clinical-university-hospital-neurology',
+    name: 'Bērnu klīniskā universitātes slimnīca Bērnu neiroloģijas un neiroķirurģijas klīnika',
+    country: 'Latvia',
+    city: 'Riga', region: 'Riga', lat: 56.9138, lng: 24.0849,
+    address: 'Vienības gatve 45, Rīga, LV-1004', phone: '+371 67 064 405',
+    url: 'https://www.bkus.lv/bernu-neirologijas-un-neirokirurgijas-klinika',
+    conditions: ['pediatric', 'spinal', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Paediatric neurology', 'Paediatric neurosurgery', 'Neurological rehabilitation', 'Physiotherapy', 'Multidisciplinary paediatric care'],
+    completeness: 85,
+    researchHighlights: ['Official Children’s Clinical University Hospital page says its paediatric neurology and neurosurgery clinic provides rehabilitation alongside assessment and treatment of acute and chronic nervous-system disease', 'Official service list includes neuromuscular and demyelinating diseases, central nervous-system vascular diseases and consequences of nervous-system trauma', 'The official page reports treatment of about 2,000 patients yearly from infancy onward'],
+    features: ['pediatric-neurorehab', 'neuromuscular', 'nervous-system-trauma', 'multidisciplinary-care'],
+    description: {
+      it: 'Clinica pediatrica universitaria pubblica a Riga con riabilitazione per malattie neurologiche, neuromuscolari, demielinizzanti e conseguenze di traumi del sistema nervoso.',
+      en: 'A public university paediatric clinic in Riga providing rehabilitation for neurological, neuromuscular and demyelinating conditions and nervous-system trauma sequelae.'
+    }
+  },
+  {
+    id: 'liepaja-regional-hospital-inpatient-rehabilitation',
+    name: 'Liepājas reģionālā slimnīca Stacionārā rehabilitācijas nodaļa',
+    country: 'Latvia',
+    city: 'Liepāja', region: 'Kurzeme', lat: 56.5025, lng: 21.0101,
+    address: 'Slimnīcas iela 25, Liepāja, LV-3414', phone: '+371 63 403 222',
+    url: 'https://liepajasslimnica.lv/pakalpojumi/stacionarie-pakalpojumi/fizikalas-terapijas-un-rehabilitacijas-nodala',
+    conditions: ['stroke', 'neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Inpatient medical rehabilitation', 'Neurological rehabilitation', 'Physiotherapy', 'Occupational therapy', 'High-intensity rehabilitation'],
+    completeness: 83,
+    researchHighlights: ['Official Liepāja Regional Hospital page identifies its inpatient rehabilitation department as treating neurological conditions with individual treatment plans', 'Official page describes moderate- and high-intensity subacute medical rehabilitation of two to four hours daily', 'The department also provides long-term rehabilitation for chronic functional impairment with high complication or deterioration risk'],
+    features: ['inpatient-rehab', 'neurological-rehabilitation', 'subacute-rehab', 'high-intensity-rehab'],
+    description: {
+      it: 'Reparto pubblico di riabilitazione ospedaliera a Liepāja per patologie neurologiche, con programmi subacuti e a lungo termine di intensità moderata o alta.',
+      en: 'A public inpatient rehabilitation department in Liepāja for neurological conditions, providing moderate- and high-intensity subacute and long-term programmes.'
+    }
   }
 ];
