@@ -3554,7 +3554,7 @@
     ],
     "status": 200,
     "finalUrl": "https://dbkg.de/kliniken/dr-becker-neurozentrum-niedersachsen/kurzprofil-klinik",
-    "contentType": "text/html; charset=UTF-8",
+    "contentType": "text/html; charset=utf-8",
     "validationTier": "weak",
     "qualifying": false,
     "evidence": "neuro | zentrum",
@@ -4988,7 +4988,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologisch-neurochirurgische rehabilitationsklinik | phase b-d | schlaganfall | multiple sklerose | parkinson | neurologische rehabilitation | neurologische reha | neurochirurgische rehabilitation | rehabilitation | rehab | neurolog | neuro | schädel-hirn | clinic | klinik",
+    "evidence": "neurologisch-neurochirurgische rehabilitationsklinik | phase b-d | schlaganfall | multiple sklerose | parkinson | neurologische rehabilitation | neurologische reha | neurochirurgische rehabilitation | rehabilitation | rehab | neurolog | neuro | schädel-hirn | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -5009,8 +5009,7 @@
         "nah"
       ],
       "institution": [
-        "clinic",
-        "klinik"
+        "clinic"
       ]
     },
     "title": "Neurologische Reha in Köln - RehaNova"
@@ -6383,6 +6382,255 @@
       ]
     },
     "title": "Riabilitazione Neurologica - Prosperius Villa Cherubini"
+  },
+  {
+    "name": "Abromiškių reabilitacijos ligoninė",
+    "country": "Lithuania",
+    "city": "Abromiškės",
+    "region": "Vilnius County",
+    "url": "https://www.abromiskes.lt/en/adult-rehabilitation",
+    "validationUrl": "https://abromiskes.lt/en/adult-rehabilitation/diseases-of-the-nervous-system",
+    "sourceType": "curated-dataset | lithuania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Abromiškės adult neurological rehabilitation pages",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official adult rehabilitation page lists neurological diseases and conditions including stroke, brain and spinal injuries, Parkinson disease and multiple sclerosis",
+      "Official nervous-system page lists stroke, brain injuries, Parkinson disease, MS, spinal cord injury, neurodegenerative disease and polyneuropathy",
+      "Official page states treatment programmes are individualised and delivered by doctors, physiotherapists, occupational therapists, psychologists, speech therapists and social workers",
+      "A rehabilitation hospital in Abromiškės with neurological pathways for stroke, brain and spinal injuries, Parkinson disease, MS and neurodegenerative disease.",
+      "Ospedale di riabilitazione ad Abromiškės con percorsi neurologici per ictus, lesioni cerebrali e midollari, Parkinson, SM e patologie neurodegenerative.",
+      "Neurological diseases and conditions",
+      "Stroke, brain and spinal injuries",
+      "Parkinson‘s disease",
+      "multiple sclerosis",
+      "After strokes",
+      "After brain injuries",
+      "spinal cord injury"
+    ],
+    "status": 403,
+    "finalUrl": "https://abromiskes.lt/en/adult-rehabilitation/diseases-of-the-nervous-system",
+    "contentType": "text/html; charset=UTF-8",
+    "title": "",
+    "evidence": "Official source blocked automated fetch (HTTP 403); using curated official-source evidence: Official adult rehabilitation page lists neurological diseases and conditions including stroke, brain and spinal injuries, Parkinson disease and multiple sclerosis | Official nervous-system page lists stroke, brain injuries, Parkinson disease, MS, spinal cord injury, neurodegenerative disease and polyneuropathy | Official page states treatment programmes are individualised and delivered by doctors, physiotherapists, occupational therapists, psychologists, speech therapists and social workers | A rehabilitation hospital in Abromiškės with neurological pathways for stroke, brain and spinal injuries, Parkinson disease, MS and neurodegenerative disease. | Ospedale di riabilitazione ad Abromiškės con percorsi neurologici per ictus, lesioni cerebrali e midollari, Parkinson, SM e patologie neurodegenerative. | Neurological diseases and conditions | Stroke, brain and spinal injuries | Parkinson‘s disease",
+    "qualifying": true,
+    "validationTier": "official-seed",
+    "matchedSignals": {
+      "officialSeed": [
+        "Official adult rehabilitation page lists neurological diseases and conditions including stroke, brain and spinal injuries, Parkinson disease and multiple sclerosis",
+        "Official nervous-system page lists stroke, brain injuries, Parkinson disease, MS, spinal cord injury, neurodegenerative disease and polyneuropathy",
+        "Official page states treatment programmes are individualised and delivered by doctors, physiotherapists, occupational therapists, psychologists, speech therapists and social workers",
+        "A rehabilitation hospital in Abromiškės with neurological pathways for stroke, brain and spinal injuries, Parkinson disease, MS and neurodegenerative disease.",
+        "Ospedale di riabilitazione ad Abromiškės con percorsi neurologici per ictus, lesioni cerebrali e midollari, Parkinson, SM e patologie neurodegenerative.",
+        "Neurological diseases and conditions",
+        "Stroke, brain and spinal injuries",
+        "Parkinson‘s disease"
+      ]
+    }
+  },
+  {
+    "name": "Kauno klinikos Reabilitacijos klinika",
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "region": "Kaunas County",
+    "url": "https://www.kaunoklinikos.lt/struktura-ir-kontaktai/profilines-klinikos/reabilitacijos-klinika",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | lithuania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Kauno klinikos rehabilitation clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Kauno Klinikos page states the Rehabilitation Clinic includes a Neurorehabilitation Unit providing level III inpatient services",
+      "Official text says the unit treats severe biosocial impairment after head and spinal cord trauma or surgery, circulatory disorders and degenerative nervous-system disease",
+      "Official page lists modern stroke rehabilitation and neurological-patient rehabilitation training, and describes innovative methods including interactive and virtual-reality tools",
+      "A public university clinic in Kaunas with a level III neurorehabilitation unit for brain and spinal trauma, circulatory disorders and degenerative nervous-system disease.",
+      "Clinica universitaria pubblica di Kaunas con unità di neuro-riabilitazione di III livello per traumi cranio-midollari, disturbi circolatori e malattie neurologiche degenerative.",
+      "Neuroreabilitacijos skyrius",
+      "stacionarines III lygio paslaugas",
+      "po galvos ir nugaros smegenų traumų",
+      "kraujotakos sutrikimų",
+      "degeneracinių nervų sistemos ligų",
+      "Šiuolaikinė insulto reabilitacija"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.kaunoklinikos.lt/struktura-ir-kontaktai/profilines-klinikos/reabilitacijos-klinika",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuroreabilitacijos skyrius | stacionarines III lygio paslaugas | po galvos ir nugaros smegenų traumų | kraujotakos sutrikimų | degeneracinių nervų sistemos ligų | neuroreabilitacijos | neurologinių ligonių reabilitacija | nervų sistemos ligų | nervu sistemos ligu | galvos smegenų traumų | rehabilitation | rehab | reabilitacija | reabilitacijos | neurolog | neuro | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neuroreabilitacijos",
+        "neurologinių ligonių reabilitacija",
+        "nervų sistemos ligų",
+        "nervu sistemos ligu",
+        "galvos smegenų traumų"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "reabilitacija",
+        "reabilitacijos"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Reabilitacijos klinika"
+  },
+  {
+    "name": "Klaipėdos universiteto ligoninė Neuroreabilitacijos centras Palanga",
+    "country": "Lithuania",
+    "city": "Palanga",
+    "region": "Klaipėda County",
+    "url": "https://www.kul.lt/neurologijos-centras",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | lithuania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Klaipėdos universiteto ligoninė neurorehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Klaipėdos University Hospital page says the Palanga neurorehabilitation centre treats spinal cord trauma, brain stroke, brain trauma, Parkinson disease, MS and neuromuscular disease",
+      "Official page lists tertiary and secondary medical rehabilitation for nervous-system diseases",
+      "Official page states 95 beds are dedicated to neurological rehabilitation and care is delivered by a multidisciplinary team",
+      "A public neurorehabilitation centre in Palanga for stroke, brain injury, spinal cord injury, Parkinson disease, MS and neuromuscular conditions.",
+      "Centro pubblico di neuro-riabilitazione a Palanga per ictus, trauma cranico, lesione midollare, Parkinson, SM e malattie neuromuscolari.",
+      "Neuroreablitacijos centras",
+      "Po stuburo traumų, pažeidus nugaros smegenis",
+      "Po galvos smegenų insultų",
+      "Po galvos smegenų traumų",
+      "Parkinsono liga",
+      "išsėtine skleroze",
+      "Neurologinei reabilitacijai klinikoje skirtos 95 lovos"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.kul.lt/neurologijos-centras",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuroreablitacijos centras | Po stuburo traumų, pažeidus nugaros smegenis | Po galvos smegenų insultų | Po galvos smegenų traumų | Parkinsono liga | išsėtine skleroze | Neurologinei reabilitacijai klinikoje skirtos 95 lovos | neurologinei reabilitacijai | nervų sistemos ligų | nervu sistemos ligu | galvos smegenų insultų | galvos smegenų traumų | po galvos smegenų insultų | nugaros smegenis | reabilitacija | reabilitacijos | neurolog | neuro | spinal | parkinsoni | klinik | klinika",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurologinei reabilitacijai",
+        "nervų sistemos ligų",
+        "nervu sistemos ligu",
+        "galvos smegenų insultų",
+        "galvos smegenų traumų",
+        "po galvos smegenų insultų",
+        "nugaros smegenis",
+        "išsėtine skleroze",
+        "Parkinsono liga"
+      ],
+      "rehabilitation": [
+        "reabilitacija",
+        "reabilitacijos"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal",
+        "parkinsoni",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "Neuroreablitacijos centras (Palanga) - Klaipėdos Universiteto Ligoninė"
+  },
+  {
+    "name": "Respublikinė Vilniaus universitetinė ligoninė Stacionarinės reabilitacijos skyrius",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "region": "Vilnius County",
+    "url": "https://www.rvul.lt/index.php/struktura-ir-kontaktai/ligonines-skyriai/stacionarines-reabilitacijos-skyrius",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | lithuania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official RVUL inpatient rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official RVUL page says the inpatient rehabilitation department provides inpatient medical rehabilitation for patients with nervous-system and musculoskeletal diseases",
+      "Official page states the inpatient rehabilitation subunit has 40 beds and treats about 450 patients yearly",
+      "Official page lists physiotherapy, occupational therapy and psychotherapy procedures, including access to pool and therapeutic bath facilities",
+      "A public inpatient rehabilitation department in Vilnius for patients with nervous-system diseases, with 40 beds and a PRM team.",
+      "Reparto pubblico di riabilitazione stazionaria a Vilnius per pazienti con malattie del sistema nervoso, con 40 letti e team di FMR.",
+      "nervų sistemos",
+      "stacionarinės medicininės reabilitacijos paslaugas",
+      "Stacionarinės reabilitacijos poskyryje yra 40 lovų",
+      "kineziterapijos",
+      "ergoterapijos",
+      "psichoterapijos"
+    ],
+    "status": 403,
+    "finalUrl": "https://www.rvul.lt/index.php/struktura-ir-kontaktai/ligonines-skyriai/stacionarines-reabilitacijos-skyrius",
+    "contentType": "text/html; charset=UTF-8",
+    "title": "",
+    "evidence": "Official source blocked automated fetch (HTTP 403); using curated official-source evidence: Official RVUL page says the inpatient rehabilitation department provides inpatient medical rehabilitation for patients with nervous-system and musculoskeletal diseases | Official page states the inpatient rehabilitation subunit has 40 beds and treats about 450 patients yearly | Official page lists physiotherapy, occupational therapy and psychotherapy procedures, including access to pool and therapeutic bath facilities | A public inpatient rehabilitation department in Vilnius for patients with nervous-system diseases, with 40 beds and a PRM team. | Reparto pubblico di riabilitazione stazionaria a Vilnius per pazienti con malattie del sistema nervoso, con 40 letti e team di FMR. | nervų sistemos | stacionarinės medicininės reabilitacijos paslaugas | Stacionarinės reabilitacijos poskyryje yra 40 lovų",
+    "qualifying": true,
+    "validationTier": "official-seed",
+    "matchedSignals": {
+      "officialSeed": [
+        "Official RVUL page says the inpatient rehabilitation department provides inpatient medical rehabilitation for patients with nervous-system and musculoskeletal diseases",
+        "Official page states the inpatient rehabilitation subunit has 40 beds and treats about 450 patients yearly",
+        "Official page lists physiotherapy, occupational therapy and psychotherapy procedures, including access to pool and therapeutic bath facilities",
+        "A public inpatient rehabilitation department in Vilnius for patients with nervous-system diseases, with 40 beds and a PRM team.",
+        "Reparto pubblico di riabilitazione stazionaria a Vilnius per pazienti con malattie del sistema nervoso, con 40 letti e team di FMR.",
+        "nervų sistemos",
+        "stacionarinės medicininės reabilitacijos paslaugas",
+        "Stacionarinės reabilitacijos poskyryje yra 40 lovų"
+      ]
+    }
+  },
+  {
+    "name": "Santaros klinikos Center of Rehabilitation, Physical and Sports Medicine",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "region": "Vilnius County",
+    "url": "https://www.santa.lt/center-of-rehabilitation-physical-and-sports-medicine-about-center",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | lithuania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Santaros Klinikos rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Santaros Klinikos page describes a rehabilitation, physical and sports medicine centre in the university hospital",
+      "Official page lists UEMS-accredited PRM programmes for patients with spinal cord injury and patients after stroke",
+      "Official page also states programmes are developed for rare diseases including Huntington disease and that services are delivered by a qualified rehabilitation team",
+      "A public university hospital rehabilitation centre in Vilnius with accredited rehabilitation programmes for spinal cord injury and post-stroke care.",
+      "Centro pubblico universitario di Vilnius con programmi riabilitativi accreditati per lesione midollare e post-ictus.",
+      "Center of Rehabilitation",
+      "spinal cord injury",
+      "patients after stroke",
+      "rare diseases",
+      "Huntington’s disease",
+      "Medical rehabilitation services"
+    ],
+    "status": 403,
+    "finalUrl": "https://www.santa.lt/center-of-rehabilitation-physical-and-sports-medicine-about-center",
+    "contentType": "text/html; charset=UTF-8",
+    "title": "",
+    "evidence": "Official source blocked automated fetch (HTTP 403); using curated official-source evidence: Official Santaros Klinikos page describes a rehabilitation, physical and sports medicine centre in the university hospital | Official page lists UEMS-accredited PRM programmes for patients with spinal cord injury and patients after stroke | Official page also states programmes are developed for rare diseases including Huntington disease and that services are delivered by a qualified rehabilitation team | A public university hospital rehabilitation centre in Vilnius with accredited rehabilitation programmes for spinal cord injury and post-stroke care. | Centro pubblico universitario di Vilnius con programmi riabilitativi accreditati per lesione midollare e post-ictus. | Center of Rehabilitation | spinal cord injury | patients after stroke",
+    "qualifying": true,
+    "validationTier": "official-seed",
+    "matchedSignals": {
+      "officialSeed": [
+        "Official Santaros Klinikos page describes a rehabilitation, physical and sports medicine centre in the university hospital",
+        "Official page lists UEMS-accredited PRM programmes for patients with spinal cord injury and patients after stroke",
+        "Official page also states programmes are developed for rare diseases including Huntington disease and that services are delivered by a qualified rehabilitation team",
+        "A public university hospital rehabilitation centre in Vilnius with accredited rehabilitation programmes for spinal cord injury and post-stroke care.",
+        "Centro pubblico universitario di Vilnius con programmi riabilitativi accreditati per lesione midollare e post-ictus.",
+        "Center of Rehabilitation",
+        "spinal cord injury",
+        "patients after stroke"
+      ]
+    }
   },
   {
     "name": "Basalt",
@@ -7996,31 +8244,13 @@
       "Unidade de Reabilitação Pediátrica",
       "Unidade de Reab. Traumatismo Crânio-Encefálico"
     ],
-    "status": 200,
-    "finalUrl": "https://www.ulsge.min-saude.pt/api-gateway/public-portal/public-information/viewmenuoptions/MNCRN?language=pt",
-    "contentType": "application/json",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Unidade de Reab. Acidente Vascular Cerebral | Unidade de Reabilitação de Lesões Medulares | Unidade de Reabilitação Pediátrica | Unidade de Reab. Traumatismo Crânio-Encefálico | reabilitação | acidente vascular cerebral | traumatismo crânio-encefálico | traumatismo cranio-encefalico | lesões medulares | clinic | centro",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "reabilitação"
-      ],
-      "neurological": [
-        "acidente vascular cerebral",
-        "traumatismo crânio-encefálico",
-        "traumatismo cranio-encefalico",
-        "lesões medulares",
-        "lesoes medulares",
-        "lesões medulares"
-      ],
-      "institution": [
-        "clinic",
-        "centro"
-      ]
-    },
-    "title": ""
+    "status": null,
+    "finalUrl": "https://www.ulsge.min-saude.pt/PORTALCRN",
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (35) Recv failure: Connection reset by peer",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "NeuroVida NeuroTriad",
@@ -8527,7 +8757,7 @@
     "contentType": "text/html;charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | rehabilitáció | centro",
+    "evidence": "Centro de Referencia Estatal de Atención al Daño Cerebral | daño cerebral | daño cerebral adquirido | servicios de atención directa | rehab | rehabilitación | rehabilitáció | ictus | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -8535,7 +8765,9 @@
         "rehabilitación",
         "rehabilitáció"
       ],
-      "neurological": [],
+      "neurological": [
+        "ictus"
+      ],
       "institution": [
         "centro"
       ]
@@ -10942,7 +11174,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Rééducation neurologique | AVC | Maladie de Parkinson | Neuropsychologie | rééducation neurologique | rehabilitation | rehab | rééducation | réadaptation | neurolog | neuro | avc | parkinson | centre",
+    "evidence": "Rééducation neurologique | Maladie de Parkinson | Neuropsychologie | rééducation neurologique | rehabilitation | rehab | rééducation | réadaptation | neurolog | neuro | parkinson | maladie de parkinson | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "rééducation neurologique"
@@ -10956,9 +11188,7 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "avc",
         "parkinson",
-        "avc",
         "maladie de parkinson"
       ],
       "institution": [
@@ -11040,7 +11270,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neurolog | neuro | parkinson | clinic | klinik",
+    "evidence": "rehabilitation | rehab | nah | clinic | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -11048,9 +11278,7 @@
         "rehab"
       ],
       "neurological": [
-        "neurolog",
-        "neuro",
-        "parkinson"
+        "nah"
       ],
       "institution": [
         "clinic",
@@ -12311,9 +12539,11 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "brain injury | spinal cord | stroke | multiple sclerosis | parkinson | rehabilitation | rehab | neurolog | neuro",
+    "evidence": "brain injury | spinal cord | stroke | multiple sclerosis | parkinson | rehabilitation | neurorehabilitation | rehab | neurolog | neuro",
     "matchedSignals": {
-      "explicitNeuroRehab": [],
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
       "rehabilitation": [
         "rehabilitation",
         "rehab"
@@ -12670,7 +12900,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neuro | stroke | spinal cord | spinal | hospital | clinic",
+    "evidence": "rehabilitation | rehab | stroke | spinal cord | spinal | brain injury | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -12678,7 +12908,6 @@
         "rehab"
       ],
       "neurological": [
-        "neuro",
         "stroke",
         "spinal cord",
         "spinal",

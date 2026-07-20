@@ -3279,6 +3279,96 @@ export const centers = [
     }
   },
   {
+    id: 'kul-neurorehabilitation-center-palanga',
+    name: 'Klaipėdos universiteto ligoninė Neuroreabilitacijos centras Palanga',
+    country: 'Lithuania',
+    city: 'Palanga', region: 'Klaipėda County', lat: 55.9171, lng: 21.0686,
+    address: 'Vytauto g. 153, Palanga', phone: '+370 460 41367',
+    url: 'https://www.kul.lt/neurologijos-centras/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Neuroreabilitacijos centras', 'Spinalinės reabilitacijos skyrius', 'Neurologijos reabilitacijos skyrius', 'Kineziterapija', 'Ergoterapija', 'Logoterapija', 'Psichoterapija'],
+    completeness: 92,
+    researchHighlights: ['Official Klaipėdos University Hospital page says the Palanga neurorehabilitation centre treats spinal cord trauma, brain stroke, brain trauma, Parkinson disease, MS and neuromuscular disease', 'Official page lists tertiary and secondary medical rehabilitation for nervous-system diseases', 'Official page states 95 beds are dedicated to neurological rehabilitation and care is delivered by a multidisciplinary team'],
+    features: ['stroke-rehab', 'brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Centro pubblico di neuro-riabilitazione a Palanga per ictus, trauma cranico, lesione midollare, Parkinson, SM e malattie neuromuscolari.',
+      en: 'A public neurorehabilitation centre in Palanga for stroke, brain injury, spinal cord injury, Parkinson disease, MS and neuromuscular conditions.'
+    }
+  },
+  {
+    id: 'abromiskes-rehabilitation-hospital',
+    name: 'Abromiškių reabilitacijos ligoninė',
+    country: 'Lithuania',
+    city: 'Abromiškės', region: 'Vilnius County', lat: 54.7732, lng: 24.6587,
+    address: 'Sanatorijos g. 72, Abromiškių k., Elektrėnų sav., LT-26130', phone: '+370 683 58803',
+    url: 'https://www.abromiskes.lt/en/adult-rehabilitation/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'parkinson', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurological diseases rehabilitation', 'Physiotherapy', 'Occupational therapy', 'Psychology', 'Speech therapy', 'Social work'],
+    completeness: 89,
+    researchHighlights: ['Official adult rehabilitation page lists neurological diseases and conditions including stroke, brain and spinal injuries, Parkinson disease and multiple sclerosis', 'Official nervous-system page lists stroke, brain injuries, Parkinson disease, MS, spinal cord injury, neurodegenerative disease and polyneuropathy', 'Official page states treatment programmes are individualised and delivered by doctors, physiotherapists, occupational therapists, psychologists, speech therapists and social workers'],
+    features: ['stroke-rehab', 'brain-injury', 'spinal-cord', 'rehabilitation'],
+    description: {
+      it: 'Ospedale di riabilitazione ad Abromiškės con percorsi neurologici per ictus, lesioni cerebrali e midollari, Parkinson, SM e patologie neurodegenerative.',
+      en: 'A rehabilitation hospital in Abromiškės with neurological pathways for stroke, brain and spinal injuries, Parkinson disease, MS and neurodegenerative disease.'
+    }
+  },
+  {
+    id: 'kauno-klinikos-rehabilitation-clinic',
+    name: 'Kauno klinikos Reabilitacijos klinika',
+    country: 'Lithuania',
+    city: 'Kaunas', region: 'Kaunas County', lat: 54.9177, lng: 23.9206,
+    address: 'Eivenių g. 2, Kaunas, LT-50161', phone: '+370 37 327311',
+    url: 'https://www.kaunoklinikos.lt/struktura-ir-kontaktai/profilines-klinikos/reabilitacijos-klinika/',
+    conditions: ['stroke', 'tbi', 'spinal', 'neuromuscular', 'cognitive', 'neuromotor'],
+    technologies: ['vr'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neuroreabilitacijos skyrius', 'Fizinės medicinos ir reabilitacijos skyrius', 'Kineziterapija', 'Logoterapija', 'Ergoterapija'],
+    completeness: 90,
+    researchHighlights: ['Official Kauno Klinikos page states the Rehabilitation Clinic includes a Neurorehabilitation Unit providing level III inpatient services', 'Official text says the unit treats severe biosocial impairment after head and spinal cord trauma or surgery, circulatory disorders and degenerative nervous-system disease', 'Official page lists modern stroke rehabilitation and neurological-patient rehabilitation training, and describes innovative methods including interactive and virtual-reality tools'],
+    features: ['brain-injury', 'spinal-cord', 'stroke-rehab', 'research'],
+    description: {
+      it: 'Clinica universitaria pubblica di Kaunas con unità di neuro-riabilitazione di III livello per traumi cranio-midollari, disturbi circolatori e malattie neurologiche degenerative.',
+      en: 'A public university clinic in Kaunas with a level III neurorehabilitation unit for brain and spinal trauma, circulatory disorders and degenerative nervous-system disease.'
+    }
+  },
+  {
+    id: 'santaros-rehabilitation-center-vilnius',
+    name: 'Santaros klinikos Center of Rehabilitation, Physical and Sports Medicine',
+    country: 'Lithuania',
+    city: 'Vilnius', region: 'Vilnius County', lat: 54.7421, lng: 25.2803,
+    address: 'Santariškių g. 2, Vilnius', phone: 'Unknown',
+    url: 'https://www.santa.lt/center-of-rehabilitation-physical-and-sports-medicine-about-center/',
+    conditions: ['stroke', 'spinal', 'neuromuscular', 'neuromotor'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Physical and rehabilitation medicine', 'Spinal cord injury programme', 'Stroke programme', 'Rehabilitation specialists'],
+    completeness: 82,
+    researchHighlights: ['Official Santaros Klinikos page describes a rehabilitation, physical and sports medicine centre in the university hospital', 'Official page lists UEMS-accredited PRM programmes for patients with spinal cord injury and patients after stroke', 'Official page also states programmes are developed for rare diseases including Huntington disease and that services are delivered by a qualified rehabilitation team'],
+    features: ['spinal-cord', 'stroke-rehab', 'rehabilitation'],
+    description: {
+      it: 'Centro pubblico universitario di Vilnius con programmi riabilitativi accreditati per lesione midollare e post-ictus.',
+      en: 'A public university hospital rehabilitation centre in Vilnius with accredited rehabilitation programmes for spinal cord injury and post-stroke care.'
+    }
+  },
+  {
+    id: 'rvul-inpatient-rehabilitation-vilnius',
+    name: 'Respublikinė Vilniaus universitetinė ligoninė Stacionarinės reabilitacijos skyrius',
+    country: 'Lithuania',
+    city: 'Vilnius', region: 'Vilnius County', lat: 54.6714, lng: 25.2105,
+    address: 'Šiltnamių g. 29, 04129 Vilnius', phone: '+370 5 276 4645',
+    url: 'https://www.rvul.lt/index.php/struktura-ir-kontaktai/ligonines-skyriai/stacionarines-reabilitacijos-skyrius/',
+    conditions: ['neuromotor', 'cognitive'],
+    technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Stacionarinė reabilitacija', 'Fizinė medicina ir reabilitacija', 'Kineziterapija', 'Fizioterapija', 'Ergoterapija', 'Psichoterapija'],
+    completeness: 78,
+    researchHighlights: ['Official RVUL page says the inpatient rehabilitation department provides inpatient medical rehabilitation for patients with nervous-system and musculoskeletal diseases', 'Official page states the inpatient rehabilitation subunit has 40 beds and treats about 450 patients yearly', 'Official page lists physiotherapy, occupational therapy and psychotherapy procedures, including access to pool and therapeutic bath facilities'],
+    features: ['rehabilitation', 'inpatient-rehab'],
+    description: {
+      it: 'Reparto pubblico di riabilitazione stazionaria a Vilnius per pazienti con malattie del sistema nervoso, con 40 letti e team di FMR.',
+      en: 'A public inpatient rehabilitation department in Vilnius for patients with nervous-system diseases, with 40 beds and a PRM team.'
+    }
+  },
+  {
     id: 'kbc-zagreb',
     name: 'University Hospital Centre Zagreb',
     country: 'Croatia',

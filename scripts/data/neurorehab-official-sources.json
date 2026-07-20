@@ -2244,6 +2244,57 @@
       "sourceType": "slovakia-second-pass-official-seed",
       "discoverySource": "official ADELI Medical Center neurorehabilitation homepage",
       "needles": ["Neuroreha-Klinik", "neurologischen Beeinträchtigungen", "Neurorehabilitation", "Schlaganfällen", "Gehirns und Rückenmarks"]
+    },
+    {
+      "country": "Lithuania",
+      "name": "Klaipėdos universiteto ligoninė Neuroreabilitacijos centras Palanga",
+      "city": "Palanga",
+      "region": "Klaipėda County",
+      "url": "https://www.kul.lt/neurologijos-centras/",
+      "sourceType": "lithuania-first-pass-official-seed",
+      "discoverySource": "official Klaipėdos universiteto ligoninė neurorehabilitation centre page",
+      "needles": ["Neuroreablitacijos centras", "Po stuburo traumų, pažeidus nugaros smegenis", "Po galvos smegenų insultų", "Po galvos smegenų traumų", "Parkinsono liga", "išsėtine skleroze", "Neurologinei reabilitacijai klinikoje skirtos 95 lovos"]
+    },
+    {
+      "country": "Lithuania",
+      "name": "Abromiškių reabilitacijos ligoninė",
+      "city": "Abromiškės",
+      "region": "Vilnius County",
+      "url": "https://www.abromiskes.lt/en/adult-rehabilitation/",
+      "validationUrl": "https://abromiskes.lt/en/adult-rehabilitation/diseases-of-the-nervous-system",
+      "sourceType": "lithuania-first-pass-official-seed",
+      "discoverySource": "official Abromiškės adult neurological rehabilitation pages",
+      "needles": ["Neurological diseases and conditions", "Stroke, brain and spinal injuries", "Parkinson‘s disease", "multiple sclerosis", "After strokes", "After brain injuries", "spinal cord injury"]
+    },
+    {
+      "country": "Lithuania",
+      "name": "Kauno klinikos Reabilitacijos klinika",
+      "city": "Kaunas",
+      "region": "Kaunas County",
+      "url": "https://www.kaunoklinikos.lt/struktura-ir-kontaktai/profilines-klinikos/reabilitacijos-klinika/",
+      "sourceType": "lithuania-first-pass-official-seed",
+      "discoverySource": "official Kauno klinikos rehabilitation clinic page",
+      "needles": ["Neuroreabilitacijos skyrius", "stacionarines III lygio paslaugas", "po galvos ir nugaros smegenų traumų", "kraujotakos sutrikimų", "degeneracinių nervų sistemos ligų", "Šiuolaikinė insulto reabilitacija"]
+    },
+    {
+      "country": "Lithuania",
+      "name": "Santaros klinikos Center of Rehabilitation, Physical and Sports Medicine",
+      "city": "Vilnius",
+      "region": "Vilnius County",
+      "url": "https://www.santa.lt/center-of-rehabilitation-physical-and-sports-medicine-about-center/",
+      "sourceType": "lithuania-second-pass-official-seed",
+      "discoverySource": "official Santaros Klinikos rehabilitation centre page",
+      "needles": ["Center of Rehabilitation", "spinal cord injury", "patients after stroke", "rare diseases", "Huntington’s disease", "Medical rehabilitation services"]
+    },
+    {
+      "country": "Lithuania",
+      "name": "Respublikinė Vilniaus universitetinė ligoninė Stacionarinės reabilitacijos skyrius",
+      "city": "Vilnius",
+      "region": "Vilnius County",
+      "url": "https://www.rvul.lt/index.php/struktura-ir-kontaktai/ligonines-skyriai/stacionarines-reabilitacijos-skyrius/",
+      "sourceType": "lithuania-second-pass-official-seed",
+      "discoverySource": "official RVUL inpatient rehabilitation department page",
+      "needles": ["nervų sistemos", "stacionarinės medicininės reabilitacijos paslaugas", "Stacionarinės reabilitacijos poskyryje yra 40 lovų", "kineziterapijos", "ergoterapijos", "psichoterapijos"]
     }
   ],
   "searchResults": [],

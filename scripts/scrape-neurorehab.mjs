@@ -120,6 +120,20 @@ const explicitNeuroRehabSignals = [
   'komplexnú rehabilitačnú liečbu',
   'po úrazoch mozgu',
   'cievnych mozgových príhodách',
+  'neuroreabilitacijos',
+  'neuroreabilitacija',
+  'neurologinei reabilitacijai',
+  'neurologinė reabilitacija',
+  'neurologinių ligonių reabilitacija',
+  'nervų sistemos ligų',
+  'nervu sistemos ligu',
+  'galvos smegenų insultų',
+  'galvos smegenų traumų',
+  'po galvos, nugaros smegenų traumų',
+  'po galvos smegenų insultų',
+  'nugaros smegenis',
+  'išsėtine skleroze',
+  'Parkinsono liga',
   'неврологическая реабилитация',
   'нейрореабилитация'
 ];
@@ -161,6 +175,8 @@ const rehabSignals = [
   'taastusravi',
   'rehabilitáció',
   'rehabilitácia',
+  'reabilitacija',
+  'reabilitacijos',
   'реабилитация'
 ];
 
@@ -921,6 +937,35 @@ function classifyValidation(discovery, page) {
   };
 }
 
+function hasOfficialSeedEvidence(discovery) {
+  return discovery.knownInDataset
+    && String(discovery.sourceType ?? '').includes('official-seed')
+    && Array.isArray(discovery.needles)
+    && discovery.needles.some((needle) => String(needle ?? '').trim());
+}
+
+function isBlockedStatus(status) {
+  return [403, 406, 429].includes(status);
+}
+
+function classifyOfficialSeedFallback(discovery, pageStatus) {
+  const evidence = Array.from(new Set((discovery.needles ?? [])
+    .map((needle) => String(needle ?? '').trim())
+    .filter(Boolean)))
+    .slice(0, 8);
+
+  return {
+    title: '',
+    evidence: `Official source blocked automated fetch (HTTP ${pageStatus}); using curated official-source evidence: ${evidence.join(' | ')}`,
+    qualifying: true,
+    validationTier: 'official-seed',
+    reviewStatus: 'known',
+    matchedSignals: {
+      officialSeed: evidence
+    }
+  };
+}
+
 async function validateDiscovery(discovery, options) {
   if (discovery.reviewStatus === 'source-error') {
     return {
@@ -940,7 +985,9 @@ async function validateDiscovery(discovery, options) {
 
   try {
     const page = await fetchPage(discovery.validationUrl || discovery.url);
-    const classification = classifyValidation(discovery, page);
+    const classification = isBlockedStatus(page.status) && hasOfficialSeedEvidence(discovery)
+      ? classifyOfficialSeedFallback(discovery, page.status)
+      : classifyValidation(discovery, page);
 
     return {
       ...discovery,
