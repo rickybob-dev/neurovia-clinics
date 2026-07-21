@@ -1,5 +1,49 @@
 [
   {
+    "name": "Barleti Neurological Rehabilitation",
+    "country": "Albania",
+    "city": "Tirana",
+    "region": "Tirana County",
+    "url": "https://agjenci.al/rehabilitim-neurologjik",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | albania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Barleti neurological rehabilitation programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Barleti programme page describes multidisciplinary neurological rehabilitation for Alzheimer disease, Parkinson disease, multiple sclerosis and post-stroke consequences.",
+      "The service combines neurologists, physiotherapists and psychotherapists with speech therapy and home-based support.",
+      "A private multidisciplinary, home-based neurological rehabilitation service in Tirana for stroke, Alzheimer disease, Parkinson disease and multiple sclerosis.",
+      "Servizio privato multidisciplinare a Tirana di riabilitazione neurologica domiciliare per ictus, Alzheimer, Parkinson e sclerosi multipla.",
+      "Rehabilitim Neurologjik",
+      "Alzheimeri, Parkinsoni, skleroza multiple",
+      "goditjeve në tru",
+      "ekip të përkushtuar multidisiplinar",
+      "Terapia logopedike"
+    ]
+  },
+  {
+    "name": "Mother Teresa University Hospital Neurophysiological Rehabilitation Unit",
+    "country": "Albania",
+    "city": "Tirana",
+    "region": "Tirana County",
+    "url": "https://www.qsut.gov.al/blog-grid/page/6",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | albania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Mother Teresa University Hospital page and rehabilitation-unit notice",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Mother Teresa University Hospital material identifies a Neurophysiological Rehabilitation Unit within its Rehabilitation Clinic.",
+      "Official hospital information describes a physical rehabilitation service for people with neurological diseases and supports early recovery in the neurological hospital.",
+      "A public neurophysiological rehabilitation unit at Mother Teresa University Hospital in Tirana for people with neurological disease.",
+      "Unita pubblica di riabilitazione neurofisiologica presso l ospedale universitario Nene Tereza di Tirana, per pazienti con malattie neurologiche.",
+      "NJËSISË SË REHABILITIMIT NEUROFIZIOLOGJIK",
+      "Klinikën e Rehabilitimit",
+      "Rruga e Dibrës 372"
+    ]
+  },
+  {
     "name": "Gailtal-Klinik",
     "country": "Austria",
     "city": "Hermagor",
