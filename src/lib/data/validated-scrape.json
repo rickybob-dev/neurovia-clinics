@@ -7620,6 +7620,47 @@
     "title": "Brochure : prise en charge des AVC aux Hôpitaux Robert Schuman - HÔPITAUX ROBERT SCHUMAN"
   },
   {
+    "name": "Karin Grech Rehabilitation Hospital Neurological Rehabilitation",
+    "country": "Malta",
+    "city": "Pieta",
+    "region": "Northern Harbour District",
+    "url": "https://alliedhealthservices.gov.mt/en/professions/physiotherapy/physiotherapy-services",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | malta-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Malta Allied Health Services physiotherapy service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Malta health-service information identifies Karin Grech Rehabilitation Hospital as providing inpatient and outpatient neurorehabilitation.",
+      "Official hospital documentation describes specialist neurological inpatient rehabilitation for stroke, traumatic brain injury, spinal cord lesions, multiple sclerosis, Parkinson disease and other neurodegenerative disorders.",
+      "A public rehabilitation hospital in Pieta with inpatient and outpatient neurorehabilitation for stroke, brain injury, spinal cord lesions, MS and Parkinson disease.",
+      "Ospedale pubblico di riabilitazione a Pieta con servizi di neuroriabilitazione degenziale e ambulatoriale per ictus, trauma cranico, lesioni midollari, SM e Parkinson.",
+      "Rehabilitation Hospital Karin Grech",
+      "neurorehabilitation",
+      "RHKG Neuro O/P",
+      "inpatient"
+    ],
+    "status": 403,
+    "finalUrl": "https://alliedhealthservices.gov.mt/en/professions/physiotherapy/physiotherapy-services",
+    "contentType": "text/html; charset=UTF-8",
+    "title": "",
+    "evidence": "Official source blocked automated fetch (HTTP 403); using curated official-source evidence: Official Malta health-service information identifies Karin Grech Rehabilitation Hospital as providing inpatient and outpatient neurorehabilitation. | Official hospital documentation describes specialist neurological inpatient rehabilitation for stroke, traumatic brain injury, spinal cord lesions, multiple sclerosis, Parkinson disease and other neurodegenerative disorders. | A public rehabilitation hospital in Pieta with inpatient and outpatient neurorehabilitation for stroke, brain injury, spinal cord lesions, MS and Parkinson disease. | Ospedale pubblico di riabilitazione a Pieta con servizi di neuroriabilitazione degenziale e ambulatoriale per ictus, trauma cranico, lesioni midollari, SM e Parkinson. | Rehabilitation Hospital Karin Grech | neurorehabilitation | RHKG Neuro O/P | inpatient",
+    "qualifying": true,
+    "validationTier": "official-seed",
+    "matchedSignals": {
+      "officialSeed": [
+        "Official Malta health-service information identifies Karin Grech Rehabilitation Hospital as providing inpatient and outpatient neurorehabilitation.",
+        "Official hospital documentation describes specialist neurological inpatient rehabilitation for stroke, traumatic brain injury, spinal cord lesions, multiple sclerosis, Parkinson disease and other neurodegenerative disorders.",
+        "A public rehabilitation hospital in Pieta with inpatient and outpatient neurorehabilitation for stroke, brain injury, spinal cord lesions, MS and Parkinson disease.",
+        "Ospedale pubblico di riabilitazione a Pieta con servizi di neuroriabilitazione degenziale e ambulatoriale per ictus, trauma cranico, lesioni midollari, SM e Parkinson.",
+        "Rehabilitation Hospital Karin Grech",
+        "neurorehabilitation",
+        "RHKG Neuro O/P",
+        "inpatient"
+      ]
+    }
+  },
+  {
     "name": "Moldova Ministry of Health Clinical Hospital Neurological Rehabilitation",
     "country": "Moldova",
     "city": "Chisinau",
