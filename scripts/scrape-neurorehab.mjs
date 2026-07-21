@@ -156,6 +156,10 @@ const explicitNeuroRehabSignals = [
   'neirodeģeneratīvām slimībām',
   'neiro-onkoloģisko pacientu rehabilitācijas programma',
   'agrīnā rehabilitācija'
+  , 'nörolojik rehabilitasyon'
+  , 'nörorehabilitasyon'
+  , 'inme rehabilitasyonu'
+  , 'omurilik yaralanması rehabilitasyonu'
 ];
 
 const rehabSignals = [
@@ -198,6 +202,7 @@ const rehabSignals = [
   'reabilitacija',
   'reabilitacijos',
   'реабилитация'
+  , 'rehabilitasyon'
 ];
 
 const neuroSignals = [
@@ -480,6 +485,13 @@ const neuroSignals = [
   'черепно-мозгов',
   'рассеянный склероз',
   'паркинсон'
+  , 'inme'
+  , 'felç'
+  , 'omurilik yaralanması'
+  , 'travmatik beyin hasarı'
+  , 'multiple skleroz'
+  , 'parkinson'
+  , 'als'
 ];
 
 const weakInstitutionSignals = [

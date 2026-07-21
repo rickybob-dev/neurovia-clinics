@@ -37,6 +37,7 @@
         "neuro",
         "stroke",
         "parkinsoni",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -113,7 +114,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Gailtal-Klinik | Neurorehabilitationsangebot | Neurologische Rehabilitation | Neuropsychologie | Ergotherapie | Physiotherapie | Logopädie | neurorehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "Gailtal-Klinik | Neurorehabilitationsangebot | Neurologische Rehabilitation | Neuropsychologie | Ergotherapie | Physiotherapie | Logopädie | neurorehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation",
@@ -127,7 +128,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -163,7 +165,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "NRZ Rosenhügel | neurologische und neuropsychologische Rehabilitation | 147 Betten | 30 ambulante Therapieplätze | Stationäre Rehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | zentrum",
+    "evidence": "NRZ Rosenhügel | neurologische und neuropsychologische Rehabilitation | 147 Betten | 30 ambulante Therapieplätze | Stationäre Rehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | als | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -176,7 +178,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "zentrum"
@@ -359,7 +362,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neurologisches Rehazentrum Kittsee | Kompetenzzentrum für Neurologie und Neurorehabilitation | wirkungsorientierte Neurorehabilitation | neurorehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | zentrum",
+    "evidence": "Neurologisches Rehazentrum Kittsee | Kompetenzzentrum für Neurologie und Neurorehabilitation | wirkungsorientierte Neurorehabilitation | neurorehabilitation | neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | als | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation",
@@ -372,7 +375,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "zentrum"
@@ -408,7 +412,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Rehaklinik Enns | Neurologie | neurologischen | MS Zentrum | multiprofessionelles Team | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "evidence": "Rehaklinik Enns | Neurologie | neurologischen | MS Zentrum | multiprofessionelles Team | rehabilitation | rehab | neurolog | neuro | inme | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -417,7 +421,9 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "inme",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -454,7 +460,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Rehaklinik Gmundnerberg | Neurologie | führenden Rehabilitationseinrichtungen | neurologische Patientinnen und Patienten | multiprofessionelles Team | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "evidence": "Rehaklinik Gmundnerberg | Neurologie | führenden Rehabilitationseinrichtungen | neurologische Patientinnen und Patienten | multiprofessionelles Team | rehabilitation | rehab | neurolog | neuro | inme | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -463,7 +469,9 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "inme",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -500,7 +508,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Reha-Klinik Montafon | neurologische-neurochirurgische Rehabilitation | Neurologie und Neurochirurgie | 215 Betten | medizinisch-therapeutischer | neurochirurgische rehabilitation | rehabilitation | rehab | neurolog | neuro | klinik | zentrum",
+    "evidence": "Reha-Klinik Montafon | neurologische-neurochirurgische Rehabilitation | Neurologie und Neurochirurgie | 215 Betten | medizinisch-therapeutischer | neurochirurgische rehabilitation | rehabilitation | rehab | neurolog | neuro | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurochirurgische rehabilitation"
@@ -511,7 +519,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -564,7 +573,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -601,7 +611,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "VITREA Rehazentrum Innsbruck | Neurologische Rehabilitation | Erkrankungen des zentralen und peripheren Nervensystems | Reha-Phasen 2 und 3 | ambulante Rehabilitation | neurologische rehabilitation | neurologische reha | erkrankungen des zentralen und peripheren nervensystems | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "VITREA Rehazentrum Innsbruck | Neurologische Rehabilitation | Erkrankungen des zentralen und peripheren Nervensystems | Reha-Phasen 2 und 3 | ambulante Rehabilitation | neurologische rehabilitation | neurologische reha | erkrankungen des zentralen und peripheren nervensystems | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -615,7 +625,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -653,7 +664,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "VITREA Rehazentrum Wörgl | Neurologische Rehabilitation | Erkrankungen des zentralen und peripheren Nervensystems | ambulante Rehabilitation | PVA | ÖGK | neurologische rehabilitation | neurologische reha | erkrankungen des zentralen und peripheren nervensystems | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "VITREA Rehazentrum Wörgl | Neurologische Rehabilitation | Erkrankungen des zentralen und peripheren Nervensystems | ambulante Rehabilitation | PVA | ÖGK | neurologische rehabilitation | neurologische reha | erkrankungen des zentralen und peripheren nervensystems | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -667,7 +678,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -756,7 +768,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | als | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -764,10 +776,10 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
-        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -802,7 +814,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Nationaal MS centrum | Consultatie - Behandeling - Revalidatie - Begeleiding - Wetenschappelijk onderzoek | personen met MS | andere chronische neurologische aandoeningen | topklinische en geïntegreerde zorgtrajecten | Neuromyelitis optica | revalidatie | neurolog | neuro | center",
+    "evidence": "Nationaal MS centrum | Consultatie - Behandeling - Revalidatie - Begeleiding - Wetenschappelijk onderzoek | personen met MS | andere chronische neurologische aandoeningen | topklinische en geïntegreerde zorgtrajecten | Neuromyelitis optica | revalidatie | neurolog | neuro | als | center",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -810,7 +822,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "center"
@@ -847,13 +860,15 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Revalidatie & MS | Universitair MS Centrum | Boemerangstraat 2 | revalidatie",
+    "evidence": "Revalidatie & MS | Universitair MS Centrum | Boemerangstraat 2 | revalidatie | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "revalidatie"
       ],
-      "neurological": [],
+      "neurological": [
+        "als"
+      ],
       "institution": []
     },
     "title": "Revalidatie & MS - Noorderhart"
@@ -898,7 +913,8 @@
         "polyneuropathie",
         "dwarslaesie",
         "hersenletsel",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -957,7 +973,9 @@
         "acquired brain injury",
         "cerebral palsy",
         "multiple sclerosis",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -1014,7 +1032,9 @@
         "cerebral palsy",
         "multiple sclerosis",
         "parkinson",
-        "cva"
+        "cva",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -1064,7 +1084,8 @@
         "hersenletsel",
         "niet-aangeboren hersenletsel",
         "nah",
-        "cerebrale parese"
+        "cerebrale parese",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -1139,7 +1160,7 @@
     "contentType": "text/html",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "bolničku neuro-rehabilitaciju nakon moždanog udara | robotikom | 40 | Ljeskovac 12b | rehab | rehabilitacija | rehabilitacije | neuro | moždanog udara | clinic | klinik",
+    "evidence": "bolničku neuro-rehabilitaciju nakon moždanog udara | robotikom | 40 | Ljeskovac 12b | rehab | rehabilitacija | rehabilitacije | neuro | moždanog udara | als | clinic | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -1149,7 +1170,8 @@
       ],
       "neurological": [
         "neuro",
-        "moždanog udara"
+        "moždanog udara",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -1205,7 +1227,8 @@
         "parkinson",
         "neuromišičnim",
         "neuromišićnim",
-        "neurološka oboljenja"
+        "neurološka oboljenja",
+        "parkinson"
       ],
       "institution": [
         "clinic",
@@ -1292,7 +1315,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "specialists in the field of neurorehabilitation | specialized Rehabilitation Hospital | full spectrum of rehabilitation services | neurorehabilitation | rehabilitation | rehab | neuro | hospital | rehabilitation hospital",
+    "evidence": "specialists in the field of neurorehabilitation | specialized Rehabilitation Hospital | full spectrum of rehabilitation services | neurorehabilitation | rehabilitation | rehab | neuro | als | hospital | rehabilitation hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation"
@@ -1302,7 +1325,8 @@
         "rehab"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -1417,7 +1441,8 @@
         "živčanog sustava",
         "neurološkim bolestima",
         "cerebralnu paralizu",
-        "paraplegija"
+        "paraplegija",
+        "multiple skleroz"
       ],
       "institution": [
         "klinik",
@@ -1709,7 +1734,8 @@
         "posttraumatske lezije",
         "multipla skleroza",
         "parkinson",
-        "živčanog sustava"
+        "živčanog sustava",
+        "parkinson"
       ],
       "institution": [
         "klinik",
@@ -1753,7 +1779,8 @@
         "neurolog",
         "neuro",
         "spinal",
-        "živčanog sustava"
+        "živčanog sustava",
+        "inme"
       ],
       "institution": [
         "hospital",
@@ -1808,7 +1835,8 @@
         "multiple sclerosis",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson"
       ],
       "institution": []
     },
@@ -1854,7 +1882,8 @@
         "spinal cord",
         "spinal",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -1914,7 +1943,8 @@
         "mozková obrna",
         "mozkova obrna",
         "spinal",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": []
     },
@@ -1943,7 +1973,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorehabilitace | rehab | rehabilitace | neuro | kranioprogram",
+    "evidence": "neurorehabilitace | rehab | rehabilitace | neuro | kranioprogram | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitace"
@@ -1954,7 +1984,8 @@
       ],
       "neurological": [
         "neuro",
-        "kranioprogram"
+        "kranioprogram",
+        "als"
       ],
       "institution": []
     },
@@ -2005,7 +2036,8 @@
         "kranio-iktovy",
         "spinální",
         "spinalni",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": []
     },
@@ -2061,7 +2093,8 @@
         "kranioprogram",
         "spinální",
         "spinalni",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": []
     },
@@ -2207,7 +2240,8 @@
         "hjerne",
         "hjerneskade",
         "erhvervet hjerneskade",
-        "cerebral parese"
+        "cerebral parese",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -2462,7 +2496,8 @@
         "neuro",
         "hjerne",
         "hjerneskade",
-        "erhvervet hjerneskade"
+        "erhvervet hjerneskade",
+        "als"
       ],
       "institution": [
         "center"
@@ -2509,7 +2544,8 @@
         "neurolog",
         "neuro",
         "rygmarvsskade",
-        "rygmarvsskader"
+        "rygmarvsskader",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -2561,6 +2597,7 @@
         "sclerosis multiplex",
         "parkinsoni",
         "pci diagnoosiga",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -2590,7 +2627,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorehabilitatsioon | rehab | taastusravi | neuro | neuroloogiliste | neuroloogiline | centre",
+    "evidence": "neurorehabilitatsioon | rehab | taastusravi | neuro | neuroloogiliste | neuroloogiline | als | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitatsioon"
@@ -2602,7 +2639,8 @@
       "neurological": [
         "neuro",
         "neuroloogiliste",
-        "neuroloogiline"
+        "neuroloogiline",
+        "als"
       ],
       "institution": [
         "centre"
@@ -2638,7 +2676,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Taastusravikliinik | Tegeleme neuroloogiliste | statsionaarne taastusravikeskus | ambulatoorne taastusravikeskus | logopeed | taastusravi | neuro | neuroloogiliste",
+    "evidence": "Taastusravikliinik | Tegeleme neuroloogiliste | statsionaarne taastusravikeskus | ambulatoorne taastusravikeskus | logopeed | taastusravi | neuro | neuroloogiliste | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -2646,7 +2684,8 @@
       ],
       "neurological": [
         "neuro",
-        "neuroloogiliste"
+        "neuroloogiliste",
+        "als"
       ],
       "institution": []
     },
@@ -2889,7 +2928,8 @@
         "neuro",
         "selkäydinvamma",
         "selkaydinvamma",
-        "neurologinen sairaus"
+        "neurologinen sairaus",
+        "als"
       ],
       "institution": []
     },
@@ -3076,7 +3116,8 @@
         "accident vasculaire cérébral",
         "traumatisme crânien",
         "sclérose en plaques",
-        "lésions cérébrales"
+        "lésions cérébrales",
+        "parkinson"
       ],
       "institution": [
         "centre"
@@ -3112,7 +3153,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "rééducation | réadaptation | rééducation neurologique | rehabilitation | rehab | neurolog | neuro | hospital | centre",
+    "evidence": "rééducation | réadaptation | rééducation neurologique | rehabilitation | rehab | neurolog | neuro | als | hospital | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "rééducation neurologique"
@@ -3125,7 +3166,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -3573,7 +3615,8 @@
         "parkinson",
         "avc",
         "traumatismes crâniens",
-        "maladie de parkinson"
+        "maladie de parkinson",
+        "parkinson"
       ],
       "institution": [
         "centre"
@@ -3761,7 +3804,8 @@
         "traumatisme crânien",
         "sclérose en plaques",
         "maladie de parkinson",
-        "polyneuropathie"
+        "polyneuropathie",
+        "parkinson"
       ],
       "institution": [
         "hospital"
@@ -3946,7 +3990,7 @@
     "contentType": "text/html;charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | neuropsychologie | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "neurologie | neuropsychologie | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -3956,7 +4000,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -4008,7 +4053,8 @@
         "neurolog",
         "neuro",
         "stroke",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -4058,7 +4104,8 @@
         "neurolog",
         "neuro",
         "stroke",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -4093,7 +4140,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "neurologische rehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -4106,7 +4153,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -4141,7 +4189,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Zentrum für Neurorehabilitation | neurologische rehabilitation | querschnitt | neurorehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "Zentrum für Neurorehabilitation | neurologische rehabilitation | querschnitt | neurorehabilitation | neurologische reha | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation",
@@ -4155,7 +4203,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -4204,7 +4253,8 @@
         "neurolog",
         "neuro",
         "stroke",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -4239,7 +4289,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologische reha | beatmungsmedizin | medizinische rehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "neurologische reha | beatmungsmedizin | medizinische rehabilitation | neurologische rehabilitation | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -4252,7 +4302,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -4465,7 +4516,9 @@
         "multiple sklerose",
         "morbus parkinson",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -4502,7 +4555,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | intensivrehabilitation | rehabilitation | rehab | neurolog | neuro | nah | klinik | center",
+    "evidence": "neurologie | intensivrehabilitation | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | center",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -4512,7 +4565,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -4810,7 +4864,9 @@
         "multiple sclerosis",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -4894,7 +4950,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische frührehabilitation"
@@ -4906,7 +4962,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5054,7 +5111,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5103,7 +5161,9 @@
         "neuro",
         "morbus parkinson",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5197,7 +5257,9 @@
         "neurolog",
         "neuro",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5248,7 +5310,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5298,7 +5361,8 @@
         "neuro",
         "multiple sklerose",
         "multipler sklerose",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5334,7 +5398,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | rehabilitation | neurologische frührehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "neurologie | rehabilitation | neurologische frührehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische frührehabilitation"
@@ -5346,7 +5410,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5382,7 +5447,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | rehabilitation | neurologische frührehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "neurologie | rehabilitation | neurologische frührehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische frührehabilitation"
@@ -5394,7 +5459,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5446,7 +5512,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5498,7 +5565,8 @@
         "schlaganfall",
         "multiple sklerose",
         "multipler sklerose",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5546,7 +5614,8 @@
         "neuro",
         "schlaganfall",
         "multiple sklerose",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5622,7 +5691,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5673,7 +5743,9 @@
         "schlaganfall",
         "multiple sklerose",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5724,7 +5796,9 @@
         "neuro",
         "schlaganfall",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5775,7 +5849,9 @@
         "neuro",
         "schlaganfall",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5831,7 +5907,9 @@
         "schädel-hirn",
         "multiple sklerose",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -5867,7 +5945,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologische rehabilitation | phase b | phase c | phase d | neurologische reha | neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "neurologische rehabilitation | phase b | phase c | phase d | neurologische reha | neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische rehabilitation",
@@ -5881,7 +5959,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -5937,7 +6016,9 @@
         "multiple sklerose",
         "parkinson",
         "polyneuropathie",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -5974,7 +6055,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "intensivmedizin | neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | klinik",
+    "evidence": "intensivmedizin | neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologische frührehabilitation"
@@ -5986,7 +6067,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -6022,14 +6104,15 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | neurolog | neuro | nah | klinik",
+    "evidence": "neurologie | neurolog | neuro | nah | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [],
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -6065,7 +6148,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | neurochirurgie | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "neurologie | neurochirurgie | rehabilitation | rehab | neurolog | neuro | nah | als | klinik | zentrum",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -6075,7 +6158,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -6126,7 +6210,9 @@
         "stroke",
         "cerebrovascular",
         "multiple sclerosis",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -6177,7 +6263,8 @@
         "spinal",
         "brain injury",
         "cerebral palsy",
-        "multiple sclerosis"
+        "multiple sclerosis",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -6267,7 +6354,8 @@
         "stroke",
         "sclerosis multiplex",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -6321,7 +6409,9 @@
         "sclerosis multiplex",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -6355,7 +6445,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Orvosi Rehabilitáció és Fizikális Medicina Klinika | 110 ágyas fekvő | 18 ágyas nappali ellátó | agysérült és a traumás betegeket rehabilitációja | krónikus neurológiai | orvosi rehabilitáció | rehab | rehabilitáció | neurolog | neuro | stroke | clinic | klinik",
+    "evidence": "Orvosi Rehabilitáció és Fizikális Medicina Klinika | 110 ágyas fekvő | 18 ágyas nappali ellátó | agysérült és a traumás betegeket rehabilitációja | krónikus neurológiai | orvosi rehabilitáció | rehab | rehabilitáció | neurolog | neuro | stroke | als | clinic | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "orvosi rehabilitáció",
@@ -6368,7 +6458,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -6404,7 +6495,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neurological rehabilitation | continued rehabilitation or medical treatment | reduced physical or cognitive function | focus is on activity and participation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | hospital",
+    "evidence": "Neurological rehabilitation | continued rehabilitation or medical treatment | reduced physical or cognitive function | focus is on activity and participation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | als | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurological rehabilitation"
@@ -6415,7 +6506,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -6449,7 +6541,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "interdisciplinary rehabilitation programmes | neurological | inpatients or outpatients | Teams within each rehabilitation area | rehabilitation | rehab | neurolog | neuro",
+    "evidence": "interdisciplinary rehabilitation programmes | neurological | inpatients or outpatients | Teams within each rehabilitation area | rehabilitation | rehab | neurolog | neuro | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -6458,7 +6550,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": []
     },
@@ -6492,7 +6585,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Other Neurological and Neurodegenerative Disorders | Rare Neurological Diseases | long-term or rehabilitative care provision | specialising in the provision of care | Stocking Lane | rehabilitation | rehab | neurolog | neuro | hospital",
+    "evidence": "Other Neurological and Neurodegenerative Disorders | Rare Neurological Diseases | long-term or rehabilitative care provision | specialising in the provision of care | Stocking Lane | rehabilitation | rehab | neurolog | neuro | als | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -6501,7 +6594,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -6549,7 +6643,8 @@
         "spinal cord",
         "spinal",
         "brain injury",
-        "acquired brain injury"
+        "acquired brain injury",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -6599,7 +6694,8 @@
         "neurolog",
         "neuro",
         "stroke",
-        "brain injury"
+        "brain injury",
+        "als"
       ],
       "institution": [
         "centre"
@@ -6770,7 +6866,8 @@
         "neurolog",
         "neuro",
         "ictus",
-        "lesioni midollari"
+        "lesioni midollari",
+        "als"
       ],
       "institution": [
         "centro"
@@ -6812,6 +6909,7 @@
         "neuro",
         "ictus",
         "spinal",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -6854,7 +6952,8 @@
         "neuro",
         "ictus",
         "parkinson",
-        "lesioni midollari"
+        "lesioni midollari",
+        "parkinson"
       ],
       "institution": [
         "hospital",
@@ -6903,7 +7002,8 @@
         "neuro",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson"
       ],
       "institution": [
         "centro"
@@ -6931,7 +7031,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "riabilitazione | neurolog | neuro | clinic | centro",
+    "evidence": "riabilitazione | neurolog | neuro | inme | clinic | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -6939,7 +7039,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "inme"
       ],
       "institution": [
         "clinic",
@@ -7003,7 +7104,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "riabilitazione | neurolog | neuro",
+    "evidence": "riabilitazione | neurolog | neuro | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -7011,7 +7112,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": []
     },
@@ -7037,14 +7139,15 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "riabilitazione | neuro",
+    "evidence": "riabilitazione | neuro | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "riabilitazione"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": []
     },
@@ -7070,14 +7173,15 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "riabilitazione | neuro | centro",
+    "evidence": "riabilitazione | neuro | als | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "riabilitazione"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "centro"
@@ -7114,7 +7218,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Riabilitazione neuromotoria | Gravi cerebrolesioni | Riabilitazione spinale | Stati vegetativi persistenti | riabilitazione | neuro | spinal | clinic",
+    "evidence": "Riabilitazione neuromotoria | Gravi cerebrolesioni | Riabilitazione spinale | Stati vegetativi persistenti | riabilitazione | neuro | spinal | als | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -7122,7 +7226,8 @@
       ],
       "neurological": [
         "neuro",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -7150,7 +7255,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "riabilitazione | neurolog | neuro | clinic",
+    "evidence": "riabilitazione | neurolog | neuro | als | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -7158,7 +7263,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -7209,7 +7315,8 @@
         "spinal",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson"
       ],
       "institution": []
     },
@@ -7246,6 +7353,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -7387,7 +7495,8 @@
         "neuro",
         "ictus",
         "parkinson",
-        "lesioni midollari"
+        "lesioni midollari",
+        "parkinson"
       ],
       "institution": [
         "hospital",
@@ -7424,14 +7533,16 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "nervu slimību | rehabilitācija | neiromuskulāras un demielinizējošas slimības | nervu sistēmas traumu sekas | 2000 pacienti | rehab | rehabilitacija | klinik | klinika",
+    "evidence": "nervu slimību | rehabilitācija | neiromuskulāras un demielinizējošas slimības | nervu sistēmas traumu sekas | 2000 pacienti | rehab | rehabilitacija | als | klinik | klinika",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehab",
         "rehabilitacija"
       ],
-      "neurological": [],
+      "neurological": [
+        "als"
+      ],
       "institution": [
         "klinik",
         "klinika"
@@ -7467,14 +7578,16 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neiroloģisku | subakūtās medicīniskās rehabilitācijas pakalpojumi | augstu intensitāti | ilgtermiņa rehabilitācijas pakalpojumi | hroniskiem funkcionēšanas traucējumiem | rehab | rehabilitacija",
+    "evidence": "neiroloģisku | subakūtās medicīniskās rehabilitācijas pakalpojumi | augstu intensitāti | ilgtermiņa rehabilitācijas pakalpojumi | hroniskiem funkcionēšanas traucējumiem | rehab | rehabilitacija | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehab",
         "rehabilitacija"
       ],
-      "neurological": [],
+      "neurological": [
+        "als"
+      ],
       "institution": []
     },
     "title": "Stacionārā rehabilitācijas nodaļa"
@@ -7507,7 +7620,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Spinālo pacientu rehabilitācija | Neirorehablitācija | Stacionārā rehabilitācija | Ambulatorā rehabilitācija | Lokomat Pro | neirorehabilitācija | neirorehabilitacija | rehab | rehabilitacija | spinal | centre",
+    "evidence": "Spinālo pacientu rehabilitācija | Neirorehablitācija | Stacionārā rehabilitācija | Ambulatorā rehabilitācija | Lokomat Pro | neirorehabilitācija | neirorehabilitacija | rehab | rehabilitacija | spinal | als | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neirorehabilitācija",
@@ -7518,7 +7631,8 @@
         "rehabilitacija"
       ],
       "neurological": [
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "centre"
@@ -7554,7 +7668,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Insulta vienība | fizioterapijas un ergoterapijas iespējas | agrīnā perioda rehabilitācija | valodas traucējumu korekcija | Multiplās sklerozes centrs | neiroloģisko slimību | rehab | rehabilitacija | klinik | klinika",
+    "evidence": "Insulta vienība | fizioterapijas un ergoterapijas iespējas | agrīnā perioda rehabilitācija | valodas traucējumu korekcija | Multiplās sklerozes centrs | neiroloģisko slimību | rehab | rehabilitacija | als | klinik | klinika",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neiroloģisko slimību"
@@ -7563,7 +7677,9 @@
         "rehab",
         "rehabilitacija"
       ],
-      "neurological": [],
+      "neurological": [
+        "als"
+      ],
       "institution": [
         "klinik",
         "klinika"
@@ -7599,7 +7715,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Insulta pacientu rehabilitācijas programma | Pacientu ar neirodeģeneratīvām slimībām rehabilitācijas programma | Neiro-onkoloģisko pacientu rehabilitācijas programma | neiroloģiskiem traucējumiem | Rehabilitācijas diennakts stacionārs | insulta pacientu rehabilitācijas programma | neirodeģeneratīvām slimībām | neiro-onkoloģisko pacientu rehabilitācijas programma | rehab | rehabilitacija | tce | klinik | klinika",
+    "evidence": "Insulta pacientu rehabilitācijas programma | Pacientu ar neirodeģeneratīvām slimībām rehabilitācijas programma | Neiro-onkoloģisko pacientu rehabilitācijas programma | neiroloģiskiem traucējumiem | Rehabilitācijas diennakts stacionārs | insulta pacientu rehabilitācijas programma | neirodeģeneratīvām slimībām | neiro-onkoloģisko pacientu rehabilitācijas programma | rehab | rehabilitacija | tce | als | klinik | klinika",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "insulta pacientu rehabilitācijas programma",
@@ -7611,7 +7727,8 @@
         "rehabilitacija"
       ],
       "neurological": [
-        "tce"
+        "tce",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -7694,7 +7811,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Neuroreabilitacijos skyrius | stacionarines III lygio paslaugas | po galvos ir nugaros smegenų traumų | kraujotakos sutrikimų | degeneracinių nervų sistemos ligų | neuroreabilitacijos | neurologinių ligonių reabilitacija | nervų sistemos ligų | nervu sistemos ligu | galvos smegenų traumų | rehabilitation | rehab | reabilitacija | reabilitacijos | neurolog | neuro | klinik | klinika",
+    "evidence": "Neuroreabilitacijos skyrius | stacionarines III lygio paslaugas | po galvos ir nugaros smegenų traumų | kraujotakos sutrikimų | degeneracinių nervų sistemos ligų | neuroreabilitacijos | neurologinių ligonių reabilitacija | nervų sistemos ligų | nervu sistemos ligu | galvos smegenų traumų | rehabilitation | rehab | reabilitacija | reabilitacijos | neurolog | neuro | als | klinik | klinika",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neuroreabilitacijos",
@@ -7711,7 +7828,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -7772,6 +7890,7 @@
         "neuro",
         "spinal",
         "parkinsoni",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -8049,6 +8168,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -8143,6 +8263,7 @@
         "moždanog udara",
         "spinal",
         "multipla skleroza",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -8199,7 +8320,9 @@
         "hersenletsel",
         "multiple sclerose",
         "neuromusculaire aandoening",
-        "cerebrale parese"
+        "cerebrale parese",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -8234,7 +8357,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Basalt biedt neurorevalidatie aan op de locaties | Leiden (kliniek en polikliniek) | Kliniek | neurorevalidatie | revalidatie | neuro",
+    "evidence": "Basalt biedt neurorevalidatie aan op de locaties | Leiden (kliniek en polikliniek) | Kliniek | neurorevalidatie | revalidatie | neuro | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorevalidatie"
@@ -8243,7 +8366,8 @@
         "revalidatie"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": []
     },
@@ -8296,7 +8420,8 @@
         "cerebrale parese",
         "spina bifida",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": []
     },
@@ -8345,7 +8470,8 @@
         "niet-aangeboren hersenletsel",
         "nah",
         "multiple sclerose",
-        "cerebrale parese"
+        "cerebrale parese",
+        "als"
       ],
       "institution": [
         "kliniek"
@@ -8397,7 +8523,9 @@
         "niet-aangeboren hersenletsel",
         "nah",
         "neuromusculaire aandoening",
-        "neuromusculaire aandoeningen"
+        "neuromusculaire aandoeningen",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -8444,7 +8572,8 @@
         "neuro",
         "tce",
         "hersenletsel",
-        "langdurige bewustzijnsstoornis"
+        "langdurige bewustzijnsstoornis",
+        "als"
       ],
       "institution": [
         "kliniek"
@@ -8495,7 +8624,8 @@
         "tce",
         "beroerte",
         "hersenletsel",
-        "langdurige bewustzijnsstoornis"
+        "langdurige bewustzijnsstoornis",
+        "als"
       ],
       "institution": [
         "kliniek"
@@ -8532,7 +8662,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Niet Aangeboren Hersenletsel | revalidatiearts | klinische of poliklinische behandeling | afasieteam | spasticiteit | klinische behandeling | revalidatie | neuro | hersenletsel | nah",
+    "evidence": "Niet Aangeboren Hersenletsel | revalidatiearts | klinische of poliklinische behandeling | afasieteam | spasticiteit | klinische behandeling | revalidatie | neuro | hersenletsel | nah | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -8541,7 +8671,8 @@
       "neurological": [
         "neuro",
         "hersenletsel",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": []
     },
@@ -8575,7 +8706,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "hersenletsel (NAH) | spasticiteit | kinderen, jongeren en volwassenen | klinische revalidatiemogelijkheden | specialist in revalidatie | revalidatie | beroerte | hersenletsel | nah",
+    "evidence": "hersenletsel (NAH) | spasticiteit | kinderen, jongeren en volwassenen | klinische revalidatiemogelijkheden | specialist in revalidatie | revalidatie | beroerte | hersenletsel | nah | als",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -8584,7 +8715,8 @@
       "neurological": [
         "beroerte",
         "hersenletsel",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": []
     },
@@ -8635,7 +8767,9 @@
         "dwarslaesie",
         "beroerte",
         "herseninfarct",
-        "hersenletsel"
+        "hersenletsel",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -8686,7 +8820,9 @@
         "multiple sclerose",
         "spierziekten",
         "cerebrale parese",
-        "spina bifida"
+        "spina bifida",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -8741,7 +8877,9 @@
         "neuromusculaire aandoening",
         "neuromusculaire aandoeningen",
         "cerebrale parese",
-        "spina bifida"
+        "spina bifida",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -8797,7 +8935,9 @@
         "spierziekten",
         "zenuwziekten",
         "cerebrale parese",
-        "spina bifida"
+        "spina bifida",
+        "inme",
+        "als"
       ],
       "institution": [
         "kliniek"
@@ -8849,7 +8989,8 @@
         "niet-aangeboren hersenletsel",
         "multiple sclerose",
         "spierziekten",
-        "cerebrale parese"
+        "cerebrale parese",
+        "als"
       ],
       "institution": []
     },
@@ -8944,7 +9085,8 @@
         "ryggmargsskade",
         "nevromuskulær",
         "nevromuskulære",
-        "avh"
+        "avh",
+        "als"
       ],
       "institution": []
     },
@@ -8979,7 +9121,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Parkinsonrehabilitering | Individuell døgnrehabilitering | Døgnrehabilitering LSVT-BIG | Dagtilbud | lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut | Nordre Ringsveg 82 | dagrehabilitering | rehab | rehabilitering | parkinson",
+    "evidence": "Parkinsonrehabilitering | Individuell døgnrehabilitering | Døgnrehabilitering LSVT-BIG | Dagtilbud | lege, nevrolog, sykepleier, fysioterapeut og ergoterapeut | Nordre Ringsveg 82 | dagrehabilitering | rehab | rehabilitering | parkinson | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "dagrehabilitering"
@@ -8990,7 +9132,9 @@
         "dagrehabilitering"
       ],
       "neurological": [
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -9039,7 +9183,8 @@
         "hjerneslag",
         "hjerne",
         "hjerneskade",
-        "intensiv gangtrening"
+        "intensiv gangtrening",
+        "als"
       ],
       "institution": []
     },
@@ -9218,6 +9363,7 @@
         "hjernerystelse",
         "ervervet hjerneskade",
         "nevromuskulær",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -9358,6 +9504,7 @@
         "traumatiske hjerneskader",
         "nevromuskulær",
         "multippel sklerose",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -9416,7 +9563,9 @@
         "intensiv håndtrening",
         "intensiv handtrening",
         "intensiv gangtrening",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -9467,7 +9616,8 @@
         "traumatisk hjerneskade",
         "traumatisk hjerneskade",
         "nevromuskulær",
-        "nevromuskulære"
+        "nevromuskulære",
+        "als"
       ],
       "institution": []
     },
@@ -9570,7 +9720,9 @@
         "urazy mózgowo-czaszkowe",
         "urazach czaszkowo-mózgowych",
         "parkinson",
-        "choroba parkinsona"
+        "choroba parkinsona",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -9622,7 +9774,8 @@
         "urazy mózgowo-czaszkowe",
         "urazach czaszkowo-mózgowych",
         "parkinson",
-        "choroba parkinsona"
+        "choroba parkinsona",
+        "parkinson"
       ],
       "institution": []
     },
@@ -9686,7 +9839,9 @@
         "chorobie parkinsona",
         "niedowład",
         "porażenie",
-        "porażeniem"
+        "porażeniem",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -9851,7 +10006,8 @@
         "sclerose",
         "parkinsoni",
         "parkinson",
-        "avc"
+        "avc",
+        "parkinson"
       ],
       "institution": [
         "clinic"
@@ -9886,7 +10042,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "recuperare neuropsihomotorie a copilului | spital clinic tip monospecialitate | recuperarea robotizata a membrelor | terapie ocupationala | hidroterapie | recuperare neuropsihomotorie | neurolog | neuro | hemipareze | clinic",
+    "evidence": "recuperare neuropsihomotorie a copilului | spital clinic tip monospecialitate | recuperarea robotizata a membrelor | terapie ocupationala | hidroterapie | recuperare neuropsihomotorie | neurolog | neuro | hemipareze | als | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "recuperare neuropsihomotorie"
@@ -9895,7 +10051,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "hemipareze"
+        "hemipareze",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -10082,7 +10239,8 @@
         "parkinson",
         "avc",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson"
       ],
       "institution": [
         "clinic"
@@ -10173,6 +10331,7 @@
       "neurological": [
         "neurolog",
         "neuro",
+        "parkinson",
         "parkinson"
       ],
       "institution": []
@@ -10255,7 +10414,8 @@
         "neurolog",
         "neuro",
         "cerebralnu paralizu",
-        "cva"
+        "cva",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -10288,7 +10448,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "habilitating children with cerebral palsy | neurodevelopmental conditions | Day Hospital | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | cerebral palsy | hospital | center",
+    "evidence": "habilitating children with cerebral palsy | neurodevelopmental conditions | Day Hospital | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | cerebral palsy | als | hospital | center",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation"
@@ -10300,7 +10460,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "cerebral palsy"
+        "cerebral palsy",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -10353,7 +10514,8 @@
         "stroke",
         "spinal cord",
         "spinal",
-        "cerebral palsy"
+        "cerebral palsy",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -10409,7 +10571,8 @@
         "neuro",
         "cmp",
         "spinal",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": []
     },
@@ -10712,7 +10875,8 @@
         "spinal cord",
         "spinal",
         "brain injury",
-        "multiple sclerosis"
+        "multiple sclerosis",
+        "als"
       ],
       "institution": []
     },
@@ -10810,6 +10974,8 @@
         "ictus",
         "tce",
         "cerebrovascular",
+        "parkinson",
+        "inme",
         "parkinson"
       ],
       "institution": [
@@ -10847,7 +11013,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "daño cerebral | unidad | rehab | rehabilitación | rehabilitáció | neuro | hospital | clinic",
+    "evidence": "daño cerebral | unidad | rehab | rehabilitación | rehabilitáció | neuro | als | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -10856,7 +11022,8 @@
         "rehabilitáció"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -10896,7 +11063,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Unidad de Daño Cerebral | neurorehabilitación | neurorrehabilitación | ictus | traumatismo craneoencefálico | lesión medular | hospitalización | neurorehabilitáció | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
+    "evidence": "Unidad de Daño Cerebral | neurorehabilitación | neurorrehabilitación | ictus | traumatismo craneoencefálico | lesión medular | hospitalización | neurorehabilitáció | rehab | rehabilitación | rehabilitáció | neurolog | neuro | als | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación",
@@ -10910,7 +11077,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "ictus"
+        "ictus",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -10966,6 +11134,8 @@
         "ictus",
         "tce",
         "cerebrovascular",
+        "parkinson",
+        "inme",
         "parkinson"
       ],
       "institution": [
@@ -11022,6 +11192,7 @@
         "ictus",
         "tce",
         "cerebrovascular",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -11077,7 +11248,10 @@
         "ictus",
         "tce",
         "cerebrovascular",
-        "parkinson"
+        "parkinson",
+        "inme",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -11139,7 +11313,9 @@
         "parkinson",
         "polineuropatia",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "inme",
+        "parkinson"
       ],
       "institution": [
         "hospital",
@@ -11172,7 +11348,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehab | rehabilitación | rehabilitáció | neuro | hospital",
+    "evidence": "rehab | rehabilitación | rehabilitáció | neuro | inme | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -11181,7 +11357,8 @@
         "rehabilitáció"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "inme"
       ],
       "institution": [
         "hospital"
@@ -11270,6 +11447,7 @@
         "neurolog",
         "neuro",
         "ictus",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -11302,7 +11480,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | inme | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
@@ -11314,7 +11492,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "inme"
       ],
       "institution": [
         "hospital",
@@ -11345,7 +11524,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | ictus | hospital | centro",
+    "evidence": "neurorrehabilitación | rehab | rehabilitación | rehabilitáció | neurolog | neuro | ictus | inme | hospital | centro",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorrehabilitación"
@@ -11358,7 +11537,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "ictus"
+        "ictus",
+        "inme"
       ],
       "institution": [
         "hospital",
@@ -11597,7 +11777,8 @@
         "ictus",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson"
       ],
       "institution": [
         "hospital",
@@ -11653,6 +11834,7 @@
         "neuro",
         "ictus",
         "cerebrovascular",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -11864,7 +12046,8 @@
         "neurologiska skador",
         "neurologiska skador och sjukdomar",
         "nervsystemet",
-        "multipel skleros"
+        "multipel skleros",
+        "als"
       ],
       "institution": [
         "center"
@@ -11900,7 +12083,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Aleris Rehab Station Planerad neurologisk rehab Liljeholmen | specialiserade på rehab för dig med MS | annan neurologisk diagnos | dagrehab | Neurologisk rehabilitering | neurologisk rehabilitering | planerad neurologisk rehab | rehab | rehabilitering | neurolog | neuro | stroke",
+    "evidence": "Aleris Rehab Station Planerad neurologisk rehab Liljeholmen | specialiserade på rehab för dig med MS | annan neurologisk diagnos | dagrehab | Neurologisk rehabilitering | neurologisk rehabilitering | planerad neurologisk rehab | rehab | rehabilitering | neurolog | neuro | stroke | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
@@ -11914,7 +12097,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": []
     },
@@ -11973,7 +12157,8 @@
         "ryggmärgsskada",
         "ryggmargsskada",
         "neurologiska skador",
-        "neurologiska skador och sjukdomar"
+        "neurologiska skador och sjukdomar",
+        "als"
       ],
       "institution": []
     },
@@ -12006,7 +12191,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Avdelning 134 Ryggmärgsskador | Göteborg | Rehabiliteringsmedicin | Bruna stråket 5 | rehabiliteringsmedicin | rehab | rehabilitering | ryggmärgsskador | ryggmargsskador",
+    "evidence": "Avdelning 134 Ryggmärgsskador | Göteborg | Rehabiliteringsmedicin | Bruna stråket 5 | rehabiliteringsmedicin | rehab | rehabilitering | ryggmärgsskador | ryggmargsskador | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "rehabiliteringsmedicin"
@@ -12017,7 +12202,8 @@
       ],
       "neurological": [
         "ryggmärgsskador",
-        "ryggmargsskador"
+        "ryggmargsskador",
+        "als"
       ],
       "institution": []
     },
@@ -12073,7 +12259,8 @@
         "ryggmärgsskada",
         "ryggmargsskada",
         "ryggmärgsskador",
-        "ryggmargsskador"
+        "ryggmargsskador",
+        "als"
       ],
       "institution": []
     },
@@ -12107,7 +12294,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Bragée Neurologisk rehabilitering | neurologisk rehabilitering | rehabilitering vid stroke | läkare, fysioterapeuter, psykologer, sjuksköterskor, logoped och dietist | dagrehabilitering | rehab | rehabilitering | neurolog | neuro | stroke",
+    "evidence": "Bragée Neurologisk rehabilitering | neurologisk rehabilitering | rehabilitering vid stroke | läkare, fysioterapeuter, psykologer, sjuksköterskor, logoped och dietist | dagrehabilitering | rehab | rehabilitering | neurolog | neuro | stroke | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
@@ -12122,7 +12309,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": []
     },
@@ -12176,7 +12364,9 @@
         "förvärvad hjärnskada",
         "forvarvad hjarnskada",
         "parkinsons sjukdom",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -12210,7 +12400,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Furuhöjden Rehabilitering | inneliggande neurologisk rehabilitering | Region Stockholm | Neurologisk rehabilitering | rehabilitering vid stroke | neurologisk rehabilitering | rehab | rehabilitering | inneliggande rehabilitering | neurolog | neuro | stroke",
+    "evidence": "Furuhöjden Rehabilitering | inneliggande neurologisk rehabilitering | Region Stockholm | Neurologisk rehabilitering | rehabilitering vid stroke | neurologisk rehabilitering | rehab | rehabilitering | inneliggande rehabilitering | neurolog | neuro | stroke | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
@@ -12224,7 +12414,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": []
     },
@@ -12275,7 +12466,8 @@
         "hjärnskada",
         "hjarnskada",
         "förvärvad hjärnskada",
-        "forvarvad hjarnskada"
+        "forvarvad hjarnskada",
+        "als"
       ],
       "institution": []
     },
@@ -12309,7 +12501,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Hjärnskaderehabilitering mottagning Huddinge | Danderyds sjukhus | Neurologisk rehabilitering | Rehabiliteringsmedicin | Blickagången 6D | neurologisk rehabilitering | rehabiliteringsmedicin | rehab | rehabilitering | neurolog | neuro | stroke",
+    "evidence": "Hjärnskaderehabilitering mottagning Huddinge | Danderyds sjukhus | Neurologisk rehabilitering | Rehabiliteringsmedicin | Blickagången 6D | neurologisk rehabilitering | rehabiliteringsmedicin | rehab | rehabilitering | neurolog | neuro | stroke | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurologisk rehabilitering",
@@ -12323,7 +12515,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": []
     },
@@ -12374,6 +12567,7 @@
         "neuro",
         "stroke",
         "polio",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -12434,7 +12628,9 @@
         "forvarvad hjarnskada",
         "nervsystemet",
         "parkinsons sjukdom",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -12482,7 +12678,8 @@
         "hjärnskada",
         "hjarnskada",
         "ryggmärgsskada",
-        "ryggmargsskada"
+        "ryggmargsskada",
+        "als"
       ],
       "institution": []
     },
@@ -12540,7 +12737,8 @@
         "ryggmärgsskador",
         "ryggmargsskador",
         "hjärnskador",
-        "hjarnskador"
+        "hjarnskador",
+        "als"
       ],
       "institution": []
     },
@@ -12589,7 +12787,8 @@
         "ryggmargsskador",
         "hjärnskador",
         "hjarnskador",
-        "neurologiska sjukdomar"
+        "neurologiska sjukdomar",
+        "als"
       ],
       "institution": []
     },
@@ -12638,7 +12837,8 @@
         "neurolog",
         "neuro",
         "hjärnskada",
-        "hjarnskada"
+        "hjarnskada",
+        "als"
       ],
       "institution": []
     },
@@ -12688,7 +12888,8 @@
         "stroke",
         "hjärnskador",
         "hjarnskador",
-        "neurologiska skador"
+        "neurologiska skador",
+        "als"
       ],
       "institution": []
     },
@@ -12734,7 +12935,8 @@
         "neuro",
         "stroke",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": []
     },
@@ -12789,7 +12991,8 @@
         "ryggmärgsskada",
         "ryggmargsskada",
         "neurologiska sjukdomar",
-        "nervsystemet"
+        "nervsystemet",
+        "als"
       ],
       "institution": []
     },
@@ -12821,7 +13024,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Ryggmärgsskadeteam | Smärt- och rehabiliteringsmedicinska kliniken | Universitetssjukhuset, Linköping | rehabiliteringsmedicin | rehab | rehabilitering | ryggmargsskade | ryggmärgsskada | ryggmargsskada | klinik",
+    "evidence": "Ryggmärgsskadeteam | Smärt- och rehabiliteringsmedicinska kliniken | Universitetssjukhuset, Linköping | rehabiliteringsmedicin | rehab | rehabilitering | ryggmargsskade | ryggmärgsskada | ryggmargsskada | als | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "rehabiliteringsmedicin"
@@ -12833,7 +13036,8 @@
       "neurological": [
         "ryggmargsskade",
         "ryggmärgsskada",
-        "ryggmargsskada"
+        "ryggmargsskada",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -12886,7 +13090,8 @@
         "hjärnskada",
         "hjarnskada",
         "ryggmärgsskada",
-        "ryggmargsskada"
+        "ryggmargsskada",
+        "als"
       ],
       "institution": []
     },
@@ -12940,7 +13145,8 @@
         "förvärvad hjärnskada",
         "forvarvad hjarnskada",
         "hjärnskador",
-        "hjarnskador"
+        "hjarnskador",
+        "als"
       ],
       "institution": []
     },
@@ -12969,14 +13175,15 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "weak",
     "qualifying": false,
-    "evidence": "neuro | spinal cord | spinal | hospital | clinic",
+    "evidence": "neuro | spinal cord | spinal | als | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [],
       "neurological": [
         "neuro",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -13029,7 +13236,9 @@
         "neuro",
         "schlaganfall",
         "multiple sklerose",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik"
@@ -13079,6 +13288,7 @@
         "neuro",
         "ictus",
         "spinal",
+        "parkinson",
         "parkinson"
       ],
       "institution": [
@@ -13178,7 +13388,9 @@
         "neurolog",
         "neuro",
         "parkinson",
-        "maladie de parkinson"
+        "maladie de parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "centre"
@@ -13259,7 +13471,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | nah | clinic | klinik",
+    "evidence": "rehabilitation | rehab | nah | als | clinic | klinik",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -13267,7 +13479,8 @@
         "rehab"
       ],
       "neurological": [
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -13321,7 +13534,8 @@
         "neurolog",
         "neuro",
         "cerebral palsy",
-        "multiple sclerosis"
+        "multiple sclerosis",
+        "als"
       ],
       "institution": [
         "clinic"
@@ -13372,7 +13586,8 @@
         "neurolog",
         "neuro",
         "schlaganfall",
-        "nah"
+        "nah",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -13420,7 +13635,9 @@
         "neuro",
         "rückenmark",
         "parkinson",
-        "nah"
+        "nah",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -13468,7 +13685,9 @@
         "neuro",
         "multiple sklerose",
         "multipler sklerose",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "klinik",
@@ -13500,7 +13719,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Globally unique network of services | rehabilitation | rehab | spinal cord | spinal | centre",
+    "evidence": "Globally unique network of services | rehabilitation | rehab | spinal cord | spinal | als | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -13509,13 +13728,262 @@
       ],
       "neurological": [
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "centre"
       ]
     },
     "title": "Schweizer Paraplegiker-Gruppe | We support people with spinal cord injuries."
+  },
+  {
+    "name": "Ankara Gaziler Physical Medicine and Rehabilitation Hospital Neurological Rehabilitation Unit",
+    "country": "Turkey",
+    "city": "Ankara",
+    "region": "Ankara Province",
+    "url": "https://gazilerftr.saglik.gov.tr/TR-646704/norolojik-rehabilitasyon-unitesi.html",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | turkey-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Ankara Gaziler FTR Hospital neurological rehabilitation unit page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Ankara Gaziler FTR Hospital information identifies a neurological rehabilitation unit serving inpatients in the stroke, spinal cord injury and acute rehabilitation services.",
+      "Official hospital information describes a 210-bed rehabilitation clinic, early rehabilitation for spinal cord and traumatic brain injury, and dedicated stroke and spinal injury rehabilitation clinics.",
+      "A specialist public hospital in Ankara with neurological rehabilitation for stroke, spinal cord injury and traumatic brain injury.",
+      "Ospedale pubblico specialistico di Ankara con unita di riabilitazione neurologica per ictus, lesioni midollari e trauma cranico.",
+      "Nörolojik Rehabilitasyon Ünitesi",
+      "İnme",
+      "Omurilik Hasarı",
+      "Akut Rehabilitasyon"
+    ],
+    "status": 200,
+    "finalUrl": "https://gazilerftr.saglik.gov.tr/TR-646704/norolojik-rehabilitasyon-unitesi.html",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nörolojik Rehabilitasyon Ünitesi | İnme | Omurilik Hasarı | Akut Rehabilitasyon | nörolojik rehabilitasyon | inme rehabilitasyonu | rehabilitation | rehab | rehabilitasyon | spinal | inme | felç | omurilik yaralanması | hospital | rehabilitation hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nörolojik rehabilitasyon",
+        "inme rehabilitasyonu"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab",
+        "rehabilitasyon"
+      ],
+      "neurological": [
+        "spinal",
+        "inme",
+        "felç",
+        "omurilik yaralanması",
+        "als"
+      ],
+      "institution": [
+        "hospital",
+        "rehabilitation hospital"
+      ]
+    },
+    "title": "Nörolojik Rehabilitasyon Ünitesi"
+  },
+  {
+    "name": "Giresun Physical Therapy and Rehabilitation Centre Neurological Rehabilitation Unit",
+    "country": "Turkey",
+    "city": "Giresun",
+    "region": "Giresun Province",
+    "url": "https://giresunftr.saglik.gov.tr/TR-552841/norolojik-rehabilitasyon-salonu.html",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | turkey-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Giresun FTR Centre neurological rehabilitation unit page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Giresun FTR Centre page describes a 600-square-metre neurological rehabilitation unit staffed by 13 physiotherapists.",
+      "The unit treats spinal cord injury, stroke, muscle disease, multiple sclerosis, Parkinson disease and Alzheimer disease, and includes upper-limb robotic rehabilitation equipment.",
+      "A public rehabilitation centre in Giresun with a neurological unit for stroke, spinal cord injury, MS, Parkinson disease and muscle disease, including upper-limb rehabilitation robotics.",
+      "Centro pubblico di riabilitazione a Giresun con unita neurologica per ictus, lesioni midollari, SM, Parkinson e malattie muscolari, dotata di robotica per arto superiore.",
+      "Nörolojik Rehabilitasyon",
+      "600 metre karelik",
+      "robotik rehabilitasyon",
+      "spinal kord yaralanmaları",
+      "multipleskleroz"
+    ],
+    "status": 200,
+    "finalUrl": "https://giresunftr.saglik.gov.tr/TR-552841/norolojik-rehabilitasyon-salonu.html",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nörolojik Rehabilitasyon | 600 metre karelik | robotik rehabilitasyon | spinal kord yaralanmaları | multipleskleroz | nörolojik rehabilitasyon | rehab | rehabilitasyon | spinal | parkinson | inme | klinik | centre",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nörolojik rehabilitasyon"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitasyon"
+      ],
+      "neurological": [
+        "spinal",
+        "parkinson",
+        "inme",
+        "parkinson"
+      ],
+      "institution": [
+        "klinik",
+        "centre"
+      ]
+    },
+    "title": "Nörolojik Rehabilitasyon Salonu"
+  },
+  {
+    "name": "Hacettepe University Neurological Rehabilitation Unit",
+    "country": "Turkey",
+    "city": "Ankara",
+    "region": "Ankara Province",
+    "url": "https://www.nru.hacettepe.edu.tr/tr/hakkimizda",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | turkey-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Hacettepe University Neurological Rehabilitation Unit page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Hacettepe University page identifies the Neurological Rehabilitation Unit as a national reference centre that accepts patients from across Turkey.",
+      "The unit provides physiotherapy and rehabilitation for neuromuscular disease, stroke, multiple sclerosis, Parkinson disease and motor neuron disease.",
+      "A national university reference unit in Ankara for outpatient neurological rehabilitation in stroke, MS, Parkinson disease, neuromuscular and motor neuron disease.",
+      "Unita universitaria di riferimento nazionale ad Ankara per la riabilitazione neurologica ambulatoriale in ictus, SM, Parkinson, malattie neuromuscolari e del motoneurone.",
+      "NÖROLOJİK REHABİLİTASYON ünitesi",
+      "İnme",
+      "Multiple Skleroz",
+      "Parkinson hastalığı",
+      "hasta kabul eden"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.nru.hacettepe.edu.tr/tr/hakkimizda",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "NÖROLOJİK REHABİLİTASYON ünitesi | İnme | Multiple Skleroz | Parkinson hastalığı | hasta kabul eden | nörolojik rehabilitasyon | rehab | rehabilitasyon | parkinson | inme | multiple skleroz",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nörolojik rehabilitasyon"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitasyon"
+      ],
+      "neurological": [
+        "parkinson",
+        "inme",
+        "multiple skleroz",
+        "parkinson",
+        "als"
+      ],
+      "institution": []
+    },
+    "title": "Hakkımızda - Nörolojik Rehabilitasyon Ünitesi"
+  },
+  {
+    "name": "Istanbul Physical Medicine and Rehabilitation Training and Research Hospital Neurological Rehabilitation",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "region": "Istanbul Province",
+    "url": "https://istanbulftreah.saglik.gov.tr/TR-1171100/norolojik-rehabilitasyon-salonu.html",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | turkey-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Istanbul FTR Training and Research Hospital neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Istanbul FTR Training and Research Hospital page describes a neurological rehabilitation service for impairments arising from central and peripheral nervous-system disease or injury.",
+      "The official page lists stroke, multiple sclerosis, Parkinson disease, ALS, traumatic brain injury, spinal cord injury, cerebral palsy and neuromuscular disease.",
+      "A public training and research hospital in Istanbul providing neurological rehabilitation for stroke, brain injury, spinal cord injury, MS, Parkinson disease and ALS.",
+      "Ospedale pubblico universitario di Istanbul con riabilitazione neurologica per ictus, trauma cranico, lesioni midollari, SM, Parkinson e ALS.",
+      "NÖROLOJİK REHABİLİTASYON SALONU",
+      "Beyin damar hastalıkları",
+      "Multipl skleroz",
+      "Omurilik zedelenmeleri",
+      "travmatik beyin hasarları"
+    ],
+    "status": 200,
+    "finalUrl": "https://istanbulftreah.saglik.gov.tr/TR-1171100/norolojik-rehabilitasyon-salonu.html",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "NÖROLOJİK REHABİLİTASYON SALONU | Beyin damar hastalıkları | Multipl skleroz | Omurilik zedelenmeleri | travmatik beyin hasarları | nörolojik rehabilitasyon | rehab | rehabilitasyon | avc | parkinson | felç | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nörolojik rehabilitasyon"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitasyon"
+      ],
+      "neurological": [
+        "avc",
+        "parkinson",
+        "avc",
+        "felç",
+        "parkinson",
+        "als"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Nörolojik Rehabilitasyon Salonu"
+  },
+  {
+    "name": "Kocaeli City Hospital Neurological Rehabilitation",
+    "country": "Turkey",
+    "city": "Izmit",
+    "region": "Kocaeli Province",
+    "url": "https://kocaelisehir.saglik.gov.tr/TR-1302150/norolojik-rehabilitasyon.html",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | turkey-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Kocaeli City Hospital neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Kocaeli City Hospital page describes neurological rehabilitation for motor, sensory, balance, coordination and cognitive impairments after central or peripheral nervous-system disease or injury.",
+      "The service explicitly covers stroke, traumatic brain injury, spinal cord injury, multiple sclerosis, Parkinson disease, ALS, cerebral palsy and peripheral nerve injury.",
+      "A public neurological rehabilitation service at Kocaeli City Hospital for stroke, brain injury, spinal cord injury, MS, Parkinson disease and ALS.",
+      "Servizio pubblico di neuroriabilitazione presso il City Hospital di Kocaeli per ictus, trauma cranico, lesioni midollari, SM, Parkinson e ALS.",
+      "Nörolojik rehabilitasyon",
+      "Travmatik beyin hasarı",
+      "Omurilik yaralanmaları",
+      "Multiple Skleroz",
+      "Parkinson hastalığı"
+    ],
+    "status": 200,
+    "finalUrl": "https://kocaelisehir.saglik.gov.tr/TR-1302150/norolojik-rehabilitasyon.html",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Nörolojik rehabilitasyon | Travmatik beyin hasarı | Omurilik yaralanmaları | Multiple Skleroz | Parkinson hastalığı | nörolojik rehabilitasyon | rehab | rehabilitasyon | parkinson | inme | felç | travmatik beyin hasarı | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "nörolojik rehabilitasyon"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitasyon"
+      ],
+      "neurological": [
+        "parkinson",
+        "inme",
+        "felç",
+        "travmatik beyin hasarı",
+        "multiple skleroz",
+        "parkinson",
+        "als"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Nörolojik Rehabilitasyon"
   },
   {
     "name": "Atkinson Morley Regional Neurosciences Centre — St George’s Hospital",
@@ -13555,7 +14023,8 @@
         "neuro",
         "stroke",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -13610,7 +14079,9 @@
         "brain injury",
         "acquired brain injury",
         "multiple sclerosis",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "centre"
@@ -13660,7 +14131,8 @@
         "neurolog",
         "neuro",
         "stroke",
-        "brain injury"
+        "brain injury",
+        "als"
       ],
       "institution": [
         "centre"
@@ -13716,7 +14188,8 @@
         "spinal",
         "brain injury",
         "acquired brain injury",
-        "multiple sclerosis"
+        "multiple sclerosis",
+        "als"
       ],
       "institution": [
         "centre"
@@ -13767,7 +14240,8 @@
         "neuro",
         "stroke",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -13805,7 +14279,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
+    "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro | als",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation"
@@ -13816,7 +14290,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -13868,7 +14343,8 @@
         "neuro",
         "stroke",
         "spinal",
-        "brain injury"
+        "brain injury",
+        "als"
       ],
       "institution": [
         "centre"
@@ -13921,7 +14397,9 @@
         "spinal cord",
         "spinal",
         "brain injury",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -13954,7 +14432,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neuro | spinal cord | spinal | hospital | clinic",
+    "evidence": "rehabilitation | rehab | neuro | spinal cord | spinal | als | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -13964,7 +14442,8 @@
       "neurological": [
         "neuro",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14014,7 +14493,8 @@
         "neurolog",
         "neuro",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14046,7 +14526,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehabilitation | rehab | neurolog | neuro | hospital",
+    "evidence": "rehabilitation | rehab | neurolog | neuro | als | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -14055,7 +14535,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -14110,7 +14591,8 @@
         "spinal",
         "brain injury",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": [
         "centre"
@@ -14160,7 +14642,10 @@
         "cerebral palsy",
         "multiple sclerosis",
         "cva",
-        "spina bifida"
+        "spina bifida",
+        "inme",
+        "felç",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -14197,7 +14682,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurorehabilitation | rehabilitation | stroke | inpatient | NHS | National Rehabilitation Centre | rehab | neurolog | neuro | centre",
+    "evidence": "neurorehabilitation | rehabilitation | stroke | inpatient | NHS | National Rehabilitation Centre | rehab | neurolog | neuro | als | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation"
@@ -14209,7 +14694,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "stroke"
+        "stroke",
+        "als"
       ],
       "institution": [
         "centre"
@@ -14246,13 +14732,14 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "National Spinal Injuries Centre | spinal cord | inpatient | outpatient | NHS | spinal | hospital | clinic",
+    "evidence": "National Spinal Injuries Centre | spinal cord | inpatient | outpatient | NHS | spinal | als | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [],
       "neurological": [
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14306,7 +14793,8 @@
         "spinal cord",
         "spinal",
         "brain injury",
-        "acquired brain injury"
+        "acquired brain injury",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14338,7 +14826,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Specialist spasticity management service | neuro-rehabilitation | rehabilitation | rehab | neuro | hospital | clinic",
+    "evidence": "Specialist spasticity management service | neuro-rehabilitation | rehabilitation | rehab | neuro | als | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neuro-rehabilitation"
@@ -14348,7 +14836,8 @@
         "rehab"
       ],
       "neurological": [
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14400,7 +14889,8 @@
         "stroke",
         "spinal cord",
         "spinal",
-        "brain injury"
+        "brain injury",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14433,7 +14923,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "broad",
     "qualifying": true,
-    "evidence": "rehab | neurolog | neuro | brain injury | hospital",
+    "evidence": "rehab | neurolog | neuro | brain injury | als | hospital",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -14442,7 +14932,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "brain injury"
+        "brain injury",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -14480,7 +14971,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Spinal Treatment Centre | Spinal Cord | Spinal Injury | rehabilitation | inpatient | outpatient | NHS | rehab | neuro | spinal cord | spinal | hospital | centre",
+    "evidence": "Spinal Treatment Centre | Spinal Cord | Spinal Injury | rehabilitation | inpatient | outpatient | NHS | rehab | neuro | spinal cord | spinal | als | hospital | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -14490,7 +14981,8 @@
       "neurological": [
         "neuro",
         "spinal cord",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14545,7 +15037,9 @@
         "spinal",
         "brain injury",
         "multiple sclerosis",
-        "parkinson"
+        "parkinson",
+        "parkinson",
+        "als"
       ],
       "institution": []
     },
@@ -14592,7 +15086,8 @@
         "neuro",
         "stroke",
         "brain injury",
-        "acquired brain injury"
+        "acquired brain injury",
+        "als"
       ],
       "institution": [
         "hospital"
@@ -14633,7 +15128,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurological rehabilitation | outpatient | rehabilitation | rehab | neurolog | neuro | spinal | hospital | centre",
+    "evidence": "neurological rehabilitation | outpatient | rehabilitation | rehab | neurolog | neuro | spinal | als | hospital | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurological rehabilitation"
@@ -14645,7 +15140,8 @@
       "neurological": [
         "neurolog",
         "neuro",
-        "spinal"
+        "spinal",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14683,7 +15179,7 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "Walkergate Park | Neurorehabilitation | rehabilitation | inpatient | outpatient | NHS | neurorehabilitation | rehab | neurolog | neuro | centre",
+    "evidence": "Walkergate Park | Neurorehabilitation | rehabilitation | inpatient | outpatient | NHS | neurorehabilitation | rehab | neurolog | neuro | als | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [
         "neurorehabilitation"
@@ -14694,7 +15190,8 @@
       ],
       "neurological": [
         "neurolog",
-        "neuro"
+        "neuro",
+        "als"
       ],
       "institution": [
         "centre"
@@ -14740,7 +15237,9 @@
         "brain injury",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14857,7 +15356,8 @@
         "multiple sclerosis",
         "nah",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "als"
       ],
       "institution": [
         "clinic",
@@ -14906,7 +15406,9 @@
         "parkinson",
         "spina bifida",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
@@ -14960,7 +15462,9 @@
         "cerebral palsy",
         "parkinson",
         "guillain-barre",
-        "guillain-barré"
+        "guillain-barré",
+        "parkinson",
+        "als"
       ],
       "institution": [
         "hospital",
