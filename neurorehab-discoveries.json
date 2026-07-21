@@ -3837,6 +3837,30 @@
     ]
   },
   {
+    "name": "Dr Nenezic Neurological Rehabilitation",
+    "country": "Montenegro",
+    "city": "Podgorica",
+    "region": "Podgorica Capital City",
+    "url": "https://drnenezic.me/service/neuroloska-rehabilitacija",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | montenegro-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Dr Nenezic neurological rehabilitation programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Dr Nenezic programme page describes specialised neurological rehabilitation for central and peripheral nervous-system disorders and injuries.",
+      "The service specifically describes rehabilitation after stroke, multiple sclerosis, traumatic brain injury and Parkinson disease, including speech therapy for communication impairment.",
+      "A specialist private outpatient neurological rehabilitation service in Podgorica for stroke, brain injury, multiple sclerosis and Parkinson disease.",
+      "Servizio privato specialistico a Podgorica di riabilitazione neurologica ambulatoriale per ictus, trauma cranico, sclerosi multipla e Parkinson.",
+      "Neurološka rehabilitacija",
+      "moždanog udara",
+      "Multipla skleroza",
+      "Traumatska povreda mozga",
+      "Parkinsonova bolest",
+      "Govorna terapija"
+    ]
+  },
+  {
     "name": "Basalt",
     "country": "Netherlands",
     "city": "The Hague",

@@ -4359,36 +4359,13 @@
       "multiple sklerose",
       "morbus parkinson"
     ],
-    "status": 200,
-    "finalUrl": "https://www.johanniter.de/johanniter-kliniken/johanniter-klinik-godeshoehe",
-    "contentType": "text/html; charset=utf-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "neurologische intensivmedizin | multiple sklerose | morbus parkinson | neurologische frührehabilitation | rehabilitation | rehab | neurolog | neuro | schlaganfall | schädel-hirn | klinik | zentrum",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "neurologische frührehabilitation"
-      ],
-      "rehabilitation": [
-        "rehabilitation",
-        "rehab"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "schlaganfall",
-        "schädel-hirn",
-        "multiple sklerose",
-        "morbus parkinson",
-        "parkinson",
-        "nah"
-      ],
-      "institution": [
-        "klinik",
-        "zentrum"
-      ]
-    },
-    "title": "Johanniter-Klinik Godeshöhe"
+    "status": null,
+    "finalUrl": "https://www.godeshoehe.de/",
+    "title": "",
+    "evidence": "This operation was aborted; curl fallback failed: curl: (28) Operation timed out after 10295 milliseconds with 0 bytes received",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "KLINIK BAVARIA Kreischa",
@@ -7886,6 +7863,56 @@
       "institution": []
     },
     "title": "Brochure : prise en charge des AVC aux Hôpitaux Robert Schuman - HÔPITAUX ROBERT SCHUMAN"
+  },
+  {
+    "name": "Dr Nenezic Neurological Rehabilitation",
+    "country": "Montenegro",
+    "city": "Podgorica",
+    "region": "Podgorica Capital City",
+    "url": "https://drnenezic.me/service/neuroloska-rehabilitacija",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | montenegro-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Dr Nenezic neurological rehabilitation programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Dr Nenezic programme page describes specialised neurological rehabilitation for central and peripheral nervous-system disorders and injuries.",
+      "The service specifically describes rehabilitation after stroke, multiple sclerosis, traumatic brain injury and Parkinson disease, including speech therapy for communication impairment.",
+      "A specialist private outpatient neurological rehabilitation service in Podgorica for stroke, brain injury, multiple sclerosis and Parkinson disease.",
+      "Servizio privato specialistico a Podgorica di riabilitazione neurologica ambulatoriale per ictus, trauma cranico, sclerosi multipla e Parkinson.",
+      "Neurološka rehabilitacija",
+      "moždanog udara",
+      "Multipla skleroza",
+      "Traumatska povreda mozga",
+      "Parkinsonova bolest",
+      "Govorna terapija"
+    ],
+    "status": 200,
+    "finalUrl": "https://drnenezic.me/service/neuroloska-rehabilitacija",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurološka rehabilitacija | moždanog udara | Multipla skleroza | Traumatska povreda mozga | Parkinsonova bolest | Govorna terapija | neurološka rehabilitacija | rehab | rehabilitacija | rehabilitacije | neuro | moždani udar | spinal",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurološka rehabilitacija"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neuro",
+        "moždani udar",
+        "moždanog udara",
+        "spinal",
+        "multipla skleroza",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "Neurološka rehabilitacija &#8211; Dr Nenezić &#8211; fizikalna, akupunktura, atlasprofilax, kiropraktika"
   },
   {
     "name": "Basalt",
