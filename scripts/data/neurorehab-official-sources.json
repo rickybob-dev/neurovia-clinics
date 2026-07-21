@@ -2429,6 +2429,18 @@
       "sourceType": "romania-second-pass-official-seed",
       "discoverySource": "official SANADOR neurological rehabilitation page",
       "needles": ["Recuperarea neurologică", "neuroreabilitarea", "accidentul vascular cerebral", "boli neurodegenerative", "echipă medicală multidisciplinară", "program personalizat de neuroreabilitare"]
+    },
+    {
+      "country":"Bulgaria", "name":"Neuro Rehab Izgrev", "city":"Sofia", "region":"Sofia City",
+      "url":"https://rehabilitator.bg/en/", "sourceType":"bulgaria-first-pass-official-seed",
+      "discoverySource":"official Neuro Rehab Izgrev clinic page",
+      "needles":["private outpatient clinic", "rehabilitation of nervous system diseases", "Stroke", "Traumatic brain injury", "Spinal cord injuries", "Multiple sclerosis"]
+    },
+    {
+      "country":"Bulgaria", "name":"Avis Medica Specialized Rehabilitation Hospital", "city":"Sofia", "region":"Sofia City",
+      "url":"https://rehab-bg.bg/en/%D0%B7%D0%B0-%D0%BD%D0%B0%D1%81/", "sourceType":"bulgaria-second-pass-official-seed",
+      "discoverySource":"official Avis Medica rehabilitation hospital page",
+      "needles":["specialists in the field of neurorehabilitation", "specialized Rehabilitation Hospital", "full spectrum of rehabilitation services"]
     }
   ],
   "searchResults": [],

@@ -5051,5 +5051,23 @@ export const centers = [
     researchHighlights: ['Official SANADOR page describes personalised neurorehabilitation for neurological conditions including stroke, muscular dystrophy, cerebral palsy and neurodegenerative disease', 'Official programme description identifies a multidisciplinary team including neurology, neurosurgery, physical medicine, psychology, speech therapy and social work.'],
     features: ['private-neurorehab', 'stroke-rehab', 'multidisciplinary-rehab'],
     description: { it: 'Servizio privato multidisciplinare di riabilitazione neurologica a Bucarest per ictus, malattie neurodegenerative e disabilità motorie o cognitive.', en: 'A private multidisciplinary neurological rehabilitation service in Bucharest for stroke, neurodegenerative disease and motor or cognitive impairment.' }
+  },
+  {
+    id: 'neuro-rehab-izgrev-sofia', name: 'Neuro Rehab Izgrev', country: 'Bulgaria', city: 'Sofia', region: 'Sofia City', lat: 42.6538, lng: 23.3562,
+    address: 'Boulevard G. M. Dimitrov 60, Sofia', phone: '+359 2 872 7297', url: 'https://rehabilitator.bg/en/',
+    conditions: ['stroke', 'tbi', 'spinal', 'ms', 'neuromotor'], technologies: [], modes: ['outpatient'], access: ['private'],
+    disciplines: ['Neurorehabilitation', 'Physiotherapy', 'Kinesiotherapy', 'Bobath', 'PNF'], completeness: 87,
+    researchHighlights: ['Official clinic page identifies Neuro Rehab Izgrev as a private outpatient clinic specialised in rehabilitation of nervous-system diseases', 'Official programme lists stroke, traumatic brain injury, spinal cord injury and multiple sclerosis rehabilitation.'],
+    features: ['specialist-neurorehab', 'outpatient-neurorehab', 'stroke-rehab', 'spinal-cord'],
+    description: { it: 'Clinica privata specialistica a Sofia per neuroriabilitazione ambulatoriale dopo ictus, trauma cranico, lesione midollare e sclerosi multipla.', en: 'A specialist private Sofia clinic for outpatient neurorehabilitation after stroke, brain injury, spinal cord injury and multiple sclerosis.' }
+  },
+  {
+    id: 'avis-medica-specialized-rehabilitation-hospital', name: 'Avis Medica Specialized Rehabilitation Hospital', country: 'Bulgaria', city: 'Sofia', region: 'Sofia City', lat: 42.6650, lng: 23.3280,
+    address: 'Sofia, Bulgaria', phone: 'Unknown', url: 'https://rehab-bg.bg/en/%D0%B7%D0%B0-%D0%BD%D0%B0%D1%81/',
+    conditions: ['neuromotor', 'cognitive'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['private'],
+    disciplines: ['Neurorehabilitation', 'Specialised rehabilitation', 'Multidisciplinary rehabilitation'], completeness: 76,
+    researchHighlights: ['Official Avis Medica page describes a specialised rehabilitation hospital with certified neurorehabilitation specialists and a full rehabilitation service.'],
+    features: ['specialist-rehabilitation-hospital', 'neurorehabilitation'],
+    description: { it: 'Ospedale privato specialistico di riabilitazione a Sofia con professionisti certificati in neuroriabilitazione.', en: 'A specialist private rehabilitation hospital in Sofia with certified neurorehabilitation professionals.' }
   }
 ];
