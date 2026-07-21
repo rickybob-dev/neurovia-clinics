@@ -2975,6 +2975,50 @@
     ]
   },
   {
+    "name": "Landspitali Neurological Rehabilitation K2",
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "region": "Capital Region",
+    "url": "https://island.is/en/o/landspitali/neurological-rehabilitation-k2/k2-services",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | iceland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Landspitali neurological rehabilitation K2 service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Landspitali service page identifies K2 as a neurological rehabilitation unit for people needing continued rehabilitation or medical treatment after serious illness.",
+      "The unit supports patients with complex health needs and reduced physical or cognitive function, with an activity- and participation-focused inpatient programme.",
+      "A public Landspitali neurological rehabilitation unit in Reykjavik for people with complex clinical needs and reduced physical or cognitive function.",
+      "Unita pubblica di riabilitazione neurologica di Landspitali a Reykjavik per persone con bisogni clinici complessi e riduzione della funzione fisica o cognitiva.",
+      "Neurological rehabilitation",
+      "continued rehabilitation or medical treatment",
+      "reduced physical or cognitive function",
+      "focus is on activity and participation"
+    ]
+  },
+  {
+    "name": "Reykjalundur Neurological Rehabilitation",
+    "country": "Iceland",
+    "city": "Mosfellsbaer",
+    "region": "Capital Region",
+    "url": "https://english.reykjalundur.is/treatment",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | iceland-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Reykjalundur treatment page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Reykjalundur programme page lists neurological rehabilitation among its interdisciplinary rehabilitation areas, delivered to inpatients and outpatients.",
+      "Official Reykjalundur research material describes neurorehabilitation for multiple sclerosis, Parkinson disease, epilepsy, stroke and brain injury, including cognitive rehabilitation.",
+      "A public specialist centre in Mosfellsbaer with an interdisciplinary neurological rehabilitation programme for stroke, brain injury, MS, Parkinson disease and epilepsy.",
+      "Centro specialistico pubblico a Mosfellsbaer con programma interdisciplinare di riabilitazione neurologica per ictus, lesione cerebrale, SM, Parkinson ed epilessia.",
+      "interdisciplinary rehabilitation programmes",
+      "neurological",
+      "inpatients or outpatients",
+      "Teams within each rehabilitation area"
+    ]
+  },
+  {
     "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
     "country": "Ireland",
     "city": "Dublin",

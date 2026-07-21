@@ -672,7 +672,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -683,6 +683,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -5878,22 +5879,36 @@
       "Multiple Sclerosis",
       "Peripheral Nervous Diseases"
     ],
-    "status": 500,
+    "status": 200,
     "finalUrl": "https://eka-hosp.gr/en/service/2nd-prm-clinic",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "none",
-    "qualifying": false,
-    "evidence": "clinic | centre",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Traumatic Brain Injury | Vascular Stroke | Spinal Cord Injury | Multiple Sclerosis | Peripheral Nervous Diseases | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
     "matchedSignals": {
       "explicitNeuroRehab": [],
-      "rehabilitation": [],
-      "neurological": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "cerebral palsy",
+        "multiple sclerosis"
+      ],
       "institution": [
+        "hospital",
         "clinic",
-        "centre"
+        "centre",
+        "center"
       ]
     },
-    "title": "Σφάλμα βάσης δεδομένων"
+    "title": "2nd PRM CLINIC &#8211; Εθνικό Κέντρο Αποκατάστασης"
   },
   {
     "name": "National Center for Spinal Disorders",
@@ -6084,6 +6099,92 @@
       ]
     },
     "title": "Rólunk - Köszöntő | DE Klinikai Központ"
+  },
+  {
+    "name": "Landspitali Neurological Rehabilitation K2",
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "region": "Capital Region",
+    "url": "https://island.is/en/o/landspitali/neurological-rehabilitation-k2/k2-services",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | iceland-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Landspitali neurological rehabilitation K2 service page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Landspitali service page identifies K2 as a neurological rehabilitation unit for people needing continued rehabilitation or medical treatment after serious illness.",
+      "The unit supports patients with complex health needs and reduced physical or cognitive function, with an activity- and participation-focused inpatient programme.",
+      "A public Landspitali neurological rehabilitation unit in Reykjavik for people with complex clinical needs and reduced physical or cognitive function.",
+      "Unita pubblica di riabilitazione neurologica di Landspitali a Reykjavik per persone con bisogni clinici complessi e riduzione della funzione fisica o cognitiva.",
+      "Neurological rehabilitation",
+      "continued rehabilitation or medical treatment",
+      "reduced physical or cognitive function",
+      "focus is on activity and participation"
+    ],
+    "status": 200,
+    "finalUrl": "https://island.is/en/o/landspitali/neurological-rehabilitation-k2/k2-services",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurological rehabilitation | continued rehabilitation or medical treatment | reduced physical or cognitive function | focus is on activity and participation | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Neurological rehabilitation K2 - Services | Landspitali - University Hospital"
+  },
+  {
+    "name": "Reykjalundur Neurological Rehabilitation",
+    "country": "Iceland",
+    "city": "Mosfellsbaer",
+    "region": "Capital Region",
+    "url": "https://english.reykjalundur.is/treatment",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | iceland-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Reykjalundur treatment page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Reykjalundur programme page lists neurological rehabilitation among its interdisciplinary rehabilitation areas, delivered to inpatients and outpatients.",
+      "Official Reykjalundur research material describes neurorehabilitation for multiple sclerosis, Parkinson disease, epilepsy, stroke and brain injury, including cognitive rehabilitation.",
+      "A public specialist centre in Mosfellsbaer with an interdisciplinary neurological rehabilitation programme for stroke, brain injury, MS, Parkinson disease and epilepsy.",
+      "Centro specialistico pubblico a Mosfellsbaer con programma interdisciplinare di riabilitazione neurologica per ictus, lesione cerebrale, SM, Parkinson ed epilessia.",
+      "interdisciplinary rehabilitation programmes",
+      "neurological",
+      "inpatients or outpatients",
+      "Teams within each rehabilitation area"
+    ],
+    "status": 200,
+    "finalUrl": "https://english.reykjalundur.is/treatment",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "interdisciplinary rehabilitation programmes | neurological | inpatients or outpatients | Teams within each rehabilitation area | rehabilitation | rehab | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Treatment | Reykjalundur"
   },
   {
     "name": "Bloomfield Hospital Neurological and Neurodegenerative Disorders",
