@@ -2798,6 +2798,50 @@
     ]
   },
   {
+    "name": "Eginitio Hospital Neurorehabilitation Unit",
+    "country": "Greece",
+    "city": "Athens",
+    "region": "Attica",
+    "url": "https://eginitio-en.uoa.gr/1st_department_of_neurology/units/neurorehabilitation_unit",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | greece-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University of Athens Eginitio Hospital neurorehabilitation unit page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official University of Athens hospital page identifies a neurological rehabilitation unit for stroke, demyelinating disease and Parkinson disease coordinated by neurologists and allied health professionals.",
+      "A public university neurorehabilitation unit in Athens for stroke, demyelinating disease and Parkinson disease.",
+      "Unità pubblica universitaria di neuroriabilitazione ad Atene per ictus, malattie demielinizzanti e Parkinson.",
+      "UNIT OF NEUROLOGICAL REHABILITATION",
+      "Stroke",
+      "Demyelinating Diseases",
+      "Parkinson’s Disease",
+      "Occupational Therapists"
+    ]
+  },
+  {
+    "name": "National Rehabilitation Centre 2nd PRM Clinic",
+    "country": "Greece",
+    "city": "Athens",
+    "region": "Attica",
+    "url": "https://eka-hosp.gr/en/service/2nd-prm-clinic",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | greece-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official National Rehabilitation Centre 2nd PRM clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official National Rehabilitation Centre page states its 2nd PRM Clinic treats severe brain injury, stroke, spinal cord injury, MS, myopathies and peripheral nervous disease.",
+      "A public national Athens clinic for neurorehabilitation in brain injury, stroke, spinal cord injury and MS.",
+      "Clinica pubblica nazionale di Atene per neuro-riabilitazione in lesione cerebrale, ictus, lesione midollare e SM.",
+      "Traumatic Brain Injury",
+      "Vascular Stroke",
+      "Spinal Cord Injury",
+      "Multiple Sclerosis",
+      "Peripheral Nervous Diseases"
+    ]
+  },
+  {
     "name": "National Center for Spinal Disorders",
     "country": "Hungary",
     "city": "Budapest",
