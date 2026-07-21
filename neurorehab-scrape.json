@@ -672,7 +672,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -683,6 +683,7 @@
         "neuro"
       ],
       "institution": [
+        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -986,6 +987,202 @@
       ]
     },
     "title": "Revalidatiecentrum Pellenberg | UZ Leuven"
+  },
+  {
+    "name": "Kantonalna Hospital Zenica Neurological Rehabilitation Unit",
+    "country": "Bosnia and Herzegovina",
+    "city": "Zenica",
+    "region": "Zenica-Doboj Canton",
+    "url": "https://kbze.ba/odjeli/odjel-fizikalne-medicine-i-rehabilitacije",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | bosnia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Kantonalna Hospital Zenica physical medicine and rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Kantonalna Hospital Zenica page lists a neurological-patient rehabilitation unit within its physical medicine and rehabilitation department.",
+      "The service includes rehabilitation after stroke, for neuromuscular disorders, after neurosurgery, and for children with delayed psychomotor development.",
+      "A public Zenica unit for neurological rehabilitation after stroke, neuromuscular conditions, neurosurgery and psychomotor developmental disorders.",
+      "Unita pubblica di Zenica per riabilitazione neurologica dopo ictus, condizioni neuromuscolari, neurochirurgia e disturbi dello sviluppo psicomotorio.",
+      "Odsjek za rehabilitaciju neuroloških pacijenata",
+      "rehabilitacija nakon moždanog udara",
+      "neuromuskularnim oboljenjima",
+      "neurokirurških"
+    ],
+    "status": 403,
+    "finalUrl": "https://kbze.ba/odjeli/odjel-fizikalne-medicine-i-rehabilitacije",
+    "contentType": "text/html; charset=UTF-8",
+    "title": "",
+    "evidence": "Official source blocked automated fetch (HTTP 403); using curated official-source evidence: Official Kantonalna Hospital Zenica page lists a neurological-patient rehabilitation unit within its physical medicine and rehabilitation department. | The service includes rehabilitation after stroke, for neuromuscular disorders, after neurosurgery, and for children with delayed psychomotor development. | A public Zenica unit for neurological rehabilitation after stroke, neuromuscular conditions, neurosurgery and psychomotor developmental disorders. | Unita pubblica di Zenica per riabilitazione neurologica dopo ictus, condizioni neuromuscolari, neurochirurgia e disturbi dello sviluppo psicomotorio. | Odsjek za rehabilitaciju neuroloških pacijenata | rehabilitacija nakon moždanog udara | neuromuskularnim oboljenjima | neurokirurških",
+    "qualifying": true,
+    "validationTier": "official-seed",
+    "matchedSignals": {
+      "officialSeed": [
+        "Official Kantonalna Hospital Zenica page lists a neurological-patient rehabilitation unit within its physical medicine and rehabilitation department.",
+        "The service includes rehabilitation after stroke, for neuromuscular disorders, after neurosurgery, and for children with delayed psychomotor development.",
+        "A public Zenica unit for neurological rehabilitation after stroke, neuromuscular conditions, neurosurgery and psychomotor developmental disorders.",
+        "Unita pubblica di Zenica per riabilitazione neurologica dopo ictus, condizioni neuromuscolari, neurochirurgia e disturbi dello sviluppo psicomotorio.",
+        "Odsjek za rehabilitaciju neuroloških pacijenata",
+        "rehabilitacija nakon moždanog udara",
+        "neuromuskularnim oboljenjima",
+        "neurokirurških"
+      ]
+    }
+  },
+  {
+    "name": "SPITEX Inpatient Neurorehabilitation Clinic",
+    "country": "Bosnia and Herzegovina",
+    "city": "Bijeljina",
+    "region": "Republika Srpska",
+    "url": "https://spitex.ba/",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | bosnia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official SPITEX private neurorehabilitation clinic page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official SPITEX clinic page identifies a private inpatient clinic specialised in neurorehabilitation after stroke.",
+      "The official programme includes specialist clinical care, a rehabilitation robotics room and a 40-bed inpatient capacity.",
+      "A private inpatient clinic in Bijeljina specialised in post-stroke neurorehabilitation with rehabilitation robotics.",
+      "Clinica privata degenziale a Bijeljina specializzata in neuroriabilitazione dopo ictus, con robotica riabilitativa.",
+      "bolničku neuro-rehabilitaciju nakon moždanog udara",
+      "robotikom",
+      "40",
+      "Ljeskovac 12b"
+    ],
+    "status": 200,
+    "finalUrl": "https://spitex.ba/",
+    "contentType": "text/html",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "bolničku neuro-rehabilitaciju nakon moždanog udara | robotikom | 40 | Ljeskovac 12b | rehab | rehabilitacija | rehabilitacije | neuro | moždanog udara | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija",
+        "rehabilitacije"
+      ],
+      "neurological": [
+        "neuro",
+        "moždanog udara"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "klinika"
+      ]
+    },
+    "title": "SPITEX - Privatna Klinika za Neuro-rehabilitaciju - Sa ponosom najbolji!"
+  },
+  {
+    "name": "University Clinical Centre Tuzla Neurological Rehabilitation Department",
+    "country": "Bosnia and Herzegovina",
+    "city": "Tuzla",
+    "region": "Tuzla Canton",
+    "url": "https://www.ukctuzla.ba/ukctuzla?lang=bs&page_id=490",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | bosnia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University Clinical Centre Tuzla neurological rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official UKC Tuzla page identifies a dedicated neurological rehabilitation department with an interdisciplinary team.",
+      "The programme treats stroke, brain injury, Parkinson disease, multiple sclerosis, polyneuropathy, neuromuscular disorders and adults with cerebral palsy.",
+      "A public university department in Tuzla for interdisciplinary neurological rehabilitation after stroke, brain injury, spinal injury, MS, Parkinson disease and neuromuscular disorders.",
+      "Reparto pubblico universitario di Tuzla per riabilitazione neurologica interdisciplinare dopo ictus, trauma cranico, lesione midollare, SM, Parkinson e malattie neuromuscolari.",
+      "ODJELJENJE ZA NEUROLOŠKU REHABILITACIJU",
+      "Moždanog udara",
+      "Kraniotraume",
+      "Parkinsonovom bolešću",
+      "multiplom sklerozom",
+      "neuromišićnim"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.ukctuzla.ba/ukctuzla?page_id=490&lang=bs",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "ODJELJENJE ZA NEUROLOŠKU REHABILITACIJU | Moždanog udara | Kraniotraume | Parkinsonovom bolešću | multiplom sklerozom | neuromišićnim | rehab | rehabilitación | rehabilitacija | rehabilitacije | neurolog | neuro | moždanog udara | spinal | clinic | klinik",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitación",
+        "rehabilitacija",
+        "rehabilitacije",
+        "rehabilitáció"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "moždanog udara",
+        "spinal",
+        "parkinson",
+        "neuromišičnim",
+        "neuromišićnim",
+        "neurološka oboljenja"
+      ],
+      "institution": [
+        "clinic",
+        "klinik",
+        "centre",
+        "klinika",
+        "odjel"
+      ]
+    },
+    "title": "VIŠE&#8230;KLINIKA ZA FIZIKALNU MEDICINU I MEDICINSKU REHABILITACIJU &#8211; UKC Tuzla"
+  },
+  {
+    "name": "University Clinical Hospital Mostar Neuropsychological Rehabilitation Service",
+    "country": "Bosnia and Herzegovina",
+    "city": "Mostar",
+    "region": "Herzegovina-Neretva Canton",
+    "url": "https://www.skbm.ba/organizacijske-jedinice/odjel-za-klinicku-zdravstvenu-i-organizacijsku-psihologiju/o-nama",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | bosnia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official University Clinical Hospital Mostar clinical psychology department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official University Clinical Hospital Mostar page lists cognitive training and neurorehabilitation among the clinical psychology department’s services.",
+      "The service provides neuropsychological assessment and treatment for children, adolescents and adults in a university hospital setting.",
+      "A public university hospital service in Mostar for neuropsychological assessment, cognitive training and neurorehabilitation for children and adults.",
+      "Servizio pubblico universitario di Mostar di valutazione neuropsicologica, allenamento cognitivo e neuroriabilitazione per bambini e adulti.",
+      "Neuropsihološka procjena",
+      "Kognitivni trening i neurorehabilitacija",
+      "djeci, adolescentima i odraslim pacijentima"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.skbm.ba/organizacijske-jedinice/odjel-za-klinicku-zdravstvenu-i-organizacijsku-psihologiju/o-nama",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neuropsihološka procjena | Kognitivni trening i neurorehabilitacija | djeci, adolescentima i odraslim pacijentima | neurorehabilitacija | rehab | rehabilitacija | neurolog | neuro | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitacija"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "klinik",
+        "centro",
+        "klinika",
+        "bolnica",
+        "zavod",
+        "odjel"
+      ]
+    },
+    "title": "O nama &#8211; Sveučilišna klinička bolnica Mostar"
   },
   {
     "name": "Avis Medica Specialized Rehabilitation Hospital",
@@ -9045,13 +9242,38 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-krakow",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacji neurologicznej | Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarach mózgu",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacji neurologicznej"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarach mózgu",
+        "po udarze",
+        "udarze",
+        "udarach",
+        "tce",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Kraków - rehabilitacja po udarach i wypadkach, ambulatoryjna"
   },
   {
     "name": "Centrum Origin Otwock",
@@ -9077,13 +9299,33 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-otwock",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarze",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarze",
+        "udarach",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Otwock - rehabilitacja po udarach i wypadkach, neurologiczna"
   },
   {
     "name": "Constance Care",
@@ -9173,13 +9415,30 @@
       "paraliż",
       "niedowład"
     ],
-    "status": null,
-    "finalUrl": "https://repty.pl/",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: repty.pl",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "status": 200,
+    "finalUrl": "https://www.repty.pl/",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacja neurologiczna | rehab | rehabilitacja | neurolog | neuro | szpital | oddział",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacja neurologiczna"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "szpital",
+        "oddział"
+      ]
+    },
+    "title": "Górnośląskie Centrum Rehabilitacji \"Repty\""
   },
   {
     "name": "Centro de Medicina de Reabilitação de Alcoitão",
@@ -13259,7 +13518,7 @@
     ],
     "status": 200,
     "finalUrl": "https://hollandenparkhospital.co.uk/",
-    "contentType": "text/html; charset=UTF-8",
+    "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
