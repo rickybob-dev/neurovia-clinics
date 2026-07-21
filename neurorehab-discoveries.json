@@ -7316,6 +7316,73 @@
     ]
   },
   {
+    "name": "Mary Free Bed Rehabilitation Hospital",
+    "country": "United States",
+    "city": "Grand Rapids",
+    "region": "Michigan",
+    "url": "https://www.maryfreebed.com/specialties/brain-injury-rehabilitation",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | united-states-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Mary Free Bed brain injury rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Mary Free Bed information identifies CARF-accredited inpatient and outpatient brain injury rehabilitation programmes staffed by specialist physicians, therapists and nurses.",
+      "Its rehabilitation hospital provides multidisciplinary inpatient and outpatient care for brain injury, spinal cord injury and stroke.",
+      "A specialist rehabilitation hospital in Michigan with multidisciplinary programmes for brain injury, spinal cord injury and stroke.",
+      "Ospedale specialistico di riabilitazione nel Michigan con programmi multidisciplinari per lesioni cerebrali, lesioni midollari e ictus.",
+      "Brain Injury Rehabilitation",
+      "inpatient and outpatient",
+      "brain injury rehabilitation",
+      "physicians, therapists and nurses"
+    ]
+  },
+  {
+    "name": "Rancho Los Amigos National Rehabilitation Center",
+    "country": "United States",
+    "city": "Downey",
+    "region": "California",
+    "url": "https://dhs.lacounty.gov/rancho/patient-and-visitor/admissions-appointments/frequently-asked-questions",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | united-states-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Los Angeles County Rancho Los Amigos inpatient rehabilitation FAQ",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Los Angeles County information describes Rancho Los Amigos as a world-renowned neurorehabilitation programme serving people with stroke, brain injury, spinal cord injury and other neurological conditions.",
+      "The public centre provides inpatient and outpatient rehabilitation at one of the largest rehabilitation hospitals in the United States, alongside clinical research and assistive-technology services.",
+      "A public national rehabilitation centre in Los Angeles County for stroke, brain and spinal cord injury, and other neurological conditions.",
+      "Centro pubblico nazionale di riabilitazione nella contea di Los Angeles per ictus, lesioni cerebrali e midollari e altre condizioni neurologiche.",
+      "world-renowned neurorehabilitation program",
+      "stroke, brain injury, spinal cord injury",
+      "neurological conditions",
+      "inpatient rehabilitation"
+    ]
+  },
+  {
+    "name": "Rusk Rehabilitation at NYU Langone Orthopedic Hospital",
+    "country": "United States",
+    "city": "New York",
+    "region": "New York",
+    "url": "https://nyulangone.org/locations/rusk-rehabilitation-at-nyu-langone-orthopedic-hospital",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | united-states-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official NYU Langone Rusk Rehabilitation location page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official NYU Langone information identifies Rusk Rehabilitation as an inpatient and outpatient service for traumatic and non-traumatic brain injury, chronic neurological conditions, spinal cord injury and stroke.",
+      "The Neurologic Rehabilitation division provides specialised clinical programmes for brain, spinal cord and peripheral nerve injuries and degenerative conditions including Parkinson disease and multiple sclerosis.",
+      "A university neurological rehabilitation service in New York for brain and spinal cord injury, stroke and chronic neurological conditions.",
+      "Servizio universitario di neuroriabilitazione a New York per lesioni cerebrali e midollari, ictus e malattie neurologiche croniche.",
+      "traumatic and nontraumatic brain injury",
+      "chronic neurological conditions",
+      "spinal cord injury",
+      "stroke",
+      "round-the-clock rehabilitation care"
+    ]
+  },
+  {
     "name": "Shepherd Center",
     "country": "United States",
     "city": "Atlanta",
