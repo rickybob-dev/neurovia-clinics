@@ -4756,6 +4756,69 @@
     ]
   },
   {
+    "name": "Dr Borivoje Gnjatic Special Hospital for Neurological Diseases and Post-traumatic Conditions",
+    "country": "Serbia",
+    "city": "Stari Slankamen",
+    "region": "Vojvodina",
+    "url": "https://www.bolnicaslankamen.co.rs/kontakt?pismo=cir",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Dr Borivoje Gnjatic hospital site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "The official hospital site identifies Dr Borivoje Gnjatic as a special hospital for neurological diseases and post-traumatic conditions.",
+      "Serbia’s official rehabilitation-network listing identifies the hospital as a 295-bed rehabilitation provider for neurological diseases.",
+      "A public specialist hospital in Stari Slankamen for neurological diseases and post-traumatic conditions, with inpatient rehabilitation.",
+      "Ospedale pubblico specialistico a Stari Slankamen per malattie neurologiche e condizioni post-traumatiche, con riabilitazione degenziale.",
+      "Specijalna bolnica za neurološka oboljenja i posttraumatska stanja",
+      "Stari Slankamen",
+      "Dr Borivoje Gnjatića"
+    ]
+  },
+  {
+    "name": "Novi Pazar Special Hospital for Progressive Muscular and Neuromuscular Diseases",
+    "country": "Serbia",
+    "city": "Novi Pazar",
+    "region": "Raska District",
+    "url": "https://www.eng.rfzo.rs/index.php/healthfacilitiesserbia",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Serbian Health Insurance Fund facility listing; neurological-rehabilitation scope confirmed in the official Serbian Commissioner network listing",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Serbia’s official rehabilitation-network listing identifies this as a 100-bed rehabilitation provider for neurological diseases.",
+      "The official Serbian Health Insurance Fund facility directory identifies the specialist hospital and links its official website.",
+      "A public specialist hospital in Novi Pazar for progressive muscular and neuromuscular diseases with inpatient rehabilitation.",
+      "Ospedale pubblico specialistico di Novi Pazar per malattie muscolari progressive e neuromuscolari con riabilitazione degenziale.",
+      "Specijalna bolnica za progresivne mišićne i neuromišićne bolesti Novi Pazar",
+      "www.npbanja.com",
+      "Novi Pazar"
+    ]
+  },
+  {
+    "name": "Special Hospital for Cerebral Palsy and Developmental Neurology",
+    "country": "Serbia",
+    "city": "Belgrade",
+    "region": "Belgrade",
+    "url": "https://sbcprn.com/en/about-us",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Special Hospital for Cerebral Palsy and Developmental Neurology site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital site states that it is dedicated to habilitating children with cerebral palsy and to early diagnosis of cerebral palsy and neurodevelopmental conditions.",
+      "Serbia’s Ministry of Health identifies it as the Special Hospital for Cerebral Palsy and Developmental Neurology.",
+      "A public specialist Belgrade hospital for habilitation and rehabilitation of children with cerebral palsy and neurodevelopmental conditions.",
+      "Ospedale pubblico specialistico di Belgrado per abilitazione e riabilitazione di bambini con paralisi cerebrale e condizioni del neurosviluppo.",
+      "habilitating children with cerebral palsy",
+      "neurodevelopmental conditions",
+      "Day Hospital"
+    ]
+  },
+  {
     "name": "ADELI Medical Center",
     "country": "Slovakia",
     "city": "Piešťany",

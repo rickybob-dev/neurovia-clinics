@@ -672,7 +672,7 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | hospital | revalidatieziekenhuis",
+    "evidence": "ernstige locomotorische, neurologische en cardiopulmonaire aandoeningen | complexe neurologische beperkingen | neuro-revalidatieziekenhuis | kinderen als voor volwassenen | ambulante als voor gehospitaliseerde revalidanten | revalidatie | neurolog | neuro | revalidatieziekenhuis",
     "matchedSignals": {
       "explicitNeuroRehab": [],
       "rehabilitation": [
@@ -683,7 +683,6 @@
         "neuro"
       ],
       "institution": [
-        "hospital",
         "revalidatieziekenhuis"
       ]
     },
@@ -5785,11 +5784,9 @@
     "contentType": "text/html; charset=utf-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "neurologie | neurochirurgie | rehabilitation | neurologische reha | rehab | neurolog | neuro | nah | klinik | zentrum",
+    "evidence": "neurologie | neurochirurgie | rehabilitation | rehab | neurolog | neuro | nah | klinik | zentrum",
     "matchedSignals": {
-      "explicitNeuroRehab": [
-        "neurologische reha"
-      ],
+      "explicitNeuroRehab": [],
       "rehabilitation": [
         "rehabilitation",
         "rehab"
@@ -9048,38 +9045,13 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-krakow",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "rehabilitacji neurologicznej | Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarach mózgu",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "rehabilitacji neurologicznej"
-      ],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "udar mózgu",
-        "udarach mózgu",
-        "po udarze",
-        "udarze",
-        "udarach",
-        "tce",
-        "rdzenia kręgowego",
-        "urazy mózgowo-czaszkowe",
-        "urazach czaszkowo-mózgowych",
-        "parkinson",
-        "choroba parkinsona"
-      ],
-      "institution": []
-    },
-    "title": "Centrum Origin Kraków - rehabilitacja po udarach i wypadkach, ambulatoryjna"
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Centrum Origin Otwock",
@@ -9105,33 +9077,13 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": 200,
+    "status": null,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-otwock",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarze",
-    "matchedSignals": {
-      "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "udar mózgu",
-        "udarze",
-        "udarach",
-        "rdzenia kręgowego",
-        "urazy mózgowo-czaszkowe",
-        "urazach czaszkowo-mózgowych",
-        "parkinson",
-        "choroba parkinsona"
-      ],
-      "institution": []
-    },
-    "title": "Centrum Origin Otwock - rehabilitacja po udarach i wypadkach, neurologiczna"
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Constance Care",
@@ -9221,30 +9173,13 @@
       "paraliż",
       "niedowład"
     ],
-    "status": 200,
-    "finalUrl": "https://www.repty.pl/",
-    "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "rehabilitacja neurologiczna | rehab | rehabilitacja | neurolog | neuro | szpital | oddział",
-    "matchedSignals": {
-      "explicitNeuroRehab": [
-        "rehabilitacja neurologiczna"
-      ],
-      "rehabilitation": [
-        "rehab",
-        "rehabilitacja"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro"
-      ],
-      "institution": [
-        "szpital",
-        "oddział"
-      ]
-    },
-    "title": "Górnośląskie Centrum Rehabilitacji \"Repty\""
+    "status": null,
+    "finalUrl": "https://repty.pl/",
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: repty.pl",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
   },
   {
     "name": "Centro de Medicina de Reabilitação de Alcoitão",
@@ -9700,6 +9635,136 @@
       "institution": []
     },
     "title": "Compartimentul de Recuperare Neurologică - Spitalul de Recuperare \"Sf. Gheorghe\" Botoșani"
+  },
+  {
+    "name": "Dr Borivoje Gnjatic Special Hospital for Neurological Diseases and Post-traumatic Conditions",
+    "country": "Serbia",
+    "city": "Stari Slankamen",
+    "region": "Vojvodina",
+    "url": "https://www.bolnicaslankamen.co.rs/kontakt?pismo=cir",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Dr Borivoje Gnjatic hospital site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "The official hospital site identifies Dr Borivoje Gnjatic as a special hospital for neurological diseases and post-traumatic conditions.",
+      "Serbia’s official rehabilitation-network listing identifies the hospital as a 295-bed rehabilitation provider for neurological diseases.",
+      "A public specialist hospital in Stari Slankamen for neurological diseases and post-traumatic conditions, with inpatient rehabilitation.",
+      "Ospedale pubblico specialistico a Stari Slankamen per malattie neurologiche e condizioni post-traumatiche, con riabilitazione degenziale.",
+      "Specijalna bolnica za neurološka oboljenja i posttraumatska stanja",
+      "Stari Slankamen",
+      "Dr Borivoje Gnjatića"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.bolnicaslankamen.co.rs/kontakt?pismo=cir",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Specijalna bolnica za neurološka oboljenja i posttraumatska stanja | Stari Slankamen | neuro | neurološka oboljenja | hospital | bolnica",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "neuro",
+        "neurološka oboljenja"
+      ],
+      "institution": [
+        "hospital",
+        "bolnica"
+      ]
+    },
+    "title": "Kontakt | Stari Slankamen"
+  },
+  {
+    "name": "Novi Pazar Special Hospital for Progressive Muscular and Neuromuscular Diseases",
+    "country": "Serbia",
+    "city": "Novi Pazar",
+    "region": "Raska District",
+    "url": "https://www.eng.rfzo.rs/index.php/healthfacilitiesserbia",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Serbian Health Insurance Fund facility listing; neurological-rehabilitation scope confirmed in the official Serbian Commissioner network listing",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Serbia’s official rehabilitation-network listing identifies this as a 100-bed rehabilitation provider for neurological diseases.",
+      "The official Serbian Health Insurance Fund facility directory identifies the specialist hospital and links its official website.",
+      "A public specialist hospital in Novi Pazar for progressive muscular and neuromuscular diseases with inpatient rehabilitation.",
+      "Ospedale pubblico specialistico di Novi Pazar per malattie muscolari progressive e neuromuscolari con riabilitazione degenziale.",
+      "Specijalna bolnica za progresivne mišićne i neuromišićne bolesti Novi Pazar",
+      "www.npbanja.com",
+      "Novi Pazar"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.eng.rfzo.rs/index.php/healthfacilitiesserbia",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "www.npbanja.com | Novi Pazar | rehab | rehabilitacija | neurolog | neuro | cerebralnu paralizu | cva | hospital",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacija"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "cerebralnu paralizu",
+        "cva"
+      ],
+      "institution": [
+        "hospital"
+      ]
+    },
+    "title": "Healthcare Facilities in Serbia"
+  },
+  {
+    "name": "Special Hospital for Cerebral Palsy and Developmental Neurology",
+    "country": "Serbia",
+    "city": "Belgrade",
+    "region": "Belgrade",
+    "url": "https://sbcprn.com/en/about-us",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | serbia-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Special Hospital for Cerebral Palsy and Developmental Neurology site",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital site states that it is dedicated to habilitating children with cerebral palsy and to early diagnosis of cerebral palsy and neurodevelopmental conditions.",
+      "Serbia’s Ministry of Health identifies it as the Special Hospital for Cerebral Palsy and Developmental Neurology.",
+      "A public specialist Belgrade hospital for habilitation and rehabilitation of children with cerebral palsy and neurodevelopmental conditions.",
+      "Ospedale pubblico specialistico di Belgrado per abilitazione e riabilitazione di bambini con paralisi cerebrale e condizioni del neurosviluppo.",
+      "habilitating children with cerebral palsy",
+      "neurodevelopmental conditions",
+      "Day Hospital"
+    ],
+    "status": 200,
+    "finalUrl": "https://sbcprn.com/en/about-us",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "habilitating children with cerebral palsy | neurodevelopmental conditions | Day Hospital | neurorehabilitation | rehabilitation | rehab | neurolog | neuro | cerebral palsy | hospital | center",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurorehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "cerebral palsy"
+      ],
+      "institution": [
+        "hospital",
+        "center"
+      ]
+    },
+    "title": "About Us | SBCPRN"
   },
   {
     "name": "ADELI Medical Center",
@@ -13194,7 +13259,7 @@
     ],
     "status": 200,
     "finalUrl": "https://hollandenparkhospital.co.uk/",
-    "contentType": "text/html; charset=utf-8",
+    "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
     "evidence": "neurorehabilitation | rehabilitation | Neurological Care | hospital | rehab | neurolog | neuro",
