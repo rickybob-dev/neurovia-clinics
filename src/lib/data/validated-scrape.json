@@ -8313,13 +8313,38 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-krakow",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "rehabilitacji neurologicznej | Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarach mózgu",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "rehabilitacji neurologicznej"
+      ],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarach mózgu",
+        "po udarze",
+        "udarze",
+        "udarach",
+        "tce",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Kraków - rehabilitacja po udarach i wypadkach, ambulatoryjna"
   },
   {
     "name": "Centrum Origin Otwock",
@@ -8345,13 +8370,33 @@
       "Choroba Parkinsona",
       "Wyposażenie i robotyka"
     ],
-    "status": null,
+    "status": 200,
     "finalUrl": "https://www.originpolska.com/placowka/centrum-origin-otwock",
-    "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.originpolska.com",
-    "qualifying": false,
-    "validationTier": "none",
-    "matchedSignals": {}
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Udar mózgu | Urazy rdzenia kręgowego | Urazy mózgowo-czaszkowe | Choroba Parkinsona | Wyposażenie i robotyka | rehab | rehabilitacja | neurolog | neuro | udar mózgu | udarze",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehab",
+        "rehabilitacja"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "udar mózgu",
+        "udarze",
+        "udarach",
+        "rdzenia kręgowego",
+        "urazy mózgowo-czaszkowe",
+        "urazach czaszkowo-mózgowych",
+        "parkinson",
+        "choroba parkinsona"
+      ],
+      "institution": []
+    },
+    "title": "Centrum Origin Otwock - rehabilitacja po udarach i wypadkach, neurologiczna"
   },
   {
     "name": "Constance Care",
@@ -8444,7 +8489,7 @@
     "status": null,
     "finalUrl": "https://repty.pl/",
     "title": "",
-    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: repty.pl",
+    "evidence": "fetch failed; curl fallback failed: curl: (6) Could not resolve host: www.repty.pl",
     "qualifying": false,
     "validationTier": "none",
     "matchedSignals": {}
@@ -8583,6 +8628,300 @@
       ]
     },
     "title": "Reabilitação Neurológica Intensiva em Lisboa | NeuroTriad"
+  },
+  {
+    "name": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii Dr. Nicolae Robănescu",
+    "country": "Romania",
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "url": "https://www.ms.ro/ro/unitati-sanitare/centrul-national-clinic-de-recuperare-neuropsihomotorie-copii-dr-nicolae-robanescu",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | romania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Romanian Ministry of Health listing for the Dr. Nicolae Robănescu national paediatric neuropsychomotor rehabilitation centre",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "The Romanian Ministry of Health describes Dr. Nicolae Robănescu as a unique European-style monospecialist clinical hospital for children’s neuropsychomotor rehabilitation",
+      "Official service listing includes occupational therapy, hydrotherapy and a robotic limb-rehabilitation unit.",
+      "A public national Bucharest clinical centre for paediatric neuropsychomotor rehabilitation, including occupational therapy, hydrotherapy and robotic rehabilitation.",
+      "Centro clinico nazionale pubblico di Bucarest per la riabilitazione neuropsicomotoria pediatrica, con terapia occupazionale, idroterapia e riabilitazione robotizzata.",
+      "recuperare neuropsihomotorie a copilului",
+      "spital clinic tip monospecialitate",
+      "recuperarea robotizata a membrelor",
+      "terapie ocupationala",
+      "hidroterapie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.ms.ro/ro/unitati-sanitare/centrul-national-clinic-de-recuperare-neuropsihomotorie-copii-dr-nicolae-robanescu",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "recuperare neuropsihomotorie a copilului | spital clinic tip monospecialitate | recuperarea robotizata a membrelor | terapie ocupationala | hidroterapie | recuperare neuropsihomotorie | neurolog | neuro | hemipareze | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "recuperare neuropsihomotorie"
+      ],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "hemipareze"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii “Dr. Nicolae Robănescu” - Ministerul Sănătății"
+  },
+  {
+    "name": "Institutul Național de Neurologie și Boli Neurovasculare Compartiment Recuperare Neurologică",
+    "country": "Romania",
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "url": "https://www.innbn-bucuresti.ro/organizare/compartimente/recuperare-neurologica",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | romania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official National Institute of Neurology and Neurovascular Diseases neurological rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official institute page identifies a dedicated neurological rehabilitation department with 20 beds at the National Institute of Neurology and Neurovascular Diseases",
+      "The institute is Romania’s national neurological and neurovascular specialist provider.",
+      "A public national neurological rehabilitation department in Bucharest, with 20 beds within Romania’s specialist neurovascular institute.",
+      "Reparto pubblico nazionale di riabilitazione neurologica a Bucarest, con 20 posti letto nel principale istituto neurovascolare del paese.",
+      "Recuperare neurologică",
+      "Sos. Berceni",
+      "20 paturi",
+      "Medic primar"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.innbn-bucuresti.ro/organizare/compartimente/recuperare-neurologica",
+    "contentType": "text/html",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Recuperare neurologică | Sos. Berceni | 20 paturi | Medic primar | recuperare neurologică | recuperare neurologica | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "recuperare neurologică",
+        "recuperare neurologica"
+      ],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Recuperare neurologica - Institutul National de Neurologie si Boli Neurovasculare Bucuresti"
+  },
+  {
+    "name": "Institutul Național de Recuperare Medicină Fizică și Balneoclimatologie București",
+    "country": "Romania",
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "url": "https://www.ms.gov.ro/ro/unitati-sanitare/institutul-na%C8%9Bional-de-recuperare-medicin%C4%83-fizic%C4%83-%C8%99i-balneoclimatologie-bucure%C8%99ti",
+    "validationUrl": "",
+    "sourceType": "curated-dataset",
+    "discoverySource": "src/lib/data/centers.js",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "The Romanian Ministry of Health states that this national institute provides complex treatment for neurological functional conditions",
+      "Official description identifies rehabilitation and kinesiotherapy aimed at improving functional deficits and return to daily and professional life.",
+      "A public national Bucharest institute for physical medicine and rehabilitation, providing complex treatment for neurological conditions and functional deficits.",
+      "Istituto nazionale pubblico di Bucarest per medicina fisica e riabilitazione, con trattamento complesso delle condizioni neurologiche e dei deficit funzionali."
+    ],
+    "status": null,
+    "finalUrl": "https://www.ms.gov.ro/ro/unitati-sanitare/institutul-na%C8%9Bional-de-recuperare-medicin%C4%83-fizic%C4%83-%C8%99i-balneoclimatologie-bucure%C8%99ti",
+    "title": "",
+    "evidence": "fetch failed; curl fallback failed: how to fix it, please visit the web page mentioned above.",
+    "qualifying": false,
+    "validationTier": "none",
+    "matchedSignals": {}
+  },
+  {
+    "name": "Spitalul Clinic de Recuperare Cluj-Napoca",
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "region": "Cluj County",
+    "url": "https://www.recuperarecluj.ro/",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | romania-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Cluj-Napoca Clinical Rehabilitation Hospital page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page describes multidisciplinary rehabilitation for neurological conditions alongside cardiology, orthopaedics and other specialties",
+      "The official service profile reports 403 beds and roughly 36,000 outpatient patients annually.",
+      "A public clinical rehabilitation hospital in Cluj-Napoca with neurology and multidisciplinary inpatient and outpatient rehabilitation.",
+      "Ospedale clinico pubblico di riabilitazione a Cluj-Napoca con neurologia e riabilitazione multidisciplinare in ricovero e ambulatorio.",
+      "servicii medicale de recuperare",
+      "neurologie",
+      "activitatea complexă multidisciplinară",
+      "403 paturi",
+      "36.000 pacienţi trataţi ambulatoriu"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.recuperarecluj.ro/",
+    "contentType": "text/html; charset=utf-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "servicii medicale de recuperare | neurologie | activitatea complexă multidisciplinară | 403 paturi | 36.000 pacienţi trataţi ambulatoriu | neurolog | neuro | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "Spitalul Clinic de Recuperare Cluj Napoca"
+  },
+  {
+    "name": "Spitalul Clinic SANADOR Recuperare Neurologică",
+    "country": "Romania",
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "url": "https://www.sanador.ro/recuperare-neurologica",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | romania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official SANADOR neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official SANADOR page describes personalised neurorehabilitation for neurological conditions including stroke, muscular dystrophy, cerebral palsy and neurodegenerative disease",
+      "Official programme description identifies a multidisciplinary team including neurology, neurosurgery, physical medicine, psychology, speech therapy and social work.",
+      "A private multidisciplinary neurological rehabilitation service in Bucharest for stroke, neurodegenerative disease and motor or cognitive impairment.",
+      "Servizio privato multidisciplinare di riabilitazione neurologica a Bucarest per ictus, malattie neurodegenerative e disabilità motorie o cognitive.",
+      "Recuperarea neurologică",
+      "neuroreabilitarea",
+      "accidentul vascular cerebral",
+      "boli neurodegenerative",
+      "echipă medicală multidisciplinară",
+      "program personalizat de neuroreabilitare"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.sanador.ro/recuperare-neurologica",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Recuperarea neurologică | neuroreabilitarea | accidentul vascular cerebral | boli neurodegenerative | echipă medicală multidisciplinară | program personalizat de neuroreabilitare | recuperare neurologică | recuperare neurologica | neuroreabilitare | reabilitare neurologică | afecțiuni neurologice | afectiuni neurologice | neurolog | neuro | avc | parkinson | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "recuperare neurologică",
+        "recuperare neurologica",
+        "neuroreabilitare",
+        "reabilitare neurologică",
+        "afecțiuni neurologice",
+        "afectiuni neurologice"
+      ],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "avc",
+        "parkinson",
+        "avc",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": [
+        "clinic"
+      ]
+    },
+    "title": "Recuperarea neurologică – proceduri de neuroreabilitare | SANADOR"
+  },
+  {
+    "name": "Spitalul de Recuperare Neuromotorie Dr. Corneliu Bârsan Dezna",
+    "country": "Romania",
+    "city": "Dezna",
+    "region": "Arad County",
+    "url": "https://www.spitaluldezna.ro/",
+    "validationUrl": "https://www.spitaluldezna.ro/informatii-publice/structura-organizatorica",
+    "sourceType": "curated-dataset | romania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Dr. Corneliu Bârsan Neuromotor Rehabilitation Hospital structure page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page identifies a national-interest hospital dedicated to functional assessment and rehabilitation for neuromotor impairment",
+      "Official organisational structure lists an adult neuromotor rehabilitation section with 75 beds, plus occupational therapy, psychology and speech therapy.",
+      "A Romanian national-interest hospital in Dezna dedicated to adult neuromotor rehabilitation, with occupational therapy, psychology and speech therapy.",
+      "Ospedale pubblico di interesse nazionale a Dezna, dedicato alla riabilitazione neuromotoria degli adulti con terapia occupazionale, psicologia e logopedia.",
+      "recuperare neuromotorie",
+      "Sectie de recuperare neuro-motorie adulti",
+      "75 paturi",
+      "terapie ocupationala",
+      "psihologie si logopedie"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.spitaluldezna.ro/informatii-publice/structura-organizatorica",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "recuperare neuromotorie | Sectie de recuperare neuro-motorie adulti | 75 paturi | terapie ocupationala | psihologie si logopedie | recuperare neuro-motorie | neurolog | neuro",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "recuperare neuro-motorie",
+        "recuperare neuromotorie"
+      ],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro"
+      ],
+      "institution": []
+    },
+    "title": "Structura organizatorica | Spitalul Dezna"
+  },
+  {
+    "name": "Spitalul de Recuperare Sf. Gheorghe Botoșani Compartiment Recuperare Neurologică",
+    "country": "Romania",
+    "city": "Botoșani",
+    "region": "Botoșani County",
+    "url": "https://srbt.ro/compartiment-recuperare-neurologica",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | romania-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Sf. Gheorghe Recovery Hospital Botoșani neurological rehabilitation department page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official hospital page states that its neurological rehabilitation department serves vascular, traumatic, degenerative, inflammatory and postoperative neurological deficits",
+      "The hospital has a named neurological rehabilitation department within its specialist recovery services.",
+      "A public neurological rehabilitation department in Botoșani for vascular, traumatic, degenerative, inflammatory and postoperative neurological deficits.",
+      "Reparto pubblico di riabilitazione neurologica a Botoșani per deficit neurologici vascolari, traumatici, degenerativi, infiammatori e postoperatori.",
+      "Compartimentul de Recuperare Neurologică",
+      "deficite neurologice",
+      "etiologie vasculară",
+      "traumatică",
+      "degenerativă",
+      "postoperatorie"
+    ],
+    "status": 200,
+    "finalUrl": "https://srbt.ro/compartiment-recuperare-neurologica",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Compartimentul de Recuperare Neurologică | deficite neurologice | etiologie vasculară | traumatică | degenerativă | postoperatorie | recuperare neurologică | recuperare neurologica | afecțiuni neurologice | afectiuni neurologice | neurolog | neuro | parkinson",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "recuperare neurologică",
+        "recuperare neurologica",
+        "deficite neurologice",
+        "afecțiuni neurologice",
+        "afectiuni neurologice"
+      ],
+      "rehabilitation": [],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "parkinson"
+      ],
+      "institution": []
+    },
+    "title": "Compartimentul de Recuperare Neurologică - Spitalul de Recuperare \"Sf. Gheorghe\" Botoșani"
   },
   {
     "name": "ADELI Medical Center",
@@ -13215,9 +13554,11 @@
     "contentType": "text/html; charset=UTF-8",
     "validationTier": "strict",
     "qualifying": true,
-    "evidence": "World leader in advanced rehabilitation treatment and research | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | center",
+    "evidence": "World leader in advanced rehabilitation treatment and research | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
     "matchedSignals": {
-      "explicitNeuroRehab": [],
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
       "rehabilitation": [
         "rehabilitation",
         "rehab"
@@ -13228,11 +13569,16 @@
         "stroke",
         "spinal cord",
         "spinal",
-        "brain injury"
+        "polio",
+        "brain injury",
+        "cerebral palsy",
+        "parkinson",
+        "guillain-barre",
+        "guillain-barré"
       ],
       "institution": [
         "hospital",
-        "center",
+        "clinic",
         "rehabilitation hospital"
       ]
     },

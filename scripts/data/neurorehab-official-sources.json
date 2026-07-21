@@ -2365,6 +2365,70 @@
       "sourceType": "luxembourg-second-pass-official-seed",
       "discoverySource": "official Hôpitaux Robert Schuman stroke-care and geriatric neurological rehabilitation brochure",
       "needles": ["rééducation gériatrique/neurologique", "accident vasculaire cérébral", "maladie dégénérative avancée", "programme personnalisé de rééducation fonctionnelle", "kinésithérapeutes", "ergothérapeutes"]
+    },
+    {
+      "country": "Romania",
+      "name": "Institutul Național de Neurologie și Boli Neurovasculare Compartiment Recuperare Neurologică",
+      "city": "Bucharest", "region": "Bucharest",
+      "url": "https://www.innbn-bucuresti.ro/organizare/compartimente/recuperare-neurologica",
+      "sourceType": "romania-first-pass-official-seed",
+      "discoverySource": "official National Institute of Neurology and Neurovascular Diseases neurological rehabilitation department page",
+      "needles": ["Recuperare neurologică", "Sos. Berceni", "20 paturi", "Medic primar"]
+    },
+    {
+      "country": "Romania",
+      "name": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii Dr. Nicolae Robănescu",
+      "city": "Bucharest", "region": "Bucharest",
+      "url": "https://www.ms.ro/ro/unitati-sanitare/centrul-national-clinic-de-recuperare-neuropsihomotorie-copii-dr-nicolae-robanescu/",
+      "sourceType": "romania-first-pass-official-seed",
+      "discoverySource": "official Romanian Ministry of Health listing for the Dr. Nicolae Robănescu national paediatric neuropsychomotor rehabilitation centre",
+      "needles": ["recuperare neuropsihomotorie a copilului", "spital clinic tip monospecialitate", "recuperarea robotizata a membrelor", "terapie ocupationala", "hidroterapie"]
+    },
+    {
+      "country": "Romania",
+      "name": "Spitalul Clinic de Recuperare Cluj-Napoca",
+      "city": "Cluj-Napoca", "region": "Cluj County",
+      "url": "https://www.recuperarecluj.ro/",
+      "sourceType": "romania-first-pass-official-seed",
+      "discoverySource": "official Cluj-Napoca Clinical Rehabilitation Hospital page",
+      "needles": ["servicii medicale de recuperare", "neurologie", "activitatea complexă multidisciplinară", "403 paturi", "36.000 pacienţi trataţi ambulatoriu"]
+    },
+    {
+      "country": "Romania",
+      "name": "Institutul Național de Recuperare Medicină Fizică și Balneoclimatologie București",
+      "city": "Bucharest", "region": "Bucharest",
+      "url": "https://ms.gov.ro/ro/unitati-sanitare/institutul-na%C8%9Bional-de-recuperare-medicin%C4%83-fizic%C4%83-%C8%99i-balneoclimatologie-bucure%C8%99ti/",
+      "sourceType": "romania-first-pass-official-seed",
+      "discoverySource": "official Romanian Ministry of Health listing for the National Institute of Physical Medicine and Rehabilitation",
+      "needles": ["tratamentul complex", "afecţiuni locomotorii", "neurologice", "deficitelor funcţionale", "asistenţă medicală de recuperare"]
+    },
+    {
+      "country": "Romania",
+      "name": "Spitalul de Recuperare Sf. Gheorghe Botoșani Compartiment Recuperare Neurologică",
+      "city": "Botoșani", "region": "Botoșani County",
+      "url": "https://srbt.ro/compartiment-recuperare-neurologica/",
+      "sourceType": "romania-second-pass-official-seed",
+      "discoverySource": "official Sf. Gheorghe Recovery Hospital Botoșani neurological rehabilitation department page",
+      "needles": ["Compartimentul de Recuperare Neurologică", "deficite neurologice", "etiologie vasculară", "traumatică", "degenerativă", "postoperatorie"]
+    },
+    {
+      "country": "Romania",
+      "name": "Spitalul de Recuperare Neuromotorie Dr. Corneliu Bârsan Dezna",
+      "city": "Dezna", "region": "Arad County",
+      "url": "https://www.spitaluldezna.ro/",
+      "validationUrl": "https://www.spitaluldezna.ro/informatii-publice/structura-organizatorica/",
+      "sourceType": "romania-second-pass-official-seed",
+      "discoverySource": "official Dr. Corneliu Bârsan Neuromotor Rehabilitation Hospital structure page",
+      "needles": ["recuperare neuromotorie", "Sectie de recuperare neuro-motorie adulti", "75 paturi", "terapie ocupationala", "psihologie si logopedie"]
+    },
+    {
+      "country": "Romania",
+      "name": "Spitalul Clinic SANADOR Recuperare Neurologică",
+      "city": "Bucharest", "region": "Bucharest",
+      "url": "https://www.sanador.ro/recuperare-neurologica",
+      "sourceType": "romania-second-pass-official-seed",
+      "discoverySource": "official SANADOR neurological rehabilitation page",
+      "needles": ["Recuperarea neurologică", "neuroreabilitarea", "accidentul vascular cerebral", "boli neurodegenerative", "echipă medicală multidisciplinară", "program personalizat de neuroreabilitare"]
     }
   ],
   "searchResults": [],

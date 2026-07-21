@@ -4967,5 +4967,89 @@ export const centers = [
       it: 'Servizio ospedaliero pubblico a Lussemburgo per riabilitazione geriatrica e neurologica, incluso post-ictus e malattie degenerative avanzate.',
       en: 'A public Luxembourg hospital service providing geriatric and neurological rehabilitation, including after stroke and advanced degenerative disease.'
     }
+  },
+  {
+    id: 'innbn-neurological-rehabilitation-bucharest',
+    name: 'Institutul Național de Neurologie și Boli Neurovasculare Compartiment Recuperare Neurologică',
+    country: 'Romania', city: 'Bucharest', region: 'Bucharest', lat: 44.3937, lng: 26.1203,
+    address: 'Șoseaua Berceni 10-12, Sector 4, București', phone: '+40 21 334 3004',
+    url: 'https://www.innbn-bucuresti.ro/organizare/compartimente/recuperare-neurologica',
+    conditions: ['stroke', 'tbi', 'spinal', 'cognitive', 'neuromotor'], technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Neurological rehabilitation', 'Neurology', 'Neurovascular medicine'], completeness: 86,
+    researchHighlights: ['Official institute page identifies a dedicated neurological rehabilitation department with 20 beds at the National Institute of Neurology and Neurovascular Diseases', 'The institute is Romania’s national neurological and neurovascular specialist provider.'],
+    features: ['national-specialist-institute', 'neurological-rehabilitation', 'inpatient-rehab'],
+    description: { it: 'Reparto pubblico nazionale di riabilitazione neurologica a Bucarest, con 20 posti letto nel principale istituto neurovascolare del paese.', en: 'A public national neurological rehabilitation department in Bucharest, with 20 beds within Romania’s specialist neurovascular institute.' }
+  },
+  {
+    id: 'nicolae-robanescu-pediatric-neurorehabilitation',
+    name: 'Centrul Național Clinic de Recuperare Neuropsihomotorie Copii Dr. Nicolae Robănescu',
+    country: 'Romania', city: 'Bucharest', region: 'Bucharest', lat: 44.3939, lng: 26.1086,
+    address: 'Strada Dumitru Minca 44, Sector 4, București', phone: 'Unknown',
+    url: 'https://www.ms.ro/ro/unitati-sanitare/centrul-national-clinic-de-recuperare-neuropsihomotorie-copii-dr-nicolae-robanescu/',
+    conditions: ['pediatric', 'neuromotor', 'cognitive'], technologies: ['robotics'], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Paediatric neuropsychomotor rehabilitation', 'Physical medicine', 'Occupational therapy', 'Hydrotherapy', 'Robotic limb rehabilitation'], completeness: 89,
+    researchHighlights: ['The Romanian Ministry of Health describes Dr. Nicolae Robănescu as a unique European-style monospecialist clinical hospital for children’s neuropsychomotor rehabilitation', 'Official service listing includes occupational therapy, hydrotherapy and a robotic limb-rehabilitation unit.'],
+    features: ['national-pediatric-centre', 'pediatric-neurorehab', 'robotic-rehabilitation'],
+    description: { it: 'Centro clinico nazionale pubblico di Bucarest per la riabilitazione neuropsicomotoria pediatrica, con terapia occupazionale, idroterapia e riabilitazione robotizzata.', en: 'A public national Bucharest clinical centre for paediatric neuropsychomotor rehabilitation, including occupational therapy, hydrotherapy and robotic rehabilitation.' }
+  },
+  {
+    id: 'cluj-napoca-clinical-rehabilitation-hospital',
+    name: 'Spitalul Clinic de Recuperare Cluj-Napoca',
+    country: 'Romania', city: 'Cluj-Napoca', region: 'Cluj County', lat: 46.7584, lng: 23.5846,
+    address: 'Strada Viilor 46-50, Cluj-Napoca 400347', phone: '+40 264 207021',
+    url: 'https://www.recuperarecluj.ro/',
+    conditions: ['stroke', 'neuromotor', 'cognitive'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurology', 'Medical rehabilitation', 'Physical medicine', 'Multidisciplinary rehabilitation'], completeness: 87,
+    researchHighlights: ['Official hospital page describes multidisciplinary rehabilitation for neurological conditions alongside cardiology, orthopaedics and other specialties', 'The official service profile reports 403 beds and roughly 36,000 outpatient patients annually.'],
+    features: ['clinical-rehabilitation-hospital', 'neurological-rehabilitation', 'inpatient-rehab'],
+    description: { it: 'Ospedale clinico pubblico di riabilitazione a Cluj-Napoca con neurologia e riabilitazione multidisciplinare in ricovero e ambulatorio.', en: 'A public clinical rehabilitation hospital in Cluj-Napoca with neurology and multidisciplinary inpatient and outpatient rehabilitation.' }
+  },
+  {
+    id: 'national-institute-physical-medicine-rehabilitation-bucharest',
+    name: 'Institutul Național de Recuperare Medicină Fizică și Balneoclimatologie București',
+    country: 'Romania', city: 'Bucharest', region: 'Bucharest', lat: 44.4468, lng: 26.0862,
+    address: 'Strada Cristian Popișteanu 1-3, Sector 1, București', phone: '+40 21 312 2212',
+    url: 'https://www.ms.gov.ro/ro/unitati-sanitare/institutul-na%C8%9Bional-de-recuperare-medicin%C4%83-fizic%C4%83-%C8%99i-balneoclimatologie-bucure%C8%99ti/',
+    conditions: ['neuromotor', 'cognitive'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Physical medicine and rehabilitation', 'Neurological rehabilitation', 'Kinesiotherapy', 'Functional rehabilitation'], completeness: 82,
+    researchHighlights: ['The Romanian Ministry of Health states that this national institute provides complex treatment for neurological functional conditions', 'Official description identifies rehabilitation and kinesiotherapy aimed at improving functional deficits and return to daily and professional life.'],
+    features: ['national-rehabilitation-institute', 'neurological-rehabilitation', 'functional-recovery'],
+    description: { it: 'Istituto nazionale pubblico di Bucarest per medicina fisica e riabilitazione, con trattamento complesso delle condizioni neurologiche e dei deficit funzionali.', en: 'A public national Bucharest institute for physical medicine and rehabilitation, providing complex treatment for neurological conditions and functional deficits.' }
+  },
+  {
+    id: 'sf-gheorghe-botosani-neurological-rehabilitation',
+    name: 'Spitalul de Recuperare Sf. Gheorghe Botoșani Compartiment Recuperare Neurologică',
+    country: 'Romania', city: 'Botoșani', region: 'Botoșani County', lat: 47.7474, lng: 26.6663,
+    address: 'Calea Națională 2, Botoșani', phone: '+40 231 512822',
+    url: 'https://srbt.ro/compartiment-recuperare-neurologica/',
+    conditions: ['stroke', 'tbi', 'parkinson', 'neuromotor', 'cognitive'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['public'],
+    disciplines: ['Neurological rehabilitation', 'Neurology', 'Medical rehabilitation'], completeness: 86,
+    researchHighlights: ['Official hospital page states that its neurological rehabilitation department serves vascular, traumatic, degenerative, inflammatory and postoperative neurological deficits', 'The hospital has a named neurological rehabilitation department within its specialist recovery services.'],
+    features: ['neurological-rehabilitation', 'stroke-rehab', 'brain-injury'],
+    description: { it: 'Reparto pubblico di riabilitazione neurologica a Botoșani per deficit neurologici vascolari, traumatici, degenerativi, infiammatori e postoperatori.', en: 'A public neurological rehabilitation department in Botoșani for vascular, traumatic, degenerative, inflammatory and postoperative neurological deficits.' }
+  },
+  {
+    id: 'corneliu-barsan-neuromotor-rehabilitation-dezna',
+    name: 'Spitalul de Recuperare Neuromotorie Dr. Corneliu Bârsan Dezna',
+    country: 'Romania', city: 'Dezna', region: 'Arad County', lat: 46.3966, lng: 22.2519,
+    address: 'Strada Speranței 5, Dezna, Arad 317110', phone: '+40 257 312617',
+    url: 'https://www.spitaluldezna.ro/',
+    conditions: ['neuromotor', 'cognitive'], technologies: [], modes: ['inpatient'], access: ['public'],
+    disciplines: ['Adult neuromotor rehabilitation', 'Neurology', 'Occupational therapy', 'Psychology', 'Speech therapy'], completeness: 91,
+    researchHighlights: ['Official hospital page identifies a national-interest hospital dedicated to functional assessment and rehabilitation for neuromotor impairment', 'Official organisational structure lists an adult neuromotor rehabilitation section with 75 beds, plus occupational therapy, psychology and speech therapy.'],
+    features: ['national-interest-hospital', 'neuromotor-rehabilitation', 'inpatient-rehab'],
+    description: { it: 'Ospedale pubblico di interesse nazionale a Dezna, dedicato alla riabilitazione neuromotoria degli adulti con terapia occupazionale, psicologia e logopedia.', en: 'A Romanian national-interest hospital in Dezna dedicated to adult neuromotor rehabilitation, with occupational therapy, psychology and speech therapy.' }
+  },
+  {
+    id: 'sanador-neurological-rehabilitation-bucharest',
+    name: 'Spitalul Clinic SANADOR Recuperare Neurologică',
+    country: 'Romania', city: 'Bucharest', region: 'Bucharest', lat: 44.4680, lng: 26.0723,
+    address: 'Calea Griviței 324, Sector 1, București', phone: '+40 21 9699',
+    url: 'https://www.sanador.ro/recuperare-neurologica',
+    conditions: ['stroke', 'tbi', 'neuromuscular', 'cognitive', 'neuromotor'], technologies: [], modes: ['inpatient', 'outpatient'], access: ['private', 'insurance'],
+    disciplines: ['Neurological rehabilitation', 'Neurology', 'Neurosurgery', 'Physical medicine and rehabilitation', 'Speech therapy'], completeness: 88,
+    researchHighlights: ['Official SANADOR page describes personalised neurorehabilitation for neurological conditions including stroke, muscular dystrophy, cerebral palsy and neurodegenerative disease', 'Official programme description identifies a multidisciplinary team including neurology, neurosurgery, physical medicine, psychology, speech therapy and social work.'],
+    features: ['private-neurorehab', 'stroke-rehab', 'multidisciplinary-rehab'],
+    description: { it: 'Servizio privato multidisciplinare di riabilitazione neurologica a Bucarest per ictus, malattie neurodegenerative e disabilità motorie o cognitive.', en: 'A private multidisciplinary neurological rehabilitation service in Bucharest for stroke, neurodegenerative disease and motor or cognitive impairment.' }
   }
 ];
