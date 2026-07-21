@@ -1485,6 +1485,105 @@
     "title": "Naslovnica - Klinički bolnički centar Zagreb"
   },
   {
+    "name": "MedInstitute Neurological Rehabilitation",
+    "country": "Cyprus",
+    "city": "Nicosia",
+    "region": "Nicosia District",
+    "url": "https://medinstitute.com.cy/department/neurological-rehabilitation",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | cyprus-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official MedInstitute neurological rehabilitation programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official MedInstitute programme page describes neurological rehabilitation for illness, injury and disorders of the nervous system, including spinal cord injury.",
+      "A private Nicosia neurological rehabilitation programme for illness, injury and disorders of the nervous system.",
+      "Programma privato di riabilitazione neurologica a Nicosia per malattie, lesioni e disturbi del sistema nervoso.",
+      "Neurological rehabilitation",
+      "nervous system",
+      "Spinal Cord Injury"
+    ],
+    "status": 200,
+    "finalUrl": "https://medinstitute.com.cy/department/neurological-rehabilitation",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "Neurological rehabilitation | nervous system | Spinal Cord Injury | neurological rehabilitation | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord",
+    "matchedSignals": {
+      "explicitNeuroRehab": [
+        "neurological rehabilitation"
+      ],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "stroke",
+        "spinal cord",
+        "spinal",
+        "brain injury",
+        "multiple sclerosis",
+        "parkinson",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": []
+    },
+    "title": "Neurological Rehabilitation - medinstitute"
+  },
+  {
+    "name": "Nicosia General Hospital Spinal Cord Rehabilitation Center KANOPA",
+    "country": "Cyprus",
+    "city": "Nicosia",
+    "region": "Nicosia District",
+    "url": "https://www.shso.org.cy/en/clinic/kentro-notiaiomyelikon-pathiseon",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | cyprus-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Cyprus State Health Services spinal cord rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official State Health Services page identifies KANOPA as Cyprus’s only organised specialist centre for spinal cord injury and disease rehabilitation.",
+      "Official programme includes paraplegia, tetraplegia, Guillain-Barre syndrome and ICU-acquired neuromyopathy.",
+      "Cyprus’s public specialist centre in Nicosia for spinal cord rehabilitation, paraplegia, tetraplegia and Guillain-Barre syndrome.",
+      "Centro pubblico specialistico di Nicosia per riabilitazione delle lesioni midollari, paraplegia, tetraplegia e Guillain-Barre.",
+      "only specialized and organized center in Cyprus",
+      "spinal cord injuries or diseases",
+      "Guillain-Barré syndrome",
+      "comprehensive rehabilitation program",
+      "multidisciplinary team"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.shso.org.cy/en/clinic/kentro-notiaiomyelikon-pathiseon",
+    "contentType": "text/html; charset=UTF-8",
+    "validationTier": "strict",
+    "qualifying": true,
+    "evidence": "only specialized and organized center in Cyprus | spinal cord injuries or diseases | Guillain-Barré syndrome | comprehensive rehabilitation program | multidisciplinary team | rehabilitation | rehab | neurolog | neuro | spinal cord | spinal | hospital | clinic",
+    "matchedSignals": {
+      "explicitNeuroRehab": [],
+      "rehabilitation": [
+        "rehabilitation",
+        "rehab"
+      ],
+      "neurological": [
+        "neurolog",
+        "neuro",
+        "spinal cord",
+        "spinal",
+        "guillain-barre",
+        "guillain-barré"
+      ],
+      "institution": [
+        "hospital",
+        "clinic",
+        "center"
+      ]
+    },
+    "title": "Spinal Cord Rehabilitation Center | Οργανισμός Κρατικών Υπηρεσιών Υγείας"
+  },
+  {
     "name": "Hamzova odborná léčebna pro děti a dospělé",
     "country": "Czech Republic",
     "city": "Luže",
@@ -5779,36 +5878,22 @@
       "Multiple Sclerosis",
       "Peripheral Nervous Diseases"
     ],
-    "status": 200,
+    "status": 500,
     "finalUrl": "https://eka-hosp.gr/en/service/2nd-prm-clinic",
     "contentType": "text/html; charset=UTF-8",
-    "validationTier": "strict",
-    "qualifying": true,
-    "evidence": "Traumatic Brain Injury | Vascular Stroke | Spinal Cord Injury | Multiple Sclerosis | Peripheral Nervous Diseases | rehabilitation | rehab | neurolog | neuro | stroke | spinal cord | hospital | clinic",
+    "validationTier": "none",
+    "qualifying": false,
+    "evidence": "clinic | centre",
     "matchedSignals": {
       "explicitNeuroRehab": [],
-      "rehabilitation": [
-        "rehabilitation",
-        "rehab"
-      ],
-      "neurological": [
-        "neurolog",
-        "neuro",
-        "stroke",
-        "spinal cord",
-        "spinal",
-        "brain injury",
-        "cerebral palsy",
-        "multiple sclerosis"
-      ],
+      "rehabilitation": [],
+      "neurological": [],
       "institution": [
-        "hospital",
         "clinic",
-        "centre",
-        "center"
+        "centre"
       ]
     },
-    "title": "2nd PRM CLINIC &#8211; Εθνικό Κέντρο Αποκατάστασης"
+    "title": "Σφάλμα βάσης δεδομένων"
   },
   {
     "name": "National Center for Spinal Disorders",

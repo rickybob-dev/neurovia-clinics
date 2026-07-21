@@ -709,6 +709,49 @@
     ]
   },
   {
+    "name": "MedInstitute Neurological Rehabilitation",
+    "country": "Cyprus",
+    "city": "Nicosia",
+    "region": "Nicosia District",
+    "url": "https://medinstitute.com.cy/department/neurological-rehabilitation",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | cyprus-second-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official MedInstitute neurological rehabilitation programme page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official MedInstitute programme page describes neurological rehabilitation for illness, injury and disorders of the nervous system, including spinal cord injury.",
+      "A private Nicosia neurological rehabilitation programme for illness, injury and disorders of the nervous system.",
+      "Programma privato di riabilitazione neurologica a Nicosia per malattie, lesioni e disturbi del sistema nervoso.",
+      "Neurological rehabilitation",
+      "nervous system",
+      "Spinal Cord Injury"
+    ]
+  },
+  {
+    "name": "Nicosia General Hospital Spinal Cord Rehabilitation Center KANOPA",
+    "country": "Cyprus",
+    "city": "Nicosia",
+    "region": "Nicosia District",
+    "url": "https://www.shso.org.cy/en/clinic/kentro-notiaiomyelikon-pathiseon",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | cyprus-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Cyprus State Health Services spinal cord rehabilitation centre page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official State Health Services page identifies KANOPA as Cyprus’s only organised specialist centre for spinal cord injury and disease rehabilitation.",
+      "Official programme includes paraplegia, tetraplegia, Guillain-Barre syndrome and ICU-acquired neuromyopathy.",
+      "Cyprus’s public specialist centre in Nicosia for spinal cord rehabilitation, paraplegia, tetraplegia and Guillain-Barre syndrome.",
+      "Centro pubblico specialistico di Nicosia per riabilitazione delle lesioni midollari, paraplegia, tetraplegia e Guillain-Barre.",
+      "only specialized and organized center in Cyprus",
+      "spinal cord injuries or diseases",
+      "Guillain-Barré syndrome",
+      "comprehensive rehabilitation program",
+      "multidisciplinary team"
+    ]
+  },
+  {
     "name": "Hamzova odborná léčebna pro děti a dospělé",
     "country": "Czech Republic",
     "city": "Luže",
