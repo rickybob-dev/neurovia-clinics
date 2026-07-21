@@ -3881,6 +3881,51 @@
     ]
   },
   {
+    "name": "Moldova Ministry of Health Clinical Hospital Neurological Rehabilitation",
+    "country": "Moldova",
+    "city": "Chisinau",
+    "region": "Chisinau Municipality",
+    "url": "https://scms.md/servicii/servicii-medicale/reabilitarea/reabilitarea-neurologica.html",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | moldova-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Moldova Ministry of Health Clinical Hospital neurological rehabilitation page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Ministry of Health Clinical Hospital page describes neurological rehabilitation for stroke, brain and spinal trauma, post-neurosurgical patients, neuromuscular disease, Parkinson disease and multiple sclerosis.",
+      "The programme is delivered by a multidisciplinary team of rehabilitation physicians, neurologists, physiotherapists, occupational therapists, speech therapists and psychologists.",
+      "A national public hospital in Chisinau with a multidisciplinary neurological rehabilitation programme for stroke, brain and spinal trauma, MS, Parkinson disease and neuromuscular disease.",
+      "Ospedale pubblico nazionale di Chisinau con programma multidisciplinare di riabilitazione neurologica per ictus, traumi cerebrali e midollari, SM, Parkinson e malattie neuromuscolari.",
+      "Reabilitarea neurologică",
+      "accidente vasculare cerebrale și medulare",
+      "traumatisme cranio-cerebrale și vertebro-medulare",
+      "Parkinson sau scleroza multiplă",
+      "echipei multidisciplinare"
+    ]
+  },
+  {
+    "name": "Sfanta Treime Municipal Clinical Hospital Neurorecuperare Unit",
+    "country": "Moldova",
+    "city": "Chisinau",
+    "region": "Chisinau Municipality",
+    "url": "https://treime.md/departments/neurorecuperare",
+    "validationUrl": "",
+    "sourceType": "curated-dataset | moldova-first-pass-official-seed",
+    "discoverySource": "src/lib/data/centers.js | official Sfanta Treime Neurorecuperare section page",
+    "reviewStatus": "known",
+    "knownInDataset": true,
+    "needles": [
+      "Official Sfanta Treime hospital page identifies a dedicated Neurorecuperare section operating since 2002.",
+      "The section focuses on restoring impaired functions and developing compensatory mechanisms to support independence and quality of life.",
+      "A public hospital neurorecovery unit in Chisinau focused on restoring impaired functions and independence.",
+      "Unita pubblica ospedaliera di neurorecupero a Chisinau dedicata al ripristino delle funzioni compromesse e dell indipendenza.",
+      "Secția Neurorecuperare",
+      "restabilirea funcțiilor lezate",
+      "independenței",
+      "calității mai bune a vieții"
+    ]
+  },
+  {
     "name": "Dr Nenezic Neurological Rehabilitation",
     "country": "Montenegro",
     "city": "Podgorica",
